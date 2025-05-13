@@ -23654,8 +23654,11 @@
                                     Tiefenschärfe zu beantworten.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/genreRecognition
+                                    https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23747,8 +23750,10 @@
                                     151-160). Bloomsbury Academic.</bibl>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23792,8 +23797,12 @@
                                     infrastructure.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/publishing
+                                    https://vocabs.dariah.eu/tadirah/linkedOpenData
+                                    https://vocabs.dariah.eu/tadirah/dataCleansing"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23836,8 +23845,12 @@
                                     overview of future activities and objectives.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#romance-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/enriching
+                                    https://vocabs.dariah.eu/tadirah/georeferencing"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23884,8 +23897,12 @@
                                     nachhaltig verändern können.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#library-information #computer-science #art-history #history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/imaging
+                                    https://vocabs.dariah.eu/tadirah/georeferencing
+                                    https://vocabs.dariah.eu/tadirah/gathering"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23925,8 +23942,10 @@
                                 digitalen Suchräumen thematisiert und in den Zusammenhang mit
                                 Datenmodellierung und Datenstandards gestellt.</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/finding"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24024,8 +24043,11 @@
                                     des 17. Jahrhunderts vorgestellt.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#history #geography #computer-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/georeferencing
+                                    https://vocabs.dariah.eu/tadirah/editing"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -24071,8 +24093,11 @@
                                     der digitalen Welt.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#philosophy"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion
+                                    https://vocabs.dariah.eu/tadirah/collaborating"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -24107,8 +24132,10 @@
                                     geeigneten Annotationsworkflows.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/annotating"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24157,8 +24184,10 @@
                                     die Lupe genommen.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/comparing
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24200,8 +24229,11 @@
                                     development and depiction of emotions in literary works.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/sentimentAnalysis
+                                    https://vocabs.dariah.eu/tadirah/annotating"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
