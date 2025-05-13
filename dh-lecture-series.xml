@@ -23148,8 +23148,11 @@
                                     Forschungsergebnisse qualifiziert werden kann.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting
+                                    https://vocabs.dariah.eu/tadirah/theorizing"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23190,8 +23193,10 @@
                                 praxisorientierten und interdisziplinären Ansatz zur Förderung von
                                 Data Literacy in der Bibelwissenschaft zu entwickeln.</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#theology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/teaching"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23220,8 +23225,12 @@
                                 ausgewachsenen Infrastrukturen in den digitalen Ökosystemen der
                                 Gegenwart.</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/collecting
+                                    https://vocabs.dariah.eu/tadirah/modeling
+                                    https://vocabs.dariah.eu/tadirah/enriching"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23254,8 +23263,11 @@
                                 Transkriptionen und eine erste Analyse von Hinzufügungen,
                                 Auslassungen und Variationen von Namen.</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#theology #computer-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/transcribing
+                                    https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23307,8 +23319,11 @@
                                 computergestützte Methoden zur Operationalisierung editorischer
                                 Entscheidungen.</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/modeling"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23352,8 +23367,11 @@
                                 altgermanistischen Textedition im digitalen Zeitalter
                                 einladen.</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/expressingOpinion"
+                                />
                             <note type="realization">
                                 <term type="speech">cancelled</term>
                             </note>
@@ -23387,8 +23405,11 @@
                                     andererseits Funktionen vorgeführt.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#theology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/expressingOpinion"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23426,8 +23447,11 @@
                                     Ergebnisse zu Nutzen bzw. zu bewältigen galt.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#education-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/teaching
+                                    https://vocabs.dariah.eu/tadirah/collecting"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23467,8 +23491,11 @@
                                     jetzt schon zeigen, vor.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#computer-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/programming
+                                    https://vocabs.dariah.eu/tadirah/enriching"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23507,8 +23534,11 @@
                                     DARIAH vor.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion
+                                    https://vocabs.dariah.eu/tadirah/collaborating"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23562,8 +23592,10 @@
                                     https://doi.org/10.13140/RG.2.1.1922.5044.</bibl>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/teaching"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
