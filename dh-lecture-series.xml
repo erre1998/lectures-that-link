@@ -40705,8 +40705,10 @@
                                     world.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">in person</term>
@@ -40755,8 +40757,10 @@
                                     shared reality integrates social bonds.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#philosophy"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/theorizing"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">in person</term>
@@ -40793,8 +40797,10 @@
                                     new openings of the infinite.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#philosophy"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/theorizing"
+                                />
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">in person</term>
