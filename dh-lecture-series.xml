@@ -34718,8 +34718,10 @@
                                     the answers.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/stylisticAnalysis"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -34763,8 +34765,11 @@
                                     are defined, and a spheric notion of gender is introduced.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis
+                                    https://vocabs.dariah.eu/tadirah/modeling"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -34795,8 +34800,11 @@
                                     some ways to address those challenges.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#museology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting
+                                    https://vocabs.dariah.eu/tadirah/theorizing"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -34851,8 +34859,11 @@
                                     literary characters.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/contextualizing
+                                    https://vocabs.dariah.eu/tadirah/stylisticAnalysis"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -34901,8 +34912,10 @@
                                     visible.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -34957,8 +34970,10 @@
                                     but lessons can still be learnt.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -34990,8 +35005,10 @@
                                     Theaterwissenschaften bieten können</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35020,8 +35037,11 @@
                                     relevanter Textstellen bis zur automatisierten Annotation</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/collaborating
+                                    https://vocabs.dariah.eu/tadirah/exploration"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35048,8 +35068,11 @@
                                     structural and thematic elements of this popular genre.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis
+                                    https://vocabs.dariah.eu/tadirah/structuralAnalysis"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35098,8 +35121,11 @@
                                     otherwise.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/genreRecognition
+                                    https://vocabs.dariah.eu/tadirah/networkAnalysis"
+                                />
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
