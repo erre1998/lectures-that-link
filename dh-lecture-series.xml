@@ -13876,7 +13876,11 @@
                                     systems even unable to pronounce words correctly.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/transcribing
+                                    https://vocabs.dariah.eu/tadirah/annotating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -13915,7 +13919,11 @@
                                     practices and specific criminal events are targeted.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#political-science #social-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing
+                                    https://vocabs.dariah.eu/tadirah/gathering"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -13961,7 +13969,12 @@
                                     context.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#museology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting
+                                    https://vocabs.dariah.eu/tadirah/disseminating
+                                    https://vocabs.dariah.eu/tadirah/capturing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14000,7 +14013,10 @@
                                     sharing knowledge and values.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14047,7 +14063,10 @@
                                     the sixteenth century.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#art-history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/imaging"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14121,7 +14140,10 @@
                                     di ricerca e di public history - i nuovi media digitali.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/disseminating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
