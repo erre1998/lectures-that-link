@@ -13639,7 +13639,10 @@
                                     Library on their collection of detached bindings.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#library-information"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -13679,7 +13682,10 @@
                                     complex ecosystem. And make it run.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/contextualizing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -13719,7 +13725,11 @@
                                     practices and specific criminal events are targeted.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#political-science #social-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing
+                                    https://vocabs.dariah.eu/tadirah/gathering"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">cancelled</term>
@@ -13757,7 +13767,10 @@
                                     sharing knowledge and values.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -13810,7 +13823,10 @@
                                     editing solution, codenamed Cadmus.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
