@@ -15289,7 +15289,7 @@
                                     more horizontal collective explorations, where augmented
                                     reality, network systems, and technologically advanced
                                     psychogeographic memories enter the commercial domain and then
-                                    flow back into creativity.</p>
+                                    flow back into creativity.</p></note>
                                 <note type="keywords">
                                     <term type="discipline" corresp="#game-studies #media-studies"/>
                                     <term type="topic"
@@ -15933,7 +15933,10 @@
                                     digital tools.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -15986,7 +15989,10 @@
                                     miniature open vessels, mostly cups.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#archaeology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/capturing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -16034,7 +16040,10 @@
                                     research.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/collaborating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -16072,7 +16081,11 @@
                                     deeper connection between heritage and contemporary society.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#archeology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/imaging
+                                    https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -16130,7 +16143,10 @@
                                     unfold.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#art-history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/theorizing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
