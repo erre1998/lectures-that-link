@@ -16197,7 +16197,11 @@
                                     enduring value of culture.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#museology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting
+                                    https://vocabs.dariah.eu/tadirah/linkedOpenData"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -16240,7 +16244,10 @@
                                     early modern Republic of Venice.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/geoReferencing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -16286,7 +16293,10 @@
                                     Humanities” that is planned to be part of the publication.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -16327,7 +16337,10 @@
                                     genres of electronic literature.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
