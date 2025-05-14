@@ -38636,7 +38636,11 @@
                                     Forschung und Lehre nachzugehen.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies #history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/annotating
+                                    https://vocabs.dariah.eu/tadirah/visualAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38667,7 +38671,11 @@
                                     Edition und Auswertung thematisiert.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/gathering"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38708,7 +38716,12 @@
                                     hybriden Edition gerecht werden muss.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#german-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/annotating
+                                    https://vocabs.dariah.eu/tadirah/modeling"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38751,7 +38764,10 @@
                                     digitalen Jeremias Gotthelf-Edition gezeigt werden.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#german-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/designing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38791,7 +38807,12 @@
                                     Nachhaltigkeit der Daten garantieren sollen.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#german-studies #literary-studies #history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/gathering
+                                    https:vocabs.dariah.eu/tadirah/disseminating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38848,7 +38869,11 @@
                                     in der Frage nach den Seiten eines Buches.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#library-information"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/capturing
+                                    https://vocabs.dariah.eu/tadirah/converting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38887,7 +38912,11 @@
                                     Publishers (u.a. TEI Processing Model) thematisiert.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#german-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/encoding"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38928,7 +38957,12 @@
                                     oder fehlenden Datumsangaben runden die Funktionspalette ab.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/extracting
+                                    https://vocabs.dariah.eu/tadirah/annotating
+                                    https://vocabs.dariah.eu/tadirah/editing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38964,7 +38998,12 @@
                                     (editions-)technischen Umsetzungen hierfür.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#german-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/designing
+                                    https://vocabs.dariah.eu/tadirah/creating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
