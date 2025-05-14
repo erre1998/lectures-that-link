@@ -22412,6 +22412,8 @@
                                     https://vocabs.dariah.eu/tadirah/visualAnalysis
                                     https://vocabs.dariah.eu/tadirah/transcribing"
                                 />
+                                
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -22467,6 +22469,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -22510,6 +22513,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/network-analysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -22555,6 +22559,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis
                                     https://vocabs.dariah.eu/tadirah/stylisticAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -22598,6 +22603,7 @@
                                     https://vocabs.dariah.eu/tadirah/annotating
                                     https://vocabs.dariah.eu/tadirah/modeling"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -22637,6 +22643,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/editing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -22685,6 +22692,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/programming
                                     https://vocabs.dariah.eu/tadirah/dataRecognition"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -22737,6 +22745,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/editing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23339,6 +23348,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/commenting
                                     https://vocabs.dariah.eu/tadirah/theorizing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23383,6 +23393,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/teaching"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23417,6 +23428,8 @@
                                     https://vocabs.dariah.eu/tadirah/modeling
                                     https://vocabs.dariah.eu/tadirah/enriching"
                                 />
+                            </note>
+                           
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23454,6 +23467,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/transcribing
                                     https://vocabs.dariah.eu/tadirah/analyzing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23510,6 +23524,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/editing
                                     https://vocabs.dariah.eu/tadirah/modeling"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23558,6 +23573,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/editing
                                     https://vocabs.dariah.eu/tadirah/expressingOpinion"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">cancelled</term>
                             </note>
@@ -23596,6 +23612,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/editing
                                     https://vocabs.dariah.eu/tadirah/expressingOpinion"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23638,6 +23655,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/teaching
                                     https://vocabs.dariah.eu/tadirah/collecting"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23682,6 +23700,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/programming
                                     https://vocabs.dariah.eu/tadirah/enriching"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23725,6 +23744,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion
                                     https://vocabs.dariah.eu/tadirah/collaborating"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23782,6 +23802,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/teaching"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23845,6 +23866,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/genreRecognition
                                     https://vocabs.dariah.eu/tadirah/machineLearning"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -23940,6 +23962,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -23989,6 +24012,7 @@
                                     https://vocabs.dariah.eu/tadirah/linkedOpenData
                                     https://vocabs.dariah.eu/tadirah/dataCleansing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -24037,6 +24061,7 @@
                                     https://vocabs.dariah.eu/tadirah/enriching
                                     https://vocabs.dariah.eu/tadirah/georeferencing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -24089,6 +24114,7 @@
                                     https://vocabs.dariah.eu/tadirah/georeferencing
                                     https://vocabs.dariah.eu/tadirah/gathering"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24132,6 +24158,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/finding"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24234,6 +24261,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/georeferencing
                                     https://vocabs.dariah.eu/tadirah/editing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -24284,6 +24312,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion
                                     https://vocabs.dariah.eu/tadirah/collaborating"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -24322,6 +24351,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/annotating"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24372,8 +24402,9 @@
                             <note type="keywords">
                                 <term type="discipline" corresp="#literary-studies"/>
                                 <term type="topic"
-                                    corresp="https://vocabs.dariah.eu/tadirah/comparing
+                                    corresp="https://vocabs.dariah.eu/tadirah/comparing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">hybrid</term>
@@ -24420,6 +24451,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/sentimentAnalysis
                                     https://vocabs.dariah.eu/tadirah/annotating"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">hybrid</term>
@@ -25915,14 +25947,14 @@
                     <eventName xml:lang="de">DH-Kolloquium an der BBAW</eventName>
                     <ptr type="programme"
                         target="https://web.archive.org/web/20250503170404/https://www.bbaw.de/bbaw-digital/dh-kolloquium"/>
-                    <p>Um den interdisziplinären Dialog zum Thema „Digital Humanities“ weiter zu
+                    <note type="description" xml:lang="de"><p>Um den interdisziplinären Dialog zum Thema „Digital Humanities“ weiter zu
                         intensivieren, richtet die BBAW schon seit 2017 ein monatliches
                         DH-Kolloquium aus. Der Fokus der Veranstaltung liegt sowohl auf praxisnahen
                         Themen und konkreten Anwendungsbeispielen als auch auf der kritischen
                         Reflexion digitaler geisteswissenschaftlicher Forschung.</p>
                     <p>Das Kolloquium findet in der Regel virtuell am letzten Montag eines Monats
                         statt. Informationen zur digitalen Veranstaltungsform und Teilnahme sind in
-                        der Terminübersicht jeweils unter "Details" zu finden.</p>
+                        der Terminübersicht jeweils unter "Details" zu finden.</p></note>
                     <event type="lecture-series-term" from="2017-07" to="2017-12">
                         <eventName xml:lang="de">2017</eventName>
                         <event type="lecture" when="2017-07-17">
@@ -35066,6 +35098,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/stylisticAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35114,6 +35147,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis
                                     https://vocabs.dariah.eu/tadirah/modeling"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35149,6 +35183,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/commenting
                                     https://vocabs.dariah.eu/tadirah/theorizing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35208,6 +35243,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/contextualizing
                                     https://vocabs.dariah.eu/tadirah/stylisticAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35260,6 +35296,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35318,6 +35355,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/commenting"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35353,6 +35391,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/analyzing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35386,6 +35425,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/collaborating
                                     https://vocabs.dariah.eu/tadirah/exploration"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35417,6 +35457,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis
                                     https://vocabs.dariah.eu/tadirah/structuralAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -35470,6 +35511,7 @@
                                     corresp="https://vocabs.dariah.eu/tadirah/genreRecognition
                                     https://vocabs.dariah.eu/tadirah/networkAnalysis"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">online</term>
                                 <term type="audience">online</term>
@@ -41208,6 +41250,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/commenting"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">in person</term>
@@ -41260,6 +41303,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/theorizing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">in person</term>
@@ -41300,6 +41344,7 @@
                                 <term type="topic"
                                     corresp="https://vocabs.dariah.eu/tadirah/theorizing"
                                 />
+                            </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
                                 <term type="audience">in person</term>
