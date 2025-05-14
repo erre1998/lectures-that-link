@@ -39099,7 +39099,10 @@
                                     (Greek papyri).</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#classics"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39136,7 +39139,12 @@
                                     Kirchenstühlen.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#library-information"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/archiving
+                                    https://vocabs.dariah.eu/tadirah/analyzing
+                                    https://vocabs.dariah.eu/tadirah/gathering"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39162,7 +39170,10 @@
                                     Initiative (BeDSI).</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#computer-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39206,7 +39217,10 @@
                                     associations.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#linguistics"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39249,7 +39263,11 @@
                                     insight into the project.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#library-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/archiving
+                                    https://vocabs.dariah.eu/tadirah/disseminating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39289,7 +39307,10 @@
                                     undertaken on a large scale.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#library-information"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39334,7 +39355,12 @@
                                     Methoden.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#museology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/capturing
+                                    https://vocabs.dariah.eu/tadirah/storing
+                                    https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39366,7 +39392,12 @@
                                     Graphen ist das Thema dieser Vorlesung.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history #digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing
+                                    https://vocabs.dariah.eu/tadirah/networkAnalysis
+                                    https://vocabs.dariah.eu/tadirah/annotating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
