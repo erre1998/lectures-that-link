@@ -14843,7 +14843,11 @@
                                     c-ski.ca).</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/disseminating
+                                    https://vocabs.dariah.eu/tadirah/contextualizing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -15078,7 +15082,12 @@
                                     books.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#art-history #classics"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing
+                                    https://vocabs.dariah.eu/tadirah/visualAnalysis
+                                    https://vocabs.dariah.eu/tadirah/authorshipAttribution"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">hybrid</term>
@@ -15281,10 +15290,12 @@
                                     reality, network systems, and technologically advanced
                                     psychogeographic memories enter the commercial domain and then
                                     flow back into creativity.</p>
-                            </note>
-                            <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                            </note>
+                                <note type="keywords">
+                                    <term type="discipline" corresp="#game-studies #media-studies"/>
+                                    <term type="topic"
+                                        corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                    />
+                                </note>
                             <note type="realization">
                                 <term type="speech">hybrid</term>
                                 <term type="audience">hybrid</term>
@@ -15321,7 +15332,10 @@
                                     which treebanking is based.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#linguistic"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/enriching"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">hybrid</term>
@@ -15356,7 +15370,11 @@
                                     EEGs data recording.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#archaeology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis
+                                    https://vocabs.dariah.eu/tadirah/capturing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">hybrid</term>
@@ -15416,7 +15434,10 @@
                                     the same.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/theorizing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">hybrid</term>
@@ -15468,7 +15489,10 @@
                                     their potential designs.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#archaeology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/collaborating"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">hybrid</term>
