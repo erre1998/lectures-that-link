@@ -73,6 +73,9 @@
                     <category xml:id="digital-humanities">
                         <catDesc>digital humanities</catDesc>
                     </category>
+                    <category xml:id="game-studies">
+                        <catDesc>game studies</catDesc>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
@@ -38344,7 +38347,11 @@
                                 who wrote an E-Learning Game</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/teaching
+                                    https://vocabs.dariah/tadirah/programming"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38380,7 +38387,10 @@
                                 Unsicherheit</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/modelling"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38404,7 +38414,10 @@
                                 History</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38428,7 +38441,10 @@
                                 Humanities</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#art-history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/capturing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38450,7 +38466,10 @@
                             <eventName xml:lang="en">Networkanalysis and -visualisation</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38473,7 +38492,11 @@
                                 variationslinguistischer Daten mit REDE SprachGIS</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#linguistics"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/geoReferencing
+                                    https://vocabs.dariah.eu/tadirah/visualAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38497,7 +38520,11 @@
                                 analysis</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#romance-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/capturing
+                                    https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38520,7 +38547,11 @@
                                 Center for the Humanities</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/gathering
+                                    https://vocabs.dariah.eu/tadirah/preserving"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -38564,7 +38595,12 @@
                                     etc.).</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#german-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing
+                                    https://vocabs.dariah.eu/tadirah/designing
+                                    https://vocabs.dariah.deu/tadirah/digitalPublishing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -38990,7 +39026,11 @@
                                     archivists to users).</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#library-information"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/archiving
+                                    https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39340,7 +39380,11 @@
                                     Geschlechtergeschichte und der Politik- und Ideengeschichte.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history #game-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing
+                                    https://vocabs.dariah.eu/tadirah/contextualizing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -39664,7 +39708,10 @@
                                     hard drives from writers and public figures.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
