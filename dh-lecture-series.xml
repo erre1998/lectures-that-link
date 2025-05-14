@@ -14191,7 +14191,11 @@
                                     reputation.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#museology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/gathering
+                                    https://vocabs.dariah.eu/tadirah/storing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14229,7 +14233,10 @@
                                     environmental change.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history #archaeology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14270,7 +14277,10 @@
                                     evaluated.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#literary-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14306,7 +14316,10 @@
                                     between digital methods and participation.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#social-sciences"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14345,7 +14358,10 @@
                                     to connect Latin's analog past with its digital future.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#romance-studies #classics"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/storing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
@@ -14391,7 +14407,10 @@
                                     Cristina Dondi.</p>
                             </note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#art-history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/storing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">online</term>
