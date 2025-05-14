@@ -79,6 +79,9 @@
                     <category xml:id="political-science">
                         <catDesc>political science</catDesc>
                     </category>
+                    <category xml:id="social-siences">
+                        <catDesc>social sciences</catDesc>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
@@ -25336,7 +25339,10 @@
                                 der Digital Humanities</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25364,7 +25370,10 @@
                                 Restitution im Zeitalter virtueller Medien</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#classics"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25384,7 +25393,10 @@
                             <eventName xml:lang="de">Digitales Lesen</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25406,7 +25418,11 @@
                                 Distillation from Text and LLMs</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting
+                                    https://vocabs.dariah.eu/tadirah/machineLearning"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25428,7 +25444,10 @@
                                 Bildwissenschaft</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#art-history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25451,7 +25470,10 @@
                                 Bildung</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#education-science"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25479,7 +25501,10 @@
                                 through AI</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25500,7 +25525,10 @@
                                 Sozialwissenschaften</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#social-sciences"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25522,7 +25550,10 @@
                                 Bibliothek</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/capturing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25542,7 +25573,10 @@
                             <eventName xml:lang="en">Cultural Heritage Data</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#museology"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/commenting"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25563,7 +25597,10 @@
                                 Textanalyse</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#digital-humanities"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25596,7 +25633,10 @@
                                 frühmittelalterlicher Handschriften</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/editing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25617,7 +25657,10 @@
                             <eventName xml:lang="de">Historische Netzwerke in nodegoat</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25638,7 +25681,10 @@
                                 Oral-History.Digital</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#history"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/analyzing"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
@@ -25659,7 +25705,10 @@
                             <eventName xml:lang="de">Medienkompetenz und Medienbildung</eventName>
                             <note type="abstract" xml:lang="en">not found</note>
                             <note type="keywords">
-                                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                                <term type="discipline" corresp="#media-studies"/>
+                                <term type="topic"
+                                    corresp="https://vocabs.dariah.eu/tadirah/teaching"
+                                />
                             </note>
                             <note type="realization">
                                 <term type="speech">in person</term>
