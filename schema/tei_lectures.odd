@@ -110,9 +110,436 @@
           </list>
           <p>To represent this hierarchy, the following approach is used:</p>
           <p>Each lecture series is recorded within an <gi>event</gi> element, with the
-              <att>type</att> attribute set to the value <val>lecture-series</val>. Additionally, the
-              <att>where</att> attribute references the ID of the location where the series is
+              <att>type</att> attribute set to the value <val>lecture-series</val>. Additionally,
+            the <att>where</att> attribute references the ID of the location where the series is
             hosted:</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <event type="lecture-series" where="#rostock">
+              <eventName xml:lang="de">Digital Humanities im Fokus: Methoden, Anwendungen und
+                Perspektiven</eventName>
+              <eventName xml:lang="en">Digital Humanities in Focus: Methods, Applications, and
+                Perspectives</eventName>
+            </event>
+          </egXML>
+          <p>The <gi>event</gi> element contains an <gi>eventName</gi> sub-element, which records
+            the original name of the series. The <att>xml:lang</att> attribute specifies the
+            language of the lecture series name. If official translations exist, multiple
+              <gi>eventName</gi> elements may be listed sequentially, as can be seen above.</p>
+          <p>Each lecture series consists of at least one, but usually multiple <gi>event</gi>
+            elements, each representing an instance of the lecture series, for instance, an academic
+            term in which the series took place. These <gi>event</gi> elements include a
+              <att>type</att> attribute with the value <val>lecture-series-term</val>, as well as
+            the attributes <att>from</att> and <att>to</att> indicating the term’s duration (year
+            and month):</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <event type="lecture-series-term" from="2023-04" to="2024-07">
+              <eventName xml:lang="de">Sommersemester 2023</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/"
+              />
+            </event>
+          </egXML>
+          <p>If a consolidated program overview is available for a given term, a <gi>ptr</gi>
+            element is included after the <gi>eventName</gi> element. The <att>type</att> attribute
+            of <gi>ptr</gi> is set to the value <val>programme</val> to indicate its purpose.</p>
+          <p>After these term-level <gi>event</gi> elements, individual lectures are recorded, as
+            explained in the following sections.</p>
+        </div>
+        <div xml:id="lectures">
+          <head>Encoding Individual Lectures</head>
+          <p>A individual lecture is recorded as an <gi>event</gi> element with the attribute
+              <att>type</att> (with the value <val>lecture</val>) and with the attribute
+              <att>when</att>, which specifies the date of the event in the format year-month-day.
+            The structure of the content within each <gi>event</gi> element remains consistent
+            across all lectures. Therefore, it is described in the following subsections from top to
+            bottom, using the example below:</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <event type="lecture" when="2024-12-02">
+              <eventName xml:lang="de">KI generiert Texte – Wie? und Warum? – Nachdenken eines
+                Informations- und Kommunikationswissenschaftlers</eventName>
+              <note type="abstract" xml:lang="de">
+                <p>Texte sind allgegenwärtig und es liegt nahe, Textproduktion zu automatisieren.
+                  Texte können (über)lebenswichtig sein, daher ist ein Nachdenken darüber, wie Texte
+                  funktionieren und was sie mit uns und wir mit ihnen machen, notwendig.
+                  KI-generierte Texte verändern die Textwelt, ohne dass wir es notwendigerweise
+                  bemerken. Die Perspektive der Sprach- und Kommuniktionswissenschaft kann auf
+                  Punkte hinweisen, worüber nachzudenken lohnen könnte.</p>
+                <p>Hier knüpft der Vortrag des Informatikers Clemens Cap an. Er schildert, wie große
+                  Sprachmodelle wie beispielsweise ChatGPT heute aufgebaut sind. Daraus ergeben sich
+                  unmittelbar die derzeitigen Fähigkeiten und Grenzen solcher Systeme. Der Kreis zum
+                  Vortrag von Wolfgang Sucharowski schließt sich nun, wenn wir erkennen, dass seine
+                  Beobachtungen keine Spekulationen sondern unmittelbare Konsequenzen aus der
+                  Architektur solcher Systeme sind.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#german-studies #computer-science"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting
+                  https://vocabs.dariah.eu/tadirah/machineLearning"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241210104406/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2024-25/n/ki-generiert-texte-wie-und-warum-nachdenken-eines-informations-und-kommunikationswissenschaftlers-202261/"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.14525161"/>
+              <listPerson>
+                <person role="speaker" corresp="#cap_clemens">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rostock"/>
+                </person>
+                <person role="speaker" corresp="#sucharowski_wolfgang">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rostock"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-rostock"/>
+            </event> [...] <org role="organizer"
+              corresp="#henny-krahmer_ulrike #alvares-freire_fernanda #renz_erik"/>
+          </egXML>
+          <div xml:id="titles_abstracts">
+            <head>Titles and Abstracts</head>
+            <p>At the beginning of each entry, the lecture title is recorded using an
+                <gi>eventName</gi> element. The language of the title is specified via the
+                <att>xml:lang</att> attribute.</p>
+            <p>Directly below the title, the abstract of the lecture follows. This is captured
+              within a <gi>note</gi> element, which is characterized by the <att>type</att>
+              attribute set to the value <val>abstract</val>. Additionally, the <att>xml:lang</att>
+              attribute specifies the language of the abstract.</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <eventName xml:lang="de">KI generiert Texte – Wie? und Warum? – Nachdenken eines
+                Informations- und Kommunikationswissenschaftlers</eventName>
+              <note type="abstract" xml:lang="de">
+                <p>Texte sind allgegenwärtig und es liegt nahe, Textproduktion zu automatisieren.
+                  Texte können (über)lebenswichtig sein, daher ist ein Nachdenken darüber, wie Texte
+                  funktionieren und was sie mit uns und wir mit ihnen machen, notwendig.
+                  KI-generierte Texte verändern die Textwelt, ohne dass wir es notwendigerweise
+                  bemerken. Die Perspektive der Sprach- und Kommunikationswissenschaft kann auf
+                  Punkte hinweisen, worüber nachzudenken lohnen könnte.</p>
+                <p>Hier knüpft der Vortrag des Informatikers Clemens Cap an. Er schildert, wie große
+                  Sprachmodelle wie beispielsweise ChatGPT heute aufgebaut sind. Daraus ergeben sich
+                  unmittelbar die derzeitigen Fähigkeiten und Grenzen solcher Systeme. Der Kreis zum
+                  Vortrag von Wolfgang Sucharowski schließt sich nun, wenn wir erkennen, dass seine
+                  Beobachtungen keine Spekulationen, sondern unmittelbare Konsequenzen aus der
+                  Architektur solcher Systeme sind.</p>
+              </note>
+            </egXML>
+            <p>As the example above already shows, the abstract text itself is recorded within one
+              or more <gi>p</gi> elements. If a list is included within the abstract, a
+                <gi>list</gi> element is used, with individual list items represented by
+                <gi>item</gi> elements.</p>
+            <p>If the abstract contains formatting elements such as bold, italics, or hyperlinks,
+              these are not explicitly marked up.</p>
+            <p>If an abstract is available, it is recorded within the <tag>note
+                type="abstract"</tag> tag. If no abstract is provided, the content of the note is
+              set to "not found":</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <note type="abstract" xml:lang="en">not found</note>
+            </egXML>
+          </div>
+          <div xml:id="keywords">
+            <head>Keywords</head>
+            <p>Each recorded lecture is assigned keywords by the encoders to be able to analyze the
+              distribution of disciplines, methods and topics across the lectures and lecture
+              series. That is, the keywords are not collected from the websites of the lecture
+              series but they are added by the editors of this data collection.</p>
+            <p>The keywords are stored inside of a <gi>note</gi> element, characterized by the
+              attribute <att>type</att> with the value <val>keywords</val>. Within this
+                <gi>note</gi> element, there are two <gi>term</gi> elements:</p>
+            <list>
+              <item>One with <tag>type="discipline"</tag>, specifying the academic discipline or
+                disciplines covered by the talk.</item>
+              <item>One with <tag>type="topic"</tag>, indicating the topic or topics of the
+                talk.</item>
+            </list>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <note type="keywords">
+                <term type="discipline" corresp="#german-studies #computer-science"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting
+                https://vocabs.dariah.eu/tadirah/machineLearning"/>
+              </note>
+            </egXML>
+            <p>In case that there are more than one discipline or topic, they are collected in the
+              attribute of the same <gi>term</gi> element. We opted for this (instead of using an
+              individual <gi>term</gi> element for each keyword) to facilitate later processing of
+              the data and for a more compact encoding of the information. For the disciplines, we
+              use a pre-defined list that we created on our own. For the topics, the <emph>Taxonomy
+                of Digital Research Activities in the Humanities</emph> (TaDiRAH) is used. Detailed
+              information about TaDiRAH can be found at <ref
+                target="https://vocabs.dariah.eu/tadirah/en/"
+                >https://vocabs.dariah.eu/tadirah/en/</ref>.</p>
+            <p>Both discipline and topic assignments are based on the lecture content. This
+              classification relies on the abstract and title of the lecture. Since every lecture
+              has a title but not necessarily an abstract, classification is always possible.
+              However, a longer title or the presence of an abstract allows for a more precise
+              categorization.</p>
+          </div>
+          <div xml:id="realization">
+            <head>Realization (Lecture Modality)</head>
+            <p>The lecture modality is recorded in the <tag>note type="realization"</tag> tag,
+              specifying whether the lecture was held in person, hybrid, or online. The
+                <gi>note</gi> element contains two <gi>term</gi> sub-elements that define the
+              modality separately for speakers and audience members. These <gi>term</gi> elements
+              use the <att>type</att> attribute to distinguish between the modality of the speech
+              and of the audience:</p>
+            <list>
+              <item><tag>term type="speech"</tag>: Describes how the speakers delivered the
+                lecture.</item>
+              <item><tag>term type="audience"</tag>: Describes how the audience attended the
+                lecture.</item>
+            </list>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+            </egXML>
+            <p>The values for these elements are standardized to ensure consistency in data
+              representation. The possible values are:</p>
+            <list>
+              <item><val>in person</val>: All participants (speakers or audience) were physically
+                present at the lecture venue.</item>
+              <item><val>hybrid</val>: At least one participant (speaker or audience member) joined
+                remotely, while others were present in person.</item>
+              <item><val>online</val>: All participants attended virtually; no one was physically
+                present at the venue.</item>
+            </list>
+            <p>If a lecture was canceled, a fourth value, <val>canceled</val>, is used. In this
+              case, as shown in the example below, the <tag>term type="audience"</tag> tag is
+              omitted since no audience attended:</p>
+            <note type="realization">
+              <term type="speech">canceled</term>
+            </note>
+          </div>
+          <div xml:id="speakers">
+            <head>Speakers, Titles, and Affiliation</head>
+            <p>The speakers of a lecture are recorded in a <gi>listPerson</gi> element. Each speaker
+              is described using a <gi>person</gi> element with a <att>corresp</att> attribute that
+              links to the corresponding person entry in the TEI header. The academic title (if
+              provided) is stored within a <tag>roleName type="title"</tag> element inside of the
+                <gi>name</gi> element. The speaker’s affiliation is captured within an
+                <gi>affiliation</gi> element, referencing the corresponding institution, which is
+              encoded in the TEI header. The information about the speakers, their affiliations, and
+              the institutions is encoded in two places for the following reasons: on the one hand,
+              we aim to have a centralized list of people and institutions in the TEI header, to
+              which we can refer from individual events. On the other hand, the affiliations of
+              people can change over time and the same is true for their titles. One person might
+              not have a title at the moment of one event, but might have a title at another event
+              later on, for instance, if someone completed his or her PhD. Therefore, information
+              about the current affiliation of a speaker at the moment of the event and about the
+              current title that a person has when the event takes place is encoded directly inside
+              of the individual event.</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <listPerson>
+                <person role="speaker" corresp="#cap_clemens">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rostock"/>
+                </person>
+                <person role="speaker" corresp="#sucharowski_wolfgang">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rostock"/>
+                </person>
+              </listPerson>
+            </egXML>
+            <p>The titles of the speaker(s) are recorded according to the information provided in
+              the lecture program, supporting materials (slides, videos, or blog posts), or a short
+              biography. Common academic titles include:</p>
+            <list>
+              <item>Dr. / Dr.-Ing. / PhD</item>
+              <item>PD (Priv.-Doz.)</item>
+              <item>Asst. Prof. / Assoc. Prof. / Jun.-Prof. / Prof. (Univ.-Prof.)</item>
+            </list>
+            <p>These titles are standardized. For instance, "Univ.-Prof." is simplified to "Prof.",
+              and variations in spelling (e.g., "PhD" and "Ph.D.") are standardized.</p>
+            <p>Academic degrees such as <emph>Bakkalaureus Artium / Bachelor of Arts (B.A.)</emph>
+              and <emph>Magister Artium / Master of Arts (M.A.)</emph> are not recorded, as they are
+              typically not included in the program. Similarly, if no title is available, the value
+                <val>not found</val> is used:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <listPerson>
+                <person role="speaker" corresp="#theise_antje">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ub-rostock"/>
+                </person>
+              </listPerson>
+            </egXML>
+          </div>
+          <div xml:id="hosts_organizers">
+            <head>Hosts and Organizers</head>
+            <p>Hosts are recorded at the end of the individual lecture entry to indicate which
+              organizations were responsible for hosting the lecture, i.e., those that invited the
+              speaker(s). The host institution is specified with an <gi>org</gi> element that
+              includes the attribute <att>role</att> with the standardized value
+                <val>host-institution</val>. The <att>corresp</att> attribute references the
+              corresponding organization entry in the TEI header. This value is recorded
+              independently of the lecture modality (i.e., in presence, hybrid, or online).</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <org role="host-institution" corresp="#uni-rostock"/>
+            </egXML>
+            <p>As mentioned above, information about the hosting institutions concludes the section
+              for an individual lecture. However, the final element within a lecture series term is
+              the information about the organizers of the term. This information is stored within an
+                <gi>org</gi> element with the attribute <att>role</att> and the standardized value
+                <val>organizer</val>.</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <org role="organizer"
+                corresp="#henny-krahmer_ulrike #alvares-freire_fernanda #renz_erik"/>
+            </egXML>
+            <p>Unlike host institutions, which are organizations, organizers are recorded as
+              individual persons, as can be seen in the example above. It is possible for an
+              organizer to also be a speaker in another lecture series or even in their own
+              series.</p>
+            <p>Since organizational responsibility can change from term to term, it is considered
+              appropriate to record this information at this level rather than for the entire
+              series.</p>
+          </div>
+        </div>
+        <div xml:id="ids">
+          <head>Creating IDs</head>
+          <p>The dataset assigns unique IDs to persons, organizations, and locations, which are
+            consistently stored in the <att>xml:id</att> attribute. The following aspects must be
+            considered when creating IDs:</p>
+          <list>
+            <item>Lowercase only: All IDs are written exclusively in lowercase.</item>
+            <item>No numbers: Numbers are not used in IDs.</item>
+            <item>Latin script only: The Latin script is consistently applied.</item>
+            <item>No diacritical marks: Diacritical marks (e.g., ä, ö, ü, â, ê, î) are completely
+              removed or replaced with corresponding transliterations (e.g., ä → ae, ö → oe, è →
+              e).</item>
+          </list>
+          <p>Additional considerations include:</p>
+          <list>
+            <item>Standardized prefixes: Certain IDs, such as those for universities, always begin
+              with a fixed prefix (e.g., <val>uni-</val> for universities, <val>fh-</val> for
+              universities of applied sciences).</item>
+            <item>Use of hyphens and underscores: Two types of separators are used in the dataset: <list>
+                <item>Underscores (<val>_</val>) are used exclusively for person IDs, separating the
+                  surname from the given name.</item>
+                <item>Hyphens (<val>-</val>) are used for organizations and locations to separate
+                  individual name components (e.g., multi-word city names). In person IDs, hyphens
+                  are used to connect multiple given names or multiple surnames.</item>
+              </list>
+            </item>
+          </list>
+        </div>
+        <div xml:id="language">
+          <head>Capturing Language</head>
+          <p>All collected information is recorded exclusively in the languages in which it appears
+            on the respective websites. Each element of a lecture event that contains textual
+            information in a certain language is marked with the attribute <att>xml:lang</att>,
+            specifying the corresponding language value, such as <val>en</val> for English or
+              <val>de</val> for German. No translations of content are produced.</p>
+          <p>The documentation of series, terms and lectures is mainly focused on English, Italian,
+            German, Spanish, French and Portuguese, due to the language knowledge of the
+            collaborators in this project. Other languages can be included, especially when it comes
+            to recording the names of organizations or places. By default, these informations are
+            documented in the language in which they originally emerged, which may differ from the
+            respective national language.</p>
+          <p>In some cases, a title may include multiple languages, whether for stylistic reasons or
+            because it contains a key term discussed in the lecture or an introductory quotation. In
+            such instances, only the primary language of the title is recorded, while additional
+            languages are not documented, as shown in the following example:</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <eventName xml:lang="en">Le chemin de l’image in Renaissance Lyon: digital tools for the
+              study of early modern illustrations</eventName>
+            <note type="abstract" xml:lang="en">
+              <p>The talk will focus on the study of digital collections of early modern printed
+                books and on the implementation of the Imagematching software in cooperation with
+                the Visual Geometry Group of Department of Engineering Science at University of
+                Oxford. In the research project The Early Modern Illustrated Book in Lyon (Equipex
+                Biblissima/Ca' Foscari), the art historian Barbara Tramelli developed a new
+                methodology for the study of book illustrations, using and implementing for her
+                research Renaissance images two digital tools: [...]</p>
+            </note>
+          </egXML>
+          <p>In such cases, the primary language of the element must be identified and recorded. In
+            the example above, this would be English. The primary language can often be determined
+            by identifying which part of the content conveys the core subject matter rather than
+            serving a decorative or stylistic function. For titles, another useful indicator is the
+            language of the accompanying abstract, if available.</p>
+        </div>
+        <div xml:id="links">
+          <head>Capturing Links</head>
+          <p>In order to ensure the long-term accessibility and reliability of information, we
+            secure all relevant sources via links, which are then archived using the Wayback Machine
+            from the Internet Archive (<ref target="https://web.archive.org/"
+              >https://web.archive.org/</ref>). This archiving process applies to all links, except
+            for DOI links, which are permanent by definition and do not require additional
+            archiving. However, links that lead to videos, such as those on YouTube, are not
+            archived because archiving by the Wayback Machine is not possible in this case.</p>
+          <p>All links within the dataset are encoded using the <gi>ptr</gi> (pointer) element.
+            Within this element, the <att>type</att> attribute is used to specify the exact role of
+            the link, as seen in the following examples:</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <ptr type="programme"
+              target="https://web.archive.org/web/20230609113732/https://www.unive.it/data/33113/2/38661"/>
+            <ptr type="slides" target="https://doi.org/10.5281/zenodo.7798685"/>
+            <ptr type="video" target="https://www.youtube.com/watch?v=itVMXEEKZFQ"/>
+            <ptr type="blogpost" target="https://doi.org/10.58079/o57z"/>
+          </egXML>
+          <p>The values for the <att>type</att> attribute are as follows:</p>
+          <list>
+            <item><val>programme</val>: Refers to a complete programme for a semester or event
+              series, or to a dedicated page for a specific lecture.</item>
+            <item><val>slides</val>: Points to presentation slides, such as PDFs or PowerPoint
+              files.</item>
+            <item><val>video</val>: Links to a video recording of the lecture, including the
+              presentation and possibly the discussion. These links are not archived.</item>
+            <item><val>blogpost</val>: Directs to a blog post discussing the lecture, potentially
+              featuring parts of the presentation, speaker information, or related images.</item>
+          </list>
+          <p>It is important to highlight that we only capture links that directly originate from
+            the lecture series’ website. While further research to gather additional sources is
+            possible, it has not been consistently carried out.</p>
+        </div>
+        <div xml:id="organizations">
+          <head>Capturing Organizations</head>
+          <p>Organizations involved in Digital Humanities lecture series are divided into two main
+            roles: the affiliation of the (invited) speaker and the hosting venue.</p>
+          <p>In most cases, organizations are listed at the level of entire universities, research
+            institutions, or cultural institutions. Specific departments or institutes within these
+            organizations, where speakers may be affiliated, are not captured in the data. E.g. if
+            an affiliation to the Institute of German Studies at the University of Rostock is
+            mentioned in a program, only the University of Rostock is encoded.</p>
+          <p>Each organization is represented by a separate entry within the <gi>particDesc</gi>
+            element, found under <gi>listOrg</gi>. The <gi>org</gi> sub-element defines the
+            organization and is assigned a unique ID through the <att>xml:id</att> attribute. This
+            ID is used throughout the dataset to ensure consistent referencing. Additionally, the
+              <att>type</att> attribute within the <gi>org</gi> element is employed to specify the
+            organization's precise role. Available values for the <att>type</att> attribute
+            include:</p>
+          <list>
+            <item><val>university</val>: for universities and universities of applied
+              sciences</item>
+            <item><val>research_institution</val>: for private or public institutions that conduct
+              research</item>
+            <item><val>company</val>: for companies or private sector organizations</item>
+            <item><val>glam</val>: for galleries, libraries, archives, museums; generally, all
+              cultural and memory institutions</item>
+            <item><val>other</val>: we use this when none of the categories listed above apply, for
+              example in the case of radio stations or newspapers.</item>
+          </list>
+          <p>As can be seen in the example below, the "Università di Bologna" is represented as an
+            organization with the ID <val>uni-bologna</val>. The name of the organization is
+            presented in the original language (Italian, in this case), and an external Wikidata
+            identifier is included within the <gi>idno</gi> element.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <org xml:id="uni-bologna" type="university">
+              <name xml:lang="it">Università di Bologna</name>
+              <idno type="wikidata">https://www.wikidata.org/wiki/Q131262</idno>
+              <place corresp="#bologna"/>
+            </org>
+          </egXML>
         </div>
       </div>
     </body>
