@@ -25611,7 +25611,9 @@
                   Meinungen und Eindrücke zur Tagung auszutauschen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">critique, conference, discussion, digital editions, text
                   analysis</term></note>
               <note type="realization">
@@ -25674,7 +25676,9 @@
                   präsentieren? Wer stellt bereits seine Daten über IIIF zur Verfügung?</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#library-information "/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
                 <term type="topics-llm">apis, cultural heritage, open data, iiif, data
                   interoperability</term></note>
               <note type="realization">
@@ -25706,7 +25710,10 @@
                   thematisieren.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis 
+                  https://vocabs.dariah.eu/tadirah/gathering"/>
                 <term type="topics-llm">art history, image analysis, metadata, prometheus,
                   quantitative methods</term></note>
               <note type="realization">
@@ -25738,7 +25745,9 @@
                   Engineering, agiler Softwareentwicklung und modernem Interaktionsdesign.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/programming"/>
                 <term type="topics-llm">software development, user needs, team roles, agile
                   methodologies, project planning</term></note>
               <note type="realization">
@@ -25776,7 +25785,9 @@
                   den Digital Humanities aussehen können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">linguistics, football, text corpora, open science, public
                   engagement</term></note>
               <note type="realization">
@@ -25813,7 +25824,9 @@
                   archäologisch-historischen Netzwerkforschung gegeben.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#archaeology #history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
                 <term type="topics-llm">network analysis, archaeology, history, methodology, social
                   sciences</term></note>
               <note type="realization">
@@ -25861,7 +25874,9 @@
                   Redaktionsumgebung und der Server-Architektur.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#classics #archaeology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/modifying"/>
                 <term type="topics-llm">epigraphy, xml, tei, editorial environment, data
                   conversion</term></note>
               <note type="realization">
@@ -25907,7 +25922,10 @@
                   how we can best model the variety of textual dimensions.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing 
+                  https://vocabs.dariah.eu/tadirah/storing"/>
                 <term type="topics-llm">text modelling, data exchange, scholarly knowledge, textual
                   analysis, interdisciplinary research</term></note>
               <note type="realization">
@@ -25945,7 +25963,9 @@
                   Begrifflichkeiten und Zusammenhänge.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/designing"/>
                 <term type="topics-llm">user experience, usability, design thinking, software
                   development, user-centered design</term></note>
               <note type="realization">
