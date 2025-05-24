@@ -112,6 +112,9 @@
           <category xml:id="social-siences">
             <catDesc>social sciences</catDesc>
           </category>
+          <category xml:id="egyptology">
+            <catDesc>egyptology</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -25298,7 +25301,9 @@
                   vermitteln.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition"/>
                 <term type="topics-llm">ocr, text recognition, layout analysis, image processing,
                   historical documents</term></note>
               <note type="realization">
@@ -25367,7 +25372,9 @@
                   anderen Sprachen (oder anderen Sprachstufen des Deutschen) verfasst wurden.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies #history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
                 <term type="topics-llm">xml, text annotation, tei guidelines, interoperability,
                   historical texts</term></note>
               <note type="realization">
@@ -25409,7 +25416,10 @@
                   in die mehrdimensionale, vielschichtige Tiefe des Textzeugen führt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies #history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                  https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">text editing, historical texts, xml, reading practices,
                   annotation</term></note>
               <note type="realization">
@@ -25471,7 +25481,10 @@
                   bearbeitet werden können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                  https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">music transcription, optical music recognition, music
                   analysis, crowdsourcing, music information retrieval</term></note>
               <note type="realization">
@@ -25504,7 +25517,9 @@
                   Fragestellungen abgefragt werden können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
                 <term type="topics-llm">graph databases, data integration, network analysis, data
                   querying, historical data</term></note>
               <note type="realization">
@@ -25548,7 +25563,9 @@
                   Rahmen des Verstärkungslernens.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">prosody recognition, audio poetry, machine learning, text
                   analysis, deep learning</term></note>
               <note type="realization">
@@ -25976,7 +25993,10 @@
                   collaboration.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                
+                <term type="discipline" corresp="#egyptology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">machine learning, egyptology, computer vision, hieroglyphs,
                   translation</term></note>
               <note type="realization">
@@ -26021,7 +26041,10 @@
                   der Modellierung der Daten als Linked Open Data Ressource.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
                 <term type="topics-llm">formal models, ontologies, semantic web, data
                   interoperability, linked open data</term></note>
               <note type="realization">
@@ -26621,7 +26644,10 @@
                   virtuell vor.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/namedEntityRecognition 
+                  https://vocabs.dariah.eu/tadirah/sentimentAnalysis"/>
                 <term type="topics-llm">gender stereotypes, named entity recognition, emotion
                   analysis, sentiment analysis, literature</term></note>
               <note type="realization">
@@ -26969,7 +26995,10 @@
                   können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData
+                  https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">prosopography, data infrastructure, linked open data, visual
                   analytics, historical network analysis</term></note>
               <note type="realization">
@@ -27483,7 +27512,9 @@
                   humanities.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">methods, models, epistemology, corpora, theory
                   formation</term></note>
               <note type="realization">
@@ -27817,7 +27848,10 @@
                   https://www.zfl-berlin.org/projekt/das-20-jahrhundert-in-grundbegriffen.html</bibl>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics #digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing 
+                  https://vocabs.dariah.eu/tadirah/programming"/>
                 <term type="topics-llm">text mining, university services, interdisciplinary
                   projects, semantic analysis, historical semantics</term></note>
               <note type="realization">
@@ -28307,7 +28341,9 @@
                   thematisiert werden.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">large language models, artificial intelligence, scientific
                   writing, research methods, linguistics</term></note>
               <note type="realization">
