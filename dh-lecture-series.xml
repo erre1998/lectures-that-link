@@ -26174,7 +26174,9 @@
                   ergeben können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">digitalization, cultural practice, interpretations,
                   virtualization, interdisciplinarity</term></note>
               <note type="realization">
@@ -26222,7 +26224,10 @@
                   Softwarearchitektur des Portals den Gegenstand des Vortrags.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing 
+                  https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition"/>
                 <term type="topics-llm">arno schmidt, web portal, full-text search, text
                   digitization, ocr processing</term></note>
               <note type="realization">
@@ -26277,7 +26282,9 @@
                   Hermann Schmidt.</bibl>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzinh"/>
                 <term type="topics-llm">typography, readability, eye tracking, digital text,
                   empirical research</term></note>
               <note type="realization">
@@ -26326,7 +26333,9 @@
                   Funktionalitäten und Anwendungsmöglichkeiten des Werkzeugs RDMO ein.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/disseminating"/>
                 <term type="topics-llm">research data management, open science, fair data
                   principles, data management plans, rdm organizer</term></note>
               <note type="realization">
@@ -26403,7 +26412,9 @@
                   Ergebnisse zu erzielen, die mit anderen Methoden nicht erhalten werden können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">mathematics, informatics, collaboration, operations
                   research, formalization</term></note>
               <note type="realization">
@@ -26448,7 +26459,9 @@
                   und Informatik.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/dataMining"/>
                 <term type="topics-llm">word embeddings, distributional semantics, linguistics, text
                   mining, machine learning.</term></note>
               <note type="realization">
@@ -26522,7 +26535,10 @@
                   eingesetzt werden können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#museology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                  https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">museums, digital strategies, research, communication,
                   documentation</term></note>
               <note type="realization">
@@ -26579,7 +26595,9 @@
                   Statistik und Objekt, zwischen Abstraktion und Konkretisierung einladen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">archives, visualization, data analysis, digital
                   transformation, collection exploration</term></note>
               <note type="realization">
