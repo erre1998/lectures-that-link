@@ -34765,7 +34765,9 @@
                 formal negotiations at the US Constitutional Convention</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>                
                 <term type="topics-llm">republic, convention, reconstruction, negotiations,
                   constitution</term></note>
               <note type="realization">
@@ -34787,7 +34789,9 @@
                 a European Context</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/publishing"/>
                 <term type="topics-llm">open science, open licensing, copyright, european law,
                   intellectual property</term></note>
               <note type="realization">
@@ -34809,7 +34813,9 @@
                 Using Digitised Content</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#museology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/preserving"/>
                 <term type="topics-llm">text analysis, cultural preservation, digitization, content
                   management, data usage</term></note>
               <note type="realization">
@@ -34837,7 +34843,9 @@
                 Consortia, Standards, Case Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">networks, history, academia, collaboration, scholarly
                   communication</term></note>
               <note type="realization">
@@ -34859,7 +34867,9 @@
                 Archaeology</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#archaeology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"/>
                 <term type="topics-llm">mapping, medieval, archaeology, spatial analysis, historical
                   geography</term></note>
               <note type="realization">
@@ -34881,7 +34891,9 @@
                 Islamic History</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">islamic history, medieval studies, algorithmic analysis,
                   social history, case study</term></note>
               <note type="realization">
@@ -34903,7 +34915,9 @@
                 Using Digitised Content</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text mining, cultural studies, digitization, content
                   analysis, research methods</term></note>
               <note type="realization">
@@ -34931,7 +34945,9 @@
                 University of Vienna</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">university, vienna, introduction, welcome, lecture
                   series</term></note>
               <note type="realization">
@@ -34953,7 +34969,9 @@
                 engagement with cultural heritage and academic datasets</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/crowdsourcing"/>
                 <term type="topics-llm">crowdsourcing, public access, cultural heritage, academic
                   datasets, engagement</term></note>
               <note type="realization">
@@ -34975,7 +34993,9 @@
                 patterns of history and (false?) promises of Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">artificial intelligence, history patterns, time machines,
                   mechanical turks, false promises</term></note>
               <note type="realization">
@@ -34997,7 +35017,9 @@
                 sphere</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#museology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">museums, culture, technology, online,
                 preservation</term></note>
               <note type="realization">
@@ -35019,7 +35041,9 @@
                 Road</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text analysis, historical linguistics, silk road studies,
                   computational philology, asian languages</term></note>
               <note type="realization">
@@ -35041,7 +35065,9 @@
                 History</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">visualization, cultural heritage, art history, mnemonic,
                   revolution</term></note>
               <note type="realization">
@@ -35062,7 +35088,9 @@
               <eventName xml:lang="en">Open Science: just science done right</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">open, science, research, transparency,
                   reproducibility</term></note>
               <note type="realization">
@@ -35084,7 +35112,9 @@
                 World</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">islamic studies, medieval history, computational methods,
                   historiography, data analysis</term></note>
               <note type="realization">
@@ -35106,7 +35136,9 @@
                 of Historical Texts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text mining, historical linguistics, large-scale data
                   analysis, natural language processing, corpus linguistics</term></note>
               <note type="realization">
@@ -35127,7 +35159,9 @@
               <eventName xml:lang="en">Digital archaeology</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#archaeology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">archaeology, technology, data, heritage,
                 methods</term></note>
               <note type="realization">
@@ -35149,7 +35183,9 @@
                 lexical research</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">wikipedia, language change, lexical research, repurposing,
                   online resources</term></note>
               <note type="realization">
@@ -35171,7 +35207,9 @@
                 Habsburg Empire</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">empire, habsburg, resources, binary, research</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -35197,7 +35235,9 @@
               <eventName xml:lang="en">Introducing Digital Humanities @ Uni Wien</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">introducing, university, vienna, overview,
                 initiation</term></note>
               <note type="realization">
@@ -35219,7 +35259,9 @@
                 Age</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">networks, correspondence, scholars, intellectual history,
                   early modern</term></note>
               <note type="realization">
@@ -35241,7 +35283,9 @@
                 History</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">visualization, cultural heritage, art history, memory,
                   revolution</term></note>
               <note type="realization">
@@ -35265,7 +35309,9 @@
                 medieval grave finds</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#archaeology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"/>
                 <term type="topics-llm">grave mapping, medieval studies, spatial data, data
                   visualization, online publication</term></note>
               <note type="realization">
@@ -35287,7 +35333,9 @@
                 digital edition of Peter Handke’s notebooks</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">textual analysis, literary archives, semantic tagging,
                   digital editing, peter handke</term></note>
               <note type="realization">
@@ -35309,7 +35357,9 @@
                 Humanismus: Transformation an der Wienbibliothek im Rathaus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">digital transformations, digital humanism, vienna library,
                   transformation, city hall</term></note>
               <note type="realization">
@@ -35336,7 +35386,9 @@
               <eventName xml:lang="en">A Plea for Digital Art History</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">art history, digital methods, visual culture, art analysis,
                   technological impact</term></note>
               <note type="realization">
@@ -35358,7 +35410,9 @@
                 in cultural heritage collections</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#museology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">data, cultural heritage, museums, big data,
                   collections</term></note>
               <note type="realization">
@@ -35380,7 +35434,9 @@
                 historical ecology and ecocriticism in silico and in nature</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">climate change, historical ecology, ecocriticism,
                   environmental studies, computational methods</term></note>
               <note type="realization">
@@ -35402,7 +35458,9 @@
                 Road</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/anayzing"/>
                 <term type="topics-llm">manuscripts, paleography, philology, silk road, text
                   analysis</term></note>
               <note type="realization">
@@ -35436,7 +35494,9 @@
               <eventName xml:lang="en">Introducing Digital Humanities @ Uni Wien</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">text analysis, university wien, introductory, academic,
                   austria</term></note>
               <note type="realization">
@@ -35458,7 +35518,9 @@
                 Intelligence</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">artificial intelligence, viennese art, linking, technology,
                   cultural heritage</term></note>
               <note type="realization">
@@ -35480,7 +35542,9 @@
                 Papers</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#english-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">literary editing, auden musulin, letters, archival papers,
                   digital editing</term></note>
               <note type="realization">
@@ -35513,7 +35577,9 @@
               <eventName xml:lang="en">Digital Museology</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#museology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">museums, exhibitions, technology, curation,
                   interaction</term></note>
               <note type="realization">
@@ -35535,7 +35601,9 @@
                 (600-1600 CE)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">islamic history, social modeling, premodern era, middle
                   east, historical analysis</term></note>
               <note type="realization">
@@ -35557,7 +35625,9 @@
                 History</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">visualization, cultural heritage, art history, mnemonic,
                   revolutions</term></note>
               <note type="realization">
@@ -35579,7 +35649,9 @@
               <eventName xml:lang="en">Digital Archaeology</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#archaeology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">archaeology, digital tools, data analysis, cultural
                   heritage, virtual reconstruction</term></note>
               <note type="realization">
@@ -35601,7 +35673,9 @@
                 historical ecology and pandemics in silico and in nature</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">environmental studies, climate change, ecology, pandemics,
                   simulation</term></note>
               <note type="realization">
@@ -35623,7 +35697,9 @@
                 Perspectives and Challenges of a Collaborative Project</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/collaborating"/>
                 <term type="topics-llm">collaborative project, digital republic, perspectives,
                   challenges, reassembled</term></note>
               <note type="realization">
@@ -35645,7 +35721,9 @@
                 Analysis</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">ottoman, travelogues, nature, historical analysis,
                   multimodal</term></note>
               <note type="realization">
@@ -35666,7 +35744,9 @@
               <eventName xml:lang="en">Digital Silk Road Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">silk road, digital, studies, history, culture</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -35702,7 +35782,9 @@
               <eventName xml:lang="en">Introducing Digital Humanities @ Uni Vienna</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">text analysis, university of vienna, introductory, academic,
                   education</term></note>
               <note type="realization">
@@ -35724,7 +35806,9 @@
               <eventName xml:lang="en">Data Driven Insights in Art Museums' Collections</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#museology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">data analysis, art collections, museum studies, cultural
                   analytics, data visualization</term></note>
               <note type="realization">
@@ -35746,7 +35830,9 @@
                 Language Models</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">artificial intelligence, information leaks, language models,
                   data privacy, machine learning</term></note>
               <note type="realization">
@@ -35767,7 +35853,9 @@
               <eventName xml:lang="en">Big, Linked, Cultural Heritage Data</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">big, linked, cultural heritage, data,
                 information</term></note>
               <note type="realization">
@@ -35789,7 +35877,9 @@
                 sorts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">predictive modeling, text editing, future technologies,
                   methodologies, innovation</term></note>
               <note type="realization">
@@ -35811,7 +35901,9 @@
                 Creating a Structured Overview of DH Resources in Austria (and Beyond)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">digital, resources, austria, overview,
                 structured</term></note>
               <note type="realization">
@@ -35833,7 +35925,9 @@
                 and Communication</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">european heritage, visual analysis, curation, communication,
                   tangible intangible</term></note>
               <note type="realization">
@@ -35855,7 +35949,9 @@
                 Intelligence</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">artificial intelligence, scholarly editing, text analysis,
                   machine learning, academic research</term></note>
               <note type="realization">
@@ -35877,7 +35973,9 @@
                 History of Epidemics, Environment and Climate</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">virus, computer, data, epidemics, climate</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -35897,7 +35995,9 @@
               <eventName xml:lang="en">Meet Tropy: Your Portable Archive Reading Room</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">archives, software, accessibility, portability,
                 tools</term></note>
               <note type="realization">
@@ -35919,7 +36019,9 @@
                 Historical Newspapers</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text analysis, historical newspapers, lists, scale, small
                   texts</term></note>
               <note type="realization">
@@ -35937,7 +36039,9 @@
               <eventName xml:lang="en">Digital Explorations on the Ancient Silk Road</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">silk road, ancient, exploration, digital,
                 history</term></note>
               <note type="realization">
@@ -35971,7 +36075,9 @@
                   current and future challenges.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">linguistics, language data, information technology,
                   interdisciplinary, computational linguistics</term></note>
               <note type="realization">
