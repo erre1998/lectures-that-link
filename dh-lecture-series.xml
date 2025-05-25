@@ -27110,7 +27110,10 @@
                   eingehen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#theology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing 
+                  https://vocabs.dariah.eu/tadirah/sentimentAnalysis"/>
                 <term type="topics-llm">patristic texts, textual criticism, critical editions, tei
                   encoding, open access</term></note>
               <note type="realization">
@@ -27176,7 +27179,10 @@
                 </list>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing
+                  https://vocabs.dariah.eu/tadirah/collecting"/>
                 <term type="topics-llm">standardization, interoperability, tei guidelines, digital
                   editions, categorization</term></note>
               <note type="realization">
@@ -27224,7 +27230,9 @@
                   Quellentypus ableiten und umsetzen lässt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/contextualizing"/>
                 <term type="topics-llm">linked data, semantic web, historical data, ontology, data
                   visualization</term></note>
               <note type="realization">
@@ -27272,7 +27280,9 @@
                   salienter Sprachhandlungsmuster darstellt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
                 <term type="topics-llm">resistance, annotation, sociopragmatics, german history,
                   linguistic analysis</term></note>
               <note type="realization">
@@ -27340,7 +27350,11 @@
                   (https://www.bbaw.de/bbaw-digital/telota).</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis 
+                  https://vocabs.dariah.eu/tadirah/visualAnalysis
+                  https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">travel, alexander von humboldt, data visualization,
                   geospatial analysis, historical research</term></note>
               <note type="realization">
@@ -27409,7 +27423,10 @@
                   urn:nbn:de:kobv:b4-opus-12747</bibl>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/programming 
+                  https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">academia, information technology, research tools, digital
                   transformation, institutional collaboration</term></note>
               <note type="realization">
@@ -27479,7 +27496,10 @@
                   Textsortenbeschreibung eingehen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzinh 
+                  https://vocabs.dariah.eu/tadirah/enriching"/>
                 <term type="topics-llm">text types, corpus linguistics, linguistic analysis,
                   quantitative methods, historical texts</term></note>
               <note type="realization">
