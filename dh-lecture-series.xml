@@ -26786,7 +26786,9 @@
                   2016. https://doi.org/10.1038/sdata.2016.18</bibl>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
                 <term type="topics-llm">fair principles, global inequality, cultural diversity, open
                   access, social justice</term></note>
               <note type="realization">
@@ -26862,7 +26864,9 @@
                   Monuments eingehen zu können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">heritage conservation, cultural preservation, monument
                   diversity, historical narratives, machine learning.</term></note>
               <note type="realization">
@@ -26908,7 +26912,9 @@
                   Projekte nützlich sein können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">speech representation, corpus linguistics, machine learning,
                   annotation, german language</term></note>
               <note type="realization">
@@ -26962,7 +26968,9 @@
                   beantworten Fragen zu den neuen dynamischen Formaten im DWDS.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/gamification"/>
                 <term type="topics-llm">linguistic change, covid-19, word games, etymology, language
                   trends</term></note>
               <note type="realization">
