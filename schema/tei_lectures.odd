@@ -540,6 +540,81 @@
               <place corresp="#bologna"/>
             </org>
           </egXML>
+          <div xml:id="universities">
+            <head>Universities</head>
+            <p>As described above, all organizations, including all university entries, are assigned
+              an ID. Unlike those of other organizations, university IDs always begin with
+                <val>uni-</val> or <val>fh-</val> followed by a unique part, typically derived from
+              the name or location of the institution. For example, the University of Rostock is
+              captured as follows:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <org xml:id="uni-rostock" type="university">
+                <name xml:lang="de">Universität Rostock</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q159895</idno>
+                <place corresp="#rostock"/>
+              </org>
+            </egXML>
+            <p>In order to maintain clarity and allow for future adjustments, the names of
+              universities are standardized. For instance, "Julius-Maximilians-Universität Würzburg"
+              is shortened to "Universität Würzburg", and the corresponding ID becomes
+                <val>uni-wuerzburg</val>:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <org xml:id="uni-wuerzburg" type="university">
+                <name xml:lang="de">Universität Würzburg</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q161976</idno>
+                <place corresp="#wuerzburg"/>
+              </org>
+            </egXML>
+            <p>This simplification also reduces the need for updates when a university undergoes
+              rebranding or changes its name, such as in the case of the recent shift in Münster
+              from "Westfälische Wilhelms-Universität Münster" to "Universität Münster".</p>
+            <p>When multiple universities exist within the same city, additional distinctions are
+              added to the ID to avoid confusion. These distinctions are appended to the base ID
+              formed by the university's type and location. For example, in London, where several
+              institutions exist, their IDs are distinguished as follows:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <org xml:id="uni-london-city" type="university">
+                <name xml:lang="en">City, University of London</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q1094046</idno>
+                <place corresp="#london"/>
+              </org>
+              <org xml:id="uni-london-ucl" type="university">
+                <name xml:lang="en">University College London</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q193196</idno>
+                <place corresp="#london"/>
+              </org>
+              <org xml:id="uni-london-kcl" type="university">
+                <name xml:lang="en">King’s College London</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q245247</idno>
+                <place corresp="#london"/>
+              </org>
+            </egXML>
+            <p>In contrast, Berlin presents another situation, as the German naming convention is
+              that distinctions should precede the city name, resulting in IDs such as:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <org xml:id="uni-fu-berlin" type="university">
+                <name xml:lang="de">Freie Universität Berlin</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q153006</idno>
+                <place corresp="#berlin"/>
+              </org>
+              <org xml:id="uni-hu-berlin" type="university">
+                <name xml:lang="de">Humboldt-Universität zu Berlin</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q152087</idno>
+                <place corresp="#berlin"/>
+              </org>
+              <org xml:id="uni-tu-berlin" type="university">
+                <name xml:lang="de">Technische Universität Berlin</name>
+                <idno type="wikidata">https://www.wikidata.org/wiki/Q51985</idno>
+                <place corresp="#berlin"/>
+              </org>
+            </egXML>
+            <p>As with all organizations in the dataset, each university is assigned an external
+              identifier, referenced through the <gi>idno</gi> element, which refers to the
+              university’s Wikidata entry.</p>
+          </div>
+          <div xml:id="research-institutions">
+            <head>Research Institutions</head>
+          </div>
         </div>
       </div>
     </body>

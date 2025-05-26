@@ -14,7 +14,7 @@ import time
 input_file = "/home/ulrike/Git/lectures-that-link/dh-lecture-series.xml"
 output_file = "/home/ulrike/Git/lectures-that-link/analyses/llm-keyword-responses.xml"
 
-api_key = "7bFAj15ML05fv96SEt9iSuhOg7K2mtXp"
+api_key = os.environ["MISTRAL_API_KEY"]
 model = "mistral-large-latest"
 
 client = Mistral(api_key=api_key)
@@ -35,9 +35,6 @@ for lecture in lectures[800:895]:
 	abstract = re.sub(r"\s+", " ", abstract)
 	xml_id = lecture.xpath("@xml:id", namespaces={"tei":"http://www.tei-c.org/ns/1.0"})
 	
-	#title = "Modellazione di oggetti digitali nel contesto del Web Semantico"
-	#abstract = "Quando si ha a che fare con oggetti digitali – siano essi immagini, testi o audio – è necessario sempre corredarli di una descrizione, che ne specifichi i dettagli. Ad esempio, se si ha la scansione di un manoscritto, è necessario fornire informazioni aggiuntive quali il nome dell’autore e il luogo in cui il manoscritto è stato scritto. Al fine di rappresentare correttamente le informazioni a corredo degli oggetti digitali, si dovrebbero utilizzare ontologie specifiche e standardizzate. Questo seminario ha lo scopo di offrire una panoramica su come modellare gli oggetti digitali attraverso le ontologie sviluppate nel contesto del Web Semantico. In particolare, il seminario si concentrerà sull’ontologia sviluppata dalla nota community di Europeana, la Europeana Data Model (EDM) e cercherà di dare agli studenti gli strumenti per costruire semplici modellazioni di oggetti digitali."
-	#xml_id  = "ls2_t8_l3"
 	message_title = "Title: " + title
 	message_abstract = "Abstract: " + abstract
 
