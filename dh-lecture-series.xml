@@ -1243,6 +1243,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q371522</idno>
             <place corresp="#gothenburg"/>
           </org>
+          <org xml:id="uni-porto" type="university">
+            <name xml:lang="pt">Universidade do Porto</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1422903</idno>
+            <place corresp="#porto"/>
+          </org>
           <!-- ##### Research Institutions ##### -->
           <org xml:id="mpi-eva" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für evolutionäre Anthropologie (MPI EVA)</name>
@@ -8210,6 +8215,30 @@
             </name>
             <idno type="orcid">https://orcid.org/0000-0002-0445-7118</idno>
           </person>
+          <person xml:id="liu_ying-hsang" sex="MALE">
+            <name>
+              <forename>Ying-Hsang</forename>
+              <surname>Liu</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-6504-4598</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59175325</idno>
+          </person>
+          <person xml:id="pestana_olivia" sex="FEMALE">
+            <name>
+              <forename>Olívia</forename>
+              <surname>Pestana</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-5485-3143</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64515390</idno>
+          </person>
+          <person xml:id="golub_koraljka" sex="FEMALE">
+            <name>
+              <forename>Koraljka</forename>
+              <surname>Golub</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-4169-4777</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59101677</idno>
+          </person>
         </listPerson>
       </particDesc>
       <settingDesc>
@@ -9066,6 +9095,11 @@
             <country ref="#portugal"/>
             <name>Lisbon</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010978</idno>
+          </place>
+          <place type="city" xml:id="porto">
+            <country ref="#portugal"/>
+            <name>Porto</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7010979</idno>
           </place>
           <!-- ######## Czech cities ######## -->
           <place type="city" xml:id="karlova">
@@ -41629,7 +41663,8 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities #computer-science"/>
-                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/dataVisualization https://vocabs.dariah.eu/tadirah/enriching https://vocabs.dariah.eu/tadirah/informationRetrieval"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/dataVisualization https://vocabs.dariah.eu/tadirah/enriching https://vocabs.dariah.eu/tadirah/informationRetrieval"/>
                 <term type="topics-llm"/>
               </note>
               <note type="realization">
@@ -41642,6 +41677,73 @@
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
                   <affiliation corresp="#uni-southern-denmark"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-porto"/>
+            </event>
+            <event xml:id="ls34_t1_l2" type="lecture" when="2021-06-30">
+              <eventName xml:lang="en">Interlinking Cultural Heritage Collections via Scholarly
+                Citation Networks</eventName>
+              <ptr type="video" target="https://youtu.be/dBHCW7bxJDk"/>
+              <note type="abstract" xml:lang="en">
+                <p>Cultural heritage collections, particularly of GLAM organizations (Galleries,
+                  Libraries, Archives, Museums), provide essential primary evidence to humanities
+                  scholars. Such collections have rapidly undergone digitization and are
+                  increasingly described and made accessible as linked data. This presents an
+                  opportunity: to interlink cultural heritage collections with scholarship via
+                  citations, using knowledge graphs. Humanities scholarship contains a wealth of
+                  references to primary sources which, when made into a knowledge graph, could
+                  greatly enhance the findability, accessibility, interoperability, and reusability
+                  (FAIR) of heritage collections in turn.</p>
+                <p>In this session, we present a brief overview of modern-day knowledge organization
+                  approaches relying on linked data in cultural heritage organizations, and do the
+                  same for databases of scholarly publications and their citations. We then showcase
+                  a prototype citation index on the historiography on Venice, which uses citations
+                  to primary sources for enhancing the accessibility of archival records and makes
+                  use of OpenCitations, an linked data infrastructure for citations.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData https://vocabs.dariah.eu/tadirah/collecting"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <!-- Giovanni Colavizza – University of Amsterdam -->
+                <person role="speaker" corresp="#">
+                  <name> <roleName type="title"></roleName>
+                  </name>
+                  <affiliation corresp="#uni-amsterdam"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-porto"/>
+            </event>
+            <event xml:id="ls34_t1_l3" type="lecture" when="2021-09-30">
+              <eventName xml:lang="en">...</eventName>
+              <ptr type="video" target="https://youtu.be/9x_Lad4TcRc"/>
+              <note type="abstract" xml:lang="en">
+                <p>...</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#"/>
+                <term type="topic"
+                  corresp="#"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <!-- Jaqueline Pierazzo – University of Porto  -->
+                <person role="speaker" corresp="#">
+                  <name><roleName type="title"></roleName>
+                  </name>
+                  <affiliation corresp="#uni-porto"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-porto"/>
