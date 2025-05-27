@@ -28226,7 +28226,10 @@
                   evaluation, 2285–2292. Portoroz, Slovenia.</bibl>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing 
+                  https://vocabs.dariah.eu/tadirah/contentAnalysis"/>
                 <term type="topics-llm">semantic analysis, lexical resources, noun compounds, human
                   ratings, computational models</term></note>
               <note type="realization">
@@ -28300,7 +28303,10 @@
                   https://www.bmas.de/SharedDocs/Downloads/DE/Teilhabe/uebereinkommen-ueber-die-rechte-behinderter-menschen.pdf?__blob=publicationFile&amp;v=2</bibl>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/publishing 
+                  https://vocabs.dariah.eu/tadirah/designing"/>
                 <term type="topics-llm">accessibility, inclusivity, digital editions, fair
                   principles, evaluation methods</term></note>
               <note type="realization">
@@ -28335,7 +28341,10 @@
                   Fallbeispiele gezeigt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/mqchineLearning 
+                  https://vocabs.dariah.eu/tadirah/dataMining"/>
                 <term type="topics-llm">active learning, corpus linguistics, dictionary compilation,
                   machine learning, natural language processing</term></note>
               <note type="realization">
@@ -28398,7 +28407,10 @@
                   grundlegend neuen Weise medial vermittelt werden können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/publishing 
+                  https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">digital edition, uwe johnson, literary analysis, textual
                   scholarship, digital infrastructure</term></note>
               <note type="realization">
@@ -28462,7 +28474,9 @@
                   creating a digital governance model for LEGACY.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">ai, web 3, memoirs, preservation, governance</term></note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -28502,7 +28516,10 @@
                   Perspektive diskutiert.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history #linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing 
+                  https://vocabs.dariah.eu/tadirah/gathering"/>
                 <term type="topics-llm">historical text corpora, lexicography, text analysis, data
                   quality, word history</term></note>
               <note type="realization">
@@ -28550,7 +28567,9 @@
                   ZDL vor, die diese beiden Tools und weitere frei verfügbare Tools kombiniert.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies #linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
                 <term type="topics-llm">corpus annotation, tools, language processing, lexicography,
                   linguistics</term></note>
               <note type="realization">
@@ -28611,7 +28630,10 @@
                   Open-Source-Lizenz reproduziert werden kann.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies ##linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/gathering 
+                  https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">songtext analysis, lexicography, linguistics, data
                   collection, text corpora</term></note>
               <note type="realization">
@@ -28699,7 +28721,9 @@
                   vorschlagen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/gathering"/>
                 <term type="topics-llm">lexicography, literary texts, language use, digital corpora,
                   press language</term></note>
               <note type="realization">
@@ -28743,7 +28767,10 @@
                   mit sich?</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/programming 
+                  https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">prompt engineering, large language models, agentic
                   workflows, artificial intelligence, interdisciplinary applications</term></note>
               <note type="realization">
@@ -28778,7 +28805,9 @@
                   Programmierkenntnisse oder besondere technische Voraussetzungen verfügen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/collecting"/>
                 <term type="topics-llm">instagram, social media, multimodal data, ephemeral data,
                   data collection</term></note>
               <note type="realization">
@@ -28816,7 +28845,9 @@
                   aus weiblichen, neutralen und diversen Figuren-Referenzen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">gender analysis, computational literary studies, gender
                   representation, historical texts, contemporary texts</term></note>
               <note type="realization">
@@ -28859,7 +28890,9 @@
                   aktuelle Arbeiten sowie ein Ausblick auf zukünftige Entwicklungen gegeben.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition"/>
                 <term type="topics-llm">ocr, text recognition, historical documents, open source,
                   workflow</term></note>
               <note type="realization">
@@ -28899,7 +28932,10 @@
                   das Retrievalergebnis anschaulich vorgestellt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/dataMining 
+                  https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">retrieval augmented generation, large language models, data
                   retrieval, chat prompting, fine-tuning</term></note>
               <note type="realization">
@@ -28937,7 +28973,10 @@
                   westliche Sprache bereitstellt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#linguistics"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzinh 
+                  https://vocabs.dariah.eu/tadirah/enriching"/>
                 <term type="topics-llm">lexicology, lexicography, manchu language, historical
                   dictionaries, computational linguistics</term></note>
               <note type="realization">
