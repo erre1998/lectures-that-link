@@ -1832,6 +1832,22 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="dion_charlotte" sex="FEMALE">
+            <name>
+              <forename>Charlotte</forename>
+              <surname>Dion</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-4381-2725</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134602748</idno>
+          </person>
+          <person xml:id="mpouli_suzanne" sex="FEMALE">
+            <name>
+              <forename>Suzanne</forename>
+              <surname>Mpouli</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-2333-8712</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134602730</idno>
+          </person>
           <person xml:id="sperberg-mc-queen_michael" sex="MALE">
             <name>
               <forename>Michael</forename>
@@ -16245,7 +16261,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-paris-cite"/>
             </event>
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte"/>
           </event>
           <event type="lecture-series-term" from="2023-01" to="2023-04" xml:id="ls4_t2">
             <eventName xml:lang="fr">Saison 2</eventName>
@@ -16273,6 +16289,8 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250504232730/https://u-paris.fr/bibliotheques/rdv-chn-5-sobriete-numerique/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250528215523/https://chnsh.hypotheses.org/files/2023/01/Flipo_sobriete_numerique_20230126.pdf"/>
               <listPerson>
                 <person role="speaker" corresp="#flipo_fabrice">
                   <name>
@@ -16390,6 +16408,8 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250504233603/https://u-paris.fr/bibliotheques/rdv-chn-8-programmation-lettree/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250528215713/https://rysebaert.gitpages.huma-num.fr/rdv_chn/#/title-slide"/>
               <listPerson>
                 <person role="speaker" corresp="#ysebaert_ronan">
                   <name>
@@ -16400,7 +16420,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-paris-cite"/>
             </event>
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte"/>
           </event>
         </event>
         <event xml:id="ls5" type="lecture-series" where="#rouen">
