@@ -13642,7 +13642,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2020-01" to="2020-03" xml:id="ls3_t2">
             <eventName xml:lang="it">Spring Term 2020/1</eventName>
@@ -13675,6 +13675,8 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20240911173847/https://www.unive.it/data/33113/2/35803"/>
+              <ptr type="video"
+                target="https://www.youtube.com/watch?v=ZvMHvNPATwM"/>
               <listPerson>
                 <person role="speaker" corresp="#campagnolo_alberto">
                   <name>
@@ -13749,7 +13751,7 @@
                 <term type="speech">cancelled</term>
               </note>
               <ptr type="programme"
-                target="https://apps.unive.it/server/eventi/37701/VeDPH%20sem%202020-01OK.pdf"/>
+                target="https://web.archive.org/web/20250528165401/https://www.unive.it/data/33113/2/36458"/>
               <listPerson>
                 <person role="speaker" corresp="#tonelli_sara">
                   <name>
@@ -13847,7 +13849,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2020-04" to="2020-05" xml:id="ls3_t3">
             <eventName xml:lang="it">Spring Term 2020/2</eventName>
@@ -14125,7 +14127,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2020-09" to="2020-12" xml:id="ls3_t4">
             <eventName xml:lang="en">Autumn Term 2020</eventName>
@@ -14371,7 +14373,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2021-02" to="2021-05" xml:id="ls3_t5">
             <eventName xml:lang="en">Spring Term 2021</eventName>
@@ -14704,7 +14706,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2021-09" to="2021-12" xml:id="ls3_t6">
             <eventName xml:lang="en">Autumn Term 2021</eventName>
@@ -14924,7 +14926,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2022-01" to="2022-05" xml:id="ls3_t7">
             <eventName xml:lang="en">Spring Term 2022</eventName>
@@ -15116,7 +15118,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2022-09" to="2022-12" xml:id="ls3_t8">
             <eventName xml:lang="en">Autumn Term 2022</eventName>
@@ -15338,7 +15340,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2023-02" to="2023-05" xml:id="ls3_t9">
             <eventName xml:lang="en">Spring Term 2023</eventName>
@@ -15522,7 +15524,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2023-09" to="2023-12" xml:id="ls3_t10">
             <eventName xml:lang="en">Autumn Term 2023</eventName>
@@ -15694,7 +15696,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2024-02" to="2024-06" xml:id="ls3_t11">
             <eventName xml:lang="en">Spring Term 2024</eventName>
@@ -15920,7 +15922,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
           <event type="lecture-series-term" from="2024-10" to="2024-12" xml:id="ls3_t12">
             <eventName xml:lang="en">Autumn Term 2024</eventName>
@@ -16092,7 +16094,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#uni-venezia"/>
+            <org role="organizer" corresp="#fischer_franz"/>
           </event>
         </event>
         <!-- ##### France ##### -->
@@ -24157,6 +24159,8 @@
               </note>
               <ptr type="abstract"
                 target="https://web.archive.org/web/20250422082647/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/investigating-the-evolution-of-early-modern-european-drama-with-digital-methods-232701/"/>
+              <ptr type="slides"
+                target="https://doi.org/10.5281/zenodo.15353470"/>
               <listPerson>
                 <person role="speaker" corresp="#giovannini_luca">
                   <name>
@@ -24200,6 +24204,8 @@
               </note>
               <ptr type="abstract"
                 target="https://web.archive.org/web/20250428135832/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/im-haus-und-unter-dem-himmel-artefakte-und-natuerliche-raeume-im-spanischsprachigen-roman-des-19-jahrhunderts-236641/"/>
+              <ptr type="slides"
+                target="https://doi.org/10.5281/zenodo.15379123"/>
               <listPerson>
                 <person role="speaker" corresp="#henny-krahmer_ulrike">
                   <name>
@@ -24256,7 +24262,12 @@
               <eventName xml:lang="de">Kulturelles Erbe digital erschließen. Inwertsetzungen und
                 notwendige Kontextualisierungen aus Perspektive der kulturwissenschaftlichen Digital
                 Humanities</eventName>
-              <note type="abstract" xml:lang="en">not found</note>
+              <note type="abstract" xml:lang="de">
+              <p>Zwischen Wirtshaus, Restaurant und Vereinsheim liegt der Saalbetrieb als halböffentliche Institution des Gaststättengewerbes. Es handelt sich um ein bislang kaum beleuchtetes, jedoch breit in die Gesellschaft hineinwirkendes kulturelles Erbe in tiefgreifender Transformation. Die gesellschaftliche Bedeutung gerade für den ländlichen Raum in Vergangenheit und Gegenwart, aber auch für die Zukunft ist hoch, finden hier doch identitätsstiftende Veranstaltungen von Vereinsfeiern über Hochzeiten bis hin zum Beerdigungskaffee statt.</p>
+              <p>Wie lassen sich diese Bedeutungszusammenhänge als immaterielles Kulturerbe digital erschließen, wo Kontexte durch die überlieferten materiellen Artefakte nur unzureichend dargestellt werden können? Im Rahmen des Projektes „Alltagskultur in Niedersachsen digital“ werden einzelne Saalbetriebe mit ihren heterogenen Beständen bearbeitet, um diese Frage zu beantworten.</p>
+              <p>Digitale Datensammlungen wissenschaftlicher Forschung unterscheiden sich in der Regel von solchen kuratierter musealer Sammlungen: Während durch Forschung entstandene Datensätze oft nicht öffentlich zugänglich sind, haben museale Sammlungen primär das Ziel der Dokumentation und Präsentation. Durch forschende Erschließung werden diese Ansätze miteinander verbunden. Statt einer reinen Kuratierung historischer Bestände werden diese in aktuelle Interpretationen eingebunden, indem kontextualisierende Interviews und Fotodokumentationen mit der Digitalisierung und Erschließung zusammengeführt werden.</p>
+              <p>Im Rahmen des Vortrags werden die zugehörige Datenmodellierung und das Konzept der forschenden Erschließung anhand von ausgewählten Beispielen zur Diskussion gestellt.</p>
+              </note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archive, heritage, contextualization, valuation,
@@ -24265,7 +24276,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="abstract" target="https://web.archive.org/web/20250528145930/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/kulturelles-erbe-digital-erschliessen-inwertsetzungen-und-notwendige-kontextualisierungen-aus-perspektive-der-kulturwissenschaftlichen-digital-humanities-232709/"/>
               <listPerson>
                 <person role="speaker" corresp="#franken_lina">
                   <name>
@@ -24279,7 +24290,21 @@
             <event type="lecture" when="2025-05-26" xml:id="ls10_t5_l7">
               <eventName xml:lang="en">The Transformative Impact of Digital Humanities on the Study
                 of Historical Manuscripts</eventName>
-              <note type="abstract" xml:lang="en">not found</note>
+              <note type="abstract" xml:lang="en">
+              <p>This presentation explores how digital technologies are reshaping the study of historical manuscripts. From digitisation and metadata structuring to computational analysis and open data, researchers today can access, analyse, and interpret manuscript material in ways previously unimaginable.</p>
+              <p>Key topics include:</p>
+              <list>
+              <item>What historical manuscripts are and why they matter</item>
+              <item>Challenges in traditional manuscript research, including the digitisation of fragile materials requiring conservation-aware practices</item>
+              <item>Digital tools and methods, such as high-resolution scanning, multispectral imaging, structured metadata, and automated text recognition (OCR/HTR)</item>
+              <item>The “collection as data” approach, which enables large-scale computational research using datasets from platforms like Transkribus, Fragmentarium, British Library, and CERL</item>
+              <item>Use of tools such as Voyant Tools and Python for textual, statistical, and semantic analysis</item>
+              <item>Example of digital initiatives in Glagolitic manuscripts – Zadar University</item>
+              <item>GLAMLabs (Galleries, Libraries, Archives, and Museums Labs) as spaces for innovation, collaboration, and support for researchers working with digitised cultural heritage</item>
+              <item>Practical guidance on accessing open manuscript datasets and responsibly conducting digital research</item>
+              </list>
+              <p>By integrating traditional manuscript expertise with digital innovation, this presentation emphasizes the importance of collaboration, infrastructure, and openness in advancing manuscript studies for the digital age.</p>
+              </note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">manuscripts, historical, study, impact,
@@ -24288,7 +24313,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="abstract" target="https://web.archive.org/web/20250528145222/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/the-transformative-impact-of-digital-humanities-on-the-study-of-historical-manuscripts-232711/"/>
               <listPerson>
                 <person role="speaker" corresp="#tomic_marijana">
                   <name>
@@ -24302,7 +24327,9 @@
             <event type="lecture" when="2025-06-02" xml:id="ls10_t5_l8">
               <eventName xml:lang="de">Disiecta Membra als disiecta data? Herausforderungen in einem
                 archäologischen Langzeitvorhaben</eventName>
-              <note type="abstract" xml:lang="en">not found</note>
+              <note type="abstract" xml:lang="de">
+              <p>Die römische Steinarchitektur stellt einen einmaligen Schatz des kulturellen Erbes dar, der frühe Formen des urbanen Lebens in Deutschland bezeugt. Römische Bauten prägten vielerorts als Ruinen bis ins Hochmittelalter die Landschaft und waren daher stärker als andere antike Hinterlassenschaften im Bewusstsein der Bevölkerung verankert. Sie wurden kontinuierlich umgenutzt oder als Steinbruch verwendet, beispielsweise beim Bau neuer Stadtmauern. Deren Schleifungen wiederum führten zu einer Wiederentdeckung der antiken Architekturglieder. Diese und andere Überreste machen den Großteil der römischen Steinarchitektur in Deutschland aus, die bisher mehrheitlich noch nicht dokumentiert und ausgewertet wurden. Das Langzeitvorhaben „Disiecta Membra. Steinarchitektur und Städtewesen im römischen Deutschland“ will rund 25.000 dieser Bauglieder und 5.000 Baubefunde in einer digitalen Edition erschließen und FAIR publizieren, u.a. in Infrastrukturen des Deutschen Archäologischen Instituts (iDAI.world) und des FID Altertumswissenschaften „Propylaeum“ (Propylaeum-VITAE). Dabei ergeben sich natürlich zahlreiche Herausforderungen an konzeptuelle Strukturierung, Qualität, Nachhaltigkeit undTransparenz der Daten, die stets vor dem Hintergrund der langen Laufzeit des Vorhabens zu sehen sind. Der Vortrag beleuchtet oZene Fragen und erste Lösungen, wie die Erfassung der disiecta membra nicht zu disiecta data, sondern zu einer integrierten, nachhaltig verfügbaren Forschungsressource für die römische (digitale) Archäologieführen kann.</p>
+              </note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, data management, long-term projects,
@@ -24311,7 +24338,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="abstract" target="https://web.archive.org/web/20250528150033/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
               <listPerson>
                 <person role="speaker" corresp="#deicke_aline">
                   <name>
@@ -39981,8 +40008,8 @@
             <!-- 2022-06-20  |  https://web.archive.org/web/20250427165149/https://platformdh.uantwerpen.be/index.php/event/lecture-series-gerhard-lauer/ -->
             <!-- 2022-06-27  |  https://web.archive.org/web/20250427165248/https://platformdh.uantwerpen.be/index.php/event/lecture-series-peter-stokes/ -->
             <!-- 2022-10-22  |  https://platformdh.uantwerpen.be/index.php/event/francqui-chair-masterclass-lost-and-often-found-works/  
-  Not a lecture but a discussion round; it is listed among the contributions to the lecture series, 
-  but unlike the others, it is not labeled as "Lecture Series"; we will cancel it -->
+            Not a lecture but a discussion round; it is listed among the contributions to the lecture series, 
+            but unlike the others, it is not labeled as "Lecture Series"; we will cancel it -->
             <!-- 2023-03-06  |  https://web.archive.org/web/20250427165520/https://platformdh.uantwerpen.be/index.php/event/lecture-series-megan-gooch/ -->
             <!-- 2023-03-27  |  https://web.archive.org/web/20250427170654/https://platformdh.uantwerpen.be/index.php/event/lecture-series-nicholas-cornia/ -->
             <!-- 2023-06-26  |  https://web.archive.org/web/20250427165751/https://platformdh.uantwerpen.be/index.php/event/lecture-series-enrique-manjavacas-arevalo/ -->
