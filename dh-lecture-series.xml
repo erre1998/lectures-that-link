@@ -1902,6 +1902,189 @@
           </org>
         </listOrg>
         <listPerson>
+        <listPerson>
+          <person xml:id="donadelli_giovanni" sex="MALE">
+            <name>
+              <forename>Giovanni</forename>
+              <surname>Donadelli</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0009-0002-6138-7846</idno>
+          </person>
+          <person xml:id="buzzoni_marina" sex="FEMALE">
+            <name>
+              <forename>Marina</forename>
+              <surname>Buzzoni</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-9306-6599</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107362334</idno>
+          </person>
+          <person xml:id="hess_mona" sex="FEMALE">
+            <name>
+              <forename>Mona</forename>
+              <surname>Hess</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-7298-7631</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59917253</idno>
+          </person>
+          <person xml:id="hentschel_frank" sex="MALE">
+            <name>
+              <forename>Frank</forename>
+              <surname>Hentschel</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-9441-3396</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62559941</idno>
+          </person>
+          <person xml:id="abiven_karine" sex="FEMALE">
+            <name>
+              <forename>Karine</forename>
+              <surname>Abiven</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-9518-1040</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q121065381</idno>
+          </person>
+          <person xml:id="bartz_alexandre" sex="MALE">
+            <name>
+              <forename>Alexandre</forename>
+              <surname>Bartz</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-0850-8266</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q122750832</idno>
+          </person>
+          <person xml:id="saignol_come" sex="MALE">
+            <name>
+              <forename>Côme</forename>
+              <surname>Saignol</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-2323-6636</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134609127</idno>
+          </person>
+          <person xml:id="borgna_alice" sex="FEMALE">
+            <name>
+              <forename>Alice</forename>
+              <surname>Borgna</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-6668-9515</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107361218</idno>
+          </person>
+          <person xml:id="niknia_massoomeh" sex="FEMALE">
+            <name>
+              <forename>Massoomeh</forename>
+              <surname>Niknia</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0009-0007-5247-3829</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134609175</idno>
+          </person>
+          <person xml:id="kramer_iris" sex="FEMALE">
+            <name>
+              <forename>Iris</forename>
+              <surname>Kramer</surname>
+            </name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134609190</idno>
+          </person>
+          <person xml:id="da-costa_georges" sex="MALE">
+            <name>
+              <forename>Georges</forename>
+              <surname>Da Costa</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-3365-7709</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64627289</idno>
+          </person>
+          <person xml:id="heusinger_klaus-von" sex="MALE">
+            <name>
+              <forename>Klaus</forename>
+              <nameLink>von</nameLink>
+              <surname>Heusinger</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-8108-3191</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62560618</idno>
+          </person>
+          <person xml:id="niklas_jedrzej" sex="MALE">
+            <name>
+              <forename>Jędrzej</forename>
+              <surname>Niklas</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-2878-3134</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134609214</idno>
+          </person>
+          <person xml:id="schroeder_max" sex="MALE">
+            <name>
+              <forename>Max</forename>
+              <surname>Schröder</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-1522-494X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62036972</idno>
+          </person>
+          <person xml:id="theise_antje" sex="FEMALE">
+            <name>
+              <forename>Antje</forename>
+              <surname>Theise</surname>
+            </name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q104445825</idno>
+          </person>
+          <person xml:id="krueger_frank" sex="MALE">
+            <name>
+              <forename>Frank</forename>
+              <surname>Krüger</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-7925-3363</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59690155</idno>
+          </person>
+          <person xml:id="nantke_julia" sex="FEMALE">
+            <name>
+              <forename>Julia</forename>
+              <surname>Nantke</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-8037-1009</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595862</idno>
+          </person>
+          <person xml:id="uribe_jorge" sex="MALE">
+            <name>
+              <forename>Jorge</forename>
+              <surname>Uribe</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-9676-4544</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131105591</idno>
+          </person>
+          <person xml:id="sepulveda_pedro" sex="MALE">
+            <name>
+              <forename>Pedro</forename>
+              <surname>Sepúlveda</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-8371-4663</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131105365</idno>
+          </person>
+          <person xml:id="labahn_karsten" sex="MALE">
+            <name>
+              <forename>Karsten</forename>
+              <surname>Labahn</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-8482-807X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95270313</idno>
+          </person>
+          <person xml:id="meyer_holger" sex="MALE">
+            <name>
+              <forename>Holger</forename>
+              <surname>Meyer</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-5803-4911</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131153036</idno>
+          </person>
+          <person xml:id="lemke_marc" sex="MALE">
+            <name>
+              <forename>Marc</forename>
+              <surname>Lemke</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0009-0004-8065-8191</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131141888</idno>
+          </person>
+          <person xml:id="roeder_torsten" sex="MALE">
+            <name>
+              <forename>Torsten</forename>
+              <surname>Roeder</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-7043-7820</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57767595</idno>
+          </person>
           <person xml:id="dion_charlotte" sex="FEMALE">
             <name>
               <forename>Charlotte</forename>
@@ -2455,7 +2638,7 @@
             <idno type="orcid">https://orcid.org/0000-0002-5521-6445</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130815761</idno>
           </person>
-          <person xml:id="ros-munoz_salvado" sex="MALE">
+          <person xml:id="ros-munoz_salvador" sex="MALE">
             <name>
               <forename>Salvador</forename>
               <surname>Ros Muñoz</surname>
@@ -18324,7 +18507,7 @@
                 target="https://web.archive.org/web/20250124125315/https://wuebbena.github.io/dhc.html#/"/>
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj3"/>
               <listPerson>
-                <person role="speaker" corresp="#wübbena_thorsten">
+                <person role="speaker" corresp="#wuebbena_thorsten">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -22757,7 +22940,7 @@
                   </name>
                   <affiliation corresp="#uni-paderborn"/>
                 </person>
-                <person role="speaker" corresp="#anne_ferger">
+                <person role="speaker" corresp="#ferger_anne">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -22962,7 +23145,7 @@
                 target="https://web.archive.org/web/20241115004522/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-born-editing-models-for-historical-linguistics-studies-164419/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.10469768"/>
               <listPerson>
-                <person role="speaker" corresp="#bermúdez-sabel_helena">
+                <person role="speaker" corresp="#bermudez-sabel_helena">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
