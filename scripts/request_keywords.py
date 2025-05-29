@@ -20,14 +20,14 @@ model = "mistral-large-latest"
 client = Mistral(api_key=api_key)
 
 tree = etree.parse(input_file)
-lectures = tree.xpath("//tei:event[@type='lecture']", namespaces={"tei":"http://www.tei-c.org/ns/1.0"})
+lectures = tree.xpath("//tei:event[@type='lecture'][ancestor::tei:event[@type='lecture-series'][@xml:id='ls31']]", namespaces={"tei":"http://www.tei-c.org/ns/1.0"})
 
 message_intro = "Hello, I hope that you are well! I need your help with the following task: I have a list of talks from Digital Humanities lecture series and I need keywords that describe what each talk is about. I can give you the title and an abstract of each talk. In some cases, there is only a title and the abstract is 'not found'. In such cases, please give me the keywords based on the title alone. Please return a list of five keywords for every talk that I give to you. Please do not use the keyword 'digital humanities', as all the talks are from that field. The talks are in different languages. However, please return English keywords, not keywords in the original language of the talk if it is not English. Please use American English. Please return only the keywords in one line (no additional comments), separated by comma and with a whitespace after each comma (not before the comma). Please return the words in lower-case. Here is the first talk:"
 
 root = etree.Element("responses")
 n = 0
 
-for lecture in lectures[800:895]:
+for lecture in lectures:
 	title = lecture.xpath("tei:eventName[1]/text()", namespaces={"tei":"http://www.tei-c.org/ns/1.0"})
 	title = re.sub(r"\s+", " ", title[0])
 	abstract = lecture.xpath("tei:note[@type='abstract']//text()", namespaces={"tei":"http://www.tei-c.org/ns/1.0"})
