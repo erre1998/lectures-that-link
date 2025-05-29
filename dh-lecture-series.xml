@@ -9776,8 +9776,7 @@
               <org role="host-institution" corresp="#uni-padova"/>
             </event>
             <org role="organizer"
-              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco"
-            />
+              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2021-10" to="2022-04" xml:id="ls1_t2">
             <eventName xml:lang="en">2021/2022</eventName>
@@ -9943,8 +9942,7 @@
               <org role="host-institution" corresp="#uni-padova"/>
             </event>
             <org role="organizer"
-              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco"
-            />
+              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco" cert="low"/>
           </event>
         </event>
         <event xml:id="ls2" type="lecture-series" where="#pisa">
@@ -13658,7 +13656,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2020-01" to="2020-03" xml:id="ls3_t2">
             <eventName xml:lang="it">Spring Term 2020/1</eventName>
@@ -13865,7 +13863,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2020-04" to="2020-05" xml:id="ls3_t3">
             <eventName xml:lang="it">Spring Term 2020/2</eventName>
@@ -14143,7 +14141,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2020-09" to="2020-12" xml:id="ls3_t4">
             <eventName xml:lang="en">Autumn Term 2020</eventName>
@@ -14389,7 +14387,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2021-02" to="2021-05" xml:id="ls3_t5">
             <eventName xml:lang="en">Spring Term 2021</eventName>
@@ -14722,7 +14720,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2021-09" to="2021-12" xml:id="ls3_t6">
             <eventName xml:lang="en">Autumn Term 2021</eventName>
@@ -14942,7 +14940,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2022-01" to="2022-05" xml:id="ls3_t7">
             <eventName xml:lang="en">Spring Term 2022</eventName>
@@ -15134,7 +15132,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2022-09" to="2022-12" xml:id="ls3_t8">
             <eventName xml:lang="en">Autumn Term 2022</eventName>
@@ -15356,7 +15354,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-02" to="2023-05" xml:id="ls3_t9">
             <eventName xml:lang="en">Spring Term 2023</eventName>
@@ -15540,7 +15538,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-09" to="2023-12" xml:id="ls3_t10">
             <eventName xml:lang="en">Autumn Term 2023</eventName>
@@ -15712,7 +15710,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2024-02" to="2024-06" xml:id="ls3_t11">
             <eventName xml:lang="en">Spring Term 2024</eventName>
@@ -15938,7 +15936,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2024-10" to="2024-12" xml:id="ls3_t12">
             <eventName xml:lang="en">Autumn Term 2024</eventName>
@@ -16110,7 +16108,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
         </event>
         <!-- ##### France ##### -->
@@ -16261,7 +16259,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-paris-cite"/>
             </event>
-            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte"/>
+            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-01" to="2023-04" xml:id="ls4_t2">
             <eventName xml:lang="fr">Saison 2</eventName>
@@ -16420,7 +16418,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-paris-cite"/>
             </event>
-            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte"/>
+            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte" cert="low"/>
           </event>
         </event>
         <event xml:id="ls5" type="lecture-series" where="#rouen">
