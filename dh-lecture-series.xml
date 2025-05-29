@@ -28657,7 +28657,7 @@
                   Open-Source-Lizenz reproduziert werden kann.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#german-studies ##linguistics"/>
+                <term type="discipline" corresp="#german-studies #linguistics"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/gathering 
                   https://vocabs.dariah.eu/tadirah/analyzing"/>
@@ -29234,7 +29234,7 @@
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="hessbrueggen-walter_stefan">
+                <person role="speaker" corresp="#hessbrueggen-walter_stefan">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -40971,7 +40971,7 @@
                 target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=vl6nw4BPuC8"/>
               <listPerson>
-                <person role="speaker" corresp="hernandez-gueell_marc">
+                <person role="speaker" corresp="#hernandez-gueell_marc">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -41041,7 +41041,7 @@
                 target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=pzAyl8aSj68"/>
               <listPerson>
-                <person role="speaker" corresp="collell_xevi">
+                <person role="speaker" corresp="#collell_xevi">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -41929,7 +41929,7 @@
             <p>Each webinar is recorded and placed on the CITCEM YouTube Channel so you can watch it
               on your schedule.</p>
           </note>
-          <event xml:id="ls34_t1" type="lecture-series-term" from="2021-03-30" to="2021-09-30">
+          <event xml:id="ls34_t1" type="lecture-series-term" from="2021-03" to="2021-09">
             <eventName xml:lang="en">Knowledge Organisation and Digital Humanities: An International
               Webinar Series</eventName>
             <event xml:id="ls34_t1_l1" type="lecture" when="2021-03-30">
