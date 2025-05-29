@@ -1832,6 +1832,22 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="dion_charlotte" sex="FEMALE">
+            <name>
+              <forename>Charlotte</forename>
+              <surname>Dion</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-4381-2725</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134602748</idno>
+          </person>
+          <person xml:id="mpouli_suzanne" sex="FEMALE">
+            <name>
+              <forename>Suzanne</forename>
+              <surname>Mpouli</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-2333-8712</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134602730</idno>
+          </person>
           <person xml:id="sperberg-mc-queen_michael" sex="MALE">
             <name>
               <forename>Michael</forename>
@@ -9760,8 +9776,7 @@
               <org role="host-institution" corresp="#uni-padova"/>
             </event>
             <org role="organizer"
-              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco"
-            />
+              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2021-10" to="2022-04" xml:id="ls1_t2">
             <eventName xml:lang="en">2021/2022</eventName>
@@ -9927,8 +9942,7 @@
               <org role="host-institution" corresp="#uni-padova"/>
             </event>
             <org role="organizer"
-              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco"
-            />
+              corresp="#biasiori_lucio #rabbiosi_chiara #mazzini_federico #lubian_francesco #orlandi_marco" cert="low"/>
           </event>
         </event>
         <event xml:id="ls2" type="lecture-series" where="#pisa">
@@ -13642,7 +13656,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2020-01" to="2020-03" xml:id="ls3_t2">
             <eventName xml:lang="it">Spring Term 2020/1</eventName>
@@ -13849,7 +13863,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2020-04" to="2020-05" xml:id="ls3_t3">
             <eventName xml:lang="it">Spring Term 2020/2</eventName>
@@ -14127,7 +14141,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2020-09" to="2020-12" xml:id="ls3_t4">
             <eventName xml:lang="en">Autumn Term 2020</eventName>
@@ -14373,7 +14387,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2021-02" to="2021-05" xml:id="ls3_t5">
             <eventName xml:lang="en">Spring Term 2021</eventName>
@@ -14706,7 +14720,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2021-09" to="2021-12" xml:id="ls3_t6">
             <eventName xml:lang="en">Autumn Term 2021</eventName>
@@ -14926,7 +14940,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2022-01" to="2022-05" xml:id="ls3_t7">
             <eventName xml:lang="en">Spring Term 2022</eventName>
@@ -15118,7 +15132,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2022-09" to="2022-12" xml:id="ls3_t8">
             <eventName xml:lang="en">Autumn Term 2022</eventName>
@@ -15340,7 +15354,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-02" to="2023-05" xml:id="ls3_t9">
             <eventName xml:lang="en">Spring Term 2023</eventName>
@@ -15524,7 +15538,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-09" to="2023-12" xml:id="ls3_t10">
             <eventName xml:lang="en">Autumn Term 2023</eventName>
@@ -15696,7 +15710,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2024-02" to="2024-06" xml:id="ls3_t11">
             <eventName xml:lang="en">Spring Term 2024</eventName>
@@ -15922,7 +15936,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2024-10" to="2024-12" xml:id="ls3_t12">
             <eventName xml:lang="en">Autumn Term 2024</eventName>
@@ -16094,7 +16108,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
             </event>
-            <org role="organizer" corresp="#fischer_franz"/>
+            <org role="organizer" corresp="#fischer_franz" cert="low"/>
           </event>
         </event>
         <!-- ##### France ##### -->
@@ -16245,7 +16259,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-paris-cite"/>
             </event>
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-01" to="2023-04" xml:id="ls4_t2">
             <eventName xml:lang="fr">Saison 2</eventName>
@@ -16273,6 +16287,8 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250504232730/https://u-paris.fr/bibliotheques/rdv-chn-5-sobriete-numerique/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250528215523/https://chnsh.hypotheses.org/files/2023/01/Flipo_sobriete_numerique_20230126.pdf"/>
               <listPerson>
                 <person role="speaker" corresp="#flipo_fabrice">
                   <name>
@@ -16390,6 +16406,8 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250504233603/https://u-paris.fr/bibliotheques/rdv-chn-8-programmation-lettree/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250528215713/https://rysebaert.gitpages.huma-num.fr/rdv_chn/#/title-slide"/>
               <listPerson>
                 <person role="speaker" corresp="#ysebaert_ronan">
                   <name>
@@ -16400,7 +16418,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-paris-cite"/>
             </event>
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#mpouli_suzanne #dion_charlotte" cert="low"/>
           </event>
         </event>
         <event xml:id="ls5" type="lecture-series" where="#rouen">
@@ -23536,7 +23554,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20241114133919/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2024-25/n/gattung-medium-politik-eine-quantitative-geschichte-der-novelle-im-19-jahrhundert-203377/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.14041289"/>
               <listPerson>
@@ -24087,7 +24105,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250419133610/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/where-data-goes-to-dei-edi-die-information-infrastructure-and-the-protracted-collapse-of-institutional-courage-232705/"/>
               <listPerson>
                 <person role="speaker" corresp="#verhoeven_deb">
@@ -24122,7 +24140,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250419150034/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/niederdeutsch-in-raum-und-zeit-der-digitale-niederdeutsch-atlas-fuer-mecklenburg-vorpommern-232697/"/>
               <listPerson>
                 <person role="speaker" corresp="#fischer_hanna">
@@ -24157,7 +24175,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250422082647/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/investigating-the-evolution-of-early-modern-european-drama-with-digital-methods-232701/"/>
               <ptr type="slides"
                 target="https://doi.org/10.5281/zenodo.15353470"/>
@@ -24202,7 +24220,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250428135832/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/im-haus-und-unter-dem-himmel-artefakte-und-natuerliche-raeume-im-spanischsprachigen-roman-des-19-jahrhunderts-236641/"/>
               <ptr type="slides"
                 target="https://doi.org/10.5281/zenodo.15379123"/>
@@ -24240,7 +24258,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250428135946/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/aber-es-gibt-doch-schon-zwei-buecher-ueber-achim-die-edition-von-uwe-johnsons-das-dritte-buch-ueber-achim-als-gedruckte-und-digitale-ausgabe-232707/"/>
               <listPerson>
                 <person role="speaker" corresp="#greinert_cordula">
@@ -24276,7 +24294,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="https://web.archive.org/web/20250528145930/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/kulturelles-erbe-digital-erschliessen-inwertsetzungen-und-notwendige-kontextualisierungen-aus-perspektive-der-kulturwissenschaftlichen-digital-humanities-232709/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20250528145930/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/kulturelles-erbe-digital-erschliessen-inwertsetzungen-und-notwendige-kontextualisierungen-aus-perspektive-der-kulturwissenschaftlichen-digital-humanities-232709/"/>
               <listPerson>
                 <person role="speaker" corresp="#franken_lina">
                   <name>
@@ -24313,7 +24331,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="https://web.archive.org/web/20250528145222/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/the-transformative-impact-of-digital-humanities-on-the-study-of-historical-manuscripts-232711/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20250528145222/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/the-transformative-impact-of-digital-humanities-on-the-study-of-historical-manuscripts-232711/"/>
               <listPerson>
                 <person role="speaker" corresp="#tomic_marijana">
                   <name>
@@ -24338,7 +24356,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="https://web.archive.org/web/20250528150033/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20250528150033/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
               <listPerson>
                 <person role="speaker" corresp="#deicke_aline">
                   <name>
@@ -24361,7 +24379,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#rio-riande_gimena-del">
                   <name>
@@ -24384,7 +24402,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#nilsson-fernandez_pedro">
                   <name>
@@ -24406,7 +24424,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#scholger_martina">
                   <name>
@@ -24429,7 +24447,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#rojas-castro_antonio">
                   <name>
