@@ -23556,7 +23556,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20241114133919/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2024-25/n/gattung-medium-politik-eine-quantitative-geschichte-der-novelle-im-19-jahrhundert-203377/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.14041289"/>
               <listPerson>
@@ -24107,7 +24107,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250419133610/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/where-data-goes-to-dei-edi-die-information-infrastructure-and-the-protracted-collapse-of-institutional-courage-232705/"/>
               <listPerson>
                 <person role="speaker" corresp="#verhoeven_deb">
@@ -24142,7 +24142,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250419150034/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/niederdeutsch-in-raum-und-zeit-der-digitale-niederdeutsch-atlas-fuer-mecklenburg-vorpommern-232697/"/>
               <listPerson>
                 <person role="speaker" corresp="#fischer_hanna">
@@ -24177,7 +24177,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250422082647/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/investigating-the-evolution-of-early-modern-european-drama-with-digital-methods-232701/"/>
               <ptr type="slides"
                 target="https://doi.org/10.5281/zenodo.15353470"/>
@@ -24222,7 +24222,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250428135832/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/im-haus-und-unter-dem-himmel-artefakte-und-natuerliche-raeume-im-spanischsprachigen-roman-des-19-jahrhunderts-236641/"/>
               <ptr type="slides"
                 target="https://doi.org/10.5281/zenodo.15379123"/>
@@ -24260,7 +24260,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract"
+              <ptr type="programme"
                 target="https://web.archive.org/web/20250428135946/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/aber-es-gibt-doch-schon-zwei-buecher-ueber-achim-die-edition-von-uwe-johnsons-das-dritte-buch-ueber-achim-als-gedruckte-und-digitale-ausgabe-232707/"/>
               <listPerson>
                 <person role="speaker" corresp="#greinert_cordula">
@@ -24296,7 +24296,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="https://web.archive.org/web/20250528145930/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/kulturelles-erbe-digital-erschliessen-inwertsetzungen-und-notwendige-kontextualisierungen-aus-perspektive-der-kulturwissenschaftlichen-digital-humanities-232709/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20250528145930/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/kulturelles-erbe-digital-erschliessen-inwertsetzungen-und-notwendige-kontextualisierungen-aus-perspektive-der-kulturwissenschaftlichen-digital-humanities-232709/"/>
               <listPerson>
                 <person role="speaker" corresp="#franken_lina">
                   <name>
@@ -24333,7 +24333,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="https://web.archive.org/web/20250528145222/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/the-transformative-impact-of-digital-humanities-on-the-study-of-historical-manuscripts-232711/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20250528145222/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/the-transformative-impact-of-digital-humanities-on-the-study-of-historical-manuscripts-232711/"/>
               <listPerson>
                 <person role="speaker" corresp="#tomic_marijana">
                   <name>
@@ -24358,7 +24358,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="https://web.archive.org/web/20250528150033/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20250528150033/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
               <listPerson>
                 <person role="speaker" corresp="#deicke_aline">
                   <name>
@@ -24381,7 +24381,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#rio-riande_gimena-del">
                   <name>
@@ -24404,7 +24404,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#nilsson-fernandez_pedro">
                   <name>
@@ -24426,7 +24426,7 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#scholger_martina">
                   <name>
@@ -24449,7 +24449,7 @@
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="abstract" target="..."/>
+              <ptr type="programme" target="..."/>
               <listPerson>
                 <person role="speaker" corresp="#rojas-castro_antonio">
                   <name>
