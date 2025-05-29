@@ -142,6 +142,9 @@
           <category xml:id="egyptology">
             <catDesc>egyptology</catDesc>
           </category>
+          <category xml:base="biology">
+            <catDesc>biology</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1242,7 +1245,7 @@
             <place corresp="#reims"/>
           </org>
           <org xml:id="uni-gothenburg" type="university">
-            <name xml:lang="se">Göteborgs Universitet</name>
+            <name xml:lang="sv">Göteborgs Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q371522</idno>
             <place corresp="#gothenburg"/>
           </org>
@@ -1250,6 +1253,58 @@
             <name xml:lang="pt">Universidade do Porto</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1422903</idno>
             <place corresp="#porto"/>
+          </org>
+          <org xml:id="uni-waterloo" type="university">
+            <name xml:lang="en">University of Waterloo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1049470</idno>
+            <place corresp="#waterloo"/>
+          </org>
+          <org xml:id="uni-sussex" type="university">
+            <name xml:lang="en">University of Sussex</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1161297</idno>
+            <place corresp="#brighton-and-hove"/>
+          </org>
+          <org xml:id="fh-boras" type="university">
+            <name xml:lang="sv">Högskolan i Borås</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1622088</idno>
+            <place corresp="#boras"/>
+          </org>
+          <org xml:id="uni-buffalo" type="university">
+            <name xml:lang="en">University of Buffalo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q681025</idno>
+            <place corresp="#buffalo"/>
+            <place corresp="#amherst"/>
+          </org>
+          <org xml:id="city-uni-new-york" type="university">
+            <name xml:lang="en">City University of New York</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q762266</idno>
+            <place corresp="#new-york-city"/>
+          </org>
+          <org xml:id="uni-north-carolina" type="university">
+            <name xml:lang="en">North Carolina State University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1132346</idno>
+            <place corresp="#raleigh"/>
+          </org>
+          <org xml:id="uni-illinois" type="university">
+            <name xml:lang="en">University of Illinois Urbana-Champaign</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q457281</idno>
+            <place corresp="#urbana"/>
+            <place corresp="#champaign"/>
+          </org>
+          <org xml:id="uni-plymouth" type="university">
+            <name xml:lang="en">University of Plymouth</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1711558</idno>
+            <place corresp="#plymouth"/>
+          </org>
+          <org xml:id="uni-canberra" type="university">
+            <name xml:lang="en">Australian National University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q127990</idno>
+            <place corresp="#canberra"/>
+          </org>
+          <org xml:id="uni-syddansk" type="university">
+            <name xml:lang="da">Syddansk Universitet</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131899513</idno>
+            <place corresp="#aarhus"/>
           </org>
           <!-- ##### Research Institutions ##### -->
           <org xml:id="mpi-eva" type="research_institution">
@@ -1673,6 +1728,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1112536</idno>
             <place corresp="#muenchenstein"/>
           </org>
+          <org xml:id="stadsmuseum-gothenburg" type="glam">
+            <name xml:lang="sv">Göteborgs Stadsmuseum</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3107846</idno>
+            <place corresp="#gothenburg"/>
+          </org>
           <!-- ####### Other ####### -->
           <org xml:id="history-lab-magazine" type="other">
             <name xml:lang="en">History Lab Magazine</name>
@@ -1710,10 +1770,21 @@
             <place corresp="#hannover"/>
           </org>
           <org xml:id="sydsvenskan" type="other">
-            <name xml:lang="se">Sydsvenskan</name>
+            <name xml:lang="sv">Sydsvenskan</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1371686</idno>
             <place corresp="#malmö"/>
             <place corresp="#lund"/>
+          </org>
+          <org xml:id="riksantikvarieambetet" type="other">
+            <name xml:lang="sv">Riksantikvarieämbetet</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q631844</idno>
+            <place corresp="#stockholm"/>
+          </org>
+          <org xml:id="litteraturbanken" type="other">
+            <name xml:lang="sv">Litteraturbanken</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10567910</idno>
+            <place corresp="#stockholm"/>
+            <place corresp="#gothenburg"/>
           </org>
           <!-- ##### Companies ##### -->
           <org xml:id="ibm" type="company">
@@ -8242,6 +8313,174 @@
             <idno type="orcid">https://orcid.org/0000-0003-4169-4777</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q59101677</idno>
           </person>
+          <person xml:id="colavizza_giovanni" sex="MALE">
+            <name>
+              <forename>Giovanni</forename>
+              <surname>Colavizza</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-9806-084X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q56449506</idno>
+          </person>
+          <person xml:id="pierazzo_jaqueline">
+            <name>
+              <forename>Jaqueline</forename>
+              <surname>Pierazzo</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-6276-7018</idno>
+          </person>
+          <person xml:id="polo_luis-alberto" sex="MALE">
+            <name>
+              <forename>Luis Alberto</forename>
+              <surname>Polo</surname>
+            </name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134587535</idno>
+          </person>
+          <person xml:id="bermejo_jesus" sex="MALE">
+            <name>
+              <forename>Jesús</forename>
+              <surname>Bermejo</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-1797-8545</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55948657</idno>
+          </person>
+          <person xml:id="perianes-rodriguez_antonio" sex="MALE">
+            <name>
+              <forename>Antonio</forename>
+              <surname>Perianes-Rodríguez</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-1188-3481</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57952961</idno>
+          </person>
+          <person xml:id="segura-bedmar_isabel" sex="FEMALE">
+            <name>
+              <forename>Isabel</forename>
+              <surname>Segura-Bedmar</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-7810-2360</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q89107231</idno>
+          </person>
+          <person xml:id="garcia-serrano_ana" sex="FEMALE">
+            <name>
+              <forename>Ana</forename>
+              <surname>Garcia-Serrano</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-0975-7205</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57448112</idno>
+          </person>
+          <person xml:id="morimoto_yuko" sex="FEMALE">
+            <name>
+              <forename>Yuko</forename>
+              <surname>Morimoto</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-7107-6975</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6170488</idno>
+          </person>
+          <person xml:id="garcia-munoz_luis-enrique" sex="MALE">
+            <name>
+              <forename>Luis Enrique</forename>
+              <surname>García Muñoz</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-3619-7859</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q61286830</idno>
+          </person>
+          <person xml:id="pavon-lucero_maria-victoria" sex="FEMALE">
+            <name>
+              <forename>María Victoria</forename>
+              <surname>Pavón Lucero</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-9968-6932</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93262213</idno>
+          </person>
+          <person xml:id="andersson_frida" sex="FEMALE">
+            <name>
+              <forename>Frida</forename>
+              <surname>Andersson</surname>
+            </name>
+          </person>
+          <person xml:id="alvarez-diaz_maria-guadalupe" sex="FEMALE">
+            <name>
+              <forename>Maria Guadalupe</forename>
+              <surname>Alvarez Diaz</surname>
+            </name>
+          </person>
+          <person xml:id="o-gorman_marcel" sex="MALE">
+            <name>
+              <forename>Marcel</forename>
+              <surname>O’Gorman</surname>
+            </name>
+          </person>
+          <person xml:id="berry_david" sex="MALE">
+            <name>
+              <forename>David M.</forename>
+              <surname>Berry</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-7737-5586</idno>
+          </person>
+          <person xml:id="fagerjord_anders" sex="MALE">
+            <name>
+              <forename>Anders</forename>
+              <surname>Fagerjord</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-5391-0292</idno>
+          </person>
+          <person xml:id="linderoth_jonas" sex="MALE">
+            <name>
+              <forename>Jonas</forename>
+              <surname>Linderoth</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-5316-379X</idno>
+          </person>
+          <person xml:id="kilic_onur" sex="MALE">
+            <name>
+              <forename>Onur</forename>
+              <surname>Kılıç</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-6274-2761</idno>
+          </person>
+          <person xml:id="liinason_mia" sex="FEMALE">
+            <name>
+              <forename>Mia</forename>
+              <surname>Liinason</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-1478-1197</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q66121030</idno>
+          </person>
+          <person xml:id="ruiz-bravo_nadia" sex="FEMALE">
+            <name>
+              <forename>Nadia</forename>
+              <surname>Ruiz Bravo</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-4338-3382</idno>
+          </person>
+          <person xml:id="selander_lisen" sex="FEMALE">
+            <name>
+              <forename>Lisen</forename>
+              <surname>Selander</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0001-9603-2899</idno>
+          </person>
+          <person xml:id="pierce_rachel" sex="FEMALE">
+            <name>
+              <forename>Rachel</forename>
+              <surname>Pierce</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0003-3480-1474</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57438780</idno>
+          </person>
+          <person xml:id="lison_andrew" sex="MALE">
+            <name>
+              <forename>Andrew</forename>
+              <surname>Lison</surname>
+            </name>
+          </person>
+          <person xml:id="bollmer_grant" sex="MALE">
+            <name>
+              <forename>Grant</forename>
+              <surname>Bollmer</surname>
+            </name>
+            <idno type="orcid">https://orcid.org/0000-0002-7729-0638</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q102146826</idno>
+          </person>
         </listPerson>
       </particDesc>
       <settingDesc>
@@ -8862,6 +9101,16 @@
             <name>Coventry</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011012</idno>
           </place>
+          <place type="city" xml:id="brighton-and-hove">
+            <country ref="#uk"/>
+            <name>Brighton and Hove</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7026513</idno>
+          </place>
+          <place type="city" xml:id="plymouth">
+            <country ref="#uk"/>
+            <name>Plymouth</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7011301</idno>
+          </place>
           <!-- ######## Hungarian cities ######## -->
           <place type="city" xml:id="budapest">
             <country ref="#hungary"/>
@@ -9211,6 +9460,21 @@
             <name>Malmö</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009839</idno>
           </place>
+          <place type="city" xml:id="kalmar">
+            <country ref="#sweden"/>
+            <name>Kalmar</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7009826</idno>
+          </place>
+          <place type="city" xml:id="vaxjo">
+            <country ref="#sweden"/>
+            <name>Växjö</name>
+            <idno type="gnd">https://d-nb.info/gnd/4218546-4</idno>
+          </place>
+          <place type="city" xml:id="boras">
+            <country ref="#sweden"/>
+            <name>Borås</name>
+            <idno type="gnd">https://d-nb.info/gnd/4088066-7</idno>
+          </place>
           <!-- ######## Estonian cities ######## -->
           <place type="city" xml:id="tallinn">
             <country ref="#estonia"/>
@@ -9298,6 +9562,11 @@
             <country ref="#australia"/>
             <name>Melbourne</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001933</idno>
+          </place>
+          <place type="city" xml:id="canberra">
+            <country ref="#australia"/>
+            <name>Canberra</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7001867</idno>
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
@@ -9416,6 +9685,31 @@
             <name>Santa Barbara</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017752</idno>
           </place>
+          <place type="city" xml:id="buffalo">
+            <country ref="#usa"/>
+            <name>Buffalo</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013463</idno>
+          </place>
+          <place type="city" xml:id="amherst">
+            <country ref="#usa"/>
+            <name>Amherst</name>
+            <idno type="gnd">https://d-nb.info/gnd/4537072-2</idno>
+          </place>
+          <place type="city" xml:id="raleigh">
+            <country ref="#usa"/>
+            <name>Raleigh</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013949</idno>
+          </place>
+          <place type="city" xml:id="urbana">
+            <country ref="#usa"/>
+            <name>Urbana</name>
+            <idno type="gnd">https://d-nb.info/gnd/4107469-5</idno>
+          </place>
+          <place type="city" xml:id="champaign">
+            <country ref="#usa"/>
+            <name>Champaign</name>
+            <idno type="gnd">https://d-nb.info/gnd/4009730-4</idno>
+          </place>
           <!-- ######## Canadian cities ######## -->
           <place type="city" xml:id="edmonton">
             <country ref="#canada"/>
@@ -9436,6 +9730,11 @@
             <country ref="#canada"/>
             <name>Guelph</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013045</idno>
+          </place>
+          <place type="city" xml:id="waterloo">
+            <country ref="#canada"/>
+            <name>Waterloo</name>
+            <idno type="gnd">https://d-nb.info/gnd/4140559-6</idno>
           </place>
           <!-- ###### Continent: South America ###### -->
           <!-- ######## Argentinian cities ######## -->
@@ -16456,7 +16755,7 @@
               <eventName xml:lang="fr">Formation à l’alignement textuel avec MEDITE</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#computational-linguistics #digital-humanities"/>
+                <term type="discipline" corresp="#computational-linguistics #linguistics #digital-humanities"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/naturalLanguageProcessing https://vocabs.dariah.eu/tadirah/teaching"/>
                 <term type="topics-llm">text alignment, medite, training, text processing,
@@ -25604,8 +25903,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies #history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
                 <term type="topics-llm">xml, text annotation, tei guidelines, interoperability,
                   historical texts</term></note>
               <note type="realization">
@@ -25648,8 +25946,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies #history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/annotating 
                   https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">text editing, historical texts, xml, reading practices,
                   annotation</term></note>
@@ -25713,8 +26010,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#musicology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/annotating 
                   https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">music transcription, optical music recognition, music
                   analysis, crowdsourcing, music information retrieval</term></note>
@@ -25749,8 +26045,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
                 <term type="topics-llm">graph databases, data integration, network analysis, data
                   querying, historical data</term></note>
               <note type="realization">
@@ -25795,8 +26090,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">prosody recognition, audio poetry, machine learning, text
                   analysis, deep learning</term></note>
               <note type="realization">
@@ -25843,8 +26137,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">critique, conference, discussion, digital editions, text
                   analysis</term></note>
               <note type="realization">
@@ -25908,8 +26201,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#library-information "/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
                 <term type="topics-llm">apis, cultural heritage, open data, iiif, data
                   interoperability</term></note>
               <note type="realization">
@@ -25942,8 +26234,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis 
                   https://vocabs.dariah.eu/tadirah/gathering"/>
                 <term type="topics-llm">art history, image analysis, metadata, prometheus,
                   quantitative methods</term></note>
@@ -25977,8 +26268,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#computer-science"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/programming"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/programming"/>
                 <term type="topics-llm">software development, user needs, team roles, agile
                   methodologies, project planning</term></note>
               <note type="realization">
@@ -26017,8 +26307,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">linguistics, football, text corpora, open science, public
                   engagement</term></note>
               <note type="realization">
@@ -26056,8 +26345,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#archaeology #history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
                 <term type="topics-llm">network analysis, archaeology, history, methodology, social
                   sciences</term></note>
               <note type="realization">
@@ -26106,8 +26394,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#classics #archaeology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/modifying"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/modifying"/>
                 <term type="topics-llm">epigraphy, xml, tei, editorial environment, data
                   conversion</term></note>
               <note type="realization">
@@ -26154,8 +26441,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing 
                   https://vocabs.dariah.eu/tadirah/storing"/>
                 <term type="topics-llm">text modelling, data exchange, scholarly knowledge, textual
                   analysis, interdisciplinary research</term></note>
@@ -26195,8 +26481,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/designing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/designing"/>
                 <term type="topics-llm">user experience, usability, design thinking, software
                   development, user-centered design</term></note>
               <note type="realization">
@@ -26244,10 +26529,8 @@
                   collaboration.</p>
               </note>
               <note type="keywords">
-                
                 <term type="discipline" corresp="#egyptology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">machine learning, egyptology, computer vision, hieroglyphs,
                   translation</term></note>
               <note type="realization">
@@ -26292,10 +26575,8 @@
                   der Modellierung der Daten als Linked Open Data Ressource.</p>
               </note>
               <note type="keywords">
-                
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
                 <term type="topics-llm">formal models, ontologies, semantic web, data
                   interoperability, linked open data</term></note>
               <note type="realization">
@@ -26406,8 +26687,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">digitalization, cultural practice, interpretations,
                   virtualization, interdisciplinarity</term></note>
               <note type="realization">
@@ -26456,8 +26736,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing 
                   https://vocabs.dariah.eu/tadirah/opticalCharacterRecognition"/>
                 <term type="topics-llm">arno schmidt, web portal, full-text search, text
                   digitization, ocr processing</term></note>
@@ -26514,8 +26793,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzinh"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzinh"/>
                 <term type="topics-llm">typography, readability, eye tracking, digital text,
                   empirical research</term></note>
               <note type="realization">
@@ -26565,8 +26843,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/disseminating"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/disseminating"/>
                 <term type="topics-llm">research data management, open science, fair data
                   principles, data management plans, rdm organizer</term></note>
               <note type="realization">
@@ -26644,8 +26921,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">mathematics, informatics, collaboration, operations
                   research, formalization</term></note>
               <note type="realization">
@@ -26691,8 +26967,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/dataMining"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/dataMining"/>
                 <term type="topics-llm">word embeddings, distributional semantics, linguistics, text
                   mining, machine learning.</term></note>
               <note type="realization">
@@ -26767,8 +27042,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#museology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/annotating 
                   https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">museums, digital strategies, research, communication,
                   documentation</term></note>
@@ -26827,8 +27101,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">archives, visualization, data analysis, digital
                   transformation, collection exploration</term></note>
               <note type="realization">
@@ -26914,8 +27187,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/namedEntityRecognition 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/namedEntityRecognition 
                   https://vocabs.dariah.eu/tadirah/sentimentAnalysis"/>
                 <term type="topics-llm">gender stereotypes, named entity recognition, emotion
                   analysis, sentiment analysis, literature</term></note>
@@ -27018,8 +27290,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
                 <term type="topics-llm">fair principles, global inequality, cultural diversity, open
                   access, social justice</term></note>
               <note type="realization">
@@ -27096,8 +27367,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">heritage conservation, cultural preservation, monument
                   diversity, historical narratives, machine learning.</term></note>
               <note type="realization">
@@ -27144,8 +27414,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">speech representation, corpus linguistics, machine learning,
                   annotation, german language</term></note>
               <note type="realization">
@@ -27200,8 +27469,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/gamification"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/gamification"/>
                 <term type="topics-llm">linguistic change, covid-19, word games, etymology, language
                   trends</term></note>
               <note type="realization">
@@ -27273,8 +27541,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData
                   https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">prosopography, data infrastructure, linked open data, visual
                   analytics, historical network analysis</term></note>
@@ -27342,8 +27609,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#theology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing 
                   https://vocabs.dariah.eu/tadirah/sentimentAnalysis"/>
                 <term type="topics-llm">patristic texts, textual criticism, critical editions, tei
                   encoding, open access</term></note>
@@ -27411,8 +27677,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing
                   https://vocabs.dariah.eu/tadirah/collecting"/>
                 <term type="topics-llm">standardization, interoperability, tei guidelines, digital
                   editions, categorization</term></note>
@@ -27462,8 +27727,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/contextualizing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/contextualizing"/>
                 <term type="topics-llm">linked data, semantic web, historical data, ontology, data
                   visualization</term></note>
               <note type="realization">
@@ -27512,8 +27776,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/annotating"/>
                 <term type="topics-llm">resistance, annotation, sociopragmatics, german history,
                   linguistic analysis</term></note>
               <note type="realization">
@@ -27582,8 +27845,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis 
                   https://vocabs.dariah.eu/tadirah/visualAnalysis
                   https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">travel, alexander von humboldt, data visualization,
@@ -27655,8 +27917,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/programming 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/programming 
                   https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">academia, information technology, research tools, digital
                   transformation, institutional collaboration</term></note>
@@ -27728,8 +27989,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzinh 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzinh 
                   https://vocabs.dariah.eu/tadirah/enriching"/>
                 <term type="topics-llm">text types, corpus linguistics, linguistic analysis,
                   quantitative methods, historical texts</term></note>
@@ -27810,8 +28070,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">methods, models, epistemology, corpora, theory
                   formation</term></note>
               <note type="realization">
@@ -27866,8 +28125,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData 
                   https://vocabs.dariah.eu/tadirah/annotating"/>
                 <term type="topics-llm">eleventh century, christian world, conflicting information,
                   data modeling, historical perception</term></note>
@@ -27918,8 +28176,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/dataRecognition  
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/dataRecognition  
                   https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">handwriting recognition, neural networks, deep learning,
                   document processing, crowd-sourcing</term></note>
@@ -27958,8 +28215,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
                 <term type="topics-llm">linked data, linguistic resources, rdf, ontologies, lexical
                   databases</term></note>
               <note type="realization">
@@ -28005,8 +28261,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis 
                   https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">literary analysis, text interpretation, computational
                   literary studies, mixed methods, key passages</term></note>
@@ -28100,8 +28355,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/annotating 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/annotating 
                   https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">annotation, research data, modeling, manual annotation,
                   machine learning</term></note>
@@ -28160,8 +28414,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics #digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing 
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing 
                   https://vocabs.dariah.eu/tadirah/programming"/>
                 <term type="topics-llm">text mining, university services, interdisciplinary
                   projects, semantic analysis, historical semantics</term></note>
@@ -28653,8 +28906,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">large language models, artificial intelligence, scientific
                   writing, research methods, linguistics</term></note>
               <note type="realization">
@@ -29364,7 +29616,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline"
-                  corresp="#german-studies #literary-studies #computational-linguistics"/>
+                  corresp="#german-studies #literary-studies #computational-linguistics #linguistics"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/stylisticAnalysis https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">romanticism, german literature, computational linguistics,
@@ -35201,8 +35453,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>                
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">republic, convention, reconstruction, negotiations,
                   constitution</term></note>
               <note type="realization">
@@ -35225,8 +35476,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#library-information"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/publishing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/publishing"/>
                 <term type="topics-llm">open science, open licensing, copyright, european law,
                   intellectual property</term></note>
               <note type="realization">
@@ -35249,8 +35499,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#museology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/preserving"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/preserving"/>
                 <term type="topics-llm">text analysis, cultural preservation, digitization, content
                   management, data usage</term></note>
               <note type="realization">
@@ -35279,8 +35528,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">networks, history, academia, collaboration, scholarly
                   communication</term></note>
               <note type="realization">
@@ -35303,8 +35551,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#archaeology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"/>
                 <term type="topics-llm">mapping, medieval, archaeology, spatial analysis, historical
                   geography</term></note>
               <note type="realization">
@@ -35327,8 +35574,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">islamic history, medieval studies, algorithmic analysis,
                   social history, case study</term></note>
               <note type="realization">
@@ -35351,8 +35597,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text mining, cultural studies, digitization, content
                   analysis, research methods</term></note>
               <note type="realization">
@@ -35381,8 +35626,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">university, vienna, introduction, welcome, lecture
                   series</term></note>
               <note type="realization">
@@ -35405,8 +35649,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/crowdsourcing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/crowdsourcing"/>
                 <term type="topics-llm">crowdsourcing, public access, cultural heritage, academic
                   datasets, engagement</term></note>
               <note type="realization">
@@ -35429,8 +35672,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">artificial intelligence, history patterns, time machines,
                   mechanical turks, false promises</term></note>
               <note type="realization">
@@ -35453,8 +35695,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#museology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">museums, culture, technology, online,
                 preservation</term></note>
               <note type="realization">
@@ -35477,8 +35718,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text analysis, historical linguistics, silk road studies,
                   computational philology, asian languages</term></note>
               <note type="realization">
@@ -35501,8 +35741,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">visualization, cultural heritage, art history, mnemonic,
                   revolution</term></note>
               <note type="realization">
@@ -35524,8 +35763,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">open, science, research, transparency,
                   reproducibility</term></note>
               <note type="realization">
@@ -35548,8 +35786,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">islamic studies, medieval history, computational methods,
                   historiography, data analysis</term></note>
               <note type="realization">
@@ -35572,8 +35809,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text mining, historical linguistics, large-scale data
                   analysis, natural language processing, corpus linguistics</term></note>
               <note type="realization">
@@ -35595,8 +35831,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#archaeology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">archaeology, technology, data, heritage,
                 methods</term></note>
               <note type="realization">
@@ -35619,8 +35854,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">wikipedia, language change, lexical research, repurposing,
                   online resources</term></note>
               <note type="realization">
@@ -35643,8 +35877,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">empire, habsburg, resources, binary, research</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -35671,8 +35904,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">introducing, university, vienna, overview,
                 initiation</term></note>
               <note type="realization">
@@ -35695,8 +35927,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">networks, correspondence, scholars, intellectual history,
                   early modern</term></note>
               <note type="realization">
@@ -35719,8 +35950,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">visualization, cultural heritage, art history, memory,
                   revolution</term></note>
               <note type="realization">
@@ -35745,8 +35975,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#archaeology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis"/>
                 <term type="topics-llm">grave mapping, medieval studies, spatial data, data
                   visualization, online publication</term></note>
               <note type="realization">
@@ -35769,8 +35998,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">textual analysis, literary archives, semantic tagging,
                   digital editing, peter handke</term></note>
               <note type="realization">
@@ -35793,8 +36021,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">digital transformations, digital humanism, vienna library,
                   transformation, city hall</term></note>
               <note type="realization">
@@ -35822,8 +36049,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">art history, digital methods, visual culture, art analysis,
                   technological impact</term></note>
               <note type="realization">
@@ -35846,8 +36072,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#museology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">data, cultural heritage, museums, big data,
                   collections</term></note>
               <note type="realization">
@@ -35870,8 +36095,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">climate change, historical ecology, ecocriticism,
                   environmental studies, computational methods</term></note>
               <note type="realization">
@@ -35894,8 +36118,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/anayzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/anayzing"/>
                 <term type="topics-llm">manuscripts, paleography, philology, silk road, text
                   analysis</term></note>
               <note type="realization">
@@ -35930,8 +36153,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">text analysis, university wien, introductory, academic,
                   austria</term></note>
               <note type="realization">
@@ -35954,8 +36176,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">artificial intelligence, viennese art, linking, technology,
                   cultural heritage</term></note>
               <note type="realization">
@@ -35978,8 +36199,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#english-studies"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">literary editing, auden musulin, letters, archival papers,
                   digital editing</term></note>
               <note type="realization">
@@ -36013,8 +36233,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#museology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">museums, exhibitions, technology, curation,
                   interaction</term></note>
               <note type="realization">
@@ -36037,8 +36256,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">islamic history, social modeling, premodern era, middle
                   east, historical analysis</term></note>
               <note type="realization">
@@ -36061,8 +36279,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#art-history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">visualization, cultural heritage, art history, mnemonic,
                   revolutions</term></note>
               <note type="realization">
@@ -36085,8 +36302,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#archaeology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">archaeology, digital tools, data analysis, cultural
                   heritage, virtual reconstruction</term></note>
               <note type="realization">
@@ -36109,8 +36325,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">environmental studies, climate change, ecology, pandemics,
                   simulation</term></note>
               <note type="realization">
@@ -36133,8 +36348,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/collaborating"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/collaborating"/>
                 <term type="topics-llm">collaborative project, digital republic, perspectives,
                   challenges, reassembled</term></note>
               <note type="realization">
@@ -36157,8 +36371,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">ottoman, travelogues, nature, historical analysis,
                   multimodal</term></note>
               <note type="realization">
@@ -36180,8 +36393,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">silk road, digital, studies, history, culture</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -36218,8 +36430,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">text analysis, university of vienna, introductory, academic,
                   education</term></note>
               <note type="realization">
@@ -36242,8 +36453,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#museology"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">data analysis, art collections, museum studies, cultural
                   analytics, data visualization</term></note>
               <note type="realization">
@@ -36266,8 +36476,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#computer-science"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">artificial intelligence, information leaks, language models,
                   data privacy, machine learning</term></note>
               <note type="realization">
@@ -36289,8 +36498,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">big, linked, cultural heritage, data,
                 information</term></note>
               <note type="realization">
@@ -36313,8 +36521,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">predictive modeling, text editing, future technologies,
                   methodologies, innovation</term></note>
               <note type="realization">
@@ -36337,8 +36544,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">digital, resources, austria, overview,
                 structured</term></note>
               <note type="realization">
@@ -36361,8 +36567,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
                 <term type="topics-llm">european heritage, visual analysis, curation, communication,
                   tangible intangible</term></note>
               <note type="realization">
@@ -36385,8 +36590,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/editing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/editing"/>
                 <term type="topics-llm">artificial intelligence, scholarly editing, text analysis,
                   machine learning, academic research</term></note>
               <note type="realization">
@@ -36409,8 +36613,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">virus, computer, data, epidemics, climate</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -36431,8 +36634,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">archives, software, accessibility, portability,
                 tools</term></note>
               <note type="realization">
@@ -36455,8 +36657,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">text analysis, historical newspapers, lists, scale, small
                   texts</term></note>
               <note type="realization">
@@ -36475,8 +36676,7 @@
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">silk road, ancient, exploration, digital,
                 history</term></note>
               <note type="realization">
@@ -36511,8 +36711,7 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics"/>
-                <term type="topic"
-                  corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
                 <term type="topics-llm">linguistics, language data, information technology,
                   interdisciplinary, computational linguistics</term></note>
               <note type="realization">
@@ -40807,12 +41006,11 @@
             <event type="lecture" when="2024-10-09" xml:id="ls31_t1_l1">
               <eventName xml:lang="es">Sesión inaugural: Contextualizando las HHDD en el ámbito del
                 cine, la lengua y la cultura digital</eventName>
-              <note type="abstract" xml:lang="es">
-                <p>...</p>
-              </note>
+              <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                <term type="topics-llm">culture, cinema, language, context, inaugural</term></note>
+                <term type="topics-llm">culture, cinema, language, context, inaugural</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -40838,8 +41036,107 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-madrid"/>
             </event>
-            <!-- Lectures will be added here -->
-            <org role="organizer" corresp="..."/>
+            <event type="lecture" when="2024-11-14" xml:id="ls31_t1_l2">
+              <eventName xml:lang="es">Inteligencia Artificial y Humanidades Digitales</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <ptr type="slides"
+                target="https://web.archive.org/web/20250527083835/https://eventos.uc3m.es/file_manager/getFile/183592.html"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=Th4AiCwQDQU"/>
+              <listPerson>
+                <person role="speaker" corresp="#garcia-serrano_ana">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-nacional-de-educacion-a-distancia"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-madrid"/>
+            </event>
+            <event type="lecture" when="2025-01-30" xml:id="ls31_t1_l3">
+              <eventName xml:lang="es">Introducción a las Tecnologías del Lenguaje en el ámbito de
+                las HHDD</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <ptr type="slides"
+                target="https://web.archive.org/web/20250527084249/https://eventos.uc3m.es/file_manager/getFile/189574.html"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=J-8zoaH3J_0"/>
+              <listPerson>
+                <person role="speaker" corresp="#segura-bedmar_isabel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-madrid"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-madrid"/>
+            </event>
+            <event type="lecture" when="2025-03-06" xml:id="ls31_t1_l4">
+              <eventName xml:lang="es">Visualización de datos para tod@s: herramientas analíticas en
+                las HHDD</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=2Li1WMpAQBc"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#perianes-rodriguez_antonio">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-madrid"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-madrid"/>
+            </event>
+            <event type="lecture" when="2025-04-02" xml:id="ls31_t1_l5">
+              <eventName xml:lang="es">Ciencia ciudadana, abierta y digital: democratizando la arqueología</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=2WdtAK-6F14"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bermejo_jesus">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-madrid"/>
+                </person>
+                <person role="speaker" corresp="#polo_luis-alberto">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rey-juan-carlos"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-madrid"/>
+            </event>
+            <org role="organizer" corresp="#morimoto_yuko #pavon-lucero_maria-victoria #garcia-munoz_luis-enrique"/>
           </event>
         </event>
         <event xml:id="ls32" type="lecture-series" where="#barcelona">
@@ -41510,14 +41807,14 @@
         </event>
         <!-- ##### Sweden ##### -->
         <event xml:id="ls33" type="lecture-series" where="#gothenburg">
-          <eventName xml:lang="se">DH-seminariet</eventName>
+          <eventName xml:lang="sv">DH-seminariet</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250522130720/https://www.gu.se/digital-humaniora/aktuellt/dh-seminariet"/>
           <ptr type="video"
             target="https://web.archive.org/web/20250522130905/https://www.gu.se/digital-humaniora/aktuellt/filmade-seminarier"/>
           <ptr type="blogpost"
             target="https://web.archive.org/web/20250522133407/https://www.gu.se/nyheter/seminarieserie-om-digital-humaniora"/>
-          <note type="description" xml:lang="se">
+          <note type="description" xml:lang="sv">
             <p>DH-seminariet är en öppen seminarieserie kring digitalisering och humaniora. Tanken
               är att fånga upp intresset inom hela fakulteten för det vidsträckta fält som
               forskningsområdet digital humaniora täcker in.</p>
@@ -41532,10 +41829,10 @@
               seminarier</p>
           </note>
           <event xml:id="ls33_t1" type="lecture-series-term" from="2020-01" to="2020-05">
-            <eventName xml:lang="se">våren 2020</eventName>
+            <eventName xml:lang="sv">våren 2020</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250522132815/https://www.gu.se/nyheter/centrum-for-digital-humaniora-startar-forelasningsserie-om-ai"/>
-            <note type="description" xml:lang="se">
+            <note type="description" xml:lang="sv">
               <p>Under våren 2020 kommer CDH att ge åtta föreläsningar som på något sätt anknyter
                 till artificiell intelligens. Syftet är främst att lyfta den AI-forskning som
                 bedrivs vid Humanistiska fakulteten, men några externa gäster har också bjudits in.
@@ -41543,10 +41840,10 @@
                 digitaliseringens utmaningar: Sju sätt att äga världen den 15 januari.</p>
             </note>
             <event xml:id="ls33_t1_l1" type="lecture" when="2020-01-15">
-              <eventName xml:lang="se">Sju sätt att äga världen</eventName>
+              <eventName xml:lang="sv">Sju sätt att äga världen</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250522134255/https://www.gu.se/humaniora/ett-hum-om-2020"/>
-              <note type="abstract" xml:lang="se">Vilka är de sju viktigaste digitala utmaningarna
+              <note type="abstract" xml:lang="sv">Vilka är de sju viktigaste digitala utmaningarna
                 som samhället står inför under det kommande decenniet? Andreas Ekström visar hur den
                 digitala revolutionen har snedfördelat makt, pengar och kunskap samtidigt som
                 möjligheter skapats att bygga nya affärer, nya sociala samspel och det internet vi
@@ -41599,12 +41896,12 @@
               <org role="host-institution" corresp="#uni-gothenburg"/>
             </event>
             <event xml:id="ls33_t1_l3" type="lecture" when="2020-02-26">
-              <eventName xml:lang="se">Att konstruera omsorg: Om människor, maskiner och längtan
+              <eventName xml:lang="sv">Att konstruera omsorg: Om människor, maskiner och längtan
                 efter ömsesidighet</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250522192601/https://www.gu.se/litteratur-idehistoria-religion/ekogruppen-tidigare-aktiviteter"/>
               <ptr type="video" target="https://play.gu.se/media/t/0_3qa10o8h"/>
-              <note type="abstract" xml:lang="se">
+              <note type="abstract" xml:lang="sv">
                 <p>Helena Granström föreläser om den mänskliga viljan att uppfatta en levande
                   motpart, även i icke-levande ting och om hur det påverkar synen på vår egen
                   mänsklighet. Helena Granström är kulturskribent och författare av böcker som
@@ -41632,7 +41929,7 @@
               <org role="host-institution" corresp="#uni-gothenburg"/>
             </event>
             <event xml:id="ls33_t1_l4" type="lecture" when="2020-03-24">
-              <eventName xml:lang="se">Fältinspelningar från framtiden</eventName>
+              <eventName xml:lang="sv">Fältinspelningar från framtiden</eventName>
               <ptr type="blogpost"
                 target="https://web.archive.org/web/20250522195032/https://kunstkritikk.se/dokument-fran-granslandet/"/>
               <note type="abstract" xml:lang="en">not found</note>
@@ -41657,7 +41954,7 @@
               <org role="host-institution" corresp="#uni-gothenburg"/>
             </event>
             <event xml:id="ls33_t1_l5" type="lecture" when="2020-04-14">
-              <eventName xml:lang="se">Språkteknologi och AI: två själar, en ’tanke’?</eventName>
+              <eventName xml:lang="sv">Språkteknologi och AI: två själar, en ’tanke’?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#linguistics #computer-science"/>
@@ -41702,8 +41999,8 @@
               <org role="host-institution" corresp="#uni-gothenburg"/>
             </event>
             <event xml:id="ls33_t1_l7" type="lecture" when="2020-05-12">
-              <eventName xml:lang="se">Kommer datorn stjäla min själ: AI i litteraturen</eventName>
-              <note type="abstract" xml:lang="se"/>
+              <eventName xml:lang="sv">Kommer datorn stjäla min själ: AI i litteraturen</eventName>
+              <note type="abstract" xml:lang="sv"/>
               <note type="keywords">
                 <term type="discipline" corresp="#literary-studies #computer-science"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting"/>
@@ -41724,7 +42021,7 @@
               <org role="host-institution" corresp="#uni-gothenburg"/>
             </event>
             <event xml:id="ls33_t1_l8" type="lecture" when="2020-05-26">
-              <eventName xml:lang="se">Datoriseringen i välfärdsstaten</eventName>
+              <eventName xml:lang="sv">Datoriseringen i välfärdsstaten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#media-studies"/>
@@ -41748,7 +42045,7 @@
             <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
           </event>
           <event xml:id="ls33_t2" type="lecture-series-term" from="2020-09" to="2020-12">
-            <eventName xml:lang="se">hösten 2020</eventName>
+            <eventName xml:lang="sv">hösten 2020</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250522202633/https://www.gu.se/digital-humaniora/aktuellt/dh-seminariet#accordion=7e0b66a7-3234-48a3-9d9d-1e7015ffdd08"/>
             <event xml:id="ls33_t2_l1" type="lecture" when="2020-09-18">
@@ -41786,15 +42083,14 @@
               <org role="host-institution" corresp="#uni-gothenburg"/>
             </event>
             <event xml:id="ls33_t2_l2" type="lecture" when="2020-10-02">
-              <!-- zwei draus machen: -->
-              <eventName xml:lang="se">Ventilering av masteruppsats(er) i Digital humaniora: Frida
-                Andersson och Maria Guadalupe Alvarez Diaz</eventName>
+              <eventName xml:lang="sv">Framtiden var här &amp; Alla kan innovera! – I
+                skärningspunkten mellan två Communities of Practice</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250522205431/https://www.gu.se/evenemang/dh-seminariet-ventilering-av-masteruppsatser-i-digital-humaniora"/>
-              <note type="abstract" xml:lang="se"/>
+              <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
-                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/teaching"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/collaborating"/>
                 <term type="topics-llm"/>
               </note>
               <note type="realization">
@@ -41802,11 +42098,195 @@
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#">
+                <person role="speaker" corresp="#andersson_frida">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#"/>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t2_l3" type="lecture" when="2020-10-02">
+              <eventName xml:lang="en">WOMENʼS WOVEN WEB: Activating the Biographical Dictionary of
+                Swedish Women through Social Network Narratives</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250522205431/https://www.gu.se/evenemang/dh-seminariet-ventilering-av-masteruppsatser-i-digital-humaniora"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/networkAnalysis"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#alvarez-diaz_maria-guadalupe">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t2_l4" type="lecture" when="2020-10-23">
+              <eventName xml:lang="en">Making media theory: carpentry as DH method</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526133612/https://www.gu.se/evenemang/dh-seminariet-marcel-ogorman-making-media-theory-crapentry-as-dh-method"/>
+              <ptr type="video" target="https://play.gu.se/media/t/0_p1fgxdj5"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/theorizing https://vocabs.dariah.eu/tadirah/teaching"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#o-gorman_marcel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-waterloo"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t2_l5" type="lecture" when="2020-11-17">
+              <eventName xml:lang="en">Digital Humanities: Knowledge and Critique in a Digital
+                Age</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526134135/https://www.gu.se/evenemang/digital-humanities-knowledge-and-critique-in-a-digital-age"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/conceptualizing https://vocabs.dariah.eu/tadirah/interpreting"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#berry_david">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-sussex"/>
+                </person>
+                <person role="speaker" corresp="#fagerjord_anders">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oslo #uni-bergen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t2_l6" type="lecture" when="2020-11-27">
+              <eventName xml:lang="sv">Spel som narrativ form – ludonarrativ dissonans, procedural
+                retorik och att berätta med ”spår”</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526134806/https://www.gu.se/evenemang/dh-seminariet-jonas-linderoth-spel-som-narrativ-form-ludonarrativ-dissonans-procedural-retorik-och-att-beratta-med-spar"/>
+              <ptr type="video" target="https://play.gu.se/media/t/0_pbq5rglg"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#game-studies #literary-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/structuralAnalysis https://vocabs.dariah.eu/tadirah/stylisticAnalysis"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#linderoth_jonas">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t2_l7" type="lecture" when="2020-12-11">
+              <eventName xml:lang="en">New advances in explorations of technocultural assemblages:
+                Moving beyond ontological divides in the study of the digital, the social and the
+                cultural.</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526135421/https://www.gu.se/evenemang/dh-seminariet-forskningsprojektet-technact-under-ledning-av-prof-i-genusvetenskap-mia-liinason"/>
+              <note type="abstract" xml:lang="en">
+                <p>Across the globe, feminist, women’s rights, and LGBTI+ movements struggle against
+                  local, colonial, national and transnational violence, threats and norms. To be
+                  sure, constructions of place and nationality are inseparable from struggles for
+                  social justice and from the conditions of social movements, who encounter multiple
+                  and diverse power hierarchies in various locations across the globe.
+                  Simultaneously, in civil society today, new communities and groups of collective
+                  actors emerge in transational space through digital technologies.</p>
+                <p>Attending to these developments, and inspired by the critical interventions of
+                  postcolonial feminist and technoscience scholars, we want to move beyond the idea
+                  of an ontological divide between humans and machines and study the
+                  interconnections between the digital, the social and the cultural – which we refer
+                  to as technocultural assemblages. From different perspectives and contexts,
+                  contributions to this panel will illuminate new insights on the relation between
+                  digital technologies and emergent communities and include:</p>
+                <list>
+                  <item>-  Explorations of the notion of contextual anchoring 
+                    in collective movements online</item>
+                  <item>-  Digital collective action on Twitch: 
+                    The Blizzard-Hong Kong case</item>
+                  <item>-  Reclaiming queer places through networked 
+                    activism: The Case of Istanbul Pride</item>
+                </list>
+                <p>This panel emerges from discussions in the research cluster TechnAct: 
+                  Transformations of Struggle which seeks to provide a collaborative 
+                  platform to develop approaches to study the interconnections 
+                  between the digital, the social and the cultural and to share 
+                  knowledge on the relation between digital technologies and emergent 
+                  communities in transnational space.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #social-siences #digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/collaborating https://vocabs.dariah.eu/tadirah/theorizing https://vocabs.dariah.eu/tadirah/discussing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kilic_onur">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+                <person role="speaker" corresp="#liinason_mia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+                <person role="speaker" corresp="#ruiz-bravo_nadia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+                <person role="speaker" corresp="#selander_lisen">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-gothenburg"/>
@@ -41814,32 +42294,959 @@
             <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
           </event>
           <event xml:id="ls33_t3" type="lecture-series-term" from="2021-01" to="2021-04">
-            <eventName xml:lang="se">våren 2021</eventName>
+            <eventName xml:lang="sv">våren 2021</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250526140442/https://www.gu.se/digital-humaniora/aktuellt/dh-seminariet#accordion=9ce4fcf0-ada7-4ae1-ab9a-2b66cf5bb1aa"/>
+            <event xml:id="ls33_t3_l1" type="lecture" when="2021-01-22">
+              <eventName xml:lang="en">Critical metadata and historicity in 
+                the digital photographic archive</eventName>
+              <ptr type="programme" target="https://web.archive.org/web/20250526141113/https://www.gu.se/evenemang/dh-seminariet-critical-metadata-and-historicity-in-the-digital-photographic-archive"/>
+              <ptr type="video" target="https://play.gu.se/media/t/0_radc5jjn"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/archiving https://vocabs.dariah.eu/tadirah/enriching"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pierce_rachel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#fh-boras"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t3_l2" type="lecture" when="2021-02-05">
+              <eventName xml:lang="en">Convolute (N)eural: Artificial Intelligence 
+                at the End of Moore's Law</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526141521/https://www.gu.se/evenemang/dh-seminariet-andrew-lison-convolute-neural-artificial-intelligence-at-the-end-of-moores-law"/>
+              <ptr type="video" target="https://play.gu.se/media/DH-seminarietA+Andrew+LisonA+Convolute+%28N%29euralA+Artificial+Intelligence+at+the+End+of+Moore%27s+Law+/0_owa3vjw5"/>
+              <note type="abstract" xml:lang="en">
+                <p>Why have we seen a tremendous amount of interest in neural-network-based 
+                  artificial intelligence in recent years? Proponents of the technology 
+                  point to three major reasons: larger sets of digitized information
+                  becoming available for training, breakthroughs in software techniques,
+                  and increases in processing power.</p>
+                <p>This talk offers another possibility, in some sense the opposite of this
+                  third point: while increases in speed may have made certain techniques 
+                  newly feasible, material limits on the development of computing
+                  power have necessitated a move to systems, like neural networks,
+                  that can make the most efficient use of present-day hardware.
+                  Dictating an exponential growth in semiconductor density 
+                  (and thus computing power), Intel Corporation co-founder Gordon E. Moore's 
+                  "law" has shown signs of faltering for much of the 21st century, 
+                  and the parallel-processing approaches promoted in light of this reality 
+                  have proven to be ideally suited to convolutional neural networks. 
+                  The contemporary push for AI-enabled software and even hardware, 
+                  then, can be understood as a response to an imminent plateau in discrete, 
+                  silicon-based computing power, itself a proxy, in a digitally-connected age,
+                  for socio-economic growth.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/contextualizing https://vocabs.dariah.eu/tadirah/machineLearning https://vocabs.dariah.eu/tadirah/commenting"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lison_andrew">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-buffalo"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t3_l3" type="lecture" when="2021-03-18">
+              <eventName xml:lang="en">Text seminar with Prof Lev Manovich</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526141746/https://www.gu.se/evenemang/dh-seminariet-text-seminar-with-prof-lev-manovich-city-university-of-new-york-cuny"/>
+              <note type="abstract" xml:lang="en">
+                <p>We read a couple of chapters from Manovich’s 
+                  recent book Cultural Analytics, 2020 (Introduction, Ch 7 &amp; Ch 10). 
+                  The first hour the seminar discuss these chapters, and the second
+                  hour we will be joined from Korea (hence the time) by 
+                  Lev Manovich himself! Please note that this is not a 
+                  presentation or lecture, but a text seminar.</p>
+                </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#manovich_lev">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#city-uni-new-york"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t3_l4" type="lecture" when="2021-03-26">
+              <eventName xml:lang="en">E-Meter Metaphysics: Scientology, Psychoanalysis,
+                and the Technological Inscription of Affect</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526142817/https://www.gu.se/evenemang/dh-seminariet-e-meter-metaphysics-scientology-psychoanalysis-and-the-technological-inscription-of-affect"/>
+              <ptr type="video" target="https://play.gu.se/media/DH-seminariet+med+Grant+Bollmer+26+mars+2021/0_vahy1y6u"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk discusses the “electro-psychometer,” or 
+                  “e-meter,” a highly sensitive variant of a “Wheatstone bridge” 
+                  consisting of two hand-held electrodes and an apparatus that 
+                  displays an oscillating needle. The e-meter is most notable as 
+                  a technology used in the “auditing” sessions of the Church of Scientology.</p>
+                <p>Prior towards the development of Scientology, in 1950, science fiction 
+                  author L. Ron Hubbard developed his philosophy of “Dianetics,” 
+                  a strange combination of Freudian psychoanalysis and occult mysticism
+                  that was influential in its shaping of self-help therapies in the
+                  latter half of the 20th century. After a number of personal and 
+                  professional embarrassments, Hubbard rechristened Dianetics as a religion,
+                  only then named Scientology, and began to employ the e-meter as a 
+                  technology that would appear to verify his often outlandish claims using
+                  seemingly objective means. The e-meter would enact what historians of 
+                  science Lorraine Daston and Peter Galison term “mechanical objectivity,” 
+                  the idea that technological inscription divorced from human perception is
+                  more “true” than subjective interpretation. This talk attempts to 
+                  contextualize the e-meter in relation to North American psychological 
+                  experiments designed to identify human emotion, as well as psychology’s 
+                  use of a range of often “illegitimate” techniques to legitimate its 
+                  existence as a science. If, for North American psychology, claims about 
+                  the truth of the emotions are derived from the particular, material effects
+                  of measurement permitted by an apparatus, for Scientology, a technological
+                  instrument serves as the agent that legitimates arguments about a 
+                  metaphysical, spiritual “truth” through seemingly objective forms of 
+                  measurement. Contrasting the methods of psychology and Scientology 
+                  demonstrate the emergence of a range of epistemic problems in the middle 
+                  of the twentieth century, and particularly how deferral to the objectivity
+                  of measurement could be employed to legitimate an occult metaphysics—themes 
+                  that inform the epistemology of conspiracy from the 1970s onward.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #psychology"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/contextualizing https://vocabs.dariah.eu/tadirah/discussing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bollmer_grant">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-north-carolina"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t3_l5" type="lecture" when="2021-04-09">
+              <eventName xml:lang="en">Text seminar with Prof Ted Underwood</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526143526/https://www.gu.se/evenemang/dh-seminariet-text-seminar-with-prof-ted-underwood-university-of-illinois-urbana-champaign"/>
+              <note type="abstract" xml:lang="en">
+                <p>The first hour of the seminar discusses these chapters, 
+                  and in the second hour, we will be joined from Illinois by 
+                  Ted Underwood himself! Please note that this is not a presentation
+                  or lecture, but a text seminar.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/analyzing https://vocabs.dariah.eu/tadirah/discussing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#underwood_ted">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-illinois"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t3_l6" type="lecture" when="2021-04-23">
+              <eventName xml:lang="sv">Minnen av matrisskrivare i ljud och bild</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526144012/https://www.gu.se/evenemang/dh-seminariet-prof-karin-wagner-gu-minnen-av-matrisskrivare-i-ljud-och-bild"/>
+              <ptr type="video" target="https://play.gu.se/media/DH-seminarietA+Prof+Karin+WagnerA+Minnen+av+matrisskrivare+i+ljud+och+bild/0_k0mt6ocx"/>
+              <note type="abstract" xml:lang="sv">
+                <p>Karin Wagner, professor i Konst- och bildvetenskap vid Göteborgs universitet, 
+                  håller just nu på med en bok om de digitala typsnittens historia. 
+                  Under seminariet presenterar hon sitt pågående projekt.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #media-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/contextualizing https://vocabs.dariah.eu/tadirah/visualAnalysis"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wagner_karin">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
             <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
           </event>
           <event xml:id="ls33_t4" type="lecture-series-term" from="2021-10" to="2021-12">
-            <eventName xml:lang="se">hösten 2021</eventName>
-            <org role="organizer" corresp="#"/>
+            <eventName xml:lang="sv">hösten 2021</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250526154959/https://www.gu.se/digital-humaniora/aktuellt/dh-seminariet#accordion=0d914e3d-55d8-4923-a9cb-1c7f6393f7fa"/>
+            <event xml:id="ls33_t4_l1" type="lecture" when="2021-10-01">
+              <eventName xml:lang="en">Visual media analysis for Instagram and other 
+              online platforms</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250526155710/https://www.gu.se/evenemang/dh-seminariet-richard-rogers"/>
+              <ptr type="video" target="https://play.gu.se/media/DH-seminariet%3A%20Richard%20Rogers%2020211001/0_4nl9nqre"/>
+              <note type="abstract" xml:lang="en">
+                <p>Instagram is currently the social media platform most associated with
+                  online images (and their analysis), but images from other platforms 
+                  also can be collected and grouped, arrayed by similarity, stacked,
+                  matched, stained, labelled, depicted as network, placed side by side 
+                  and otherwise analytically displayed. In the following, the initial 
+                  focus is on Instagram, together with certain schools of thought such 
+                  as Instagramism and Instagrammatics for its aesthetic and visual 
+                  cultural study. Building on those two approaches, it subsequently 
+                  focuses on other web and social media platforms, such as Google Image
+                  Search, Twitter, Facebook and 4chan. It provides demonstrations of how 
+                  querying techniques create online image collections, and how these sets 
+                  are analytically grouped through arrangements collectively referred to as 
+                  metapictures.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis https://vocabs.dariah.eu/tadirah/digitalPublishing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rogers_richard">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-amsterdam"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t4_l2" type="lecture" when="2021-10-15">
+              <eventName xml:lang="en">Visual media analysis for Instagram and other 
+                online platforms</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250527124502/https://www.gu.se/evenemang/dh-seminariet-n-katherine-hayles"/>
+              <note type="abstract" xml:lang="sv">
+                <p>N. Katherine Hayles är en av de ledande profilerna inom den digitala
+                  litteraturvetenskapen, med böcker om posthumanism, elektronisk 
+                  litteratur och digital kultur. Hennes senaste bok Postprint: Books
+                  and Becoming Computational utkom på Columbia University Press i våras.</p>
+                <p>N. Katherine Hayles, kommer i ett textseminarium presentera kapitel ur 
+                  sin kommande bok Technosymbiosis: Futures of the Human. Som vid 
+                  tidigare textseminarier blir det ingen föreläsning eller presentation, 
+                  utan en diskussion om texten under den första timmen utan vår gäst, och 
+                  under den andra timmen ansluter Hayles för frågor och diskussion.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/discussing https://vocabs.dariah.eu/tadirah/theorizing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hayles_katherine">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-california"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t4_l3" type="lecture" when="2021-11-26">
+            <eventName xml:lang="en">Participatory walking methods and tools</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20211130180637/https://www.gu.se/evenemang/ekoseminariet-participatory-walking-methods-and-tools"/>
+            <note type="abstract" xml:lang="sv">
+              <p>During the seminar, Martin will present and discuss the development
+                of “My Cult-Rural Toolkit”. The toolkit includes various methods
+                allowing expert and non-expert engagement with the landscape valuation 
+                process through embodied and situated approaches. All tools share the
+                principle of gathering data through real-time interaction in the place 
+                of interest, following principles of the embodied approach to ecosystems' 
+                valuation. The toolkit employs both participatory hands-on workshops
+                (Mini-Landscapes, Object Mapping, and Walking Maps) for in-depth
+                understanding of values attached with landscape, and digital mobile
+                apps (Rate My View app and Landscape Connect app) for exploratory, 
+                participatory mapping.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#cultural-studies #geography"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis https://vocabs.dariah.eu/tadirah/collaborating"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in presence</term>
+              <term type="audience">hybrid</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#martin_john">
+                <name>
+                  <roleName type="title">Dr.</roleName>
+                </name>
+                <affiliation corresp="#uni-plymouth"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
           </event>
+            <event xml:id="ls33_t4_l4" type="lecture" when="2021-12-03">
+            <eventName xml:lang="en">When algorithms dream: Neural networks, 
+              latent space, and cultural heritage</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250527135118/https://www.gu.se/evenemang/dh-seminariet-when-algorithms-dream-neural-networks-latent-space-and-cultural-heritage"/>
+            <ptr type="video" target="https://play.gu.se/media/DH-seminariet%3A%20Peter%20Leonard%20%E2%80%93%20When%20algorithms%20dream%3A%20Neural%20networks%2C%20latent%20space%2C%20and%20cultural%20heritage%2020211203/0_nk1ukku9"/>
+            <note type="abstract" xml:lang="en">
+              <p>This talk considers the possibilities of different kinds of 
+                artificial neural networks for the digital humanities: networks
+                that enhance interpretive ability, and networks that can be sampled 
+                to generate novel forms of expression. We consider both textual
+                and visual datasets, with a focus on Nordic cultural heritage, 
+                and consider neural networks for their ability to produce latent 
+                spaces: theoretical realms of cultural production that 
+                spring from – but are not bounded by – the historical record. 
+                As more literary and visual collections are digitized 
+                and placed online, it seems fair to consider both the
+                work and play of big data: what happens, in other words, 
+                when algorithms dream.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#library-information #digital-humanities"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/machineLearning https://vocabs.dariah.eu/tadirah/interpreting"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in person</term>
+              <term type="audience">hybrid</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#leonard_peter">
+                <name>
+                  <roleName type="title">Dr.</roleName>
+                </name>
+                <affiliation corresp="#uni-yale"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
+          </event>
+          <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
+        </event>
           <event xml:id="ls33_t5" type="lecture-series-term" from="2022-02" to="2022-05">
-            <eventName xml:lang="se">våren 2022</eventName>
-            <org role="organizer" corresp="#"/>
+            <eventName xml:lang="sv">våren 2022</eventName>
+            <event xml:id="ls33_t5_l1" type="lecture" when="2022-02-11">
+              <eventName xml:lang="sv">Att göra (litteratur)vetenskap – 
+                det är bara att räkna, eller?</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529080815/https://www.gu.se/evenemang/dh-seminariet-julia-pennlert-att-gora-litteraturvetenskap-det-ar-bara-att-rakna-eller"/>
+              <ptr type="video" target="https://play.gu.se/media/t/0_r93u2uuy"/>
+              <note type="abstract" xml:lang="sv">
+                <p>Under den senaste åren har Digital Humaniora presenterat en rad nya
+                  verktyg för forskaren, både gällande insamling och analys av ett 
+                  särskilt textmaterial. Inte sällan ramas framväxten av dessa nya 
+                  digitala metoder in som ett led i en förändring, som både rör forskarrollen
+                  och materialet som sådant. Men vad är det egentligen som står på spel och
+                  vilka kunskapsanspråk för samtidens metoder med sig?</p>
+                <p>I sin presentation kommer Julia Pennlert att, med hjälp av historiska
+                  nedslag och svenska exempel, spåra hur diskussionen om litteraturvetenskapens
+                  förändrade metoder inte är exklusiv för 2000-talet, utan att även historien 
+                  visar frågor som rör hur forskningen genomförs inom ämnet, viktiga att ta med 
+                  oss in i framtiden.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/discussing https://vocabs.dariah.eu/tadirah/gathering https://vocabs.dariah.eu/tadirah/analyzing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pennlert_julia">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#fh-boras"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t5_l2" type="lecture" when="2022-05-13">
+              <eventName xml:lang="sv">Kulturarvets digitalisering</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529081723/https://www.gu.se/evenemang/henrik-summanen-kulturarvets-digitalisering"/>
+              <note type="abstract" xml:lang="sv">
+                <p>Henrik Summanen från Riksantikvarieämbetet berättar om sin bok Kulturarvets
+                  digitalisering. Seminariet följs av postseminarium.</p>
+                <p>Henrik Summanen är arkeolog, språkvetare och filmvetare, som arbetat
+                  med digitalisering av kulturarv i 20 år. Han jobbar sedan 2017 på 
+                  Riksantikvarieämbetet, enheten Digisam. I sin bok Kulturarvets
+                  Digitalisering (2021) argumenterar han för att ABM-sektorn är
+                  felorganiserad för att göra ett bra jobb med digitalisering, 
+                  och att stora förändringar behövs för att optimera för den 
+                  digitala användaren.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/organizing https://vocabs.dariah.eu/tadirah/preserving"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#summanen_henrik">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#riksantikvarieambetet"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
           </event>
           <event xml:id="ls33_t6" type="lecture-series-term" from="2022-09" to="2022-12">
-            <eventName xml:lang="se">hösten 2022</eventName>
-            <org role="organizer" corresp="#"/>
+            <eventName xml:lang="sv">hösten 2022</eventName>
+            <event xml:id="ls33_t6_l1" type="lecture" when="2022-09-23">
+              <eventName xml:lang="en">Fight the machine, fight the problem, 
+                fight the money: Programming Language History and Some Implications 
+                for Algorithmic Criticism</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529082429/https://www.gu.se/evenemang/dh-seminariet-fight-the-machine-fight-the-problem-fight-the-money-programming-language-history-and-some-implications-for-algorithmic-criticism"/>
+              <ptr type="video" target="https://play.gu.se/media/DH-seminariet%3A%20Christian%20Mehrstam%3A%20Fight%20the%20Machine%20-%20Fight%20the%20Problem%20%E2%80%93%20Fight%20the%20Money.%2020220923/0_hodnm427"/>
+              <note type="abstract" xml:lang="en">
+                <p>Can a historic perspective help when choosing a programming
+                  language for a digital humanities project? The affordances, 
+                  practices and quirks of any language come from needs in its 
+                  development contexts, which may or may not match those of the project. 
+                  This seminar deals with three aspects of programming language 
+                  history, dubbed "Fight the Machine", "Fight the Problem" and
+                  "Fight the Money." It starts with a historic overview and 
+                  discusses languages from different eras, relating their
+                  qualities to the example activity of algorithmic criticism. 
+                  This is the manipulation of a literary text by way of 
+                  programming, in order to affect the scholar's hermeneutic
+                  process. It is a particular objective, uncommon in current 
+                  software industry, and the most interesting qualities for 
+                  it won't necessarily put a language at the top of popularity
+                  charts such as PYPL or the TIOBE Index.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science #literary-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/programming https://vocabs.dariah.eu/tadirah/discussing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mehrstam_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+          <event xml:id="ls33_t6_l2" type="lecture" when="2022-11-04">
+            <eventName xml:lang="en">What's the matter with computational literary studies?
+              / Doing (computational) literary studies</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250529082950/https://www.gu.se/evenemang/dh-seminariet-whats-the-matter-with-computational-literary-studies-doing-computational-literary-studies"/>
+            <note type="abstract" xml:lang="sv">
+              <p>Katherine Bode, Australian National University, Canberra, 
+                diskuterar två opublicerade texter. Seminariet ges endast online.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#digital-humanities #literary-studies"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/discussing https://vocabs.dariah.eu/tadirah/analyzing"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">online</term>
+              <term type="audience">online</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#bode_katherine">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-canberra"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
           </event>
+          <event xml:id="ls33_t6_l3" type="lecture" when="2022-11-18">
+            <eventName xml:lang="sv">Konstverket i reproduktionsåldern</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250529083439/https://www.gu.se/evenemang/dh-seminariet-konstverket-i-reproduktionsaldern"/>
+            <note type="abstract" xml:lang="sv">
+              <p>Vid detta DH-seminarium träffas vi för att diskutera Walter Benjamins 
+                essä ”Konstverket i reproduktionsåldern” (1936) 
+                med utgångspunkt i vad diskursen om original, 
+                autenticitet och ”aura” har med digital kultur att göra.</p>
+              <p>Utgångspunkten är ett samtal på plats för de som är intresserade, 
+                men vi kan också skapa ett diskussionsrum online där 
+                deltagare kan ansluta efter ca en timma.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#digital-humanities #philosophy"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/discussing"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in presence</term>
+              <term type="audience">hybrid</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#ingvarsson_jonas">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-gothenburg"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
+          </event>
+          <event xml:id="ls33_t6_l4" type="lecture" when="2022-11-25">
+            <eventName xml:lang="sv">Från världskrig till nätkrig</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250529083725/https://www.gu.se/evenemang/dh-seminariet-fran-varldskrig-till-natkrig"/>
+            <note type="abstract" xml:lang="sv">
+              <p>Hur fick internet sitt dåliga rykte, som en plats där hat
+                och lögner frodas? Följ med författaren och journalisten
+                Jonathan Lundberg på en resa ner i kaninhålet,
+                där han utifrån sin senaste bok Från världskrig till nätkrig 
+                förklarar hur internetkulturen växte fram, och hur extremister idag 
+                utnyttjar den för att nå unga.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#media-studies"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/posting https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/discussing"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in presence</term>
+              <term type="audience">hybrid</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#lundberg_jonathan">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#self-employment"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
+          </event>
+          <event xml:id="ls33_t6_l5" type="lecture" when="2022-11-30">
+            <eventName xml:lang="en">New Work, New Reading</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20220929204833/https://www.gu.se/evenemang/new-work-new-reading"/>
+            <note type="abstract" xml:lang="en">
+              <p>As COVID-19 made clear, work is 
+                undergoing cataclysmic changes at the moment.
+                Some workers are becoming increasingly precarious while 
+                others are expected to be available 24/7 on their mobile devices 
+                and smartphones. Meanwhile, literary platforms try to capitalize
+                on the new consumption patterns of workers through streaming services
+                and audiobooks that can be consumed on the job.
+                What happens to literary reading when work becomes digital and omnipresent?</p>
+              <p>In this talk I will introduce my new research project, New Work, 
+                New Reading. The project is a digital humanities project 
+                that analyzes data from Danish streaming services and 
+                library apps and compares datasets with theories of the new labor regime. 
+                The project is funded by MSCA and takes place at Centre for Digital
+                Humanities at LIR.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#literary-studies #digital-humanities"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/discussing https://vocabs.dariah.eu/tadirah/analyzing"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in presence</term>
+              <term type="audience">in presence</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#graesborg_mathies">
+                <name>
+                  <roleName type="title">Dr.</roleName>
+                </name>
+                <affiliation corresp="#uni-syddansk"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
+          </event>
+          <event xml:id="ls33_t6_l6" type="lecture" when="2022-12-09">
+            <eventName xml:lang="en">Dried and flattened – materiality and representation
+              in digitised herbaria</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250529085026/https://www.gu.se/evenemang/dh-seminariet-dried-and-flattened-materiality-and-representation-in-digitised-herbaria-digitalisering-av-kungliga-vetenskapsakademiens-handlingar"/>
+            <note type="abstract" xml:lang="en">
+              <p>Syftet med projektet Dried and flattened–materiality and representation
+                in digitised herbariaär att undersöka 
+                hur digitalisering av herbarier kan förstås ur ett bildteoretiskt perspektiv.
+                De paralleller med fotografins tidiga historia som jag tyckte mig se i 
+                början av projektet har jag fått bekräftade, 
+                såväl genom litteraturstudier om historiska botaniska
+                illustrationer som genom studiebesök vid Herbarium GB, 
+                en infrastruktur vid Göteborgs universitet där 
+                jag kunnat studera hur digitalisering av herbarier
+                går till och intervjua föreståndare och intendenter.
+                Inför fortsättningen av projektet står jag inför några vägval.
+                Ska jag fokusera på de fotohistoriska och fototeoretiska 
+                parallellerna eller på hur botaniker använder 
+                sig av de digitaliserade bilderna? Det är frågan om projektet ska 
+                bygga på visuell analys av artefakterna ur ett konstvetenskapligt 
+                perspektiv eller om jag ska gå vidare med en mer vetenskapssociologisk 
+                studie av botanikers visuella praktik? 
+                Går det att kombinera dessa två vägar?</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#digital-humanities #biology #art-history"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/visualAnalysis https://vocabs.dariah.eu/tadirah/theorizing"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in presence</term>
+              <term type="audience">hybrid</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#rogstrom_lena">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-gothenburg"/>
+              </person>
+              <person role="speaker" corresp="#johansson_sofie">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-gothenburg"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
+          </event>
+          <event xml:id="ls33_t6_l7" type="lecture" when="2022-12-09">
+            <eventName xml:lang="sv">Digitalisering av Kungliga Vetenskapsakademiens 
+              Handlingar</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250529085026/https://www.gu.se/evenemang/dh-seminariet-dried-and-flattened-materiality-and-representation-in-digitised-herbaria-digitalisering-av-kungliga-vetenskapsakademiens-handlingar"/>
+            <note type="abstract" xml:lang="sv">
+              <p>Projektet Digitalisering av Kungliga Vetenskapsakademiens Handlingar
+                (finansierat av Centrum för Digital Humaniora vid Hum.Fak., 
+                Göteborgs universitet) har utnyttjat AI
+                och teckenigenkänningsverktyget Transkribus 
+                för att translitterera tryckt 1700-talstext, 
+                så att den kan bli elektroniskt bearbetningsbar.
+                De 10 volymer som hittills är digitaliserade är möjliga
+                att använda för lexikaliska undersökningar av olika slag, 
+                men behöver fortfarande struktureras och märkas upp med 
+                metadata för att kunna användas optimalt.</p>
+                <p>Vid vår redovisning av det genomförda projektet visar 
+                  vi hur vi gått tillväga vid translittereringen av materialet; 
+                  vad vi genomfört för pilotundersökningar samt hur vi 
+                  analyserat materialet i Språkbankens analysverktyg SPARV 
+                  i syfte att kunna upprätta lexikaliska profiler över 
+                  såväl specifika subgenrer som författare.</p>
+                <p>Vi skissar också på möjliga fortsatta användningsområden
+                  för det bearbetade materialet, såsom att undersöka enskilda
+                  författares unika lexikaliska profiler,
+                  samt hur genreutveckling av vetenskaplig text kan analyseras
+                  ur ett lexikaliskt perspektiv.</p>
+            </note>
+            <note type="keywords">
+              <term type="discipline" corresp="#digital-humanities #cultural-studies #linguistics"/>
+              <term type="topic"
+                corresp="https://vocabs.dariah.eu/tadirah/structuralAnalysis https://vocabs.dariah.eu/tadirah/transcribing https://vocabs.dariah.eu/tadirah/stylisticAnalysis"/>
+              <term type="topics-llm"/>
+            </note>
+            <note type="realization">
+              <term type="speech">in presence</term>
+              <term type="audience">hybrid</term>
+            </note>
+            <listPerson>
+              <person role="speaker" corresp="#wagner_karin">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-gothenburg"/>
+              </person>
+            </listPerson>
+            <org role="host-institution" corresp="#uni-gothenburg"/>
+          </event>
+          <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
+        </event>
           <event xml:id="ls33_t7" type="lecture-series-term" from="2023-10" to="2023-12">
-            <eventName xml:lang="se">hösten 2023</eventName>
-            <org role="organizer" corresp="#"/>
+            <eventName xml:lang="sv">hösten 2023</eventName>
+            <event xml:id="ls33_t7_l1" type="lecture" when="2023-10-03">
+              <eventName xml:lang="en">From ASCII Art to Comic Sans: 
+                Typography and Popular Culture in the Digital Age</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529091047/https://www.gu.se/evenemang/from-ascii-art-to-comic-sans-typography-and-popular-culture-in-the-digital-age"/>
+              <note type="abstract" xml:lang="sv">
+                <p>From ASCII Art to Comic Sans:
+                  Typography and Popular Culture in the Digital Age (The MIT Press) 
+                  handlar om ett antal udda typografiska fenomen
+                  som hamnat i utkanten av historieskrivningen.
+                  Varför skapade man ASCII-bilder av bokstäver på
+                  datorcentralerna på 1970-talet?
+                  Hur kom ett typsnitt skapat för att automatisera hanteringen
+                  av checkar att bli synonymt med science-fiction
+                  och dystopiska framtidsvisioner? 
+                  Hur fann en skränig skrivare 
+                  för hemmabruk en plats i många användares hjärtan?
+                  Varför ägnar så många människor tid åt att
+                  spy galla över typsnittet Comic Sans i sociala medier?
+                  Dessa frågor om typografins roll i populärkulturen 
+                  från 1960-talet och framåt avhandlas i boken.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in presence</term>
+                <term type="audience">in presence</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wagner_karin">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t7_l2" type="lecture" when="2023-11-17">
+              <eventName xml:lang="sv">Ivar Arosenius hem i Älvängen</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529091525/https://www.gu.se/evenemang/ivar-arosenius-hem-i-alvangen"/>
+              <note type="abstract" xml:lang="sv">
+                <p>Boken Elfängen av Dick Claésson (Litteraturbanken) och 
+                  Jonathan Westin (GRIDH) är resultatet av ett nio år långt
+                  forskningsprojekt där det försvunna hemmet iscensätts
+                  i text och bild. Elfängen är en bok som endast med viss möda 
+                  låter sig beskrivas. Boken (som kombinerar vetenskaplig grundforskning 
+                  med lekfull, konstnärlig gestaltning) är ett 
+                  försök att skapa ett nytt slags förhållningssätt 
+                  till historieskrivning och digitala rekonstruktioner
+                  av det förflutnas platser och miljöer. 
+                  I föredraget får vi följa projektet från de 
+                  första trevande försöken att förstå platsen, till 
+                  det minutiösa iscensättandet av hemmets liv.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #art-history #literary-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/preserving"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in presence</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#claesson_dick">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#litteraturbanken"/>
+                </person>
+                <person role="speaker" corresp="#westin_jonathan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t7_l3" type="lecture" when="2023-12-01">
+              <eventName xml:lang="en">Visual rhetoric of climate denialism: 
+                a multimodal mixed-method approach to image analysis</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529092606/https://www.gu.se/evenemang/anton-tornberg-visual-rhetoric-of-climate-denialism-a-multimodal-mixed-method-approach-to-image-analysis"/>
+              <note type="abstract" xml:lang="en">
+                <p>As the global climate crisis intensifies, so too does the 
+                  counter-narrative propagated by the climate change counter-movement.
+                  In Sweden, this countermovement has not only been vociferous 
+                  but has also employed sophisticated means of communication 
+                  to bolster its agenda.</p>
+                <p>This paper embarks on an empirical investigation into the visual
+                  rhetoric employed by central actors within the countermovement 
+                  in Sweden, delving into the visual dimensions of
+                  their political mobilization. While arguments and discourses
+                  of these movements have been extensively scrutinized 
+                  in previous research, the visual dimension of
+                  their communication has remained comparatively
+                  under-explored, particularly the interplay
+                  between textual and visual elements. We adopt
+                  a mixed-method multimodal computational approach, 
+                  combining image classification with topic modeling. 
+                  This approach enables a systematic analysis of large image-text datasets, 
+                  allowing us to classify image clusters and examine 
+                  their variations over time. 
+                  This approach is combined with in-depth qualitative analysis.
+                  For this study, we have collected 13,000 images, 
+                  along with their accompanying texts,
+                  from dominant actors within the Swedish countermovement.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/clusterAnalysis https://vocabs.dariah.eu/tadirah/visualAnalysis https://vocabs.dariah.eu/tadirah/topicModeling https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in presence</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#tornberg_anton">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <event xml:id="ls33_t7_l4" type="lecture" when="2023-12-15">
+              <eventName xml:lang="sv">Från hamnstad till kvinnliga sjömän: 
+                om att gräva analogt i digital tidningsdata</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529093102/https://www.gu.se/evenemang/fran-hamnstad-till-kvinnliga-sjoman-om-att-grava-analogt-i-digital-tidningsdata"/>
+              <note type="abstract" xml:lang="sv">
+                <p>Denna presentation utgår ifrån den historiska arkeologen
+                  Martina Hjertmans avhandlingsprojekt 
+                  med fokus på förstaden Majorna,
+                  samt ett kommande forskningsprojekt om kvinnor till sjöss.
+                  Båda projekten utnyttjar digitiserade tidningar
+                  för att nå kunskap om sociala praktiker,
+                  diskursiva representationer
+                  och bebyggda miljöer under 1700-1800-tal som idag är bortglömda eller utplånade.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#archaeology #history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in presence</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hjertman_martina">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#stadsmuseum-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
           </event>
           <event xml:id="ls33_t8" type="lecture-series-term" from="2024-03" to="2024-03">
-            <eventName xml:lang="se">våren 2024</eventName>
-            <org role="organizer" corresp="#"/>
+            <eventName xml:lang="sv">våren 2024</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250529090625/https://www.gu.se/digital-humaniora/aktuellt/dh-seminariet#accordion=2240e4b3-1d97-412c-a814-a8a0bba577ce"/>
+            <event xml:id="ls33_t8_l1" type="lecture" when="2024-03-05">
+              <eventName xml:lang="en">The T in GPT: Transformers models for digital cultural heritage work</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250529090625/https://www.gu.se/digital-humaniora/aktuellt/dh-seminariet#accordion=2240e4b3-1d97-412c-a814-a8a0bba577ce"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #computer-science"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/machineLearning https://vocabs.dariah.eu/tadirah/preserving"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in presence</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#leonard_peter">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-gothenburg"/>
+            </event>
+            <org role="organizer" corresp="#ingvarsson_jonas #fridlund_mats"/>
           </event>
         </event>
         <!-- ##### Portugal ##### -->
-        <event xml:id="ls34" type="lecture-series" where="#porto #växjö #kalmar">
+        <event xml:id="ls34" type="lecture-series" where="#porto #kalmar #vaxjo">
           <eventName xml:lang="en">Knowledge Organisation and Digital Humanities: An International
             Webinar Series</eventName>
           <ptr type="programme"
@@ -41887,7 +43294,8 @@
                 <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/dataVisualization https://vocabs.dariah.eu/tadirah/enriching https://vocabs.dariah.eu/tadirah/informationRetrieval"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">controlled vocabularies, information retrieval, knowledge
+                  organization, user experiments, data visualization</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -41928,16 +43336,17 @@
                 <term type="discipline" corresp="#library-information"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/linkedOpenData https://vocabs.dariah.eu/tadirah/collecting"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">glam organizations, linked data, knowledge graphs, fair
+                  principles, opencitations</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <!-- Giovanni Colavizza – University of Amsterdam -->
-                <person role="speaker" corresp="#">
-                  <name> <roleName type="title"></roleName>
+                <person role="speaker" corresp="#colavizza_giovanni">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
                   </name>
                   <affiliation corresp="#uni-amsterdam"/>
                 </person>
@@ -41945,25 +43354,41 @@
               <org role="host-institution" corresp="#uni-porto"/>
             </event>
             <event xml:id="ls34_t1_l3" type="lecture" when="2021-09-30">
-              <eventName xml:lang="en">...</eventName>
+              <eventName xml:lang="en">Reading, Encoding, Organizing: Digital Literary Studies and
+                Knowledge Organization</eventName>
               <ptr type="video" target="https://youtu.be/9x_Lad4TcRc"/>
               <note type="abstract" xml:lang="en">
-                <p>...</p>
+                <p>The so-called digital literary studies have been shaped by some dichotomies that
+                  can be summarized in the opposition between traditional literary studies based on
+                  the printed book and close reading and the advances in the digital humanities
+                  focused on computer-assisted research methodologies and distant reading.
+                  Nevertheless, the shift from a print to a digital paradigm does not come
+                  automatically, and one might say it is still a work in progress in many
+                  Departments of Literature. Another major challenge faced by digital literary
+                  studies is the establishment of standards that may help with the preparation,
+                  development, dissemination, and preservation of projects in the field.</p>
+                <p>We will start this session by presenting the concept of digital literary studies
+                  and the dichotomies that permeate the field to then advance to the consideration
+                  of its relation to standards and terminologies such as the Taxonomy of Digital
+                  Research Activities of the Humanities (TaDiRAH) and the guidelines from the Text
+                  Encoding Initiative (TEI). Finally, we will briefly present a project that intends
+                  to combine traditional and digital literary studies to shed new light on the works
+                  of the American author Edgar Allan Poe.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#"/>
+                <term type="discipline" corresp="#literary-studies"/>
                 <term type="topic"
-                  corresp="#"/>
-                <term type="topics-llm"/>
+                  corresp="https://vocabs.dariah.eu/tadirah/preserving https://vocabs.dariah.eu/tadirah/encoding https://vocabs.dariah.eu/tadirah/organizing"/>
+                <term type="topics-llm">close reading, distant reading, literary studies, standards,
+                  edgar allan poe</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <!-- Jaqueline Pierazzo – University of Porto  -->
-                <person role="speaker" corresp="#">
-                  <name><roleName type="title"></roleName>
+                <person role="speaker" corresp="#pierazzo_jaqueline">
+                  <name><roleName type="title">not found</roleName>
                   </name>
                   <affiliation corresp="#uni-porto"/>
                 </person>
