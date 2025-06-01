@@ -645,12 +645,12 @@
           <org xml:id="uni-pais-vasco" type="university">
             <name xml:lang="es">Universidad del País Vasco</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1232428</idno>
-            <place corresp="lejona"/>
+            <place corresp="#lejona"/>
           </org>
           <org xml:id="uni-eoetvoes-lorand" type="university">
             <name xml:lang="hu">Eötvös Loránd Tudományegyetem</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q390287</idno>
-            <place corresp="budapest"/>
+            <place corresp="#budapest"/>
           </org>
           <org xml:id="uni-freiburg" type="university">
             <name xml:lang="de">Universität Freiburg</name>
@@ -1886,7 +1886,7 @@
           <org xml:id="tulp" type="company">
             <name xml:lang="en">TULP Interactive</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131315989</idno>
-            <place corresp="rijswijk"/>
+            <place corresp="#rijswijk"/>
           </org>
           <org xml:id="lvr-infokom" type="company">
             <name xml:lang="de">LVR-Infokom Köln</name>
