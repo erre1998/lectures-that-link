@@ -82,8 +82,8 @@
       <xsl:text>series-id,term-id,number-of-lectures</xsl:text><xsl:text>
 </xsl:text>
       <xsl:for-each select="//event[@type='lecture-series'][@xml:id=$lecture-series-data-completed]">
-        <xsl:value-of select="@xml:id"/><xsl:text>,</xsl:text>
         <xsl:for-each select="event[@type='lecture-series-term'][2013 &lt; number(substring(@from,1,4))][number(substring(@from,1,4)) &lt; 2025]">
+          <xsl:value-of select="parent::event[@type='lecture-series']/@xml:id"/><xsl:text>,</xsl:text>
           <xsl:value-of select="@xml:id"/><xsl:text>,</xsl:text>
           <xsl:value-of select="count(event[@type='lecture'])"/>
           <xsl:if test="position()!=last()"><xsl:text>

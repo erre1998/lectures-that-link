@@ -37,8 +37,7 @@
             Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
             generally appropriate for usages which treat TEI content as data or documentation. The
             BSD-2 licence is generally appropriate for usage of TEI content in a software
-            environment. For further information or clarification, please contact the <ref
-              target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
+            environment. For further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -52,7 +51,7 @@
           <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
         </application>
       </appInfo>
-    </encodingDesc>
+    <appInfo><application ident="RomaJS" version="1.1.2" when="2025-06-01T07:56:32.802Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <front>
@@ -134,9 +133,7 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <event type="lecture-series-term" from="2023-04" to="2024-07">
               <eventName xml:lang="de">Sommersemester 2023</eventName>
-              <ptr type="programme"
-                target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/"
-              />
+              <ptr type="programme" target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
             </event>
           </egXML>
           <p>If a consolidated program overview is available for a given term, a <gi>ptr</gi>
@@ -173,15 +170,13 @@
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies #computer-science"/>
-                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting
-                  https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting                   https://vocabs.dariah.eu/tadirah/machineLearning"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="programme"
-                target="https://web.archive.org/web/20241210104406/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2024-25/n/ki-generiert-texte-wie-und-warum-nachdenken-eines-informations-und-kommunikationswissenschaftlers-202261/"/>
+              <ptr type="programme" target="https://web.archive.org/web/20241210104406/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2024-25/n/ki-generiert-texte-wie-und-warum-nachdenken-eines-informations-und-kommunikationswissenschaftlers-202261/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.14525161"/>
               <listPerson>
                 <person role="speaker" corresp="#cap_clemens">
@@ -198,8 +193,7 @@
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rostock"/>
-            </event> [...] <org role="organizer"
-              corresp="#henny-krahmer_ulrike #alvares-freire_fernanda #renz_erik"/>
+            </event> [...] <org role="organizer" corresp="#henny-krahmer_ulrike #alvares-freire_fernanda #renz_erik"/>
           </egXML>
           <div xml:id="titles_abstracts">
             <head>Titles and Abstracts</head>
@@ -259,8 +253,7 @@
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <note type="keywords">
                 <term type="discipline" corresp="#german-studies #computer-science"/>
-                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting
-                https://vocabs.dariah.eu/tadirah/machineLearning"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/commenting                 https://vocabs.dariah.eu/tadirah/machineLearning"/>
               </note>
             </egXML>
             <p>In case that there are more than one discipline or topic, they are collected in the
@@ -269,9 +262,7 @@
               the data and for a more compact encoding of the information. For the disciplines, we
               use a pre-defined list that we created on our own. For the topics, the <emph>Taxonomy
                 of Digital Research Activities in the Humanities</emph> (TaDiRAH) is used. Detailed
-              information about TaDiRAH can be found at <ref
-                target="https://vocabs.dariah.eu/tadirah/en/"
-                >https://vocabs.dariah.eu/tadirah/en/</ref>.</p>
+              information about TaDiRAH can be found at <ref target="https://vocabs.dariah.eu/tadirah/en/">https://vocabs.dariah.eu/tadirah/en/</ref>.</p>
             <p>Both discipline and topic assignments are based on the lecture content. This
               classification relies on the abstract and title of the lecture. Since every lecture
               has a title but not necessarily an abstract, classification is always possible.
@@ -392,8 +383,7 @@
                 <gi>org</gi> element with the attribute <att>role</att> and the standardized value
                 <val>organizer</val>.</p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
-              <org role="organizer"
-                corresp="#henny-krahmer_ulrike #alvares-freire_fernanda #renz_erik"/>
+              <org role="organizer" corresp="#henny-krahmer_ulrike #alvares-freire_fernanda #renz_erik"/>
             </egXML>
             <p>Unlike host institutions, which are organizations, organizers are recorded as
               individual persons, as can be seen in the example above. It is possible for an
@@ -472,8 +462,7 @@
           <head>Capturing Links</head>
           <p>In order to ensure the long-term accessibility and reliability of information, we
             secure all relevant sources via links, which are then archived using the Wayback Machine
-            from the Internet Archive (<ref target="https://web.archive.org/"
-              >https://web.archive.org/</ref>). This archiving process applies to all links, except
+            from the Internet Archive (<ref target="https://web.archive.org/">https://web.archive.org/</ref>). This archiving process applies to all links, except
             for DOI links, which are permanent by definition and do not require additional
             archiving. However, links that lead to videos, such as those on YouTube, are not
             archived because archiving by the Wayback Machine is not possible in this case.</p>
@@ -481,8 +470,7 @@
             Within this element, the <att>type</att> attribute is used to specify the exact role of
             the link, as seen in the following examples:</p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <ptr type="programme"
-              target="https://web.archive.org/web/20230609113732/https://www.unive.it/data/33113/2/38661"/>
+            <ptr type="programme" target="https://web.archive.org/web/20230609113732/https://www.unive.it/data/33113/2/38661"/>
             <ptr type="slides" target="https://doi.org/10.5281/zenodo.7798685"/>
             <ptr type="video" target="https://www.youtube.com/watch?v=itVMXEEKZFQ"/>
             <ptr type="blogpost" target="https://doi.org/10.58079/o57z"/>
@@ -623,17 +611,14 @@
         <head>TEI Specifications</head>
         <schemaSpec ident="tei_lectures" start="TEI" prefix="tei_" targetLang="en" docLang="en">
           <!-- required minimal header elements -->
-          <moduleRef key="header"
-            include="teiHeader fileDesc titleStmt publicationStmt sourceDesc taxonomy category classDecl encodingDesc catDesc idno profileDesc availability licence"/>
+          <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc taxonomy category classDecl encodingDesc catDesc idno profileDesc availability licence"/>
           <!-- required core elements (p and title for use in titleStmt) -->
-          <moduleRef key="core"
-            include="p title ptr name desc note term list item bibl editor respStmt resp publisher pubPlace date"/>
+          <moduleRef key="core" include="p title ptr name desc note term list item bibl editor respStmt resp publisher pubPlace date"/>
           <!-- required textstructure elements (TEI, text, and body) -->
           <moduleRef key="textstructure" include="TEI text body"/>
           <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
           <moduleRef key="tei"/>
-          <moduleRef key="namesdates"
-            include="event eventName listEvent listPerson person roleName affiliation org listOrg place listPlace placeName forename surname country nameLink"/>
+          <moduleRef key="namesdates" include="event eventName listEvent listPerson person roleName affiliation org listOrg place listPlace placeName forename surname country nameLink gender"/>
           <moduleRef key="corpus" include="particDesc settingDesc"/>
           <classRef key="att.global.linking"/>
         </schemaSpec>
