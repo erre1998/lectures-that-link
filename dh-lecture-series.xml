@@ -7751,7 +7751,7 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0318-0698</idno>
           </person>
-          <person xml:id="kiss_dániel">
+          <person xml:id="kiss_daniel">
             <name>
               <forename>Dániel</forename>
               <surname>Kiss</surname>
@@ -15984,6 +15984,9 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=bHYela5T19s"/>
               <listPerson>
                 <person role="speaker" corresp="#toth_michael-b">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#rbtoth"/>
                 </person>
               </listPerson>
@@ -16192,7 +16195,10 @@
                 target="https://web.archive.org/web/20220818070618/https://www.unive.it/data/33113/2/45794"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=P3z9_1MSTKM"/>
               <listPerson>
-                <person role="speaker" corresp="#kiss_dániel">
+                <person role="speaker" corresp="#kiss_daniel">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
                   <affiliation corresp="#uni-barcelona #uni-venezia"/>
                 </person>
               </listPerson>
@@ -17456,6 +17462,9 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=YTTl3zbx3JU"/>
               <listPerson>
                 <person role="speaker" corresp="#dziekan_vincent">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
                   <affiliation corresp="#uni-monash"/>
                 </person>
               </listPerson>
@@ -19495,7 +19504,7 @@
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <event type="lecture" when="2018-06-07" xml:id="ls8_t4_l6">
-              <eventName xml:lang="en"> Reflected Text Analysis: Computational Linguistics Meets
+              <eventName xml:lang="en">Reflected Text Analysis: Computational Linguistics Meets
                 Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -19510,9 +19519,15 @@
                 target="https://web.archive.org/save/https://philtypo3.uni-koeln.de/sites/spinfo/dch/dhc-kolloq-schulz-reiter-2018-06-07.pdf"/>
               <listPerson>
                 <person role="speaker" corresp="#schulz_sarah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-stuttgart"/>
                 </person>
                 <person role="speaker" corresp="#reiter_nils">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-stuttgart"/>
                 </person>
               </listPerson>
@@ -19533,13 +19548,16 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj8"/>
               <listPerson>
                 <person role="speaker" corresp="#kirschbaum_jan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-duesseldorf"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <event type="lecture" when="2018-06-21" xml:id="ls8_t4_l8">
-              <eventName xml:lang="en"> Computational archaeology and the Science of
+              <eventName xml:lang="en">Computational archaeology and the Science of
                 Cities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -19553,6 +19571,9 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj7"/>
               <listPerson>
                 <person role="speaker" corresp="#paliou_eleftheria">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
                   <affiliation corresp="#uni-koeln"/>
                 </person>
               </listPerson>
@@ -19622,6 +19643,9 @@
                   <affiliation corresp="#uni-koeln"/>
                 </person>
                 <person role="speaker" corresp="#mondaca_francisco">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-koeln"/>
                 </person>
               </listPerson>
@@ -20419,6 +20443,9 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkke"/>
               <listPerson>
                 <person role="speaker" corresp="#thomas_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
               </listPerson>
@@ -23323,6 +23350,9 @@
                 target="https://web.archive.org/web/20250302181257/https://dhc.hypotheses.org/2842"/>
               <listPerson>
                 <person role="speaker" corresp="#pruemers_heiko">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
                   <affiliation corresp="#dai"/>
                 </person>
               </listPerson>
@@ -24108,12 +24138,21 @@
                   <affiliation corresp="#fh-wismar"/>
                 </person>
                 <person role="speaker" corresp="#theise_antje">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#library-uni-rostock"/>
                 </person>
                 <person role="speaker" corresp="#schroeder_max">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-rostock"/>
                 </person>
                 <person role="speaker" corresp="#reichelt_manuela">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#fbn"/>
                 </person>
                 <person role="speaker" corresp="#eggert_anja">
@@ -28606,6 +28645,9 @@
                 target="https://web.archive.org/web/20241222222851/https://lisa.gerda-henkel-stiftung.de/von_nebenbefunden_und_methodenadaptionen_in_den_digital_humanities_am_beispiel_von_m_w?nav_id=9314"/>
               <listPerson>
                 <person role="speaker" corresp="#flueh_marie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-hamburg"/>
                 </person>
                 <person role="speaker" corresp="#schumacher_mareike">
@@ -30181,24 +30223,45 @@
                 target="https://web.archive.org/web/20241231104056/http://web.archive.org/screenshot/https://dhd-blog.org/?p=20142"/>
               <listPerson>
                 <person role="speaker" corresp="#boenig_matthias">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
                 <person role="speaker" corresp="#haaf_susanne">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
                 <person role="speaker" corresp="#hug_marius">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
                 <person role="speaker" corresp="#dorn_nico">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#adw-goettingen"/>
                 </person>
                 <person role="speaker" corresp="#harm_volker">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#adw-goettingen"/>
                 </person>
                 <person role="speaker" corresp="#mederake_nathalie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#adw-goettingen"/>
                 </person>
                 <person role="speaker" corresp="#meyer-hinrichs_kerstin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#adw-goettingen"/>
                 </person>
               </listPerson>
@@ -30230,15 +30293,27 @@
                 target="https://web.archive.org/web/20250101105157/http://web.archive.org/screenshot/https://dhd-blog.org/?p=20297"/>
               <listPerson>
                 <person role="speaker" corresp="#diewald_nils">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#ids"/>
                 </person>
                 <person role="speaker" corresp="#kupietz_marc">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#ids"/>
                 </person>
                 <person role="speaker" corresp="#middell_gregor">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
                 <person role="speaker" corresp="#nolda_andreas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
               </listPerson>
@@ -30293,9 +30368,15 @@
                 target="https://web.archive.org/web/20250101120522/http://web.archive.org/screenshot/https://dhd-blog.org/?p=20327"/>
               <listPerson>
                 <person role="speaker" corresp="#schneider_roman">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#ids"/>
                 </person>
                 <person role="speaker" corresp="#barbaresi_adrien">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
               </listPerson>
@@ -30336,6 +30417,9 @@
               <ptr type="video" target="https://vimeo.com/946157118"/>
               <listPerson>
                 <person role="speaker" corresp="#bubenhofer_noah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-zuerich"/>
                 </person>
               </listPerson>
@@ -30381,9 +30465,15 @@
                 target="https://web.archive.org/web/20250101123142/http://web.archive.org/screenshot/https://dhd-blog.org/?p=20586"/>
               <listPerson>
                 <person role="speaker" corresp="#lemnitzer_lothar">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#bbaw"/>
                 </person>
                 <person role="speaker" corresp="#gloning_thomas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-giessen #bbaw"/>
                 </person>
               </listPerson>
@@ -30428,6 +30518,9 @@
               <ptr type="video" target="https://vimeo.com/946152081"/>
               <listPerson>
                 <person role="speaker" corresp="#pollin_christopher">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-graz"/>
                 </person>
               </listPerson>
@@ -30463,6 +30556,9 @@
                 target="https://web.archive.org/web/20250101232005/http://web.archive.org/screenshot/https://dhd-blog.org/?p=20952"/>
               <listPerson>
                 <person role="speaker" corresp="#marx_konstanze">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-greifswald"/>
                 </person>
               </listPerson>
@@ -30502,9 +30598,15 @@
                 target="https://web.archive.org/web/20250101232323/http://web.archive.org/screenshot/https://dhd-blog.org/?p=21160"/>
               <listPerson>
                 <person role="speaker" corresp="#flueh_marie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-hamburg"/>
                 </person>
                 <person role="speaker" corresp="#schumacher_mareike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-stuttgart"/>
                 </person>
               </listPerson>
@@ -30547,6 +30649,9 @@
                 target="https://web.archive.org/web/20250101232857/http://web.archive.org/screenshot/https://dhd-blog.org/?p=21575"/>
               <listPerson>
                 <person role="speaker" corresp="#reul_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-wuerzburg"/>
                 </person>
               </listPerson>
@@ -30589,6 +30694,9 @@
                 target="https://web.archive.org/web/20250101233622/http://web.archive.org/screenshot/https://dhd-blog.org/?p=21698"/>
               <listPerson>
                 <person role="speaker" corresp="#lehmberg_timm">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#adw-hamburg"/>
                 </person>
               </listPerson>
@@ -30629,6 +30737,9 @@
                 target="https://web.archive.org/web/20250101234802/http://web.archive.org/screenshot/https://dhd-blog.org/?p=21785"/>
               <listPerson>
                 <person role="speaker" corresp="#corff_oliver">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
@@ -32240,6 +32351,9 @@
                 target="https://timms.uni-tuebingen.de/tp/UT_20240507_001_sose24digithuman_0001"/>
               <listPerson>
                 <person role="speaker" corresp="#wust_markus">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-tuebingen"/>
                 </person>
               </listPerson>
@@ -32299,6 +32413,9 @@
                 target="https://timms.uni-tuebingen.de/tp/UT_20240528_001_sose24digithuman_0001"/>
               <listPerson>
                 <person role="speaker" corresp="#koerner_kevin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
                   <affiliation corresp="#uni-tuebingen"/>
                 </person>
               </listPerson>
