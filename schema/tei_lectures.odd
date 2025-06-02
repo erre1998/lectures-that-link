@@ -51,7 +51,7 @@
           <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
         </application>
       </appInfo>
-    <appInfo><application ident="RomaJS" version="1.1.2" when="2025-06-01T07:56:32.802Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    <appInfo><application ident="RomaJS" version="1.1.2" when="2025-06-01T07:56:32.802Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.1.2" when="2025-06-02T13:14:59.676Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <front>
@@ -618,7 +618,7 @@
           <moduleRef key="textstructure" include="TEI text body"/>
           <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
           <moduleRef key="tei"/>
-          <moduleRef key="namesdates" include="event eventName listEvent listPerson person roleName affiliation org listOrg place listPlace placeName forename surname country nameLink gender"/>
+          <moduleRef key="namesdates" include="event eventName listEvent listPerson person roleName affiliation org listOrg place listPlace placeName forename surname country nameLink gender bloc"/>
           <moduleRef key="corpus" include="particDesc settingDesc"/>
           <classRef key="att.global.linking"/>
         </schemaSpec>

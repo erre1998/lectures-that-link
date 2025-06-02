@@ -26,6 +26,13 @@
   <xsl:variable name="persons-male" select="$persons[gender='male']"/>
   <xsl:variable name="persons-non-binary" select="$persons[gender='non-binary']"/>
   
+  <xsl:function name="local:get-continents-for-countries" as="xs:string+">
+    <xsl:param name="countries"/>
+    <xsl:for-each select="$countries">
+      <xsl:value-of select="$places[@xml:id=current()]/bloc[@type='continent']/substring-after(@ref,'#')"/>
+    </xsl:for-each>
+  </xsl:function>
+  
   <xsl:function name="local:get-countries-for-cities" as="xs:string+">
     <xsl:param name="cities"/>
     <xsl:for-each select="$cities">
@@ -63,13 +70,104 @@
     <!--<xsl:call-template name="number-of-affiliation-countries"/>-->
     <!--<xsl:call-template name="lectures-per-year-plot"/>-->
     <!--<xsl:call-template name="gender-per-year-plot"/>-->
+    <!--<xsl:call-template name="ls-location-links-plot"/>-->
+    <!--<xsl:call-template name="ls-disciplines"/>-->
+    
+    <xsl:result-document href="../analyses/llm-topic.csv" method="text">
+      <xsl:for-each select="$lectures//term[@type='topics-llm']/tokenize(normalize-space(.),',\s')">
+        <xsl:value-of select="."/><xsl:text>
+</xsl:text>
+      </xsl:for-each>  
+    </xsl:result-document>
+    
+  </xsl:template>
+  
+  <xsl:template name="ls-disciplines">
+    <xsl:for-each select="$lecture-series">
+      <xsl:variable name="ls-id" select="@xml:id"/>
+      <xsl:result-document href="../analyses/ls-disciplines-{$ls-id}.html">
+        <html>
+          <head>
+            <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
+          </head>
+          <body>
+            <table>
+              <tr>
+                <td><div id="myDiv1" style="width:700px;height:550px;"/></td>
+              </tr>
+            </table>
+            <script>
+              var trace1 = {
+              y: [<xsl:for-each select="//taxonomy[@xml:id='disciplines']/category">
+                <xsl:sort select="count($lectures[ancestor::event[@type='lecture-series'][@xml:id=$ls-id]][.//term[@type='discipline']/tokenize(translate(@corresp,'#',''),'\s')=current()/@xml:id])" data-type="number" order="descending"/>
+                <xsl:value-of select="count($lectures[ancestor::event[@type='lecture-series'][@xml:id=$ls-id]][.//term[@type='discipline']/tokenize(translate(@corresp,'#',''),'\s')=current()/@xml:id])"/>
+                <xsl:if test="position()!=last()">,</xsl:if>
+              </xsl:for-each>],
+              x: [<xsl:for-each select="//taxonomy[@xml:id='disciplines']/category">
+                <xsl:sort select="count($lectures[ancestor::event[@type='lecture-series'][@xml:id=$ls-id]][.//term[@type='discipline']/tokenize(translate(@corresp,'#',''),'\s')=current()/@xml:id])" data-type="number" order="descending"/>
+                '<xsl:value-of select="catDesc"/>'
+                <xsl:if test="position()!=last()">,</xsl:if>
+              </xsl:for-each>],
+              type: 'bar',
+              name: 'disciplines'
+              };
+              
+              var data = [trace1];
+              var layout = {
+              yaxis: {title: {text: "number of lectures"}},
+              xaxis: {tickangle: 45},
+              margin: {b: 150}
+              };
+              
+              Plotly.newPlot('myDiv1', data, layout);
+              
+            </script>
+          </body>
+        </html>
+      </xsl:result-document>
+    </xsl:for-each>
     
     
-    <xsl:call-template name="ls-location-links-plot"/>
-    
-    
-    
-    
+    <xsl:result-document href="../analyses/ls-disciplines-overview.html">
+      <html>
+        <head>
+          <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
+        </head>
+        <body>
+          <table>
+            <tr>
+              <td><div id="myDiv1" style="width:700px;height:550px;"/></td>
+            </tr>
+          </table>
+          <script>
+            var trace1 = {
+            y: [<xsl:for-each select="//taxonomy[@xml:id='disciplines']/category">
+              <xsl:sort select="count($lectures[.//term[@type='discipline']/tokenize(translate(@corresp,'#',''),'\s')=current()/@xml:id])" data-type="number" order="descending"/>
+              <xsl:value-of select="count($lectures[.//term[@type='discipline']/tokenize(translate(@corresp,'#',''),'\s')=current()/@xml:id])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:for-each select="//taxonomy[@xml:id='disciplines']/category">
+              <xsl:sort select="count($lectures[.//term[@type='discipline']/tokenize(translate(@corresp,'#',''),'\s')=current()/@xml:id])" data-type="number" order="descending"/>
+              '<xsl:value-of select="catDesc"/>'
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            type: 'bar',
+            name: 'disciplines'
+            };
+            
+            var data = [trace1];
+            var layout = {
+            yaxis: {title: {text: "number of lectures"}},
+            xaxis: {tickangle: 45},
+            margin: {b: 150}
+            };
+            
+            Plotly.newPlot('myDiv1', data, layout);
+            
+          </script>
+        </body>
+      </html>
+    </xsl:result-document>
   </xsl:template>
   
   <xsl:template name="ls-location-links-plot">
@@ -101,14 +199,40 @@
               <xsl:variable name="ls-cities" select="tokenize(translate(@where,'#',''),'\s')"/>
               <xsl:variable name="ls-countries" select="local:get-countries-for-cities($ls-cities)"/>
               <xsl:variable name="terms" select="event[@type='lecture-series-term'][2013 &lt; number(substring(@from,1,4))][number(substring(@from,1,4)) &lt; 2025]"/>
-              <xsl:value-of select="count($terms/event[@type='lecture'][local:get-affiliation-city(.)[.!=$ls-cities and local:get-countries-for-cities(.)=$ls-countries]]) div count($terms/event[@type='lecture'])"/>
+              <xsl:value-of select="count($terms/event[@type='lecture'][local:get-affiliation-city(.)!=$ls-cities][local:get-countries-for-cities(local:get-affiliation-city(.))=$ls-countries]) div count($terms/event[@type='lecture'])"/>
               <xsl:if test="position()!=last()">,</xsl:if>
             </xsl:for-each>],
             type: 'box',
             name: 'national'
             };
             
-            var data = [trace1,trace2];
+            var trace3 = {
+            y: [<xsl:for-each select="$lecture-series">
+              <xsl:variable name="ls-cities" select="tokenize(translate(@where,'#',''),'\s')"/>
+              <xsl:variable name="ls-countries" select="local:get-countries-for-cities($ls-cities)"/>
+              <xsl:variable name="ls-continents" select="local:get-continents-for-countries($ls-countries)"/>
+              <xsl:variable name="terms" select="event[@type='lecture-series-term'][2013 &lt; number(substring(@from,1,4))][number(substring(@from,1,4)) &lt; 2025]"/>
+              <xsl:value-of select="count($terms/event[@type='lecture'][local:get-affiliation-city(.)!=$ls-cities][local:get-countries-for-cities(local:get-affiliation-city(.))!=$ls-countries][local:get-continents-for-countries(local:get-countries-for-cities(local:get-affiliation-city(.)))='europe']) div count($terms/event[@type='lecture'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            type: 'box',
+            name: 'European'
+            };
+            
+            var trace4 = {
+            y: [<xsl:for-each select="$lecture-series">
+              <xsl:variable name="ls-cities" select="tokenize(translate(@where,'#',''),'\s')"/>
+              <xsl:variable name="ls-countries" select="local:get-countries-for-cities($ls-cities)"/>
+              <xsl:variable name="ls-continents" select="local:get-continents-for-countries($ls-countries)"/>
+              <xsl:variable name="terms" select="event[@type='lecture-series-term'][2013 &lt; number(substring(@from,1,4))][number(substring(@from,1,4)) &lt; 2025]"/>
+              <xsl:value-of select="count($terms/event[@type='lecture'][local:get-affiliation-city(.)!=$ls-cities][local:get-countries-for-cities(local:get-affiliation-city(.))!=$ls-countries][local:get-continents-for-countries(local:get-countries-for-cities(local:get-affiliation-city(.)))!='europe']) div count($terms/event[@type='lecture'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            type: 'box',
+            name: 'other continents'
+            };
+            
+            var data = [trace1,trace2,trace3,trace4];
             var layout = {
             yaxis: {range: [0,1], title: {text: "percentage of lectures per series"}}
             };

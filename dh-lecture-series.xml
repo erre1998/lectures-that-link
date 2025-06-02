@@ -9730,109 +9730,161 @@
       </particDesc>
       <settingDesc>
         <listPlace xml:lang="en">
+          <!-- #### Kontinente #### -->
+          <place type="continent" xml:id="europe">
+            <name>Europe</name>
+          </place>
+          <place type="continent" xml:id="north-america">
+            <name>North America</name>
+          </place>
+          <place type="continent" xml:id="south-america">
+            <name>South America</name>
+          </place>
+          <place type="continent" xml:id="asia">
+            <name>Asia</name>
+          </place>
+          <place type="continent" xml:id="africa">
+            <name>Africa</name>
+          </place>
+          <place type="continent" xml:id="australia-continent">
+            <name>Australia</name>
+          </place>
           <!-- #### Countries #### -->
           <!-- ###### Continent: Europe ###### -->
           <place type="country" xml:id="slovenia">
+            <bloc type="continent" ref="#europe"/>
             <name>Slovenia</name>
           </place>
           <place type="country" xml:id="germany">
+            <bloc type="continent" ref="#europe"/>
             <name>Germany</name>
           </place>
           <place type="country" xml:id="uk">
+            <bloc type="continent" ref="#europe"/>
             <name>United Kingdom</name>
           </place>
           <place type="country" xml:id="france">
+            <bloc type="continent" ref="#europe"/>
             <name>France</name>
           </place>
           <place type="country" xml:id="spain">
+            <bloc type="continent" ref="#europe"/>
             <name>Spain</name>
           </place>
           <place type="country" xml:id="portugal">
+            <bloc type="continent" ref="#europe"/>
             <name>Portugal</name>
           </place>
           <place type="country" xml:id="ireland">
+            <bloc type="continent" ref="#europe"/>
             <name>Ireland</name>
           </place>
           <place type="country" xml:id="belgium">
+            <bloc type="continent" ref="#europe"/>
             <name>Belgium</name>
           </place>
           <place type="country" xml:id="netherlands">
+            <bloc type="continent" ref="#europe"/>
             <name>Netherlands</name>
           </place>
           <place type="country" xml:id="italy">
+            <bloc type="continent" ref="#europe"/>
             <name>Italy</name>
           </place>
           <place type="country" xml:id="norway">
+            <bloc type="continent" ref="#europe"/>
             <name>Norway</name>
           </place>
           <place type="country" xml:id="sweden">
+            <bloc type="continent" ref="#europe"/>
             <name>Sweden</name>
           </place>
           <place type="country" xml:id="finland">
+            <bloc type="continent" ref="#europe"/>
             <name>Finland</name>
           </place>
           <place type="country" xml:id="czech-republic">
+            <bloc type="continent" ref="#europe"/>
             <name>Czech Republic</name>
           </place>
           <place type="country" xml:id="switzerland">
+            <bloc type="continent" ref="#europe"/>
             <name>Switzerland</name>
           </place>
           <place type="country" xml:id="estonia">
+            <bloc type="continent" ref="#europe"/>
             <name>Estonia</name>
           </place>
           <place type="country" xml:id="denmark">
+            <bloc type="continent" ref="#europe"/>
             <name>Denmark</name>
           </place>
           <place type="country" xml:id="luxembourg">
+            <bloc type="continent" ref="#europe"/>
             <name>Luxembourg</name>
           </place>
           <place type="country" xml:id="hungary">
+            <bloc type="continent" ref="#europe"/>
             <name>Hungary</name>
           </place>
           <place type="country" xml:id="poland">
+            <bloc type="continent" ref="#europe"/>
             <name>Poland</name>
           </place>
           <place type="country" xml:id="croatia">
+            <bloc type="continent" ref="#europe"/>
             <name>Croatia</name>
           </place>
           <!-- ###### Continent: Asia ###### -->
           <place type="country" xml:id="japan">
+            <bloc type="continent" ref="#asia"/>
             <name>Japan</name>
           </place>
           <place type="country" xml:id="united-arab-emirates">
+            <bloc type="continent" ref="#asia"/>
             <name>United Arab Emirates</name>
           </place>
           <place type="country" xml:id="russia">
+            <bloc type="continent" ref="#asia"/>
             <name>Russia</name>
           </place>
           <place type="country" xml:id="china">
+            <bloc type="continent" ref="#asia"/>
             <name>People's Republic of China</name>
           </place>
           <place type="country" xml:id="singapore">
+            <bloc type="continent" ref="#asia"/>
             <name>Singapore</name>
           </place>
           <place type="country" xml:id="israel">
+            <bloc type="continent" ref="#asia"/>
             <name>Israel</name>
           </place>
           <!-- ###### Continent: Australia ###### -->
           <place type="country" xml:id="australia">
+            <bloc type="continent" ref="#australia-continent"/>
             <name>Australia</name>
           </place>
           <!-- ###### Continent: North America ###### -->
           <place type="country" xml:id="canada">
+            <bloc type="continent" ref="#north-america"/>
             <name>Canada</name>
           </place>
           <place type="country" xml:id="usa">
+            <bloc type="continent" ref="#north-america"/>
             <name>United States of America</name>
           </place>
           <!-- ###### Continent: South America ###### -->
           <place type="country" xml:id="argentina">
+            <bloc type="continent" ref="#south-america"/>
             <name>Argentina</name>
           </place>
           <place type="country" xml:id="colombia">
+            <bloc type="continent" ref="#south-america"/>
             <name>Colombia</name>
           </place>
           <place type="country" xml:id="brazil">
+            <bloc type="continent" ref="#south-america"/>
             <name>Brazil</name>
           </place>
           <!-- #### Cities #### -->
