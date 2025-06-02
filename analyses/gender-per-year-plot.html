@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script></head>
+   <body>
+      <table>
+         <tr>
+            <td>
+               <div id="myDiv" style="width:620px;height:400px;"></div>
+            </td>
+         </tr>
+      </table><script>
+            var trace1 = {
+            y: [2,9,7,6,20,24,40,45,56,76,62,12],
+            x: [2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+            type: 'bar',
+            name: 'female'
+            };
+            
+            var trace2 = {
+            y: [0,23,23,30,34,39,59,68,70,73,67,10],
+            x: [2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+            type: 'bar',
+            name: 'male'
+            };
+            
+            var trace3 = {
+            y: [0,0,0,0,0,0,0,0,1,0,1,0],
+            x: [2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+            type: 'bar',
+            name: 'non-binary'
+            };
+            
+            
+            var data = [trace1,trace2,trace3];
+            var layout = {
+            barmode: "stack",
+            yaxis: {title: {text: "number of lectures"}}
+            };
+            
+            Plotly.newPlot('myDiv', data, layout);
+          </script></body>
+</html>

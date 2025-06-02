@@ -675,7 +675,7 @@
           <org xml:id="uni-maryland-info" type="university">
             <name xml:lang="en">University of Maryland College of Information Studies</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q7895683</idno>
-            <!-- iSchool at the University of Maryland, College Park, United States -->
+            <place corresp="#college-park"/>
           </org>
           <org xml:id="uni-utah" type="university">
             <name xml:lang="en">University of Utah</name>
@@ -1209,7 +1209,7 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q273263</idno>
             <place corresp="#aachen"/>
           </org>
-          <org xml:id="uni-dresden-htw" type="university">
+          <org xml:id="htw-dresden" type="university">
             <name xml:lang="de">Hochschule für Technik und Wirtschaft Dresden (HTW)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622222</idno>
             <place corresp="#dresden"/>
@@ -1305,6 +1305,26 @@
             <name xml:lang="da">Syddansk Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131899513</idno>
             <place corresp="#aarhus"/>
+          </org>
+          <org xml:id="uni-padua" type="university">
+            <name xml:lang="it">Università degli Studi di Padova</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q193510</idno>
+            <place corresp="#padova"/>
+          </org>
+          <org xml:id="uni-paul-sabatier" type="university">
+            <name xml:lang="fr">Université Paul Sabatier</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1273188</idno>
+            <place corresp="#toulouse"/>
+          </org>
+          <org xml:id="uni-koblenz" type="university">
+            <name xml:lang="de">Universität Koblenz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113633597</idno>
+            <place corresp="#koblenz"/>
+          </org>
+          <org xml:id="mit" type="university">
+            <name xml:lang="en">Massachusetts Institute of Technology</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49108</idno>
+            <place corresp="#cambridge-us"/>
           </org>
           <!-- ##### Research Institutions ##### -->
           <org xml:id="mpi-eva" type="research_institution">
@@ -1585,6 +1605,16 @@
             <name xml:lang="en">Polish Academy of Sciences (PAN)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q651690</idno>
             <place corresp="#krakow"/>
+          </org>
+          <org xml:id="cnrs" type="research_institution">
+            <name xml:lang="fr">Centre national de la recherche scientifique (CNRS)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q280413</idno>
+            <place corresp="#paris"/>
+          </org>
+          <org xml:id="centre-marc-bloch" type="research_institution">
+            <name xml:lang="fr">Centre Marc Bloch</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q18816785</idno>
+            <place corresp="#berlin" />
           </org>
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
@@ -10092,6 +10122,11 @@
             <name>Konstanz</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005174</idno>
           </place>
+          <place type="city" xml:id="koblenz">
+            <country ref="#germany"/>
+            <name>Koblenz</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004448</idno>
+          </place>
           <!-- ######## Polish cities ######## -->
           <place type="city" xml:id="krakow">
             <country ref="#poland"/>
@@ -10458,6 +10493,11 @@
             <country ref="#france"/>
             <name>Lille</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008461</idno>
+          </place>
+          <place type="city" xml:id="toulouse">
+            <country ref="#france"/>
+            <name>Toulouse</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7008441</idno>
           </place>
           <!-- ######## Danish cities ######## -->
           <place type="city" xml:id="aarhus">
@@ -10925,6 +10965,11 @@
             <name>Champaign</name>
             <idno type="gnd">https://d-nb.info/gnd/4009730-4</idno>
           </place>
+          <place type="city" xml:id="college-park">
+            <country ref="#usa"/>
+            <name>College Park</name>
+            <idno type="gnd">https://d-nb.info/gnd/4219690-5</idno>
+          </place>
           <!-- ######## Canadian cities ######## -->
           <place type="city" xml:id="edmonton">
             <country ref="#canada"/>
@@ -11127,28 +11172,6 @@
                   corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis https://vocabs.dariah.eu/tadirah/dataMining https://vocabs.dariah.eu/tadirah/georeferencing"/>
                 <term type="topics-llm">student housing, padua, historical data, gis, spatial
                   representation</term></note>
-              <note type="keywords-llm">
-                <term>Historical GIS</term>
-                <term>Digital humanities</term>
-                <term>NodeGoat platform</term>
-                <term>ArcGIS Pro</term>
-                <term>Historical data interoperability</term>
-                <term>Student housing history</term>
-                <term>University of Padua</term>
-                <term>Medieval student accommodations</term>
-                <term>Early modern urban history</term>
-                <term>Historical mapping</term>
-                <term>Spatial analysis</term>
-                <term>Digital city reconstruction</term>
-                <term>Historical topography</term>
-                <term>Historical street names</term>
-                <term>Napoleonic cadastre</term>
-                <term>Medieval urban studies</term>
-                <term>Data extraction</term>
-                <term>Historical data visualization</term>
-                <term>Digital historical cartography</term>
-                <term>Urban spatial distribution</term>
-              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -11185,30 +11208,8 @@
                   corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/organizing https://vocabs.dariah.eu/tadirah/storing"/>
                 <term type="topics-llm">manuscripts, latin classics, isaac vossius, leiden
                   university library, textual transmission</term></note>
-              <note type="keywords-llm">
-                <term>Codices Vossiani Latini Online (CVLO)</term>
-                <term>CoDato project</term>
-                <term>Digital manuscript collection</term>
-                <term>Isaac Vossius (1618-1689)</term>
-                <term>Latin manuscripts</term>
-                <term>Leiden University Library</term>
-                <term>Digital humanities</term>
-                <term>Classical Latin texts</term>
-                <term>Historical manuscript digitization</term>
-                <term>Private historical libraries</term>
-                <term>Textual transmission</term>
-                <term>Digital codicology</term>
-                <term>Classical text reception</term>
-                <term>Digital manuscript studies</term>
-                <term>Manuscript preservation</term>
-                <term>Cultural heritage digitization</term>
-                <term>Historical bibliography</term>
-                <term>Digital classics</term>
-                <term>Manuscript provenance</term>
-                <term>Latin philology</term>
-              </note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#elice_martina">
@@ -11235,28 +11236,6 @@
                   corresp="https://vocabs.dariah.eu/tadirah/spatialAnalysis https://vocabs.dariah.eu/tadirah/georeferencing"/>
                 <term type="topics-llm">gis, geomorphology, urban planning, historical evolution,
                   modeling</term></note>
-              <note type="keywords-llm">
-                <term>Geomorphological evolution</term>
-                <term>Urban history of Padua</term>
-                <term>GIS modeling</term>
-                <term>Human settlement patterns</term>
-                <term>Historical elevation modeling</term>
-                <term>Urban archaeology</term>
-                <term>Prehistoric settlements</term>
-                <term>Cariparo Project</term>
-                <term>Digital humanities</term>
-                <term>Historical GIS</term>
-                <term>Urban geomorphology</term>
-                <term>Spatial persistence</term>
-                <term>Urban development</term>
-                <term>Historical habitation levels</term>
-                <term>Topographical reconstruction</term>
-                <term>Urban spatial analysis</term>
-                <term>Landscape archaeology</term>
-                <term>Diachronic urban studies</term>
-                <term>Historical urban planning</term>
-                <term>Environmental archaeology</term>
-              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -11395,7 +11374,7 @@
                   corresp="https://vocabs.dariah.eu/tadirah/structuralAnalysis https://vocabs.dariah.eu/tadirah/webDevelopment https://vocabs.dariah.eu/tadirah/digitalPublishing"/>
                 <term type="topics-llm">manuscripts, latin, library, codices, vossiani</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250130182140/https://ilbolive.unipd.it/it/event/codato-project-and-codices-vossiani-latini"/>
@@ -14646,7 +14625,7 @@
                 <term type="topics-llm">introduction, projects, active areas, methodology,
                   scientific communication</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14693,7 +14672,7 @@
                 <term type="topics-llm">industrial heritage, cultural preservation, virtual museum,
                   public history, intergenerational engagement</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14726,7 +14705,7 @@
                 <term type="topics-llm">ethics, artificial intelligence, public engagement,
                   awareness, generative ai</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14758,7 +14737,7 @@
                 <term type="topics-llm">knowledge organization, architecture, oracles, artificial
                   intelligence, future</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14820,7 +14799,7 @@
                 <term type="topics-llm">textual criticism, filology, literary theory, digital
                   culture, web interpretation</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14861,7 +14840,7 @@
                 <term type="topics-llm">public history, publishing, multimedia, historical outreach,
                   audience engagement</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14911,7 +14890,7 @@
                 <term type="topics-llm">open source, community, wordpress, cms,
                 collaboration</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -14957,7 +14936,7 @@
                 <term type="topics-llm">pirandello, digital edition, usability, hyperedition,
                   multimedia.</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -15008,7 +14987,7 @@
                 <term type="topics-llm">text processing, language models, educational technology,
                   natural language processing, italian language teaching</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -15261,7 +15240,7 @@
                 <term type="topics-llm">hate speech, cyberbullying, islamophobia, social networks,
                   data collection</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250528165401/https://www.unive.it/data/33113/2/36458"/>
@@ -16470,7 +16449,7 @@
                 <term type="topics-llm">nlp, art history, text analysis, authorship, language
                   modeling</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16506,7 +16485,7 @@
                 <term type="topics-llm">gis, historical atlases, cartography, historical studies,
                   spatial representation</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16540,7 +16519,7 @@
                 <term type="topics-llm">text processing, deep learning, critical editions, medieval
                   studies, human-ai collaboration</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16663,7 +16642,7 @@
                 <term type="topics-llm">media ecology, hybrid spaces, performativity, new media art,
                   augmented reality</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16700,7 +16679,7 @@
                 <term type="topics-llm">medieval latin, philology, linguistics, syntax,
                   treebank</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16735,7 +16714,7 @@
                 <term type="topics-llm">urban space, virtual reality, archaeology, cognitive impact,
                   ancient cities</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16789,7 +16768,7 @@
                 <term type="topics-llm">presentism, historicism, anecdotes, public humanities,
                   theoretical historiography</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -16838,7 +16817,7 @@
                 <term type="topics-llm">co-design, archaeology, heritage, values, participatory
                   design</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="programme"
@@ -17023,7 +17002,7 @@
                 <term type="topics-llm">cartography, greek islands, cultural heritage, digital
                   edition, geographical entities</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250126142412/https://www.unive.it/data/33113/2/69688"/>
@@ -17960,13 +17939,13 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-sorbonne"/>
+                  <affiliation corresp="#uni-paris-sorbonne"/>
                 </person>
                 <person role="speaker" corresp="#bartz_alexandre">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-sorbonne"/>
+                  <affiliation corresp="#uni-paris-sorbonne"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rouen"/>
@@ -17990,7 +17969,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-sorbonne"/>
+                  <affiliation corresp="#uni-paris-sorbonne"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rouen"/>
@@ -18327,7 +18306,7 @@
                 <term type="topics-llm">data visualization, networks, cartography, social sciences,
                   art history</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250423182829/https://umrlisa.univ-corse.fr/actualite/cycle-de-seminaires-les-humanites-numeriques-au-coeur-du-patrimoine-culturel/"/>
@@ -18493,7 +18472,7 @@
                 <term type="topics-llm">patrimony, libraries, digitization, accessibility,
                   preservation</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250424102942/https://umrlisa.univ-corse.fr/actualite/cycle-de-seminaires-session-10-patrimoine-et-numerique-presentation-des-projets-de-la-bibliotheque-patrimoniale-tommaso-prela/"/>
@@ -19398,7 +19377,7 @@
                 <term type="topics-llm">bonn, paris, max weber stiftung, art history,
                   kunstgeschichte</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">in person</term>
               </note>
               <ptr type="slides"
@@ -22281,7 +22260,7 @@
                 <term type="topics-llm">ibsen, legacy data, performing arts, theater,
                 drama</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#evensen_nina-marie">
@@ -24278,7 +24257,7 @@
                 <term type="topics-llm">data literacy, literary studies, computational analysis,
                   historical context, cultural context</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20241115013100/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023-24/n/literaturwissenschaft-eine-historische-datenwissenschaft-zu-data-literacy-und-anderen-literacies-171399/"/>
@@ -24496,7 +24475,7 @@
                   middle ages</term>
               </note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20241115014826/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023-24/n/ediarummediaevum-eine-arbeitsumgebung-zur-edition-mittelalterlicher-prosa-texte-171409/"/>
@@ -24916,7 +24895,7 @@
                 <term type="topics-llm">medieval texts, digital edition, textual scholarship, ai
                   methods, long-term accessibility</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20241115154540/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2024/n/coding-codices-and-the-quest-for-longevity-anforderungen-und-herausforderungen-bei-der-digitalen-edition-mittelalterlicher-texte-188653/"/>
@@ -30649,7 +30628,9 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250101234802/http://web.archive.org/screenshot/https://dhd-blog.org/?p=21785"/>
               <listPerson>
-                <person role="speaker" corresp="#corff_oliver"> </person>
+                <person role="speaker" corresp="#corff_oliver">
+                  <affiliation corresp="#self-employment"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
             </event>
@@ -32007,7 +31988,7 @@
                 <term type="topics-llm">wikidata, gender, diversity, representation, knowledge
                   base</term></note>
               <note type="realization">
-                <term type="speech">hybrid</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <ptr type="slides"
@@ -41489,7 +41470,7 @@
                 <term type="topics-llm">provenance, data, trajectories, qualify, crux</term>
               </note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250113095736/https://dg.philhist.unibas.ch/de/aktuelles/veranstaltungen/details/cruxes-of-provenance-data-oder-trajektorien-qualifizieren/"/>
@@ -41871,7 +41852,7 @@
                 <term type="topics-llm">open access, social scholarship, public engagement, research
                   dissemination, citizen scholarship</term></note>
               <note type="realization">
-                <term type="speech">cancelled</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250107184154/https://www.ucl.ac.uk/digital-humanities/events/2020/sep/postponed-ucldh-hockey-lecture-2020-some-preconditions-open-futures"/>
@@ -44060,7 +44041,7 @@
                   /><term type="topics-llm">walking, landscape, participatory, mapping,
                   valuation</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44276,7 +44257,7 @@
                   >walter benjamin, art reproduction, authenticity, aura, digital
                 culture</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44306,7 +44287,7 @@
                   /><term type="topics-llm">disinformation, online extremism, internet culture, war
                   propaganda, youth radicalization</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44342,8 +44323,8 @@
                   /><term type="topics-llm">covid-19, remote work, literary consumption, streaming
                   services, labor analysis</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
-                <term type="audience">in presence</term>
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#graesborg_mathies">
@@ -44381,7 +44362,7 @@
                   /><term type="topics-llm">botany, digitalization, visual analysis, photographic
                   history, scientific practice</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44428,7 +44409,7 @@
                   /><term type="topics-llm">ai, optical character recognition, lexicography,
                   linguistics, metadata</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44466,8 +44447,8 @@
                   type="topics-llm">typography, popular culture, ascii art, fonts, comic
                 sans</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
-                <term type="audience">in presence</term>
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#wagner_karin">
@@ -44499,7 +44480,7 @@
                   >literary studies, historical reconstruction, visualization, interdisciplinary
                   research, cultural heritage</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44547,7 +44528,7 @@
                   /><term type="topics-llm">climate change, visual analysis, multimodal, political
                   communication, rhetoric</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44577,7 +44558,7 @@
                   type="topics-llm">maritime history, gender studies, archaeology, newspaper
                   archives, 18th century</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44608,7 +44589,7 @@
                   /><term type="topics-llm">language models, transformers, cultural heritage,
                   artificial intelligence, machine learning</term></note>
               <note type="realization">
-                <term type="speech">in presence</term>
+                <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
