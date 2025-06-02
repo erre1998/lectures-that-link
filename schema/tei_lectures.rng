@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-06-01T07:56:38Z. 2025. 
+Schema generated from ODD source 2025-06-02T13:15:03Z. 2025. 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -1804,22 +1804,28 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <define name="tei_model.placeNamePart">
       <choice>
          <ref name="tei_placeName"/>
+         <ref name="tei_bloc"/>
          <ref name="tei_country"/>
       </choice>
    </define>
    <define name="tei_model.placeNamePart_alternation">
       <choice>
          <ref name="tei_placeName"/>
+         <ref name="tei_bloc"/>
          <ref name="tei_country"/>
       </choice>
    </define>
    <define name="tei_model.placeNamePart_sequence">
       <ref name="tei_placeName"/>
+      <ref name="tei_bloc"/>
       <ref name="tei_country"/>
    </define>
    <define name="tei_model.placeNamePart_sequenceOptional">
       <optional>
          <ref name="tei_placeName"/>
+      </optional>
+      <optional>
+         <ref name="tei_bloc"/>
       </optional>
       <optional>
          <ref name="tei_country"/>
@@ -1830,12 +1836,18 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
          <ref name="tei_placeName"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_bloc"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_country"/>
       </zeroOrMore>
    </define>
    <define name="tei_model.placeNamePart_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_placeName"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_bloc"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_country"/>
@@ -3506,6 +3518,18 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <ref name="tei_att.datable.attributes"/>
          <ref name="tei_att.editLike.attributes"/>
          <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_bloc">
+      <element name="bloc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bloc) contains the name of a geo-political unit consisting of two or more nation states or countries. [14.2.3. Place Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <ref name="tei_att.naming.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
