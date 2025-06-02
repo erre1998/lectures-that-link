@@ -2,9 +2,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:math="http://www.w3.org/2005/xpath-functions/math"
-  exclude-result-prefixes="xs math"
+  exclude-result-prefixes="xs math" xmlns:local="local"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   version="3.0">
+  
+  <!-- author of this script: Ulrike Henny-Krahmer -->
   
   <xsl:variable name="lecture-series-data-completed" 
     select="('ls1','ls3','ls4','ls5','ls6','ls8','ls9','ls10',
@@ -19,6 +21,34 @@
   <xsl:variable name="places" select="//settingDesc//place"/>
   <xsl:variable name="institutions" select="//particDesc//org"/>
   <xsl:variable name="years" select="2014 to 2025"/>
+  <xsl:variable name="persons" select="//particDesc//person"/>
+  <xsl:variable name="persons-female" select="$persons[gender='female']"/>
+  <xsl:variable name="persons-male" select="$persons[gender='male']"/>
+  <xsl:variable name="persons-non-binary" select="$persons[gender='non-binary']"/>
+  
+  <xsl:function name="local:get-countries-for-cities" as="xs:string+">
+    <xsl:param name="cities"/>
+    <xsl:for-each select="$cities">
+      <xsl:value-of select="$places[@xml:id=current()]/country/substring-after(@ref,'#')"/>
+    </xsl:for-each>
+  </xsl:function>
+  
+  <xsl:function name="local:get-affiliation-city" as="xs:string+">
+    <xsl:param name="context"/>
+    <xsl:message><xsl:value-of select="$context/@xml:id"/></xsl:message>
+    <xsl:for-each select="$context//affiliation/tokenize(translate(@corresp,'#',''),'\s')">
+      <xsl:variable name="institution" select="$institutions[@xml:id=current()]"/>
+      <xsl:choose>
+        <xsl:when test="$institution/@xml:id=('self-employment','i4dh','legacy-page')">unknown</xsl:when>
+        <xsl:otherwise>
+          <xsl:for-each select="$institution/place">
+            <xsl:variable name="place-id" select="substring-after(@corresp,'#')"/>
+            <xsl:value-of select="$place-id"/>
+          </xsl:for-each>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:function>
   
   <xsl:template match="/">
     <!--<xsl:call-template name="ls-structures-general"/>-->
@@ -31,10 +61,178 @@
     <!--<xsl:call-template name="number-of-host-countries"/>-->
     <!--<xsl:call-template name="number-of-affiliation-cities"/>-->
     <!--<xsl:call-template name="number-of-affiliation-countries"/>-->
+    <!--<xsl:call-template name="lectures-per-year-plot"/>-->
+    <!--<xsl:call-template name="gender-per-year-plot"/>-->
     
-    <xsl:value-of select="count($years)"/>
+    
+    <xsl:call-template name="ls-location-links-plot"/>
     
     
+    
+    
+  </xsl:template>
+  
+  <xsl:template name="ls-location-links-plot">
+    <xsl:result-document href="../analyses/ls-location-links-plot.html">
+      <html>
+        <head>
+          <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
+        </head>
+        <body>
+          <table>
+            <tr>
+              <td><div id="myDiv1" style="width:600px;height:500px;"/></td>
+            </tr>
+          </table>
+          <script>
+            var trace1 = {
+            y: [<xsl:for-each select="$lecture-series">
+              <xsl:variable name="ls-cities" select="tokenize(translate(@where,'#',''),'\s')"/>
+              <xsl:variable name="terms" select="event[@type='lecture-series-term'][2013 &lt; number(substring(@from,1,4))][number(substring(@from,1,4)) &lt; 2025]"/>
+              <xsl:value-of select="count($terms/event[@type='lecture'][local:get-affiliation-city(.)=$ls-cities]) div count($terms/event[@type='lecture'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            type: 'box',
+            name: 'local'
+            };
+            
+            var trace2 = {
+            y: [<xsl:for-each select="$lecture-series">
+              <xsl:variable name="ls-cities" select="tokenize(translate(@where,'#',''),'\s')"/>
+              <xsl:variable name="ls-countries" select="local:get-countries-for-cities($ls-cities)"/>
+              <xsl:variable name="terms" select="event[@type='lecture-series-term'][2013 &lt; number(substring(@from,1,4))][number(substring(@from,1,4)) &lt; 2025]"/>
+              <xsl:value-of select="count($terms/event[@type='lecture'][local:get-affiliation-city(.)[.!=$ls-cities and local:get-countries-for-cities(.)=$ls-countries]]) div count($terms/event[@type='lecture'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            type: 'box',
+            name: 'national'
+            };
+            
+            var data = [trace1,trace2];
+            var layout = {
+            yaxis: {range: [0,1], title: {text: "percentage of lectures per series"}}
+            };
+            
+            Plotly.newPlot('myDiv1', data, layout);
+            
+          </script>
+        </body>
+      </html>
+    </xsl:result-document>
+  </xsl:template>
+  
+  <xsl:template name="gender-per-year-plot">
+    <xsl:result-document href="../analyses/gender-per-year-plot.html">
+      <html>
+        <head>
+          <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
+        </head>
+        <body>
+          <table>
+            <tr>
+              <td><div id="myDiv" style="width:620px;height:400px;"/></td>
+            </tr>
+          </table>
+          <script>
+            var trace1 = {
+            y: [<xsl:for-each select="$years">
+              <xsl:value-of select="count($lectures[number(substring(@when,1,4))=current()][.//person[@role='speaker']/substring-after(@corresp,'#')=$persons-female/@xml:id])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:value-of select="string-join($years,',')"/>],
+            type: 'bar',
+            name: 'female'
+            };
+            
+            var trace2 = {
+            y: [<xsl:for-each select="$years">
+              <xsl:value-of select="count($lectures[number(substring(@when,1,4))=current()][.//person[@role='speaker']/substring-after(@corresp,'#')=$persons-male/@xml:id])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:value-of select="string-join($years,',')"/>],
+            type: 'bar',
+            name: 'male'
+            };
+            
+            var trace3 = {
+            y: [<xsl:for-each select="$years">
+              <xsl:value-of select="count($lectures[number(substring(@when,1,4))=current()][.//person[@role='speaker']/substring-after(@corresp,'#')=$persons-non-binary/@xml:id])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:value-of select="string-join($years,',')"/>],
+            type: 'bar',
+            name: 'non-binary'
+            };
+            
+            
+            var data = [trace1,trace2,trace3];
+            var layout = {
+            barmode: "stack",
+            yaxis: {title: {text: "number of lectures"}}
+            };
+            
+            Plotly.newPlot('myDiv', data, layout);
+          </script>
+        </body>
+      </html>
+    </xsl:result-document>
+  </xsl:template>
+  
+  <xsl:template name="lectures-per-year-plot">
+    <xsl:result-document href="../analyses/lectures-per-year-plot.html">
+      <html>
+        <head>
+          <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
+        </head>
+        <body>
+          <table>
+            <tr>
+              <td><div id="myDiv" style="width:600px;height:400px;"/></td>
+            </tr>
+          </table>
+          <script>
+            var trace1 = {
+            y: [<xsl:for-each select="$years">
+              <xsl:value-of select="count($lectures[number(substring(@when,1,4))=current()][.//term[@type='speech']='in person'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:value-of select="string-join($years,',')"/>],
+            type: 'bar',
+            name: 'in person'
+            };
+            
+            var trace2 = {
+            y: [<xsl:for-each select="$years">
+              <xsl:value-of select="count($lectures[number(substring(@when,1,4))=current()][.//term[@type='speech']='online'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:value-of select="string-join($years,',')"/>],
+            type: 'bar',
+            name: 'online'
+            };
+            
+            var trace3 = {
+            y: [<xsl:for-each select="$years">
+              <xsl:value-of select="count($lectures[number(substring(@when,1,4))=current()][.//term[@type='speech']='canceled'])"/>
+              <xsl:if test="position()!=last()">,</xsl:if>
+            </xsl:for-each>],
+            x: [<xsl:value-of select="string-join($years,',')"/>],
+            type: 'bar',
+            name: 'canceled'
+            };
+            
+            
+            var data = [trace1,trace2,trace3];
+            var layout = {
+            barmode: "stack",
+            yaxis: {title: {text: "number of lectures"}}
+            };
+            
+            Plotly.newPlot('myDiv', data, layout);
+          </script>
+        </body>
+      </html>
+    </xsl:result-document>
   </xsl:template>
   
   <xsl:template name="number-of-affiliation-countries">
