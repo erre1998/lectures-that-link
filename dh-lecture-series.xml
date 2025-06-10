@@ -10001,6 +10001,7 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004905</idno>
           </place>
           <place type="city" xml:id="augsburg">
+            <country ref="#germany"/>
             <name>Augsburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004324</idno>
           </place>
@@ -10650,7 +10651,7 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003097</idno>
           </place>
           <!-- ######## Portuguese cities ######## -->
-          <place type="city" xml:id="lissabon">
+          <place type="city" xml:id="lisboa">
             <country ref="#portugal"/>
             <name>Lisbon</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010978</idno>
@@ -23840,7 +23841,6 @@
                   Arbeitskreis für Digital Humanities (RosDH) vorgestellt, mit dem ein Netzwerk für
                   Digital Humanists in Rostock eröffnet wird.</p>
               </note>
-
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/disseminating"/>
