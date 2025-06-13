@@ -1870,7 +1870,6 @@
           </org>
           <org xml:id="websoup" type="company">
             <name xml:lang="en">WebSoup - Web &amp; Seo Agency</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q132722629</idno>
             <place corresp="#lucca"/>
           </org>
           <org xml:id="eve-museos" type="company">
@@ -4086,7 +4085,6 @@
               <surname>Gargano</surname>
             </name>
             <gender>female</gender>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q132857924</idno>
           </person>
           <person xml:id="tambassi_timothy">
             <name>
@@ -4193,8 +4191,7 @@
               <forename>Giulia</forename>
               <surname>Genovese</surname>
             </name>
-            <gender>male</gender>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q133932426</idno>
+            <gender>female</gender>
           </person>
           <person xml:id="cignoni_giovanni">
             <name>
