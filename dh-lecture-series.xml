@@ -1870,7 +1870,6 @@
           </org>
           <org xml:id="websoup" type="company">
             <name xml:lang="en">WebSoup - Web &amp; Seo Agency</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q132722629</idno>
             <place corresp="#lucca"/>
           </org>
           <org xml:id="eve-museos" type="company">
@@ -4086,7 +4085,6 @@
               <surname>Gargano</surname>
             </name>
             <gender>female</gender>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q132857924</idno>
           </person>
           <person xml:id="tambassi_timothy">
             <name>
@@ -4193,8 +4191,7 @@
               <forename>Giulia</forename>
               <surname>Genovese</surname>
             </name>
-            <gender>male</gender>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q133932426</idno>
+            <gender>female</gender>
           </person>
           <person xml:id="cignoni_giovanni">
             <name>
@@ -26157,6 +26154,7 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250428135946/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/aber-es-gibt-doch-schon-zwei-buecher-ueber-achim-die-edition-von-uwe-johnsons-das-dritte-buch-ueber-achim-als-gedruckte-und-digitale-ausgabe-232707/"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.15630850"/>
               <listPerson>
                 <person role="speaker" corresp="#greinert_cordula">
                   <name>
@@ -26264,6 +26262,7 @@
               </note>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250528145222/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/the-transformative-impact-of-digital-humanities-on-the-study-of-historical-manuscripts-232711/"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.15630948"/>
               <listPerson>
                 <person role="speaker" corresp="#tomic_marijana">
                   <name>
@@ -26304,11 +26303,10 @@
                 <term type="topics-llm">archaeology, data management, long-term projects,
                   fragmentation, data challenges</term></note>
               <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
+                <term type="speech">canceled</term>
               </note>
               <ptr type="programme"
-                target="https://web.archive.org/web/20250528150033/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
+                target="https://web.archive.org/web/20250613162237/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/disiecta-membra-als-disiecta-data-herausforderungen-in-einem-archaeologischen-langzeitvorhaben-232713/"/>
               <listPerson>
                 <person role="speaker" corresp="#deicke_aline">
                   <name>
@@ -26322,7 +26320,18 @@
             <event type="lecture" when="2025-06-16" xml:id="ls10_t5_l9">
               <eventName xml:lang="en">Open Minimal Digital Editions: a Latin American
                 Perspective</eventName>
-              <note type="abstract" xml:lang="en">not found</note>
+              <note type="abstract" xml:lang="en">
+                <p>Digital Humanities (DH) are usually defined by emphasizing their intersectional
+                  nature. However, the role that technology plays in this definition is rarely
+                  analyzed in terms of access and equity inside Academia. Digital Scholarly Editions
+                  (DSE) are at the core of DH. However, from a Latin American and a Global South
+                  perspective, the DSE field is perceived as being dominated by technologies that
+                  are expensive to use and maintain, and by technologies that are still unfamiliar
+                  to scholars. In this talk I reflect on the possibilities that the Latin American
+                  Open Science experiences can bring to the DSE field, to which it adds minimal
+                  computing practices, open source standards and tools that facilitate project
+                  building, data reuse, and research replicability.</p>
+              </note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open, minimal, editions, latin american,
@@ -26331,7 +26340,8 @@
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
               </note>
-              <ptr type="programme" target="..."/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250613162330/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/open-minimal-digital-editions-a-latin-american-perspective-232715/"/>
               <listPerson>
                 <person role="speaker" corresp="#rio-riande_gimena-del">
                   <name>
