@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta>
+    <title>network-dh-in-focus.gexf</title>
+    <authors>Erik Renz</authors>
+    <description>Network of lecture series "DH in Focus"</description>
+  </meta>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="place-name" title="place-name" type="string"/>
+      <attribute id="number-of-affiliations" title="number-of-affiliations" type="integer"/>
+      <attribute id="geographical-context" title="geographical-context" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="number-of-lectures" title="number-of-lectures" type="integer"/>
+      <attribute id="rawWeight" title="rawWeight" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="0" label="Rostock">
+        <attvalues>
+          <attvalue for="place-name" value="Rostock"/>
+          <attvalue for="number-of-affiliations" value="26"/>
+          <attvalue for="geographical-context" value="local"/>
+          <attvalue for="rawSize" value="3"/>
+        </attvalues>
+        <viz:color r="119" g="122" b="204"/>
+        <viz:size value="3"/>
+        <viz:position x="-0.20834380388259888" y="-2.022183895111084"/>
+      </node>
+      <node id="2" label="Antwerp">
+        <attvalues>
+          <attvalue for="place-name" value="Antwerp"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="-15.86015275434788" y="16.829067020574424"/>
+      </node>
+      <node id="3" label="Augsburg">
+        <attvalues>
+          <attvalue for="place-name" value="Augsburg"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="18.90058838199049" y="7.537325706121095"/>
+      </node>
+      <node id="4" label="Berlin">
+        <attvalues>
+          <attvalue for="place-name" value="Berlin"/>
+          <attvalue for="number-of-affiliations" value="3"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.674389034116991"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.674389034116991"/>
+        <viz:position x="-17.818923905606322" y="-12.73235912972455"/>
+      </node>
+      <node id="5" label="Bielefeld">
+        <attvalues>
+          <attvalue for="place-name" value="Bielefeld"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="19.12347901371257" y="-4.5511089499177615"/>
+      </node>
+      <node id="6" label="Bonn">
+        <attvalues>
+          <attvalue for="place-name" value="Bonn"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="31.3524554989799" y="2.003659117348498"/>
+      </node>
+      <node id="7" label="Buenos Aires">
+        <attvalues>
+          <attvalue for="place-name" value="Buenos Aires"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="beyond Europe"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="196" g="90" b="149"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="-33.95396523676514" y="-0.027420445867520016"/>
+      </node>
+      <node id="8" label="Cork">
+        <attvalues>
+          <attvalue for="place-name" value="Cork"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="3.1136384552710794" y="24.79705824661083"/>
+      </node>
+      <node id="9" label="Darmstadt">
+        <attvalues>
+          <attvalue for="place-name" value="Darmstadt"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="13.634576797485352" y="14.5089111328125"/>
+      </node>
+      <node id="10" label="Dresden">
+        <attvalues>
+          <attvalue for="place-name" value="Dresden"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="-2.2495520173129364" y="-28.721610982177737"/>
+      </node>
+      <node id="11" label="Duisburg">
+        <attvalues>
+          <attvalue for="place-name" value="Duisburg"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="34.33531944036616" y="-3.6771151856024247"/>
+      </node>
+      <node id="12" label="Dummerstorf">
+        <attvalues>
+          <attvalue for="place-name" value="Dummerstorf"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="-4.060438377077318" y="-12.885127215540187"/>
+      </node>
+      <node id="13" label="Edmonton">
+        <attvalues>
+          <attvalue for="place-name" value="Edmonton"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="beyond Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="196" g="90" b="149"/>
+        <viz:size value="1"/>
+        <viz:position x="-25.365739494365883" y="14.539927102627935"/>
+      </node>
+      <node id="14" label="Erfurt">
+        <attvalues>
+          <attvalue for="place-name" value="Erfurt"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="12.48069496676899" y="-23.3564398692265"/>
+      </node>
+      <node id="15" label="Essen">
+        <attvalues>
+          <attvalue for="place-name" value="Essen"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="38.48442219693367" y="-9.529572258178433"/>
+      </node>
+      <node id="16" label="Gent">
+        <attvalues>
+          <attvalue for="place-name" value="Gent"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="-1.882447330213644" y="16.978856143432417"/>
+      </node>
+      <node id="17" label="Graz">
+        <attvalues>
+          <attvalue for="place-name" value="Graz"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="beyond Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="196" g="90" b="149"/>
+        <viz:size value="1"/>
+        <viz:position x="-24.627088068770817" y="3.34857481158992"/>
+      </node>
+      <node id="18" label="Greifswald">
+        <attvalues>
+          <attvalue for="place-name" value="Greifswald"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="-14.055124885197174" y="-23.799737094593496"/>
+      </node>
+      <node id="19" label="Halle (Saale)">
+        <attvalues>
+          <attvalue for="place-name" value="Halle (Saale)"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="18.04453588824244" y="-24.430429340648196"/>
+      </node>
+      <node id="20" label="Hamburg">
+        <attvalues>
+          <attvalue for="place-name" value="Hamburg"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="-20.418229554081577" y="-19.833883323397586"/>
+      </node>
+      <node id="21" label="Heidelberg">
+        <attvalues>
+          <attvalue for="place-name" value="Heidelberg"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="37.21768330575738" y="6.251254350974051"/>
+      </node>
+      <node id="22" label="Kiel">
+        <attvalues>
+          <attvalue for="place-name" value="Kiel"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="-9.229460226913709" y="-17.47970249379661"/>
+      </node>
+      <node id="23" label="Köln">
+        <attvalues>
+          <attvalue for="place-name" value="Köln"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="39.06366801389486" y="0.5460126629750661"/>
+      </node>
+      <node id="24" label="Le Mans">
+        <attvalues>
+          <attvalue for="place-name" value="Le Mans"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="10.45116553979831" y="21.36536199847971"/>
+      </node>
+      <node id="25" label="Leipzig">
+        <attvalues>
+          <attvalue for="place-name" value="Leipzig"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="5.530914731789899" y="-25.764164003029677"/>
+      </node>
+      <node id="26" label="Lisboa">
+        <attvalues>
+          <attvalue for="place-name" value="Lisboa"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="-8.901200977232783" y="12.604638252396615"/>
+      </node>
+      <node id="27" label="Marburg">
+        <attvalues>
+          <attvalue for="place-name" value="Marburg"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="23.512019411301907" y="-19.76233145138235"/>
+      </node>
+      <node id="28" label="Medellín">
+        <attvalues>
+          <attvalue for="place-name" value="Medellín"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="beyond Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="196" g="90" b="149"/>
+        <viz:size value="1"/>
+        <viz:position x="-24.740302258540225" y="9.469757270066648"/>
+      </node>
+      <node id="29" label="Milton Keynes">
+        <attvalues>
+          <attvalue for="place-name" value="Milton Keynes"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="-2.990452718427221" y="28.68960190108971"/>
+      </node>
+      <node id="30" label="München">
+        <attvalues>
+          <attvalue for="place-name" value="München"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="33.34452596287172" y="9.891875295379528"/>
+      </node>
+      <node id="31" label="Neuchâtel">
+        <attvalues>
+          <attvalue for="place-name" value="Neuchâtel"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="7.573780309159474" y="24.764152354245073"/>
+      </node>
+      <node id="32" label="Paderborn">
+        <attvalues>
+          <attvalue for="place-name" value="Paderborn"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="19.206648917478212" y="-11.380725517658462"/>
+      </node>
+      <node id="33" label="Potsdam">
+        <attvalues>
+          <attvalue for="place-name" value="Potsdam"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="-28.887908258206494" y="-14.76577503109445"/>
+      </node>
+      <node id="34" label="Regensburg">
+        <attvalues>
+          <attvalue for="place-name" value="Regensburg"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="32.055116143662374" y="14.331210360963212"/>
+      </node>
+      <node id="35" label="Stuttgart">
+        <attvalues>
+          <attvalue for="place-name" value="Stuttgart"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="23.942088674111904" y="21.91938813174681"/>
+      </node>
+      <node id="36" label="Tübingen">
+        <attvalues>
+          <attvalue for="place-name" value="Tübingen"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="36.05943147165845" y="21.95635316416767"/>
+      </node>
+      <node id="37" label="Vechta">
+        <attvalues>
+          <attvalue for="place-name" value="Vechta"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1"/>
+        <viz:position x="30.930514123483004" y="-11.851858008034526"/>
+      </node>
+      <node id="38" label="Wismar">
+        <attvalues>
+          <attvalue for="place-name" value="Wismar"/>
+          <attvalue for="number-of-affiliations" value="3"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.674389034116991"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.674389034116991"/>
+        <viz:position x="-21.001085712475273" y="-6.227966695811681"/>
+      </node>
+      <node id="39" label="Würzburg">
+        <attvalues>
+          <attvalue for="place-name" value="Würzburg"/>
+          <attvalue for="number-of-affiliations" value="2"/>
+          <attvalue for="geographical-context" value="Germany"/>
+          <attvalue for="rawSize" value="1.4254921071067264"/>
+        </attvalues>
+        <viz:color r="197" g="117" b="65"/>
+        <viz:size value="1.4254921071067264"/>
+        <viz:position x="18.660313677545677" y="3.03048625753776"/>
+      </node>
+      <node id="40" label="Zadar">
+        <attvalues>
+          <attvalue for="place-name" value="Zadar"/>
+          <attvalue for="number-of-affiliations" value="1"/>
+          <attvalue for="geographical-context" value="Europe"/>
+          <attvalue for="rawSize" value="1"/>
+        </attvalues>
+        <viz:color r="115" g="168" b="93"/>
+        <viz:size value="1"/>
+        <viz:position x="-10.015580492832271" y="24.530888424982358"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="geid_348_0" source="0" target="0" weight="3">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="26"/>
+          <attvalue for="rawWeight" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_1" source="0" target="2" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_2" source="0" target="3" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_3" source="0" target="4" weight="1.0115835511754863">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="3"/>
+          <attvalue for="rawWeight" value="1.0115835511754863"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_4" source="0" target="5" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_5" source="0" target="6" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_6" source="0" target="7" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_7" source="0" target="8" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_8" source="0" target="9" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_9" source="0" target="10" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_10" source="0" target="11" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_11" source="0" target="12" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_12" source="0" target="13" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_13" source="0" target="14" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_14" source="0" target="15" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_15" source="0" target="16" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_16" source="0" target="17" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_17" source="0" target="18" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_18" source="0" target="19" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_19" source="0" target="20" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_20" source="0" target="21" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_21" source="0" target="22" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_22" source="0" target="23" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_23" source="0" target="24" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_24" source="0" target="25" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_25" source="0" target="26" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_26" source="0" target="27" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_27" source="0" target="28" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_28" source="0" target="29" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_29" source="0" target="30" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_30" source="0" target="31" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_31" source="0" target="32" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_32" source="0" target="33" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_33" source="0" target="34" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_34" source="0" target="35" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_35" source="0" target="36" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_36" source="0" target="37" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_37" source="0" target="38" weight="1.0115835511754863">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="3"/>
+          <attvalue for="rawWeight" value="1.0115835511754863"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_38" source="0" target="39" weight="0.6382381606600894">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="2"/>
+          <attvalue for="rawWeight" value="0.6382381606600894"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_348_39" source="0" target="40" weight="0">
+        <attvalues>
+          <attvalue for="number-of-lectures" value="1"/>
+          <attvalue for="rawWeight" value="0"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
