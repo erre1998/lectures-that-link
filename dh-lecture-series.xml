@@ -1615,7 +1615,7 @@
           <org xml:id="centre-marc-bloch" type="research_institution">
             <name xml:lang="fr">Centre Marc Bloch</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q18816785</idno>
-            <place corresp="#berlin" />
+            <place corresp="#berlin"/>
           </org>
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
@@ -1934,6 +1934,240 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="graesborg-aarhus_mathies">
+            <name>
+              <forename>Mathies</forename>
+              <surname>Græsborg Aarhus</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6731-4456</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134889163</idno>
+          </person>
+          <person xml:id="pfister_eugen">
+            <name>
+              <forename>Eugen</forename>
+              <surname>Pfister</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3422-4697</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95268579</idno>
+          </person>
+          <person xml:id="luther_anne">
+            <name>
+              <forename>Anne</forename>
+              <surname>Luther</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5404-2172</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131339663</idno>
+          </person>
+          <person xml:id="glawion_anastasia">
+            <name>
+              <forename>Anastasia</forename>
+              <surname>Glawion</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6140-1826</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126596131</idno>
+          </person>
+          <person xml:id="ketschik_nora">
+            <name>
+              <forename>Nora</forename>
+              <surname>Ketschik</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8758-5432</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126596243</idno>
+          </person>
+          <person xml:id="jung_kerstin">
+            <name>
+              <forename>Kerstin</forename>
+              <surname>Jung</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9548-8461</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595541</idno>
+          </person>
+          <person xml:id="borek_luise">
+            <name>
+              <forename>Luise</forename>
+              <surname>Borek</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5849-374X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q122966120</idno>
+          </person>
+          <person xml:id="fleischer_lukas">
+            <name>
+              <forename>Lukas</forename>
+              <surname>Fleischer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5234-4348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q97590983</idno>
+          </person>
+          <person xml:id="vukojevic-haupt_karolina">
+            <name>
+              <forename>Karolina</forename>
+              <surname>Vukojevic-Haupt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7360-2908</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134063813</idno>
+          </person>
+          <person xml:id="langner_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Langner</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6109-4878</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126593972</idno>
+          </person>
+          <person xml:id="kronemeijer_redmer">
+            <name>
+              <forename>Redmer</forename>
+              <surname>Kronemeijer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9821-0193</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134889070</idno>
+          </person>
+          <person xml:id="klammt_anne">
+            <name>
+              <forename>Anne</forename>
+              <surname>Klammt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3697-9241</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q81833150</idno>
+          </person>
+          <person xml:id="mende_jana-katharina">
+            <name>
+              <forename>Jana-Katharina</forename>
+              <surname>Mende</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7433-4351</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130794370</idno>
+          </person>
+          <person xml:id="poder_johann-christian">
+            <name>
+              <forename>Johann-Christian</forename>
+              <surname>Põder</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6133-8705</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q12365174</idno>
+          </person>
+          <person xml:id="kroll_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Kroll</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0552-7648</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16294812</idno>
+          </person>
+          <person xml:id="neovesky_anna">
+            <name>
+              <forename>Anna</forename>
+              <surname>Neovesky</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0627-8199</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126596259</idno>
+          </person>
+          <person xml:id="veit_torsten">
+            <name>
+              <forename>Torsten</forename>
+              <surname>Veit</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0552-7648</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107299975</idno>
+          </person>
+          <person xml:id="spinelli_julian">
+            <name>
+              <forename>Julián</forename>
+              <surname>Spinelli</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0003-0895-815X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131140106</idno>
+          </person>
+          <person xml:id="vandewalle_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Vandewalle</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0464-0059</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134888927</idno>
+          </person>
+          <person xml:id="schroeter_julian">
+            <name>
+              <forename>Julian</forename>
+              <surname>Schröter</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0168-2608</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q120482824</idno>
+          </person>
+          <person xml:id="hoeltgen_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Höltgen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8669-8507</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27749727</idno>
+          </person>
+          <person xml:id="wagner_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Wagner</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5583-4139</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131156031</idno>
+          </person>
+          <person xml:id="pilhofer_philipp">
+            <name>
+              <forename>Philipp</forename>
+              <surname>Pilhofer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4818-8017</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113736158</idno>
+          </person>
+          <person xml:id="kostresevic_milan">
+            <name>
+              <forename>Milan</forename>
+              <surname>Kostrešević</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6356-5944</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131155649</idno>
+          </person>
+          <person xml:id="mueller_caroline">
+            <name>
+              <forename>Caroline</forename>
+              <surname>Müller</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8591-7859</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131155373</idno>
+          </person>
+          <person xml:id="raeder_andy">
+            <name>
+              <forename>Andy</forename>
+              <surname>Räder</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1059-8363</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q104417907</idno>
+          </person>
           <person xml:id="donadelli_giovanni">
             <name>
               <forename>Giovanni</forename>
@@ -2508,14 +2742,6 @@
             </name>
             <gender>male</gender>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q102353832</idno>
-          </person>
-          <person xml:id="glawion_anastasi">
-            <name>
-              <forename>Anastasi</forename>
-              <surname>Glawion</surname>
-            </name>
-            <gender>female</gender>
-            <idno type="orcid">https://orcid.org/0000-0001-6140-1826</idno>
           </person>
           <person xml:id="holobut_agata">
             <name>
@@ -3417,15 +3643,6 @@
             </name>
             <gender>male</gender>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126595807</idno>
-          </person>
-          <person xml:id="vukojevic-haupt_karolin">
-            <name>
-              <forename>Karolina</forename>
-              <surname>Vukojević-Haupt</surname>
-            </name>
-            <gender>female</gender>
-            <idno type="orcid">https://orcid.org/0000-0001-7360-2908</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q134063813</idno>
           </person>
           <person xml:id="ostberg_jan-peter">
             <name>
@@ -7629,15 +7846,6 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5732-6795</idno>
           </person>
-          <person xml:id="luther_annee">
-            <name>
-              <forename>Anne</forename>
-              <surname>Luther</surname>
-            </name>
-            <gender>female</gender>
-            <idno type="orcid">https://orcid.org/0000-0002-5404-2172</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q131339663</idno>
-          </person>
           <person xml:id="schich_maximilian">
             <name>
               <forename>Maximilian</forename>
@@ -9669,13 +9877,6 @@
             </name>
             <gender>male</gender>
           </person>
-          <person xml:id="graesborg_mathis">
-            <name>
-              <forename>Mathies</forename>
-              <surname>Græsborg</surname>
-            </name>
-            <gender>male</gender>
-          </person>
           <person xml:id="rogstrom_lena">
             <name>
               <forename>Lena</forename>
@@ -9731,7 +9932,7 @@
       </particDesc>
       <settingDesc>
         <listPlace xml:lang="en">
-          <!-- #### Kontinente #### -->
+          <!-- #### Continents #### -->
           <place type="continent" xml:id="europe">
             <name>Europe</name>
           </place>
@@ -9747,8 +9948,8 @@
           <place type="continent" xml:id="africa">
             <name>Africa</name>
           </place>
-          <place type="continent" xml:id="australia-continent">
-            <name>Australia</name>
+          <place type="continent" xml:id="oceania">
+            <name>Oceania</name>
           </place>
           <!-- #### Countries #### -->
           <!-- ###### Continent: Europe ###### -->
@@ -9863,7 +10064,7 @@
           </place>
           <!-- ###### Continent: Australia ###### -->
           <place type="country" xml:id="australia">
-            <bloc type="continent" ref="#australia-continent"/>
+            <bloc type="continent" ref="#oceania"/>
             <name>Australia</name>
           </place>
           <!-- ###### Continent: North America ###### -->
@@ -44497,7 +44698,7 @@
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#graesborg_mathies">
+                <person role="speaker" corresp="#graesborg-aarhus_mathies">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
