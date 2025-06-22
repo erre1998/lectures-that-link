@@ -18902,6 +18902,21 @@
         </event>
         <event xml:id="ls7" type="lecture-series" where="#paris">
           <eventName xml:lang="fr">Les Lundis numériques de l’INHA</eventName>
+          <ptr type="description"
+            target="https://web.archive.org/web/20250620153054/https://numrha.hypotheses.org/category/conseil-veille-strategie/les-lundis-numeriques-de-linha"/>
+          <note type="description" xml:lang="fr">
+            <p>L’Institut national d’histoire de l’art effectue depuis une dizaine d’années une
+              veille active sur le développement des technologies et méthodologies appliquées à la
+              recherche dans le domaine des humanités numériques, particulièrement en ce qui
+              concerne l’histoire de l’art et le patrimoine culturel. De nombreux contacts et
+              échanges sont régulièrement établis entre les acteurs du numérique au sein de
+              l’établissement, et les chercheurs ou équipes de recherche français ou étrangers
+              engagés à divers stades dans des projets innovants concernant le traitement des
+              contenus liés à la recherche, et à la documentation en histoire de l’art et en
+              sciences humaines et sociales.</p>
+          </note>
+          <!-- Overview of all lectures until 2021: https://numrha.hypotheses.org/1528
+          and from 2021-2023: https://numrha.hypotheses.org/7049 -->
           <event type="lecture-series-term" from="2013-10" to="2014-07" xml:id="ls7_t1">
             <eventName xml:lang="fr">2013–2014</eventName>
             <!-- Lectures will be added here -->
@@ -18934,16 +18949,452 @@
           </event>
           <event type="lecture-series-term" from="2019-09" to="2020-06" xml:id="ls7_t7">
             <eventName xml:lang="fr">2019-2020</eventName>
-            <!-- Lectures will be added here -->
-            <org role="organizer" corresp="#..."/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+            <note type="description" xml:lang="fr">
+              <p>Depuis 2013, l’INHA propose un cycle de conférences destinées à présenter, un lundi
+                par mois, différents projets, équipes et travaux menés dans le champs des humanités
+                numériques sur des problématiques propres aux enjeux, représentations, aspects
+                techniques ou questions juridiques de l’histoire de l’art et des images.</p>
+              <p>Depuis janvier 2017, les Lundis numériques sont captés et disponibles sur
+                Youtube.</p>
+              <p>Nous vous proposons de retrouver ici les abrégés et ressources accessibles en ligne
+                des conférences présentées lors de la dernière saison en 2019-2020.</p>
+            </note>
+            <event type="lecture" when="2019-09-16" xml:id="ls7_t8_l1">
+              <eventName xml:lang="fr">POP : la plate-forme ouverte du patrimoine du Ministère de la
+                Culture</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <note type="abstract" xml:lang="fr">
+                <p>La Plateforme Ouverte du Patrimoine (POP) est le résultat d’un important projet
+                  de refonte du système documentaire du Ministère de la Culture, conduit sous la
+                  forme d’une Startup d’Etat. Mise en place pour prévenir la menace d’obsolescence
+                  et l’accès limité des fonds en ligne depuis les années 1990, renseignant sur
+                  divers sujets tels que la peinture, les manuscrits, les monuments, l’architecture
+                  ou la photographie, cette plateforme présente un unique réservoir de données
+                  alimenté par les bases historiques : Joconde, Palissy, Mérimée, Mémoire, MNR
+                  Rose-Valland, Enluminures ou Muséofile.</p>
+                <p>Se voulant accessible au plus grand nombre, en plaçant l’utilisateur au centre du
+                  dispositif, POP entend diffuser et valoriser largement ses données avec le choix
+                  d’un nom évocateur de démocratisation, tout en privilégiant une simplification de
+                  ses modes de recherche en open source. En outre :</p>
+                <list>
+                  <item>– L’utilisation du moteur Elasticsearch facilite l’ingestion, la
+                    visualisation et le rapport de données, permettant un accès mutualisé et base
+                    par base ;</item>
+                  <item>– Les modes de recherche, pensés en écosystèmes, renvoient aux bases
+                    elles-mêmes et font des liens vers l’extérieur ;</item>
+                  <item>– La création de thématiques donne à découvrir les contenus selon différents
+                    sujets (Photographie, Peinture et dessin, Voyages, …). Des rubriques sont ainsi
+                    consacrées au photographe Willy Ronis ou aux dessins d’Eugène Delacroix ;</item>
+                  <item>– Une grande partie des contenus est accessible en open data sur
+                    data.culture.gouv.</item>
+                </list>
+                <p>Après une ouverture du service POP le 15 septembre 2018, présenté comme étant «
+                  en constante évolution », sa réintégration définitive a eu lieu en octobre 2019.
+                  (Voir sur : culture.gouv.fr)</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #library-information"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/preserving https://vocabs.dariah.eu/tadirah/disseminating https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#della-bartolomea_sandrine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ministere-de-la-culture"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2019-10-07" xml:id="ls7_t8_l2">
+              <eventName xml:lang="en">Watch &amp; Wander : Interactive Visualizations of Cultural
+                Heritage Data</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=k00NuOPQPOQ"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Une communauté croissante de concepteurs, d’artistes et d’ingénieurs crée des
+                  interfaces visuelles pour accéder aux données du patrimoine culturel. Alors que le
+                  domaine de la visualisation de l’information a été établi dans l’optique d’appuyer
+                  l’analyse des données en sciences et en ingénierie, les expériences dans les arts
+                  et les sciences humaines provoquent des modes alternatifs d’engagement avec les
+                  données. Dans son exposé, Martin Dörk, a proposé un panorama de « l’univers en
+                  expansion de la visualisation des collections culturelles » et a soulevé un
+                  ensemble de questions sur les potentiels critique et créatif de la visualisation
+                  dans le secteur culturel. En s’inspirant des recherches en design mené dans son
+                  université, l’UCLAB, il a discuté de la façon dont les visualisations peuvent
+                  permettre aux spectateurs de passer de la contemplation d’artefacts isolés à
+                  l’exploration de collections.</p>
+                <p>Au cours de son exposé Martin Dörk a évoqué les projets produits par l’université
+                  de Potsdam :</p>
+                <list>
+                  <item>Le projet Coins, proposant d’explorer les 26 000 monnaies conservées par le
+                    Münzkabinett Berlin de façon à la fois ludique et interactive à l’aide d’un
+                    ensemble de filtres et d’une interface originale.</item>
+                  <item>Une visualisation de la collection des dessins de Frédéric-Guillaume IV de
+                    Prusse (1795 – 1861), permettant une exploration thématique et chronologique de
+                    près de 1500 feuilles</item>
+                  <item>Une visualisation de la collection des oeuvres, photographies, écrits et
+                    archives du dadaïste Raoul Hausmann conservée à la Berlinischen Galerie.</item>
+                  <item>Le projet Close-Up Cloud permettant l’exploration visuelle d’une collection
+                    de 1700 plaques de verres produites par Wilhelm Weimar (1857–1917) et conservées
+                    au Museum für Kunst und Gewerbe Hamburg (MKG)</item>
+                </list>
+                <p>Ainsi que d’autres projets innovants menés dans de nombreuses institutions :</p>
+                <list>
+                  <item>Interface de consultation des collections du Tyne &amp; Wear archives &amp;
+                    Museum</item>
+                  <item>Site web Bellow The Surface, présentant les vestiges archéologiques
+                    découverts à Amsterdam</item>
+                  <item>Digital collection The New York collection</item>
+                  <item>Le projet The Visible Archive</item>
+                  <item>La visualisation des données du Provenance Index du Getty (nécessite
+                    Flash)</item>
+                  <item>Une visualisation des poètes et poésies mobilisés l’oeuvre de Britten
+                    réalisé dans le cadre d’une exposition en 2015</item>
+                  <item>L’interface de visualisation des collections du Staëdl Museum</item>
+                  <item>Une visualisation des anthologies de science-fiction de Gibson</item>
+                </list>
+                <p>Il a également évoqué les travaux suivants :</p>
+                <listBibl>
+                  <bibl>Card, Stuart K., Mackinlay, Jock D., Shneiderman, B. (dir.), Readings in
+                    Information Visualization: Using Vision to Think, Morgan Kaufmann, 1999, 686
+                    pages.</bibl>
+                  <bibl>Dörk, Martin, Carpendale, Sheelagh, Willamson, Carey, « The information
+                    flaneur: a fresh look at information seeking », CHI ’11: Proceedings of the
+                    SIGCHI Conference on Human Factors in Computing Systems, 2011, pp. 1215–1224 .
+                    [En ligne]</bibl>
+                  <bibl>Drucker, Johanna, « Performative Materiality and Theoretical Approaches to
+                    Interface », Digital Humanities Quarterly, 2013, 7(1). [En ligne]</bibl>
+                  <bibl>Heer, Jeffrey, Bostock, Michael et Ogievetsky, Vadim, « A Tour through the
+                    Visualization Zoo », ACMQueue, 2010, 8(5). [En ligne]</bibl>
+                  <bibl>Whitelaw, M., « Generous interfaces for digital collections », Digital
+                    Humanities Quarterly, 2015, 9(1), [En ligne]</bibl>
+                </listBibl>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #digital-humanities"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/dataVisualization https://vocabs.dariah.eu/tadirah/designing https://vocabs.dariah.eu/tadirah/browsing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#doerk_marian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#fh-potsdam"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2019-11-18" xml:id="ls7_t8_l3">
+              <eventName xml:lang="fr">Un « Système d’Information Documentaire Spatialisée » pour la
+                valorisation scientifique de la Tapisserie de Bayeux</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=LnjA1gJkKIg"/>
+              <note type="abstract" xml:lang="fr">
+                <p>L’État et la Ville de Bayeux se sont associés à l’université de Caen Normandie et
+                  au CNRS pour concevoir et développer un outil d’étude et de valorisation de la
+                  Tapisserie de Bayeux, broderie médiévale du XIe siècle. Cet outil, un « Système
+                  d’information documentaire spatialisée » (SIDS), s’inspire des techniques
+                  utilisées dans les « SIG » et propose d’associer un système documentaire
+                  rassemblant les ressources scientifiques sur l’œuvre (état matériel,
+                  iconographie…) et un système d’information spatialisée. Il offre ainsi des
+                  solutions d’accès aux données sur la reproduction haute définition de cette œuvre
+                  monumentale (près de 70 m de long) à la communauté scientifique (indexation et
+                  extraction des analyses), puis au grand public (outils de médiation
+                  spécifiques).</p>
+                <p>Pour en savoir plus : Antoine Verney, Clémentine Berthelot, Arnaud Daret, Jérôme
+                  Chauveau, Pierre-Yves Buard, Julia Roger et Cécile Binet, « Redocumentariser la
+                  Tapisserie de Bayeux : base de données documentaire et système d’informations
+                  spatialisées », Tabularia, 19 décembre 2018, [En ligne].</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/editing https://vocabs.dariah.eu/tadirah/georeferencing"/>
+                <term type="topics-llm"/>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#berthelot_clementine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#bayeux-museum"/>
+                </person>
+                <person role="speaker" corresp="#roger_julia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-caen-normandie"/>
+                </person>
+                <person role="speaker" corresp="#daret_arnaud">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-caen-normandie"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2019-12-09" xml:id="ls7_t8_l4">
+              <eventName xml:lang="fr">De l’opendata à museomix : des pratiques ouvertes qui
+                transforment le musée</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=CAh_qsto5Pc"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Menée depuis 2015, la politique d’ouverture des données du musée d’art et
+                  d’histoire Ville de Saint-Brieuc offre de nombreuses clés utiles à la diffusion du
+                  patrimoine culturel par les outils du numérique. Ce parcours souligne l’importance
+                  de la dimension coopérative des projets utilisant ces outils, qui doivent tous
+                  leur succès à la rencontre et à l’hybridation d’une communauté culturelle locale
+                  avec des communautés numériques et/ou créatives :</p>
+                <list>
+                  <item>Plusieurs jeux de données structurées du musée ont d’abord été mis à
+                    disposition sur des plateformes numériques publiques : au niveau départemental
+                    sur Dat’Armor, au niveau national sur data.gouv.fr et sur la base Joconde</item>
+                  <item>Un important travail d’enrichissement de ces données a été mené en
+                    collaboration avec la communauté Wikidata, comme le montrent les pages Wikidata
+                    et Wikipedia du musée, leurs collections sur Wikimedia Commons et celle d’une
+                    journée Edit-a-thon (2017)</item>
+                  <item>Le fonds Lucien Bailly, riche de milliers de plaques photographiques, a fait
+                    l’objet d’un travail de valorisation et d’éditorialisation en partenariat avec
+                    Dokat, ayant abouti à la création d’un dispositif de médiation sous la forme
+                    d’un nuage d’images numérique.</item>
+                  <item>Le musée s’est engagé avec les communautés Museomix et Museomix Ouest dans
+                    des projets de médiation expérimentale comme Breiz(h) à Gratter (2015),
+                    Museosprint (2016) et le Museomix de Saint-Brieuc et la villa Rohannec’h
+                    (2018)</item>
+                  <item>Ces projets ont finalement attiré de nouveaux partenaires et encouragé de
+                    nouvelles formes d’appropriation du patrimoine, à l’instar des oeuvres de
+                    Florence Levillain ou des évènements Coding Goûter</item>
+                </list>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #art-history"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/enriching https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/disseminating https://vocabs.dariah.eu/tadirah/collaborating"/>
+                <term type="topics-llm"/>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#renault_elisabeth">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#museum-saint-brieuc"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2020-01-13" xml:id="ls7_t8_l5">
+              <eventName xml:lang="fr">Présentation de la publication numérique et imprimée du
+                catalogue des sculptures de la villa romaine de Chiragan
+                (Martres-Tolosane)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=-bTGBPaJR3o"/>
+              <note type="abstract" xml:lang="fr">
+                <p>La double publication du catalogue des sculptures de la villa romaine de Chiragan
+                  par le musée Saint-Raymond est récemment venue honorer de nouvelles méthodologies
+                  de travail accessibles dans le domaine de l’édition, issues notamment des
+                  recherches de Julie Blanc et d’Antoine Fauchié. Le développement de la publication
+                  numérique de la collection Chiragan a en effet été pensée de manière à profiter de
+                  nombreux avantages scientifiques et techniques :</p>
+                <list>
+                  <item>Sur le plan scientifique, le catalogue en ligne offre la possibilité
+                    d’actualiser le corpus en fonction des avancées de la recherche, d’élargir son
+                    horizon de diffusion, de proposer des notices d’une plus grande richesse à
+                    partir de données alignées à Wikidata, de synthèses complexes, de ressources
+                    documentaires complètes et d’illustrations interactives.</item>
+                  <item>Sur le plan technique, le principe de séparation du fond et de la forme qui
+                    régit le web soutient une chaîne d’édition ingénieuse – disponible sur le Gitlab
+                    du projet, autorisant la mise en oeuvre d’un effort de single source publishing.
+                    Avec l’aide d’outils tels que paged.js, forestry.io ou encore jekyll, la
+                    construction d’un système de publication interopérable, modulable et multiforme
+                    a ainsi permis d’accompagner la version numérique du catalogue de Chiragan d’un
+                    guide imprimé, développé à partir d’une seule et même chaîne éditoriale.</item>
+                </list>
+                <p>À voir, pour aller plus loin :</p>
+                <list>
+                  <item>La présentation détaillée du travail de Julie Blanc sur ce projet</item>
+                  <item>« Vers un système modulaire de publication : éditer avec le numérique »
+                    d’Antoine Fauchié et la vidéo de son intervention aux Lundis Numériques en
+                    2018</item>
+                </list>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #art-history"/>
+                <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing"/>
+                <term type="topics-llm"/>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#molinie_christelle">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#museum-saint-raymond #museum-archeologie-toulouse"/>
+                </person>
+                <person role="speaker" corresp="#blanc_julie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation
+                    corresp="#uni-paris-sciences-lettres #uni-paris-vincennes-saint-denis"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2020-02-10" xml:id="ls7_t8_l6">
+              <eventName xml:lang="fr">Programme des registres de la Comédie Française
+                (1680-1793)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=jleKglJ6J64"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Depuis 1680, date d’inauguration de la Comédie Française, des registres
+                  renseignent sur les recettes, les dépenses et les feux des représentations
+                  journalières, aujourd’hui conservés dans la Bibliothèque-Musée de l’institution.
+                  Ces archives, héritage de l’Etat policier de l’Ancien Régime, présentent un corpus
+                  pluridisciplinaire, tant quantitatif que qualitatif. En rapportant à la fois ce
+                  qui est joué, l’affluence des spectateurs et leur répartition en salle, ou les
+                  gratifications et la distribution accordées aux comédiens, elles sont aussi le
+                  reflet d’une réalité politique et sociale, sinon économique.</p>
+                <p>Instauré depuis plus de dix ans, oeuvrant à la fois en France, aux Etats-Unis et
+                  au Canada, le Programme des registres de la Comédie Française propose de conjuguer
+                  ces données au numérique, pour une période s’étalant du 17e au 18e siècle. Conduit
+                  en plusieurs phases, en s’attachant d’abord aux recettes, ce projet comprend des
+                  données variées, mouvantes, « vivantes », qui posent la question complexe
+                  d’interprétations dépassant parfois le cadre chiffré et de comment le numérique
+                  peut y répondre.</p>
+                <p>Avec le choix de la création de bases de données relationnelles, d’une base
+                  complémentaire pour les périodiques critiques ou encore d’un outil de
+                  visualisation, le programme présente ses premiers résultats et rend compte d’un
+                  héritage culturel utile à la recherche tant qu’aux amateurs ou aux comédiens. En
+                  se référant à ces productions, plusieurs chercheurs ont publié sur la Comédie
+                  Française, et divers colloques et séminaires expérimentaux ont été organisés.
+                  Elles ont notamment permis la redécouverte de pièces parfois oubliées ou de
+                  comédiens invisibilisés par l’histoire et pourtant sur-représentés dans les
+                  registres.</p>
+                <p>Ce développement, toujours en cours, démontre ainsi des potentialités
+                  d’actualisation scientifique, en prônant un travail efficient entre le monde des
+                  humanités et du numérique.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #literary-studies"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/preserving"/>
+                <term type="topics-llm"/>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#biet_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paris-nanterre"/>
+                </person>
+                <person role="speaker" corresp="#harvey_sara">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-victoria"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2020-03-09" xml:id="ls7_t8_l7">
+              <eventName xml:lang="fr">Du Portail Persée aux Perséïdes en passant par data Persée :
+                des services innovants au profit de la valorisation numérique du patrimoine
+                documentaire</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=IYeMfRao1x0"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Le Portail Persée, qui propose un accès libre et gratuit à des collections
+                  complètes de publications scientifiques, conduit, depuis son fondement, une
+                  politique éditoriale et documentaire sélective, assurant une adéquation avec
+                  l’actualité scientifique. Son système structuré permet une convergence entre les
+                  documents matériels et leur édition électronique, avec une chaîne opératoire
+                  précise (numérisation, documentation des revues, sémantisation, diffusion ouverte,
+                  préservation, référencement). Différentes possibilités permettent finalement
+                  d’exploiter les fonds grâce à des outils habituellement attribués aux documents
+                  nativement numériques.</p>
+                <p>Depuis 2015, Persée engage une réflexion sur la mise en place de services
+                  complémentaires utiles pour la recherche qui s’est déployée en plusieurs axes
+                  :</p>
+                <list>
+                  <item>L’unité s’est d’abord ouverte aux sciences de la vie et de la terre en ne se
+                    concentrant plus seulement sur les sciences humaines et sociales ;</item>
+                  <item>La création du label Les Perséïdes, permet, grâce à un travail collaboratif
+                    avec différentes équipes de recherche, l’identification de corpus mis à
+                    disposition en deux dimensions. Le projet ATHAR ainsi conduit avec le
+                    laboratoire InVisu présente rapports, littérature scientifique et archives
+                    photographiques sur les monuments de l’art arabe de villes du bassin
+                    méditerranéen ;</item>
+                  <item>Enfin, la mise à disposition de l’outil triplestore Data Persée réunit les
+                    données de l’ensemble des ressources produites par Persée selon les principes du
+                    web sémantique, permettant de nouvelles requêtes et un format ouvert de
+                    contenus.</item>
+                </list>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topic"
+                  corresp="https://vocabs.dariah.eu/tadirah/capturing https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/linkedOpenData https://vocabs.dariah.eu/tadirah/organizing"/>
+                <term type="topics-llm"/>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#begnis_helene">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lumiere-lyon"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <org role="organizer" corresp="#daniel_johanna #smadja_camille #truc_alice"/>
           </event>
-          <event type="lecture-series-term" from="2019-09" to="2020-06" xml:id="ls7_t8">
-            <eventName xml:lang="fr">2019-2020</eventName>
-            <!-- Lectures will be added here -->
-            <org role="organizer" corresp="#..."/>
-          </event>
-          <event type="lecture-series-term" from="2020-09" to="2021-06" xml:id="ls7_t9">
+          <event type="lecture-series-term" from="2020-09" to="2021-06" xml:id="ls7_t8">
             <eventName xml:lang="fr">2020-2021</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250622144533/https://numrha.hypotheses.org/1551"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2022-09" to="2023-06" xml:id="ls7_t9">
+            <eventName xml:lang="fr">2022-2023</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250622150038/https://numrha.hypotheses.org/7049"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2023-09" to="2024-06" xml:id="ls7_t10">
+            <eventName xml:lang="fr">2023-2024</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250622145534/https://numrha.hypotheses.org/12379"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2024-09" to="2025-06" xml:id="ls7_t11">
+            <eventName xml:lang="fr">2024-2025</eventName>
+            <ptr type="programme" target="https://web.archive.org/web/20250622145205/https://numrha.hypotheses.org/16905"/>
             <!-- Lectures will be added here -->
             <org role="organizer" corresp="#..."/>
           </event>
