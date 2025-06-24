@@ -22309,6 +22309,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl0"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german studies, academic research,
                   technological impact, scholarly practices</term>
@@ -22333,6 +22334,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl3"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology #theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">dance, music, imagery, historical research, motion
                   analysis</term>
@@ -22368,6 +22370,7 @@
                 Dimensionen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #regional-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">4d modeling, urban history, historical visualization, city
                   planning, spatial analysis</term>
@@ -22392,6 +22395,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl1"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, historical documents, automation, pietro
                   d'abano, medieval studies</term>
@@ -22426,6 +22430,7 @@
               <eventName xml:lang="en">Digital Byzantine Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">byzantine studies, history, technology, cultural heritage,
                   medieval studies</term>
@@ -22465,6 +22470,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">paris, database, german, historical data, address
                   book</term>
@@ -22494,6 +22500,7 @@
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">institutional support, academia, resources, infrastructure,
                   services</term>
@@ -22524,6 +22531,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl2"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational linguistics, linguistics, language models,
                   natural language processing, machine learning</term>
@@ -22561,6 +22569,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl5"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">document, metaphysics, information, ontology,
                   knowledge</term>
