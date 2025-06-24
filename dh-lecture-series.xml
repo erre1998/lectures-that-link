@@ -22601,6 +22601,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/124vm"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data modeling, cultural heritage, epos, geographical places,
                   shahnameh</term>
@@ -22625,6 +22626,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/121r4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">alsatian theater, macroanalysis, linguistics, regional
                   studies, data analysis</term>
@@ -22649,6 +22651,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/1295a"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ai, trust, reliability, authenticity, algorithms</term>
               </note>
@@ -22672,6 +22675,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/122mr"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">amsterdam, early modern, art scene, digital exploration,
                   history</term>
@@ -22696,6 +22700,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/120ya"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">sign languages, machine translation, challenges,
                   opportunities, natural language processing</term>
@@ -22719,6 +22724,7 @@
                 Künstlervereinigung ‚Das Junge Rheinland‘</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #museology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">artist association, networks, artists, exhibitions, young
                   rhineland</term>
@@ -22742,6 +22748,7 @@
                 Bildcorpora der spätantik-byzantinischen visuellen Kultur</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ai, pattern recognition, image analysis, late antiquity,
                   byzantine art</term>
@@ -22766,6 +22773,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/126ba"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visuals, digitization, culture, perception, imagery</term>
               </note>
@@ -22787,6 +22795,7 @@
               <eventName xml:lang="de">Bildsammlung, Wikidata, Knowledge Graph</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information #museology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data, collection, images, knowledge graph, wikidata</term>
               </note>
