@@ -152,6 +152,9 @@
           <category xml:base="asian-studies">
             <catDesc>asian studies</catDesc>
           </category>
+          <category xml:base="science-communication">
+            <catDesc>science communication</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -20228,7 +20231,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkid"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#history"/>
+                <term type="discipline" corresp="#history #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, history, technology, preservation,
                   heritage</term>
@@ -21092,6 +21095,7 @@
                 warum?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german language, introductory overview,
                   informational talk, contextual background</term>
@@ -21116,6 +21120,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjc"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">blogs, twitter, science communication, practices,
                   analysis</term>
@@ -21140,6 +21145,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">matters of knowledge, biographies, theatre history, cultural
                   impact, documentation</term>
@@ -21178,6 +21184,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkje"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archives, nlp, computer linguistics, exploration,
                   applicability</term>
@@ -21202,6 +21209,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjg"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">research data management, humanities, prototyping,
                   infrastructure, data management</term>
@@ -21231,6 +21239,7 @@
                 Dokumentenanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computer vision, machine learning, document analysis, image
                   processing, ocr</term>
@@ -21255,6 +21264,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjj"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">interface, semiotics, literacy, arts, technology</term>
               </note>
@@ -21278,6 +21288,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjd"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">football, linguistics, sports analysis, data analysis,
                   german language</term>
@@ -21301,6 +21312,7 @@
                 Cases</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text encoding initiative, data linking, xml,
                   interoperability, use cases</term>
@@ -21331,6 +21343,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjh"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">software engineering, programming, skills, competencies,
                   academia</term>
@@ -21354,6 +21367,7 @@
                 and Networks</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ecosystems, collaboration, models, networks,
                   researchers</term>
@@ -21387,6 +21401,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjo"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #mathematics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">document similarity, transcription, text comparison,
                   similarity criteria, document analysis</term>
@@ -21418,6 +21433,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjp"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #political-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">intervention, history, politics, project, odra</term>
               </note>
@@ -21454,6 +21470,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjq"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, historical documents, translation studies,
                   marco polo, digital editing</term>
@@ -21477,6 +21494,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=0WKJ6R2Utns"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#classics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ancient greek, named entity recognition, text processing,
                   historical texts, computational linguistics</term>
@@ -21508,6 +21526,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjr"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #regional-studies #geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">urban mapping, art galleries, cologne, deep map, gis</term>
               </note>
@@ -21532,6 +21551,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjv"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">public, humanities, practice, concepts, methods</term>
               </note>
@@ -21562,6 +21582,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjs"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data integration, linked data, data publishing, openrefine,
                   data reconciliation</term>
@@ -21598,6 +21619,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=3RQSkedwik4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d reconstruction, geisteswissenschaften, research
                   methodology, digital modeling, virtual reconstruction</term>
@@ -21623,6 +21645,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkju"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">infrastructure, software, project, implementation,
                   tools</term>
@@ -21654,6 +21677,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=6MzoNEKsgcw"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">cultures, transatlantic, discourse, discussion,
                   comparison</term>
@@ -21686,6 +21710,7 @@
                   diesen Materialien unterstützen können.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical accounts, economic modeling, data aggregation,
                   data visualization, research support</term>
@@ -21710,6 +21735,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkk6"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d modeling, historical clothing, contextualization,
                   visualization, fashion history</term>
@@ -21740,6 +21766,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkc"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">code-switching, computational analysis, german language,
                   turkish language, linguistics</term>
@@ -21763,6 +21790,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open access, publishing, heidelberg, academic,
                   library</term>
@@ -21797,6 +21825,7 @@
                   Musik in den Blick genommen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">music, coding, dimensions, computational, models</term>
               </note>
@@ -21838,6 +21867,7 @@
                   Herausforderungen birgt ein solches Unterfangen?</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">manuscripts, machine learning, paleography, medieval,
                   artificial intelligence</term>
@@ -21864,6 +21894,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkke"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">alexander von humboldt, print edition, digital edition,
                   hybrid edition, interconnectedness</term>
@@ -21888,6 +21919,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkb"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">editions, medieval law, early middle ages, legal texts,
                   hybrid publishing</term>
@@ -21931,6 +21963,7 @@
                   interessiert und wie man beides zusammendenken könnte."</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">film studies, quantitative methods, distant reading, data
                   visualization, film corpora</term>
@@ -21956,6 +21989,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkd"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, computational linguistics, vocational
                   education, job advertisements, research methods</term>
@@ -21987,6 +22021,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=G3Nn8gw81cA"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical context, repetition, documentation, cultural
                   preservation, critique</term>
@@ -22010,6 +22045,7 @@
                 historische Forschung am IEG</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">innovation, transfer, infrastructure, historical research,
                   research institute</term>
@@ -22031,6 +22067,7 @@
             <event type="lecture" when="2022-04-21" xml:id="ls8_t8_l3">
               <eventName xml:lang="de">​​Digital Humanities in Rostock – zwischen Forschungsfeld und
                 Fach</eventName>
+              <term type="discipline" corresp="#digital-humanities"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.14181282"/>
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkq"/>
               <note type="abstract" xml:lang="en">not found</note>
@@ -22057,6 +22094,7 @@
               <eventName xml:lang="en">​​Close Reading Distant Viewing</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, literary studies, computational methods, data
                   visualization, reading techniques</term>
@@ -22081,6 +22119,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkks"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">virtual reality, theater, reconstruction, space,
                   empathy</term>
@@ -22104,6 +22143,7 @@
                 Koreferenz-Informationen als Feature in Figurentypen-Klassifikation</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">coreference, drama analysis, character types,
                   classification, feature extraction</term>
@@ -22128,6 +22168,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkr"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">social media, history, archiving, data collection,
                   analysis</term>
@@ -22156,6 +22197,7 @@
               <eventName xml:lang="de">​​STURM Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open access, text encoding, scholarly editing, digital
                   publication, academic collaboration</term>
@@ -22181,6 +22223,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkt"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">openatlas, historical geography, byzantine empire, balkan,
                   mapping</term>
@@ -22211,6 +22254,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkku"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">natural language processing, sentiment analysis, stance
                   detection, argument mining, automated analysis</term>
@@ -22234,6 +22278,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkv"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d scanning, cultural heritage, autonomous, preservation,
                   technology</term>
@@ -22264,6 +22309,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl0"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german studies, academic research,
                   technological impact, scholarly practices</term>
@@ -22288,6 +22334,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl3"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology #theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">dance, music, imagery, historical research, motion
                   analysis</term>
@@ -22323,6 +22370,7 @@
                 Dimensionen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #regional-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">4d modeling, urban history, historical visualization, city
                   planning, spatial analysis</term>
@@ -22347,6 +22395,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl1"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, historical documents, automation, pietro
                   d'abano, medieval studies</term>
@@ -22381,6 +22430,7 @@
               <eventName xml:lang="en">Digital Byzantine Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">byzantine studies, history, technology, cultural heritage,
                   medieval studies</term>
@@ -22420,6 +22470,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">paris, database, german, historical data, address
                   book</term>
@@ -22449,6 +22500,7 @@
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">institutional support, academia, resources, infrastructure,
                   services</term>
@@ -22479,6 +22531,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl2"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational linguistics, linguistics, language models,
                   natural language processing, machine learning</term>
@@ -22516,6 +22569,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl5"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">document, metaphysics, information, ontology,
                   knowledge</term>
@@ -22547,6 +22601,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/124vm"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data modeling, cultural heritage, epos, geographical places,
                   shahnameh</term>
@@ -22571,6 +22626,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/121r4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">alsatian theater, macroanalysis, linguistics, regional
                   studies, data analysis</term>
@@ -22595,6 +22651,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/1295a"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ai, trust, reliability, authenticity, algorithms</term>
               </note>
@@ -22618,6 +22675,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/122mr"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">amsterdam, early modern, art scene, digital exploration,
                   history</term>
@@ -22642,6 +22700,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/120ya"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">sign languages, machine translation, challenges,
                   opportunities, natural language processing</term>
@@ -22665,6 +22724,7 @@
                 Künstlervereinigung ‚Das Junge Rheinland‘</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #museology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">artist association, networks, artists, exhibitions, young
                   rhineland</term>
@@ -22688,6 +22748,7 @@
                 Bildcorpora der spätantik-byzantinischen visuellen Kultur</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ai, pattern recognition, image analysis, late antiquity,
                   byzantine art</term>
@@ -22712,6 +22773,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/126ba"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visuals, digitization, culture, perception, imagery</term>
               </note>
@@ -22733,6 +22795,7 @@
               <eventName xml:lang="de">Bildsammlung, Wikidata, Knowledge Graph</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information #museology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data, collection, images, knowledge graph, wikidata</term>
               </note>
@@ -24401,7 +24464,7 @@
                 Cylinder Seals”</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#art-history #regional-studies"/>
+                <term type="discipline" corresp="#art-history #regional-studies #asian-studies"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/visualAnnotation https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
                 <term type="topics-llm">cylinder seals, ancient mesopotamia, semantic web, image
@@ -25465,7 +25528,7 @@
                   System?</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="discipline" corresp="#digital-humanities #science-communication"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion"/>
                 <term type="topics-llm">sustainability, climate change, digitalization, resource
                   efficiency, online materials</term>
@@ -37450,7 +37513,7 @@
                   dass damit ein ganz neues Selbstverständnis der Disziplin einhergeht.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#computational-linguistics"/>
+                <term type="discipline" corresp="#computational-linguistics #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">geolinguistics, web-based research, linguistic empiricism,
                   collaborative structures, methodological change</term>
@@ -38878,7 +38941,7 @@
                   Medium der digitalen Wissenschaftskommunikation reflektiert.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#art-history #media-studies"/>
+                <term type="discipline" corresp="#art-history #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">podcasts, art history, digital literacy, science
                   communication, academic outreach</term>
