@@ -36557,6 +36557,7 @@
                   model will be used to understand where textual variation intervenes and how.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text modelling, data analysis, textual scholarship,
                   theoretical models, textual transmission</term>
@@ -36605,6 +36606,7 @@
                   zu unternehmen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, annotation, hermeneutics, collaboration,
                   narrative analysis</term>
@@ -36665,6 +36667,7 @@
                   mehreren anderen Akademienvorhaben und externen Projekten eingesetzt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text editing, xml, academic publishing, tei, project
                   management</term>
@@ -36732,6 +36735,8 @@
                   den früheren Printeditionen macht die Vorzüge digitaler Editionen sichtbar.</p>
               </note>
               <note type="keywords">
+                <term type="discipline"
+                  corresp="#digital-humanities #german-studies #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text archives, corpus linguistics, xml annotation, digital
                   editions, handwritten documents</term>
@@ -36772,6 +36777,7 @@
                   vorgestellt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data access, text corpora, metadata, annotation,
                   visualization</term>
@@ -36830,6 +36836,7 @@
                   verschieben, wenn man ihre digitale Aufbereitung konsequent durchziehen würde.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">correspondence, editing, tei, information circulation,
                   literary history</term>
@@ -36908,9 +36915,11 @@
                   Projektmitarbeiter Edgar Haimerl (derzeit Seattle, USA) erstellt worden war.</p>
               </note>
               <note type="keywords">
+                <term type="discipline"
+                  corresp="#linguistics #computational-linguistics #romance-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">quantitative linguistics, dialectometry, language mapping,
-                  visualization, romanistik</term>
+                  visualization, romance studies</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -36949,6 +36958,7 @@
                   dass damit ein ganz neues Selbstverständnis der Disziplin einhergeht.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">geolinguistics, web-based research, linguistic empiricism,
                   collaborative structures, methodological change</term>
@@ -37027,6 +37037,7 @@
                   contribution in this endeavour.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">history, italy, methodology, computing, tradition</term>
               </note>
@@ -37060,6 +37071,7 @@
                   of the scholar, which remains implicit and is not documented at all.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, software evolution, textuality, interpretive
                   methods, scholarly crisis</term>
@@ -37132,6 +37144,7 @@
                   knowledge.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data science, interdisciplinary, education, research,
                   collaboration</term>
@@ -37170,6 +37183,7 @@
                   research will be pursued. What are the benefits to us, and to them?</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #education-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, data mining, research-based learning, student
                   involvement, scholarly work</term>
@@ -37211,6 +37225,7 @@
                   pedagogy and new realms of creativity and collaboration in learning.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">transliteracy, data literacy, interdisciplinary cooperation,
                   knowledge exchange, creative pedagogy</term>
@@ -37263,6 +37278,7 @@
                   in the medium and long term.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">research data, metadata, data formats, fair principles, data
                   sharing</term>
@@ -37310,6 +37326,7 @@
                   DH.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">image analysis, computer vision, visual turn, computational
                   methods, protest photography</term>
@@ -37393,6 +37410,7 @@
                   studies.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">generative ai, large language models, research
                   methodologies, cultural datasets, computational literary studies</term>
