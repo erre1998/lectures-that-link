@@ -19501,7 +19501,7 @@
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <event type="lecture" when="2015-04-30" xml:id="ls8_t1_l4">
-              <eventName xml:lang="de">eTraces</eventName>
+              <eventName xml:lang="en">eTraces</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -19523,7 +19523,7 @@
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <event type="lecture" when="2015-05-07" xml:id="ls8_t1_l5">
-              <eventName xml:lang="de">Text Engineering Software Laboratory (Tesla)</eventName>
+              <eventName xml:lang="en">Text Engineering Software Laboratory (Tesla)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -20629,7 +20629,7 @@
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <event type="lecture" when="2019-04-18" xml:id="ls8_t5_l3">
-              <eventName xml:lang="de"> (Re-)Collecting Theatre History: Wissensdinge, Biographien,
+              <eventName xml:lang="de">(Re-)Collecting Theatre History: Wissensdinge, Biographien,
                 Wirkungsräume</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjf"/>
               <note type="abstract" xml:lang="en">not found</note>
@@ -23174,7 +23174,7 @@
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <event type="lecture" when="2021-01-20" xml:id="ls9_t3_l8">
-              <eventName xml:lang="en">Der MOOC "Discovering Greek &amp; Roman Cities". Chancen und
+              <eventName xml:lang="de">Der MOOC "Discovering Greek &amp; Roman Cities". Chancen und
                 Probleme digitaler Lehre</eventName>
               <ptr type="video" target="https://www.youtube.com/watch?v=Bs7C_cWnXGA"/>
               <ptr type="blogpost" target="https://doi.org/10.58079/nkk1"/>
@@ -24205,7 +24205,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/veic"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#media-studies #gaming"/>
+                <term type="discipline" corresp="#media-studies #game-studies"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/contextualizing"/>
                 <term type="topics-llm">game, history, ancient, play, video</term>
               </note>
@@ -28849,7 +28849,7 @@
                   präsentieren? Wer stellt bereits seine Daten über IIIF zur Verfügung?</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#library-information "/>
+                <term type="discipline" corresp="#library-information"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/sharing"/>
                 <term type="topics-llm">apis, cultural heritage, open data, iiif, data
                   interoperability</term>
@@ -32129,7 +32129,7 @@
               <org role="host-institution" corresp="#uni-fu-berlin"/>
             </event>
             <event type="lecture" when="2022-01-06" xml:id="ls13_t1_l5">
-              <eventName xml:lang="en">›Mit den wenigsten Mitteln die größten Effekte‹ – Die
+              <eventName xml:lang="de">›Mit den wenigsten Mitteln die größten Effekte‹ – Die
                 Datenbank deutschsprachiger Einakter 1740–1850 und ihre digitale
                 Umgebung</eventName>
               <note type="abstract" xml:lang="en">
@@ -33100,7 +33100,7 @@
                 target="https://web.archive.org/web/20250130193434/https://wikis.fu-berlin.de/download/attachments/1415578978/Wissenschaftlerinnen_in_den_sozialen_Medien_ein_Werkstattbericht.pdf?api=v2"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#media-studies"/>
+                <term type="discipline" corresp="#media-studies #gender-studies"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis https://vocabs.dariah.eu/tadirah/discourseAnalysis"/>
                 <term type="topics-llm">social media, academic roles, discourse analysis, gender
@@ -33358,7 +33358,7 @@
               <org role="host-institution" corresp="#uni-fu-berlin"/>
             </event>
             <event type="lecture" when="2024-11-01" xml:id="ls13_t7_l2">
-              <eventName xml:lang="en">Variable Narrative des Videospiels Hades</eventName>
+              <eventName xml:lang="de">Variable Narrative des Videospiels Hades</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipine" corresp="#media-studies #classics"/>
@@ -35855,6 +35855,7 @@
                   "Computational Environmental Humanities" aufgezeigt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational methods, environmental studies,
                   interdisciplinary research, human-environment interaction, socio-cultural
@@ -35890,6 +35891,7 @@
                   Genderfragen in den Digital Humanities erörtert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#game-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">games, text analysis, media studies, gender studies, video
                   games</term>
@@ -35928,6 +35930,7 @@
                   imaginieren.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">theory, interdisciplinarity, epistemology, software,
                   collaboration</term>
@@ -35961,6 +35964,7 @@
                   qualitative und quantitative Weise annähern kann.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computer-assisted analysis, film studies, color analysis,
                   computational methods, audiovisual content</term>
@@ -35991,6 +35995,7 @@
                   modelling.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">methods, history, network analysis, geovisualization, topic
                   modeling</term>
@@ -36025,6 +36030,7 @@
                   eröffnet.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">sound, literature, prose, annotation, computational
                   analysis</term>
@@ -36064,6 +36070,7 @@
                   hervor.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archives, world war ii, digitization, interdisciplinary
                   collaboration, geovisualization</term>
@@ -36103,6 +36110,7 @@
                   of cartographic narratives.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography #regional-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">colombia, indigenous groups, geospatial data, historical
                   maps, web interface</term>
@@ -36149,6 +36157,7 @@
               <eventName xml:lang="de">Die DH der Universität Stuttgart</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">stuttgart, university, lecture, series, germany</term>
               </note>
@@ -36178,6 +36187,7 @@
                   Chat-Bot.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">medieval studies, artificial intelligence, manuscripts, data
                   linking, chatbots</term>
@@ -36211,6 +36221,7 @@
                   im Film vorgestellt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #media-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">quantum computing, technology, application, film studies,
                   research tools</term>
@@ -36229,41 +36240,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-stuttgart"/>
             </event>
-            <event type="lecture" when="2024-10-30" xml:id="ls16_t2_l4">
-              <eventName xml:lang="de">Quantum Humanities</eventName>
-              <ptr type="programme"
-                target="https://web.archive.org/web/20250422215145/https://www.ilw.uni-stuttgart.de/abteilungen/digital-humanities/images/Bilder_MA-Kolloquien/Quantum-Humanities.png"/>
-              <note type="abstract" xml:lang="de">
-                <p>Da sich Quantencomputer mehr und mehr von einem theoretischen Forschungsfeld zu
-                  nutzbaren Rechnern entwickeln, stellt sich die Frage, ob, wie und wo die Vorteile
-                  dieser neuen Technologie auch für die Bearbeitung von Fragestellungen in den
-                  Digital Humanities nutzbringend eingesetzt werden können. Das Potenzial möglicher
-                  Quantum Humanities und wie in diesem Umfeld erstes Anwendungswissen für
-                  weiterführende komplexe Anwendungen aufgebaut werden kann, wird hier anhand
-                  unserer QHAna-Werkzeugumgebung am Anwendungsfalls der vestimentären Kommunikation
-                  im Film vorgestellt.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-                <term type="topics-llm">quantum computing, film studies, communication, tool
-                  development, technological applications</term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#barzen_johanna">
-                  <name>
-                    <roleName type="title">Dr.</roleName>
-                  </name>
-                  <affiliation corresp="#uni-stuttgart"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-stuttgart"/>
-            </event>
             <!-- 2024-11-06: Presentation of Student Project Work: https://www.ilw.uni-stuttgart.de/abteilungen/digital-humanities/images/Bilder_MA-Kolloquien/Vorstellung-Projektarbeiten.png -->
-            <event type="lecture" when="2024-11-13" xml:id="ls16_t2_l5">
+            <event type="lecture" when="2024-11-13" xml:id="ls16_t2_l4">
               <eventName xml:lang="en">Tracing Regularities in Pedro Calderón de la Barca's Dramatic
                 OEuvre with a Computational Approach</eventName>
               <ptr type="programme"
@@ -36277,6 +36255,7 @@
                   status and utterance style of the characters.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #romance-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, spanish literature, computational methods,
                   character analysis, golden age</term>
@@ -36297,7 +36276,7 @@
             </event>
             <!-- 2024-11-20: BA Projects of Stuttgart's First-Year Students (internal) -->
             <!-- 2024-11-27: BA Projects of Stuttgart's First-Year Students (internal) -->
-            <event type="lecture" when="2024-12-04" xml:id="ls16_t2_l6">
+            <event type="lecture" when="2024-12-04" xml:id="ls16_t2_l5">
               <eventName xml:lang="de">Wen würde ChatGPT wählen? Sprachmodelle und ihr
                 Weltverständnis</eventName>
               <ptr type="programme"
@@ -36312,6 +36291,7 @@
                   haben.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #political-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">language models, political bias, natural language
                   processing, chatbots, content generation</term>
@@ -36330,7 +36310,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-stuttgart"/>
             </event>
-            <event type="lecture" when="2024-12-11" xml:id="ls16_t2_l7">
+            <event type="lecture" when="2024-12-11" xml:id="ls16_t2_l6">
               <eventName xml:lang="de">Netzwerkanalysen zum mittelhochdeutschen
                 Artusroman</eventName>
               <ptr type="programme"
@@ -36344,6 +36324,7 @@
                   werden kann.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">social network analysis, arthurian romance, character
                   relationships, medieval literature, literary analysis</term>
@@ -36362,7 +36343,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-stuttgart"/>
             </event>
-            <event type="lecture" when="2024-12-18" xml:id="ls16_t2_l8">
+            <event type="lecture" when="2024-12-18" xml:id="ls16_t2_l7">
               <eventName xml:lang="de">Potentiale der Game Studies für die Digital
                 Humanities</eventName>
               <ptr type="programme"
@@ -36377,6 +36358,7 @@
                   Arbeitsfeld für Forschende der DH.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#game-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">video games, media studies, research methods, programming,
                   theoretical frameworks</term>
@@ -36396,7 +36378,7 @@
               <org role="host-institution" corresp="#uni-stuttgart"/>
             </event>
             <!-- 2025-01-08: BA Projects of Stuttgart's First-Year Students (internal) -->
-            <event type="lecture" when="2025-01-15" xml:id="ls16_t2_l9">
+            <event type="lecture" when="2025-01-15" xml:id="ls16_t2_l8">
               <eventName xml:lang="en">Language and identity: Exploring Culture, Morals, and
                 Personal Experiences through NLP</eventName>
               <ptr type="programme"
@@ -36420,6 +36402,7 @@
                   creation of new resources, addressing the scarcity of existing ones in NLP.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">natural language processing, identity, culture, morality,
                   personal experiences</term>
@@ -36438,7 +36421,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-stuttgart"/>
             </event>
-            <event type="lecture" when="2025-01-22" xml:id="ls16_t2_l10">
+            <event type="lecture" when="2025-01-22" xml:id="ls16_t2_l9">
               <eventName xml:lang="de">Von der Interpretation zur Evaluation: Methodische
                 Herausforderungen bei der KI-getriebenen Generierung und Bewertung von
                 Gedichtinterpretationen</eventName>
@@ -36457,6 +36440,7 @@
                   Interpretationen auf methodisch kontrollierte Weise zu generieren.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ai, poetry, german literature, language models,
                   interpretation</term>
@@ -36475,7 +36459,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-stuttgart"/>
             </event>
-            <event type="lecture" when="2025-01-29" xml:id="ls16_t2_l11">
+            <event type="lecture" when="2025-01-29" xml:id="ls16_t2_l10">
               <eventName xml:lang="de">Document (Layout) Analysis für historische Drucke des 18 Jh.:
                 Die ‚paratextlastigen‘ Werkausgaben Friedrich von Hagedorns</eventName>
               <ptr type="programme"
@@ -36495,6 +36479,7 @@
                   Friedrich von Hagedorn (1708-1754).</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ocr, document layout analysis, historical prints, text
                   analysis, 18th century</term>
@@ -44111,7 +44096,7 @@
           <eventName xml:lang="es">Ciclo UC3M de Humanidades Digitales: Afrontando (junt@s) nuevos
             retos y oportunidades</eventName>
           <event type="lecture-series-term" from="2024-10" to="2025-04" xml:id="ls31_t1">
-            <eventName xml:lang="en">I Ciclo</eventName>
+            <eventName xml:lang="es">I Ciclo</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250424211026/https://eventos.uc3m.es/124059/detail/i-ciclo-uc3m-de-humanidades-digitales-afrontando-junt-s-nuevos-retos-y-oportunidades.html"/>
             <ptr type="programme"
