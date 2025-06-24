@@ -21401,6 +21401,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjo"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #mathematics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">document similarity, transcription, text comparison,
                   similarity criteria, document analysis</term>
@@ -21432,6 +21433,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjp"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #political-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">intervention, history, politics, project, odra</term>
               </note>
@@ -21468,6 +21470,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjq"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, historical documents, translation studies,
                   marco polo, digital editing</term>
@@ -21491,6 +21494,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=0WKJ6R2Utns"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#classics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ancient greek, named entity recognition, text processing,
                   historical texts, computational linguistics</term>
@@ -21522,6 +21526,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjr"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #regional-studies #geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">urban mapping, art galleries, cologne, deep map, gis</term>
               </note>
@@ -21546,6 +21551,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjv"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">public, humanities, practice, concepts, methods</term>
               </note>
@@ -21576,6 +21582,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjs"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data integration, linked data, data publishing, openrefine,
                   data reconciliation</term>
@@ -21612,6 +21619,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=3RQSkedwik4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d reconstruction, geisteswissenschaften, research
                   methodology, digital modeling, virtual reconstruction</term>
@@ -21637,6 +21645,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkju"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">infrastructure, software, project, implementation,
                   tools</term>
