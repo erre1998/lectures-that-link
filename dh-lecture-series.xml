@@ -22021,6 +22021,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=G3Nn8gw81cA"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical context, repetition, documentation, cultural
                   preservation, critique</term>
@@ -22044,6 +22045,7 @@
                 historische Forschung am IEG</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">innovation, transfer, infrastructure, historical research,
                   research institute</term>
@@ -22065,6 +22067,7 @@
             <event type="lecture" when="2022-04-21" xml:id="ls8_t8_l3">
               <eventName xml:lang="de">​​Digital Humanities in Rostock – zwischen Forschungsfeld und
                 Fach</eventName>
+              <term type="discipline" corresp="#digital-humanities"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.14181282"/>
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkq"/>
               <note type="abstract" xml:lang="en">not found</note>
@@ -22091,6 +22094,7 @@
               <eventName xml:lang="en">​​Close Reading Distant Viewing</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, literary studies, computational methods, data
                   visualization, reading techniques</term>
@@ -22115,6 +22119,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkks"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">virtual reality, theater, reconstruction, space,
                   empathy</term>
@@ -22138,6 +22143,7 @@
                 Koreferenz-Informationen als Feature in Figurentypen-Klassifikation</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">coreference, drama analysis, character types,
                   classification, feature extraction</term>
@@ -22162,6 +22168,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkr"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">social media, history, archiving, data collection,
                   analysis</term>
@@ -22190,6 +22197,7 @@
               <eventName xml:lang="de">​​STURM Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open access, text encoding, scholarly editing, digital
                   publication, academic collaboration</term>
@@ -22215,6 +22223,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkt"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">openatlas, historical geography, byzantine empire, balkan,
                   mapping</term>
@@ -22245,6 +22254,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkku"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">natural language processing, sentiment analysis, stance
                   detection, argument mining, automated analysis</term>
@@ -22268,6 +22278,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkv"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d scanning, cultural heritage, autonomous, preservation,
                   technology</term>
