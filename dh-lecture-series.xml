@@ -37871,6 +37871,7 @@
                 target="https://web.archive.org/web/20250503205916/https://www.mynewsdesk.com/de/universitaet-vechta/pressreleases/antrittsvorlesung-digital-humanities-prof-punkt-in-dr-punkt-in-lina-franken-spricht-ueber-algorithmen-und-daten-in-kulturwissenschaftlicher-forschung-3256773"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data analysis, algorithms, cultural studies, research
                   methods, application</term>
@@ -37919,6 +37920,7 @@
                   cultivate unexpected and lively encounters.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">metadata, data availability, archival hospitality,
                   qualitative data, semiotic ideologies</term>
@@ -37962,6 +37964,7 @@
                   assemblages.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ethnography, sociotechnical, assemblages, research design,
                   anthropology</term>
