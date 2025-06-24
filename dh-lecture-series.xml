@@ -161,6 +161,36 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-bruxelles" type="university">
+            <name xml:lang="fr">Université libre de Bruxelles</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q574606</idno>
+            <place corresp="#brussels"/>
+          </org>
+          <org xml:id="uni-yeshiva" type="university">
+            <name xml:lang="en">Yeshiva University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1048851</idno>
+            <place corresp="#new-york-city"/>
+          </org>
+          <org xml:id="uni-amsterdam-vrije" type="university">
+            <name xml:lang="nl">Vrije Universiteit Amsterdam</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1065414</idno>
+            <place corresp="#amsterdam"/>
+          </org>
+          <org xml:id="uni-radboud" type="university">
+            <name xml:lang="nl">Radboud Universiteit Nijmegen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q273631</idno>
+            <place corresp="#nijmegen"/>
+          </org>
+          <org xml:id="uni-paris-psl" type="university">
+            <name xml:lang="fr">Université PSL</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q273631</idno>
+            <place corresp="#paris"/>
+          </org>
+          <org xml:id="uni-trento" type="university">
+            <name xml:lang="it">Università di Trento</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q930528</idno>
+            <place corresp="#trento"/>
+          </org>
           <org xml:id="uni-salerno" type="university">
             <name xml:lang="it">Università di Salerno</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1633215</idno>
@@ -596,17 +626,17 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q459724</idno>
             <place corresp="#mainz"/>
           </org>
-          <org xml:id="uni-tu-berlin" type="university">
+          <org xml:id="uni-berlin-tu" type="university">
             <name xml:lang="de">Technische Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q51985</idno>
             <place corresp="#berlin"/>
           </org>
-          <org xml:id="uni-hu-berlin" type="university">
+          <org xml:id="uni-berlin-hu" type="university">
             <name xml:lang="de">Humboldt-Universität zu Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q152087</idno>
             <place corresp="#berlin"/>
           </org>
-          <org xml:id="uni-fu-berlin" type="university">
+          <org xml:id="uni-berlin-fu" type="university">
             <name xml:lang="de">Freie Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153006</idno>
             <place corresp="#berlin"/>
@@ -1322,6 +1352,11 @@
             <place corresp="#cambridge-us"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="anr" type="research_institution">
+            <name xml:lang="fr">Agence nationale de la recherche (ANR)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q392500</idno>
+            <place corresp="#paris"/>
+          </org>
           <org xml:id="mpi-eva" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für evolutionäre Anthropologie (MPI EVA)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q682926</idno>
@@ -1536,7 +1571,7 @@
           <org xml:id="fbk" type="research_institution">
             <name xml:lang="it">Fondazione Bruno Kessler</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3747148</idno>
-            <place corresp="#trient"/>
+            <place corresp="#trento"/>
           </org>
           <org xml:id="dfk-paris" type="research_institution">
             <name xml:lang="de">Deutsches Forum für Kunstgeschichte (DFK Paris)</name>
@@ -1612,6 +1647,11 @@
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <!-- ####### L ####### -->
+          <org xml:id="library-uni-cambridge" type="glam">
+            <name xml:lang="en">Cambridge University Library</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1028334</idno>
+            <place corresp="#cambridge-uk"/>
+          </org>
           <org xml:id="library-beic" type="glam">
             <name xml:lang="it">Fondazione Biblioteca Europea di Informazione e Cultura
               (BEIC)</name>
@@ -1653,7 +1693,7 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496307</idno>
             <place corresp="#kiel"/>
           </org>
-          <org xml:id="library-uni-fu-berlin" type="glam">
+          <org xml:id="library-uni-berlin-fu" type="glam">
             <name xml:lang="de">Universitätsbibliothek der Freien Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496344</idno>
             <place corresp="#berlin"/>
@@ -1662,6 +1702,11 @@
             <name xml:lang="de">Universitätsbibliothek Heidelberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q880794</idno>
             <place corresp="#heidelberg"/>
+          </org>
+          <org xml:id="library-uni-gent" type="glam">
+            <name xml:lang="nl">Universiteitsbibliotheek Gent</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q611001</idno>
+            <place corresp="#gent"/>
           </org>
           <org xml:id="library-slub" type="glam">
             <name xml:lang="de">Staats- und Universitätsbibliothek Dresden (SLUB)</name>
@@ -1757,10 +1802,20 @@
             <place corresp="#gothenburg"/>
           </org>
           <!-- ####### Other ####### -->
+          <org xml:id="koninklijk-conservatorium-antwerpen" type="other">
+            <name xml:lang="nl">Koninklijk Conservatorium Antwerpen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2665388</idno>
+            <place corresp="#antwerpen"/>
+          </org>
+          <org xml:id="vlaamse-erfgoedbibliotheken" type="other">
+            <name xml:lang="nl">Vlaamse Erfgoedbibliotheken</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2469116</idno>
+            <place corresp="#berchem"/>
+          </org>
           <org xml:id="history-lab-magazine" type="other">
             <name xml:lang="en">History Lab Magazine</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134348007</idno>
-            <place corresp="#trient"/>
+            <place corresp="#trento"/>
           </org>
           <org xml:id="abr" type="other">
             <name xml:lang="de">LVR-Amt für Bodendenkmalpflege im Rheinland (ABR)</name>
@@ -1922,6 +1977,351 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="de-roest_aafje">
+            <name>
+              <forename>Mattia</forename>
+              <surname>Di Gangi</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8653-8378</idno>
+          </person>
+          <person xml:id="di-gangi_mattia">
+            <name>
+              <forename>Mattia</forename>
+              <surname>Di Gangi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4491-0025</idno>
+          </person>
+          <person xml:id="ares-oliveira_sofia">
+            <name>
+              <forename>Sofia</forename>
+              <surname>Ares Oliveira</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126594126</idno>
+          </person>
+          <person xml:id="de-gussem_jeroen">
+            <name>
+              <forename>Jeroen</forename>
+              <surname>De Gussem</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1811-4973</idno>
+          </person>
+          <person xml:id="manjavacas-arevalo_enrique">
+            <name>
+              <forename>Enrique</forename>
+              <surname>Manjavacas Arévalo</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3942-7680</idno>
+          </person>
+          <person xml:id="romero-gomez_veronica">
+            <name>
+              <forename>Verónica</forename>
+              <surname>Romero Gomez</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1721-5732</idno>
+          </person>
+          <person xml:id="koolen_corina">
+            <name>
+              <forename>Corina</forename>
+              <surname>Koolen</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="parigini_margherita">
+            <name>
+              <forename>Margherita</forename>
+              <surname>Parigini</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0832-2202</idno>
+          </person>
+          <person xml:id="fierens_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Fierens</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="blake_julie">
+            <name>
+              <forename>Julie</forename>
+              <surname>Blake</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8062-4029</idno>
+          </person>
+          <person xml:id="turska_magdalena">
+            <name>
+              <forename>Magdalena</forename>
+              <surname>Turska</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7060-3531</idno>
+          </person>
+          <person xml:id="bruening_gerrit">
+            <name>
+              <forename>Gerrit</forename>
+              <surname>Brüning</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2402-6734</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95283325</idno>
+          </person>
+          <person xml:id="moreels_dries">
+            <name>
+              <forename>Dries</forename>
+              <surname>Moreels</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5297-1074</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q52187791</idno>
+          </person>
+          <person xml:id="dahlstroem_mats">
+            <name>
+              <forename>Mats</forename>
+              <surname>Dahlström</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4584-7144</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113585451</idno>
+          </person>
+          <person xml:id="bergman_ari">
+            <name>
+              <forename>Ari</forename>
+              <surname>Bergman</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6779-2944</idno>
+          </person>
+          <person xml:id="ries_thorsten">
+            <name>
+              <forename>Thorsten</forename>
+              <surname>Ries</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6084-9776</idno>
+          </person>
+          <person xml:id="wyns_roxanne">
+            <name>
+              <forename>Roxanne</forename>
+              <surname>Wyns</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7146-8239</idno>
+          </person>
+          <person xml:id="jannidis_fotis">
+            <name>
+              <forename>Fotis</forename>
+              <surname>Jannidis</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6944-6113</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q25273276</idno>
+          </person>
+          <person xml:id="cornia_nicholas">
+            <name>
+              <forename>Nicholas</forename>
+              <surname>Cornia</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1114-6710</idno>
+          </person>
+          <person xml:id="gooch_megan">
+            <name>
+              <forename>Megan</forename>
+              <surname>Gooch</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3190-0509</idno>
+          </person>
+          <person xml:id="stokes_peter">
+            <name>
+              <forename>Peter</forename>
+              <surname>Stokes</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q99708913</idno>
+          </person>
+          <person xml:id="bluijs_siebe">
+            <name>
+              <forename>Siebe</forename>
+              <surname>Bluijs</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133805170</idno>
+          </person>
+          <person xml:id="burke_lois">
+            <name>
+              <forename>Lois</forename>
+              <surname>Burke</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5151-7582</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130710028</idno>
+          </person>
+          <person xml:id="schoech_christof">
+            <name>
+              <forename>Christof</forename>
+              <surname>Schöch</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4557-2753</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57917455</idno>
+          </person>
+          <person xml:id="gabler_hans-walter">
+            <name>
+              <forename>Hans Walter</forename>
+              <surname>Gabler</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8916-8616</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55939548</idno>
+          </person>
+          <person xml:id="jones_huw">
+            <name>
+              <forename>Huw</forename>
+              <surname>Jones</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1376-4555</idno>
+          </person>
+          <person xml:id="schuerewegen_franc">
+            <name>
+              <forename>Franc</forename>
+              <surname>Schuerewegen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4484-024X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133587543</idno>
+          </person>
+          <person xml:id="aron_paul">
+            <name>
+              <forename>Paul</forename>
+              <surname>Aron</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5071-981X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3370511</idno>
+          </person>
+          <person xml:id="lauer_gerhard">
+            <name>
+              <forename>Gerhard</forename>
+              <surname>Lauer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0230-2574</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1512040</idno>
+          </person>
+          <person xml:id="deneire_tom">
+            <name>
+              <forename>Tom</forename>
+              <surname>Deneire</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6911-7205</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q12902351</idno>
+          </person>
+          <person xml:id="van-peursen_wido">
+            <name>
+              <forename>Wido</forename>
+              <nameLink>van</nameLink>
+              <surname>Peursen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3142-5752</idno>
+          </person>
+          <person xml:id="kwakkel_erik">
+            <name>
+              <forename>Erik</forename>
+              <surname>Kwakkel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1258-1685</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q19561120</idno>
+          </person>
+          <person xml:id="franzini_greta">
+            <name>
+              <forename>Greta</forename>
+              <surname>Franzini</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1159-5575</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595072</idno>
+          </person>
+          <person xml:id="vernackt_elien">
+            <name>
+              <forename>Elien</forename>
+              <surname>Vernackt</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="wynants_nele">
+            <name>
+              <forename>Nele</forename>
+              <surname>Wynants</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3863-751X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q52554703</idno>
+          </person>
+          <person xml:id="lenk_sabine">
+            <name>
+              <forename>Sabine</forename>
+              <surname>Lenk</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3704-1864</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133481680</idno>
+          </person>
+          <person xml:id="kestemont_mike">
+            <name>
+              <forename>Mike</forename>
+              <surname>Kestemont</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3590-693X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57628738</idno>
+          </person>
+          <person xml:id="bordalejo_barbara">
+            <name>
+              <forename>Barbara</forename>
+              <surname>Bordalejo</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8255-0265</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q73559304</idno>
+          </person>
+          <person xml:id="stein_benno">
+            <name>
+              <forename>Benno</forename>
+              <surname>Stein</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9033-2217</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q40888416</idno>
+          </person>
+          <person xml:id="karsdorp_folgert">
+            <name>
+              <forename>Folgert</forename>
+              <surname>Karsdorp</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5958-0551</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57628669</idno>
+          </person>
+          <person xml:id="burgoyne_john-ashley">
+            <name>
+              <forename>John Ashley</forename>
+              <surname>Burgoyne</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6854-5646</idno>
+          </person>
           <person xml:id="lang_sabine">
             <name>
               <forename>Sabine</forename>
@@ -10467,7 +10867,7 @@
             <name>Lucca</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006076</idno>
           </place>
-          <place type="city" xml:id="trient">
+          <place type="city" xml:id="trento">
             <country corresp="#italy"/>
             <name>Trento</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005128</idno>
@@ -10893,6 +11293,16 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006464</idno>
           </place>
           <!-- ######## Belgian cities ######## -->
+          <place type="city" xml:id="brussels">
+            <country corresp="#brussels"/>
+            <name>Brussels</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7007868</idno>
+          </place>
+          <place type="city" xml:id="berchem">
+            <country corresp="#belgium"/>
+            <name>Berchem</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/1136644</idno>
+          </place>
           <place type="city" xml:id="antwerpen">
             <country corresp="#belgium"/>
             <name>Antwerp</name>
@@ -10904,6 +11314,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1047785</idno>
           </place>
           <!-- ######## Dutch cities ######## -->
+          <place type="city" xml:id="nijmegen">
+            <country corresp="#netherlands"/>
+            <name>Nijmegen</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7031832</idno>
+          </place>
           <place type="city" xml:id="tilburg">
             <country corresp="#netherlands"/>
             <name>Tilburg</name>
@@ -20537,7 +20952,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -23954,7 +24369,7 @@
                   <name>
                     <roleName type="title">Jun.-Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -24576,7 +24991,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -25099,7 +25514,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rostock"/>
@@ -25915,7 +26330,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rostock"/>
@@ -27310,7 +27725,7 @@
                   Forschungspraxis.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#german-studies #digital-humanities"/>
+                <term type="discipline" corresp="#digital-humanities #german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">exploratory, digital, edition, letters, german</term>
               </note>
@@ -27331,10 +27746,11 @@
             <event type="lecture" when="2025-07-07" xml:id="ls10_t5_l12">
               <eventName xml:lang="en">Exploring Characters in Calderón Drama Corpus (CalDraCor)
                 with Computational Methods</eventName>
-              <ptr type="programme" target="..."/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250624190707/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/exploring-characters-in-calderon-drama-corpus-caldracor-with-computational-methods-232721/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#gromance-studies #literary-studies"/>
+                <term type="discipline" corresp="#romance-studies #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">drama, characters, calderón, computational methods, text
                   analysis</term>
@@ -28650,7 +29066,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#bbaw #uni-hu-berlin"/>
+                  <affiliation corresp="#bbaw #uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -28794,13 +29210,13 @@
                   <name>
                     <roleName type="title">PD Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
                 <person role="speaker" corresp="#hussein_hussein">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -29016,7 +29432,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-tu-berlin"/>
+                  <affiliation corresp="#uni-berlin-tu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -31007,25 +31423,25 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
                 <person role="speaker" corresp="#fiechter_benjamin">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
                 <person role="speaker" corresp="#jaeschke_robert">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
                 <person role="speaker" corresp="#martus_steffen">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -32077,10 +32493,10 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin #dariah"/>
+                  <affiliation corresp="#uni-berlin-fu #dariah"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2021-11-11" xml:id="ls13_t1_l2">
               <eventName xml:lang="de">Maße, Muster, Modelle. Archäologische Projekte des Instituts
@@ -32111,7 +32527,7 @@
                   <affiliation corresp="#uni-goettingen"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2021-11-25" xml:id="ls13_t1_l3">
               <eventName xml:lang="en">The Ubiquity of Infrastructure in the (Digital) Humanities: A
@@ -32141,7 +32557,7 @@
                   <affiliation corresp="#uni-trinity-dublin #dariah"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2021-12-09" xml:id="ls13_t1_l4">
               <eventName xml:lang="en">Theater as Data</eventName>
@@ -32170,7 +32586,7 @@
                   <affiliation corresp="#uni-singapore"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-01-06" xml:id="ls13_t1_l5">
               <eventName xml:lang="de">›Mit den wenigsten Mitteln die größten Effekte‹ – Die
@@ -32203,7 +32619,7 @@
                   <affiliation corresp="#uni-stuttgart #archive-dla-marbach"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-01-20" xml:id="ls13_t1_l6">
               <eventName xml:lang="en">Digital and Traditional Literary Studies: Areas of
@@ -32237,7 +32653,7 @@
                   <affiliation corresp="#uni-moskau"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-02-03" xml:id="ls13_t1_l7">
               <eventName xml:lang="de">Die Vielheit der Digital Humanities in der Einheit ihres
@@ -32277,7 +32693,7 @@
                   <affiliation corresp="#uni-moskau"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-02-17" xml:id="ls13_t1_l8">
               <eventName xml:lang="en">Digital Humanities, or: The Broken Record of
@@ -32328,7 +32744,7 @@
                   <affiliation corresp="#uni-koeln"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#fischer_frank"/>
           </event>
@@ -32369,10 +32785,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-05-12" xml:id="ls13_t2_l2">
               <eventName xml:lang="en">Untold tales: Trends in Literary Studies PhD research in
@@ -32407,7 +32823,7 @@
                   <affiliation corresp="#uni-leipzig"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-06-09" xml:id="ls13_t2_l3">
               <eventName xml:lang="de">Grenzen quantitativer Literaturanalyse: Über die Frage, wie
@@ -32441,7 +32857,7 @@
                   <affiliation corresp="#uni-bern"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-06-23" xml:id="ls13_t2_l4">
               <eventName xml:lang="de">Romantic Code — eine computerlinguistische Modellierung der
@@ -32490,7 +32906,7 @@
                   <affiliation corresp="#uni-jena"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-07-07" xml:id="ls13_t2_l5">
               <eventName xml:lang="de">Von der Phänomenologie zum maschinellen Lernen – Wie
@@ -32529,7 +32945,7 @@
                   <affiliation corresp="#uni-darmstadt"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-07-21" xml:id="ls13_t2_l6">
               <eventName xml:lang="de">Digitale Formate fürs Theater – Überlegungen zum Schreiben
@@ -32566,10 +32982,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin #ntm-mannheim"/>
+                  <affiliation corresp="#uni-berlin-fu #ntm-mannheim"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#fischer_frank"/>
           </event>
@@ -32623,7 +33039,7 @@
                   <affiliation corresp="#uni-bamberg #uni-wien"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-11-09" xml:id="ls13_t3_l2">
               <eventName xml:lang="en">Experimentorum decades. Processing books of secrets and
@@ -32671,7 +33087,7 @@
                   <affiliation corresp="#uni-graz"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-11-23" xml:id="ls13_t3_l3">
               <eventName xml:lang="de">Digitale Editionen im Bereich der (spät)antiken christlichen
@@ -32703,7 +33119,7 @@
                   <affiliation corresp="#bbaw"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2022-12-07" xml:id="ls13_t3_l4">
               <eventName xml:lang="en">Topic Modeling for Conceptual Cartography</eventName>
@@ -32739,7 +33155,7 @@
                   <affiliation corresp="#uni-leuven"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-01-18" xml:id="ls13_t3_l5">
               <eventName xml:lang="en">LiLa: Linking Latin. Interoperability between Lexical and
@@ -32777,7 +33193,7 @@
                   <affiliation corresp="#uni-cattolica-milano"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-02-01" xml:id="ls13_t3_l6">
               <eventName xml:lang="en">Mathematics &amp; Scientific Explanation in Antiquity: A
@@ -32830,7 +33246,7 @@
                   <affiliation corresp="#uni-amsterdam"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-02-15" xml:id="ls13_t3_l7">
               <eventName xml:lang="en">Sentiment Analysis for Latin: lexicons, annotation and
@@ -32861,7 +33277,7 @@
                   <affiliation corresp="#uni-parma"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-02-22" xml:id="ls13_t3_l8">
               <eventName xml:lang="en">Canons of Ancient Historians in the Age of Linked Open
@@ -32894,7 +33310,7 @@
                   <affiliation corresp="#uni-leipzig"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#hessbrueggen-walter_stefan"/>
           </event>
@@ -32921,10 +33337,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-05-22" xml:id="ls13_t4_l2">
               <eventName xml:lang="en">Database of Yiddish Translations</eventName>
@@ -32944,10 +33360,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-06-05" xml:id="ls13_t4_l3">
               <eventName xml:lang="de">Werkstattbericht zum Aufbau eines varietätensensitiven
@@ -32974,7 +33390,7 @@
                   <affiliation corresp="#uni-marburg"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <!-- The lecture scheduled for June 19, 2023, has no title; 
               it is unclear whether it actually took place. -->
@@ -32997,10 +33413,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-07-17" xml:id="ls13_t4_l5">
               <eventName xml:lang="en">A Latourian Trajectory from Digital Design to Science and
@@ -33050,7 +33466,7 @@
                   <affiliation corresp="#uni-groningen"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#fischer_frank"/>
           </event>
@@ -33081,7 +33497,7 @@
                   <affiliation corresp="#uni-wuerzburg"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <!-- No mistake, two lectures took place on the same date -->
             <event type="lecture" when="2023-11-02" xml:id="ls13_t5_l2">
@@ -33105,10 +33521,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-11-30" xml:id="ls13_t5_l3">
               <eventName xml:lang="de">Annotation und Analyse narrativen Raums in
@@ -33134,7 +33550,7 @@
                   <affiliation corresp="#uni-rostock"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2023-12-07" xml:id="ls13_t5_l4">
               <eventName xml:lang="de">Student, Professor, Journalist / Mutter, Autorin, Frau –
@@ -33180,7 +33596,7 @@
                   <affiliation corresp="#uni-regensburg"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-01-11" xml:id="ls13_t5_l5">
               <eventName xml:lang="de">NLP-Infrastruktur für die Klassische Philologie</eventName>
@@ -33202,16 +33618,16 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
                 <person role="speaker" corresp="#schulz_konstantin">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-01-25" xml:id="ls13_t5_l6">
               <eventName xml:lang="de">Intelligencija im Geflecht der europäischen
@@ -33231,10 +33647,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-02-08" xml:id="ls13_t5_l7">
               <eventName xml:lang="en">Top2Vec as a Tool for Topic Identification in Fiction. A
@@ -33261,7 +33677,7 @@
                   <affiliation corresp="#uni-karlova"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#fischer_frank #beine_julia-jennifer"/>
           </event>
@@ -33303,16 +33719,16 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin #library-uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu #library-uni-berlin-fu"/>
                 </person>
                 <person role="speaker" corresp="#rehse_birgit">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin #archive-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu #archive-fu-berlin"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-05-24" xml:id="ls13_t6_l2">
               <eventName xml:lang="en">Introduction to ALMEDA: African Literary Metadata</eventName>
@@ -33343,7 +33759,7 @@
                   <affiliation corresp="#uni-uppsala"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-07-19" xml:id="ls13_t6_l3">
               <eventName xml:lang="en">Inner Seas in the Tragedies of Joanna Baillie and Charles
@@ -33367,7 +33783,7 @@
                   <affiliation corresp="#uni-melbourne"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#fischer_frank"/>
           </event>
@@ -33396,10 +33812,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-11-01" xml:id="ls13_t7_l2">
               <eventName xml:lang="de">Variable Narrative des Videospiels Hades</eventName>
@@ -33423,7 +33839,7 @@
                   <affiliation corresp="#uni-stuttgart"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-11-15" xml:id="ls13_t7_l3">
               <eventName xml:lang="en">Wikidata Gender Diversity: Investigating Practices of Gender
@@ -33450,7 +33866,7 @@
                   <affiliation corresp="#uni-guelph"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-11-26" xml:id="ls13_t7_l4">
               <eventName xml:lang="en">Computational Theatre Research: Leveraging Large Datasets and
@@ -33493,7 +33909,7 @@
                   <affiliation corresp="#uni-singapore"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2024-12-13" xml:id="ls13_t7_l5">
               <eventName xml:lang="de">Wissenschaftliche Schulen in der Linguistik. Das Problem mit
@@ -33516,10 +33932,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2025-01-10" xml:id="ls13_t7_l6">
               <eventName xml:lang="de">Ein kritischer Blick auf den DDR-Literaturkanon anhand von
@@ -33545,7 +33961,7 @@
                   <affiliation corresp="#uni-lille"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2025-01-24" xml:id="ls13_t7_l7">
               <eventName xml:lang="en">Reimagining the Renaissance with Viewsari, a Knowledge Graph
@@ -33571,7 +33987,7 @@
                   <affiliation corresp="#fiz-karlsruhe"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <event type="lecture" when="2025-02-07" xml:id="ls13_t7_l8">
               <eventName xml:lang="en">Tracking and Representing the Provenance of Gender Data in
@@ -33592,10 +34008,10 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fu-berlin"/>
+                  <affiliation corresp="#uni-berlin-fu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-fu-berlin"/>
+              <org role="host-institution" corresp="#uni-berlin-fu"/>
             </event>
             <org role="organizer" corresp="#fischer_frank"/>
           </event>
@@ -36779,7 +37195,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#bbaw #uni-hu-berlin"/>
+                  <affiliation corresp="#bbaw #uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-leipzig"/>
@@ -36820,7 +37236,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-leipzig"/>
@@ -38208,7 +38624,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-hu-berlin"/>
+                  <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-muenster"/>
@@ -43282,64 +43698,1669 @@
               projects.</p>
           </note>
           <event type="lecture-series-term" from="2014-10" to="2023-07" xml:id="ls26_t1">
-            <eventName>...</eventName>
-            <ptr type="programme"
-              target="https://platformdh.uantwerpen.be/events/category/talks/platformdh-lecture-series/page/5/?eventDisplay=past"/>
-            <ptr type="programme"
-              target="https://platformdh.uantwerpen.be/events/category/talks/platformdh-lecture-series/page/4/?eventDisplay=past"/>
-            <ptr type="programme"
-              target="https://platformdh.uantwerpen.be/events/category/talks/platformdh-lecture-series/page/3/?eventDisplay=past"/>
-            <ptr type="programme"
-              target="https://platformdh.uantwerpen.be/events/category/talks/platformdh-lecture-series/page/2/?eventDisplay=past"/>
-            <ptr type="programme"
-              target="https://platformdh.uantwerpen.be/events/category/talks/platformdh-lecture-series/list/?eventDisplay=past"/>
-            <!-- ↓↓↓↓ LECTURES ↓↓↓↓ -->
-            <!-- 2014-10-20  |  https://web.archive.org/web/20250427153533/https://platformdh.uantwerpen.be/index.php/event/john-ashley-burgoyne/ -->
-            <!-- 2015-03-15  |  https://web.archive.org/web/20250427153751/https://platformdh.uantwerpen.be/index.php/event/lecture-series-barbara-bordalejo/ -->
-            <!-- 2015-06-15  |  https://web.archive.org/web/20250427153905/https://platformdh.uantwerpen.be/index.php/event/lecture-series-benno-stein/ -->
-            <!-- 2016-02-15  |  https://web.archive.org/web/20250427153936/https://platformdh.uantwerpen.be/index.php/event/lecture-series-folgert-karsdorp/ -->
-            <!-- 2016-04-25  |  https://web.archive.org/web/20250427154029/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sabine-lenk-and-nele-wynants/ -->
-            <!-- 2016-10-26  |  https://web.archive.org/web/20250427154213/https://platformdh.uantwerpen.be/index.php/event/lecture-series-elien-vernackt/ -->
-            <!-- 2016-11-23  |  https://web.archive.org/web/20250427154132/https://platformdh.uantwerpen.be/index.php/event/lecture-series-greta-franzini/ -->
-            <!-- 2016-12-09  |  https://web.archive.org/web/20250427154226/https://platformdh.uantwerpen.be/index.php/event/lecture-series-erik-kwakkel/ -->
-            <!-- 2017-02-13  |  https://web.archive.org/web/20250427154413/https://platformdh.uantwerpen.be/index.php/event/lecture-series-wido-van-peursen/ -->
-            <!-- 2017-03-13  |  https://web.archive.org/web/20250427154431/https://platformdh.uantwerpen.be/index.php/event/lecture-series-jeroen-de-gussem/ -->
-            <!-- 2017-04-24  |  https://web.archive.org/web/20250427154525/https://platformdh.uantwerpen.be/index.php/event/lecture-series-peter-robinson/ -->
-            <!-- 2017-05-15  |  https://web.archive.org/web/20250427154544/https://platformdh.uantwerpen.be/index.php/event/lecture-series-tom-deneire/ -->
-            <!-- 2017-06-12  |  https://web.archive.org/web/20250427154600/https://platformdh.uantwerpen.be/index.php/event/lecture-series-suzanne-mpouli/ -->
-            <!-- 2017-07-12  |  https://web.archive.org/web/20250427154732/https://platformdh.uantwerpen.be/index.php/event/lecture-series-ray-siemens/ -->
-            <!-- 2017-12-04  |  https://web.archive.org/web/20250427154731/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sofia-ares-oliveira/ -->
-            <!-- 2018-03-09  |  https://web.archive.org/web/20250427154746/https://platformdh.uantwerpen.be/index.php/event/lecture-series-thorsten-ries/ -->
-            <!-- 2018-03-26  |  https://web.archive.org/web/20250427154907/https://platformdh.uantwerpen.be/index.php/event/lecture-series-gerrit-bruning/ -->
-            <!-- 2018-04-23  |  https://web.archive.org/web/20250427154911/https://platformdh.uantwerpen.be/index.php/event/lecture-series-roxanne-wyns/ -->
-            <!-- 2018-05-24  |  https://web.archive.org/web/20250427155045/https://platformdh.uantwerpen.be/index.php/event/lecture-series-christof-schoch/ -->
-            <!-- 2018-06-11  |  https://web.archive.org/web/20250427155103/https://platformdh.uantwerpen.be/index.php/event/lecture-series-hans-walter-gabler/ -->
-            <!-- 2018-09-03  |  https://web.archive.org/web/20250427155220/https://platformdh.uantwerpen.be/index.php/event/lecture-series-dries-moreels/ -->
-            <!-- 2018-09-07  |  https://web.archive.org/web/20250427155212/https://platformdh.uantwerpen.be/index.php/event/lecture-series-veronica-romero-gomez/ -->
-            <!-- 2018-10-08  |  https://web.archive.org/web/20250427155418/https://platformdh.uantwerpen.be/index.php/event/lecture-series-fotis-jannidis/ -->
-            <!-- 2018-11-21  |  https://web.archive.org/web/20250427155501/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sarah-fierens/ -->
-            <!-- 2018-11-29  |  https://web.archive.org/web/20250427155651/https://platformdh.uantwerpen.be/index.php/event/lecture-series-corina-koolen/ -->
-            <!-- 2018-12-12  |  https://web.archive.org/web/20250427155647/https://platformdh.uantwerpen.be/index.php/event/lecture-series-franc-schuerewegen/ -->
-            <!-- 2019-04-01  |  https://web.archive.org/web/20250427155953/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mats-dahlstrom/ -->
-            <!-- 2019-07-01  |  https://web.archive.org/web/20250427155950/https://platformdh.uantwerpen.be/index.php/event/lecture-series-huw-jones/ -->
-            <!-- 2019-07-05  |  https://web.archive.org/web/20250427155956/https://platformdh.uantwerpen.be/index.php/event/lecture-series-magdalena-turska/ -->
-            <!-- 2019-10-15  |  https://web.archive.org/web/20250427160202/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mattia-di-gangi/ -->
-            <!-- 2020-02-10  |  https://web.archive.org/web/20250427160139/https://platformdh.uantwerpen.be/index.php/event/lecture-series-julie-blake/ -->
-            <!-- 2020-03-03  |  https://web.archive.org/web/20250427160456/https://platformdh.uantwerpen.be/index.php/event/lecture-series-paul-aron/ -->
-            <!-- 2020-06-04  |  https://web.archive.org/web/20250427160514/https://platformdh.uantwerpen.be/index.php/event/lecture-series-ari-bergman/ -->
-            <!-- 2021-11-15  |  https://web.archive.org/web/20250427160206/https://platformdh.uantwerpen.be/index.php/event/lecture-series-margherita-parigini/ -->
-            <!-- 2022-02-21  |  https://web.archive.org/web/20250427144218/https://platformdh.uantwerpen.be/index.php/event/lecture-series-aafje-de-roest/ -->
-            <!-- 2022-03-28  |  https://web.archive.org/web/20250427165147/https://platformdh.uantwerpen.be/index.php/event/lecture-series-julian-schroter/ -->
-            <!-- 2022-05-24  |  https://web.archive.org/web/20250427165304/https://platformdh.uantwerpen.be/index.php/event/lecture-series-siebe-bluijs-lois-burke/ -->
-            <!-- 2022-06-20  |  https://web.archive.org/web/20250427165149/https://platformdh.uantwerpen.be/index.php/event/lecture-series-gerhard-lauer/ -->
-            <!-- 2022-06-27  |  https://web.archive.org/web/20250427165248/https://platformdh.uantwerpen.be/index.php/event/lecture-series-peter-stokes/ -->
-            <!-- 2022-10-22  |  https://platformdh.uantwerpen.be/index.php/event/francqui-chair-masterclass-lost-and-often-found-works/  
-            Not a lecture but a discussion round; it is listed among the contributions to the lecture series, 
-            but unlike the others, it is not labeled as "Lecture Series"; we will cancel it -->
-            <!-- 2023-03-06  |  https://web.archive.org/web/20250427165520/https://platformdh.uantwerpen.be/index.php/event/lecture-series-megan-gooch/ -->
-            <!-- 2023-03-27  |  https://web.archive.org/web/20250427170654/https://platformdh.uantwerpen.be/index.php/event/lecture-series-nicholas-cornia/ -->
-            <!-- 2023-06-26  |  https://web.archive.org/web/20250427165751/https://platformdh.uantwerpen.be/index.php/event/lecture-series-enrique-manjavacas-arevalo/ -->
-            <!-- 2023-07-05  |  https://web.archive.org/web/20250427165602/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mike-kestemont/ -->
+            <eventName/>
+            <event type="lecture" when="2014-10-20" xml:id="ls26_t1_l1">
+              <eventName xml:lang="en">How to Make It Stick: A Study of Long-Term Musical
+                Memorability Using Citizen Science</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427153533/https://platformdh.uantwerpen.be/index.php/event/john-ashley-burgoyne/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Psycholinguist Steven Pinker once described music as being ‘auditory cheesecake’,
+                  similar to pornography and alcohol. Indeed, human beings do not seem to get enough
+                  of it. Music can be enchanting, annoying and intriguing. It helps us to
+                  concentrate or forget, it can make us jubilant or melancholic. Some songs, the
+                  so-called ‘earwigs’, can haunt us for days. These earwigs in particular are the
+                  subject of the upcoming talk. Our speaker will discuss what makes songs stick
+                  (i.e. what makes them ‘catchy’) by computationally analysing song structure and
+                  music recognition patterns by humans.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#burgoyne_john-ashley">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-amsterdam"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2015-03-15" xml:id="ls26_t1_l2">
+              <eventName xml:lang="en">The Future of the Book and the Books of the
+                Future</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427153751/https://platformdh.uantwerpen.be/index.php/event/lecture-series-barbara-bordalejo/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In her talk, Bordalejo will discuss issues relating to publishing, eReaders and
+                  multimedia books.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bordalejo_barbara">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leuven"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2015-06-15" xml:id="ls26_t1_l3">
+              <eventName xml:lang="en">Applying Heuristic Search Technology for Constrained
+                Paraphrasing</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427153905/https://platformdh.uantwerpen.be/index.php/event/lecture-series-benno-stein/"/>
+              <note type="abstract" xml:lang="en">
+                <p>To paraphrase means to rewrite content whilst preserving the original meaning.
+                  Paraphrasing is important in fields such as text reuse in journalism, anonymising
+                  work, and improving the quality of customer-written reviews, among other.
+                  Paraphrasing is often considered as an analysis problem – asking the following
+                  question: Are these two sentences (paragraphs) paraphrases? In our talk we will
+                  take the synthesis view and consider the problem of automatically paraphrasing a
+                  text. To illustrate both the principles and the potential of our approach we
+                  consider the reformulation of a given text such that the text contains an – also
+                  given – acrostic. A text contains an acrostic, if the first letters of a range of
+                  consecutive lines form a word or phrase. Our approach turns this paraphrasing task
+                  into an optimization problem: we use various existing and also new paraphrasing
+                  techniques as operators applicable to intermediate versions of a text (e.g.,
+                  replacing synonyms), and we search for an operator sequence with minimum text
+                  quality loss. The experimental analysis shows that we can solve the acrostic
+                  generation problem both effectively and efficiently. However, our main
+                  contribution lies in the presented technology paradigm: a novel and promising
+                  combination of methods from Information Retrieval, Computational Linguistics, and
+                  Artificial Intelligence. The approach naturally generalizes to related
+                  paraphrasing problems as they occur in shortening or simplifying a given text,
+                  writing style obfuscation, answer grading, or e-journalism.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#stein_benno">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-weimar"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2016-02-15" xml:id="ls26_t1_l4">
+              <eventName xml:lang="en">From Rapacious Wolfs to Independent Women: Cultural
+                Transmission of Little Red Riding Hood</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427153936/https://platformdh.uantwerpen.be/index.php/event/lecture-series-folgert-karsdorp/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In his lecture, Folgert Karsdorp presents new perspectives on the structure and
+                  development of story networks. A story network, defined as a non-hierarchical
+                  agglomeration of pre-textual relationships, represents a stream of retellings in
+                  which retellers modify and adapt retellings in a gradual and accumulative way. I
+                  investigate the development of the world’s biggest fairy tale icon: Little Red
+                  Riding Hood. No story has been retold, reinterpreted, recontextualized and
+                  reconfigured as often as the story about the little girl in red who meets a wolf
+                  in the forest. On the basis of a large collection of Dutch retellings of the
+                  story, I show that the evolution of its story network is largely determined by two
+                  random mechanisms of selection: cultural prominence and temporal
+                  attractiveness.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#karsdorp_folgert">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-radboud #knaw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2016-04-25" xml:id="ls26_t1_l5">
+              <eventName xml:lang="en">Digitizing magic lantern slides: problems, challenges,
+                possibilities</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154029/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sabine-lenk-and-nele-wynants/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In the EU financed research project “A Million Pictures” one of the objectives is
+                  to make available magic lantern slides through the database Lucerna. We scan
+                  slides held in collection of museums and archives such as the Museum of
+                  Contemporary Arts (MuHKA) in Antwerp which keeps the collection of Robert
+                  Vrielynck, a solicitor from Brugge and founder of the Belgisch Animatiefilm
+                  Centrum. The scanning of slides and slide sets is challenging because a three
+                  dimensional object has to be transformed into two or more two-dimensional images
+                  to document it. In the presentation I will address the problems that the
+                  digitization of physical objects such as lantern slides, but also films pose. A
+                  digital file can’t replace the physical object but it opens ways of access that
+                  were inconceivable only fifteen years ago. Historians working with this material
+                  however will have to take into account the specific characteristics of digital
+                  documents and therefore need to understand how they have been produced. I will
+                  discuss possible procedures of source critic when working with such documents.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lenk_sabine">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-antwerpen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2016-04-25" xml:id="ls26_t1_l6">
+              <eventName xml:lang="en">The Legacy of the Lantern. Artistic Reuse of an Old
+                Apparatus</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154029/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sabine-lenk-and-nele-wynants/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The magic lantern was the most important technology of visual entertainment and
+                  means of education across nineteenth-century Europe. Initially mainly used for
+                  scientific, educational and popular purposes, this early projection device quickly
+                  found its way into the theatre. This talk will discuss how the artistic reuse of
+                  old lanterns can today function as a creative tool to revive its important
+                  cultural heritage. More particularly in the context of the project A Million
+                  Pictures, we consider the digitization of a collection of magic lantern slides as
+                  a starting point for creative re-use of lantern slides for both artistic and
+                  educational purposes. On the occasion of an upcoming workshop on this topic,
+                  organized by the Research Centre for Visual Poetics (27-39 October 2016), film
+                  artist Sarah Vanagt was invited to develop a project inspired by the magic lantern
+                  slides and projectors in the Vrielynck collection. Vanagt will set up an
+                  exhibition at the Antwerp Museum for Contemporary Art (M HKA), displaying original
+                  lanterns and slides next to her own contemporary lantern film, developed for the
+                  occasion. Instead of an explicit remake of this old apparatus or a historically
+                  informed re-enactment of a Galantee show, Van Agt opts for a more subtle,
+                  theatrical reuse of the magic lantern in which she reflects on media history,
+                  concepts of vision and the role of media in our contemporary moment. I will
+                  discuss how she thus proposes a media archaeological perspective on magic lantern
+                  shows. This archaeology is understood less as the discovery of a forgotten past
+                  than as the establishment of an active relationship between past and present.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wynants_nele">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-antwerpen #uni-bruxelles"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2016-10-26" xml:id="ls26_t1_l7">
+              <eventName xml:lang="en">The MAGIS Bruges Project</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154213/https://platformdh.uantwerpen.be/index.php/event/lecture-series-elien-vernackt/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The sixteenth-century map of Bruges by Marcus Gerards has appealed to our
+                  imagination for centuries, and researchers use it regularly to illustrate their
+                  publications on a variety of subjects. The MAGIS Bruges-project has made the map
+                  fully accessible in a digital environment. What is more, the map is embedded in an
+                  extensive database that offers a significant amount of information on
+                  (late-)medieval Bruges. The MAGIS Bruges project fits perfectly within the idea of
+                  Digital Humanities for a number of reasons. First, setting up such a project
+                  requires a number of collaborations and a healthy dose of patience. The conversion
+                  of this scientific database to an instrument for a larger public requires quite a
+                  different approach. On the one hand, academics are increasingly searching for new
+                  digital ways to publish their research results to a broad audience. On the other
+                  hand, public-oriented institutions such as museums feel the need to profile
+                  themselves on an academic level. MAGIS Bruges aims to respond to this double trend
+                  by reconciling the requirements of both the academic and the public-oriented
+                  institutions. In this lecture, Elien Vernackt discusses the entire MAGIS Bruges
+                  project prior to the development of the database and the map application. She
+                  talks about the different ways in which this project is accomplished technically
+                  as well as content-wise, and which collaborations were established in the
+                  process.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#geography"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vernackt_elien">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#self-employment"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2016-11-23" xml:id="ls26_t1_l8">
+              <eventName xml:lang="en">Text Reuse, Digital Breadcrumbs and Historica
+                Data</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154132/https://platformdh.uantwerpen.be/index.php/event/lecture-series-greta-franzini/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In her talk, Greta Franzini will discuss the case studies and activities of
+                  eTRAP. This project investigates the phenomenon of text reuse in order to advance
+                  automatic detection on historical data. Historical texts pose numerous challenges
+                  to automatically detect reuse. These challenges are, among others, the fragmentary
+                  survival of works, inconsistent referencing, but also the diachronic evolution of
+                  language. Unlike modern texts, where sources are consistently quoted and cited,
+                  historical texts are not always so transparent, thus opening up exciting
+                  opportunities for intertextual research.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#franzini_greta">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-goettingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2016-12-09" xml:id="ls26_t1_l9">
+              <eventName xml:lang="en">Something Old, Something New: Medieval Manuscripts and
+                Digital Research Methods</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154226/https://platformdh.uantwerpen.be/index.php/event/lecture-series-erik-kwakkel/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk, Erik Kwakkel shows how the study of medieval manuscripts can
+                  benefit from a digital approach. He presents two case studies: 1) How medieval
+                  script is studied in a quantified manner, using modest statistical research; 2)
+                  How MA-XRF, an x-ray technique, enables us to look inside early-modern
+                  bookbindings, revealing (and reading) medieval fragments that are hiding inside.
+                  These two examples will be taken as representatives of two common types of Digital
+                  Humanities research: one using digital techniques to do traditional research more
+                  efficiently, the other producing results that could not be gained in traditional
+                  research.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kwakkel_erik">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leiden"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-02-13" xml:id="ls26_t1_l10">
+              <eventName xml:lang="en">A Statistical Approach to Syntactic Variation. The Case of
+                the Hebrew Bible</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154413/https://platformdh.uantwerpen.be/index.php/event/lecture-series-wido-van-peursen/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In his talk, Wido van Peursen shows how combining traditional scholarship with a
+                  computational approach permits us to explore linguistic variation in the Hebrew
+                  Bible or Old Testament from new perspectives. The Old Testament provides a diverse
+                  and most compelling field of study. It has a complex composition history that,
+                  according to many scholars, stretches out over a period of more than a millennium.
+                  Naturally, this corpus of texts presents a great linguistic diversity. For long,
+                  researchers have attempted to understand and explain this diversity in all its
+                  facets. The promising results of quantitative methods show once more how Digital
+                  Humanities can provide a major contribution to an ongoing discussion; respecting,
+                  but also improving an honourable scholarly tradition.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#theology #linguistics #computational-linguistics"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#van-peursen_wido">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-amsterdam-vrije"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-03-13" xml:id="ls26_t1_l11">
+              <eventName xml:lang="en">The Exalted Expert vs. The Exact Experiment: Authorship
+                Attribution, Stylometry and Literary Theory</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154431/https://platformdh.uantwerpen.be/index.php/event/lecture-series-jeroen-de-gussem/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In his presentation, Jeroen will confront traditional methods of authorship
+                  attribution with more recent computational methods for determining the authorship
+                  of a text. How does “distant reading” (as coined by Franco Moretti) teach us
+                  anything about literature and the way in which it is composed? Can computational
+                  formalism (or perhaps computational stylistics) capture “style” by focusing on a
+                  so-called “stylome”, a collection of features in an authors’ personal language use
+                  which can be quantified as data and visualized in attractive figures? Where does
+                  computational stylistics succeed where traditional stylistics have failed, and
+                  vice versa? Are computational stylistics as “objective” (or “unsupervised”) as
+                  they purport to be, or do our results only reflect the answers we were hoping to
+                  find? In meandering through such questions, it becomes clear that – although they
+                  seem very different at the outset – the “exalted expert” from historical text
+                  editing and literary theory is but little different to the “exact experiment”.
+                  Yet, both methods serve a distinctive purpose and deserve their respective
+                  position within literary theory.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#de-gussem_jeroen">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gent"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-04-24" xml:id="ls26_t1_l12">
+              <eventName xml:lang="en">How to Make Digital Editions of Chaucer and Everyone
+                Else</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154525/https://platformdh.uantwerpen.be/index.php/event/lecture-series-peter-robinson/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The explosion of interest in the use of digital tools for making scholarly
+                  editions, combined with enthusiasm for crowd-sourcing, has led to a proliferation
+                  of online tools for the making of scholarly editions. Transcribe Bentham and
+                  similar enterprises promise a scholarly heaven. We can imagine a massive cohort of
+                  enthusiastic and skilled amateurs transcribing manuscripts which we, the scholarly
+                  leaders, can use to make editions after our own dreams. This talk will question
+                  this vision: is this practical? do we have, can we have, tools to realize this
+                  dream of scholarly editions made by all? Is this even desirable? And what might we
+                  have to change in our own practice to make this vision real?</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#robinson_peter">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saskatchewan"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-05-15" xml:id="ls26_t1_l13">
+              <eventName xml:lang="en">Digital Special Collections: a Rare Book Librarian’s
+                Perspective on Digital Research</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154544/https://platformdh.uantwerpen.be/index.php/event/lecture-series-tom-deneire/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Special collections libraries have by no means missed the digital turn. On the
+                  contrary, curating materials that are mostly copyright free and dealing with
+                  reproduction reqeusts on an almost daily basis, special collections libraries are
+                  excellent partners for digitization projects and digital research. Conversely,
+                  this implies that digital scholarship on rare books, manuscripts, maps and prints
+                  has a lot to gain from the librarian’s perspective. Understanding how physical
+                  objects are digitized, how different items are catalogued, and how to extract data
+                  and metadata from library systems offers clear heuristic and methodological gains
+                  for digital research. This presentation will discuss such a librarian’s
+                  perspective starting from the Special Collections of the University of Antwerp
+                  Library. It will explain the library’s digitization process and digital platform,
+                  analyze its metadata structure and export formats, and finally offer some research
+                  suggestions for data mining and other digital scholarship.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#deneire_tom">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-antwerpen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-06-12" xml:id="ls26_t1_l14">
+              <eventName xml:lang="en">Computing Similes in French and English Literary
+                Texts</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154600/https://platformdh.uantwerpen.be/index.php/event/lecture-series-suzanne-mpouli/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Similes such as “Float like a butterfly, sting like a bee” abound in everyday
+                  language and are generally said to be particularly creative as well as
+                  stylistically relevant in literary texts. In her talk, Suzanne will discuss the
+                  specificities and challenges related to the automatic detection of similes for
+                  literary purposes. To illustrate the interest of this task, she will present as
+                  case study the use of colour similes in a corpus of French and British novels
+                  published between 1810 and 1950.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#literary-studies #english-studies #romance-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mpouli_suzanne">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paris-sorbonne"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-07-12" xml:id="ls26_t1_l15">
+              <eventName xml:lang="en">Open Social Scholarship and the Scholarly Edition</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154732/https://platformdh.uantwerpen.be/index.php/event/lecture-series-ray-siemens/"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk considers the nature of editorial methodological experimentation, in
+                  particular exploring the scholarly edition in the context of open social
+                  scholarship. Open social scholarship involves creating and disseminating research
+                  and research technologies to a broad audience of specialists and active
+                  non-specialists in ways that are accessible and significant. As a concept, it has
+                  grown from roots in open access and open scholarship movements, the digital
+                  humanities’ methodological commons and community of practice, contemporary online
+                  practices, and public facing “citizen scholarship” to include i) developing,
+                  sharing, and implementing research in ways that consider the needs and interests
+                  of both academic specialists and communities beyond academia; ii) providing
+                  opportunities to co-create, interact with, and experience openly-available
+                  cultural data; iii) exploring, developing, and making public tools and
+                  technologies under open licenses to promote wide access, education, use, and
+                  repurposing; and iv) enabling productive dialogue between academics and
+                  non-academics. Our example will be the social edition of the Devonshire MS (BL Add
+                  MS 17492), the first sustained example of men and women writing together in the
+                  English literary tradition, by a research team using crowd-sourcing technologies
+                  and operating in conjunction with an advisory group representing key
+                  methodological and area expertise. See
+                  http://en.wikibooks.org/wiki/The_Devonshire_Manuscript, for this edition’s
+                  Wikimedia publication, also published in fixed electronic format (PDF) via Iter
+                  Academic Press and, in print, in partnership with Medieval and Renaissance Texts
+                  and Studies.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #social-siences"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#siemens_ray">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-victoria"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2017-12-04" xml:id="ls26_t1_l16">
+              <eventName xml:lang="en">Machine Vision Algorithms on Cadaster Plans</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154731/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sofia-ares-oliveira/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Cadaster plans are cornerstones for reconstructing dense representations of the
+                  history of the city. However, as some of these handwritten documents are more than
+                  200 years old, the establishment of processing pipeline for interpreting them
+                  remains extremely challenging. The talk will present the implementation of an
+                  automated process capable of segmenting and interpreting Napoleonic Cadaster Maps
+                  of the Veneto Region dating from the beginning of the 19th century. The system
+                  extracts the geometry of each of the drawn parcels, classifies, reads and
+                  interprets the handwritten labels. This efficient and automated process opens new
+                  perspectives to reconstitute the past.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ares-oliveira_sofia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-epfl-lausanne"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-03-19" xml:id="ls26_t1_l17">
+              <eventName xml:lang="en">Digital Forensics in the Humanities: Beyond
+                Philology</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154746/https://platformdh.uantwerpen.be/index.php/event/lecture-series-thorsten-ries/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Since Matthew Kirschenbaum’s Mechanisms. New Media and the Forensic Imagination
+                  (2008), digital forensics became not only a toolset for born-digital archiving and
+                  philology, but also a shifted the perspective on the digital cultural heritage of
+                  our times and on questions of the “burdens of proof” under the digital condition.
+                  This lecture endeavors to shed light on the impact of digital forensics on the
+                  historical humanities, discussing sample cases and arguments about born-digital
+                  historical primary sources. It will make the case that digital forensic literacy
+                  and historical computing knowledge will have to be key components in historical
+                  humanities education and political discourse.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ries_thorsten">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gent"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-03-26" xml:id="ls26_t1_l18">
+              <eventName xml:lang="en">Genetic editing and textual history. The case of Goethe’s
+                Faust</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154907/https://platformdh.uantwerpen.be/index.php/event/lecture-series-gerrit-bruning/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In his lecture, Gerrit Brüning introduces the key concepts and features of the
+                  Faust edition, which is published in an advanced beta stage
+                  (beta.faustedition.net), and nearing completion. The genesis of Goethe’s Faust
+                  tragedy spans a period of about 60 years. Individual stages of its conceptual and
+                  textual history have survived in hundreds of manuscripts with more than 2000
+                  written pages. The Faust edition gives access to this material, enabling the user
+                  to find all witnesses for every single passage of the work and to explore images
+                  and transcriptions in an intuitive way. Started in 2009, the project played an
+                  important role in the development of genetic or documentary TEI XML encoding.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bruening_gerrit">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-frankfurt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-04-23" xml:id="ls26_t1_l19">
+              <eventName xml:lang="en">International Image Interoperability Framework (IIIF).
+                Sharing high resolution images across institutional boundaries</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427154911/https://platformdh.uantwerpen.be/index.php/event/lecture-series-roxanne-wyns/"/>
+              <note type="abstract" xml:lang="en">
+                <p>IIIF or the International Image Interoperability Framework is a
+                  community-developed framework for sharing high-resolution images in an efficient
+                  and standardized way across institutional boundaries. Using an IIIF manifest URL,
+                  a researcher can pull image based resources and related contextual information
+                  such as the structure of a complex object or document, metadata and rights
+                  information into any IIIF compliant viewer such as the Mirador viewer. Simply put,
+                  a researcher can access high resolution images from the British Library and from
+                  the KU Leuven Libraries in a single viewer for research. This lecture will
+                  introduce IIIF and its concepts, highlight projects and viewers, and give an
+                  in-depth view of its current and future application options for DH research.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wyns_roxanne">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leuven"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-05-24" xml:id="ls26_t1_l20">
+              <eventName xml:lang="en">Towards a Research Agenda for Data-driven Approaches to
+                Literary Periods</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155045/https://platformdh.uantwerpen.be/index.php/event/lecture-series-christof-schoch/"/>
+              <note type="abstract" xml:lang="en">
+                <p>If literary periods can be and have been shaped by literary historians after the
+                  fact, what does that mean for data-driven approaches to literary history? In other
+                  words, are literary periods post-hoc constructions and if they are, does it follow
+                  that literary evolution is in fact characterized by slow, continuous change? Or is
+                  there textual evidence for, say, an alternation of phases of relative stability
+                  and phases of fast-paced change? What kind of textual evidence, on what levels of
+                  description, would be required to define the chronological limits and textual
+                  characteristics of literary periods? These are some of the questions I would like
+                  to address in this talk. In order to do so, I will approach the issue from two
+                  related perspectives: First, I will scrutinize recent work in data-driven,
+                  quantitative approaches to periodization in literary history for answers to the
+                  above-mentioned questions. I will then build on this assessment and describe some
+                  of the key practical as well as methodological challenges the field is currently
+                  facing. Ultimately, what will emerge from this double perspective is a research
+                  agenda for data-driven, quantitative approaches to literary periodization, a field
+                  of study in which, I argue, most of the work remains to be done.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schoech_christof">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-trier"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-06-11" xml:id="ls26_t1_l21">
+              <eventName xml:lang="en">“James Joyce’s Ulysses into the Digital Age: Forty Years of
+                Steering an Edition through Turbulences of Scholarship and Reception”</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155103/https://platformdh.uantwerpen.be/index.php/event/lecture-series-hans-walter-gabler/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In the mid-1970s, I began to become aware of the challenges ahead for whoever
+                  might muster the courage to edit James Joyce’s Ulysses. At the same time, I heard
+                  of expectations that the future for scholarly editing might lie in computer
+                  support. Here was a peak in World Literature of the 20th century for which notes,
+                  drafts, a fair copy, typescripts, serial publications, and multiple proofs of the
+                  first edition had been preserved; and for which the first edition published in
+                  1922 carried a note of apology: “The publisher asks the reader’s indulgence for
+                  typographical errors unavoidable in the exceptional circumstances.” Closer
+                  scrutiny laid bare a wide field of departures in the first edition from the text
+                  progressively written by Joyce. From all extant evidence, it was possible to
+                  declare a double aim for a scholarly edition: one, to critically establish a
+                  reading text verified against the full range of document evidence, and two, to
+                  display the growth of the text through all its variation and accretion from fair
+                  copy to first edition. Work over seven years with a team of dedicated
+                  collaborators produced the three-volume Critical and Synoptic Edition published in
+                  1984. It was received with enthusiasm, yet soon also severely attacked. Meanwhile,
+                  its reading text has become the standard Ulysses reference text. Its display of
+                  the growth of the text, by contrast, is still to be searched in-depth for its
+                  critical potential. The medium to explore that potential is the digital medium.
+                  Today’s updating of our digital archive of the 1984 edition is enabling a
+                  generation renewal of the Critical and Synoptic Edition of 1984 in book form into
+                  a dynamic online Digital Critical and Synoptic Edition in-the-making for James
+                  Joyce’s Ulysses.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gabler_hans-walter">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-09-03" xml:id="ls26_t1_l22">
+              <eventName xml:lang="en">Exploring IIIF for Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155220/https://platformdh.uantwerpen.be/index.php/event/lecture-series-dries-moreels/"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this lecture, the basics of IIIF – International Image Interoperability
+                  Framework – are presented through the lens of its key benefits for research in
+                  Digital Humanities. As an open data API, IIIF allows for clear and well documented
+                  research data management practices, for projects ranging from teaching over
+                  scholarly annotation or editing up to data mining.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moreels_dries">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-gent"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-09-07" xml:id="ls26_t1_l23">
+              <eventName xml:lang="en">Human-Computer Interaction for Handwritten Text Image
+                Processing in Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155212/https://platformdh.uantwerpen.be/index.php/event/lecture-series-veronica-romero-gomez/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The paradigm for Handwritten Text Image Processing systems design in Digital
+                  Humanities has been shifting from the concept of full-automation, i.e., systems
+                  where no human intervention is assumed, to systems where the decision process is
+                  affected by human feedback. One remarkable example where this feedback is
+                  successfully used is handwritten document transcrition. Human-Computer Interaction
+                  directly allows to improve system accuracy combining the accuracy of the human
+                  expert with the efficiency of the automatic system. In this talk we present an
+                  interactive-predictive handwritten text transcription system and real user cases
+                  where this technology has been successfully used. In addition, some studies about
+                  different modalities for human feedback are introduced. This multimodality
+                  directly allows to increase systems ergonomy and user acceptability. Finally,
+                  additional technologies related with image processing, such as key word spotting
+                  will be introduced.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#romero-gomez_veronica">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-valencia"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-10-08" xml:id="ls26_t1_l24">
+              <eventName xml:lang="en">Literature as a Commodity – Distant Reading Pulp
+                Fiction</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155418/https://platformdh.uantwerpen.be/index.php/event/lecture-series-fotis-jannidis/"/>
+              <note type="abstract" xml:lang="en">
+                <p>There is a field of popular fiction which doesn’t attract the attention of
+                  literary scholars very often: dime novels, sometimes also called pulp fiction
+                  because of the bad quality of the paper. Millions of them are printed every year
+                  but they don’t appear in any bestseller list, because they don’t belong to the
+                  usual system of literary communication. Research on dime novels perceived them
+                  quite long as part of the cheap escapist entertainment industry, targeting
+                  especially the lower classes, while in recent years the complexity of some of the
+                  series and of the communication of fans about their dime novels has been
+                  highlighted in contrast. The talk will look at 14.000 dime novels published in
+                  recent years and explore genres, topics and the complexity of the texts in an
+                  attempt to reevaluate some of these research positions.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#jannidis_fotis">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-11-21" xml:id="ls26_t1_l25">
+              <eventName xml:lang="nl">DBNL: Lof der Digitale Letteren</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155501/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sarah-fierens/"/>
+              <note type="abstract" xml:lang="nl">
+                <p>De Digitale Bibliotheek voor de Nederlandse Letteren (DBNL) is een digitale
+                  collectie van teksten die beho­ren tot de Nederlandse letterkunde, taalkunde en
+                  cultuurgeschiedenis van de vroegste tijd tot heden. De collectie representeert het
+                  hele Nederlandse taalgebied en komt tot stand door een samenwerking tussen de
+                  Taalunie, de Vlaamse Erfgoedbibliotheek en de Koninklijke Bibliotheek van
+                  Nederland (KB). De website www.dbnl.org wordt jaarlijks zo’n vier miljoen keer
+                  geraadpleegd en wordt niet onterecht de schatkamer van de Nederlandse taal en
+                  letteren genoemd. Deze infosessie bespreekt de recente geschiedenis en de toekomst
+                  van de DBNL. Er zal worden ingegaan op de selectie van de teksten, het
+                  productieproces, en de mogelijkheden van hergebruik van data.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#fierens_sarah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#vlaamse-erfgoedbibliotheken"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-11-29" xml:id="ls26_t1_l26">
+              <eventName xml:lang="en">Gender and the Riddle of Literary Quality</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155651/https://platformdh.uantwerpen.be/index.php/event/lecture-series-corina-koolen/"/>
+              <note type="abstract" xml:lang="en">
+                <p>We as readers like to think that we don’t have bias, that we can judge books
+                  quite objectively. However, when The Riddle of Literary Quality project did a
+                  large survey in the world of people who read Dutch-language books, some subtle
+                  (and less subtle) gender biases came to light. In this talk, Koolen explains what
+                  the team found and the dozen ways she tried to tease out the cause of this bias.
+                  Some of which failed, and others which proved more successful. Part of this is a
+                  computer analysis of the texts of hundreds of novels: is gender really that
+                  important for writing style? Koolen will give the answer to this and other burning
+                  questions.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #gender-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#koolen_corina">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#huygens-ing"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2018-12-12" xml:id="ls26_t1_l27">
+              <eventName xml:lang="fr">Franco Moretti vs Michel Charles ou les paradoxes de la
+                distance</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155647/https://platformdh.uantwerpen.be/index.php/event/lecture-series-franc-schuerewegen/"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Je m’intéresserai au procédé baptisé ’opérationnalisation’ que Franco Moretti
+                  décrit dans sa contribution à La Littérature au laboratoire (trad. fr. Ithaque
+                  Editions, 2016). Les ordinateurs tournent à plein régime. Graphes, cartes et
+                  arbres sont soigneusement produits. On est en pleine distant reading. Rien à voir,
+                  dira-t-on, avec ce qui occupe un Michel Charles, champion de la microlecture ‘à la
+                  française’, close reader compulsif et fier de l’être. Et pourtant, et comme on va
+                  voir, il s’agit là peut-être d’un faux antagonisme. Intéressons-nous, pour parler
+                  comme Proust, au ‘côté Moretti’ de Michel Charles, démarche qui revient à
+                  apercevoir symétriquement un ‘côté Michel Charles’ chez Franco Moretti. Bref, nous
+                  allons, au pays des humanités numériques, mettre les choses sens dessus dessous,
+                  pour une meilleure hygiène intellectuelle.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schuerewegen_franc">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-antwerpen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2019-04-01" xml:id="ls26_t1_l28">
+              <eventName xml:lang="en">What We See on the Screen</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155953/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mats-dahlstrom/"/>
+              <note type="abstract" xml:lang="en">
+                <p>However you define digital humanities (DH), it often revolves around digitized
+                  objects at libraries and archives. In particular, such digital reproductions are
+                  used within digital scholarly editions. There, the digital facsimiles are not only
+                  illustrations supporting a scholarly text transcription, but can also serve as
+                  research tools and instruments for accountability and accessibility. Nevertheless,
+                  the “critical gaze” of scholarly editors and DH is directed at text
+                  transcriptions, whereas digital facsimiles are often uncritically taken at face
+                  value. There seems to be room for an increased critical understanding of such
+                  images as interpretations based on scholarly informed deliberation. Partly, this
+                  “face value” approach is fostered by the paradigm of mass digitization, where
+                  image capture is considered a trivial and straight-forward task. But many projects
+                  and materials need other approaches, and labels such as critical digitization
+                  (Dahlström 2010) or slow digitization (Prescott &amp; Hughes 2018) suggest
+                  alternative strategies. In fact, whereas several library digitization projects
+                  seem to take on the form of scholarly editing, recent trends in digital scholarly
+                  editing such as documentary editing seem to overlap with library digitization. How
+                  do these activities relate to one another, and what can they learn from each
+                  other? In this talk, I will address some of the critical considerations libraries
+                  face when digitizing their holdings, with significant bearing on the value and
+                  (re)usability of the digital reproductions when placed within a scholarly context.
+                  Examples from digitized library collections will be used to support a discussion
+                  on authenticity, provenance, accessibility, openness, (re)usability, social
+                  engagement and collaborative efforts.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dahlstroem_mats">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#fh-boras"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2019-07-01" xml:id="ls26_t1_l29">
+              <eventName xml:lang="en">IIIF and Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155950/https://platformdh.uantwerpen.be/index.php/event/lecture-series-huw-jones/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Cambridge Digital Library has been supporting content-driven Digital Humanities
+                  projects since the online launch of the Isaac Newton papers in 2011, covering
+                  everything from 3,000 year-old Oracle Bones to aerial photography from the 1940s.
+                  In this talk, I will explore some of the developments we have seen during this
+                  period – imaging as an investigative research activity, digital resources as
+                  datasets, the formalisation of digital humanities in Cambridge, and the growing
+                  emphasis on collaboration in the field as a whole. In this context, I will focus
+                  on IIIF as an open and collaborative technology which is having a huge impact not
+                  just on the technical possibilities for the sharing and analysis of image data,
+                  but also on the culture of digital humanities. Finally I will look at what’s new
+                  in digital humanities, and how a similar open and collaborative approach might
+                  open up new possibilities in new areas.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #library-information"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#jones_huw">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-cambridge"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2019-07-05" xml:id="ls26_t1_l30">
+              <eventName xml:lang="en">What does it take to publish an edition?</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427155956/https://platformdh.uantwerpen.be/index.php/event/lecture-series-magdalena-turska/"/>
+              <note type="abstract" xml:lang="en">
+                <p>What this talk is not, is a lesson in textual scholarship. What it aims to be
+                  instead, is a rough guide to the complicated interweave of standards, technologies
+                  and logistical issues behind the publishing process, and some advice on how to
+                  navigate this maze. We’ll then try to follow a chain of serendipitous events which
+                  eventually led to a proposal for an editors-first, standards-always and
+                  community-foremost tool that was brought to life in the new version 5 of the TEI
+                  Publisher. I will talk about some projects that were our inspirations, guinea
+                  pigs, challenges and benefactors (usually all at once) and hope to discuss the
+                  future of editions with you!</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#turska_magdalena">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2019-10-15" xml:id="ls26_t1_l31">
+              <eventName xml:lang="en">Neural Machine Translation for Text and Speech</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427160202/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mattia-di-gangi/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Neural machine translation (NMT) reached such impressive results in the last few
+                  years that some industrial players, imprudently, claimed to have reached human
+                  parity. In this talk, I will first introduce NMT and the sequence-to-sequence
+                  models that enable it. Then, we will move towards modern approaches to
+                  back-translations and multilingual NMT, which enable the training of stronger
+                  systems by adding more data. Finally, I will introduce direct speech-to-text
+                  translation, where a single system is used to translate speech into text in a
+                  target language without intermediate transcription. This is an exciting research
+                  area that is experiencing fast growth and attracting more and more groups from
+                  academia and industry, and some of its fundamental problems are still
+                  unsolved.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#di-gangi_mattia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-trento"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2020-02-10" xml:id="ls26_t1_l32">
+              <eventName xml:lang="en">Building a “difference engine” for digital literary
+                history</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427160139/https://platformdh.uantwerpen.be/index.php/event/lecture-series-julie-blake/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Popular taste and public understanding of literature are shaped by many different
+                  life experiences and influences, including what happens in schooling. My work is
+                  part of a body of research that seeks to understand the history of English
+                  literary education through its material artefacts and traces of classroom practice
+                  (eg Michael 1987, Rubin 2007 and Robson 2015). This history connects in
+                  interesting interdisciplinary ways with the history of literature, the reception
+                  history of different authors, the history of mass education, Britain’s colonial
+                  past and its postcolonial present. One empirical basis for doing this kind of
+                  literary history is the books published for use in schools. In my doctoral study,
+                  I examined 99 school poetry anthologies prescribed for 14-16 year olds in England
+                  who took school-leaving English literature examinations between 1988 and 2018. I
+                  used conventional methods of bibliographical recovery, close reading and
+                  multimodal analysis for some aspects of this work, but I also wanted to see and to
+                  make visible for others the microscopic processes of change that worked to shape
+                  this pedagogical canon. For this I built database documenting the significant
+                  details of every poem, poet and anthology in my corpus, and developed a
+                  quantitative analytical method for tracking the salience of individual poems and
+                  poets over time. This approach is influenced as much by ideas about “distant
+                  reading” derived from Franco Moretti’s work in digital literary history (Moretti
+                  2013) as it is by cultural anthropologist Asif Agha’s concept of speech chains of
+                  evaluation (Agha 2006). In this talk, I will share some of the practicalities and
+                  possibilities of building this kind of digital “difference engine” and will be
+                  interested to discuss how this kind of approach might be developed and applied in
+                  other areas of literary history.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#blake_julie">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-cambridge"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2020-03-03" xml:id="ls26_t1_l33">
+              <eventName xml:lang="fr">Relire la littérature des années 30 grâce aux humanités
+                numériques: le cas des hebdomadaires d’information et de reportage.</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427160456/https://platformdh.uantwerpen.be/index.php/event/lecture-series-paul-aron/"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Les années 1930 voient l’émergence des hebdomadaires illustrés par la
+                  photographie ou le montage photographique, comme Détective, Vu, ou Regards. Ces
+                  organes de presse contribuent à transformer le regard que les contemporains
+                  jettent sur le monde. Mais on ne peut toutefois les analyser du seul point de vue
+                  de l’actualité journalistique. Ces revues sont aussi animées par des écrivains et
+                  elles sont liées aux grandes maisons d’édition. L’exposé tentera donc de lier ce
+                  phénomène éditorial avec l’histoire de la littérature française, dans la
+                  perspective d’une approche transmédiatique.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #media-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#aron_paul">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#anr"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2020-06-04" xml:id="ls26_t1_l34">
+              <eventName xml:lang="en">The Collective Editing of the Talmud</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427160514/https://platformdh.uantwerpen.be/index.php/event/lecture-series-ari-bergman/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The Babylonian Talmud, known simply as the Bavli, is the collaborative effort of
+                  generations of sages. It is also the foundational legal and ethical document of
+                  rabbinic Judaism. Rather than being authored by any individual authors, it instead
+                  represents the collective work of the Jewish scholarly community in Babylonia over
+                  five centuries. From its inception, in the beginning of the third century, until
+                  the end of the eighth century it was transmitted orally, and it continuously
+                  evolved and developed collectively throughout the period. This presentation will
+                  analyze the unique process of its formation and early transmission and how it came
+                  to represent the first oral wiki editing process.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #theology"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bergman_ari">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-yeshiva"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2021-11-15" xml:id="ls26_t1_l35">
+              <eventName xml:lang="en">The Rule and the Doubt. Studying the use of doubt in the
+                Italo Calvino’s narrative works</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427160206/https://platformdh.uantwerpen.be/index.php/event/lecture-series-margherita-parigini/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The thesis « The Rule and the Doubt » is dedicated to the Italian author Italo
+                  Calvino, more precisely to the study of a narrative mechanism that plays a central
+                  role in his work: doubt used as the propulsion engine for writing. The aim of the
+                  thesis is to analyze this phenomenon in all its forms and to identify its various
+                  consequences in the narrative articulation of the text. The research is also
+                  supposed to develop a reflection on Calvino’s critical texts, exploring the
+                  hypothesis that the dubitative text is born at the crossroads of fiction and
+                  essay. In order to realize the research, an attempt was made to use different
+                  methods of analysis in a complementary manner: a more traditional approach derived
+                  to literary criticism, combined with a perspective linked to the DH dimension
+                  (e.g. Data Visualization).</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#parigini_margherita">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-genf"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2022-02-21" xml:id="ls26_t1_l36">
+              <eventName xml:lang="nl">Hiphop lezen: kwantitatieve en kwalitatieve methoden voor
+                letterkundig onderzoek naar hiphop</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427144218/https://platformdh.uantwerpen.be/index.php/event/lecture-series-aafje-de-roest/"/>
+              <note type="abstract" xml:lang="nl">
+                <p>Terwijl de wereld om ons heen steeds meer lijkt te verengelsen, grijpen zowel
+                  Nederlandse als Belgische jongeren massaal naar een jeugdcultuur in hun eigen
+                  taal: hiphop. Van Frenna tot Zwangere Guy en van Ronnie Flex tot Shay, Blu Samu of
+                  Coely – hiphop is de dominante jongerencultuur van dit moment, zowel wereldwijd
+                  als in Nederland. Die ongekende populariteit van hiphop, een door
+                  identiteitsvraagstukken gekenmerkt muziekgenre en idem jeugdcultuur, roept de
+                  vraag op hoe Nederlandse jongeren (artiesten en actief publiek) in hiphop hun
+                  culturele identiteit (her)definiëren. Op die vraag promoveert neerlandica en
+                  letterkundige Aafje de Roest (1993) aan de Universiteit Leiden (sectie Moderne
+                  Nederlandse letterkunde). Haar door NWO-gefinancierde onderzoek combineert
+                  kwalitatieve en kwantitatieve methoden om tot een antwoord op deze vraag te komen.
+                  Maar hoe onderzoek te doen naar een snel veranderende jeugdcultuur die misschien
+                  wel per definitie ‘ongrijpbaar’ moet blijven? In dit college verkent De Roest het
+                  antwoord op die vraag, en neemt zij je aan de hand van recente case studies uit de
+                  Nederlandse en Vlaamse scene mee in het spel van hiphopjongeren, die tegen een
+                  lokale achtergrond, maar in een werelds perspectief, hun culturele identiteit
+                  vormgeven.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#musicology #linguistics #computational-linguistics"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#de-roest_aafje">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leiden"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2022-03-28" xml:id="ls26_t1_l37">
+              <eventName xml:lang="en">The challenges of investigating loosely structured genres and
+                of operationalizing semantic content</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165147/https://platformdh.uantwerpen.be/index.php/event/lecture-series-julian-schroter/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Literary studies are often dealing with genres that are well established in
+                  literary discourse but can, on closer inspection, not be identified on the level
+                  of textual features. In other words, there are loosely structured genres that are
+                  not instantiated as clear-cut text types. The German novella, which is split up
+                  into two genres, that of the ‚Erzählung‘ and that of the ‚Novelle‘, is such a
+                  disordered genre. Research in literary genres, however, usually presumes the
+                  existence of a common text type on the level of textual features that can be
+                  revealed, for example, with stylometric analysis or based on classification tasks.
+                  It is the aim of a larger project to reveal the latent structures of German
+                  novellas. The presentation gives a systematic outline of the challenge of
+                  analyzing the historical change of the novella as a loosely structured genre. Two
+                  central and methodologically different steps will be presented and discussed.
+                  Firstly, a socio-historical model is introduced that allows explaining common
+                  assumptions on the existence of genres not on the level of textual features but
+                  the level of communication about literature in historical cultures. This model
+                  does not limit itself to assigning a genre to textual features as a binary link,
+                  as it is common to computational genre stylistics, but rather starts from a
+                  triadic and recursive structure that links genre as a historically contingent
+                  assignment practice with textual features and with factors of socio-historical
+                  context. Secondly, there is the problem of operationalizing appropriate textual
+                  features. It is common practice to use word type frequencies (or more abstract
+                  features such as part of speech tags or n-grams). Traditional genre theory could
+                  object that this bag-of-words model is not able to represent complex genre
+                  features that were codified in traditional novella poetics, such as turning point
+                  (peripeteia), closure, or leitmotiv structure. Hence, promising strategies based
+                  on advanced combinations of topic modeling and word embedding for operationalizing
+                  features that represent semantic content are discussed with a focus on empirical
+                  validation.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schroeter_julian">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2022-05-24" xml:id="ls26_t1_l38">
+              <eventName xml:lang="en">Towards a Collection of Digital Literature from Flanders and
+                the Netherlands (1971–2022)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165304/https://platformdh.uantwerpen.be/index.php/event/lecture-series-siebe-bluijs-lois-burke/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Digital literature is an umbrella term that encompasses differing types of
+                  multimodal works of literature that are all reliant on the digital environment for
+                  their production, dissemination and/or consumption (Rettberg 2018). Digital
+                  literature can refer to hypertext fictions, algorithm-generated poetry, works
+                  created in virtual reality, online fan fiction, and various other permutations.
+                  Digital literature emerged as a concept and a field of study in the 1980s and
+                  1990s. The rapidly changing nature and function of digital media since then have
+                  urged new definitions and approaches to this art form. In this project we are
+                  exploring the history of digital literature in Dutch from 1971 – when Gerrit
+                  Krol’s Automatic Poetry by Pointed Information was published – to the present day.
+                  So far, we have collected more than 100 works of Dutch digital literature, using
+                  the ELMCIP (Electronic Literature Knowledge Base) database. Our next challenge is
+                  to curate a representative selection of these works and explore how they might be
+                  successfully integrated into library collections and exhibitions, at both national
+                  (Koninklijke Bibliotheek) and local (Bibliotheek Midden-Brabant) levels.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bluijs_siebe">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tilburg"/>
+                </person>
+                <person role="speaker" corresp="#burke_lois">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tilburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2022-06-20" xml:id="ls26_t1_l39">
+              <eventName xml:lang="en">Stop tracking science. The aggregation and selling of users’
+                data by science publishers</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165149/https://platformdh.uantwerpen.be/index.php/event/lecture-series-gerhard-lauer/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The business model of science publishers has change over recent years. Not only
+                  content but data analytics is the new core of science publishing industry. This
+                  has detrimental effects on universities. My talk reconstructs the history of
+                  science publishing and analyses the current techniques of collecting traces of
+                  scientists using university libraries and science publishing platforms. Finally,
+                  the talk discusses a way out.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lauer_gerhard">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2022-06-27" xml:id="ls26_t1_l40">
+              <eventName xml:lang="en">Machine Learning for Digital Scholarly Editions: The Case of
+                eScriptorium</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165248/https://platformdh.uantwerpen.be/index.php/event/lecture-series-peter-stokes/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Digital and computational tools and methods are becoming increasingly part of
+                  scholarly activity, including in Digital Scholarly Editing. One example of this is
+                  in transcribing texts from manuscripts, where machine learning is becoming more
+                  and more effective. To this end, eScriptorium is being developed to leverage
+                  Machine Learning to help in transcription, whether automatic, semi-automatic or
+                  manual. In principle the software should be useful for any type of edition, in any
+                  language and script and from any date. In practice, however, this raises many
+                  questions, including to what extent AI can or should be employed in preparing
+                  editions, how much the expert should remain ‘in the loop’, but also to what extent
+                  it is even possible to develop a single tool that can work for everything from
+                  Greek papyrus to 20th-century notebooks to Old Vietnamese inscriptions and beyond.
+                  This talk will therefore present the current state of the art while also
+                  addressing some practical and theoretical questions that remain for the
+                  future.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#stokes_peter">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paris-psl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2023-03-06" xml:id="ls26_t1_l41">
+              <eventName xml:lang="en">Failure to connect: exploring the human relationships at the
+                heart of digital humanities</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165520/https://platformdh.uantwerpen.be/index.php/event/lecture-series-megan-gooch/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Digital humanities means many things to many people – we talk of DH as being a
+                  range of methods, technologies, theoretical approaches to ask and answer research
+                  questions. But unlike traditional forms of humanities research, the research
+                  projects is not often one that can be tackled alone. DH nearly always requires
+                  collaboration with people from different subject domains, with technical experts
+                  and often with non-academic staff such as librarians, museum staff or
+                  administrative support. This paper explores the impact of this growth in
+                  collaboration through the lens of failure and what happens when collaborations and
+                  partnerships don’t go as planned. We have all experienced failure in our
+                  professional lives, but it is rarely acknowledged due to risks to reputation or to
+                  future funding. But by exploring what can go wrong, we can identify some of the
+                  key collaborative skills needed by today’s digital humanists, and begin to
+                  understand how to equip the researchers of the future to thrive.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gooch_megan">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2023-03-27" xml:id="ls26_t1_l42">
+              <eventName xml:lang="en">Rediscovering the performance practice of musicians in the
+                long 19th century through handwritten annotations on music scores</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427170654/https://platformdh.uantwerpen.be/index.php/event/lecture-series-nicholas-cornia/"/>
+              <note type="abstract" xml:lang="en">
+                <p>FAAM, Flemish Archive for Annotated Music, is a database and research platform
+                  aiming to revive the performances of musicians from the 19th and early 20th
+                  century through the study of their annotations on music scores. The Heritage
+                  Library of the Royal Conservatoire Antwerp provides a substantial collection of
+                  historical annotated scores made by Flemish amateur musicians, performers,
+                  conductors, and composers of the long 19th century. Sources with annotations are
+                  usually neglected during typical digitalization projects, where the librarians
+                  tend to favorise the clearest and most intact exemplars for their digital
+                  collections. Yet, scores annotated by musicians of the past provide a huge source
+                  for understanding the performance practice of the scribe’s period. Besides the
+                  above-described value for music performers and researchers, the resulting digital
+                  corpus will be a valuable resource for testing of new models in the field of
+                  Optical Music Recognition and Music Information Retrieval, given the challenges
+                  provided by the semantic complexity of Common Western Music Notation</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #theater-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cornia_nicholas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#koninklijk-conservatorium-antwerpen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2023-06-26" xml:id="ls26_t1_l43">
+              <eventName xml:lang="en">Historical Language Models and their Application to Word
+                Sense Disambiguation</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165751/https://platformdh.uantwerpen.be/index.php/event/lecture-series-enrique-manjavacas-arevalo/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Large Language Models (LLMs) have become the cornerstone of current methods in
+                  Computational Linguistics. As the Humanities look towards computational methods in
+                  order to analyse large quantities of text, the question arises as to how these
+                  models are best developed and applied to the specificities of their domains. In
+                  this talk, I will address the application of LLMs to Historical Languages,
+                  following up on the MacBERTh project. In the context of the development of LLMs
+                  for Historical Languages, I will address how they can be specifically fine-tuned
+                  with efficiency to tackle the problem of Word Sense Disambiguation. In a series of
+                  experiments relying on data from the Oxford English Dictionary, I will highlight
+                  how non-parametric and metric learning approaches can be an interesting
+                  alternative to traditional fine-tuning methods that rely on classifiers that learn
+                  to disambiguate specific lemmas.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #history"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#manjavacas-arevalo_enrique">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leiden"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
+            <event type="lecture" when="2023-07-05" xml:id="ls26_t1_l44">
+              <eventName xml:lang="en">The wandering verse: the computational detection of
+                micro-intertexts in medieval literature</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250427165602/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mike-kestemont/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Intertextuality is a ubiquitous concept in literary studies, which – because of
+                  its notoriously open-ended nature – covers a variety of correspondences between
+                  texts. Signaling intertexts is an important editorial responsibility, because it
+                  can deepen one’s reading experience of a literary work. Text reuse detection has
+                  become a popular task in the computational humanities too, although its evaluation
+                  is complicated by the lack of exhaustively annotated datasets of intertexts.
+                  Historic scholarship on medieval epics provides us with a wealthy inventory of
+                  micro-intertexts between medieval works, although their status is still hotly
+                  debated. Some philological communities have been keen on identifying intertexts as
+                  authorial features, whereas others have stressed their conventional status,
+                  especially in the wake of the oral-formulaic theory. In this talk, I will present
+                  a study on Middle Dutch epic literature, as well as an extension of this work to
+                  contemporary Middle English literature, in particular the bookshop theory
+                  surrounding the famous Auchinleck manuscript. I will argue that the intricate web
+                  woven by computationally detected intertexts can invite radically innovative
+                  readings of medieval literature.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kestemont_mike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-antwerpen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-antwerpen"/>
+            </event>
             <org role="organizer" corresp="#..."/>
           </event>
         </event>
@@ -45004,7 +47025,7 @@
           <event type="lecture-series-term" from="2023-01" to="2023-12" xml:id="ls32_t4">
             <eventName>2023</eventName>
             <!-- Here: lectures from 2023 -->
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="barcelo_juan"/>
           </event>
         </event>
         <!-- ##### Sweden ##### -->
@@ -45430,7 +47451,7 @@
             <event xml:id="ls33_t2_l7" type="lecture" when="2020-12-11">
               <eventName xml:lang="en">New advances in explorations of technocultural assemblages:
                 Moving beyond ontological divides in the study of the digital, the social and the
-                cultural.</eventName>
+                cultural</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250526135421/https://www.gu.se/evenemang/dh-seminariet-forskningsprojektet-technact-under-ledning-av-prof-i-genusvetenskap-mia-liinason"/>
               <note type="abstract" xml:lang="en">
