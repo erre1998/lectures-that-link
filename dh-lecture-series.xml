@@ -149,6 +149,9 @@
           <category xml:base="gender-studies">
             <catDesc>gender studies</catDesc>
           </category>
+          <category xml:base="asian-studies">
+            <catDesc>asian studies</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -19889,6 +19892,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nki9"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german, introduction, overview, basics</term>
               </note>
@@ -19912,6 +19916,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkia"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, text definition, debate, text theory, text
                   concept</term>
@@ -19941,6 +19946,7 @@
                 (Digitale und Annotierte Rätoromanische Chrestomathie)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">collaborative, language resources, corpora, rätoromanische,
                   annotation</term>
@@ -19963,6 +19969,7 @@
               <eventName xml:lang="en">eTraces</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">tracing, technology, digital footprints, online presence,
                   data analysis</term>
@@ -19985,6 +19992,7 @@
               <eventName xml:lang="en">Text Engineering Software Laboratory (Tesla)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, software development, engineering, text
                   processing, computational tools</term>
@@ -20044,6 +20052,7 @@
                   literaturwissenschaftlichen Makroanalyse methodisch bereichert werden.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">german literature, date mentions, literary genres, corpus
                   analysis, narrative techniques</term>
@@ -20069,6 +20078,7 @@
                 target="https://web.archive.org/web/20250213103554/https://dhc.hypotheses.org/21"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #regional-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">sms communication, linguistic variation, multilingual
                   country, mobile language use, switzerland</term>
@@ -20092,6 +20102,7 @@
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, linguistic documentation, language
                   preservation, data management, computational linguistics</term>
@@ -20115,6 +20126,7 @@
                 Untersuchungen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, statistical methods, lexical studies,
                   linguistic tools, resource compilation</term>
@@ -20138,6 +20150,7 @@
                 Kunstgeschichte</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">artificial intelligence, art history, computer vision,
                   machine learning, image analysis</term>
@@ -20160,6 +20173,7 @@
               <eventName xml:lang="de">Digitale mediävistische Editionen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text encoding, medieval studies, digital editions,
                   manuscripts, philology</term>
@@ -20190,6 +20204,7 @@
                 warum?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german language, question words, linguistics,
                   interrogatives</term>
@@ -20213,6 +20228,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkid"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, history, technology, preservation,
                   heritage</term>
@@ -20237,6 +20253,7 @@
                 fluid texts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">middle welsh, religious texts, fluid translations, book of
                   the anchorite, text representation</term>
@@ -20260,6 +20277,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkie"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, linguistics, data modeling, literary studies,
                   computational methods</term>
@@ -20283,6 +20301,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkif"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">edition, digital, updates, current, german</term>
               </note>
@@ -20309,6 +20328,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkig"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">network analysis, research methods, case studies, data
                   visualization, academic research</term>
@@ -20334,6 +20354,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkii"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">image analysis, art history, metadata, annotation,
                   automation</term>
@@ -20372,6 +20393,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkik"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, data visualization, literary studies,
                   narrative structure, quantitative methods</term>
@@ -20395,6 +20417,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkij"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">lexikography, dictionary, digitization, online,
                   reference</term>
@@ -20420,6 +20443,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkim"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german, talk overview, future trends, lecture
                   series</term>
@@ -20450,6 +20474,7 @@
                 warum?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german language, question words, information
                   retrieval, linguistics</term>
@@ -20474,6 +20499,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkip"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #archaeology #linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">maya hieroglyphys, decipherment, challenges, methods,
                   results</term>
@@ -20504,6 +20530,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkiq"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, historical linguistics, computational
                   semantics, latin texts, database</term>
@@ -20528,6 +20555,7 @@
                 target="https://web.archive.org/web/20250213114817/https://philtypo3.uni-koeln.de/sites/spinfo/dch/Integrated_Ontologies_for_the_Classification_of_Folktales.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narrative, folktale, computational, modeling,
                   storytelling</term>
@@ -20552,6 +20580,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkir"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text classification, metaphor analysis, argumentation
                   analysis, natural language processing, machine learning</term>
@@ -20578,6 +20607,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj0"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">digital edition, romantyposkript, hermann burger, local
                   report, german literature</term>
@@ -20603,6 +20633,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkiw"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">multilingual, basel, application, examples, swiss</term>
               </note>
@@ -20627,6 +20658,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkiy"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">music , competitions , 18th century , 19th century ,
                   database</term>
@@ -20653,6 +20685,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj2"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">roman history, topic modeling, text classification, ancient
                   studies, latin literature</term>
@@ -20677,6 +20710,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkiv"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">handwriting recognition, text analysis, historical
                   documents, automation, machine learning</term>
@@ -20701,6 +20735,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkix"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">infrastructure, language, data, research, european</term>
               </note>
@@ -20733,6 +20768,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj3"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">bonn, paris, max weber stiftung, art history,
                   kunstgeschichte</term>
@@ -20765,6 +20801,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkja"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open scholarship, canada, social knowledge, institutional
                   framework, open access</term>
@@ -20791,6 +20828,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">virtual reality, archaeology, collaboration, immersion,
                   cultural heritage</term>
@@ -20816,6 +20854,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj6"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">mapping, location, data visualization, prototyping,
                   geographic information</term>
@@ -20839,6 +20878,7 @@
                 warum?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">dh intro, overview, faq, german dh, basics</term>
               </note>
@@ -20863,6 +20903,7 @@
                 target="https://web.archive.org/save/https://philtypo3.uni-koeln.de/sites/spinfo/dch/dhc-kolloq-schulz-reiter-2018-06-07.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational linguistics, text analysis, interdisciplinary,
                   reflected text, linguistic methods</term>
@@ -20893,6 +20934,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj8"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">mobile apps, history education, digital tools, interactive
                   learning, public outreach</term>
@@ -20917,6 +20959,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj7"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">urban studies, archaeology, computation, cities, urban
                   science</term>
@@ -20939,6 +20982,7 @@
               <eventName xml:lang="de">Digitale Kunstgeschichte und Digital Humaities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visual arts, art history, technology, digital methods,
                   humanities</term>
@@ -20962,6 +21006,7 @@
                 Heritage</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#mathematics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">mathematical modeling, cultural preservation, heritage
                   analysis, algorithmic transformations, data interpretation</term>
@@ -20986,6 +21031,7 @@
                 target="https://web.archive.org/save/https://philtypo3.uni-koeln.de/sites/spinfo/dch/csalt.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#asian-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">south asian languages, cologne project, text analysis,
                   linguistics, historical texts</term>
@@ -21014,6 +21060,7 @@
               <eventName xml:lang="en">Sonification</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">sound, auditory display, data representation, audio
                   interpretation, sensory data</term>
