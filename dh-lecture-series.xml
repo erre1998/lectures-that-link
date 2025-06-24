@@ -146,6 +146,9 @@
           <category xml:base="biology">
             <catDesc>biology</catDesc>
           </category>
+          <category xml:base="gender-studies">
+            <catDesc>gender studies</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -19376,25 +19379,29 @@
           </event>
           <event type="lecture-series-term" from="2020-09" to="2021-06" xml:id="ls7_t8">
             <eventName xml:lang="fr">2020-2021</eventName>
-            <ptr type="programme" target="https://web.archive.org/web/20250622144533/https://numrha.hypotheses.org/1551"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622144533/https://numrha.hypotheses.org/1551"/>
             <!-- Lectures will be added here -->
             <org role="organizer" corresp="#..."/>
           </event>
           <event type="lecture-series-term" from="2022-09" to="2023-06" xml:id="ls7_t9">
             <eventName xml:lang="fr">2022-2023</eventName>
-            <ptr type="programme" target="https://web.archive.org/web/20250622150038/https://numrha.hypotheses.org/7049"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622150038/https://numrha.hypotheses.org/7049"/>
             <!-- Lectures will be added here -->
             <org role="organizer" corresp="#..."/>
           </event>
           <event type="lecture-series-term" from="2023-09" to="2024-06" xml:id="ls7_t10">
             <eventName xml:lang="fr">2023-2024</eventName>
-            <ptr type="programme" target="https://web.archive.org/web/20250622145534/https://numrha.hypotheses.org/12379"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622145534/https://numrha.hypotheses.org/12379"/>
             <!-- Lectures will be added here -->
             <org role="organizer" corresp="#..."/>
           </event>
           <event type="lecture-series-term" from="2024-09" to="2025-06" xml:id="ls7_t11">
             <eventName xml:lang="fr">2024-2025</eventName>
-            <ptr type="programme" target="https://web.archive.org/web/20250622145205/https://numrha.hypotheses.org/16905"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622145205/https://numrha.hypotheses.org/16905"/>
             <!-- Lectures will be added here -->
             <org role="organizer" corresp="#..."/>
           </event>
@@ -25525,7 +25532,7 @@
                   beginnen und wann deutliche Brüche mit stereotypen Darstellungen vorliegen.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#literary-studies"/>
+                <term type="discipline" corresp="#literary-studies #gender-studies"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/annotating  https://vocabs.dariah.eu/tadirah/analyzing                   https://vocabs.dariah.eu/tadirah/machineLearning"/>
                 <term type="topics-llm">gender roles, literary analysis, quantitative methods,
@@ -26799,6 +26806,7 @@
                 and the Protracted Collapse of Institutional Courage</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250419133610/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/where-data-goes-to-dei-edi-die-information-infrastructure-and-the-protracted-collapse-of-institutional-courage-232705/"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.15698059"/>
               <note type="abstract" xml:lang="en">
                 <p>Recently my Canadian university abandoned its commitment to diversity, equity,
                   and inclusion (DEI - what is known in Australian as EDI). How did we get here? How
@@ -26813,6 +26821,7 @@
                   institutional collapse.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">social justice, diversity, institutional collapse,
                   information infrastructure, equity</term>
@@ -26836,6 +26845,7 @@
                 Niederdeutsch-Atlas für Mecklenburg-Vorpommern“</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250419150034/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/niederdeutsch-in-raum-und-zeit-der-digitale-niederdeutsch-atlas-fuer-mecklenburg-vorpommern-232697/"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.15673308"/>
               <note type="abstract" xml:lang="de">
                 <p>Wie stellt man sprachliche Variation auf einer digitalen Karte da? Wie bildet man
                   Sprachwandel im Raum ab? Wie lassen sich sprachgeographische
@@ -26849,6 +26859,7 @@
                   als Use Case für die Entwicklung des neuen Kartographie-Tools.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#regional-studies #computational-linguistics #linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">language variation, linguistic analysis, geographic
                   information system, language mapping, language change</term>
@@ -26886,6 +26897,7 @@
                   perspective on the question.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">drama, european, evolution, computational methods, early
                   modern</term>
@@ -26931,6 +26943,7 @@
                   können.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">natural language processing, named entity recognition,
                   narrative space, 19th century novels, computational analysis</term>
@@ -26969,6 +26982,7 @@
                   und die digitale Ausgabe unterscheiden und wie sie sich ergänzen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">edition, uwe johnson, german literature, print,
                   digital</term>
@@ -27025,6 +27039,7 @@
                   gestellt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archive, heritage, contextualization, valuation,
                   culture</term>
@@ -27079,6 +27094,7 @@
                   openness in advancing manuscript studies for the digital age.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">manuscripts, historical, study, impact,
                   transformative</term>
@@ -27118,13 +27134,14 @@
                   Deutschen Archäologischen Instituts (iDAI.world) und des FID
                   Altertumswissenschaften „Propylaeum“ (Propylaeum-VITAE). Dabei ergeben sich
                   natürlich zahlreiche Herausforderungen an konzeptuelle Strukturierung, Qualität,
-                  Nachhaltigkeit undTransparenz der Daten, die stets vor dem Hintergrund der langen
-                  Laufzeit des Vorhabens zu sehen sind. Der Vortrag beleuchtet oZene Fragen und
+                  Nachhaltigkeit und Transparenz der Daten, die stets vor dem Hintergrund der langen
+                  Laufzeit des Vorhabens zu sehen sind. Der Vortrag beleuchtet offene Fragen und
                   erste Lösungen, wie die Erfassung der disiecta membra nicht zu disiecta data,
                   sondern zu einer integrierten, nachhaltig verfügbaren Forschungsressource für die
                   römische (digitale) Archäologieführen kann.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, data management, long-term projects,
                   fragmentation, data challenges</term>
@@ -27146,7 +27163,8 @@
               <eventName xml:lang="en">Open Minimal Digital Editions: a Latin American
                 Perspective</eventName>
               <ptr type="programme"
-                target="https://web.archive.org/web/20250613162330/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/open-minimal-digital-editions-a-latin-american-perspective-232715/"/>
+                target="https://web.archive.org/web/20250624091846/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/open-minimal-digital-editions-a-latin-american-perspective-232715/"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.15704308"/>
               <note type="abstract" xml:lang="en">
                 <p>Digital Humanities (DH) are usually defined by emphasizing their intersectional
                   nature. However, the role that technology plays in this definition is rarely
@@ -27160,11 +27178,12 @@
                   building, data reuse, and research replicability.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open, minimal, editions, latin american, perspective</term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -27180,9 +27199,26 @@
             <event type="lecture" when="2025-06-23" xml:id="ls10_t5_l10">
               <eventName xml:lang="en">Geoparsing Catalan Crime Fiction at the Turn of the
                 Millenium</eventName>
-              <ptr type="programme" target="..."/>
-              <note type="abstract" xml:lang="en">not found</note>
+              <ptr type="programme" target="https://web.archive.org/web/20250624091422/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/geoparsing-catalan-crime-fiction-at-the-turn-of-the-millenium-232717/"/>
+              <note type="abstract" xml:lang="en">
+                <p>The crime fiction genre in the Catalan-speaking context has experienced
+                  unprecedented growth over the last two decades, emerging as one of the most
+                  dynamic areas of contemporary Catalan literature. This talk will analyse the
+                  evolution of Catalan crime fiction from a digital geocritical perspective,
+                  focusing on the decentralisation of narrative spaces over a 70-year period
+                  (1953–2023). While Barcelona has traditionally been at the epicentre of Catalan
+                  noir, reflecting its prominence as a cultural and urban hub, the genre’s
+                  increasing diversification has seen significant spatial shifts toward peripheral
+                  and rural locations as the site of the narrative. The study I will present in this
+                  talk aims to map and quantify this transformation by combining quantitative and
+                  qualitative methods, including text mining, geoparsing, and visualisation via
+                  Geographic Information Systems (GIS). Using distant reading techniques and close
+                  textual analysis, we analyze a corpus of 92 crime fiction works to trace the
+                  chronology and extent of these geographical shifts, interrogating both urban
+                  centrality and rural peripherality in Catalan noir.</p>
+              </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #romance-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">catalonia, crime fiction, geolocation, literature,
                   millennial</term>
@@ -27204,14 +27240,36 @@
             <event type="lecture" when="2025-06-30" xml:id="ls10_t5_l11">
               <eventName xml:lang="de">Auf explorativen Pfaden durch digitale
                 Briefeditionen</eventName>
-              <ptr type="programme" target="..."/>
-              <note type="abstract" xml:lang="en">not found</note>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250624090811/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/auf-explorativen-pfaden-durch-digitale-briefeditionen-232719/"/>
+              <note type="abstract" xml:lang="de">
+                <p>In den vergangenen zwei Jahrzehnten haben sich digitale Briefeditionen zu einem
+                  zentralen Forschungsbereich der Digital Humanities entwickelt. Durch den
+                  systematischen Einsatz der Text Encoding Initiative (TEI) und die Arbeit der TEI
+                  Correspondence SIG, die die Kodierungspraxis für Korrespondenzen vorantreibt und
+                  das Metadatenaustauschformat CMIF eingeführt hat, haben sich digitale
+                  Briefeditionen als formal stark strukturierte Textsorte mit standardisierten
+                  Verfahren etabliert. Es ist zur Best Practice geworden, die Datenbasis
+                  offenzulegen und für die weitere Forschung zugänglich zu machen. Diese Entwicklung
+                  wirft die zentrale Frage auf: Was können wir nun mit diesen reichhaltigen
+                  Datenbeständen tun? Der Vortrag entwickelt verschiedene explorativ-experimentelle
+                  Sichtweisen auf zwei digitale Briefkorpora: Joseph von Hammer-Purgstall und Hugo
+                  Schuchardt. Im Mittelpunkt stehen dabei Möglichkeiten der Analyse und
+                  Visualisierung: von der geografischen Darstellung auf Karten über Netzwerkanalysen
+                  bis hin zu Topic Modeling und Promptotyping zur Entwicklung neuer digitaler
+                  Zugänge. Dabei behalten wir stets im Blick, was mit den vorhandenen Daten
+                  rechtlich und ethisch vertretbar getan werden darf und was nicht. Die Orientierung
+                  an den FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) bildet
+                  dabei die Grundlage für eine nachhaltige und verantwortungsvolle
+                  Forschungspraxis.</p>
+              </note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies #digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">exploratory, digital, edition, letters, german</term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -27230,6 +27288,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#gromance-studies #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">drama, characters, calderón, computational methods, text
                   analysis</term>
@@ -31781,7 +31840,7 @@
                   aus weiblichen, neutralen und diversen Figuren-Referenzen.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#german-studies"/>
+                <term type="discipline" corresp="#german-studies #gender-studies"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/analyzing"/>
                 <term type="topics-llm">gender analysis, computational literary studies, gender
                   representation, historical texts, contemporary texts</term>
@@ -35760,6 +35819,7 @@
               <eventName xml:lang="en">Digital Gender Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#gender-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">gender, studies, technology, feminism,
                   intersectionality</term>
@@ -37431,7 +37491,7 @@
                   notion of gender is introduced.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#literary-studies"/>
+                <term type="discipline" corresp="#literary-studies #gender-studies"/>
                 <term type="topic"
                   corresp="https://vocabs.dariah.eu/tadirah/contentAnalysis                   https://vocabs.dariah.eu/tadirah/modeling"/>
                 <term type="topics-llm">computational literary studies, gender studies, text
@@ -38127,6 +38187,7 @@
                   Forschung bietet.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information #art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">online platform, artistic works, interdisciplinary
                   collaboration, tei encoding, research infrastructure</term>
@@ -38170,6 +38231,7 @@
                   Daten.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #gender-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">gender studies, machine learning, literary analysis,
                   character profiling, queer identities</term>
