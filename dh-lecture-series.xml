@@ -149,6 +149,9 @@
           <category xml:base="gender-studies">
             <catDesc>gender studies</catDesc>
           </category>
+          <category xml:base="asian-studies">
+            <catDesc>asian studies</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -20765,6 +20768,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj3"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">bonn, paris, max weber stiftung, art history,
                   kunstgeschichte</term>
@@ -20797,6 +20801,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkja"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open scholarship, canada, social knowledge, institutional
                   framework, open access</term>
@@ -20823,6 +20828,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">virtual reality, archaeology, collaboration, immersion,
                   cultural heritage</term>
@@ -20848,6 +20854,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj6"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">mapping, location, data visualization, prototyping,
                   geographic information</term>
@@ -20871,6 +20878,7 @@
                 warum?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">dh intro, overview, faq, german dh, basics</term>
               </note>
@@ -20895,6 +20903,7 @@
                 target="https://web.archive.org/save/https://philtypo3.uni-koeln.de/sites/spinfo/dch/dhc-kolloq-schulz-reiter-2018-06-07.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational linguistics, text analysis, interdisciplinary,
                   reflected text, linguistic methods</term>
@@ -20925,6 +20934,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj8"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">mobile apps, history education, digital tools, interactive
                   learning, public outreach</term>
@@ -20949,6 +20959,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkj7"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">urban studies, archaeology, computation, cities, urban
                   science</term>
@@ -20971,6 +20982,7 @@
               <eventName xml:lang="de">Digitale Kunstgeschichte und Digital Humaities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visual arts, art history, technology, digital methods,
                   humanities</term>
@@ -20994,6 +21006,7 @@
                 Heritage</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#mathematics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">mathematical modeling, cultural preservation, heritage
                   analysis, algorithmic transformations, data interpretation</term>
@@ -21018,6 +21031,7 @@
                 target="https://web.archive.org/save/https://philtypo3.uni-koeln.de/sites/spinfo/dch/csalt.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#asian-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">south asian languages, cologne project, text analysis,
                   linguistics, historical texts</term>
@@ -21046,6 +21060,7 @@
               <eventName xml:lang="en">Sonification</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">sound, auditory display, data representation, audio
                   interpretation, sensory data</term>
