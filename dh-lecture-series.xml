@@ -161,6 +161,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-salerno" type="university">
+            <name xml:lang="it">Università di Salerno</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1633215</idno>
+            <place corresp="#salerno"/>
+          </org>
           <org xml:id="uni-trier" type="university">
             <name xml:lang="de">Universität Trier</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q702486</idno>
@@ -1917,6 +1922,38 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="lang_sabine">
+            <name>
+              <forename>Sabine</forename>
+              <surname>Lang</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2543-0085</idno>
+          </person>
+          <person xml:id="kremer_dominik">
+            <name>
+              <forename>Dominik</forename>
+              <surname>Kremer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1244-7363</idno>
+          </person>
+          <person xml:id="dykes_nathan">
+            <name>
+              <forename>Nathan</forename>
+              <surname>Dykes</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4650-1455</idno>
+          </person>
+          <person xml:id="blombach_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Blombach</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7369-3774</idno>
+          </person>
           <person xml:id="graesborg-aarhus_mathies">
             <name>
               <forename>Mathies</forename>
@@ -10370,6 +10407,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007652</idno>
           </place>
           <!-- ######## Italian cities ######## -->
+          <place type="city" xml:id="salerno">
+            <country corresp="#italy"/>
+            <name>Salerno</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7003015</idno>
+          </place>
           <place type="city" xml:id="novedrate">
             <country corresp="#italy"/>
             <name>Novedrate</name>
@@ -15000,7 +15042,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fili-di-juta"/>
+                  <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-pisa"/>
@@ -16119,6 +16161,7 @@
                   <affiliation corresp="#uni-swansea"/>
                 </person>
               </listPerson>
+              <org role="host-institution" corresp="#uni-venezia"/>
             </event>
             <event type="lecture" when="2020-11-25" xml:id="ls3_t4_l5">
               <eventName xml:lang="en">What is ‘Digital Latin’? An Overview of the Digital Latin
@@ -16649,6 +16692,7 @@
                   <affiliation corresp="#uni-lund"/>
                 </person>
               </listPerson>
+              <org role="host-institution" corresp="#uni-venezia"/>
             </event>
             <event type="lecture" when="2021-10-20" xml:id="ls3_t6_l3">
               <eventName xml:lang="en">Resources, Tools and New Chances of Digital Humanities for
@@ -37395,7 +37439,8 @@
                   studies.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#digital-humanities #literary-studies #computer-science"/>
+                <term type="discipline"
+                  corresp="#digital-humanities #literary-studies #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">generative ai, large language models, research
                   methodologies, cultural datasets, computational literary studies</term>
@@ -38264,7 +38309,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-erlangen-nuernberg"/>
             </event>
-            <org role="organizer" corresp="#..."/>
+            <org role="organizer"
+              corresp="#blombach_andreas #dykes_nathan #kremer_dominik #lang_sabine" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2023-11" to="2024-01" xml:id="ls21_t2">
             <eventName xml:lang="de">Wintersemester 2023-24</eventName>
@@ -38425,7 +38471,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-erlangen-nuernberg"/>
             </event>
-            <org role="organizer" corresp="#..."/>
+            <org role="organizer"
+              corresp="#blombach_andreas #dykes_nathan #kremer_dominik #lang_sabine" cert="low"/>
           </event>
         </event>
         <!-- ##### Austria ##### -->
