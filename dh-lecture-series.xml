@@ -1352,10 +1352,6 @@
             <place corresp="#cambridge-us"/>
           </org>
           <!-- ##### Research Institutions ##### -->
-
-
-
-
           <org xml:id="anr" type="research_institution">
             <name xml:lang="fr">Agence nationale de la recherche (ANR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q392500</idno>
@@ -43703,7 +43699,7 @@
           </note>
           <event type="lecture-series-term" from="2014-10" to="2023-07" xml:id="ls26_t1">
             <eventName/>
-            <event type="lecture" when="2014-10-20">
+            <event type="lecture" when="2014-10-20" xml:id="ls26_t1_l1">
               <eventName xml:lang="en">How to Make It Stick: A Study of Long-Term Musical
                 Memorability Using Citizen Science</eventName>
               <ptr type="programme"
@@ -43719,6 +43715,7 @@
                   music recognition patterns by humans.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43735,7 +43732,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2015-03-15">
+            <event type="lecture" when="2015-03-15" xml:id="ls26_t1_l2">
               <eventName xml:lang="en">The Future of the Book and the Books of the
                 Future</eventName>
               <ptr type="programme"
@@ -43745,6 +43742,7 @@
                   multimedia books.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43761,7 +43759,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2015-06-15">
+            <event type="lecture" when="2015-06-15" xml:id="ls26_t1_l3">
               <eventName xml:lang="en">Applying Heuristic Search Technology for Constrained
                 Paraphrasing</eventName>
               <ptr type="programme"
@@ -43789,6 +43787,7 @@
                   writing style obfuscation, answer grading, or e-journalism.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43805,7 +43804,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2016-02-15">
+            <event type="lecture" when="2016-02-15" xml:id="ls26_t1_l4">
               <eventName xml:lang="en">From Rapacious Wolfs to Independent Women: Cultural
                 Transmission of Little Red Riding Hood</eventName>
               <ptr type="programme"
@@ -43824,6 +43823,7 @@
                   attractiveness.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43840,7 +43840,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2016-04-25">
+            <event type="lecture" when="2016-04-25" xml:id="ls26_t1_l5">
               <eventName xml:lang="en">Digitizing magic lantern slides: problems, challenges,
                 possibilities</eventName>
               <ptr type="programme"
@@ -43862,6 +43862,7 @@
                   discuss possible procedures of source critic when working with such documents.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#museology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43878,7 +43879,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2016-04-25">
+            <event type="lecture" when="2016-04-25" xml:id="ls26_t1_l6">
               <eventName xml:lang="en">The Legacy of the Lantern. Artistic Reuse of an Old
                 Apparatus</eventName>
               <ptr type="programme"
@@ -43907,6 +43908,7 @@
                   than as the establishment of an active relationship between past and present.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43923,7 +43925,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2016-10-26">
+            <event type="lecture" when="2016-10-26" xml:id="ls26_t1_l7">
               <eventName xml:lang="en">The MAGIS Bruges Project</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427154213/https://platformdh.uantwerpen.be/index.php/event/lecture-series-elien-vernackt/"/>
@@ -43949,6 +43951,7 @@
                   process.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43965,7 +43968,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2016-11-23">
+            <event type="lecture" when="2016-11-23" xml:id="ls26_t1_l8">
               <eventName xml:lang="en">Text Reuse, Digital Breadcrumbs and Historica
                 Data</eventName>
               <ptr type="programme"
@@ -43981,6 +43984,7 @@
                   opportunities for intertextual research.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -43997,7 +44001,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2016-12-09">
+            <event type="lecture" when="2016-12-09" xml:id="ls26_t1_l9">
               <eventName xml:lang="en">Something Old, Something New: Medieval Manuscripts and
                 Digital Research Methods</eventName>
               <ptr type="programme"
@@ -44014,6 +44018,7 @@
                   research.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44030,7 +44035,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-02-13">
+            <event type="lecture" when="2017-02-13" xml:id="ls26_t1_l10">
               <eventName xml:lang="en">A Statistical Approach to Syntactic Variation. The Case of
                 the Hebrew Bible</eventName>
               <ptr type="programme"
@@ -44048,6 +44053,7 @@
                   but also improving an honourable scholarly tradition.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#theology #linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44064,7 +44070,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-03-13">
+            <event type="lecture" when="2017-03-13" xml:id="ls26_t1_l11">
               <eventName xml:lang="en">The Exalted Expert vs. The Exact Experiment: Authorship
                 Attribution, Stylometry and Literary Theory</eventName>
               <ptr type="programme"
@@ -44087,6 +44093,7 @@
                   position within literary theory.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44103,7 +44110,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-04-24">
+            <event type="lecture" when="2017-04-24" xml:id="ls26_t1_l12">
               <eventName xml:lang="en">How to Make Digital Editions of Chaucer and Everyone
                 Else</eventName>
               <ptr type="programme"
@@ -44120,6 +44127,7 @@
                   have to change in our own practice to make this vision real?</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44136,7 +44144,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-05-15">
+            <event type="lecture" when="2017-05-15" xml:id="ls26_t1_l13">
               <eventName xml:lang="en">Digital Special Collections: a Rare Book Librarian’s
                 Perspective on Digital Research</eventName>
               <ptr type="programme"
@@ -44157,6 +44165,7 @@
                   suggestions for data mining and other digital scholarship.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44173,7 +44182,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-06-12">
+            <event type="lecture" when="2017-06-12" xml:id="ls26_t1_l14">
               <eventName xml:lang="en">Computing Similes in French and English Literary
                 Texts</eventName>
               <ptr type="programme"
@@ -44188,6 +44197,8 @@
                   published between 1810 and 1950.</p>
               </note>
               <note type="keywords">
+                <term type="discipline"
+                  corresp="#literary-studies #english-studies #romance-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44204,7 +44215,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-07-12">
+            <event type="lecture" when="2017-07-12" xml:id="ls26_t1_l15">
               <eventName xml:lang="en">Open Social Scholarship and the Scholarly Edition</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427154732/https://platformdh.uantwerpen.be/index.php/event/lecture-series-ray-siemens/"/>
@@ -44234,6 +44245,7 @@
                   and Studies.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44250,7 +44262,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2017-12-04">
+            <event type="lecture" when="2017-12-04" xml:id="ls26_t1_l16">
               <eventName xml:lang="en">Machine Vision Algorithms on Cadaster Plans</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427154731/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sofia-ares-oliveira/"/>
@@ -44266,6 +44278,7 @@
                   perspectives to reconstitute the past.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44282,7 +44295,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-03-19">
+            <event type="lecture" when="2018-03-19" xml:id="ls26_t1_l17">
               <eventName xml:lang="en">Digital Forensics in the Humanities: Beyond
                 Philology</eventName>
               <ptr type="programme"
@@ -44299,6 +44312,7 @@
                   humanities education and political discourse.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44315,7 +44329,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-03-26">
+            <event type="lecture" when="2018-03-26" xml:id="ls26_t1_l18">
               <eventName xml:lang="en">Genetic editing and textual history. The case of Goethe’s
                 Faust</eventName>
               <ptr type="programme"
@@ -44332,6 +44346,7 @@
                   important role in the development of genetic or documentary TEI XML encoding.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44348,7 +44363,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-04-23">
+            <event type="lecture" when="2018-04-23" xml:id="ls26_t1_l19">
               <eventName xml:lang="en">International Image Interoperability Framework (IIIF).
                 Sharing high resolution images across institutional boundaries</eventName>
               <ptr type="programme"
@@ -44366,6 +44381,7 @@
                   in-depth view of its current and future application options for DH research.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44382,7 +44398,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-05-24">
+            <event type="lecture" when="2018-05-24" xml:id="ls26_t1_l20">
               <eventName xml:lang="en">Towards a Research Agenda for Data-driven Approaches to
                 Literary Periods</eventName>
               <ptr type="programme"
@@ -44406,6 +44422,7 @@
                   of study in which, I argue, most of the work remains to be done.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44422,7 +44439,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-06-11">
+            <event type="lecture" when="2018-06-11" xml:id="ls26_t1_l21">
               <eventName xml:lang="en">“James Joyce’s Ulysses into the Digital Age: Forty Years of
                 Steering an Edition through Turbulences of Scholarship and Reception”</eventName>
               <ptr type="programme"
@@ -44453,6 +44470,7 @@
                   Joyce’s Ulysses.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44469,7 +44487,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-09-03">
+            <event type="lecture" when="2018-09-03" xml:id="ls26_t1_l22">
               <eventName xml:lang="en">Exploring IIIF for Digital Humanities</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427155220/https://platformdh.uantwerpen.be/index.php/event/lecture-series-dries-moreels/"/>
@@ -44481,6 +44499,7 @@
                   scholarly annotation or editing up to data mining.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44497,7 +44516,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-09-07">
+            <event type="lecture" when="2018-09-07" xml:id="ls26_t1_l23">
               <eventName xml:lang="en">Human-Computer Interaction for Handwritten Text Image
                 Processing in Digital Humanities</eventName>
               <ptr type="programme"
@@ -44518,6 +44537,7 @@
                   will be introduced.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44534,7 +44554,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-10-08">
+            <event type="lecture" when="2018-10-08" xml:id="ls26_t1_l24">
               <eventName xml:lang="en">Literature as a Commodity – Distant Reading Pulp
                 Fiction</eventName>
               <ptr type="programme"
@@ -44553,6 +44573,7 @@
                   attempt to reevaluate some of these research positions.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44569,7 +44590,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-11-21">
+            <event type="lecture" when="2018-11-21" xml:id="ls26_t1_l25">
               <eventName xml:lang="nl">DBNL: Lof der Digitale Letteren</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427155501/https://platformdh.uantwerpen.be/index.php/event/lecture-series-sarah-fierens/"/>
@@ -44586,6 +44607,7 @@
                   productieproces, en de mogelijkheden van hergebruik van data.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44602,7 +44624,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-11-29">
+            <event type="lecture" when="2018-11-29" xml:id="ls26_t1_l26">
               <eventName xml:lang="en">Gender and the Riddle of Literary Quality</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427155651/https://platformdh.uantwerpen.be/index.php/event/lecture-series-corina-koolen/"/>
@@ -44618,6 +44640,7 @@
                   questions.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #gender-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44634,7 +44657,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2018-12-12">
+            <event type="lecture" when="2018-12-12" xml:id="ls26_t1_l27">
               <eventName xml:lang="fr">Franco Moretti vs Michel Charles ou les paradoxes de la
                 distance</eventName>
               <ptr type="programme"
@@ -44653,6 +44676,7 @@
                   pour une meilleure hygiène intellectuelle.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44669,7 +44693,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2019-04-01">
+            <event type="lecture" when="2019-04-01" xml:id="ls26_t1_l28">
               <eventName xml:lang="en">What We See on the Screen</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427155953/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mats-dahlstrom/"/>
@@ -44699,6 +44723,7 @@
                   engagement and collaborative efforts.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44715,7 +44740,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2019-07-01">
+            <event type="lecture" when="2019-07-01" xml:id="ls26_t1_l29">
               <eventName xml:lang="en">IIIF and Digital Humanities</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427155950/https://platformdh.uantwerpen.be/index.php/event/lecture-series-huw-jones/"/>
@@ -44734,6 +44759,7 @@
                   open up new possibilities in new areas.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44750,7 +44776,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2019-07-05">
+            <event type="lecture" when="2019-07-05" xml:id="ls26_t1_l30">
               <eventName xml:lang="en">What does it take to publish an edition?</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427155956/https://platformdh.uantwerpen.be/index.php/event/lecture-series-magdalena-turska/"/>
@@ -44766,6 +44792,7 @@
                   future of editions with you!</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44782,7 +44809,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2019-10-15">
+            <event type="lecture" when="2019-10-15" xml:id="ls26_t1_l31">
               <eventName xml:lang="en">Neural Machine Translation for Text and Speech</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427160202/https://platformdh.uantwerpen.be/index.php/event/lecture-series-mattia-di-gangi/"/>
@@ -44800,6 +44827,7 @@
                   unsolved.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44816,7 +44844,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2020-02-10">
+            <event type="lecture" when="2020-02-10" xml:id="ls26_t1_l32">
               <eventName xml:lang="en">Building a “difference engine” for digital literary
                 history</eventName>
               <ptr type="programme"
@@ -44848,6 +44876,7 @@
                   other areas of literary history.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44864,7 +44893,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2020-03-03">
+            <event type="lecture" when="2020-03-03" xml:id="ls26_t1_l33">
               <eventName xml:lang="fr">Relire la littérature des années 30 grâce aux humanités
                 numériques: le cas des hebdomadaires d’information et de reportage.</eventName>
               <ptr type="programme"
@@ -44880,6 +44909,7 @@
                   perspective d’une approche transmédiatique.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #media-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44896,7 +44926,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2020-06-04">
+            <event type="lecture" when="2020-06-04" xml:id="ls26_t1_l34">
               <eventName xml:lang="en">The Collective Editing of the Talmud</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427160514/https://platformdh.uantwerpen.be/index.php/event/lecture-series-ari-bergman/"/>
@@ -44912,6 +44942,7 @@
                   to represent the first oral wiki editing process.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #theology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44928,7 +44959,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2021-11-15">
+            <event type="lecture" when="2021-11-15" xml:id="ls26_t1_l35">
               <eventName xml:lang="en">The Rule and the Doubt. Studying the use of doubt in the
                 Italo Calvino’s narrative works</eventName>
               <ptr type="programme"
@@ -44947,6 +44978,7 @@
                   (e.g. Data Visualization).</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -44963,7 +44995,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2022-02-21">
+            <event type="lecture" when="2022-02-21" xml:id="ls26_t1_l36">
               <eventName xml:lang="nl">Hiphop lezen: kwantitatieve en kwalitatieve methoden voor
                 letterkundig onderzoek naar hiphop</eventName>
               <ptr type="programme"
@@ -44988,6 +45020,8 @@
                   vormgeven.</p>
               </note>
               <note type="keywords">
+                <term type="discipline"
+                  corresp="#musicology #linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45004,7 +45038,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2022-03-28">
+            <event type="lecture" when="2022-03-28" xml:id="ls26_t1_l37">
               <eventName xml:lang="en">The challenges of investigating loosely structured genres and
                 of operationalizing semantic content</eventName>
               <ptr type="programme"
@@ -45040,6 +45074,7 @@
                   validation.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45056,7 +45091,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2022-05-24">
+            <event type="lecture" when="2022-05-24" xml:id="ls26_t1_l38">
               <eventName xml:lang="en">Towards a Collection of Digital Literature from Flanders and
                 the Netherlands (1971–2022)</eventName>
               <ptr type="programme"
@@ -45079,6 +45114,7 @@
                   (Koninklijke Bibliotheek) and local (Bibliotheek Midden-Brabant) levels.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45100,7 +45136,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2022-06-20">
+            <event type="lecture" when="2022-06-20" xml:id="ls26_t1_l39">
               <eventName xml:lang="en">Stop tracking science. The aggregation and selling of users’
                 data by science publishers</eventName>
               <ptr type="programme"
@@ -45114,6 +45150,7 @@
                   the talk discusses a way out.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45130,7 +45167,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2022-06-27">
+            <event type="lecture" when="2022-06-27" xml:id="ls26_t1_l40">
               <eventName xml:lang="en">Machine Learning for Digital Scholarly Editions: The Case of
                 eScriptorium</eventName>
               <ptr type="programme"
@@ -45152,6 +45189,7 @@
                   future.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45168,7 +45206,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2023-03-06">
+            <event type="lecture" when="2023-03-06" xml:id="ls26_t1_l41">
               <eventName xml:lang="en">Failure to connect: exploring the human relationships at the
                 heart of digital humanities</eventName>
               <ptr type="programme"
@@ -45189,6 +45227,7 @@
                   understand how to equip the researchers of the future to thrive.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45205,7 +45244,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2023-03-27">
+            <event type="lecture" when="2023-03-27" xml:id="ls26_t1_l42">
               <eventName xml:lang="en">Rediscovering the performance practice of musicians in the
                 long 19th century through handwritten annotations on music scores</eventName>
               <ptr type="programme"
@@ -45227,6 +45266,7 @@
                   provided by the semantic complexity of Common Western Music Notation</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology #theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45243,7 +45283,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2023-06-26">
+            <event type="lecture" when="2023-06-26" xml:id="ls26_t1_l43">
               <eventName xml:lang="en">Historical Language Models and their Application to Word
                 Sense Disambiguation</eventName>
               <ptr type="programme"
@@ -45263,6 +45303,7 @@
                   to disambiguate specific lemmas.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45279,7 +45320,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <event type="lecture" when="2023-07-05">
+            <event type="lecture" when="2023-07-05" xml:id="ls26_t1_l44">
               <eventName xml:lang="en">The wandering verse: the computational detection of
                 micro-intertexts in medieval literature</eventName>
               <ptr type="programme"
@@ -45303,6 +45344,7 @@
                   readings of medieval literature.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -45319,7 +45361,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-
             <org role="organizer" corresp="#..."/>
           </event>
         </event>
