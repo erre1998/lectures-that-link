@@ -26859,7 +26859,8 @@
                   als Use Case für die Entwicklung des neuen Kartographie-Tools.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#regional-studies #computational-linguistics #linguistics"/>
+                <term type="discipline"
+                  corresp="#regional-studies #computational-linguistics #linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">language variation, linguistic analysis, geographic
                   information system, language mapping, language change</term>
@@ -27199,7 +27200,8 @@
             <event type="lecture" when="2025-06-23" xml:id="ls10_t5_l10">
               <eventName xml:lang="en">Geoparsing Catalan Crime Fiction at the Turn of the
                 Millenium</eventName>
-              <ptr type="programme" target="https://web.archive.org/web/20250624091422/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/geoparsing-catalan-crime-fiction-at-the-turn-of-the-millenium-232717/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250624091422/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/geoparsing-catalan-crime-fiction-at-the-turn-of-the-millenium-232717/"/>
               <note type="abstract" xml:lang="en">
                 <p>The crime fiction genre in the Catalan-speaking context has experienced
                   unprecedented growth over the last two decades, emerging as one of the most
@@ -38293,6 +38295,7 @@
                   stellen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies #political-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">migration, border control, voice recognition, datafication,
                   colonialism</term>
@@ -38329,6 +38332,7 @@
                   Tolkiens, und Raumaneignung in urbanen Grünräumen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #geography #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">spatial cognition, human mobility, cognitive models,
                   agent-based simulation, historical geography</term>
@@ -38362,6 +38366,7 @@
                   Medium der digitalen Wissenschaftskommunikation reflektiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #media-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">podcasts, art history, digital literacy, science
                   communication, academic outreach</term>
@@ -38398,6 +38403,7 @@
                   (lucascranach.org).</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">art history, renaissance, database, artwork catalog, image
                   processing</term>
