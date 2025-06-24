@@ -152,6 +152,9 @@
           <category xml:base="asian-studies">
             <catDesc>asian studies</catDesc>
           </category>
+          <category xml:base="science-communication">
+            <catDesc>science communication</catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -20228,7 +20231,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkid"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#history"/>
+                <term type="discipline" corresp="#history #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, history, technology, preservation,
                   heritage</term>
@@ -21092,6 +21095,7 @@
                 warum?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, german language, introductory overview,
                   informational talk, contextual background</term>
@@ -21116,6 +21120,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjc"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">blogs, twitter, science communication, practices,
                   analysis</term>
@@ -21140,6 +21145,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">matters of knowledge, biographies, theatre history, cultural
                   impact, documentation</term>
@@ -21178,6 +21184,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkje"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archives, nlp, computer linguistics, exploration,
                   applicability</term>
@@ -21202,6 +21209,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjg"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">research data management, humanities, prototyping,
                   infrastructure, data management</term>
@@ -21231,6 +21239,7 @@
                 Dokumentenanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computer vision, machine learning, document analysis, image
                   processing, ocr</term>
@@ -21255,6 +21264,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjj"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">interface, semiotics, literacy, arts, technology</term>
               </note>
@@ -21278,6 +21288,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjd"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">football, linguistics, sports analysis, data analysis,
                   german language</term>
@@ -21301,6 +21312,7 @@
                 Cases</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text encoding initiative, data linking, xml,
                   interoperability, use cases</term>
@@ -21331,6 +21343,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkjh"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">software engineering, programming, skills, competencies,
                   academia</term>
@@ -21354,6 +21367,7 @@
                 and Networks</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ecosystems, collaboration, models, networks,
                   researchers</term>
@@ -25465,7 +25479,7 @@
                   System?</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="discipline" corresp="#digital-humanities #science-communication"/>
                 <term type="topic" corresp="https://vocabs.dariah.eu/tadirah/expressingOpinion"/>
                 <term type="topics-llm">sustainability, climate change, digitalization, resource
                   efficiency, online materials</term>
@@ -37450,7 +37464,7 @@
                   dass damit ein ganz neues Selbstverständnis der Disziplin einhergeht.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#computational-linguistics"/>
+                <term type="discipline" corresp="#computational-linguistics #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">geolinguistics, web-based research, linguistic empiricism,
                   collaborative structures, methodological change</term>
@@ -38878,7 +38892,7 @@
                   Medium der digitalen Wissenschaftskommunikation reflektiert.</p>
               </note>
               <note type="keywords">
-                <term type="discipline" corresp="#art-history #media-studies"/>
+                <term type="discipline" corresp="#art-history #science-communication"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">podcasts, art history, digital literacy, science
                   communication, academic outreach</term>
