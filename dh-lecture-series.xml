@@ -38015,6 +38015,7 @@
               <eventName xml:lang="de">Einführung in die Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">introduction, overview, methods, tools, applications</term>
               </note>
@@ -38045,6 +38046,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=AfXmcAPtSsU"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">editions, dictionaries, trier, access, networking</term>
               </note>
@@ -38068,6 +38070,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=X0cX_iZjpVA"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">networks, research, sciences, connections,
                   interdisciplinary</term>
@@ -38092,6 +38095,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=Kf3OCYbkDII"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#museology #egyptology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">egyptology, digital editions, curation, case studies,
                   ancient egypt</term>
@@ -38115,6 +38119,7 @@
                 Forschungsdateninfrastrukturen in den DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data management, research infrastructure, data sharing,
                   academic research, data storage</term>
@@ -38139,6 +38144,7 @@
               <ptr type="slides" target="https://www.youtube.com/watch?v=7lVjjA41udA"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">databases, data models, source data, datafication,
                   humanities</term>
