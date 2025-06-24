@@ -21677,6 +21677,7 @@
               <ptr type="video" target="https://www.youtube.com/watch?v=6MzoNEKsgcw"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">cultures, transatlantic, discourse, discussion,
                   comparison</term>
@@ -21709,6 +21710,7 @@
                   diesen Materialien unterstützen können.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical accounts, economic modeling, data aggregation,
                   data visualization, research support</term>
@@ -21733,6 +21735,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkk6"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d modeling, historical clothing, contextualization,
                   visualization, fashion history</term>
@@ -21763,6 +21766,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkc"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">code-switching, computational analysis, german language,
                   turkish language, linguistics</term>
@@ -21786,6 +21790,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkf"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">open access, publishing, heidelberg, academic,
                   library</term>
@@ -21820,6 +21825,7 @@
                   Musik in den Blick genommen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">music, coding, dimensions, computational, models</term>
               </note>
@@ -21861,6 +21867,7 @@
                   Herausforderungen birgt ein solches Unterfangen?</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">manuscripts, machine learning, paleography, medieval,
                   artificial intelligence</term>
@@ -21887,6 +21894,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkke"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">alexander von humboldt, print edition, digital edition,
                   hybrid edition, interconnectedness</term>
@@ -21911,6 +21919,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkb"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">editions, medieval law, early middle ages, legal texts,
                   hybrid publishing</term>
@@ -21954,6 +21963,7 @@
                   interessiert und wie man beides zusammendenken könnte."</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">film studies, quantitative methods, distant reading, data
                   visualization, film corpora</term>
@@ -21979,6 +21989,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/nkkd"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, computational linguistics, vocational
                   education, job advertisements, research methods</term>
