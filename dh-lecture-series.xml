@@ -35610,6 +35610,7 @@
                   Netzwerkanalyse untersucht und visualisiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">social networks, astronomy, early modern period, scientific
                   communication, data visualization</term>
@@ -35635,6 +35636,7 @@
                 target="https://web.archive.org/web/20250422083533/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortrag-von-Prof.-Dr-00001.-Andrea-Rapp-TU-Darmstadt-Forschungsdaten-in-den-Geisteswissenschaften-Qualitaetskriterien-Kuration-Nutzung/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data management, research data, quality criteria, curation,
                   usage</term>
@@ -35660,6 +35662,7 @@
                 target="https://web.archive.org/web/20250422084117/https://www.ilw.uni-stuttgart.de/institut/aktuelles/news/RVL-Digital-Humanities-Vortrag-zur-Moralfaehigkeit-maschinell-getroffener-Entscheidungen-von-Andreas-Kaminski/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ethics, machine learning, decision making, morality,
                   artificial intelligence</term>
@@ -35702,6 +35705,7 @@
                   Verlage basiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">comics, narrative complexity, marvel, dc, network
                   analysis</term>
@@ -35725,6 +35729,7 @@
                 Erstellung von Annotationsrichtlinien für Erzählebenen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">community, annotation, guidelines, narrative levels,
                   collaboration</term>
@@ -35750,6 +35755,7 @@
                 target="https://web.archive.org/web/20250422084854/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Oceanic-Exchanges.-Tracing-Global-Information-Networks-in-Historical-Newspaper-Repositories-1840-1914/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">global information networks, historical newspapers, 19th
                   century, oceanic exchanges, information tracing</term>
@@ -35798,6 +35804,7 @@
                   Archives Congress 2012, S. 7.</bibl>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archival science, born-digital objects, data management,
                   digital preservation, full-text indexing</term>
@@ -35834,6 +35841,7 @@
                   künstlerische Kommentare zu Fragen der Digitalität konzentrieren.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">art history, digital images, media theory, material
                   aesthetics, artistic commentary</term>
@@ -35866,6 +35874,7 @@
                   Forschungsergebnisse und ihrer Publikation als Linked (Open) Data.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d modeling, architectural reconstruction, virtual research,
                   data documentation, linked open data</term>
@@ -35911,6 +35920,7 @@
                   Zettelkastens berücksichtigen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">zettelkasten, niklas luhmann, digital edition, sociology,
                   research portal</term>
@@ -35953,6 +35963,7 @@
                   Wissens- und Ordnungssysteme transformiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">algorithms, inequality, machine learning, social impact,
                   algorithmic culture</term>
@@ -35978,6 +35989,7 @@
                 target="https://web.archive.org/web/20250422081208/https://www.ilw.uni-stuttgart.de/institut/aktuelles/news/PD-Dr.-Toni-Bernhart-Stuttgart-Quantitative-Literaturwissenschaft.-Eine-Vorgeschichte-der-Digital-Humanities/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">quantitative literary studies, quantitative, history,
                   methods, literary studies</term>
@@ -36017,6 +36029,7 @@
                   Arbeit.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">literary texts, textual genetics, archival studies, digital
                   editing, editorial processes</term>
