@@ -36060,6 +36060,7 @@
               <eventName xml:lang="de">Deixis in literarischen Texten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">spatial reference, narrative perspective, linguistic
                   analysis, literary studies, textual deixis</term>
@@ -36086,6 +36087,7 @@
                 target="https://web.archive.org/web/20250422112334/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Die-Bilderzaehlung-als-Moeglichkeitsraum-Eine-digitale-Edition-von-Giovanni-Domenico-Tiepolos-Bildzyklus-Divertimento-per-li-regazzi/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #romance-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narrative, art, giovanni domenico tiepolo, edition, visual
                   storytelling</term>
@@ -36117,6 +36119,7 @@
                 target="https://web.archive.org/web/20250422112023/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Exorzismus-oder-ueber-die-Austreibung-des-Geistes-aus-den-Geisteswissenschaften/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">exorcism, humanities, spirituality, academia,
                   critique</term>
@@ -36142,6 +36145,7 @@
                 target="https://web.archive.org/web/20250422111258/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Rhetorics-of-Reproduction.-Field-Change-in-Education-and-Sociology/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#education-science #social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">reproduction, rhetoric, education, sociology, field
                   change</term>
@@ -36167,6 +36171,7 @@
                 target="https://web.archive.org/web/20250422111211/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/What-is-a-Genre-A-Graph-Unified-Model-of-Categories-Texts-and-Features/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">genre, graph, model, categories, texts</term>
               </note>
@@ -36191,6 +36196,7 @@
                 target="https://web.archive.org/web/20250422111058/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Literarische-Bits-und-Bots-Stochastische-Texte-1959-2019/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #mathematics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text generation, stochastic processes, literary analysis,
                   historical comparison, computational literature</term>
@@ -36225,6 +36231,7 @@
                   aktuellen Fallstudien berichten.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">football, discourse, digital media, linguistic analysis,
                   corpus</term>
@@ -36250,6 +36257,7 @@
                 target="https://web.archive.org/web/20250422110628/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Zu-viele-Koeche...-Eine-Netzwerkanalyse-der-kulturellen-Produktion-amerikanischer-Superheldencomics/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #english-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">comics, network analysis, american, superheroes, cultural
                   production</term>
@@ -36274,6 +36282,7 @@
                 target="https://web.archive.org/web/20250422110623/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Explanatory-Annotation-and-Its-Digital-Interfaces/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">annotation, interfaces, explanatory, tools, text
                   analysis</term>
@@ -36306,6 +36315,7 @@
                 target="https://web.archive.org/web/20250422104307/https://lehkost.github.io/slides/2019-12-18-stuttgart/index.html#/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, drama studies, computational methods,
                   literary research, theater analytics</term>
@@ -36331,6 +36341,7 @@
                 target="https://web.archive.org/web/20250422113138/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Vernetztes-Mittelalter.-Graphen-und-Normdaten-in-der-Mittelhochdeutschen-Begriffsdatenbank-MHDBDB/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">medieval, networks, graphs, norm data, mhdbdb</term>
               </note>
@@ -36361,6 +36372,8 @@
                 target="https://web.archive.org/web/20250422113013/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Mining-Historic-German-Language-Newspaper-Repositories/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline"
+                  corresp="#computational-linguistics #history #german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text mining, historical analysis, german language, newspaper
                   archives, data extraction</term>
@@ -36386,6 +36399,7 @@
                 target="https://web.archive.org/web/20250422112902/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Vernetztes-Wissen-Perspektiven-fuer-die-digitalen-Geisteswissenschaften/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">collaborative knowledge, network analysis, data integration,
                   scholarly communication, interdisciplinary research</term>
@@ -36409,6 +36423,7 @@
                 Wittgenstein“. Infrastruktur, Tools und Methoden</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">philosophy, archives, software, cultural heritage,
                   tools</term>
