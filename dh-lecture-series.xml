@@ -34877,6 +34877,7 @@
                 Zugänge zu einer schwierigen Kategorie</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narrative genres, quantitative approaches, genre theory,
                   literary history, categorization</term>
@@ -34899,6 +34900,7 @@
               <eventName xml:lang="de">Figurenrede in Erzähltexten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narratives, character speech, fiction analysis, literary
                   devices, textual studies</term>
@@ -34921,6 +34923,7 @@
               <eventName xml:lang="de">Bilddigitalisierung und Farbmanagement</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">images, digitization, colour management, color,
                   scanning</term>
@@ -34945,6 +34948,7 @@
                 GNT</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">prosopography, database, scientific illustrators, historical
                   records, biographical data</term>
@@ -34974,6 +34978,7 @@
                 Deutsche</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical, literary, metaphors, corpora, german</term>
               </note>
@@ -34996,6 +35001,7 @@
                 Parzival</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">medieval literature, network analysis, parzival, wolfram von
                   eschenbach, character relationships</term>
@@ -35024,6 +35030,7 @@
               <eventName xml:lang="en">Tracing Early American Captivity Narratives</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#english-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">captivity, american, narratives, history, literature</term>
               </note>
@@ -35046,6 +35053,7 @@
                 Roberto Busa?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, literary studies, quantitative methods,
                   roberto busa, computational literature</term>
@@ -35069,6 +35077,7 @@
                 Herausforderungen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">metrics, poetry, text annotation, goals, challenges</term>
               </note>
@@ -35090,6 +35099,7 @@
               <eventName xml:lang="de">Philosophie der DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">philosophy, theory, methodology, ethics, humanities</term>
               </note>
@@ -35112,6 +35122,7 @@
                 planetaren Geodäsie in Deutschland zum Ende des 19. Jahrhunderts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">geodesy, networks, germany, 19th century, history</term>
               </note>
@@ -35134,6 +35145,7 @@
                 Hilfswissenschaften</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical auxiliary sciences, auxiliary sciences, history,
                   german, archival science</term>
@@ -35157,6 +35169,7 @@
                 und darüber hinaus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">linguistics, experimental methods, statistical analysis,
                   language studies, methodologies</term>
@@ -35179,6 +35192,7 @@
               <eventName xml:lang="de">Archäologie der DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, history, methods, origins, evolution</term>
               </note>
@@ -35206,6 +35220,7 @@
               <eventName xml:lang="de">Quantitative Dramenanalyse (QuaDramA)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">quantitative analysis, drama, theater, analytics, literary
                   studies</term>
