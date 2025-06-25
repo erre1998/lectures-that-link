@@ -34493,6 +34493,7 @@
                 stilometrischer Verfahren am Beispiel der germanistischen Mediävistik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, stylometry, german studies, medieval studies,
                   methodology</term>
@@ -34517,6 +34518,7 @@
                 GNT</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">prosopography, database, scientific illustrators, stuttgart,
                   gnt</term>
@@ -34552,6 +34554,7 @@
                 Mittelalters“</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, medieval poetry, german literature,
                   manuscript studies, editorial practices</term>
@@ -34575,6 +34578,7 @@
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">natural language processing, computational linguistics, text
                   analysis, language technology, algorithmic methods</term>
@@ -34598,6 +34602,7 @@
                 LEO-BW</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#regional-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archives, cultural heritage, regional history, data portal,
                   information access</term>
@@ -34621,6 +34626,7 @@
                 Maschinenbauer in Deutschland 1830-1970</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">network analysis, academic professionals, historical
                   periods, germany, engineers</term>
@@ -34645,6 +34651,7 @@
                 Methoden</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">film studies, computer science, interdisciplinary learning,
                   costume design, scientific methods</term>
@@ -34675,6 +34682,7 @@
                 target="https://web.archive.org/web/20250421220336/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften-00002/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">pastoral, novel, internet, literature, digitization</term>
               </note>
@@ -34704,6 +34712,7 @@
                 Contact Situations (BASICS)‘</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">loanwords, grammatical systems, language contact, argument
                   structure, linguistic borrowing</term>
@@ -34732,6 +34741,7 @@
               <eventName xml:lang="de">Rowlandson-Projekt</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">illustration, art history, analysis, visual culture,
                   rowlandson</term>
@@ -34757,6 +34767,7 @@
                 target="https://web.archive.org/web/20250421224134/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archival preservation, data storage, analog methods, cloud
                   computing, data longevity</term>
@@ -34783,6 +34794,7 @@
                 target="https://web.archive.org/web/20250421220112/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften-00001/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical acoustics, speech reconstruction, public
                   speaking, historical context, sound visualization</term>
@@ -34805,6 +34817,7 @@
               <eventName xml:lang="de">Visualisierung für die DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visualization, data, graphics, design, tools</term>
               </note>
@@ -34828,6 +34841,7 @@
                 target="https://web.archive.org/web/20250421220620/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften-00003/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">poetry, project, digital analysis, literary studies,
                   computational poetics</term>
