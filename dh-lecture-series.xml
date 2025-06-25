@@ -1983,6 +1983,22 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="dillen_wout">
+            <name>
+              <forename>Wout</forename>
+              <surname>Dillen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7862-2403</idno>
+          </person>
+          <person xml:id="bekius_lamyk">
+            <name>
+              <forename>Lamyk</forename>
+              <surname>Bekius</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4533-2880</idno>
+          </person>
           <person xml:id="de-roest_aafje">
             <name>
               <forename>Mattia</forename>
@@ -43793,6 +43809,8 @@
           <eventName xml:lang="en">Platform{DH} Lecture Series / platform{talks}</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250427074534/https://platformdh.uantwerpen.be/index.php/talks/"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250624235449/https://www.uantwerpen.be/en/research-groups/digitalhumanities/platform-dh-/"/>
           <note type="description" xml:lang="en">
             <p>This lecture series on Digital Humanities is organised by the Platform for Digital
               Humanities of the University of Antwerp.</p>
@@ -45471,7 +45489,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <org role="organizer" corresp="#..."/>
+            <org role="organizer" corresp="#bleeker_elli #dillen_wout #bekius_lamyk"/>
           </event>
         </event>
         <!-- ##### United Kingdom / Ireland ##### -->
