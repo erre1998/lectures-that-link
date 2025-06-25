@@ -1983,6 +1983,22 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="dillen_wout">
+            <name>
+              <forename>Wout</forename>
+              <surname>Dillen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7862-2403</idno>
+          </person>
+          <person xml:id="bekius_lamyk">
+            <name>
+              <forename>Lamyk</forename>
+              <surname>Bekius</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4533-2880</idno>
+          </person>
           <person xml:id="de-roest_aafje">
             <name>
               <forename>Mattia</forename>
@@ -34477,6 +34493,7 @@
                 stilometrischer Verfahren am Beispiel der germanistischen Mediävistik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, stylometry, german studies, medieval studies,
                   methodology</term>
@@ -34501,6 +34518,7 @@
                 GNT</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">prosopography, database, scientific illustrators, stuttgart,
                   gnt</term>
@@ -34536,6 +34554,7 @@
                 Mittelalters“</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, medieval poetry, german literature,
                   manuscript studies, editorial practices</term>
@@ -34559,6 +34578,7 @@
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">natural language processing, computational linguistics, text
                   analysis, language technology, algorithmic methods</term>
@@ -34582,6 +34602,7 @@
                 LEO-BW</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#regional-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archives, cultural heritage, regional history, data portal,
                   information access</term>
@@ -34605,6 +34626,7 @@
                 Maschinenbauer in Deutschland 1830-1970</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">network analysis, academic professionals, historical
                   periods, germany, engineers</term>
@@ -34629,6 +34651,7 @@
                 Methoden</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#media-studies #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">film studies, computer science, interdisciplinary learning,
                   costume design, scientific methods</term>
@@ -34659,6 +34682,7 @@
                 target="https://web.archive.org/web/20250421220336/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften-00002/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#theology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">pastoral, novel, internet, literature, digitization</term>
               </note>
@@ -34688,6 +34712,7 @@
                 Contact Situations (BASICS)‘</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">loanwords, grammatical systems, language contact, argument
                   structure, linguistic borrowing</term>
@@ -34716,6 +34741,7 @@
               <eventName xml:lang="de">Rowlandson-Projekt</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">illustration, art history, analysis, visual culture,
                   rowlandson</term>
@@ -34741,6 +34767,7 @@
                 target="https://web.archive.org/web/20250421224134/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archival preservation, data storage, analog methods, cloud
                   computing, data longevity</term>
@@ -34767,6 +34794,7 @@
                 target="https://web.archive.org/web/20250421220112/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften-00001/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical acoustics, speech reconstruction, public
                   speaking, historical context, sound visualization</term>
@@ -34789,6 +34817,7 @@
               <eventName xml:lang="de">Visualisierung für die DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visualization, data, graphics, design, tools</term>
               </note>
@@ -34812,6 +34841,7 @@
                 target="https://web.archive.org/web/20250421220620/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortragseinladung-Ringvorlesung-Digital-Humanities-in-den-Geisteswissenschaften-00003/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">poetry, project, digital analysis, literary studies,
                   computational poetics</term>
@@ -34847,6 +34877,7 @@
                 Zugänge zu einer schwierigen Kategorie</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narrative genres, quantitative approaches, genre theory,
                   literary history, categorization</term>
@@ -34869,6 +34900,7 @@
               <eventName xml:lang="de">Figurenrede in Erzähltexten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narratives, character speech, fiction analysis, literary
                   devices, textual studies</term>
@@ -34891,6 +34923,7 @@
               <eventName xml:lang="de">Bilddigitalisierung und Farbmanagement</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">images, digitization, colour management, color,
                   scanning</term>
@@ -34915,6 +34948,7 @@
                 GNT</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">prosopography, database, scientific illustrators, historical
                   records, biographical data</term>
@@ -34944,6 +34978,7 @@
                 Deutsche</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical, literary, metaphors, corpora, german</term>
               </note>
@@ -34966,6 +35001,7 @@
                 Parzival</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">medieval literature, network analysis, parzival, wolfram von
                   eschenbach, character relationships</term>
@@ -34994,6 +35030,7 @@
               <eventName xml:lang="en">Tracing Early American Captivity Narratives</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#english-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">captivity, american, narratives, history, literature</term>
               </note>
@@ -35016,6 +35053,7 @@
                 Roberto Busa?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, literary studies, quantitative methods,
                   roberto busa, computational literature</term>
@@ -35039,6 +35077,7 @@
                 Herausforderungen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">metrics, poetry, text annotation, goals, challenges</term>
               </note>
@@ -35060,6 +35099,7 @@
               <eventName xml:lang="de">Philosophie der DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">philosophy, theory, methodology, ethics, humanities</term>
               </note>
@@ -35082,6 +35122,7 @@
                 planetaren Geodäsie in Deutschland zum Ende des 19. Jahrhunderts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#geography #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">geodesy, networks, germany, 19th century, history</term>
               </note>
@@ -35104,6 +35145,7 @@
                 Hilfswissenschaften</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">historical auxiliary sciences, auxiliary sciences, history,
                   german, archival science</term>
@@ -35127,6 +35169,7 @@
                 und darüber hinaus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">linguistics, experimental methods, statistical analysis,
                   language studies, methodologies</term>
@@ -35149,6 +35192,7 @@
               <eventName xml:lang="de">Archäologie der DH</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#archaeology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archaeology, history, methods, origins, evolution</term>
               </note>
@@ -35176,6 +35220,7 @@
               <eventName xml:lang="de">Quantitative Dramenanalyse (QuaDramA)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">quantitative analysis, drama, theater, analytics, literary
                   studies</term>
@@ -35218,6 +35263,7 @@
                   die weiteren Themengebiete der kommenden Vorlesungen gegeben.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">informatics, software architecture, overview, introductory,
                   subdisciplines</term>
@@ -35243,6 +35289,7 @@
                   Software” gehen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">software development, project management, tools, processes,
                   organization</term>
@@ -35269,6 +35316,7 @@
                   Technologien vorgestellt, die häufig im Cloud Computing zum Einsatz kommen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">cloud computing, web technologies, dropbox, modern
                   technologies, data storage</term>
@@ -35296,6 +35344,7 @@
                   Ansätzen wie dokumentenorientierte Datenbanken oder Graphdatenbanken.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">databases, relational databases, document-oriented
                   databases, graph databases, database applications</term>
@@ -35324,6 +35373,7 @@
                   Informationssicherheit.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">cybersecurity, hacking, information security, computer
                   systems, data protection</term>
@@ -35353,6 +35403,7 @@
                   sozialen Netzwerken und Crowdsourcing zeigen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">interface design, user experience, intelligent interfaces,
                   social networks, crowdsourcing</term>
@@ -35381,6 +35432,7 @@
                   können.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">distributed systems, internet services, scalability,
                   availability, problem solving</term>
@@ -35409,6 +35461,7 @@
                   wie einfach es sein kann, Programme zu schreiben.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visual programming, bpmn, business process, simulation, code
                   simplicity</term>
@@ -35438,6 +35491,7 @@
                   UML, ERM und Petri-Netzen eingeführt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">modeling, software, data models, uml, petri nets</term>
               </note>
@@ -35466,6 +35520,7 @@
                   Grenzen und Probleme computergenerierter Visualisierung angesprochen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data visualization, information visualization, visual
                   analytics, data representation, visualization limitations</term>
@@ -35500,6 +35555,7 @@
                   Die zentrale Leitfrage ist daher: "Wo liegen die Grenzen eines Computers?"</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational theory, algorithmic solvability, computational
                   complexity, problem efficiency, computer limitations</term>
@@ -35554,6 +35610,7 @@
                   Netzwerkanalyse untersucht und visualisiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">social networks, astronomy, early modern period, scientific
                   communication, data visualization</term>
@@ -35579,6 +35636,7 @@
                 target="https://web.archive.org/web/20250422083533/https://www.srcts.uni-stuttgart.de/aktuelles/DH-Vortrag-von-Prof.-Dr-00001.-Andrea-Rapp-TU-Darmstadt-Forschungsdaten-in-den-Geisteswissenschaften-Qualitaetskriterien-Kuration-Nutzung/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data management, research data, quality criteria, curation,
                   usage</term>
@@ -35604,6 +35662,7 @@
                 target="https://web.archive.org/web/20250422084117/https://www.ilw.uni-stuttgart.de/institut/aktuelles/news/RVL-Digital-Humanities-Vortrag-zur-Moralfaehigkeit-maschinell-getroffener-Entscheidungen-von-Andreas-Kaminski/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">ethics, machine learning, decision making, morality,
                   artificial intelligence</term>
@@ -35646,6 +35705,7 @@
                   Verlage basiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">comics, narrative complexity, marvel, dc, network
                   analysis</term>
@@ -35669,6 +35729,7 @@
                 Erstellung von Annotationsrichtlinien für Erzählebenen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">community, annotation, guidelines, narrative levels,
                   collaboration</term>
@@ -35694,6 +35755,7 @@
                 target="https://web.archive.org/web/20250422084854/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Oceanic-Exchanges.-Tracing-Global-Information-Networks-in-Historical-Newspaper-Repositories-1840-1914/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">global information networks, historical newspapers, 19th
                   century, oceanic exchanges, information tracing</term>
@@ -35742,6 +35804,7 @@
                   Archives Congress 2012, S. 7.</bibl>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">archival science, born-digital objects, data management,
                   digital preservation, full-text indexing</term>
@@ -35778,6 +35841,7 @@
                   künstlerische Kommentare zu Fragen der Digitalität konzentrieren.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">art history, digital images, media theory, material
                   aesthetics, artistic commentary</term>
@@ -35810,6 +35874,7 @@
                   Forschungsergebnisse und ihrer Publikation als Linked (Open) Data.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">3d modeling, architectural reconstruction, virtual research,
                   data documentation, linked open data</term>
@@ -35855,6 +35920,7 @@
                   Zettelkastens berücksichtigen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">zettelkasten, niklas luhmann, digital edition, sociology,
                   research portal</term>
@@ -35897,6 +35963,7 @@
                   Wissens- und Ordnungssysteme transformiert.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">algorithms, inequality, machine learning, social impact,
                   algorithmic culture</term>
@@ -35922,6 +35989,7 @@
                 target="https://web.archive.org/web/20250422081208/https://www.ilw.uni-stuttgart.de/institut/aktuelles/news/PD-Dr.-Toni-Bernhart-Stuttgart-Quantitative-Literaturwissenschaft.-Eine-Vorgeschichte-der-Digital-Humanities/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">quantitative literary studies, quantitative, history,
                   methods, literary studies</term>
@@ -35961,6 +36029,7 @@
                   Arbeit.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">literary texts, textual genetics, archival studies, digital
                   editing, editorial processes</term>
@@ -35991,6 +36060,7 @@
               <eventName xml:lang="de">Deixis in literarischen Texten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">spatial reference, narrative perspective, linguistic
                   analysis, literary studies, textual deixis</term>
@@ -36017,6 +36087,7 @@
                 target="https://web.archive.org/web/20250422112334/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Die-Bilderzaehlung-als-Moeglichkeitsraum-Eine-digitale-Edition-von-Giovanni-Domenico-Tiepolos-Bildzyklus-Divertimento-per-li-regazzi/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #romance-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">narrative, art, giovanni domenico tiepolo, edition, visual
                   storytelling</term>
@@ -36048,6 +36119,7 @@
                 target="https://web.archive.org/web/20250422112023/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Exorzismus-oder-ueber-die-Austreibung-des-Geistes-aus-den-Geisteswissenschaften/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">exorcism, humanities, spirituality, academia,
                   critique</term>
@@ -36073,6 +36145,7 @@
                 target="https://web.archive.org/web/20250422111258/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Rhetorics-of-Reproduction.-Field-Change-in-Education-and-Sociology/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#education-science #social-siences"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">reproduction, rhetoric, education, sociology, field
                   change</term>
@@ -36098,6 +36171,7 @@
                 target="https://web.archive.org/web/20250422111211/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/What-is-a-Genre-A-Graph-Unified-Model-of-Categories-Texts-and-Features/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">genre, graph, model, categories, texts</term>
               </note>
@@ -36122,6 +36196,7 @@
                 target="https://web.archive.org/web/20250422111058/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Literarische-Bits-und-Bots-Stochastische-Texte-1959-2019/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #mathematics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text generation, stochastic processes, literary analysis,
                   historical comparison, computational literature</term>
@@ -36156,6 +36231,7 @@
                   aktuellen Fallstudien berichten.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">football, discourse, digital media, linguistic analysis,
                   corpus</term>
@@ -36181,6 +36257,7 @@
                 target="https://web.archive.org/web/20250422110628/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Zu-viele-Koeche...-Eine-Netzwerkanalyse-der-kulturellen-Produktion-amerikanischer-Superheldencomics/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #english-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">comics, network analysis, american, superheroes, cultural
                   production</term>
@@ -36205,6 +36282,7 @@
                 target="https://web.archive.org/web/20250422110623/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Explanatory-Annotation-and-Its-Digital-Interfaces/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">annotation, interfaces, explanatory, tools, text
                   analysis</term>
@@ -36237,6 +36315,7 @@
                 target="https://web.archive.org/web/20250422104307/https://lehkost.github.io/slides/2019-12-18-stuttgart/index.html#/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text analysis, drama studies, computational methods,
                   literary research, theater analytics</term>
@@ -36262,6 +36341,7 @@
                 target="https://web.archive.org/web/20250422113138/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Vernetztes-Mittelalter.-Graphen-und-Normdaten-in-der-Mittelhochdeutschen-Begriffsdatenbank-MHDBDB/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#library-information #history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">medieval, networks, graphs, norm data, mhdbdb</term>
               </note>
@@ -36292,6 +36372,8 @@
                 target="https://web.archive.org/web/20250422113013/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Mining-Historic-German-Language-Newspaper-Repositories/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline"
+                  corresp="#computational-linguistics #history #german-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">text mining, historical analysis, german language, newspaper
                   archives, data extraction</term>
@@ -36317,6 +36399,7 @@
                 target="https://web.archive.org/web/20250422112902/https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/Vernetztes-Wissen-Perspektiven-fuer-die-digitalen-Geisteswissenschaften/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">collaborative knowledge, network analysis, data integration,
                   scholarly communication, interdisciplinary research</term>
@@ -36340,6 +36423,7 @@
                 Wittgenstein“. Infrastruktur, Tools und Methoden</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">philosophy, archives, software, cultural heritage,
                   tools</term>
@@ -43793,6 +43877,8 @@
           <eventName xml:lang="en">Platform{DH} Lecture Series / platform{talks}</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250427074534/https://platformdh.uantwerpen.be/index.php/talks/"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250624235449/https://www.uantwerpen.be/en/research-groups/digitalhumanities/platform-dh-/"/>
           <note type="description" xml:lang="en">
             <p>This lecture series on Digital Humanities is organised by the Platform for Digital
               Humanities of the University of Antwerp.</p>
@@ -45471,7 +45557,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
-            <org role="organizer" corresp="#..."/>
+            <org role="organizer" corresp="#bleeker_elli #dillen_wout #bekius_lamyk"/>
           </event>
         </event>
         <!-- ##### United Kingdom / Ireland ##### -->
