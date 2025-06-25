@@ -35263,6 +35263,7 @@
                   die weiteren Themengebiete der kommenden Vorlesungen gegeben.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">informatics, software architecture, overview, introductory,
                   subdisciplines</term>
@@ -35288,6 +35289,7 @@
                   Software” gehen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">software development, project management, tools, processes,
                   organization</term>
@@ -35314,6 +35316,7 @@
                   Technologien vorgestellt, die häufig im Cloud Computing zum Einsatz kommen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">cloud computing, web technologies, dropbox, modern
                   technologies, data storage</term>
@@ -35341,6 +35344,7 @@
                   Ansätzen wie dokumentenorientierte Datenbanken oder Graphdatenbanken.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">databases, relational databases, document-oriented
                   databases, graph databases, database applications</term>
@@ -35369,6 +35373,7 @@
                   Informationssicherheit.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">cybersecurity, hacking, information security, computer
                   systems, data protection</term>
@@ -35398,6 +35403,7 @@
                   sozialen Netzwerken und Crowdsourcing zeigen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">interface design, user experience, intelligent interfaces,
                   social networks, crowdsourcing</term>
@@ -35426,6 +35432,7 @@
                   können.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">distributed systems, internet services, scalability,
                   availability, problem solving</term>
@@ -35454,6 +35461,7 @@
                   wie einfach es sein kann, Programme zu schreiben.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">visual programming, bpmn, business process, simulation, code
                   simplicity</term>
@@ -35483,6 +35491,7 @@
                   UML, ERM und Petri-Netzen eingeführt.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">modeling, software, data models, uml, petri nets</term>
               </note>
@@ -35511,6 +35520,7 @@
                   Grenzen und Probleme computergenerierter Visualisierung angesprochen.</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">data visualization, information visualization, visual
                   analytics, data representation, visualization limitations</term>
@@ -35545,6 +35555,7 @@
                   Die zentrale Leitfrage ist daher: "Wo liegen die Grenzen eines Computers?"</p>
               </note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
                 <term type="topics-llm">computational theory, algorithmic solvability, computational
                   complexity, problem efficiency, computer limitations</term>
