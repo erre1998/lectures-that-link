@@ -1983,6 +1983,14 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="rammos_yannis">
+            <name>
+              <forename>Yannis</forename>
+              <surname>Rammos</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1455-5990</idno>
+          </person>
           <person xml:id="dillen_wout">
             <name>
               <forename>Wout</forename>
@@ -2046,6 +2054,14 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1721-5732</idno>
+          </person>
+          <person xml:id="collins_kathleen">
+            <name>
+              <forename>Kathleen</forename>
+              <surname>Collins</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135092726</idno>
           </person>
           <person xml:id="koolen_corina">
             <name>
@@ -3757,6 +3773,15 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8397-7973</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q103028614</idno>
+          </person>
+          <person xml:id="hentschel_johannes">
+            <name>
+              <forename>Johannes</forename>
+              <surname>Hentschel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1986-9545</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131113034</idno>
           </person>
           <person xml:id="hentschel_klaus">
             <name>
@@ -43872,6 +43897,205 @@
             <org role="organizer" corresp="#burkart_lucas #fornaro_peter"/>
           </event>
         </event>
+
+        <event xml:id="..." type="lecture-series" where="#lausanne">
+          <eventName xml:lang="fr">Séminaires DH</eventName>
+          <eventName xml:lang="en">DH Lecture Series</eventName>
+
+          <event type="lecture-series-term" from="2015-06" to="2015-12" xml:id="...">
+            <eventName>2015</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
+
+            <event type="lecture" when="2015-06-04" xml:id="...">
+              <eventName xml:lang="en">Mirador: Medieval Manuscripts (and Much More) in a New
+                Light</eventName>
+              <ptr type="programme" target="..."/>
+              <ptr type="video" target="..."/>
+              <note type="abstract" xml:lang="en">
+                <p>In collaboration with the Stanford University Library, Harvard University
+                  (represented by the University Library, HarvardX, and the Committee for the
+                  Digital Humanities) have for the last two years been working to develop a new
+                  IIIF-compliant image viewer (called Mirador) designed, above all else, to
+                  facilitate the study of medieval manuscripts.</p>
+                <p>In addition to introducing and demonstrating Mirador in its latest incarnation,
+                  the presentation will sketch six case studies designed to text and expand
+                  Mirador’s functionality in relation to current scholarly and pedagogic
+                  requirements. The presentation will also discuss the potential of the program to
+                  aid in research on illuminated manuscripts, the speaker’s special area of
+                  interest, with a focus on a little-known group of liturgical manuscripts from the
+                  Dominican convent, Paradies bei Soest, dating to the period 1300–1425.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hamburger_jeffrey">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-harvard"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <!-- 2015-11-15 -->
+            <!-- 2015-12-15 -->
+            <!-- 2015-12-17 -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2016-01" to="2016-07" xml:id="...">
+            <eventName>2016</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
+
+            <!-- 2016-01-13 -->
+            <!-- 2016-01-14 -->
+            <!-- 2016-01-20 -->
+            <!-- 2016-01-26 -->
+            <!-- 2016-01-28 -->
+            <!-- 2016-03-01 https://mediaspace.epfl.ch/media/0_qa1vbvxx -->
+            <!-- 2016-05-17 https://mediaspace.epfl.ch/media/0_t57uou80 -->
+            <!-- 2016-07-01 https://mediaspace.epfl.ch/media/0_oscv2r03 -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2017-11" to="2017-12" xml:id="...">
+            <eventName>2017</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
+
+            <!-- 2017-11-13 https://mediaspace.epfl.ch/media/0_mi9ipd4p -->
+            <!-- 2017-12-04 https://mediaspace.epfl.ch/media/0_c5jz5qvc -->
+            <!-- 2017-12-15 https://mediaspace.epfl.ch/media/0_n9vr4x8i -->
+            <!-- 2017-12-18 -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2018-10" to="2018-12" xml:id="...">
+            <eventName>2018</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626094936/https://www.epfl.ch/schools/cdh/dh-events-2018/"/>
+
+            <!-- 2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx  |   https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/ -->
+            <!-- 2018-10-11 https://mediaspace.epfl.ch/media/0_jt5lo1yk  |   https://web.archive.org/web/20250626094305/https://www.epfl.ch/schools/cdh/dh-lecture-series-sequential-pattern-mining-for-robust-event-detection/ -->
+            <!-- 2018-10-24 https://web.archive.org/web/20250626094353/https://www.epfl.ch/schools/cdh/the-question-of-why-on-the-notions-of-explanation-in-the-dh/ -->
+            <!-- 2018-11-07 https://mediaspace.epfl.ch/media/0_zzxziysy  |   https://web.archive.org/web/20250626094504/https://www.epfl.ch/schools/cdh/sciences-and-technologies-studies-from-case-studies-to-commensurable-data-extending-the-topofil-of-boa-vista-b-latour/ -->
+            <!-- 2018-11-21 https://web.archive.org/web/20250626094545/https://www.epfl.ch/schools/cdh/why-theories-of-aesthetics-matter-in-the-dh/ -->
+            <!-- 2018-11-29 https://mediaspace.epfl.ch/media/0_m2h9n71n  |   https://web.archive.org/web/20250626094843/https://www.epfl.ch/schools/cdh/design-et-humanites-numeriques/ -->
+            <!-- 2018-12-05 https://mediaspace.epfl.ch/media/0_cq0so9aw  |   https://web.archive.org/web/20250626094925/https://www.epfl.ch/schools/cdh/problems-with-data-assumptions-biases-and-more/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2019-02" to="2019-12" xml:id="...">
+            <eventName>2019</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626101322/https://www.epfl.ch/schools/cdh/dh-events-2019/"/>
+
+            <!-- 2019-02-19 https://mediaspace.epfl.ch/media/0_9w1zmqbs  |  https://web.archive.org/web/20250626135104/https://www.epfl.ch/schools/cdh/network-inference-from-textual-evidence-information-propagation-translation-and-multi-input-attention/ -->
+
+            <!-- 2019-03-06 https://mediaspace.epfl.ch/media/0_rdepbplf  |  https://web.archive.org/web/20250626134950/https://www.epfl.ch/schools/cdh/digital-humanities-at-scale-2012-2032/ -->
+            <!-- 2019-03-20 https://mediaspace.epfl.ch/media/0_3s3l3c0j  |  https://web.archive.org/web/20250626134920/https://www.epfl.ch/schools/cdh/observational-studies/ -->
+
+            <!-- 2019-04-03 https://mediaspace.epfl.ch/media/0_9fneagxl  |  https://web.archive.org/web/20250626135030/https://www.epfl.ch/schools/cdh/towards-interpretable-deep-visual-recognition-2/ -->
+            <!-- 2019-04-17 https://web.archive.org/web/20250626135239/https://www.epfl.ch/schools/cdh/encoding-embodied-acts-technologies-of-corporeality/ -->
+            <!-- 2019-04-25 https://tube.switch.ch/cast/embed/9373278d-a1ba-46d6-8333-a9e268c45f08  |  https://web.archive.org/web/20250626135327/https://www.epfl.ch/schools/cdh/comics-analysis-and-indexing/ -->
+
+            <!-- 2019-05-01 https://web.archive.org/web/20250626135501/https://www.epfl.ch/schools/cdh/dh-and-ways-of-knowing/ -->
+            <!-- 2019-05-29 https://web.archive.org/web/20250626135918/https://www.epfl.ch/schools/cdh/what-a-historian-wants-from-digital-humanities/ -->
+
+            <!-- 2019-09-18 https://web.archive.org/web/20250626135632/https://memento.epfl.ch/event/what-can-a-historian-expect-of-digital-humanities-/ -->
+
+            <!-- 2019-10-29 https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/ -->
+
+            <!-- 2019-09-20 https://web.archive.org/web/20250626135917/https://memento.epfl.ch/event/kepler-concordia-playing-solar-systems-as-musical-/ -->
+
+            <!-- 2019-10-29 https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/ -->
+
+            <!-- 2019-11-13 https://web.archive.org/web/20250626135825/https://memento.epfl.ch/event/the-digital-turn-in-historical-sociolinguistics-ta/ -->
+            <!-- 2019-11-19 https://web.archive.org/web/20250626135606/https://memento.epfl.ch/event/networks-the-digital-humanities-and-everything-tal/ -->
+
+            <!-- 2019-12-04 https://web.archive.org/web/20250626135710/https://memento.epfl.ch/event/ai-for-humans-a-personal-agenda-talk-by-prof-pasca/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2020-01" to="2018-11" xml:id="...">
+            <eventName>2020</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626121810/https://www.epfl.ch/schools/cdh/dh-events-2020/"/>
+
+            <!-- 2020-01-13 https://web.archive.org/web/20250626132121/https://memento.epfl.ch/event/looking-beyond-the-staff-lines-and-listening-behin/ -->
+
+            <!-- 2020-10-07 https://mediaspace.epfl.ch/media/0_tp3btwgh  |  https://web.archive.org/web/20250626132148/https://memento.epfl.ch/event/reading-with-machines-reading-and-writing-in-the-d/ -->
+
+            <!-- 2020-11-04 https://mediaspace.epfl.ch/media/0_5sjdfp3t  |  https://web.archive.org/web/20250626132349/https://memento.epfl.ch/event/from-digital-humanities-to-game-studies-talk-by-dr/ -->
+
+            <!-- 2020-11-18 https://web.archive.org/web/20250626122636/https://memento.epfl.ch/event/quantitative-approaches-to-historical-texts-should/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2021-02" to="2021-10" xml:id="...">
+            <eventName>2021</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626124243/https://www.epfl.ch/schools/cdh/dh-events-2021/"/>
+
+            <!-- 2021-02-10 https://mediaspace.epfl.ch/media/0_n5tsll3a  |  https://web.archive.org/web/20250626133536/https://memento.epfl.ch/event/comparative-musicology-the-science-of-the-worlds-m/ -->
+
+            <!-- 2021-02-24 https://web.archive.org/web/20250626133514/https://memento.epfl.ch/event/dating-sites-as-observations-sites-what-we-can-lea/ -->
+
+            <!-- 2021-03-17 https://web.archive.org/web/20250626133729/https://memento.epfl.ch/event/dh-research-seminar-by-nicolas-henchoz-director-ep/ -->
+
+            <!-- 2021-04-14 https://mediaspace.epfl.ch/media/0_b0b9lnb5 -->
+
+            <!-- 2021-05-19 https://mediaspace.epfl.ch/media/0_3hmxzaqc  |  https://web.archive.org/web/20250626133846/https://memento.epfl.ch/event/dh-research-seminar-by-nora-al-badri/ -->
+
+            <!-- 2021-05-12 https://mediaspace.epfl.ch/media/0_m9fze8d8  |  https://web.archive.org/web/20250626134112/https://memento.epfl.ch/event/dh-research-seminar-by-dr-johan-rochel/ -->
+
+            <!-- 2021-10-07 https://web.archive.org/web/20250626133931/https://memento.epfl.ch/event/dh-research-seminar-par-marcello-ienca-phd/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-12" to="2022-12" xml:id="...">
+            <eventName>2022</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626124551/https://www.epfl.ch/schools/cdh/dh-seminars-2022-2/"/>
+
+            <!-- 2022-12-14 https://web.archive.org/web/20250626134501/https://memento.epfl.ch/event/dh-seminar-mates-vs-cavell-redux-or-when-do-you-ne/ -->
+
+            <!-- 2022-12-19 https://web.archive.org/web/20250626134415/https://memento.epfl.ch/event/dh-seminar-automatic-analysis-automatic-compositio/ -->
+
+            <org role="organizer" corresp="#hentschel_johannes"/>
+          </event>
+
+          <event type="lecture-series-term" from="2023-04" to="2023-11" xml:id="...">
+            <eventName>2023</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
+            
+            <!-- 2023-04-26 https://web.archive.org/web/20250626134653/https://memento.epfl.ch/event/dh-seminar-charlie-parker-composer-highlights-an-2/ -->
+            
+            <!-- 2023-04-28 https://web.archive.org/web/20250626134750/https://memento.epfl.ch/event/dh-seminar-modernism-jazz-counterpoint-a-henry-m-2/ -->
+            
+            <!-- 2023-11-27 https://web.archive.org/web/20250626134704/https://memento.epfl.ch/event/between-justice-seeking-and-entertainment-digita-2/ -->
+            
+            <org role="organizer" corresp="#rammos_yannis"/>
+          </event>
+
+        </event>
+
         <!-- ##### Belgium ##### -->
         <event xml:id="ls26" type="lecture-series" where="#antwerpen">
           <eventName xml:lang="en">Platform{DH} Lecture Series / platform{talks}</eventName>
