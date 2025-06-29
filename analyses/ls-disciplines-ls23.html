@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html xmlns:local="local">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script></head>
+   <body>
+      <table>
+         <tr>
+            <td>
+               <div id="myDiv1" style="width:700px;height:550px;"></div>
+            </td>
+         </tr>
+      </table><script>
+              var trace1 = {
+              y: [12,6,6,4,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+              x: [
+                'digital humanities'
+                ,
+                'library and information science'
+                ,
+                'computer science'
+                ,
+                'linguistics'
+                ,
+                'history'
+                ,
+                'art history'
+                ,
+                'museology'
+                ,
+                'media studies'
+                ,
+                'cultural studies'
+                ,
+                'archaeology'
+                ,
+                'classics'
+                ,
+                'musicology'
+                ,
+                'geography'
+                ,
+                'social sciences'
+                ,
+                'regional studies'
+                ,
+                'literary studies'
+                ,
+                'theology'
+                ,
+                'philosophy'
+                ,
+                'romance studies'
+                ,
+                'german studies'
+                ,
+                'english studies'
+                ,
+                'education-science'
+                ,
+                'game studies'
+                ,
+                'political science'
+                ,
+                'theater studies'
+                ,
+                'yiddish studies'
+                ,
+                'african studies'
+                ,
+                'slavic studies'
+                ,
+                'mathematics'
+                ,
+                'computational linguistics'
+                ,
+                'chinese studies'
+                ,
+                'egyptology'
+                ,
+                'biology'
+                ,
+                'gender studies'
+                ,
+                'asian studies'
+                ,
+                'science communication'
+                ],
+              type: 'bar',
+              name: 'disciplines'
+              };
+              
+              var data = [trace1];
+              var layout = {
+              yaxis: {title: {text: "number of lectures"}},
+              xaxis: {tickangle: 40},
+              margin: {b: 150}
+              };
+              
+              Plotly.newPlot('myDiv1', data, layout);
+              
+            </script></body>
+</html>

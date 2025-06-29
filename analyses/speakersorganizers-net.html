@@ -1,0 +1,1055 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1000px;
+                 height: 1000px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="biasiori_lucio">biasiori_lucio</option>
+                                
+                                    <option value="wallnig_thomas">wallnig_thomas</option>
+                                
+                                    <option value="donadelli_giovanni">donadelli_giovanni</option>
+                                
+                                    <option value="xie_shi">xie_shi</option>
+                                
+                                    <option value="orlandi_marco">orlandi_marco</option>
+                                
+                                    <option value="elice_martina">elice_martina</option>
+                                
+                                    <option value="ferrarese_francesco">ferrarese_francesco</option>
+                                
+                                    <option value="bernardi_teresa">bernardi_teresa</option>
+                                
+                                    <option value="zilio_daniel">zilio_daniel</option>
+                                
+                                    <option value="novello_elisabetta">novello_elisabetta</option>
+                                
+                                    <option value="chemello_marco">chemello_marco</option>
+                                
+                                    <option value="mazzini_federico">mazzini_federico</option>
+                                
+                                    <option value="rabbiosi_chiara">rabbiosi_chiara</option>
+                                
+                                    <option value="lubian_francesco">lubian_francesco</option>
+                                
+                                    <option value="andrews_tara">andrews_tara</option>
+                                
+                                    <option value="fischer_franz">fischer_franz</option>
+                                
+                                    <option value="monachini_monica">monachini_monica</option>
+                                
+                                    <option value="buzzoni_marina">buzzoni_marina</option>
+                                
+                                    <option value="fernández-castrillo_carolina">fernández-castrillo_carolina</option>
+                                
+                                    <option value="monella_paolo">monella_paolo</option>
+                                
+                                    <option value="campagnolo_alberto">campagnolo_alberto</option>
+                                
+                                    <option value="tomasi_francesca">tomasi_francesca</option>
+                                
+                                    <option value="tonelli_sara">tonelli_sara</option>
+                                
+                                    <option value="corro_elisa">corro_elisa</option>
+                                
+                                    <option value="fusi_daniele">fusi_daniele</option>
+                                
+                                    <option value="delmonte_rodolfo">delmonte_rodolfo</option>
+                                
+                                    <option value="redmond_marie">redmond_marie</option>
+                                
+                                    <option value="tramelli_barbara">tramelli_barbara</option>
+                                
+                                    <option value="campus_leonardo">campus_leonardo</option>
+                                
+                                    <option value="mantoan_diego">mantoan_diego</option>
+                                
+                                    <option value="evans_tanya">evans_tanya</option>
+                                
+                                    <option value="van-zundert_joris">van-zundert_joris</option>
+                                
+                                    <option value="may_sarah">may_sarah</option>
+                                
+                                    <option value="huskey_samuel">huskey_samuel</option>
+                                
+                                    <option value="dutta_abhishek">dutta_abhishek</option>
+                                
+                                    <option value="malaspina_matilde">malaspina_matilde</option>
+                                
+                                    <option value="priego_ernesto">priego_ernesto</option>
+                                
+                                    <option value="severo_marta">severo_marta</option>
+                                
+                                    <option value="toth_michael-b">toth_michael-b</option>
+                                
+                                    <option value="nevola_fabrizio">nevola_fabrizio</option>
+                                
+                                    <option value="hermens_erma">hermens_erma</option>
+                                
+                                    <option value="forte_maurizio">forte_maurizio</option>
+                                
+                                    <option value="mancinelli_tiziana">mancinelli_tiziana</option>
+                                
+                                    <option value="kiss_dániel">kiss_dániel</option>
+                                
+                                    <option value="siemens_ray">siemens_ray</option>
+                                
+                                    <option value="arbuckle_alyssa">arbuckle_alyssa</option>
+                                
+                                    <option value="dell-unto_nicolo">dell-unto_nicolo</option>
+                                
+                                    <option value="bernini_rita">bernini_rita</option>
+                                
+                                    <option value="luzon_jose-maria">luzon_jose-maria</option>
+                                
+                                    <option value="misiti_maria-cristina">misiti_maria-cristina</option>
+                                
+                                    <option value="daquino_marilena">daquino_marilena</option>
+                                
+                                    <option value="gallia_arturo">gallia_arturo</option>
+                                
+                                    <option value="pavlopoulos_ioannis">pavlopoulos_ioannis</option>
+                                
+                                    <option value="gil_tiago-luis">gil_tiago-luis</option>
+                                
+                                    <option value="camps_jean-baptiste">camps_jean-baptiste</option>
+                                
+                                    <option value="mcgillivray_barbara">mcgillivray_barbara</option>
+                                
+                                    <option value="dieckmann_lisa">dieckmann_lisa</option>
+                                
+                                    <option value="berti_paolo">berti_paolo</option>
+                                
+                                    <option value="macchiarelli_agnese">macchiarelli_agnese</option>
+                                
+                                    <option value="danelon_nevio">danelon_nevio</option>
+                                
+                                    <option value="williams_sean">williams_sean</option>
+                                
+                                    <option value="dolcetti_francesca">dolcetti_francesca</option>
+                                
+                                    <option value="galeazzo_ludovica">galeazzo_ludovica</option>
+                                
+                                    <option value="maietti_federica">maietti_federica</option>
+                                
+                                    <option value="carbe_emmanuela">carbe_emmanuela</option>
+                                
+                                    <option value="bessi_benedetta">bessi_benedetta</option>
+                                
+                                    <option value="algee-hewitt_mark">algee-hewitt_mark</option>
+                                
+                                    <option value="lenci_alessandro">lenci_alessandro</option>
+                                
+                                    <option value="damiano_rossana">damiano_rossana</option>
+                                
+                                    <option value="robinson_peter">robinson_peter</option>
+                                
+                                    <option value="caloi_ilaria">caloi_ilaria</option>
+                                
+                                    <option value="bernardini_federico">bernardini_federico</option>
+                                
+                                    <option value="cauvin_thomas">cauvin_thomas</option>
+                                
+                                    <option value="boschetti_federico">boschetti_federico</option>
+                                
+                                    <option value="kloet_jeroen-de">kloet_jeroen-de</option>
+                                
+                                    <option value="dziekan_vincent">dziekan_vincent</option>
+                                
+                                    <option value="madden_amanda">madden_amanda</option>
+                                
+                                    <option value="wuttke_ulrike">wuttke_ulrike</option>
+                                
+                                    <option value="rettberg_scott">rettberg_scott</option>
+                                
+                                    <option value="stagg_lucy">stagg_lucy</option>
+                                
+                                    <option value="...">...</option>
+                                
+                                    <option value="stoehr_thierry">stoehr_thierry</option>
+                                
+                                    <option value="poulain_pierre">poulain_pierre</option>
+                                
+                                    <option value="ritz_olivier">ritz_olivier</option>
+                                
+                                    <option value="flipo_fabrice">flipo_fabrice</option>
+                                
+                                    <option value="bloomfield_camille">bloomfield_camille</option>
+                                
+                                    <option value="tadier_elsa">tadier_elsa</option>
+                                
+                                    <option value="ysebaert_ronan">ysebaert_ronan</option>
+                                
+                                    <option value="deguin_yohann">deguin_yohann</option>
+                                
+                                    <option value="abiven_karine">abiven_karine</option>
+                                
+                                    <option value="bartz_alexandre">bartz_alexandre</option>
+                                
+                                    <option value="saignol_come">saignol_come</option>
+                                
+                                    <option value="gabay_simon">gabay_simon</option>
+                                
+                                    <option value="borgna_alice">borgna_alice</option>
+                                
+                                    <option value="da-costa_georges">da-costa_georges</option>
+                                
+                                    <option value="lucciano_melanie">lucciano_melanie</option>
+                                
+                                    <option value="hodel_tobias">hodel_tobias</option>
+                                
+                                    <option value="luzi_christophe">luzi_christophe</option>
+                                
+                                    <option value="gherardi_eugene">gherardi_eugene</option>
+                                
+                                    <option value="walter_richard">walter_richard</option>
+                                
+                                    <option value="bohnert_celine">bohnert_celine</option>
+                                
+                                    <option value="garcia-fernandez_anne">garcia-fernandez_anne</option>
+                                
+                                    <option value="saint-raymond_lea">saint-raymond_lea</option>
+                                
+                                    <option value="reach-ngo_anne">reach-ngo_anne</option>
+                                
+                                    <option value="balmon_theodora">balmon_theodora</option>
+                                
+                                    <option value="piazza_linda">piazza_linda</option>
+                                
+                                    <option value="henny-krahmer_ulrike">henny-krahmer_ulrike</option>
+                                
+                                    <option value="jettka_daniel">jettka_daniel</option>
+                                
+                                    <option value="anne_ferger">anne_ferger</option>
+                                
+                                    <option value="nantke_julia">nantke_julia</option>
+                                
+                                    <option value="roeder_torsten">roeder_torsten</option>
+                                
+                                    <option value="alvares-freire_fernanda">alvares-freire_fernanda</option>
+                                
+                                    <option value="mischke_dennis">mischke_dennis</option>
+                                
+                                    <option value="bermúdez-sabel_helena">bermúdez-sabel_helena</option>
+                                
+                                    <option value="kassner_fabian">kassner_fabian</option>
+                                
+                                    <option value="krueger_frank">krueger_frank</option>
+                                
+                                    <option value="theise_antje">theise_antje</option>
+                                
+                                    <option value="schroeder_max">schroeder_max</option>
+                                
+                                    <option value="reichelt_manuela">reichelt_manuela</option>
+                                
+                                    <option value="eggert_anja">eggert_anja</option>
+                                
+                                    <option value="uribe_jorge">uribe_jorge</option>
+                                
+                                    <option value="sepulveda_pedro">sepulveda_pedro</option>
+                                
+                                    <option value="carmo_ines-rebelo-do">carmo_ines-rebelo-do</option>
+                                
+                                    <option value="renz_erik">renz_erik</option>
+                                
+                                    <option value="labahn_karsten">labahn_karsten</option>
+                                
+                                    <option value="herrmann_berenike">herrmann_berenike</option>
+                                
+                                    <option value="lemke_marc">lemke_marc</option>
+                                
+                                    <option value="kellner_nils">kellner_nils</option>
+                                
+                                    <option value="himstedt-vaid_petra">himstedt-vaid_petra</option>
+                                
+                                    <option value="meyer_holger">meyer_holger</option>
+                                
+                                    <option value="raeder_andy">raeder_andy</option>
+                                
+                                    <option value="schumacher_mareike">schumacher_mareike</option>
+                                
+                                    <option value="vetter_angila">vetter_angila</option>
+                                
+                                    <option value="dumont_stefan">dumont_stefan</option>
+                                
+                                    <option value="lasch_alexander">lasch_alexander</option>
+                                
+                                    <option value="mueller_caroline">mueller_caroline</option>
+                                
+                                    <option value="berti_monica">berti_monica</option>
+                                
+                                    <option value="hall_mark">hall_mark</option>
+                                
+                                    <option value="kostresevic_milan">kostresevic_milan</option>
+                                
+                                    <option value="fischer_frank">fischer_frank</option>
+                                
+                                    <option value="al-suadi_soham">al-suadi_soham</option>
+                                
+                                    <option value="werner_christoph">werner_christoph</option>
+                                
+                                    <option value="cugliana_elisa">cugliana_elisa</option>
+                                
+                                    <option value="pilhofer_philipp">pilhofer_philipp</option>
+                                
+                                    <option value="wagner_martin">wagner_martin</option>
+                                
+                                    <option value="hoeltgen_stefan">hoeltgen_stefan</option>
+                                
+                                    <option value="baillot_anne">baillot_anne</option>
+                                
+                                    <option value="schroeter_julian">schroeter_julian</option>
+                                
+                                    <option value="vandewalle_alexander">vandewalle_alexander</option>
+                                
+                                    <option value="spinelli_julian">spinelli_julian</option>
+                                
+                                    <option value="veit_torsten">veit_torsten</option>
+                                
+                                    <option value="neovesky_anna">neovesky_anna</option>
+                                
+                                    <option value="cap_clemens">cap_clemens</option>
+                                
+                                    <option value="sucharowski_wolfgang">sucharowski_wolfgang</option>
+                                
+                                    <option value="kroll_stefan">kroll_stefan</option>
+                                
+                                    <option value="poder_johann-christian">poder_johann-christian</option>
+                                
+                                    <option value="gius_evelyn">gius_evelyn</option>
+                                
+                                    <option value="mende_jana-katharina">mende_jana-katharina</option>
+                                
+                                    <option value="dennerlein_katrin">dennerlein_katrin</option>
+                                
+                                    <option value="verhoeven_deb">verhoeven_deb</option>
+                                
+                                    <option value="fischer_hanna">fischer_hanna</option>
+                                
+                                    <option value="giovannini_luca">giovannini_luca</option>
+                                
+                                    <option value="greinert_cordula">greinert_cordula</option>
+                                
+                                    <option value="franken_lina">franken_lina</option>
+                                
+                                    <option value="tomic_marijana">tomic_marijana</option>
+                                
+                                    <option value="deicke_aline">deicke_aline</option>
+                                
+                                    <option value="rio-riande_gimena-del">rio-riande_gimena-del</option>
+                                
+                                    <option value="nilsson-fernandez_pedro">nilsson-fernandez_pedro</option>
+                                
+                                    <option value="scholger_martina">scholger_martina</option>
+                                
+                                    <option value="rojas-castro_antonio">rojas-castro_antonio</option>
+                                
+                                    <option value="keith_allison">keith_allison</option>
+                                
+                                    <option value="beine_julia-jennifer">beine_julia-jennifer</option>
+                                
+                                    <option value="skorinkin_daniil">skorinkin_daniil</option>
+                                
+                                    <option value="baumann_mario">baumann_mario</option>
+                                
+                                    <option value="diebel-fischer_hermann">diebel-fischer_hermann</option>
+                                
+                                    <option value="wuerzner_kay-michael">wuerzner_kay-michael</option>
+                                
+                                    <option value="menold_natalja">menold_natalja</option>
+                                
+                                    <option value="halpern_orit">halpern_orit</option>
+                                
+                                    <option value="meier-vieracker_simon">meier-vieracker_simon</option>
+                                
+                                    <option value="de-cesare_anna-maria">de-cesare_anna-maria</option>
+                                
+                                    <option value="schankweiler_kerstin">schankweiler_kerstin</option>
+                                
+                                    <option value="straub_verena">straub_verena</option>
+                                
+                                    <option value="bartels_hauke">bartels_hauke</option>
+                                
+                                    <option value="kneuer_marianne">kneuer_marianne</option>
+                                
+                                    <option value="langner_anke">langner_anke</option>
+                                
+                                    <option value="rutz_andreas">rutz_andreas</option>
+                                
+                                    <option value="uhrig_peter">uhrig_peter</option>
+                                
+                                    <option value="klammt_anne">klammt_anne</option>
+                                
+                                    <option value="dressen_angela">dressen_angela</option>
+                                
+                                    <option value="zloch_stephanie">zloch_stephanie</option>
+                                
+                                    <option value="herrmann_mathias">herrmann_mathias</option>
+                                
+                                    <option value="reimer_martin">reimer_martin</option>
+                                
+                                    <option value="frommherz_yannick">frommherz_yannick</option>
+                                
+                                    <option value="langenhorst_jan">langenhorst_jan</option>
+                                
+                                    <option value="heilmann_jan">heilmann_jan</option>
+                                
+                                    <option value="garces_juan">garces_juan</option>
+                                
+                                    <option value="lachmund_anne-marie">lachmund_anne-marie</option>
+                                
+                                    <option value="razniewski_simon">razniewski_simon</option>
+                                
+                                    <option value="christoph_ralf">christoph_ralf</option>
+                                
+                                    <option value="mattern_anna">mattern_anna</option>
+                                
+                                    <option value="hachmeister_maren">hachmeister_maren</option>
+                                
+                                    <option value="koehler_thomas">koehler_thomas</option>
+                                
+                                    <option value="schaarschmidt_nadine">schaarschmidt_nadine</option>
+                                
+                                    <option value="hessbrueggen-walter_stefan">hessbrueggen-walter_stefan</option>
+                                
+                                    <option value="langner_martin">langner_martin</option>
+                                
+                                    <option value="edmond_jennifer">edmond_jennifer</option>
+                                
+                                    <option value="escobar-varela_miguel">escobar-varela_miguel</option>
+                                
+                                    <option value="cakir_dilan-canan">cakir_dilan-canan</option>
+                                
+                                    <option value="orekhov_boris">orekhov_boris</option>
+                                
+                                    <option value="gengnagel_tessa">gengnagel_tessa</option>
+                                
+                                    <option value="gutierrez_silvia">gutierrez_silvia</option>
+                                
+                                    <option value="herbst_benjamin">herbst_benjamin</option>
+                                
+                                    <option value="duan_tinghui">duan_tinghui</option>
+                                
+                                    <option value="wontorra_lena">wontorra_lena</option>
+                                
+                                    <option value="chen_beijia">chen_beijia</option>
+                                
+                                    <option value="lubin_jonah">lubin_jonah</option>
+                                
+                                    <option value="schaefer_lea">schaefer_lea</option>
+                                
+                                    <option value="poggel_lisa">poggel_lisa</option>
+                                
+                                    <option value="rodighiero_dario">rodighiero_dario</option>
+                                
+                                    <option value="hilger_agnes">hilger_agnes</option>
+                                
+                                    <option value="murath_antonia">murath_antonia</option>
+                                
+                                    <option value="gruenler_johanna">gruenler_johanna</option>
+                                
+                                    <option value="hiergeist_annalena">hiergeist_annalena</option>
+                                
+                                    <option value="wolle_nikolai">wolle_nikolai</option>
+                                
+                                    <option value="beyer_andrea">beyer_andrea</option>
+                                
+                                    <option value="schulz_konstantin">schulz_konstantin</option>
+                                
+                                    <option value="schwindt_mark">schwindt_mark</option>
+                                
+                                    <option value="panuskova_charlotte">panuskova_charlotte</option>
+                                
+                                    <option value="hercher_johannes">hercher_johannes</option>
+                                
+                                    <option value="rehse_birgit">rehse_birgit</option>
+                                
+                                    <option value="harris_ashleigh">harris_ashleigh</option>
+                                
+                                    <option value="falk_michael">falk_michael</option>
+                                
+                                    <option value="untner_laura">untner_laura</option>
+                                
+                                    <option value="weimann_hanna">weimann_hanna</option>
+                                
+                                    <option value="metilli_daniele">metilli_daniele</option>
+                                
+                                    <option value="desmet_gabrielle">desmet_gabrielle</option>
+                                
+                                    <option value="ondraszek_sarah-rebecca">ondraszek_sarah-rebecca</option>
+                                
+                                    <option value="sobchuk_oleg">sobchuk_oleg</option>
+                                
+                                    <option value="manovich_lev">manovich_lev</option>
+                                
+                                    <option value="rybicki_jan">rybicki_jan</option>
+                                
+                                    <option value="holobut_agata">holobut_agata</option>
+                                
+                                    <option value="glawion_anastasia">glawion_anastasia</option>
+                                
+                                    <option value="dawson_john">dawson_john</option>
+                                
+                                    <option value="konle_leonard">konle_leonard</option>
+                                
+                                    <option value="guhr_svenja">guhr_svenja</option>
+                                
+                                    <option value="porter_james-david">porter_james-david</option>
+                                
+                                    <option value="resch_claudia">resch_claudia</option>
+                                
+                                    <option value="sanderson_rob">sanderson_rob</option>
+                                
+                                    <option value="treharne_elaine">treharne_elaine</option>
+                                
+                                    <option value="bassett_caroline">bassett_caroline</option>
+                                
+                                    <option value="noichl_maximilian">noichl_maximilian</option>
+                                
+                                    <option value="lang_sarah">lang_sarah</option>
+                                
+                                    <option value="stockhausen_annette-von">stockhausen_annette-von</option>
+                                
+                                    <option value="pence_charles">pence_charles</option>
+                                
+                                    <option value="iurescia_federica">iurescia_federica</option>
+                                
+                                    <option value="parisi_maria-chiara">parisi_maria-chiara</option>
+                                
+                                    <option value="sprugnoli_rachele">sprugnoli_rachele</option>
+                                
+                                    <option value="schwabe_fabian">schwabe_fabian</option>
+                                
+                                    <option value="zirker_angelika">zirker_angelika</option>
+                                
+                                    <option value="patzold_steffen">patzold_steffen</option>
+                                
+                                    <option value="wust_markus">wust_markus</option>
+                                
+                                    <option value="worm_andrea">worm_andrea</option>
+                                
+                                    <option value="goerss_eleanor">goerss_eleanor</option>
+                                
+                                    <option value="bleier_roman">bleier_roman</option>
+                                
+                                    <option value="koerner_kevin">koerner_kevin</option>
+                                
+                                    <option value="achimova_asya">achimova_asya</option>
+                                
+                                    <option value="eufe_rembert">eufe_rembert</option>
+                                
+                                    <option value="bauer_matthias">bauer_matthias</option>
+                                
+                                    <option value="darilek_marion">darilek_marion</option>
+                                
+                                    <option value="morent_stefan">morent_stefan</option>
+                                
+                                    <option value="cole_nicholas">cole_nicholas</option>
+                                
+                                    <option value="hannesschlaeger_vanessa">hannesschlaeger_vanessa</option>
+                                
+                                    <option value="hughes_lorna">hughes_lorna</option>
+                                
+                                    <option value="stular_benjamin">stular_benjamin</option>
+                                
+                                    <option value="romanov_maxim">romanov_maxim</option>
+                                
+                                    <option value="van-hyning_victoria">van-hyning_victoria</option>
+                                
+                                    <option value="preiser-kapeller_johannes">preiser-kapeller_johannes</option>
+                                
+                                    <option value="zuanni_chiara">zuanni_chiara</option>
+                                
+                                    <option value="fellner_hannes">fellner_hannes</option>
+                                
+                                    <option value="windhager_florian">windhager_florian</option>
+                                
+                                    <option value="koentges_thomas">koentges_thomas</option>
+                                
+                                    <option value="trinks_immo">trinks_immo</option>
+                                
+                                    <option value="moerth_karlheinz">moerth_karlheinz</option>
+                                
+                                    <option value="eichert_stefan">eichert_stefan</option>
+                                
+                                    <option value="prager_katharina">prager_katharina</option>
+                                
+                                    <option value="fritze_christiane">fritze_christiane</option>
+                                
+                                    <option value="frasca-rath_anna">frasca-rath_anna</option>
+                                
+                                    <option value="kahn_rebecca">kahn_rebecca</option>
+                                
+                                    <option value="high-steskal_nicole">high-steskal_nicole</option>
+                                
+                                    <option value="mayer_sandra">mayer_sandra</option>
+                                
+                                    <option value="fruehwirth_timo">fruehwirth_timo</option>
+                                
+                                    <option value="brenner_simon">brenner_simon</option>
+                                
+                                    <option value="gruber_doris">gruber_doris</option>
+                                
+                                    <option value="linser_nora">linser_nora</option>
+                                
+                                    <option value="nussbaumer_lisa">nussbaumer_lisa</option>
+                                
+                                    <option value="vogeler_georg">vogeler_georg</option>
+                                
+                                    <option value="lucchesi_anita">lucchesi_anita</option>
+                                
+                                    <option value="rastinger_nina">rastinger_nina</option>
+                                
+                                    <option value="witt_andreas">witt_andreas</option>
+                                
+                                    <option value="wiederaenders_maria">wiederaenders_maria</option>
+                                
+                                    <option value="woldrich_anna">woldrich_anna</option>
+                                
+                                    <option value="odijk_jan">odijk_jan</option>
+                                
+                                    <option value="backes_marianne">backes_marianne</option>
+                                
+                                    <option value="arthur_paul">arthur_paul</option>
+                                
+                                    <option value="huang_marianne">huang_marianne</option>
+                                
+                                    <option value="schnapp_jeffrey">schnapp_jeffrey</option>
+                                
+                                    <option value="baker_keith-michael">baker_keith-michael</option>
+                                
+                                    <option value="angeletaki_alexandra">angeletaki_alexandra</option>
+                                
+                                    <option value="ommer_björn">ommer_björn</option>
+                                
+                                    <option value="crane_gregory">crane_gregory</option>
+                                
+                                    <option value="harrower_natalie">harrower_natalie</option>
+                                
+                                    <option value="tulp_jan-willem">tulp_jan-willem</option>
+                                
+                                    <option value="meyer_miriah">meyer_miriah</option>
+                                
+                                    <option value="van-erp_marieke">van-erp_marieke</option>
+                                
+                                    <option value="romary_laurent">romary_laurent</option>
+                                
+                                    <option value="wissik_tanja">wissik_tanja</option>
+                                
+                                    <option value="acquavella-rauch_stefanie">acquavella-rauch_stefanie</option>
+                                
+                                    <option value="hovy_dirk">hovy_dirk</option>
+                                
+                                    <option value="bateman_john">bateman_john</option>
+                                
+                                    <option value="kohle_hubertus">kohle_hubertus</option>
+                                
+                                    <option value="schneider_stefanie">schneider_stefanie</option>
+                                
+                                    <option value="wiencek_florian">wiencek_florian</option>
+                                
+                                    <option value="rogers_richard">rogers_richard</option>
+                                
+                                    <option value="heath_sebastian">heath_sebastian</option>
+                                
+                                    <option value="schich_maximilian">schich_maximilian</option>
+                                
+                                    <option value="luther_anne">luther_anne</option>
+                                
+                                    <option value="koenigshofer_elisabeth">koenigshofer_elisabeth</option>
+                                
+                                    <option value="rabus_achim">rabus_achim</option>
+                                
+                                    <option value="tasovac_toma">tasovac_toma</option>
+                                
+                                    <option value="bonch-osmolovskaya_anastasia">bonch-osmolovskaya_anastasia</option>
+                                
+                                    <option value="horvath_aliz">horvath_aliz</option>
+                                
+                                    <option value="blanke_tobias">blanke_tobias</option>
+                                
+                                    <option value="dusinberre_martin">dusinberre_martin</option>
+                                
+                                    <option value="mcdonald_daniel">mcdonald_daniel</option>
+                                
+                                    <option value="feiner_leyla">feiner_leyla</option>
+                                
+                                    <option value="piotrowski_michael">piotrowski_michael</option>
+                                
+                                    <option value="schwandt_silke">schwandt_silke</option>
+                                
+                                    <option value="bell_peter">bell_peter</option>
+                                
+                                    <option value="grandjean_martin">grandjean_martin</option>
+                                
+                                    <option value="schneider_christa">schneider_christa</option>
+                                
+                                    <option value="rosenthaler_lukas">rosenthaler_lukas</option>
+                                
+                                    <option value="nehrlich_thomas">nehrlich_thomas</option>
+                                
+                                    <option value="fendt_kurt">fendt_kurt</option>
+                                
+                                    <option value="schwarz-zanetti_gabriela">schwarz-zanetti_gabriela</option>
+                                
+                                    <option value="heinzmann_lukas">heinzmann_lukas</option>
+                                
+                                    <option value="reichen_roland">reichen_roland</option>
+                                
+                                    <option value="raciti_silvio">raciti_silvio</option>
+                                
+                                    <option value="zihlmann_patricia">zihlmann_patricia</option>
+                                
+                                    <option value="zimmermann_christian-von">zimmermann_christian-von</option>
+                                
+                                    <option value="schmid_jimmy">schmid_jimmy</option>
+                                
+                                    <option value="stuber_martin">stuber_martin</option>
+                                
+                                    <option value="metz_bernhard">metz_bernhard</option>
+                                
+                                    <option value="kohler_daniela">kohler_daniela</option>
+                                
+                                    <option value="sahle_patrick">sahle_patrick</option>
+                                
+                                    <option value="sutter_pascale">sutter_pascale</option>
+                                
+                                    <option value="ruef_bernhard">ruef_bernhard</option>
+                                
+                                    <option value="gubler_kaspar">gubler_kaspar</option>
+                                
+                                    <option value="abel_stefan">abel_stefan</option>
+                                
+                                    <option value="jaillant_lise">jaillant_lise</option>
+                                
+                                    <option value="marthot-santaniello_isabelle">marthot-santaniello_isabelle</option>
+                                
+                                    <option value="serif_ina">serif_ina</option>
+                                
+                                    <option value="jobin_anna">jobin_anna</option>
+                                
+                                    <option value="fornaro_peter">fornaro_peter</option>
+                                
+                                    <option value="felsing_ulrike">felsing_ulrike</option>
+                                
+                                    <option value="sanchez_joan-andreu">sanchez_joan-andreu</option>
+                                
+                                    <option value="toselli_alejandro-hector">toselli_alejandro-hector</option>
+                                
+                                    <option value="gasser_sonja">gasser_sonja</option>
+                                
+                                    <option value="maehr_moritz">maehr_moritz</option>
+                                
+                                    <option value="pfister_eugen">pfister_eugen</option>
+                                
+                                    <option value="hurel_pierre-yves">hurel_pierre-yves</option>
+                                
+                                    <option value="bemelmans_sophie">bemelmans_sophie</option>
+                                
+                                    <option value="rochat_yannick">rochat_yannick</option>
+                                
+                                    <option value="kato_hiloko">kato_hiloko</option>
+                                
+                                    <option value="wild_larissa">wild_larissa</option>
+                                
+                                    <option value="krummenacher_dave">krummenacher_dave</option>
+                                
+                                    <option value="burghardt_manuel">burghardt_manuel</option>
+                                
+                                    <option value="brandenburg_aurelia">brandenburg_aurelia</option>
+                                
+                                    <option value="demleitner_adrian">demleitner_adrian</option>
+                                
+                                    <option value="wildi_tobias">wildi_tobias</option>
+                                
+                                    <option value="spadini_elena">spadini_elena</option>
+                                
+                                    <option value="weilinghof_andreas">weilinghof_andreas</option>
+                                
+                                    <option value="kapitan_katarzyna-anna">kapitan_katarzyna-anna</option>
+                                
+                                    <option value="beisbart_claus">beisbart_claus</option>
+                                
+                                    <option value="feichtinger_moritz">feichtinger_moritz</option>
+                                
+                                    <option value="bubenhofer_noah">bubenhofer_noah</option>
+                                
+                                    <option value="dufaux_alain">dufaux_alain</option>
+                                
+                                    <option value="gries_christian">gries_christian</option>
+                                
+                                    <option value="taes_sofie">taes_sofie</option>
+                                
+                                    <option value="jehle_bruno">jehle_bruno</option>
+                                
+                                    <option value="sibille_christiane">sibille_christiane</option>
+                                
+                                    <option value="zimmermann_dorothea">zimmermann_dorothea</option>
+                                
+                                    <option value="stoffel_isabelle">stoffel_isabelle</option>
+                                
+                                    <option value="katz_brian">katz_brian</option>
+                                
+                                    <option value="jaquet_daniel">jaquet_daniel</option>
+                                
+                                    <option value="himmelsbach_sabine">himmelsbach_sabine</option>
+                                
+                                    <option value="melone_mirco">melone_mirco</option>
+                                
+                                    <option value="maget-dominice_antoinette">maget-dominice_antoinette</option>
+                                
+                                    <option value="akarcay_guenhan">akarcay_guenhan</option>
+                                
+                                    <option value="strasser_marc">strasser_marc</option>
+                                
+                                    <option value="burkart_lucas">burkart_lucas</option>
+                                
+                                    <option value="hockey_susan">hockey_susan</option>
+                                
+                                    <option value="drucker_johanna">drucker_johanna</option>
+                                
+                                    <option value="bruegger_niels">bruegger_niels</option>
+                                
+                                    <option value="meghini_carlo">meghini_carlo</option>
+                                
+                                    <option value="roueche_charlotte">roueche_charlotte</option>
+                                
+                                    <option value="bown_alfie">bown_alfie</option>
+                                
+                                    <option value="niklas_jedrzej">niklas_jedrzej</option>
+                                
+                                    <option value="brenner_leon">brenner_leon</option>
+                                
+                                    <option value="everitt_katherine">everitt_katherine</option>
+                                
+                                    <option value="dzakula_jelena">dzakula_jelena</option>
+                                
+                                    <option value="vrikki_photini">vrikki_photini</option>
+                                
+                                    <option value="oreglia_elisa">oreglia_elisa</option>
+                                
+                                    <option value="chonka_peter">chonka_peter</option>
+                                
+                                    <option value="mathew_ashwin">mathew_ashwin</option>
+                                
+                                    <option value="gibson_laura">gibson_laura</option>
+                                
+                                    <option value="cheong_niki">cheong_niki</option>
+                                
+                                    <option value="zaborowski_rafal">zaborowski_rafal</option>
+                                
+                                    <option value="moreno-almeida_cristina">moreno-almeida_cristina</option>
+                                
+                                    <option value="chavez-heras_daniel">chavez-heras_daniel</option>
+                                
+                                    <option value="bunz_mercedes">bunz_mercedes</option>
+                                
+                                    <option value="devlin_kate">devlin_kate</option>
+                                
+                                    <option value="bruun_mikkel-kenni">bruun_mikkel-kenni</option>
+                                
+                                    <option value="peacock_vita">peacock_vita</option>
+                                
+                                    <option value="mitchell_rebecca">mitchell_rebecca</option>
+                                
+                                    <option value="abbott_helen">abbott_helen</option>
+                                
+                                    <option value="ward_aengus">ward_aengus</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "biasiori_lucio", "label": "biasiori_lucio", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wallnig_thomas", "label": "wallnig_thomas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "donadelli_giovanni", "label": "donadelli_giovanni", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "xie_shi", "label": "xie_shi", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "orlandi_marco", "label": "orlandi_marco", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "elice_martina", "label": "elice_martina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ferrarese_francesco", "label": "ferrarese_francesco", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bernardi_teresa", "label": "bernardi_teresa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zilio_daniel", "label": "zilio_daniel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "novello_elisabetta", "label": "novello_elisabetta", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chemello_marco", "label": "chemello_marco", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mazzini_federico", "label": "mazzini_federico", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rabbiosi_chiara", "label": "rabbiosi_chiara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lubian_francesco", "label": "lubian_francesco", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "andrews_tara", "label": "andrews_tara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fischer_franz", "label": "fischer_franz", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "monachini_monica", "label": "monachini_monica", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "buzzoni_marina", "label": "buzzoni_marina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fern\u00e1ndez-castrillo_carolina", "label": "fern\u00e1ndez-castrillo_carolina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "monella_paolo", "label": "monella_paolo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "campagnolo_alberto", "label": "campagnolo_alberto", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tomasi_francesca", "label": "tomasi_francesca", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tonelli_sara", "label": "tonelli_sara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "corro_elisa", "label": "corro_elisa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fusi_daniele", "label": "fusi_daniele", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "delmonte_rodolfo", "label": "delmonte_rodolfo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "redmond_marie", "label": "redmond_marie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tramelli_barbara", "label": "tramelli_barbara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "campus_leonardo", "label": "campus_leonardo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mantoan_diego", "label": "mantoan_diego", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "evans_tanya", "label": "evans_tanya", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "van-zundert_joris", "label": "van-zundert_joris", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "may_sarah", "label": "may_sarah", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "huskey_samuel", "label": "huskey_samuel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dutta_abhishek", "label": "dutta_abhishek", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "malaspina_matilde", "label": "malaspina_matilde", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "priego_ernesto", "label": "priego_ernesto", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "severo_marta", "label": "severo_marta", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "toth_michael-b", "label": "toth_michael-b", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "nevola_fabrizio", "label": "nevola_fabrizio", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hermens_erma", "label": "hermens_erma", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "forte_maurizio", "label": "forte_maurizio", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mancinelli_tiziana", "label": "mancinelli_tiziana", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kiss_d\u00e1niel", "label": "kiss_d\u00e1niel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "siemens_ray", "label": "siemens_ray", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "arbuckle_alyssa", "label": "arbuckle_alyssa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dell-unto_nicolo", "label": "dell-unto_nicolo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bernini_rita", "label": "bernini_rita", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "luzon_jose-maria", "label": "luzon_jose-maria", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "misiti_maria-cristina", "label": "misiti_maria-cristina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "daquino_marilena", "label": "daquino_marilena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gallia_arturo", "label": "gallia_arturo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pavlopoulos_ioannis", "label": "pavlopoulos_ioannis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gil_tiago-luis", "label": "gil_tiago-luis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "camps_jean-baptiste", "label": "camps_jean-baptiste", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mcgillivray_barbara", "label": "mcgillivray_barbara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dieckmann_lisa", "label": "dieckmann_lisa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "berti_paolo", "label": "berti_paolo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "macchiarelli_agnese", "label": "macchiarelli_agnese", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "danelon_nevio", "label": "danelon_nevio", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "williams_sean", "label": "williams_sean", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dolcetti_francesca", "label": "dolcetti_francesca", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "galeazzo_ludovica", "label": "galeazzo_ludovica", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "maietti_federica", "label": "maietti_federica", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "carbe_emmanuela", "label": "carbe_emmanuela", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bessi_benedetta", "label": "bessi_benedetta", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "algee-hewitt_mark", "label": "algee-hewitt_mark", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lenci_alessandro", "label": "lenci_alessandro", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "damiano_rossana", "label": "damiano_rossana", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "robinson_peter", "label": "robinson_peter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "caloi_ilaria", "label": "caloi_ilaria", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bernardini_federico", "label": "bernardini_federico", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cauvin_thomas", "label": "cauvin_thomas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "boschetti_federico", "label": "boschetti_federico", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kloet_jeroen-de", "label": "kloet_jeroen-de", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dziekan_vincent", "label": "dziekan_vincent", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "madden_amanda", "label": "madden_amanda", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wuttke_ulrike", "label": "wuttke_ulrike", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rettberg_scott", "label": "rettberg_scott", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stagg_lucy", "label": "stagg_lucy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "...", "label": "...", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stoehr_thierry", "label": "stoehr_thierry", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "poulain_pierre", "label": "poulain_pierre", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ritz_olivier", "label": "ritz_olivier", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "flipo_fabrice", "label": "flipo_fabrice", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bloomfield_camille", "label": "bloomfield_camille", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tadier_elsa", "label": "tadier_elsa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ysebaert_ronan", "label": "ysebaert_ronan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "deguin_yohann", "label": "deguin_yohann", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "abiven_karine", "label": "abiven_karine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bartz_alexandre", "label": "bartz_alexandre", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "saignol_come", "label": "saignol_come", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gabay_simon", "label": "gabay_simon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "borgna_alice", "label": "borgna_alice", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "da-costa_georges", "label": "da-costa_georges", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lucciano_melanie", "label": "lucciano_melanie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hodel_tobias", "label": "hodel_tobias", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "luzi_christophe", "label": "luzi_christophe", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gherardi_eugene", "label": "gherardi_eugene", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "walter_richard", "label": "walter_richard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bohnert_celine", "label": "bohnert_celine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "garcia-fernandez_anne", "label": "garcia-fernandez_anne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "saint-raymond_lea", "label": "saint-raymond_lea", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reach-ngo_anne", "label": "reach-ngo_anne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "balmon_theodora", "label": "balmon_theodora", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "piazza_linda", "label": "piazza_linda", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "henny-krahmer_ulrike", "label": "henny-krahmer_ulrike", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "jettka_daniel", "label": "jettka_daniel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "anne_ferger", "label": "anne_ferger", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "nantke_julia", "label": "nantke_julia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "roeder_torsten", "label": "roeder_torsten", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "alvares-freire_fernanda", "label": "alvares-freire_fernanda", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mischke_dennis", "label": "mischke_dennis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "berm\u00fadez-sabel_helena", "label": "berm\u00fadez-sabel_helena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kassner_fabian", "label": "kassner_fabian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "krueger_frank", "label": "krueger_frank", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "theise_antje", "label": "theise_antje", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schroeder_max", "label": "schroeder_max", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reichelt_manuela", "label": "reichelt_manuela", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "eggert_anja", "label": "eggert_anja", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "uribe_jorge", "label": "uribe_jorge", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sepulveda_pedro", "label": "sepulveda_pedro", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "carmo_ines-rebelo-do", "label": "carmo_ines-rebelo-do", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "renz_erik", "label": "renz_erik", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "labahn_karsten", "label": "labahn_karsten", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "herrmann_berenike", "label": "herrmann_berenike", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lemke_marc", "label": "lemke_marc", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kellner_nils", "label": "kellner_nils", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "himstedt-vaid_petra", "label": "himstedt-vaid_petra", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "meyer_holger", "label": "meyer_holger", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "raeder_andy", "label": "raeder_andy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schumacher_mareike", "label": "schumacher_mareike", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "vetter_angila", "label": "vetter_angila", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dumont_stefan", "label": "dumont_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lasch_alexander", "label": "lasch_alexander", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mueller_caroline", "label": "mueller_caroline", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "berti_monica", "label": "berti_monica", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hall_mark", "label": "hall_mark", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kostresevic_milan", "label": "kostresevic_milan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fischer_frank", "label": "fischer_frank", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "al-suadi_soham", "label": "al-suadi_soham", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "werner_christoph", "label": "werner_christoph", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cugliana_elisa", "label": "cugliana_elisa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pilhofer_philipp", "label": "pilhofer_philipp", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wagner_martin", "label": "wagner_martin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hoeltgen_stefan", "label": "hoeltgen_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "baillot_anne", "label": "baillot_anne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schroeter_julian", "label": "schroeter_julian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "vandewalle_alexander", "label": "vandewalle_alexander", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "spinelli_julian", "label": "spinelli_julian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "veit_torsten", "label": "veit_torsten", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "neovesky_anna", "label": "neovesky_anna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cap_clemens", "label": "cap_clemens", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sucharowski_wolfgang", "label": "sucharowski_wolfgang", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kroll_stefan", "label": "kroll_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "poder_johann-christian", "label": "poder_johann-christian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gius_evelyn", "label": "gius_evelyn", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mende_jana-katharina", "label": "mende_jana-katharina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dennerlein_katrin", "label": "dennerlein_katrin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "verhoeven_deb", "label": "verhoeven_deb", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fischer_hanna", "label": "fischer_hanna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "giovannini_luca", "label": "giovannini_luca", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "greinert_cordula", "label": "greinert_cordula", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "franken_lina", "label": "franken_lina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tomic_marijana", "label": "tomic_marijana", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "deicke_aline", "label": "deicke_aline", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rio-riande_gimena-del", "label": "rio-riande_gimena-del", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "nilsson-fernandez_pedro", "label": "nilsson-fernandez_pedro", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "scholger_martina", "label": "scholger_martina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rojas-castro_antonio", "label": "rojas-castro_antonio", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "keith_allison", "label": "keith_allison", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "beine_julia-jennifer", "label": "beine_julia-jennifer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "skorinkin_daniil", "label": "skorinkin_daniil", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "baumann_mario", "label": "baumann_mario", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "diebel-fischer_hermann", "label": "diebel-fischer_hermann", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wuerzner_kay-michael", "label": "wuerzner_kay-michael", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "menold_natalja", "label": "menold_natalja", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "halpern_orit", "label": "halpern_orit", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "meier-vieracker_simon", "label": "meier-vieracker_simon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "de-cesare_anna-maria", "label": "de-cesare_anna-maria", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schankweiler_kerstin", "label": "schankweiler_kerstin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "straub_verena", "label": "straub_verena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bartels_hauke", "label": "bartels_hauke", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kneuer_marianne", "label": "kneuer_marianne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "langner_anke", "label": "langner_anke", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rutz_andreas", "label": "rutz_andreas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "uhrig_peter", "label": "uhrig_peter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "klammt_anne", "label": "klammt_anne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dressen_angela", "label": "dressen_angela", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zloch_stephanie", "label": "zloch_stephanie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "herrmann_mathias", "label": "herrmann_mathias", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reimer_martin", "label": "reimer_martin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "frommherz_yannick", "label": "frommherz_yannick", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "langenhorst_jan", "label": "langenhorst_jan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "heilmann_jan", "label": "heilmann_jan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "garces_juan", "label": "garces_juan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lachmund_anne-marie", "label": "lachmund_anne-marie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "razniewski_simon", "label": "razniewski_simon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "christoph_ralf", "label": "christoph_ralf", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mattern_anna", "label": "mattern_anna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hachmeister_maren", "label": "hachmeister_maren", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "koehler_thomas", "label": "koehler_thomas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schaarschmidt_nadine", "label": "schaarschmidt_nadine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hessbrueggen-walter_stefan", "label": "hessbrueggen-walter_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "langner_martin", "label": "langner_martin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "edmond_jennifer", "label": "edmond_jennifer", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "escobar-varela_miguel", "label": "escobar-varela_miguel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cakir_dilan-canan", "label": "cakir_dilan-canan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "orekhov_boris", "label": "orekhov_boris", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gengnagel_tessa", "label": "gengnagel_tessa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gutierrez_silvia", "label": "gutierrez_silvia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "herbst_benjamin", "label": "herbst_benjamin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "duan_tinghui", "label": "duan_tinghui", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wontorra_lena", "label": "wontorra_lena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chen_beijia", "label": "chen_beijia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lubin_jonah", "label": "lubin_jonah", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schaefer_lea", "label": "schaefer_lea", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "poggel_lisa", "label": "poggel_lisa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rodighiero_dario", "label": "rodighiero_dario", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hilger_agnes", "label": "hilger_agnes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "murath_antonia", "label": "murath_antonia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gruenler_johanna", "label": "gruenler_johanna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hiergeist_annalena", "label": "hiergeist_annalena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wolle_nikolai", "label": "wolle_nikolai", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "beyer_andrea", "label": "beyer_andrea", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schulz_konstantin", "label": "schulz_konstantin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schwindt_mark", "label": "schwindt_mark", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "panuskova_charlotte", "label": "panuskova_charlotte", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hercher_johannes", "label": "hercher_johannes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rehse_birgit", "label": "rehse_birgit", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "harris_ashleigh", "label": "harris_ashleigh", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "falk_michael", "label": "falk_michael", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "untner_laura", "label": "untner_laura", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "weimann_hanna", "label": "weimann_hanna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "metilli_daniele", "label": "metilli_daniele", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "desmet_gabrielle", "label": "desmet_gabrielle", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ondraszek_sarah-rebecca", "label": "ondraszek_sarah-rebecca", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sobchuk_oleg", "label": "sobchuk_oleg", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "manovich_lev", "label": "manovich_lev", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rybicki_jan", "label": "rybicki_jan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "holobut_agata", "label": "holobut_agata", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "glawion_anastasia", "label": "glawion_anastasia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dawson_john", "label": "dawson_john", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "konle_leonard", "label": "konle_leonard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "guhr_svenja", "label": "guhr_svenja", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "porter_james-david", "label": "porter_james-david", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "resch_claudia", "label": "resch_claudia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sanderson_rob", "label": "sanderson_rob", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "treharne_elaine", "label": "treharne_elaine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bassett_caroline", "label": "bassett_caroline", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "noichl_maximilian", "label": "noichl_maximilian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lang_sarah", "label": "lang_sarah", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stockhausen_annette-von", "label": "stockhausen_annette-von", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pence_charles", "label": "pence_charles", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "iurescia_federica", "label": "iurescia_federica", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "parisi_maria-chiara", "label": "parisi_maria-chiara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sprugnoli_rachele", "label": "sprugnoli_rachele", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schwabe_fabian", "label": "schwabe_fabian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zirker_angelika", "label": "zirker_angelika", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "patzold_steffen", "label": "patzold_steffen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wust_markus", "label": "wust_markus", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "worm_andrea", "label": "worm_andrea", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "goerss_eleanor", "label": "goerss_eleanor", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bleier_roman", "label": "bleier_roman", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "koerner_kevin", "label": "koerner_kevin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "achimova_asya", "label": "achimova_asya", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "eufe_rembert", "label": "eufe_rembert", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bauer_matthias", "label": "bauer_matthias", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "darilek_marion", "label": "darilek_marion", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "morent_stefan", "label": "morent_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cole_nicholas", "label": "cole_nicholas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hannesschlaeger_vanessa", "label": "hannesschlaeger_vanessa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hughes_lorna", "label": "hughes_lorna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stular_benjamin", "label": "stular_benjamin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "romanov_maxim", "label": "romanov_maxim", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "van-hyning_victoria", "label": "van-hyning_victoria", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "preiser-kapeller_johannes", "label": "preiser-kapeller_johannes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zuanni_chiara", "label": "zuanni_chiara", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fellner_hannes", "label": "fellner_hannes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "windhager_florian", "label": "windhager_florian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "koentges_thomas", "label": "koentges_thomas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "trinks_immo", "label": "trinks_immo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "moerth_karlheinz", "label": "moerth_karlheinz", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "eichert_stefan", "label": "eichert_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "prager_katharina", "label": "prager_katharina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fritze_christiane", "label": "fritze_christiane", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "frasca-rath_anna", "label": "frasca-rath_anna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kahn_rebecca", "label": "kahn_rebecca", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "high-steskal_nicole", "label": "high-steskal_nicole", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mayer_sandra", "label": "mayer_sandra", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fruehwirth_timo", "label": "fruehwirth_timo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "brenner_simon", "label": "brenner_simon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gruber_doris", "label": "gruber_doris", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "linser_nora", "label": "linser_nora", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "nussbaumer_lisa", "label": "nussbaumer_lisa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "vogeler_georg", "label": "vogeler_georg", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lucchesi_anita", "label": "lucchesi_anita", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rastinger_nina", "label": "rastinger_nina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "witt_andreas", "label": "witt_andreas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wiederaenders_maria", "label": "wiederaenders_maria", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "woldrich_anna", "label": "woldrich_anna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "odijk_jan", "label": "odijk_jan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "backes_marianne", "label": "backes_marianne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "arthur_paul", "label": "arthur_paul", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "huang_marianne", "label": "huang_marianne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schnapp_jeffrey", "label": "schnapp_jeffrey", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "baker_keith-michael", "label": "baker_keith-michael", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "angeletaki_alexandra", "label": "angeletaki_alexandra", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ommer_bj\u00f6rn", "label": "ommer_bj\u00f6rn", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "crane_gregory", "label": "crane_gregory", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "harrower_natalie", "label": "harrower_natalie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tulp_jan-willem", "label": "tulp_jan-willem", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "meyer_miriah", "label": "meyer_miriah", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "van-erp_marieke", "label": "van-erp_marieke", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "romary_laurent", "label": "romary_laurent", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wissik_tanja", "label": "wissik_tanja", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "acquavella-rauch_stefanie", "label": "acquavella-rauch_stefanie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hovy_dirk", "label": "hovy_dirk", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bateman_john", "label": "bateman_john", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kohle_hubertus", "label": "kohle_hubertus", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schneider_stefanie", "label": "schneider_stefanie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wiencek_florian", "label": "wiencek_florian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rogers_richard", "label": "rogers_richard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "heath_sebastian", "label": "heath_sebastian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schich_maximilian", "label": "schich_maximilian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "luther_anne", "label": "luther_anne", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "koenigshofer_elisabeth", "label": "koenigshofer_elisabeth", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rabus_achim", "label": "rabus_achim", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "tasovac_toma", "label": "tasovac_toma", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bonch-osmolovskaya_anastasia", "label": "bonch-osmolovskaya_anastasia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "horvath_aliz", "label": "horvath_aliz", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "blanke_tobias", "label": "blanke_tobias", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dusinberre_martin", "label": "dusinberre_martin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mcdonald_daniel", "label": "mcdonald_daniel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "feiner_leyla", "label": "feiner_leyla", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "piotrowski_michael", "label": "piotrowski_michael", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schwandt_silke", "label": "schwandt_silke", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bell_peter", "label": "bell_peter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "grandjean_martin", "label": "grandjean_martin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schneider_christa", "label": "schneider_christa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rosenthaler_lukas", "label": "rosenthaler_lukas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "nehrlich_thomas", "label": "nehrlich_thomas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fendt_kurt", "label": "fendt_kurt", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schwarz-zanetti_gabriela", "label": "schwarz-zanetti_gabriela", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "heinzmann_lukas", "label": "heinzmann_lukas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "reichen_roland", "label": "reichen_roland", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "raciti_silvio", "label": "raciti_silvio", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zihlmann_patricia", "label": "zihlmann_patricia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zimmermann_christian-von", "label": "zimmermann_christian-von", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "schmid_jimmy", "label": "schmid_jimmy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stuber_martin", "label": "stuber_martin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "metz_bernhard", "label": "metz_bernhard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kohler_daniela", "label": "kohler_daniela", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sahle_patrick", "label": "sahle_patrick", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sutter_pascale", "label": "sutter_pascale", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ruef_bernhard", "label": "ruef_bernhard", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gubler_kaspar", "label": "gubler_kaspar", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "abel_stefan", "label": "abel_stefan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "jaillant_lise", "label": "jaillant_lise", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "marthot-santaniello_isabelle", "label": "marthot-santaniello_isabelle", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "serif_ina", "label": "serif_ina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "jobin_anna", "label": "jobin_anna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fornaro_peter", "label": "fornaro_peter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "felsing_ulrike", "label": "felsing_ulrike", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sanchez_joan-andreu", "label": "sanchez_joan-andreu", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "toselli_alejandro-hector", "label": "toselli_alejandro-hector", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gasser_sonja", "label": "gasser_sonja", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "maehr_moritz", "label": "maehr_moritz", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "pfister_eugen", "label": "pfister_eugen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hurel_pierre-yves", "label": "hurel_pierre-yves", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bemelmans_sophie", "label": "bemelmans_sophie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "rochat_yannick", "label": "rochat_yannick", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kato_hiloko", "label": "kato_hiloko", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wild_larissa", "label": "wild_larissa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "krummenacher_dave", "label": "krummenacher_dave", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "burghardt_manuel", "label": "burghardt_manuel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "brandenburg_aurelia", "label": "brandenburg_aurelia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "demleitner_adrian", "label": "demleitner_adrian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "wildi_tobias", "label": "wildi_tobias", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "spadini_elena", "label": "spadini_elena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "weilinghof_andreas", "label": "weilinghof_andreas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "kapitan_katarzyna-anna", "label": "kapitan_katarzyna-anna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "beisbart_claus", "label": "beisbart_claus", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "feichtinger_moritz", "label": "feichtinger_moritz", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bubenhofer_noah", "label": "bubenhofer_noah", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dufaux_alain", "label": "dufaux_alain", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gries_christian", "label": "gries_christian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "taes_sofie", "label": "taes_sofie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "jehle_bruno", "label": "jehle_bruno", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sibille_christiane", "label": "sibille_christiane", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zimmermann_dorothea", "label": "zimmermann_dorothea", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "stoffel_isabelle", "label": "stoffel_isabelle", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "katz_brian", "label": "katz_brian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "jaquet_daniel", "label": "jaquet_daniel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "himmelsbach_sabine", "label": "himmelsbach_sabine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "melone_mirco", "label": "melone_mirco", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "maget-dominice_antoinette", "label": "maget-dominice_antoinette", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "akarcay_guenhan", "label": "akarcay_guenhan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "strasser_marc", "label": "strasser_marc", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "burkart_lucas", "label": "burkart_lucas", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hockey_susan", "label": "hockey_susan", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "drucker_johanna", "label": "drucker_johanna", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bruegger_niels", "label": "bruegger_niels", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "meghini_carlo", "label": "meghini_carlo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "roueche_charlotte", "label": "roueche_charlotte", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bown_alfie", "label": "bown_alfie", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "niklas_jedrzej", "label": "niklas_jedrzej", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "brenner_leon", "label": "brenner_leon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "everitt_katherine", "label": "everitt_katherine", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "dzakula_jelena", "label": "dzakula_jelena", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "vrikki_photini", "label": "vrikki_photini", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "oreglia_elisa", "label": "oreglia_elisa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chonka_peter", "label": "chonka_peter", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mathew_ashwin", "label": "mathew_ashwin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "gibson_laura", "label": "gibson_laura", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cheong_niki", "label": "cheong_niki", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "zaborowski_rafal", "label": "zaborowski_rafal", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "moreno-almeida_cristina", "label": "moreno-almeida_cristina", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "chavez-heras_daniel", "label": "chavez-heras_daniel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bunz_mercedes", "label": "bunz_mercedes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "devlin_kate", "label": "devlin_kate", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "bruun_mikkel-kenni", "label": "bruun_mikkel-kenni", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "peacock_vita", "label": "peacock_vita", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mitchell_rebecca", "label": "mitchell_rebecca", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "abbott_helen", "label": "abbott_helen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "ward_aengus", "label": "ward_aengus", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"edge_id": "ls1_t1_l1", "from": "biasiori_lucio", "to": "wallnig_thomas", "width": 1}, {"edge_id": "ls1_t1_l2", "from": "biasiori_lucio", "to": "donadelli_giovanni", "width": 1}, {"edge_id": "ls1_t1_l3", "from": "biasiori_lucio", "to": "xie_shi", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "biasiori_lucio", "to": "orlandi_marco", "width": 1}, {"edge_id": "ls1_t2_l5", "from": "biasiori_lucio", "to": "elice_martina", "width": 1}, {"edge_id": "ls1_t1_l6", "from": "biasiori_lucio", "to": "ferrarese_francesco", "width": 1}, {"edge_id": "ls1_t2_l1", "from": "biasiori_lucio", "to": "bernardi_teresa", "width": 1}, {"edge_id": "ls1_t2_l2", "from": "biasiori_lucio", "to": "zilio_daniel", "width": 1}, {"edge_id": "ls1_t2_l3", "from": "biasiori_lucio", "to": "novello_elisabetta", "width": 1}, {"edge_id": "ls1_t2_l4", "from": "biasiori_lucio", "to": "chemello_marco", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "biasiori_lucio", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t1_l1", "from": "wallnig_thomas", "to": "rabbiosi_chiara", "width": 1}, {"edge_id": "ls1_t1_l1", "from": "wallnig_thomas", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t1_l1", "from": "wallnig_thomas", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t1_l1", "from": "wallnig_thomas", "to": "orlandi_marco", "width": 1}, {"edge_id": "ls22_t6_l6", "from": "wallnig_thomas", "to": "andrews_tara", "width": 1}, {"edge_id": "ls1_t1_l2", "from": "donadelli_giovanni", "to": "rabbiosi_chiara", "width": 1}, {"edge_id": "ls1_t1_l2", "from": "donadelli_giovanni", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t1_l2", "from": "donadelli_giovanni", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t1_l2", "from": "donadelli_giovanni", "to": "orlandi_marco", "width": 1}, {"edge_id": "ls1_t1_l3", "from": "xie_shi", "to": "rabbiosi_chiara", "width": 1}, {"edge_id": "ls1_t1_l3", "from": "xie_shi", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t1_l3", "from": "xie_shi", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t1_l3", "from": "xie_shi", "to": "orlandi_marco", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "orlandi_marco", "to": "rabbiosi_chiara", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "orlandi_marco", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "orlandi_marco", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "orlandi_marco", "to": "orlandi_marco", "width": 1}, {"edge_id": "ls1_t2_l5", "from": "orlandi_marco", "to": "elice_martina", "width": 1}, {"edge_id": "ls1_t1_l6", "from": "orlandi_marco", "to": "ferrarese_francesco", "width": 1}, {"edge_id": "ls1_t2_l1", "from": "orlandi_marco", "to": "bernardi_teresa", "width": 1}, {"edge_id": "ls1_t2_l2", "from": "orlandi_marco", "to": "zilio_daniel", "width": 1}, {"edge_id": "ls1_t2_l3", "from": "orlandi_marco", "to": "novello_elisabetta", "width": 1}, {"edge_id": "ls1_t2_l4", "from": "orlandi_marco", "to": "chemello_marco", "width": 1}, {"edge_id": "ls1_t2_l5", "from": "elice_martina", "to": "rabbiosi_chiara", "width": 1}, {"edge_id": "ls1_t2_l5", "from": "elice_martina", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t2_l5", "from": "elice_martina", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t1_l6", "from": "ferrarese_francesco", "to": "rabbiosi_chiara", "width": 1}, {"edge_id": "ls1_t1_l6", "from": "ferrarese_francesco", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t1_l6", "from": "ferrarese_francesco", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t2_l1", "from": "rabbiosi_chiara", "to": "bernardi_teresa", "width": 1}, {"edge_id": "ls1_t2_l2", "from": "rabbiosi_chiara", "to": "zilio_daniel", "width": 1}, {"edge_id": "ls1_t2_l3", "from": "rabbiosi_chiara", "to": "novello_elisabetta", "width": 1}, {"edge_id": "ls1_t2_l4", "from": "rabbiosi_chiara", "to": "chemello_marco", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "rabbiosi_chiara", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t2_l1", "from": "mazzini_federico", "to": "bernardi_teresa", "width": 1}, {"edge_id": "ls1_t2_l2", "from": "mazzini_federico", "to": "zilio_daniel", "width": 1}, {"edge_id": "ls1_t2_l3", "from": "mazzini_federico", "to": "novello_elisabetta", "width": 1}, {"edge_id": "ls1_t2_l4", "from": "mazzini_federico", "to": "chemello_marco", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "mazzini_federico", "to": "mazzini_federico", "width": 1}, {"edge_id": "ls1_t2_l6", "from": "mazzini_federico", "to": "lubian_francesco", "width": 1}, {"edge_id": "ls1_t2_l1", "from": "lubian_francesco", "to": "bernardi_teresa", "width": 1}, {"edge_id": "ls1_t2_l2", "from": "lubian_francesco", "to": "zilio_daniel", "width": 1}, {"edge_id": "ls1_t2_l3", "from": "lubian_francesco", "to": "novello_elisabetta", "width": 1}, {"edge_id": "ls1_t2_l4", "from": "lubian_francesco", "to": "chemello_marco", "width": 1}, {"edge_id": "ls3_t1_l1", "from": "fischer_franz", "to": "monachini_monica", "width": 1}, {"edge_id": "ls3_t1_l2", "from": "fischer_franz", "to": "buzzoni_marina", "width": 1}, {"edge_id": "ls3_t1_l3", "from": "fischer_franz", "to": "fern\u00e1ndez-castrillo_carolina", "width": 1}, {"edge_id": "ls3_t1_l4", "from": "fischer_franz", "to": "monella_paolo", "width": 1}, {"edge_id": "ls3_t2_l1", "from": "fischer_franz", "to": "campagnolo_alberto", "width": 1}, {"edge_id": "ls3_t2_l2", "from": "fischer_franz", "to": "tomasi_francesca", "width": 1}, {"edge_id": "ls3_t3_l2", "from": "fischer_franz", "to": "tonelli_sara", "width": 1}, {"edge_id": "ls3_t11_l4", "from": "fischer_franz", "to": "corro_elisa", "width": 1}, {"edge_id": "ls3_t2_l5", "from": "fischer_franz", "to": "fusi_daniele", "width": 1}, {"edge_id": "ls3_t3_l1", "from": "fischer_franz", "to": "delmonte_rodolfo", "width": 1}, {"edge_id": "ls3_t3_l3", "from": "fischer_franz", "to": "redmond_marie", "width": 1}, {"edge_id": "ls3_t3_l5", "from": "fischer_franz", "to": "tramelli_barbara", "width": 1}, {"edge_id": "ls3_t3_l6", "from": "fischer_franz", "to": "campus_leonardo", "width": 1}, {"edge_id": "ls3_t4_l1", "from": "fischer_franz", "to": "mantoan_diego", "width": 1}, {"edge_id": "ls3_t4_l2", "from": "fischer_franz", "to": "evans_tanya", "width": 1}, {"edge_id": "ls3_t4_l3", "from": "fischer_franz", "to": "van-zundert_joris", "width": 1}, {"edge_id": "ls3_t4_l4", "from": "fischer_franz", "to": "may_sarah", "width": 1}, {"edge_id": "ls3_t4_l5", "from": "fischer_franz", "to": "huskey_samuel", "width": 1}, {"edge_id": "ls3_t4_l6", "from": "fischer_franz", "to": "dutta_abhishek", "width": 1}, {"edge_id": "ls3_t4_l6", "from": "fischer_franz", "to": "malaspina_matilde", "width": 1}, {"edge_id": "ls3_t5_l1", "from": "fischer_franz", "to": "priego_ernesto", "width": 1}, {"edge_id": "ls3_t5_l2", "from": "fischer_franz", "to": "severo_marta", "width": 1}, {"edge_id": "ls3_t5_l3", "from": "fischer_franz", "to": "toth_michael-b", "width": 1}, {"edge_id": "ls3_t5_l4", "from": "fischer_franz", "to": "nevola_fabrizio", "width": 1}, {"edge_id": "ls3_t5_l5", "from": "fischer_franz", "to": "hermens_erma", "width": 1}, {"edge_id": "ls3_t5_l6", "from": "fischer_franz", "to": "forte_maurizio", "width": 1}, {"edge_id": "ls3_t5_l7", "from": "fischer_franz", "to": "mancinelli_tiziana", "width": 1}, {"edge_id": "ls3_t5_l8", "from": "fischer_franz", "to": "kiss_d\u00e1niel", "width": 1}, {"edge_id": "ls3_t6_l1", "from": "fischer_franz", "to": "siemens_ray", "width": 1}, {"edge_id": "ls3_t6_l1", "from": "fischer_franz", "to": "arbuckle_alyssa", "width": 1}, {"edge_id": "ls3_t6_l2", "from": "fischer_franz", "to": "dell-unto_nicolo", "width": 1}, {"edge_id": "ls3_t6_l3", "from": "fischer_franz", "to": "bernini_rita", "width": 1}, {"edge_id": "ls3_t6_l3", "from": "fischer_franz", "to": "luzon_jose-maria", "width": 1}, {"edge_id": "ls3_t6_l3", "from": "fischer_franz", "to": "misiti_maria-cristina", "width": 1}, {"edge_id": "ls3_t6_l4", "from": "fischer_franz", "to": "daquino_marilena", "width": 1}, {"edge_id": "ls3_t6_l5", "from": "fischer_franz", "to": "gallia_arturo", "width": 1}, {"edge_id": "ls3_t7_l1", "from": "fischer_franz", "to": "pavlopoulos_ioannis", "width": 1}, {"edge_id": "ls3_t7_l2", "from": "fischer_franz", "to": "gil_tiago-luis", "width": 1}, {"edge_id": "ls3_t7_l3", "from": "fischer_franz", "to": "camps_jean-baptiste", "width": 1}, {"edge_id": "ls3_t7_l4", "from": "fischer_franz", "to": "mcgillivray_barbara", "width": 1}, {"edge_id": "ls3_t7_l5", "from": "fischer_franz", "to": "dieckmann_lisa", "width": 1}, {"edge_id": "ls3_t8_l1", "from": "fischer_franz", "to": "berti_paolo", "width": 1}, {"edge_id": "ls3_t8_l2", "from": "fischer_franz", "to": "macchiarelli_agnese", "width": 1}, {"edge_id": "ls3_t11_l4", "from": "fischer_franz", "to": "danelon_nevio", "width": 1}, {"edge_id": "ls3_t8_l4", "from": "fischer_franz", "to": "williams_sean", "width": 1}, {"edge_id": "ls3_t8_l5", "from": "fischer_franz", "to": "dolcetti_francesca", "width": 1}, {"edge_id": "ls3_t9_l1", "from": "fischer_franz", "to": "galeazzo_ludovica", "width": 1}, {"edge_id": "ls3_t9_l2", "from": "fischer_franz", "to": "maietti_federica", "width": 1}, {"edge_id": "ls3_t9_l3", "from": "fischer_franz", "to": "carbe_emmanuela", "width": 1}, {"edge_id": "ls3_t10_l1", "from": "fischer_franz", "to": "bessi_benedetta", "width": 1}, {"edge_id": "ls3_t10_l2", "from": "fischer_franz", "to": "algee-hewitt_mark", "width": 1}, {"edge_id": "ls3_t10_l3", "from": "fischer_franz", "to": "lenci_alessandro", "width": 1}, {"edge_id": "ls3_t10_l4", "from": "fischer_franz", "to": "damiano_rossana", "width": 1}, {"edge_id": "ls3_t11_l1", "from": "fischer_franz", "to": "robinson_peter", "width": 1}, {"edge_id": "ls3_t11_l2", "from": "fischer_franz", "to": "caloi_ilaria", "width": 1}, {"edge_id": "ls3_t11_l2", "from": "fischer_franz", "to": "bernardini_federico", "width": 1}, {"edge_id": "ls3_t11_l3", "from": "fischer_franz", "to": "cauvin_thomas", "width": 1}, {"edge_id": "ls3_t11_l4", "from": "fischer_franz", "to": "boschetti_federico", "width": 1}, {"edge_id": "ls3_t11_l5", "from": "fischer_franz", "to": "kloet_jeroen-de", "width": 1}, {"edge_id": "ls3_t12_l1", "from": "fischer_franz", "to": "dziekan_vincent", "width": 1}, {"edge_id": "ls3_t12_l2", "from": "fischer_franz", "to": "madden_amanda", "width": 1}, {"edge_id": "ls3_t12_l3", "from": "fischer_franz", "to": "wuttke_ulrike", "width": 1}, {"edge_id": "ls3_t12_l4", "from": "fischer_franz", "to": "rettberg_scott", "width": 1}, {"edge_id": "ls27_t1_l6", "from": "siemens_ray", "to": "stagg_lucy", "width": 1}, {"edge_id": "ls4_t1_l3", "from": "...", "to": "stoehr_thierry", "width": 1}, {"edge_id": "ls4_t1_l2", "from": "...", "to": "poulain_pierre", "width": 1}, {"edge_id": "ls4_t1_l4", "from": "...", "to": "ritz_olivier", "width": 1}, {"edge_id": "ls4_t2_l1", "from": "...", "to": "flipo_fabrice", "width": 1}, {"edge_id": "ls4_t2_l2", "from": "...", "to": "bloomfield_camille", "width": 1}, {"edge_id": "ls4_t2_l3", "from": "...", "to": "tadier_elsa", "width": 1}, {"edge_id": "ls4_t2_l4", "from": "...", "to": "ysebaert_ronan", "width": 1}, {"edge_id": "ls5_t1_l1", "from": "deguin_yohann", "to": "abiven_karine", "width": 1}, {"edge_id": "ls5_t1_l1", "from": "deguin_yohann", "to": "bartz_alexandre", "width": 1}, {"edge_id": "ls5_t1_l2", "from": "deguin_yohann", "to": "saignol_come", "width": 1}, {"edge_id": "ls5_t1_l3", "from": "deguin_yohann", "to": "gabay_simon", "width": 1}, {"edge_id": "ls5_t1_l4", "from": "deguin_yohann", "to": "borgna_alice", "width": 1}, {"edge_id": "ls5_t1_l5", "from": "deguin_yohann", "to": "da-costa_georges", "width": 1}, {"edge_id": "ls5_t1_l1", "from": "abiven_karine", "to": "lucciano_melanie", "width": 1}, {"edge_id": "ls5_t1_l1", "from": "bartz_alexandre", "to": "lucciano_melanie", "width": 1}, {"edge_id": "ls5_t1_l2", "from": "saignol_come", "to": "lucciano_melanie", "width": 1}, {"edge_id": "ls5_t1_l3", "from": "gabay_simon", "to": "lucciano_melanie", "width": 1}, {"edge_id": "ls24_t1_l7", "from": "gabay_simon", "to": "hodel_tobias", "width": 1}, {"edge_id": "ls5_t1_l4", "from": "borgna_alice", "to": "lucciano_melanie", "width": 1}, {"edge_id": "ls5_t1_l5", "from": "da-costa_georges", "to": "lucciano_melanie", "width": 1}, {"edge_id": "ls6_t1_l1", "from": "luzi_christophe", "to": "gherardi_eugene", "width": 1}, {"edge_id": "ls6_t1_l8", "from": "luzi_christophe", "to": "walter_richard", "width": 1}, {"edge_id": "ls6_t1_l4", "from": "luzi_christophe", "to": "bohnert_celine", "width": 1}, {"edge_id": "ls6_t1_l5", "from": "luzi_christophe", "to": "garcia-fernandez_anne", "width": 1}, {"edge_id": "ls6_t1_l6", "from": "luzi_christophe", "to": "saint-raymond_lea", "width": 1}, {"edge_id": "ls6_t1_l7", "from": "luzi_christophe", "to": "reach-ngo_anne", "width": 1}, {"edge_id": "ls6_t1_l8", "from": "luzi_christophe", "to": "luzi_christophe", "width": 1}, {"edge_id": "ls6_t1_l9", "from": "luzi_christophe", "to": "balmon_theodora", "width": 1}, {"edge_id": "ls6_t1_l10", "from": "luzi_christophe", "to": "piazza_linda", "width": 1}, {"edge_id": "ls6_t1_l1", "from": "gherardi_eugene", "to": "walter_richard", "width": 1}, {"edge_id": "ls6_t1_l3", "from": "walter_richard", "to": "walter_richard", "width": 1}, {"edge_id": "ls6_t1_l4", "from": "walter_richard", "to": "bohnert_celine", "width": 1}, {"edge_id": "ls6_t1_l5", "from": "walter_richard", "to": "garcia-fernandez_anne", "width": 1}, {"edge_id": "ls6_t1_l6", "from": "walter_richard", "to": "saint-raymond_lea", "width": 1}, {"edge_id": "ls6_t1_l7", "from": "walter_richard", "to": "reach-ngo_anne", "width": 1}, {"edge_id": "ls6_t1_l9", "from": "walter_richard", "to": "balmon_theodora", "width": 1}, {"edge_id": "ls6_t1_l10", "from": "walter_richard", "to": "piazza_linda", "width": 1}, {"edge_id": "ls10_t5_l4", "from": "henny-krahmer_ulrike", "to": "henny-krahmer_ulrike", "width": 1}, {"edge_id": "ls10_t1_l2", "from": "henny-krahmer_ulrike", "to": "jettka_daniel", "width": 1}, {"edge_id": "ls10_t1_l2", "from": "henny-krahmer_ulrike", "to": "anne_ferger", "width": 1}, {"edge_id": "ls10_t1_l3", "from": "henny-krahmer_ulrike", "to": "nantke_julia", "width": 1}, {"edge_id": "ls10_t1_l4", "from": "henny-krahmer_ulrike", "to": "roeder_torsten", "width": 1}, {"edge_id": "ls10_t5_l4", "from": "henny-krahmer_ulrike", "to": "alvares-freire_fernanda", "width": 1}, {"edge_id": "ls10_t1_l6", "from": "henny-krahmer_ulrike", "to": "mischke_dennis", "width": 1}, {"edge_id": "ls10_t1_l7", "from": "henny-krahmer_ulrike", "to": "berm\u00fadez-sabel_helena", "width": 1}, {"edge_id": "ls10_t5_l5", "from": "henny-krahmer_ulrike", "to": "kassner_fabian", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "henny-krahmer_ulrike", "to": "krueger_frank", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "henny-krahmer_ulrike", "to": "theise_antje", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "henny-krahmer_ulrike", "to": "schroeder_max", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "henny-krahmer_ulrike", "to": "reichelt_manuela", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "henny-krahmer_ulrike", "to": "eggert_anja", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "henny-krahmer_ulrike", "to": "uribe_jorge", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "henny-krahmer_ulrike", "to": "sepulveda_pedro", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "henny-krahmer_ulrike", "to": "carmo_ines-rebelo-do", "width": 1}, {"edge_id": "ls10_t5_l4", "from": "henny-krahmer_ulrike", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t2_l1", "from": "henny-krahmer_ulrike", "to": "labahn_karsten", "width": 1}, {"edge_id": "ls10_t3_l11", "from": "henny-krahmer_ulrike", "to": "herrmann_berenike", "width": 1}, {"edge_id": "ls10_t2_l3", "from": "henny-krahmer_ulrike", "to": "lemke_marc", "width": 1}, {"edge_id": "ls10_t2_l3", "from": "henny-krahmer_ulrike", "to": "kellner_nils", "width": 1}, {"edge_id": "ls10_t2_l4", "from": "henny-krahmer_ulrike", "to": "himstedt-vaid_petra", "width": 1}, {"edge_id": "ls10_t2_l4", "from": "henny-krahmer_ulrike", "to": "meyer_holger", "width": 1}, {"edge_id": "ls10_t2_l5", "from": "henny-krahmer_ulrike", "to": "raeder_andy", "width": 1}, {"edge_id": "ls10_t2_l6", "from": "henny-krahmer_ulrike", "to": "schumacher_mareike", "width": 1}, {"edge_id": "ls10_t3_l6", "from": "henny-krahmer_ulrike", "to": "vetter_angila", "width": 1}, {"edge_id": "ls10_t2_l8", "from": "henny-krahmer_ulrike", "to": "dumont_stefan", "width": 1}, {"edge_id": "ls10_t2_l9", "from": "henny-krahmer_ulrike", "to": "lasch_alexander", "width": 1}, {"edge_id": "ls10_t2_l10", "from": "henny-krahmer_ulrike", "to": "mueller_caroline", "width": 1}, {"edge_id": "ls10_t2_l11", "from": "henny-krahmer_ulrike", "to": "berti_monica", "width": 1}, {"edge_id": "ls10_t3_l1", "from": "henny-krahmer_ulrike", "to": "hall_mark", "width": 1}, {"edge_id": "ls10_t3_l2", "from": "henny-krahmer_ulrike", "to": "kostresevic_milan", "width": 1}, {"edge_id": "ls13_t5_l3", "from": "henny-krahmer_ulrike", "to": "fischer_frank", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "henny-krahmer_ulrike", "to": "al-suadi_soham", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "henny-krahmer_ulrike", "to": "werner_christoph", "width": 1}, {"edge_id": "ls10_t3_l5", "from": "henny-krahmer_ulrike", "to": "cugliana_elisa", "width": 1}, {"edge_id": "ls10_t3_l7", "from": "henny-krahmer_ulrike", "to": "pilhofer_philipp", "width": 1}, {"edge_id": "ls10_t3_l8", "from": "henny-krahmer_ulrike", "to": "wagner_martin", "width": 1}, {"edge_id": "ls10_t3_l9", "from": "henny-krahmer_ulrike", "to": "hoeltgen_stefan", "width": 1}, {"edge_id": "ls10_t3_l10", "from": "henny-krahmer_ulrike", "to": "baillot_anne", "width": 1}, {"edge_id": "ls10_t4_l1", "from": "henny-krahmer_ulrike", "to": "schroeter_julian", "width": 1}, {"edge_id": "ls10_t4_l2", "from": "henny-krahmer_ulrike", "to": "vandewalle_alexander", "width": 1}, {"edge_id": "ls10_t4_l4", "from": "henny-krahmer_ulrike", "to": "spinelli_julian", "width": 1}, {"edge_id": "ls10_t4_l5", "from": "henny-krahmer_ulrike", "to": "veit_torsten", "width": 1}, {"edge_id": "ls10_t4_l6", "from": "henny-krahmer_ulrike", "to": "neovesky_anna", "width": 1}, {"edge_id": "ls10_t4_l7", "from": "henny-krahmer_ulrike", "to": "cap_clemens", "width": 1}, {"edge_id": "ls10_t4_l7", "from": "henny-krahmer_ulrike", "to": "sucharowski_wolfgang", "width": 1}, {"edge_id": "ls10_t4_l8", "from": "henny-krahmer_ulrike", "to": "kroll_stefan", "width": 1}, {"edge_id": "ls10_t4_l9", "from": "henny-krahmer_ulrike", "to": "poder_johann-christian", "width": 1}, {"edge_id": "ls10_t4_l10", "from": "henny-krahmer_ulrike", "to": "gius_evelyn", "width": 1}, {"edge_id": "ls10_t4_l11", "from": "henny-krahmer_ulrike", "to": "mende_jana-katharina", "width": 1}, {"edge_id": "ls10_t4_l12", "from": "henny-krahmer_ulrike", "to": "dennerlein_katrin", "width": 1}, {"edge_id": "ls10_t5_l1", "from": "henny-krahmer_ulrike", "to": "verhoeven_deb", "width": 1}, {"edge_id": "ls10_t5_l2", "from": "henny-krahmer_ulrike", "to": "fischer_hanna", "width": 1}, {"edge_id": "ls10_t5_l3", "from": "henny-krahmer_ulrike", "to": "giovannini_luca", "width": 1}, {"edge_id": "ls10_t5_l5", "from": "henny-krahmer_ulrike", "to": "greinert_cordula", "width": 1}, {"edge_id": "ls10_t5_l6", "from": "henny-krahmer_ulrike", "to": "franken_lina", "width": 1}, {"edge_id": "ls10_t5_l7", "from": "henny-krahmer_ulrike", "to": "tomic_marijana", "width": 1}, {"edge_id": "ls10_t5_l8", "from": "henny-krahmer_ulrike", "to": "deicke_aline", "width": 1}, {"edge_id": "ls10_t5_l9", "from": "henny-krahmer_ulrike", "to": "rio-riande_gimena-del", "width": 1}, {"edge_id": "ls10_t5_l10", "from": "henny-krahmer_ulrike", "to": "nilsson-fernandez_pedro", "width": 1}, {"edge_id": "ls10_t5_l11", "from": "henny-krahmer_ulrike", "to": "scholger_martina", "width": 1}, {"edge_id": "ls10_t5_l12", "from": "henny-krahmer_ulrike", "to": "rojas-castro_antonio", "width": 1}, {"edge_id": "ls10_t5_l12", "from": "henny-krahmer_ulrike", "to": "keith_allison", "width": 1}, {"edge_id": "ls13_t5_l3", "from": "henny-krahmer_ulrike", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls10_t1_l2", "from": "jettka_daniel", "to": "alvares-freire_fernanda", "width": 1}, {"edge_id": "ls10_t1_l2", "from": "jettka_daniel", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l2", "from": "anne_ferger", "to": "alvares-freire_fernanda", "width": 1}, {"edge_id": "ls10_t1_l2", "from": "anne_ferger", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l3", "from": "nantke_julia", "to": "alvares-freire_fernanda", "width": 1}, {"edge_id": "ls10_t1_l3", "from": "nantke_julia", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l4", "from": "roeder_torsten", "to": "alvares-freire_fernanda", "width": 1}, {"edge_id": "ls10_t1_l4", "from": "roeder_torsten", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t4_l3", "from": "alvares-freire_fernanda", "to": "alvares-freire_fernanda", "width": 1}, {"edge_id": "ls10_t1_l6", "from": "alvares-freire_fernanda", "to": "mischke_dennis", "width": 1}, {"edge_id": "ls10_t1_l7", "from": "alvares-freire_fernanda", "to": "berm\u00fadez-sabel_helena", "width": 1}, {"edge_id": "ls10_t5_l5", "from": "alvares-freire_fernanda", "to": "kassner_fabian", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "alvares-freire_fernanda", "to": "krueger_frank", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "alvares-freire_fernanda", "to": "theise_antje", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "alvares-freire_fernanda", "to": "schroeder_max", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "alvares-freire_fernanda", "to": "reichelt_manuela", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "alvares-freire_fernanda", "to": "eggert_anja", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "alvares-freire_fernanda", "to": "uribe_jorge", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "alvares-freire_fernanda", "to": "sepulveda_pedro", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "alvares-freire_fernanda", "to": "carmo_ines-rebelo-do", "width": 1}, {"edge_id": "ls10_t4_l3", "from": "alvares-freire_fernanda", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t2_l1", "from": "alvares-freire_fernanda", "to": "labahn_karsten", "width": 1}, {"edge_id": "ls10_t3_l11", "from": "alvares-freire_fernanda", "to": "herrmann_berenike", "width": 1}, {"edge_id": "ls10_t2_l3", "from": "alvares-freire_fernanda", "to": "lemke_marc", "width": 1}, {"edge_id": "ls10_t2_l3", "from": "alvares-freire_fernanda", "to": "kellner_nils", "width": 1}, {"edge_id": "ls10_t2_l4", "from": "alvares-freire_fernanda", "to": "himstedt-vaid_petra", "width": 1}, {"edge_id": "ls10_t2_l4", "from": "alvares-freire_fernanda", "to": "meyer_holger", "width": 1}, {"edge_id": "ls10_t2_l5", "from": "alvares-freire_fernanda", "to": "raeder_andy", "width": 1}, {"edge_id": "ls10_t2_l6", "from": "alvares-freire_fernanda", "to": "schumacher_mareike", "width": 1}, {"edge_id": "ls10_t3_l6", "from": "alvares-freire_fernanda", "to": "vetter_angila", "width": 1}, {"edge_id": "ls10_t2_l8", "from": "alvares-freire_fernanda", "to": "dumont_stefan", "width": 1}, {"edge_id": "ls10_t2_l9", "from": "alvares-freire_fernanda", "to": "lasch_alexander", "width": 1}, {"edge_id": "ls10_t2_l10", "from": "alvares-freire_fernanda", "to": "mueller_caroline", "width": 1}, {"edge_id": "ls10_t2_l11", "from": "alvares-freire_fernanda", "to": "berti_monica", "width": 1}, {"edge_id": "ls10_t3_l1", "from": "alvares-freire_fernanda", "to": "hall_mark", "width": 1}, {"edge_id": "ls10_t3_l2", "from": "alvares-freire_fernanda", "to": "kostresevic_milan", "width": 1}, {"edge_id": "ls10_t3_l3", "from": "alvares-freire_fernanda", "to": "fischer_frank", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "alvares-freire_fernanda", "to": "al-suadi_soham", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "alvares-freire_fernanda", "to": "werner_christoph", "width": 1}, {"edge_id": "ls10_t3_l5", "from": "alvares-freire_fernanda", "to": "cugliana_elisa", "width": 1}, {"edge_id": "ls10_t3_l7", "from": "alvares-freire_fernanda", "to": "pilhofer_philipp", "width": 1}, {"edge_id": "ls10_t3_l8", "from": "alvares-freire_fernanda", "to": "wagner_martin", "width": 1}, {"edge_id": "ls10_t3_l9", "from": "alvares-freire_fernanda", "to": "hoeltgen_stefan", "width": 1}, {"edge_id": "ls10_t3_l10", "from": "alvares-freire_fernanda", "to": "baillot_anne", "width": 1}, {"edge_id": "ls10_t4_l1", "from": "alvares-freire_fernanda", "to": "schroeter_julian", "width": 1}, {"edge_id": "ls10_t4_l2", "from": "alvares-freire_fernanda", "to": "vandewalle_alexander", "width": 1}, {"edge_id": "ls10_t4_l4", "from": "alvares-freire_fernanda", "to": "spinelli_julian", "width": 1}, {"edge_id": "ls10_t4_l5", "from": "alvares-freire_fernanda", "to": "veit_torsten", "width": 1}, {"edge_id": "ls10_t4_l6", "from": "alvares-freire_fernanda", "to": "neovesky_anna", "width": 1}, {"edge_id": "ls10_t4_l7", "from": "alvares-freire_fernanda", "to": "cap_clemens", "width": 1}, {"edge_id": "ls10_t4_l7", "from": "alvares-freire_fernanda", "to": "sucharowski_wolfgang", "width": 1}, {"edge_id": "ls10_t4_l8", "from": "alvares-freire_fernanda", "to": "kroll_stefan", "width": 1}, {"edge_id": "ls10_t4_l9", "from": "alvares-freire_fernanda", "to": "poder_johann-christian", "width": 1}, {"edge_id": "ls10_t4_l10", "from": "alvares-freire_fernanda", "to": "gius_evelyn", "width": 1}, {"edge_id": "ls10_t4_l11", "from": "alvares-freire_fernanda", "to": "mende_jana-katharina", "width": 1}, {"edge_id": "ls10_t4_l12", "from": "alvares-freire_fernanda", "to": "dennerlein_katrin", "width": 1}, {"edge_id": "ls10_t5_l1", "from": "alvares-freire_fernanda", "to": "verhoeven_deb", "width": 1}, {"edge_id": "ls10_t5_l2", "from": "alvares-freire_fernanda", "to": "fischer_hanna", "width": 1}, {"edge_id": "ls10_t5_l3", "from": "alvares-freire_fernanda", "to": "giovannini_luca", "width": 1}, {"edge_id": "ls10_t5_l5", "from": "alvares-freire_fernanda", "to": "greinert_cordula", "width": 1}, {"edge_id": "ls10_t5_l6", "from": "alvares-freire_fernanda", "to": "franken_lina", "width": 1}, {"edge_id": "ls10_t5_l7", "from": "alvares-freire_fernanda", "to": "tomic_marijana", "width": 1}, {"edge_id": "ls10_t5_l8", "from": "alvares-freire_fernanda", "to": "deicke_aline", "width": 1}, {"edge_id": "ls10_t5_l9", "from": "alvares-freire_fernanda", "to": "rio-riande_gimena-del", "width": 1}, {"edge_id": "ls10_t5_l10", "from": "alvares-freire_fernanda", "to": "nilsson-fernandez_pedro", "width": 1}, {"edge_id": "ls10_t5_l11", "from": "alvares-freire_fernanda", "to": "scholger_martina", "width": 1}, {"edge_id": "ls10_t5_l12", "from": "alvares-freire_fernanda", "to": "rojas-castro_antonio", "width": 1}, {"edge_id": "ls10_t5_l12", "from": "alvares-freire_fernanda", "to": "keith_allison", "width": 1}, {"edge_id": "ls10_t1_l6", "from": "mischke_dennis", "to": "renz_erik", "width": 1}, {"edge_id": "ls13_t2_l1", "from": "mischke_dennis", "to": "fischer_frank", "width": 1}, {"edge_id": "ls10_t1_l7", "from": "berm\u00fadez-sabel_helena", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t5_l5", "from": "kassner_fabian", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "krueger_frank", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "theise_antje", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "schroeder_max", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "reichelt_manuela", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l9", "from": "eggert_anja", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "uribe_jorge", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "sepulveda_pedro", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t1_l10", "from": "carmo_ines-rebelo-do", "to": "renz_erik", "width": 1}, {"edge_id": "ls10_t2_l1", "from": "renz_erik", "to": "labahn_karsten", "width": 1}, {"edge_id": "ls10_t3_l11", "from": "renz_erik", "to": "herrmann_berenike", "width": 1}, {"edge_id": "ls10_t2_l3", "from": "renz_erik", "to": "lemke_marc", "width": 1}, {"edge_id": "ls10_t2_l3", "from": "renz_erik", "to": "kellner_nils", "width": 1}, {"edge_id": "ls10_t2_l4", "from": "renz_erik", "to": "himstedt-vaid_petra", "width": 1}, {"edge_id": "ls10_t2_l4", "from": "renz_erik", "to": "meyer_holger", "width": 1}, {"edge_id": "ls10_t2_l5", "from": "renz_erik", "to": "raeder_andy", "width": 1}, {"edge_id": "ls10_t2_l6", "from": "renz_erik", "to": "schumacher_mareike", "width": 1}, {"edge_id": "ls10_t3_l6", "from": "renz_erik", "to": "vetter_angila", "width": 1}, {"edge_id": "ls10_t2_l8", "from": "renz_erik", "to": "dumont_stefan", "width": 1}, {"edge_id": "ls10_t2_l9", "from": "renz_erik", "to": "lasch_alexander", "width": 1}, {"edge_id": "ls10_t2_l10", "from": "renz_erik", "to": "mueller_caroline", "width": 1}, {"edge_id": "ls10_t2_l11", "from": "renz_erik", "to": "berti_monica", "width": 1}, {"edge_id": "ls10_t3_l1", "from": "renz_erik", "to": "hall_mark", "width": 1}, {"edge_id": "ls10_t3_l2", "from": "renz_erik", "to": "kostresevic_milan", "width": 1}, {"edge_id": "ls10_t3_l3", "from": "renz_erik", "to": "fischer_frank", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "renz_erik", "to": "al-suadi_soham", "width": 1}, {"edge_id": "ls10_t3_l4", "from": "renz_erik", "to": "werner_christoph", "width": 1}, {"edge_id": "ls10_t3_l5", "from": "renz_erik", "to": "cugliana_elisa", "width": 1}, {"edge_id": "ls10_t3_l7", "from": "renz_erik", "to": "pilhofer_philipp", "width": 1}, {"edge_id": "ls10_t3_l8", "from": "renz_erik", "to": "wagner_martin", "width": 1}, {"edge_id": "ls10_t3_l9", "from": "renz_erik", "to": "hoeltgen_stefan", "width": 1}, {"edge_id": "ls10_t3_l10", "from": "renz_erik", "to": "baillot_anne", "width": 1}, {"edge_id": "ls10_t4_l1", "from": "renz_erik", "to": "schroeter_julian", "width": 1}, {"edge_id": "ls10_t4_l2", "from": "renz_erik", "to": "vandewalle_alexander", "width": 1}, {"edge_id": "ls10_t4_l4", "from": "renz_erik", "to": "spinelli_julian", "width": 1}, {"edge_id": "ls10_t4_l5", "from": "renz_erik", "to": "veit_torsten", "width": 1}, {"edge_id": "ls10_t4_l6", "from": "renz_erik", "to": "neovesky_anna", "width": 1}, {"edge_id": "ls10_t4_l7", "from": "renz_erik", "to": "cap_clemens", "width": 1}, {"edge_id": "ls10_t4_l7", "from": "renz_erik", "to": "sucharowski_wolfgang", "width": 1}, {"edge_id": "ls10_t4_l8", "from": "renz_erik", "to": "kroll_stefan", "width": 1}, {"edge_id": "ls10_t4_l9", "from": "renz_erik", "to": "poder_johann-christian", "width": 1}, {"edge_id": "ls10_t4_l10", "from": "renz_erik", "to": "gius_evelyn", "width": 1}, {"edge_id": "ls10_t4_l11", "from": "renz_erik", "to": "mende_jana-katharina", "width": 1}, {"edge_id": "ls10_t4_l12", "from": "renz_erik", "to": "dennerlein_katrin", "width": 1}, {"edge_id": "ls10_t5_l1", "from": "renz_erik", "to": "verhoeven_deb", "width": 1}, {"edge_id": "ls10_t5_l2", "from": "renz_erik", "to": "fischer_hanna", "width": 1}, {"edge_id": "ls10_t5_l3", "from": "renz_erik", "to": "giovannini_luca", "width": 1}, {"edge_id": "ls10_t5_l5", "from": "renz_erik", "to": "greinert_cordula", "width": 1}, {"edge_id": "ls10_t5_l6", "from": "renz_erik", "to": "franken_lina", "width": 1}, {"edge_id": "ls10_t5_l7", "from": "renz_erik", "to": "tomic_marijana", "width": 1}, {"edge_id": "ls10_t5_l8", "from": "renz_erik", "to": "deicke_aline", "width": 1}, {"edge_id": "ls10_t5_l9", "from": "renz_erik", "to": "rio-riande_gimena-del", "width": 1}, {"edge_id": "ls10_t5_l10", "from": "renz_erik", "to": "nilsson-fernandez_pedro", "width": 1}, {"edge_id": "ls10_t5_l11", "from": "renz_erik", "to": "scholger_martina", "width": 1}, {"edge_id": "ls10_t5_l12", "from": "renz_erik", "to": "rojas-castro_antonio", "width": 1}, {"edge_id": "ls10_t5_l12", "from": "renz_erik", "to": "keith_allison", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "schumacher_mareike", "to": "fischer_frank", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "schumacher_mareike", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls18_t1_l2", "from": "schumacher_mareike", "to": "skorinkin_daniil", "width": 1}, {"edge_id": "ls18_t1_l2", "from": "schumacher_mareike", "to": "giovannini_luca", "width": 1}, {"edge_id": "ls11_t3_l1", "from": "lasch_alexander", "to": "lasch_alexander", "width": 1}, {"edge_id": "ls11_t3_l2", "from": "lasch_alexander", "to": "baumann_mario", "width": 1}, {"edge_id": "ls11_t1_l3", "from": "lasch_alexander", "to": "diebel-fischer_hermann", "width": 1}, {"edge_id": "ls11_t2_l10", "from": "lasch_alexander", "to": "wuerzner_kay-michael", "width": 1}, {"edge_id": "ls11_t3_l8", "from": "lasch_alexander", "to": "menold_natalja", "width": 1}, {"edge_id": "ls11_t3_l7", "from": "lasch_alexander", "to": "halpern_orit", "width": 1}, {"edge_id": "ls11_t3_l11", "from": "lasch_alexander", "to": "meier-vieracker_simon", "width": 1}, {"edge_id": "ls11_t2_l7", "from": "lasch_alexander", "to": "de-cesare_anna-maria", "width": 1}, {"edge_id": "ls11_t1_l9", "from": "lasch_alexander", "to": "schankweiler_kerstin", "width": 1}, {"edge_id": "ls11_t3_l5", "from": "lasch_alexander", "to": "straub_verena", "width": 1}, {"edge_id": "ls11_t3_l9", "from": "lasch_alexander", "to": "bartels_hauke", "width": 1}, {"edge_id": "ls11_t2_l11", "from": "lasch_alexander", "to": "kneuer_marianne", "width": 1}, {"edge_id": "ls11_t3_l6", "from": "lasch_alexander", "to": "langner_anke", "width": 1}, {"edge_id": "ls11_t1_l13", "from": "lasch_alexander", "to": "rutz_andreas", "width": 1}, {"edge_id": "ls11_t2_l3", "from": "lasch_alexander", "to": "uhrig_peter", "width": 1}, {"edge_id": "ls11_t2_l4", "from": "lasch_alexander", "to": "klammt_anne", "width": 1}, {"edge_id": "ls11_t3_l10", "from": "lasch_alexander", "to": "dressen_angela", "width": 1}, {"edge_id": "ls11_t2_l6", "from": "lasch_alexander", "to": "zloch_stephanie", "width": 1}, {"edge_id": "ls11_t2_l6", "from": "lasch_alexander", "to": "herrmann_mathias", "width": 1}, {"edge_id": "ls11_t2_l6", "from": "lasch_alexander", "to": "reimer_martin", "width": 1}, {"edge_id": "ls11_t3_l11", "from": "lasch_alexander", "to": "frommherz_yannick", "width": 1}, {"edge_id": "ls11_t3_l11", "from": "lasch_alexander", "to": "langenhorst_jan", "width": 1}, {"edge_id": "ls11_t3_l12", "from": "lasch_alexander", "to": "heilmann_jan", "width": 1}, {"edge_id": "ls11_t3_l1", "from": "lasch_alexander", "to": "garces_juan", "width": 1}, {"edge_id": "ls11_t3_l3", "from": "lasch_alexander", "to": "lachmund_anne-marie", "width": 1}, {"edge_id": "ls11_t3_l4", "from": "lasch_alexander", "to": "razniewski_simon", "width": 1}, {"edge_id": "ls11_t3_l6", "from": "lasch_alexander", "to": "christoph_ralf", "width": 1}, {"edge_id": "ls11_t3_l13", "from": "lasch_alexander", "to": "mattern_anna", "width": 1}, {"edge_id": "ls11_t3_l14", "from": "lasch_alexander", "to": "hachmeister_maren", "width": 1}, {"edge_id": "ls11_t3_l15", "from": "lasch_alexander", "to": "koehler_thomas", "width": 1}, {"edge_id": "ls11_t3_l15", "from": "lasch_alexander", "to": "schaarschmidt_nadine", "width": 1}, {"edge_id": "ls13_t3_l8", "from": "berti_monica", "to": "hessbrueggen-walter_stefan", "width": 1}, {"edge_id": "ls13_t1_l1", "from": "fischer_frank", "to": "fischer_frank", "width": 1}, {"edge_id": "ls13_t1_l2", "from": "fischer_frank", "to": "langner_martin", "width": 1}, {"edge_id": "ls13_t1_l3", "from": "fischer_frank", "to": "edmond_jennifer", "width": 1}, {"edge_id": "ls13_t7_l4", "from": "fischer_frank", "to": "escobar-varela_miguel", "width": 1}, {"edge_id": "ls13_t1_l5", "from": "fischer_frank", "to": "cakir_dilan-canan", "width": 1}, {"edge_id": "ls13_t1_l6", "from": "fischer_frank", "to": "orekhov_boris", "width": 1}, {"edge_id": "ls13_t1_l7", "from": "fischer_frank", "to": "hessbrueggen-walter_stefan", "width": 1}, {"edge_id": "ls13_t1_l8", "from": "fischer_frank", "to": "gengnagel_tessa", "width": 1}, {"edge_id": "ls13_t2_l2", "from": "fischer_frank", "to": "gutierrez_silvia", "width": 1}, {"edge_id": "ls13_t2_l3", "from": "fischer_frank", "to": "herbst_benjamin", "width": 1}, {"edge_id": "ls13_t2_l4", "from": "fischer_frank", "to": "duan_tinghui", "width": 1}, {"edge_id": "ls13_t2_l6", "from": "fischer_frank", "to": "wontorra_lena", "width": 1}, {"edge_id": "ls13_t7_l5", "from": "fischer_frank", "to": "chen_beijia", "width": 1}, {"edge_id": "ls13_t4_l2", "from": "fischer_frank", "to": "lubin_jonah", "width": 1}, {"edge_id": "ls13_t4_l3", "from": "fischer_frank", "to": "schaefer_lea", "width": 1}, {"edge_id": "ls13_t7_l8", "from": "fischer_frank", "to": "poggel_lisa", "width": 1}, {"edge_id": "ls13_t4_l5", "from": "fischer_frank", "to": "rodighiero_dario", "width": 1}, {"edge_id": "ls13_t5_l1", "from": "fischer_frank", "to": "hilger_agnes", "width": 1}, {"edge_id": "ls13_t5_l2", "from": "fischer_frank", "to": "murath_antonia", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "fischer_frank", "to": "gruenler_johanna", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "fischer_frank", "to": "hiergeist_annalena", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "fischer_frank", "to": "wolle_nikolai", "width": 1}, {"edge_id": "ls13_t5_l5", "from": "fischer_frank", "to": "beyer_andrea", "width": 1}, {"edge_id": "ls13_t5_l5", "from": "fischer_frank", "to": "schulz_konstantin", "width": 1}, {"edge_id": "ls13_t5_l6", "from": "fischer_frank", "to": "schwindt_mark", "width": 1}, {"edge_id": "ls13_t5_l7", "from": "fischer_frank", "to": "panuskova_charlotte", "width": 1}, {"edge_id": "ls13_t6_l1", "from": "fischer_frank", "to": "hercher_johannes", "width": 1}, {"edge_id": "ls13_t6_l1", "from": "fischer_frank", "to": "rehse_birgit", "width": 1}, {"edge_id": "ls13_t6_l2", "from": "fischer_frank", "to": "harris_ashleigh", "width": 1}, {"edge_id": "ls13_t6_l3", "from": "fischer_frank", "to": "falk_michael", "width": 1}, {"edge_id": "ls13_t7_l1", "from": "fischer_frank", "to": "untner_laura", "width": 1}, {"edge_id": "ls13_t7_l2", "from": "fischer_frank", "to": "weimann_hanna", "width": 1}, {"edge_id": "ls13_t7_l3", "from": "fischer_frank", "to": "metilli_daniele", "width": 1}, {"edge_id": "ls13_t7_l6", "from": "fischer_frank", "to": "desmet_gabrielle", "width": 1}, {"edge_id": "ls13_t7_l7", "from": "fischer_frank", "to": "ondraszek_sarah-rebecca", "width": 1}, {"edge_id": "ls22_t6_l5", "from": "cugliana_elisa", "to": "andrews_tara", "width": 1}, {"edge_id": "ls18_t1_l1", "from": "giovannini_luca", "to": "sobchuk_oleg", "width": 1}, {"edge_id": "ls18_t1_l3", "from": "giovannini_luca", "to": "manovich_lev", "width": 1}, {"edge_id": "ls18_t1_l4", "from": "giovannini_luca", "to": "rybicki_jan", "width": 1}, {"edge_id": "ls18_t1_l4", "from": "giovannini_luca", "to": "holobut_agata", "width": 1}, {"edge_id": "ls18_t1_l5", "from": "giovannini_luca", "to": "glawion_anastasia", "width": 1}, {"edge_id": "ls18_t1_l6", "from": "giovannini_luca", "to": "dawson_john", "width": 1}, {"edge_id": "ls18_t1_l7", "from": "giovannini_luca", "to": "escobar-varela_miguel", "width": 1}, {"edge_id": "ls18_t1_l8", "from": "giovannini_luca", "to": "konle_leonard", "width": 1}, {"edge_id": "ls18_t1_l9", "from": "giovannini_luca", "to": "guhr_svenja", "width": 1}, {"edge_id": "ls18_t1_l10", "from": "giovannini_luca", "to": "porter_james-david", "width": 1}, {"edge_id": "ls23_t4_l1", "from": "edmond_jennifer", "to": "resch_claudia", "width": 1}, {"edge_id": "ls30_t1_l1", "from": "edmond_jennifer", "to": "sanderson_rob", "width": 1}, {"edge_id": "ls30_t1_l2", "from": "edmond_jennifer", "to": "treharne_elaine", "width": 1}, {"edge_id": "ls30_t1_l3", "from": "edmond_jennifer", "to": "bassett_caroline", "width": 1}, {"edge_id": "ls18_t1_l7", "from": "escobar-varela_miguel", "to": "skorinkin_daniil", "width": 1}, {"edge_id": "ls13_t3_l1", "from": "hessbrueggen-walter_stefan", "to": "noichl_maximilian", "width": 1}, {"edge_id": "ls13_t3_l2", "from": "hessbrueggen-walter_stefan", "to": "lang_sarah", "width": 1}, {"edge_id": "ls13_t3_l3", "from": "hessbrueggen-walter_stefan", "to": "stockhausen_annette-von", "width": 1}, {"edge_id": "ls13_t3_l4", "from": "hessbrueggen-walter_stefan", "to": "pence_charles", "width": 1}, {"edge_id": "ls13_t3_l5", "from": "hessbrueggen-walter_stefan", "to": "iurescia_federica", "width": 1}, {"edge_id": "ls13_t3_l6", "from": "hessbrueggen-walter_stefan", "to": "parisi_maria-chiara", "width": 1}, {"edge_id": "ls13_t3_l7", "from": "hessbrueggen-walter_stefan", "to": "sprugnoli_rachele", "width": 1}, {"edge_id": "ls24_t5_l3", "from": "gengnagel_tessa", "to": "hodel_tobias", "width": 1}, {"edge_id": "ls13_t5_l1", "from": "hilger_agnes", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l2", "from": "murath_antonia", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "gruenler_johanna", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "hiergeist_annalena", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l4", "from": "wolle_nikolai", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l5", "from": "beyer_andrea", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l5", "from": "schulz_konstantin", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l6", "from": "schwindt_mark", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls13_t5_l7", "from": "panuskova_charlotte", "to": "beine_julia-jennifer", "width": 1}, {"edge_id": "ls14_t1_l1", "from": "schwabe_fabian", "to": "schwabe_fabian", "width": 1}, {"edge_id": "ls14_t1_l8", "from": "schwabe_fabian", "to": "zirker_angelika", "width": 1}, {"edge_id": "ls14_t1_l2", "from": "schwabe_fabian", "to": "patzold_steffen", "width": 1}, {"edge_id": "ls14_t1_l3", "from": "schwabe_fabian", "to": "wust_markus", "width": 1}, {"edge_id": "ls14_t1_l4", "from": "schwabe_fabian", "to": "worm_andrea", "width": 1}, {"edge_id": "ls14_t1_l4", "from": "schwabe_fabian", "to": "goerss_eleanor", "width": 1}, {"edge_id": "ls14_t1_l4", "from": "schwabe_fabian", "to": "bleier_roman", "width": 1}, {"edge_id": "ls14_t1_l5", "from": "schwabe_fabian", "to": "koerner_kevin", "width": 1}, {"edge_id": "ls14_t1_l6", "from": "schwabe_fabian", "to": "achimova_asya", "width": 1}, {"edge_id": "ls14_t1_l7", "from": "schwabe_fabian", "to": "eufe_rembert", "width": 1}, {"edge_id": "ls14_t1_l9", "from": "schwabe_fabian", "to": "bauer_matthias", "width": 1}, {"edge_id": "ls14_t1_l10", "from": "schwabe_fabian", "to": "darilek_marion", "width": 1}, {"edge_id": "ls14_t1_l11", "from": "schwabe_fabian", "to": "morent_stefan", "width": 1}, {"edge_id": "ls18_t1_l1", "from": "skorinkin_daniil", "to": "sobchuk_oleg", "width": 1}, {"edge_id": "ls18_t1_l3", "from": "skorinkin_daniil", "to": "manovich_lev", "width": 1}, {"edge_id": "ls18_t1_l4", "from": "skorinkin_daniil", "to": "rybicki_jan", "width": 1}, {"edge_id": "ls18_t1_l4", "from": "skorinkin_daniil", "to": "holobut_agata", "width": 1}, {"edge_id": "ls18_t1_l5", "from": "skorinkin_daniil", "to": "glawion_anastasia", "width": 1}, {"edge_id": "ls18_t1_l6", "from": "skorinkin_daniil", "to": "dawson_john", "width": 1}, {"edge_id": "ls18_t1_l8", "from": "skorinkin_daniil", "to": "konle_leonard", "width": 1}, {"edge_id": "ls18_t1_l9", "from": "skorinkin_daniil", "to": "guhr_svenja", "width": 1}, {"edge_id": "ls18_t1_l10", "from": "skorinkin_daniil", "to": "porter_james-david", "width": 1}, {"edge_id": "ls22_t1_l1", "from": "andrews_tara", "to": "cole_nicholas", "width": 1}, {"edge_id": "ls22_t4_l5", "from": "andrews_tara", "to": "hannesschlaeger_vanessa", "width": 1}, {"edge_id": "ls22_t2_l4", "from": "andrews_tara", "to": "hughes_lorna", "width": 1}, {"edge_id": "ls22_t2_l2", "from": "andrews_tara", "to": "stular_benjamin", "width": 1}, {"edge_id": "ls22_t5_l5", "from": "andrews_tara", "to": "romanov_maxim", "width": 1}, {"edge_id": "ls22_t6_l1", "from": "andrews_tara", "to": "andrews_tara", "width": 1}, {"edge_id": "ls22_t3_l2", "from": "andrews_tara", "to": "van-hyning_victoria", "width": 1}, {"edge_id": "ls22_t6_l9", "from": "andrews_tara", "to": "preiser-kapeller_johannes", "width": 1}, {"edge_id": "ls22_t5_l4", "from": "andrews_tara", "to": "zuanni_chiara", "width": 1}, {"edge_id": "ls22_t6_l12", "from": "andrews_tara", "to": "fellner_hannes", "width": 1}, {"edge_id": "ls22_t6_l7", "from": "andrews_tara", "to": "windhager_florian", "width": 1}, {"edge_id": "ls22_t3_l9", "from": "andrews_tara", "to": "koentges_thomas", "width": 1}, {"edge_id": "ls22_t5_l7", "from": "andrews_tara", "to": "trinks_immo", "width": 1}, {"edge_id": "ls22_t3_l11", "from": "andrews_tara", "to": "moerth_karlheinz", "width": 1}, {"edge_id": "ls22_t4_l4", "from": "andrews_tara", "to": "eichert_stefan", "width": 1}, {"edge_id": "ls22_t4_l6", "from": "andrews_tara", "to": "prager_katharina", "width": 1}, {"edge_id": "ls22_t4_l6", "from": "andrews_tara", "to": "fritze_christiane", "width": 1}, {"edge_id": "ls22_t4_l7", "from": "andrews_tara", "to": "frasca-rath_anna", "width": 1}, {"edge_id": "ls22_t6_l4", "from": "andrews_tara", "to": "kahn_rebecca", "width": 1}, {"edge_id": "ls22_t5_l2", "from": "andrews_tara", "to": "high-steskal_nicole", "width": 1}, {"edge_id": "ls22_t5_l3", "from": "andrews_tara", "to": "mayer_sandra", "width": 1}, {"edge_id": "ls22_t5_l3", "from": "andrews_tara", "to": "fruehwirth_timo", "width": 1}, {"edge_id": "ls22_t5_l3", "from": "andrews_tara", "to": "brenner_simon", "width": 1}, {"edge_id": "ls22_t5_l10", "from": "andrews_tara", "to": "gruber_doris", "width": 1}, {"edge_id": "ls22_t6_l2", "from": "andrews_tara", "to": "linser_nora", "width": 1}, {"edge_id": "ls22_t6_l3", "from": "andrews_tara", "to": "nussbaumer_lisa", "width": 1}, {"edge_id": "ls22_t6_l8", "from": "andrews_tara", "to": "vogeler_georg", "width": 1}, {"edge_id": "ls22_t6_l10", "from": "andrews_tara", "to": "lucchesi_anita", "width": 1}, {"edge_id": "ls22_t6_l11", "from": "andrews_tara", "to": "rastinger_nina", "width": 1}, {"edge_id": "ls22_t6_l13", "from": "andrews_tara", "to": "witt_andreas", "width": 1}, {"edge_id": "ls23_t6_l2", "from": "van-hyning_victoria", "to": "wiederaenders_maria", "width": 1}, {"edge_id": "ls23_t10_l1", "from": "witt_andreas", "to": "woldrich_anna", "width": 1}, {"edge_id": "ls23_t1_l1", "from": "resch_claudia", "to": "odijk_jan", "width": 1}, {"edge_id": "ls23_t1_l2", "from": "resch_claudia", "to": "backes_marianne", "width": 1}, {"edge_id": "ls23_t1_l3", "from": "resch_claudia", "to": "arthur_paul", "width": 1}, {"edge_id": "ls23_t1_l4", "from": "resch_claudia", "to": "huang_marianne", "width": 1}, {"edge_id": "ls23_t2_l1", "from": "resch_claudia", "to": "schnapp_jeffrey", "width": 1}, {"edge_id": "ls23_t2_l2", "from": "resch_claudia", "to": "baker_keith-michael", "width": 1}, {"edge_id": "ls23_t2_l3", "from": "resch_claudia", "to": "angeletaki_alexandra", "width": 1}, {"edge_id": "ls23_t3_l1", "from": "resch_claudia", "to": "ommer_bj\u00f6rn", "width": 1}, {"edge_id": "ls23_t3_l2", "from": "resch_claudia", "to": "crane_gregory", "width": 1}, {"edge_id": "ls23_t3_l3", "from": "resch_claudia", "to": "harrower_natalie", "width": 1}, {"edge_id": "ls23_t4_l2", "from": "resch_claudia", "to": "tulp_jan-willem", "width": 1}, {"edge_id": "ls23_t5_l1", "from": "resch_claudia", "to": "meyer_miriah", "width": 1}, {"edge_id": "ls23_t5_l2", "from": "resch_claudia", "to": "van-erp_marieke", "width": 1}, {"edge_id": "ls23_t6_l1", "from": "wiederaenders_maria", "to": "romary_laurent", "width": 1}, {"edge_id": "ls23_t7_l1", "from": "wissik_tanja", "to": "acquavella-rauch_stefanie", "width": 1}, {"edge_id": "ls23_t7_l2", "from": "wissik_tanja", "to": "hovy_dirk", "width": 1}, {"edge_id": "ls23_t7_l3", "from": "wissik_tanja", "to": "bateman_john", "width": 1}, {"edge_id": "ls23_t7_l4", "from": "wissik_tanja", "to": "kohle_hubertus", "width": 1}, {"edge_id": "ls23_t7_l4", "from": "wissik_tanja", "to": "schneider_stefanie", "width": 1}, {"edge_id": "ls23_t7_l1", "from": "acquavella-rauch_stefanie", "to": "wiencek_florian", "width": 1}, {"edge_id": "ls23_t7_l2", "from": "hovy_dirk", "to": "wiencek_florian", "width": 1}, {"edge_id": "ls24_t3_l5", "from": "hovy_dirk", "to": "hodel_tobias", "width": 1}, {"edge_id": "ls23_t7_l3", "from": "bateman_john", "to": "wiencek_florian", "width": 1}, {"edge_id": "ls23_t7_l4", "from": "kohle_hubertus", "to": "wiencek_florian", "width": 1}, {"edge_id": "ls23_t7_l4", "from": "schneider_stefanie", "to": "wiencek_florian", "width": 1}, {"edge_id": "ls23_t8_l1", "from": "wiencek_florian", "to": "rogers_richard", "width": 1}, {"edge_id": "ls23_t8_l2", "from": "wiencek_florian", "to": "heath_sebastian", "width": 1}, {"edge_id": "ls23_t8_l3", "from": "wiencek_florian", "to": "schich_maximilian", "width": 1}, {"edge_id": "ls23_t8_l4", "from": "wiencek_florian", "to": "luther_anne", "width": 1}, {"edge_id": "ls23_t8_l1", "from": "rogers_richard", "to": "woldrich_anna", "width": 1}, {"edge_id": "ls23_t8_l1", "from": "rogers_richard", "to": "koenigshofer_elisabeth", "width": 1}, {"edge_id": "ls23_t8_l2", "from": "heath_sebastian", "to": "woldrich_anna", "width": 1}, {"edge_id": "ls23_t8_l2", "from": "heath_sebastian", "to": "koenigshofer_elisabeth", "width": 1}, {"edge_id": "ls23_t8_l3", "from": "schich_maximilian", "to": "woldrich_anna", "width": 1}, {"edge_id": "ls23_t8_l3", "from": "schich_maximilian", "to": "koenigshofer_elisabeth", "width": 1}, {"edge_id": "ls23_t8_l4", "from": "luther_anne", "to": "woldrich_anna", "width": 1}, {"edge_id": "ls23_t8_l4", "from": "luther_anne", "to": "koenigshofer_elisabeth", "width": 1}, {"edge_id": "ls23_t9_l1", "from": "woldrich_anna", "to": "rabus_achim", "width": 1}, {"edge_id": "ls23_t9_l2", "from": "woldrich_anna", "to": "tasovac_toma", "width": 1}, {"edge_id": "ls23_t9_l3", "from": "woldrich_anna", "to": "bonch-osmolovskaya_anastasia", "width": 1}, {"edge_id": "ls23_t10_l2", "from": "woldrich_anna", "to": "horvath_aliz", "width": 1}, {"edge_id": "ls23_t10_l3", "from": "woldrich_anna", "to": "blanke_tobias", "width": 1}, {"edge_id": "ls23_t9_l1", "from": "koenigshofer_elisabeth", "to": "rabus_achim", "width": 1}, {"edge_id": "ls23_t9_l2", "from": "koenigshofer_elisabeth", "to": "tasovac_toma", "width": 1}, {"edge_id": "ls23_t9_l3", "from": "koenigshofer_elisabeth", "to": "bonch-osmolovskaya_anastasia", "width": 1}, {"edge_id": "ls24_t5_l5", "from": "rabus_achim", "to": "hodel_tobias", "width": 1}, {"edge_id": "ls24_t1_l1", "from": "hodel_tobias", "to": "dusinberre_martin", "width": 1}, {"edge_id": "ls24_t1_l1", "from": "hodel_tobias", "to": "mcdonald_daniel", "width": 1}, {"edge_id": "ls24_t1_l1", "from": "hodel_tobias", "to": "feiner_leyla", "width": 1}, {"edge_id": "ls24_t1_l2", "from": "hodel_tobias", "to": "piotrowski_michael", "width": 1}, {"edge_id": "ls24_t1_l3", "from": "hodel_tobias", "to": "schwandt_silke", "width": 1}, {"edge_id": "ls24_t1_l4", "from": "hodel_tobias", "to": "bell_peter", "width": 1}, {"edge_id": "ls24_t1_l5", "from": "hodel_tobias", "to": "grandjean_martin", "width": 1}, {"edge_id": "ls24_t1_l6", "from": "hodel_tobias", "to": "schneider_christa", "width": 1}, {"edge_id": "ls24_t1_l8", "from": "hodel_tobias", "to": "rosenthaler_lukas", "width": 1}, {"edge_id": "ls24_t2_l1", "from": "hodel_tobias", "to": "nehrlich_thomas", "width": 1}, {"edge_id": "ls24_t2_l2", "from": "hodel_tobias", "to": "fendt_kurt", "width": 1}, {"edge_id": "ls24_t2_l3", "from": "hodel_tobias", "to": "schwarz-zanetti_gabriela", "width": 1}, {"edge_id": "ls24_t2_l3", "from": "hodel_tobias", "to": "heinzmann_lukas", "width": 1}, {"edge_id": "ls24_t2_l4", "from": "hodel_tobias", "to": "reichen_roland", "width": 1}, {"edge_id": "ls24_t2_l4", "from": "hodel_tobias", "to": "raciti_silvio", "width": 1}, {"edge_id": "ls24_t2_l4", "from": "hodel_tobias", "to": "zihlmann_patricia", "width": 1}, {"edge_id": "ls24_t2_l5", "from": "hodel_tobias", "to": "zimmermann_christian-von", "width": 1}, {"edge_id": "ls24_t2_l5", "from": "hodel_tobias", "to": "schmid_jimmy", "width": 1}, {"edge_id": "ls24_t2_l6", "from": "hodel_tobias", "to": "stuber_martin", "width": 1}, {"edge_id": "ls24_t2_l6", "from": "hodel_tobias", "to": "metz_bernhard", "width": 1}, {"edge_id": "ls24_t2_l6", "from": "hodel_tobias", "to": "kohler_daniela", "width": 1}, {"edge_id": "ls24_t2_l7", "from": "hodel_tobias", "to": "sahle_patrick", "width": 1}, {"edge_id": "ls24_t2_l8", "from": "hodel_tobias", "to": "sutter_pascale", "width": 1}, {"edge_id": "ls24_t2_l8", "from": "hodel_tobias", "to": "ruef_bernhard", "width": 1}, {"edge_id": "ls24_t2_l9", "from": "hodel_tobias", "to": "gubler_kaspar", "width": 1}, {"edge_id": "ls24_t2_l10", "from": "hodel_tobias", "to": "abel_stefan", "width": 1}, {"edge_id": "ls24_t3_l1", "from": "hodel_tobias", "to": "jaillant_lise", "width": 1}, {"edge_id": "ls24_t3_l2", "from": "hodel_tobias", "to": "marthot-santaniello_isabelle", "width": 1}, {"edge_id": "ls24_t3_l3", "from": "hodel_tobias", "to": "serif_ina", "width": 1}, {"edge_id": "ls24_t3_l4", "from": "hodel_tobias", "to": "jobin_anna", "width": 1}, {"edge_id": "ls24_t3_l6", "from": "hodel_tobias", "to": "fornaro_peter", "width": 1}, {"edge_id": "ls24_t3_l6", "from": "hodel_tobias", "to": "felsing_ulrike", "width": 1}, {"edge_id": "ls24_t3_l7", "from": "hodel_tobias", "to": "sanchez_joan-andreu", "width": 1}, {"edge_id": "ls24_t3_l7", "from": "hodel_tobias", "to": "toselli_alejandro-hector", "width": 1}, {"edge_id": "ls24_t3_l8", "from": "hodel_tobias", "to": "gasser_sonja", "width": 1}, {"edge_id": "ls24_t3_l9", "from": "hodel_tobias", "to": "maehr_moritz", "width": 1}, {"edge_id": "ls24_t4_l1", "from": "hodel_tobias", "to": "pfister_eugen", "width": 1}, {"edge_id": "ls24_t4_l2", "from": "hodel_tobias", "to": "hurel_pierre-yves", "width": 1}, {"edge_id": "ls24_t4_l2", "from": "hodel_tobias", "to": "bemelmans_sophie", "width": 1}, {"edge_id": "ls24_t4_l2", "from": "hodel_tobias", "to": "rochat_yannick", "width": 1}, {"edge_id": "ls24_t4_l3", "from": "hodel_tobias", "to": "kato_hiloko", "width": 1}, {"edge_id": "ls24_t4_l3", "from": "hodel_tobias", "to": "wild_larissa", "width": 1}, {"edge_id": "ls24_t4_l3", "from": "hodel_tobias", "to": "krummenacher_dave", "width": 1}, {"edge_id": "ls24_t4_l4", "from": "hodel_tobias", "to": "burghardt_manuel", "width": 1}, {"edge_id": "ls24_t4_l5", "from": "hodel_tobias", "to": "brandenburg_aurelia", "width": 1}, {"edge_id": "ls24_t4_l5", "from": "hodel_tobias", "to": "demleitner_adrian", "width": 1}, {"edge_id": "ls24_t4_l6", "from": "hodel_tobias", "to": "wildi_tobias", "width": 1}, {"edge_id": "ls24_t5_l1", "from": "hodel_tobias", "to": "spadini_elena", "width": 1}, {"edge_id": "ls24_t5_l2", "from": "hodel_tobias", "to": "weilinghof_andreas", "width": 1}, {"edge_id": "ls24_t5_l4", "from": "hodel_tobias", "to": "kapitan_katarzyna-anna", "width": 1}, {"edge_id": "ls24_t5_l6", "from": "hodel_tobias", "to": "beisbart_claus", "width": 1}, {"edge_id": "ls24_t5_l7", "from": "hodel_tobias", "to": "feichtinger_moritz", "width": 1}, {"edge_id": "ls24_t5_l8", "from": "hodel_tobias", "to": "bubenhofer_noah", "width": 1}, {"edge_id": "ls25_t1_l1", "from": "fornaro_peter", "to": "dufaux_alain", "width": 1}, {"edge_id": "ls25_t1_l2", "from": "fornaro_peter", "to": "gries_christian", "width": 1}, {"edge_id": "ls25_t1_l3", "from": "fornaro_peter", "to": "taes_sofie", "width": 1}, {"edge_id": "ls25_t2_l1", "from": "fornaro_peter", "to": "jehle_bruno", "width": 1}, {"edge_id": "ls25_t2_l2", "from": "fornaro_peter", "to": "sibille_christiane", "width": 1}, {"edge_id": "ls25_t2_l2", "from": "fornaro_peter", "to": "zimmermann_dorothea", "width": 1}, {"edge_id": "ls25_t2_l3", "from": "fornaro_peter", "to": "stoffel_isabelle", "width": 1}, {"edge_id": "ls25_t3_l1", "from": "fornaro_peter", "to": "katz_brian", "width": 1}, {"edge_id": "ls25_t3_l2", "from": "fornaro_peter", "to": "jaquet_daniel", "width": 1}, {"edge_id": "ls25_t3_l3", "from": "fornaro_peter", "to": "himmelsbach_sabine", "width": 1}, {"edge_id": "ls25_t4_l1", "from": "fornaro_peter", "to": "melone_mirco", "width": 1}, {"edge_id": "ls25_t4_l2", "from": "fornaro_peter", "to": "maget-dominice_antoinette", "width": 1}, {"edge_id": "ls25_t4_l3", "from": "fornaro_peter", "to": "akarcay_guenhan", "width": 1}, {"edge_id": "ls25_t4_l4", "from": "fornaro_peter", "to": "strasser_marc", "width": 1}, {"edge_id": "ls25_t1_l1", "from": "burkart_lucas", "to": "dufaux_alain", "width": 1}, {"edge_id": "ls25_t1_l2", "from": "burkart_lucas", "to": "gries_christian", "width": 1}, {"edge_id": "ls25_t1_l3", "from": "burkart_lucas", "to": "taes_sofie", "width": 1}, {"edge_id": "ls25_t2_l1", "from": "burkart_lucas", "to": "jehle_bruno", "width": 1}, {"edge_id": "ls25_t2_l2", "from": "burkart_lucas", "to": "sibille_christiane", "width": 1}, {"edge_id": "ls25_t2_l2", "from": "burkart_lucas", "to": "zimmermann_dorothea", "width": 1}, {"edge_id": "ls25_t2_l3", "from": "burkart_lucas", "to": "stoffel_isabelle", "width": 1}, {"edge_id": "ls25_t3_l1", "from": "burkart_lucas", "to": "katz_brian", "width": 1}, {"edge_id": "ls25_t3_l2", "from": "burkart_lucas", "to": "jaquet_daniel", "width": 1}, {"edge_id": "ls25_t3_l3", "from": "burkart_lucas", "to": "himmelsbach_sabine", "width": 1}, {"edge_id": "ls25_t4_l1", "from": "burkart_lucas", "to": "melone_mirco", "width": 1}, {"edge_id": "ls25_t4_l2", "from": "burkart_lucas", "to": "maget-dominice_antoinette", "width": 1}, {"edge_id": "ls25_t4_l3", "from": "burkart_lucas", "to": "akarcay_guenhan", "width": 1}, {"edge_id": "ls25_t4_l4", "from": "burkart_lucas", "to": "strasser_marc", "width": 1}, {"edge_id": "ls27_t1_l1", "from": "stagg_lucy", "to": "hockey_susan", "width": 1}, {"edge_id": "ls27_t1_l2", "from": "stagg_lucy", "to": "drucker_johanna", "width": 1}, {"edge_id": "ls27_t1_l3", "from": "stagg_lucy", "to": "bruegger_niels", "width": 1}, {"edge_id": "ls27_t1_l4", "from": "stagg_lucy", "to": "meghini_carlo", "width": 1}, {"edge_id": "ls27_t1_l5", "from": "stagg_lucy", "to": "roueche_charlotte", "width": 1}, {"edge_id": "ls28_t1_l1", "from": "bown_alfie", "to": "niklas_jedrzej", "width": 1}, {"edge_id": "ls28_t1_l2", "from": "bown_alfie", "to": "brenner_leon", "width": 1}, {"edge_id": "ls28_t1_l3", "from": "bown_alfie", "to": "everitt_katherine", "width": 1}, {"edge_id": "ls28_t1_l1", "from": "niklas_jedrzej", "to": "dzakula_jelena", "width": 1}, {"edge_id": "ls28_t1_l2", "from": "brenner_leon", "to": "dzakula_jelena", "width": 1}, {"edge_id": "ls28_t1_l3", "from": "everitt_katherine", "to": "dzakula_jelena", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "oreglia_elisa", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "chonka_peter", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "mathew_ashwin", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "gibson_laura", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "cheong_niki", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "zaborowski_rafal", "width": 1}, {"edge_id": "ls29_t1_l1", "from": "vrikki_photini", "to": "moreno-almeida_cristina", "width": 1}, {"edge_id": "ls29_t2_l1", "from": "vrikki_photini", "to": "chavez-heras_daniel", "width": 1}, {"edge_id": "ls29_t2_l2", "from": "vrikki_photini", "to": "bunz_mercedes", "width": 1}, {"edge_id": "ls29_t2_l3", "from": "vrikki_photini", "to": "devlin_kate", "width": 1}, {"edge_id": "ls29_t3_l1", "from": "vrikki_photini", "to": "bruun_mikkel-kenni", "width": 1}, {"edge_id": "ls29_t3_l2", "from": "vrikki_photini", "to": "peacock_vita", "width": 1}, {"edge_id": "ls30_t1_l1", "from": "sanderson_rob", "to": "mitchell_rebecca", "width": 1}, {"edge_id": "ls30_t1_l1", "from": "sanderson_rob", "to": "abbott_helen", "width": 1}, {"edge_id": "ls30_t1_l1", "from": "sanderson_rob", "to": "ward_aengus", "width": 1}, {"edge_id": "ls30_t1_l2", "from": "treharne_elaine", "to": "mitchell_rebecca", "width": 1}, {"edge_id": "ls30_t1_l2", "from": "treharne_elaine", "to": "abbott_helen", "width": 1}, {"edge_id": "ls30_t1_l2", "from": "treharne_elaine", "to": "ward_aengus", "width": 1}, {"edge_id": "ls30_t1_l3", "from": "bassett_caroline", "to": "mitchell_rebecca", "width": 1}, {"edge_id": "ls30_t1_l3", "from": "bassett_caroline", "to": "abbott_helen", "width": 1}, {"edge_id": "ls30_t1_l3", "from": "bassett_caroline", "to": "ward_aengus", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": false,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
