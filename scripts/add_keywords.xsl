@@ -19,7 +19,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="note[@type='keywords'][ancestor::event[@type='lecture-series'][@xml:id='ls33']]">
+  <xsl:template match="note[@type='keywords'][ancestor::event[@type='lecture-series'][@xml:id='ls26']]">
     <xsl:variable name="event-id" select="ancestor::event[@type='lecture']/@xml:id"/>
     <note type="keywords" xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:apply-templates select="term[@type='discipline' or @type='topic']"/>
