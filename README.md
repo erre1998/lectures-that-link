@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/972028047.svg)](https://zenodo.org/badge/latestdoi/972028047)
+
 # Lectures that Link
 This repository contains the data and scripts for the project **"Lectures that Link"**, which analyzes European lecture series as nodes of interaction within the Digital Humanities (DH) community.
 Over the past decade, numerous DH lecture series have been organized by institutions across Europe. Our project systematically analyzes these series to better understand how DH has developed as a field of research. By examining both their structure and content, we aim to identify key topics, institutional and personal networks, and broader thematic trends.
