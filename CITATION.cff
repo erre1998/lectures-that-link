@@ -2,7 +2,7 @@ message: "If you use this software, please cite it using these metadata."
 title: "Lectures that Link"
 version: "0.5"
 license: "GPL-3.0"
-date-released: 2025-05-02
+date-released: 2025-06-30
 authors: 
   - family-names: Henny-Krahmer
     given-names: Ulrike
@@ -17,8 +17,8 @@ authors:
     orcid: "https://orcid.org/0009-0005-8288-7470"
     email: "erik.renz@uni-rostock.de"
 keywords: 
-  - "trend analysis"
+  - "digital humanities"
   - "lecture series"
-  - "social network analysis"
+  - "data analysis"
 abstract: "Over the past decade, numerous Digital Humanities (DH) lecture series have been held at institutions across Europe. Our project systematically analyzes these series to better understand how DH has developed as a field of research. By examining both their structure and content, we aim to identify key topics, institutional and personal networks, and broader thematic trends."
 cff-version: "1.1.0"

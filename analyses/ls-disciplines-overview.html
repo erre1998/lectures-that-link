@@ -11,7 +11,7 @@
          </tr>
       </table><script>
             var trace1 = {
-            y: [157,100,69,50,44,43,41,38,31,28,28,25,12,9,9,8,7,7,6,6,6,4,4,4,4,3,3,1,1,1,1,1,0],
+            y: [227,141,116,76,63,61,46,45,43,33,32,32,29,21,20,13,12,12,11,11,11,10,9,8,8,7,4,4,1,1,1,1,0,0,0,0],
             x: [
               'digital humanities'
               ,
@@ -19,23 +19,27 @@
               ,
               'literary studies'
               ,
+              'computer science'
+              ,
               'library and information science'
               ,
               'linguistics'
               ,
-              'computer science'
+              'german studies'
               ,
               'archaeology'
               ,
-              'german studies'
+              'art history'
+              ,
+              'media studies'
               ,
               'classics'
               ,
-              'art history'
-              ,
               'museology'
               ,
-              'media studies'
+              'computational linguistics'
+              ,
+              'cultural studies'
               ,
               'geography'
               ,
@@ -43,27 +47,25 @@
               ,
               'game studies'
               ,
-              'cultural studies'
+              'social sciences'
               ,
               'theology'
               ,
-              'english studies'
-              ,
               'philosophy'
-              ,
-              'education-science'
-              ,
-              'social sciences'
               ,
               'musicology'
               ,
-              'political science'
+              'english studies'
               ,
               'theater studies'
               ,
-              'computational linguistics'
+              'education-science'
               ,
               'regional studies'
+              ,
+              'political science'
+              ,
+              'mathematics'
               ,
               'egyptology'
               ,
@@ -73,11 +75,15 @@
               ,
               'slavic studies'
               ,
-              'mathematics'
-              ,
               'chinese studies'
               ,
               'biology'
+              ,
+              'gender studies'
+              ,
+              'asian studies'
+              ,
+              'science communication'
               ],
             type: 'bar',
             name: 'disciplines'
@@ -86,8 +92,8 @@
             var data = [trace1];
             var layout = {
             yaxis: {title: {text: "number of lectures"}},
-            xaxis: {tickangle: 45},
-            margin: {b: 150}
+            xaxis: {tickangle: 40},
+            margin: {b: 150, r: 100}
             };
             
             Plotly.newPlot('myDiv1', data, layout);
