@@ -167,6 +167,41 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="fh-cbs" type="university">
+            <name xml:lang="en">Copenhagen Business School</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q703620</idno>
+            <place corresp="#copenhagen"/>
+          </org>
+          <org xml:id="fh-enpc" type="university">
+            <name xml:lang="fr">École nationale des ponts et chaussées</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q273523</idno>
+            <place corresp="#champs-sur-marne"/>
+          </org>
+          <org xml:id="fh-fom" type="university">
+            <name xml:lang="de">FOM Hochschule für Oekonomie &amp; Management</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55156</idno>
+            <place corresp="#essen"/>
+          </org>
+          <org xml:id="fh-bern" type="university">
+            <name xml:lang="de">Hochschule der Künste Bern</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1622152</idno>
+            <place corresp="#bern"/>
+          </org>
+          <org xml:id="uni-wisconsin-madison" type="university">
+            <name xml:lang="en">University of Wisconsin-Madison</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q838330</idno>
+            <place corresp="#madison"/>
+          </org>
+          <org xml:id="uni-karlsruhe" type="university">
+            <name xml:lang="de">Karlsruher Institut für Technologie</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q309988</idno>
+            <place corresp="#karlsruhe"/>
+          </org>
+          <org xml:id="uni-dortmund" type="university">
+            <name xml:lang="de">Technische Universität Dortmund</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q685557</idno>
+            <place corresp="#dortmund"/>
+          </org>
           <org xml:id="uni-bruxelles" type="university">
             <name xml:lang="fr">Université libre de Bruxelles</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q574606</idno>
@@ -1358,6 +1393,26 @@
             <place corresp="#cambridge-us"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="observatoire-de-paris" type="research_institution">
+            <name xml:lang="fr">Observatoire de Paris</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q461340</idno>
+            <place corresp="#paris"/>
+          </org>
+          <org xml:id="ronin-institute" type="research_institution">
+            <name xml:lang="en">Ronin Institute</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27207785</idno>
+            <place corresp="#montclair"/>
+          </org>
+          <org xml:id="gesis" type="research_institution">
+            <name xml:lang="en">GESIS – Leibniz Institute for the Social Sciences</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1485220</idno>
+            <place corresp="#mannheim"/>
+          </org>
+          <org xml:id="diw" type="research_institution">
+            <name xml:lang="de">Deutsches Institut für Wirtschaftsforschung</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q155228</idno>
+            <place corresp="#berlin"/>
+          </org>
           <org xml:id="anr" type="research_institution">
             <name xml:lang="fr">Agence nationale de la recherche (ANR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q392500</idno>
@@ -1658,6 +1713,11 @@
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <!-- ####### L ####### -->
+          <org xml:id="library-uni-bielefeld" type="glam">
+            <name xml:lang="de">Universitätsbibliothek Bielefeld</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1770764</idno>
+            <place corresp="#bielefeld"/>
+          </org>
           <org xml:id="library-uni-cambridge" type="glam">
             <name xml:lang="en">Cambridge University Library</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1028334</idno>
@@ -1745,6 +1805,11 @@
             <place corresp="#paris"/>
           </org>
           <!-- ####### A ####### -->
+          <org xml:id="archive-salzburg" type="glam">
+            <name xml:lang="de">Stadtarchiv Salzburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133065174</idno>
+            <place corresp="#salzburg"/>
+          </org>
           <org xml:id="archive-barch-berlin" type="glam">
             <name xml:lang="de">Bundesarchiv Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q66735830</idno>
@@ -1879,6 +1944,11 @@
             <place corresp="#stockholm #gothenburg"/>
           </org>
           <!-- ##### Companies ##### -->
+          <org xml:id="deepl" type="company">
+            <name xml:lang="en">DeepL SE</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131894787</idno>
+            <place corresp="#koeln"/>
+          </org>
           <org xml:id="ibm" type="company">
             <name xml:lang="en">International Business Machines Corporation (IBM)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q37156</idno>
@@ -1993,6 +2063,491 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="van-beek_alan">
+            <name>
+              <forename>Alan</forename>
+              <surname>van Beek</surname>
+            </name>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9722-0653</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131764203</idno>
+          </person>
+          <person xml:id="yavrumyan_marat">
+            <name>
+              <forename>Marat</forename>
+              <surname>Yavrumyan</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9722-0653</idno>
+          </person>
+          <person xml:id="imeri_aylin">
+            <name>
+              <forename>Aylin</forename>
+              <surname>Imeri</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="sauzet_odile">
+            <name>
+              <forename>Odile</forename>
+              <surname>Sauzet</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1029-8846</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q43411979</idno>
+          </person>
+          <person xml:id="higgitt_rebekah">
+            <name>
+              <forename>Rebekah</forename>
+              <surname>Higgitt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9387-4150</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62718222</idno>
+          </person>
+          <person xml:id="norindr_jade">
+            <name>
+              <forename>Jade</forename>
+              <surname>Norindr</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-1391-3420</idno>
+          </person>
+          <person xml:id="moitinho-de-almeida_vera">
+            <name>
+              <forename>Vera</forename>
+              <surname>Moitinho de Almeida</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4979-8247</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57491179</idno>
+          </person>
+          <person xml:id="landkammer_miriam">
+            <name>
+              <forename>Miriam</forename>
+              <surname>Landkammer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-3517-0566</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126691949</idno>
+          </person>
+          <person xml:id="sen_indira">
+            <name>
+              <forename>Indira</forename>
+              <surname>Sen</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3475-0371</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130853253</idno>
+          </person>
+          <person xml:id="pham_kim">
+            <name>
+              <forename>Rana</forename>
+              <surname>Brentjes</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="pham_kim">
+            <name>
+              <forename>Kim</forename>
+              <surname>Pham</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9115-4739</idno>
+          </person>
+          <person xml:id="willaime_pierre">
+            <name>
+              <forename>Pierre</forename>
+              <surname>Willaime</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q94106728</idno>
+          </person>
+          <person xml:id="akazawa_mari">
+            <name>
+              <forename>Mari</forename>
+              <surname>Akazawa</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0007-2653-6275</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133645832</idno>
+          </person>
+          <person xml:id="bates_douglas">
+            <name>
+              <forename>Douglas</forename>
+              <surname>Bates</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8316-9503</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57449762</idno>
+          </person>
+          <person xml:id="siebenlist_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Siebenlist</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9435-910X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57911417</idno>
+          </person>
+          <person xml:id="streit_achim">
+            <name>
+              <forename>Achim</forename>
+              <surname>Streit</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5065-469X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q111440065</idno>
+          </person>
+          <person xml:id="bauer_bernhard">
+            <name>
+              <forename>Bernhard</forename>
+              <surname>Bauer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2881-0972</idno>
+          </person>
+          <person xml:id="zedlacher_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Zedlacher</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0063-3345</idno>
+          </person>
+          <person xml:id="fleischer_dirk">
+            <name>
+              <forename>Dirk</forename>
+              <surname>Fleischer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0108-4675</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q40186384</idno>
+          </person>
+          <person xml:id="sczyrba_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Sczyrba</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4405-3847</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30420936</idno>
+          </person>
+          <person xml:id="hermann_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Hermann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7975-4363</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30525481</idno>
+          </person>
+
+          <person xml:id="cimiano_philipp">
+            <name>
+              <forename>Philipp</forename>
+              <surname>Cimiano</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4771-441X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59403940</idno>
+          </person>
+          <person xml:id="hermann_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Hermann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7975-4363</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30525481</idno>
+          </person>
+          <person xml:id="summann_friedrich">
+            <name>
+              <forename>Friedrich</forename>
+              <surname>Summann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6297-3348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57198108</idno>
+          </person>
+          <person xml:id="klugseder_robert">
+            <name>
+              <forename>Robert</forename>
+              <surname>Klugseder</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0484-832X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93262415</idno>
+          </person>
+          <person xml:id="linortner_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Linortner</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6706-4450</idno>
+          </person>
+          <person xml:id="bosi_carlo">
+            <name>
+              <forename>Carlo</forename>
+              <surname>Bosi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8414-4321</idno>
+          </person>
+          <person xml:id="uhl_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Uhl</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5921-8755</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q91341556</idno>
+          </person>
+          <person xml:id="zeppezauer-wachauer_katharina">
+            <name>
+              <forename>Katharina</forename>
+              <surname>Zeppezauer-Wachauer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9310-9029</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112344051</idno>
+          </person>
+          <person xml:id="ernst_marlene">
+            <name>
+              <forename>Marlene</forename>
+              <surname>Ernst</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0097-2267</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q119478419</idno>
+          </person>
+          <person xml:id="dum-tragut_jasmine">
+            <name>
+              <forename>Jasmine</forename>
+              <surname>Dum Tragut</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0130-6274</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q54972385</idno>
+          </person>
+          <person xml:id="lindmayr-brandl_andrea">
+            <name>
+              <forename>Andrea</forename>
+              <surname>Lindmayr-Brandl</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4438-7158</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q21253287</idno>
+          </person>
+          <person xml:id="bleuler_anna-kathrin">
+            <name>
+              <forename>Anna Kathrin</forename>
+              <surname>Bleuler</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9053-0130</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q14498362</idno>
+          </person>
+          <person xml:id="tangerner_elisabeth">
+            <name>
+              <forename>Elisabeth</forename>
+              <surname>Tangerner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-1826-4833</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113746530</idno>
+          </person>
+          <person xml:id="matschinegg_ingrid">
+            <name>
+              <forename>Ingrid</forename>
+              <surname>Matschinegg</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7922-4338</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q124636495</idno>
+          </person>
+          <person xml:id="hintersteiner_julia">
+            <name>
+              <forename>Julia</forename>
+              <surname>Hintersteiner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-8333-3658</idno>
+          </person>
+          <person xml:id="nicka_isabella">
+            <name>
+              <forename>Isabella</forename>
+              <surname>Nicka</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3587-6606</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598062</idno>
+          </person>
+          <person xml:id="schober_regina">
+            <name>
+              <forename>Regina</forename>
+              <surname>Schober</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1105-0922</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q106656144</idno>
+          </person>
+          <person xml:id="beutel-thurow_linda">
+            <name>
+              <forename>Linda</forename>
+              <surname>Beutel-Thurow</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-1074-1588</idno>
+          </person>
+          <person xml:id="dorsch_isabelle">
+            <name>
+              <forename>Isabelle</forename>
+              <surname>Dorsch</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7391-5189</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133411000</idno>
+          </person>
+          <person xml:id="reinhardt_corinna">
+            <name>
+              <forename>Corinna</forename>
+              <surname>Reinhardt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2595-325X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55078627</idno>
+          </person>
+          <person xml:id="andresen_melanie">
+            <name>
+              <forename>Melanie</forename>
+              <surname>Andresen</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3913-1273</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126594998</idno>
+          </person>
+          <person xml:id="reiners-selbach_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Reiners-Selbach</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4763-4348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692074</idno>
+          </person>
+          <person xml:id="olliges-wieczorek_ute">
+            <name>
+              <forename>Ute</forename>
+              <surname>Olliges-Wieczorek</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95202447</idno>
+          </person>
+          <person xml:id="fuchs_christiane">
+            <name>
+              <forename>Christiane</forename>
+              <surname>Fuchs</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3565-8315</idno>
+          </person>
+          <person xml:id="brinkhoff_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Brinkhoff</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="goebel_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Goebel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3243-1935</idno>
+          </person>
+          <person xml:id="weihs_claus">
+            <name>
+              <forename>Claus</forename>
+              <surname>Weihs</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0005-2495-8314</idno>
+          </person>
+          <person xml:id="bauer_dietmar">
+            <name>
+              <forename>Dietmar</forename>
+              <surname>Bauer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2920-7032</idno>
+          </person>
+          <person xml:id="henrich_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Henrich</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5074-3254</idno>
+          </person>
+          <person xml:id="schaefers_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Schäfers</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="ballhausen_hendrik">
+            <name>
+              <forename>Hendrik</forename>
+              <surname>Ballhausen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4733-1926</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q88013325</idno>
+          </person>
+          <person xml:id="brandstaetter_walter">
+            <name>
+              <forename>Walter</forename>
+              <surname>Brandstätter</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-8085-3489</idno>
+          </person>
+          <person xml:id="gruber-tokic_elisabeth">
+            <name>
+              <forename>Elisabeth</forename>
+              <surname>Gruber-Tokić</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3387-3097</idno>
+          </person>
+          <person xml:id="faerberboeck_peter">
+            <name>
+              <forename>Peter</forename>
+              <surname>Färberböck</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8701-8259</idno>
+          </person>
+          <person xml:id="bloemer_johannes">
+            <name>
+              <forename>Johannes</forename>
+              <surname>Blömer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6065-3535</idno>
+          </person>
+          <person xml:id="luebke_karsten">
+            <name>
+              <forename>Karsten</forename>
+              <surname>Lübke</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-5129-4886</idno>
+          </person>
           <person xml:id="rammos_yannis">
             <name>
               <forename>Yannis</forename>
@@ -10567,6 +11122,11 @@
           <!-- #### Cities #### -->
           <!-- ###### Continent: Europe ###### -->
           <!-- ######## German cities ######## -->
+          <place type="city" xml:id="dortmund">
+            <country corresp="#germany"/>
+            <name>Dortmund</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004982</idno>
+          </place>
           <place type="city" xml:id="trier">
             <country corresp="#germany"/>
             <name>Trier</name>
@@ -11174,6 +11734,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007942</idno>
           </place>
           <!-- ######## French cities ######## -->
+          <place type="city" xml:id="champs-sur-marne">
+            <country corresp="#france"/>
+            <name>Champs-sur-Marne</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7017210</idno>
+          </place>
           <place type="city" xml:id="bastia">
             <country corresp="#france"/>
             <name>Bastia</name>
@@ -11240,6 +11805,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008441</idno>
           </place>
           <!-- ######## Danish cities ######## -->
+          <place type="city" xml:id="copenhagen">
+            <country corresp="#denmark"/>
+            <name>Copenhagen</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7003474</idno>
+          </place>
           <place type="city" xml:id="aarhus">
             <country corresp="#denmark"/>
             <name>Aarhus</name>
@@ -11580,6 +12150,16 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="montclair">
+            <country corresp="#usa"/>
+            <name>Montclair</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/Q678437</idno>
+          </place>
+          <place type="city" xml:id="madison">
+            <country corresp="#usa"/>
+            <name>Madison</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013966</idno>
+          </place>
           <place type="city" xml:id="armonk">
             <country corresp="#usa"/>
             <name>Armonk</name>
@@ -46021,13 +46601,13 @@
             <eventName>2023</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
-            
+
             <!-- 2023-04-26 https://web.archive.org/web/20250626134653/https://memento.epfl.ch/event/dh-seminar-charlie-parker-composer-highlights-an-2/ -->
-            
+
             <!-- 2023-04-28 https://web.archive.org/web/20250626134750/https://memento.epfl.ch/event/dh-seminar-modernism-jazz-counterpoint-a-henry-m-2/ -->
-            
+
             <!-- 2023-11-27 https://web.archive.org/web/20250626134704/https://memento.epfl.ch/event/between-justice-seeking-and-entertainment-digita-2/ -->
-            
+
             <org role="organizer" corresp="#rammos_yannis"/>
           </event>
 
