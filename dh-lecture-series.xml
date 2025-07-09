@@ -2063,6 +2063,14 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="kleinertz_rainer">
+            <name>
+              <forename>Rainer</forename>
+              <surname>Kleinertz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112454935</idno>
+          </person>
           <person xml:id="van-beek_alan">
             <name>
               <forename>Alan</forename>
@@ -23460,7 +23468,7 @@
           <ptr type="programme"
             target="https://web.archive.org/web/20250503165139/https://dhc.hypotheses.org/a-propos"/>
           <event type="lecture-series-term" from="2018-10" to="2019-01" xml:id="ls9_t1">
-            <eventName xml:lang="de">Wintersemester 2018-2019</eventName>
+            <eventName xml:lang="de">Wintersemester 2018-19</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20240812232945/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem18/digital-cultural-heritage/"/>
             <event type="lecture" when="2018-10-17" xml:id="ls9_t1_l1">
@@ -23789,7 +23797,7 @@
             <org role="organizer" corresp="#eide_oyvind #paliou_eleftheria"/>
           </event>
           <event type="lecture-series-term" from="2019-10" to="2020-01" xml:id="ls9_t2">
-            <eventName xml:lang="de">Wintersemester 2019-2020</eventName>
+            <eventName xml:lang="de">Wintersemester 2019-20</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250319130741/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem19/colloquium-in-digital-cultural-heritage"/>
             <event type="lecture" when="2019-10-16" xml:id="ls9_t2_l1">
@@ -24189,7 +24197,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2020-11" to="2021-02" xml:id="ls9_t3">
-            <eventName xml:lang="de">Wintersemester 2020-2021</eventName>
+            <eventName xml:lang="de">Wintersemester 2020-21</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250318101021/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem20/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2020-11-04" xml:id="ls9_t3_l1">
@@ -24494,7 +24502,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2021-10" to="2022-02" xml:id="ls9_t4">
-            <eventName xml:lang="de">Wintersemester 2021-2022</eventName>
+            <eventName xml:lang="de">Wintersemester 2021-22</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250308085941/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem21/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2021-10-20" xml:id="ls9_t4_l1">
@@ -24874,7 +24882,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2022-10" to="2023-02" xml:id="ls9_t5">
-            <eventName xml:lang="de">Wintersemester 2022-2023</eventName>
+            <eventName xml:lang="de">Wintersemester 2022-23</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250302173603/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wintersemester-2022-2023/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2022-10-19" xml:id="ls9_t5_l1">
@@ -25289,7 +25297,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2023-10" to="2024-01" xml:id="ls9_t6">
-            <eventName xml:lang="de">Wintersemester 2023-2024</eventName>
+            <eventName xml:lang="de">Wintersemester 2023-24</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250227125247/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wintersemester-2023-2024/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2023-10-18" xml:id="ls9_t6_l1">
@@ -25688,7 +25696,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls9_t7">
-            <eventName xml:lang="de">Wintersemester 2024-2025</eventName>
+            <eventName xml:lang="de">Wintersemester 2024-25</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250301150511/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wintersemester-2024-2025/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2024-10-16" xml:id="ls9_t7_l1">
@@ -41168,6 +41176,134 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+        
+        <event xml:id="..." type="lecture-series" where="#freiburg">
+          <eventName xml:lang="de">Digital Humanities. Medienwissenschaftliche Perspektiven –
+            Mediävistische Schlaglichter</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20220124190036/https://www.mittelalterzentrum.uni-freiburg.de/ringvorlesung-maz"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250708235517/https://arthist.net/archive/35152"/>
+          <note type="description" xml:lang="de">
+            <p>Gerade in der Mediävistik, wo komplexe handschriftliche Überlieferungen,
+              Fragmentierung von Quellen, Veränderungen von Räumen etc. bestimmende Faktoren sind,
+              ermöglichen digitale Medien neue Denk- und Handlungsansätze. Ihnen spüren die
+              mediävistischen Themen der Ringvorlesung nach.</p>
+            <p>Erstmals findet die Veranstaltung in Kooperation mit der Medienkulturwissenschaft
+              statt (Starttermin: 03.11., 12-14 Uhr c.t.). Mediävistische und
+              Medienwissenschaftliche Vorträge alternieren 14-tägig und selbstverständlich sind
+              Studierende, Mitglieder und Gäste des Mittelalterzentrums zu allen Vorträgen und
+              Panels herzlich eingeladen. Sie vermitteln in der Gesamtheit ein vielfältiges Bild von
+              der digitalen Transformation der Geisteswissenschaften, was die Methoden, aber auch
+              die Gegenstände anbelangt.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="...">
+            <eventName>Wintersemester 2021-22</eventName>
+
+            <!-- 
+            03.11.21 Barbara Flückiger (Zürich): Entwicklung eines digitalen Ökosystems zur Dokumentation, Analyse und Visualisierung von Filmen
+            
+            10.11.21 Ueli Zahnd (Genf): Vom Codex zum Netzwerk: Potentiale einer digitalen Scholastik
+            
+            17.11.21 Christoph Hust (Leipzig): Heimcomputer, Spiele und Musik: Fragestellungen und Methoden der Ludomusicology
+            
+            24.11.21 Andreas Haug, Alexander Hartelt (Würzburg) | Hana Vlhova-Wörner, Jan Hajic jr. (Prag): Panel Digitale Edition von Musikhandschriften des Mittelalters
+            
+            01.12.21 Dietmar Kammerer, Mai Matuszkiewicz (Marburg): Medienwissenschaftliche Vernetzung und Plattformen: Vorstellung der Projekts Mediarep
+            
+            08.12.21 Tim Geelhaar (Frankfurt), Michael Schonhardt (Kassel), Achim Rabus (Freiburg): Panel Transkribus im Einsatz für die Forschung. Chancen und Herausforderungen
+            
+            15.12.21 Thorsten Wübbena (Leibniz-Institut): DH Lab IEG - Geisteswissenschaftliche Forschung digital gestalten
+            
+            12.01.22 Holger Simon (Köln): Digitalität in den Gedächtnisinstitutionen. Wandel in Präsentation, Vermittlung und Forschung
+            
+            19.01.22 Angela Schwarz (Siegen): "Sie können jetzt in die Vergangenheit reisen": Assassin's Creed als Geschichtstourismus
+            
+            26.01.22 Sarah Pittroff (Mainz): Die räumliche Kontextualisierung mittelalterlicher Glasmalereien und die Potentiale der interaktiven Darstellung            
+            
+            02.02.22 Thomas Hensel (Pforzheim): Kunstwissenschaft und Game Studies
+            
+            09.02.22 Torsten Schrade (Mainz): NFDI4Culture - Forschungsdatenmanagement, Methodenentwicklung und disziplinenübergreifender Transfer im Bereich materieller und immaterieller Kulturgüter
+            -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+        <event xml:id="..." type="lecture-series" where="#saarbruecken #trier">
+          <eventName xml:lang="de">Geisteswissenschaften und Informatik im Dialog. Aktuelle
+            Perspektiven der Digital Humanities</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709001042/https://www.uni-saarland.de/fachrichtung/musikwissenschaft/institut/veranstaltungen.html"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709000134/https://www.uni-saarland.de/fileadmin/upload/fachrichtung/musikwiss/Plan_Ringvorlesung_WS_21-22.pdf"/>
+          <note type="description" xml:lang="de">
+            <p>In Zusammenarbeit mit dem Trier Center for Digital Humanities der Universität Trier
+              bietet die Fachrichtung Musikwissenschaft der Universität des Saarlandes im laufenden
+              Wintersemester eine interdisziplinäre Ringvorlesung an zum Thema
+              „Geisteswissenschaften und Informatik im Dialog. Aktuelle Perspektiven der Digital
+              Humanitities“. Beteiligt sind Geisteswissenschaftler und Informatiker zahlreicher
+              Universitäten und Forschungsinstitute im In- und Ausland, u. a. der International
+              Audio Laboratories Erlangen (Fraunhofer IIS und Universität Erlangen-Nürnberg), der
+              Indiana University in Bloomington und des Deutschen Forschungszentrums für Künstliche
+              Intelligenz (DFKI) in Saarbrücken.</p>
+            <p>Die Ringvorlesung findet im laufenden Wintersemester online statt über „Zoom“,
+              jeweils montags, 18-20 Uhr. Beginn ist am 8. November 2021 um 18 Uhr c. t. mit dem
+              Vortrag von Univ.-Prof. Dr. Christof Schöch (Universität Trier, Trier Center for
+              Digital Humanities) zum Thema „Digital Humanities und/als Open Science“. Christof
+              Schöch ist Romanist, einer der beiden Direktoren des Trier Center for Digital
+              Humanities, Mitglied des NFDI4Culture Steering Board und Präsident des Verbands
+              Digital Humanities im deutschsprachigen Raum.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="...">
+            <eventName>Wintersemester 2021-22</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#schoech_christof #kleinertz_rainer"/>
+          </event>
+        </event>
+
+        <event xml:id="..." type="lecture-series" where="#erlangen #nuernberg">
+          <eventName xml:lang="de">Perspektiven der Digitalen Geistes- und
+            Sozialwissenschaften</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709002405/https://www.izdigital.fau.de/perspektiven-der-digitalen-geistes-und-sozialwissenschaften"/>
+          <note type="description" xml:lang="de">
+            <p>„Beginnt endlich die Digitalisierung der Geisteswissenschaften?“ Dieser erst kürzlich
+              in der Süddeutschen Zeitung gestellten Frage ist zu entgegnen, dass der Prozess der
+              Digitalisierung der Geisteswissenschaften ebenso wie der Sozialwissenschaften und
+              Kulturwissenschaften seit den ersten Anfängen in den 1960er Jahren inzwischen so weit
+              fortgeschritten ist, dass daraus ein eigener, neuer Wissenschaftsbereich entstanden
+              ist. Um eine Definition der „Digital Humanities“ wird weltweit in der Scientific
+              Community gerungen; Lehrstühle und Studiengänge haben den Begriff in der universitären
+              Landschaft etabliert. In der Reihe der Vorträge werden verschiedene Positionen und
+              Perspektiven zur Diskussion gestellt und einzelne Projekte aus den Bereichen der
+              digitalen Geistes- und Sozialwissenschaften präsentiert. Die Referentinnen und
+              Referenten geben Einblicke in die Bandbreite der internationalen Forschung und in die
+              aktuellen wissenschaftlichen Diskurse. Mit der international besetzten Ringvorlesung
+              stellt sich das 2014 etablierte Interdisziplinäre Zentrum Digitale Geistes- und
+              Sozialwissenschaften im Wintersemester 14/15 an der FAU und der interessierten
+              Öffentlichkeit vor (www.izdigital.fau.de). Renommierte Expertinnen und Experten werden
+              dabei verschiedene Aspekte und Perspektiven in den beiden zentralen Themenfeldern des
+              neuen interdisziplinären Zentrums zur Diskussion stellen: Welche neuen methodischen
+              Zugänge eröffnen digitale Techniken für Forschung in den Geistes- und
+              Sozialwissenschaften, welche Fragestellungen können damit bearbeitet werden? Was sind
+              die Effekte, Potenziale und Risiken digitaler Techniken in Wissenschaft und
+              Gesellschaft?</p>
+          </note>
+
+          <event type="lecture-series-term" from="2014-11" to="2015-01" xml:id="...">
+            <eventName>Wintersemester 2014-15</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
 
             <org role="organizer" corresp="..."/>
           </event>
