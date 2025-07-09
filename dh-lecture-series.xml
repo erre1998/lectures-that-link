@@ -39714,7 +39714,7 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#berlin">
+        <event xml:id="ls35" type="lecture-series" where="#berlin">
           <eventName xml:lang="en">Overcoming Obstacles in Digital Humanities</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250628171844/https://www.mpiwg-berlin.mpg.de/page/overcoming-obstacles-digital-humanities"/>
@@ -39743,9 +39743,9 @@
               in digital repositories and others tools of knowledge and the potential of their
               appeal to broader audiences.</p>
           </note>
-          <event type="lecture-series-term" from="2024-05" to="2024-07" xml:id="...">
+          <event type="lecture-series-term" from="2024-05" to="2024-07" xml:id="ls35_t1">
             <eventName>2024</eventName>
-            <event type="lecture" when="2024-05-08" xml:id="...">
+            <event type="lecture" when="2024-05-08" xml:id="ls35_t1_l1">
               <eventName xml:lang="en">Tools of Knowledge: Revitalising a Legacy Database of
                 Scientific Instrument Makers</eventName>
               <ptr type="programme"
@@ -39780,7 +39780,7 @@
               </listPerson>
               <org role="host-institution" corresp="#mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-05-22" xml:id="...">
+            <event type="lecture" when="2024-05-22" xml:id="ls35_t1_l2">
               <eventName xml:lang="en">Ptolemaic Astronomy through Computer Vision: A Building
                 Platform for Research on Astronomical Diagrams</eventName>
               <ptr type="programme"
@@ -39819,7 +39819,7 @@
               </listPerson>
               <org role="host-institution" corresp="#mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-06-03" xml:id="...">
+            <event type="lecture" when="2024-06-03" xml:id="ls35_t1_l3">
               <eventName xml:lang="en">On Obstacle Courses and Other Racings (or an Outburst about
                 Reusing 3D Models of Cultural Heritage Objects for Research and
                 Conservation)</eventName>
@@ -39860,7 +39860,7 @@
               </listPerson>
               <org role="host-institution" corresp="#mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-06-19" xml:id="...">
+            <event type="lecture" when="2024-06-19" xml:id="ls35_t1_l4">
               <eventName xml:lang="en">Computer Vision for History</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250628181949/https://www.mpiwg-berlin.mpg.de/event/computer-vision-history"/>
@@ -39892,7 +39892,7 @@
               </listPerson>
               <org role="host-institution" corresp="#mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-07-11" xml:id="...">
+            <event type="lecture" when="2024-07-11" xml:id="ls35_t1_l5">
               <eventName xml:lang="en">Archives by and for Research in the History of Science and
                 Digital Humanities: Describe, Annotate, Preserve, and Disseminate</eventName>
               <ptr type="programme"
@@ -39934,7 +39934,7 @@
               </listPerson>
               <org role="host-institution" corresp="#mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-07-18" xml:id="...">
+            <event type="lecture" when="2024-07-18" xml:id="ls35_t1_l6">
               <eventName xml:lang="en">Computer Vision Approaches for Greek Vase
                 Paintings</eventName>
               <ptr type="programme"
@@ -39973,7 +39973,7 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#hamburg">
+        <event xml:id="ls36" type="lecture-series" where="#hamburg">
           <eventName xml:lang="de">Digital Humanities: Grundlagen, Methoden und Reflexion in
             interdisziplinärer Perspektive</eventName>
           <ptr type="programme"
@@ -40003,12 +40003,12 @@
               digitalen Methoden vorausgesetzt.</p>
           </note>
 
-          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="...">
+          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls36_t1">
             <eventName xml:lang="de">Wintersemester 2024-25</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250628191420/https://www.zfw.uni-hamburg.de/oeffentliche-vortraege/programm-wise/10-digital-humanities/086-10-plakat-digital-humanities.pdf"/>
 
-            <event type="lecture" when="2024-10-17" xml:id="...">
+            <event type="lecture" when="2024-10-17" xml:id="ls36_t1_l1">
               <eventName xml:lang="de">Einführung: Was sind Daten in den (digitalen)
                 Geisteswissenschaften</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40036,7 +40036,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-10-24" xml:id="...">
+            <event type="lecture" when="2024-10-24" xml:id="ls36_t1_l2">
               <eventName xml:lang="de">Transkription: Erzeugung von Daten durch
                 Übersetzung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40058,7 +40058,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-11-07" xml:id="...">
+            <event type="lecture" when="2024-11-07" xml:id="ls36_t1_l3">
               <eventName xml:lang="de">Maschinelles Lernen und große Sprachmodelle: Grundlage für
                 die Analyse großer Datenmengen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40080,7 +40080,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-11-14" xml:id="...">
+            <event type="lecture" when="2024-11-14" xml:id="ls36_t1_l4">
               <eventName xml:lang="de">Annotationen: Linguistische Grundlagen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -40101,7 +40101,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-11-21" xml:id="...">
+            <event type="lecture" when="2024-11-21" xml:id="ls36_t1_l5">
               <eventName xml:lang="de">Ethische Fragen der automatischen Sprachverarbeitung und
                 -generierung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40123,7 +40123,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-11-28" xml:id="...">
+            <event type="lecture" when="2024-11-28" xml:id="ls36_t1_l6">
               <eventName xml:lang="de">Annotationen: Die literaturwissenschaftliche
                 Perspektive</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40145,7 +40145,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-12-05" xml:id="...">
+            <event type="lecture" when="2024-12-05" xml:id="ls36_t1_l7">
               <eventName xml:lang="de">DisKo: Ein Diversitäts-Korpus für die algorithmische
                 Textanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40173,7 +40173,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-12-12" xml:id="...">
+            <event type="lecture" when="2024-12-12" xml:id="ls36_t1_l8">
               <eventName xml:lang="de">Digitale Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -40194,7 +40194,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2024-12-19" xml:id="...">
+            <event type="lecture" when="2024-12-19" xml:id="ls36_t1_l9">
               <eventName xml:lang="de">Codiertes Wissen: Linked Open Data und andere
                 Datenressourcen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40216,7 +40216,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2025-01-09" xml:id="...">
+            <event type="lecture" when="2025-01-09" xml:id="ls36_t1_l10">
               <eventName xml:lang="de">Gegen große Erzählungen: Theoriediskurse in den Digital
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40238,7 +40238,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2025-01-16" xml:id="...">
+            <event type="lecture" when="2025-01-16" xml:id="ls36_t1_l11">
               <eventName xml:lang="de">Spannung und Cliffhanger in Erzählliteratur des 19.
                 Jahrhunderts: Modellierung und quantitative Analysen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40260,7 +40260,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2025-01-23" xml:id="...">
+            <event type="lecture" when="2025-01-23" xml:id="ls36_t1_l12">
               <eventName xml:lang="de">forTEXT – Literatur digital erforschen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -40287,7 +40287,7 @@
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
 
-            <event type="lecture" when="2025-01-30" xml:id="...">
+            <event type="lecture" when="2025-01-30" xml:id="ls36_t1_l13">
               <eventName xml:lang="de">Literatur im Netz und digitale
                 Wissenschaftskultur</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40313,7 +40313,7 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#duesseldorf">
+        <event xml:id="ls37" type="lecture-series" where="#duesseldorf">
           <eventName xml:lang="de">Informationswissenschaft und Digital Humanities</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250628222726/https://www.ling.hhu.de/bereiche-des-institutes/abteilung-fuer-informationswissenschaft/ringvorlesungisdh"/>
@@ -40331,10 +40331,10 @@
               Zielgruppe sind Studierende und Forschende sowie alle interessierten Personen.</p>
           </note>
 
-          <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="...">
+          <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls37_t1">
             <eventName/>
 
-            <event type="lecture" when="2022-05-06" xml:id="...">
+            <event type="lecture" when="2022-05-06" xml:id="ls37_t1_l1">
               <eventName xml:lang="en">Social Media based Measurements of Psychosocial Phenomena:
                 Potentials and Pitfalls</eventName>
               <ptr type="video" target="https://www.youtube.com/watch?v=Bag9uzwrJzE"/>
@@ -40366,7 +40366,7 @@
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
 
-            <event type="lecture" when="2022-05-20" xml:id="...">
+            <event type="lecture" when="2022-05-20" xml:id="ls37_t1_l2">
               <eventName xml:lang="en">Open Data</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -40386,7 +40386,7 @@
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
 
-            <event type="lecture" when="2022-06-03" xml:id="...">
+            <event type="lecture" when="2022-06-03" xml:id="ls37_t1_l3">
               <eventName xml:lang="en">Reanimating African American Oral Histories of the Gulf
                 South</eventName>
               <ptr type="video" target="https://www.youtube.com/watch?v=yLus_ODOXEk"/>
@@ -40416,7 +40416,7 @@
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
 
-            <event type="lecture" when="2022-06-24" xml:id="...">
+            <event type="lecture" when="2022-06-24" xml:id="ls37_t1_l4">
               <eventName xml:lang="de">Bibliotheken als Datengeber – Digitale Sammlungen als Basis
                 für Forschungs- und Citizen-Science-Projekte</eventName>
               <ptr type="video" target="https://www.youtube.com/watch?v=t0tqfcMd44A"/>
@@ -40451,7 +40451,7 @@
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
 
-            <event type="lecture" when="2022-07-01" xml:id="...">
+            <event type="lecture" when="2022-07-01" xml:id="ls37_t1_l5">
               <eventName xml:lang="de">Das algorithmische Selbst - mediale Konfigurationen und
                 narrative Perspektiven</eventName>
               <ptr type="video" target="https://www.youtube.com/watch?v=wMqhPnpSQYc"/>
@@ -40486,12 +40486,12 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#bielefeld">
+        <event xml:id="ls38" type="lecture-series" where="#bielefeld">
           <eventName xml:lang="en">Lecture Series Data Science</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250629104211/https://www.uni-bielefeld.de/einrichtungen/bicdas/more/lecture-series/#accordion-comp_0000603712b7_0000001437_6a0d"/>
 
-          <event type="lecture-series-term" from="2017-10" to="2018-01" xml:id="...">
+          <event type="lecture-series-term" from="2017-10" to="2018-01" xml:id="ls38_t1">
             <eventName xml:lang="en">Winter term 2017-18</eventName>
             <note type="description" xml:lang="en">
               <p>In the 2017/18 winter term BiCDaS offered a lecture series on selected Data Science
@@ -40502,7 +40502,7 @@
                 Science.</p>
             </note>
 
-            <event type="lecture" when="2017" xml:id="...">
+            <event type="lecture" when="2017" xml:id="ls38_t1_l1">
               <eventName xml:lang="en">Data Science and Digital Humanities, Models, Practices, and
                 Interpretations</eventName>
               <ptr type="video"
@@ -40526,7 +40526,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2017" xml:id="...">
+            <event type="lecture" when="2017" xml:id="ls38_t1_l2">
               <eventName xml:lang="en">Cryptographic Access Control—Reconciling Security and
                 Privacy</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40548,7 +40548,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2017" xml:id="...">
+            <event type="lecture" when="2017" xml:id="ls38_t1_l3">
               <eventName xml:lang="en">Auditory Data Science</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -40569,7 +40569,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2017" xml:id="...">
+            <event type="lecture" when="2017" xml:id="ls38_t1_l4">
               <eventName xml:lang="en">Data? What for? Thoughts around research question based data
                 collection</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -40591,7 +40591,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2017" xml:id="...">
+            <event type="lecture" when="2017" xml:id="ls38_t1_l5">
               <eventName xml:lang="en">Enabling Data-Intensive Science</eventName>
               <ptr type="slides"
                 target="https://web.archive.org/web/20240224193647/https://www.ifi.uzh.ch/dam/jcr:207e4193-139b-40ec-9040-ee5bedaf9ee3/2017-11-23%20Zurich%20PDF.pdf"/>
@@ -40617,10 +40617,10 @@
             <org role="organizer" corresp="..."/>
           </event>
 
-          <event type="lecture-series-term" from="2018-10" to="2019-05" xml:id="...">
+          <event type="lecture-series-term" from="2018-10" to="2019-05" xml:id="ls38_t2">
             <eventName xml:lang="en">Winter term 2018-19</eventName>
 
-            <event type="lecture" when="2018-10-19" xml:id="...">
+            <event type="lecture" when="2018-10-19" xml:id="ls38_t2_l1">
               <eventName xml:lang="en">Improving Health through Data Science</eventName>
               <note type="abstract" xml:lang="en">
                 <p>Data science refers to the acquisition of knowledge from data. The field is
@@ -40663,7 +40663,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2018-12-14" xml:id="...">
+            <event type="lecture" when="2018-12-14" xml:id="ls38_t2_l2">
               <eventName xml:lang="en">Supporting Meta-Analysis with Semantic Technologies: the case
                 of managing pre-clinical evidence for the treatment of spinal cord
                 injuries</eventName>
@@ -40707,7 +40707,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2019-01-18" xml:id="...">
+            <event type="lecture" when="2019-01-18" xml:id="ls38_t2_l3">
               <eventName xml:lang="en">A Glimpse into Microbial Dark Matter through the de.NBI
                 Cloud</eventName>
               <note type="abstract" xml:lang="en">
@@ -40757,7 +40757,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2019-01-25" xml:id="...">
+            <event type="lecture" when="2019-01-25" xml:id="ls38_t2_l4">
               <eventName xml:lang="en">Data, modeling, inferential and computational thinking:
                 components in data literacy education</eventName>
               <note type="abstract" xml:lang="en">
@@ -40786,7 +40786,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2019-01-30" xml:id="...">
+            <event type="lecture" when="2019-01-30" xml:id="ls38_t2_l5">
               <eventName xml:lang="en">Data Science on music data</eventName>
               <note type="abstract" xml:lang="en">
                 <p>In this talk we structure the field of data science and substantiate our key
@@ -40814,7 +40814,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2019-05-22" xml:id="...">
+            <event type="lecture" when="2019-05-22" xml:id="ls38_t2_l6">
               <eventName xml:lang="en">An introduction to the Socio-Economic Panel (SOEP)
                 Study</eventName>
               <note type="abstract" xml:lang="en">
@@ -40863,10 +40863,10 @@
             <org role="organizer" corresp="..."/>
           </event>
 
-          <event type="lecture-series-term" from="2019-12" to="2018-02" xml:id="...">
+          <event type="lecture-series-term" from="2019-12" to="2018-02" xml:id="ls38_t3">
             <eventName xml:lang="en">Winter term 2019-20</eventName>
 
-            <event type="lecture" when="2019-12-13" xml:id="...">
+            <event type="lecture" when="2019-12-13" xml:id="ls38_t3_l1">
               <eventName xml:lang="en">Are we there yet? Predicting travel times in urban street
                 networks</eventName>
               <ptr type="video"
@@ -40909,7 +40909,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2020-01-10" xml:id="...">
+            <event type="lecture" when="2020-01-10" xml:id="ls38_t3_l2">
               <eventName xml:lang="en">Research data federation in the arts and humanities:
                 background, concepts and services in DARIAH-DE</eventName>
               <ptr type="video"
@@ -40956,7 +40956,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2020-01-17" xml:id="...">
+            <event type="lecture" when="2020-01-17" xml:id="ls38_t3_l3">
               <eventName xml:lang="en">Mobile In-Store Analytics: Examining Shopper Behavior and
                 Reactions to Location-Based Mobile Promotions</eventName>
               <note type="abstract" xml:lang="en">
@@ -40997,7 +40997,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2020-01-24" xml:id="...">
+            <event type="lecture" when="2020-01-24" xml:id="ls38_t3_l4">
               <eventName xml:lang="en">Secure Multiparty Computation - digital collaboration on
                 private data</eventName>
               <ptr type="video"
@@ -41043,7 +41043,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2020-01-31" xml:id="...">
+            <event type="lecture" when="2020-01-31" xml:id="ls38_t3_l5">
               <eventName xml:lang="en">Data Science Techniques in Digital Humanities and Digital
                 Knowledge Services</eventName>
               <ptr type="video"
@@ -41080,7 +41080,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <event type="lecture" when="2020-02-14" xml:id="...">
+            <event type="lecture" when="2020-02-14" xml:id="ls38_t3_l6">
               <eventName xml:lang="en">Programming Languages in Data Science</eventName>
               <note type="abstract" xml:lang="en">
                 <p>At present R and Python are the most widely used programming languages for data
@@ -41122,10 +41122,10 @@
             <org role="organizer" corresp="..."/>
           </event>
 
-          <event type="lecture-series-term" from="2024-06" to="2024-06" xml:id="...">
+          <event type="lecture-series-term" from="2024-06" to="2024-06" xml:id="ls38_t4">
             <eventName xml:lang="en">Summer term 2024</eventName>
 
-            <event type="lecture" when="2024-06-17" xml:id="...">
+            <event type="lecture" when="2024-06-17" xml:id="ls38_t4_l1">
               <eventName xml:lang="de">Digital Literacy mit ChatGPT: Kompetenzen zum Umgang mit
                 digitalen Texten</eventName>
               <note type="abstract" xml:lang="de">
@@ -41181,8 +41181,8 @@
           </event>
         </event>
 
-        
-        <event xml:id="..." type="lecture-series" where="#freiburg">
+
+        <event xml:id="ls39" type="lecture-series" where="#freiburg">
           <eventName xml:lang="de">Digital Humanities. Medienwissenschaftliche Perspektiven –
             Mediävistische Schlaglichter</eventName>
           <ptr type="programme"
@@ -41236,7 +41236,7 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#saarbruecken #trier">
+        <event xml:id="ls40" type="lecture-series" where="#saarbruecken #trier">
           <eventName xml:lang="de">Geisteswissenschaften und Informatik im Dialog. Aktuelle
             Perspektiven der Digital Humanities</eventName>
           <ptr type="programme"
@@ -41271,7 +41271,7 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#erlangen #nuernberg">
+        <event xml:id="ls41" type="lecture-series" where="#erlangen #nuernberg">
           <eventName xml:lang="de">Perspektiven der Digitalen Geistes- und
             Sozialwissenschaften</eventName>
           <ptr type="programme"
@@ -44036,7 +44036,7 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#salzburg">
+        <event xml:id="ls42" type="lecture-series" where="#salzburg">
           <eventName xml:lang="de">Dazzling Data: Digital Humanities in der Mediävistik und
             Frühneuzeitforschung</eventName>
           <ptr type="programme"
@@ -44064,11 +44064,11 @@
               werden in den Fokus gerückt.</p>
           </note>
 
-          <event type="lecture-series-term" from="2023-10" to="2024-01" xml:id="...">
+          <event type="lecture-series-term" from="2023-10" to="2024-01" xml:id="ls42_t1">
             <eventName xml:lang="de">Wintersemester 2023-2024</eventName>
             <ptr type="video" target="https://unitv.org/beitrag.asp?ID=1161"/>
 
-            <event type="lecture" when="2023-10-02" xml:id="...">
+            <event type="lecture" when="2023-10-02" xml:id="ls42_t1_l1">
               <eventName xml:lang="de">Einführung: Dazzling Data – Digital Humanities in der
                 Mediävistik und Frühneuzeitforschung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44102,7 +44102,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-10-09" xml:id="...">
+            <event type="lecture" when="2023-10-09" xml:id="ls42_t1_l2">
               <eventName xml:lang="de">Sieben Dinge Mariens. Object Detection und kunsthistorische
                 Realienkunde</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44124,7 +44124,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-10-16" xml:id="...">
+            <event type="lecture" when="2023-10-16" xml:id="ls42_t1_l3">
               <eventName xml:lang="de">Offene Forschungsstrategien. (Geisteswissenschaftliche)
                 Forschung für die und mit der Öffentlichkeit</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44146,7 +44146,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-10-23" xml:id="...">
+            <event type="lecture" when="2023-10-23" xml:id="ls42_t1_l4">
               <eventName xml:lang="de">Interoperabilität von Text und Bild in der digitalen Edition
                 der Wenzelsbibel</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44174,7 +44174,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-10-30" xml:id="...">
+            <event type="lecture" when="2023-10-30" xml:id="ls42_t1_l5">
               <eventName xml:lang="de">HTR, TEI, DNA &amp; NLP: Frühmittelalterliche Handschriften,
                 ihr Paratext und die Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44196,7 +44196,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-11-06" xml:id="...">
+            <event type="lecture" when="2023-11-06" xml:id="ls42_t1_l6">
               <eventName xml:lang="de">Digitale Transformation frühneuzeitlicher Memento
                 mori-Literatur: Herausforderungen und Potenziale</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44218,7 +44218,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-11-13" xml:id="...">
+            <event type="lecture" when="2023-11-13" xml:id="ls42_t1_l7">
               <eventName xml:lang="de">Burgen digital erschließen – Projekte Hohensalzburg digital
                 und Inventaria</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44264,7 +44264,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-11-20" xml:id="...">
+            <event type="lecture" when="2023-11-20" xml:id="ls42_t1_l8">
               <eventName xml:lang="de">Transkriptionsdatenbank zum Codex Manesse (Große Heidelberger
                 Liederhandschrift, cpg 848)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44286,7 +44286,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-11-27" xml:id="...">
+            <event type="lecture" when="2023-11-27" xml:id="ls42_t1_l9">
               <eventName xml:lang="de">Distant Viewing. Darstellungen von Material in
                 mittelalterlicher Malerei mit Digital Humanities- und Computer Vision-Methoden
                 untersuchen</eventName>
@@ -44327,7 +44327,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-12-04" xml:id="...">
+            <event type="lecture" when="2023-12-04" xml:id="ls42_t1_l10">
               <eventName xml:lang="de">Integrierte GIS-basierte Analyse mittelalterlicher und
                 frühneuzeitlicher Landschaften anhand archäologischer Prospektionsdaten und
                 digitalisierter historischer Karten</eventName>
@@ -44350,7 +44350,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2023-12-11" xml:id="...">
+            <event type="lecture" when="2023-12-11" xml:id="ls42_t1_l11">
               <eventName xml:lang="de">DH Anwendungsbeispiele aus der mediävistischen
                 Musikwissenschaft</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44372,7 +44372,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2024-01-08" xml:id="...">
+            <event type="lecture" when="2024-01-08" xml:id="ls42_t1_l12">
               <eventName xml:lang="de">Unsere Pferde galoppieren digital: DH im interdisziplinären
                 Projekt zum Wissenstransfer in mittelalterlicher Pferdemedizin „Meeting in the body
                 of the horse“</eventName>
@@ -44401,7 +44401,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2024-01-15" xml:id="...">
+            <event type="lecture" when="2024-01-15" xml:id="ls42_t1_l13">
               <eventName xml:lang="de">Musikalische Frühdrucke und geborgte Melodien</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -44428,7 +44428,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2024-01-22" xml:id="...">
+            <event type="lecture" when="2024-01-22" xml:id="ls42_t1_l14">
               <eventName xml:lang="de">Telespiele, Mobile Games und Open World – Game Studies in den
                 Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -44456,7 +44456,7 @@
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
 
-            <event type="lecture" when="2024-01-29" xml:id="...">
+            <event type="lecture" when="2024-01-29" xml:id="ls42_t1_l15">
               <eventName xml:lang="de">Mittelhochdeutsche Begriffsdatenbank Reloaded</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -46551,11 +46551,11 @@
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#lausanne">
+        <event xml:id="ls43" type="lecture-series" where="#lausanne">
           <eventName xml:lang="fr">Séminaires DH</eventName>
           <eventName xml:lang="en">DH Lecture Series</eventName>
 
-          <event type="lecture-series-term" from="2015-06" to="2015-12" xml:id="...">
+          <event type="lecture-series-term" from="2015-06" to="2015-12" xml:id="ls43_t1">
             <eventName>2015</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
@@ -46604,7 +46604,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2016-01" to="2016-07" xml:id="...">
+          <event type="lecture-series-term" from="2016-01" to="2016-07" xml:id="ls43_t2">
             <eventName>2016</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
@@ -46621,7 +46621,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2017-11" to="2017-12" xml:id="...">
+          <event type="lecture-series-term" from="2017-11" to="2017-12" xml:id="ls43_t3">
             <eventName>2017</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
@@ -46634,7 +46634,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2018-10" to="2018-12" xml:id="...">
+          <event type="lecture-series-term" from="2018-10" to="2018-12" xml:id="ls43_t4">
             <eventName>2018</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626094936/https://www.epfl.ch/schools/cdh/dh-events-2018/"/>
@@ -46650,7 +46650,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2019-02" to="2019-12" xml:id="...">
+          <event type="lecture-series-term" from="2019-02" to="2019-12" xml:id="ls43_t5">
             <eventName>2019</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626101322/https://www.epfl.ch/schools/cdh/dh-events-2019/"/>
@@ -46683,7 +46683,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2020-01" to="2018-11" xml:id="...">
+          <event type="lecture-series-term" from="2020-01" to="2018-11" xml:id="ls43_t6">
             <eventName>2020</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626121810/https://www.epfl.ch/schools/cdh/dh-events-2020/"/>
@@ -46699,7 +46699,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2021-02" to="2021-10" xml:id="...">
+          <event type="lecture-series-term" from="2021-02" to="2021-10" xml:id="ls43_t7">
             <eventName>2021</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626124243/https://www.epfl.ch/schools/cdh/dh-events-2021/"/>
@@ -46721,7 +46721,7 @@
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
 
-          <event type="lecture-series-term" from="2022-12" to="2022-12" xml:id="...">
+          <event type="lecture-series-term" from="2022-12" to="2022-12" xml:id="ls43_t8">
             <eventName>2022</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626124551/https://www.epfl.ch/schools/cdh/dh-seminars-2022-2/"/>
@@ -46733,7 +46733,7 @@
             <org role="organizer" corresp="#hentschel_johannes"/>
           </event>
 
-          <event type="lecture-series-term" from="2023-04" to="2023-11" xml:id="...">
+          <event type="lecture-series-term" from="2023-04" to="2023-11" xml:id="ls43_t9">
             <eventName>2023</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
