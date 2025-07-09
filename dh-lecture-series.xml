@@ -28501,8 +28501,29 @@
               <eventName xml:lang="en">Exploring Characters in Calderón Drama Corpus (CalDraCor)
                 with Computational Methods</eventName>
               <ptr type="programme"
-                target="https://web.archive.org/web/20250624190707/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/exploring-characters-in-calderon-drama-corpus-caldracor-with-computational-methods-232721/"/>
-              <note type="abstract" xml:lang="en">not found</note>
+                target="https://web.archive.org/web/20250709162010/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/exploring-characters-in-calderon-drama-corpus-caldracor-with-computational-methods-232721/"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk presents a novel computational study of the gracioso archetype (servant
+                  figures whose metatheatrical and humorous interventions both lighten and
+                  critically frame the drama) in Calderonian plays. Drawing on a richly annotated
+                  XML‑TEI corpus from Calderón Drama Corpus (CalDraCor), we implement two
+                  complementary experiments. First, we apply social network analysis to extract
+                  character interaction networks from dialogue and scene co‑occurrence data,
+                  computing different centrality degrees to assess the strategic positioning of
+                  graciosos within the play’s social fabric. Second, we develop a supervised
+                  classification model that distinguishes graciosos from other characters,
+                  leveraging lexical and stylistic features to capture distinctive patterns. By
+                  integrating quantitative network metrics with machine‑learning‐based
+                  identification, this talk offers a holistic perspective on how the gracioso
+                  functions narratively and structurally in Calderón’s plays. Expected outcomes
+                  include insights into stylistic markers, and quantitative evidence of the
+                  gracioso’s role as a critical intermediary and social connector. Our
+                  interdisciplinary methodology advances both literary scholarship and digital
+                  humanities practice, providing a replicable toolkit for analyzing character
+                  archetypes and their dramatic significance across theatrical corpora. This
+                  methodological framework can be adapted to other early modern repertoires,
+                  facilitating comparative studies of dramatic characterization and genre
+                  evolution.</p> not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#romance-studies #literary-studies"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -28518,7 +28539,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-tuebingen"/>
+                  <affiliation corresp="#uni-tuebingen #uni-berlin-fu"/>
                 </person>
                 <person role="speaker" corresp="#keith_allison">
                   <name>
