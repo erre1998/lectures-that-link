@@ -41203,8 +41203,8 @@
               die Gegenstände anbelangt.</p>
           </note>
 
-          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="...">
-            <eventName>Wintersemester 2021-22</eventName>
+          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="ls39_t1">
+            <eventName xml:lang="de">Wintersemester 2021-22</eventName>
 
             <!-- 
             03.11.21 Barbara Flückiger (Zürich): Entwicklung eines digitalen Ökosystems zur Dokumentation, Analyse und Visualisierung von Filmen
@@ -41262,8 +41262,8 @@
               Digital Humanities im deutschsprachigen Raum.</p>
           </note>
 
-          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="...">
-            <eventName>Wintersemester 2021-22</eventName>
+          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="ls40_t1">
+            <eventName xml:lang="de">Wintersemester 2021-22</eventName>
 
             <!-- ADD THE LECTURES HERE -->
 
@@ -41300,8 +41300,50 @@
               Gesellschaft?</p>
           </note>
 
-          <event type="lecture-series-term" from="2014-11" to="2015-01" xml:id="...">
-            <eventName>Wintersemester 2014-15</eventName>
+          <event type="lecture-series-term" from="2014-11" to="2015-01" xml:id="ls41_t1">
+            <eventName xml:lang="de">Wintersemester 2014-15</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+        <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
+          <eventName xml:lang="en">I2SC Lecture Series</eventName>
+          <note type="description" xml:lang="en">
+            <p>The Interdisciplinary Institute for Societal Computing offers a regular Lecture
+              Series to bring together researchers of different academic fields to analyze and
+              discuss the broad topic of society and technology. The Lecture Series is designed as a
+              laboratory of interdisciplinary research to encourage cooperation and new research
+              approaches. The series will feature a mix of speakers from Computer Science, Social
+              Science, and Digital Humanities.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
+            <eventName xml:lang="en">Summer 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
+            <eventName xml:lang="en">Winter 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
+            <eventName xml:lang="en">Summer 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
 
             <!-- ADD THE LECTURES HERE -->
 
@@ -46560,7 +46602,7 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
 
-            <event type="lecture" when="2015-06-04" xml:id="...">
+            <event type="lecture" when="2015-06-04" xml:id="ls43_t1_l1">
               <eventName xml:lang="en">Mirador: Medieval Manuscripts (and Much More) in a New
                 Light</eventName>
               <ptr type="programme" target="..."/>
