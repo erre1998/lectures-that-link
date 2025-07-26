@@ -49,111 +49,147 @@
           <desc>disciplines</desc>
           <category xml:id="literary-studies">
             <catDesc>literary studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q208217</idno>
           </category>
           <category xml:id="linguistics">
             <catDesc>linguistics</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8162</idno>
           </category>
           <category xml:id="history">
             <catDesc>history</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1066186</idno>
           </category>
           <category xml:id="art-history">
             <catDesc>art history</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q50637</idno>
           </category>
           <category xml:id="theology">
             <catDesc>theology</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q34178</idno>
           </category>
           <category xml:id="library-information">
             <catDesc>library and information science</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13420675</idno>
           </category>
           <category xml:id="computer-science">
             <catDesc>computer science</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q21198</idno>
           </category>
           <category xml:id="archaeology">
             <catDesc>archaeology</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23498</idno>
           </category>
           <category xml:id="classics">
             <catDesc>classics</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q841090</idno>
           </category>
           <category xml:id="museology">
             <catDesc>museology</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q460162</idno>
           </category>
           <category xml:id="philosophy">
             <catDesc>philosophy</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q5891</idno>
           </category>
           <category xml:id="musicology">
             <catDesc>musicology</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q164204</idno>
           </category>
           <category xml:id="media-studies">
             <catDesc>media studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q165650</idno>
           </category>
           <category xml:id="geography">
             <catDesc>geography</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1071</idno>
           </category>
           <category xml:id="romance-studies">
             <catDesc>romance studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1277348</idno>
           </category>
           <category xml:id="german-studies">
             <catDesc>german studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q166153</idno>
           </category>
           <category xml:id="english-studies">
             <catDesc>english studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27968</idno>
           </category>
           <category xml:id="education-science">
-            <catDesc>education-science</catDesc>
+            <catDesc>education science</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q861641</idno>
           </category>
           <category xml:id="digital-humanities">
             <catDesc>digital humanities</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1026962</idno>
           </category>
           <category xml:id="game-studies">
             <catDesc>game studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q675281</idno>
           </category>
           <category xml:id="political-science">
             <catDesc>political science</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q36442</idno>
           </category>
           <category xml:id="social-siences">
             <catDesc>social sciences</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q34749</idno>
           </category>
           <category xml:id="theater-studies">
             <catDesc>theater studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10379007</idno>
           </category>
           <category xml:id="regional-studies">
             <catDesc>regional studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q928786</idno>
           </category>
           <category xml:id="yiddish-studies">
             <catDesc>yiddish studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1688921</idno>
           </category>
           <category xml:id="cultural-studies">
             <catDesc>cultural studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1143546</idno>
           </category>
           <category xml:id="african-studies">
             <catDesc>african studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q38157</idno>
           </category>
           <category xml:id="slavic-studies">
             <catDesc>slavic studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q156864</idno>
           </category>
           <category xml:id="mathematics">
             <catDesc>mathematics</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q395</idno>
           </category>
           <category xml:id="computational-linguistics">
             <catDesc>computational linguistics</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q182557</idno>
           </category>
           <category xml:id="chinese-studies">
             <catDesc>chinese studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q269915</idno>
           </category>
           <category xml:id="egyptology">
             <catDesc>egyptology</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q145903</idno>
           </category>
           <category xml:base="biology">
             <catDesc>biology</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q420</idno>
           </category>
           <category xml:base="gender-studies">
             <catDesc>gender studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1662673</idno>
           </category>
           <category xml:base="asian-studies">
             <catDesc>asian studies</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4806809</idno>
           </category>
           <category xml:base="science-communication">
             <catDesc>science communication</catDesc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q472328</idno>
           </category>
         </taxonomy>
       </classDecl>
@@ -167,6 +203,41 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="fh-cbs" type="university">
+            <name xml:lang="en">Copenhagen Business School</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q703620</idno>
+            <place corresp="#copenhagen"/>
+          </org>
+          <org xml:id="fh-enpc" type="university">
+            <name xml:lang="fr">École nationale des ponts et chaussées</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q273523</idno>
+            <place corresp="#champs-sur-marne"/>
+          </org>
+          <org xml:id="fh-fom" type="university">
+            <name xml:lang="de">FOM Hochschule für Oekonomie &amp; Management</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55156</idno>
+            <place corresp="#essen"/>
+          </org>
+          <org xml:id="fh-bern" type="university">
+            <name xml:lang="de">Hochschule der Künste Bern</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1622152</idno>
+            <place corresp="#bern"/>
+          </org>
+          <org xml:id="uni-wisconsin-madison" type="university">
+            <name xml:lang="en">University of Wisconsin-Madison</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q838330</idno>
+            <place corresp="#madison"/>
+          </org>
+          <org xml:id="uni-karlsruhe" type="university">
+            <name xml:lang="de">Karlsruher Institut für Technologie</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q309988</idno>
+            <place corresp="#karlsruhe"/>
+          </org>
+          <org xml:id="uni-dortmund" type="university">
+            <name xml:lang="de">Technische Universität Dortmund</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q685557</idno>
+            <place corresp="#dortmund"/>
+          </org>
           <org xml:id="uni-bruxelles" type="university">
             <name xml:lang="fr">Université libre de Bruxelles</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q574606</idno>
@@ -1363,10 +1434,35 @@
             <place corresp="#geneve"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="observatoire-de-paris" type="research_institution">
+            <name xml:lang="fr">Observatoire de Paris</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q461340</idno>
+            <place corresp="#paris"/>
+          </org>
+          <org xml:id="ronin-institute" type="research_institution">
+            <name xml:lang="en">Ronin Institute</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27207785</idno>
+            <place corresp="#montclair"/>
+          </org>
+          <org xml:id="gesis" type="research_institution">
+            <name xml:lang="en">GESIS – Leibniz Institute for the Social Sciences</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1485220</idno>
+            <place corresp="#mannheim"/>
+          </org>
+          <org xml:id="diw" type="research_institution">
+            <name xml:lang="de">Deutsches Institut für Wirtschaftsforschung</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q155228</idno>
+            <place corresp="#berlin"/>
+          </org>
           <org xml:id="anr" type="research_institution">
             <name xml:lang="fr">Agence nationale de la recherche (ANR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q392500</idno>
             <place corresp="#paris"/>
+          </org>
+          <org xml:id="mpi-wg" type="research_institution">
+            <name xml:lang="de">Max-Planck-Institut für Wissenschaftsgeschichte (MPIWG)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q318118</idno>
+            <place corresp="#berlin"/>
           </org>
           <org xml:id="mpi-eva" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für evolutionäre Anthropologie (MPI EVA)</name>
@@ -1658,6 +1754,11 @@
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <!-- ####### L ####### -->
+          <org xml:id="library-uni-bielefeld" type="glam">
+            <name xml:lang="de">Universitätsbibliothek Bielefeld</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1770764</idno>
+            <place corresp="#bielefeld"/>
+          </org>
           <org xml:id="library-uni-cambridge" type="glam">
             <name xml:lang="en">Cambridge University Library</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1028334</idno>
@@ -1745,6 +1846,11 @@
             <place corresp="#paris"/>
           </org>
           <!-- ####### A ####### -->
+          <org xml:id="archive-salzburg" type="glam">
+            <name xml:lang="de">Stadtarchiv Salzburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133065174</idno>
+            <place corresp="#salzburg"/>
+          </org>
           <org xml:id="archive-barch-berlin" type="glam">
             <name xml:lang="de">Bundesarchiv Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q66735830</idno>
@@ -1766,6 +1872,11 @@
             <place corresp="#new-york-city"/>
           </org>
           <!-- ####### M ####### -->
+          <org xml:id="museum-nms" type="glam">
+            <name xml:lang="en">National Museums Scotland (NMS)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1967502</idno>
+            <place corresp="#edinburgh"/>
+          </org>
           <org xml:id="museum-uni-padova" type="glam">
             <name xml:lang="it">Museo di geografia dell'Università di Padova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q97148112</idno>
@@ -1874,6 +1985,11 @@
             <place corresp="#stockholm #gothenburg"/>
           </org>
           <!-- ##### Companies ##### -->
+          <org xml:id="deepl" type="company">
+            <name xml:lang="en">DeepL SE</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131894787</idno>
+            <place corresp="#koeln"/>
+          </org>
           <org xml:id="ibm" type="company">
             <name xml:lang="en">International Business Machines Corporation (IBM)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q37156</idno>
@@ -1988,6 +2104,515 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="roy_dibyadyuti">
+            <name>
+              <forename>Roy</forename>
+              <surname>Dibyadyuti</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130919176</idno>
+          </person>
+          <person xml:id="kleinertz_rainer">
+            <name>
+              <forename>Rainer</forename>
+              <surname>Kleinertz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112454935</idno>
+          </person>
+          <person xml:id="van-beek_alan">
+            <name>
+              <forename>Alan</forename>
+              <surname>van Beek</surname>
+            </name>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9722-0653</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131764203</idno>
+          </person>
+          <person xml:id="yavrumyan_marat">
+            <name>
+              <forename>Marat</forename>
+              <surname>Yavrumyan</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9722-0653</idno>
+          </person>
+          <person xml:id="imeri_aylin">
+            <name>
+              <forename>Aylin</forename>
+              <surname>Imeri</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="sauzet_odile">
+            <name>
+              <forename>Odile</forename>
+              <surname>Sauzet</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1029-8846</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q43411979</idno>
+          </person>
+          <person xml:id="higgitt_rebekah">
+            <name>
+              <forename>Rebekah</forename>
+              <surname>Higgitt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9387-4150</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62718222</idno>
+          </person>
+          <person xml:id="norindr_jade">
+            <name>
+              <forename>Jade</forename>
+              <surname>Norindr</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-1391-3420</idno>
+          </person>
+          <person xml:id="moitinho-de-almeida_vera">
+            <name>
+              <forename>Vera</forename>
+              <surname>Moitinho de Almeida</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4979-8247</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57491179</idno>
+          </person>
+          <person xml:id="landkammer_miriam">
+            <name>
+              <forename>Miriam</forename>
+              <surname>Landkammer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-3517-0566</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126691949</idno>
+          </person>
+          <person xml:id="sen_indira">
+            <name>
+              <forename>Indira</forename>
+              <surname>Sen</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3475-0371</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130853253</idno>
+          </person>
+          <person xml:id="pham_kim">
+            <name>
+              <forename>Rana</forename>
+              <surname>Brentjes</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="pham_kim">
+            <name>
+              <forename>Kim</forename>
+              <surname>Pham</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9115-4739</idno>
+          </person>
+          <person xml:id="willaime_pierre">
+            <name>
+              <forename>Pierre</forename>
+              <surname>Willaime</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q94106728</idno>
+          </person>
+          <person xml:id="akazawa_mari">
+            <name>
+              <forename>Mari</forename>
+              <surname>Akazawa</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0007-2653-6275</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133645832</idno>
+          </person>
+          <person xml:id="bates_douglas">
+            <name>
+              <forename>Douglas</forename>
+              <surname>Bates</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8316-9503</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57449762</idno>
+          </person>
+          <person xml:id="siebenlist_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Siebenlist</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9435-910X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57911417</idno>
+          </person>
+          <person xml:id="streit_achim">
+            <name>
+              <forename>Achim</forename>
+              <surname>Streit</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5065-469X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q111440065</idno>
+          </person>
+          <person xml:id="bauer_bernhard">
+            <name>
+              <forename>Bernhard</forename>
+              <surname>Bauer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2881-0972</idno>
+          </person>
+          <person xml:id="zedlacher_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Zedlacher</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0063-3345</idno>
+          </person>
+          <person xml:id="fleischer_dirk">
+            <name>
+              <forename>Dirk</forename>
+              <surname>Fleischer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0108-4675</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q40186384</idno>
+          </person>
+          <person xml:id="sczyrba_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Sczyrba</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4405-3847</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30420936</idno>
+          </person>
+          <person xml:id="hermann_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Hermann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7975-4363</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30525481</idno>
+          </person>
+
+          <person xml:id="cimiano_philipp">
+            <name>
+              <forename>Philipp</forename>
+              <surname>Cimiano</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4771-441X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59403940</idno>
+          </person>
+          <person xml:id="hermann_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Hermann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7975-4363</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30525481</idno>
+          </person>
+          <person xml:id="summann_friedrich">
+            <name>
+              <forename>Friedrich</forename>
+              <surname>Summann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6297-3348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57198108</idno>
+          </person>
+          <person xml:id="klugseder_robert">
+            <name>
+              <forename>Robert</forename>
+              <surname>Klugseder</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0484-832X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93262415</idno>
+          </person>
+          <person xml:id="linortner_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Linortner</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6706-4450</idno>
+          </person>
+          <person xml:id="bosi_carlo">
+            <name>
+              <forename>Carlo</forename>
+              <surname>Bosi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8414-4321</idno>
+          </person>
+          <person xml:id="uhl_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Uhl</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5921-8755</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q91341556</idno>
+          </person>
+          <person xml:id="zeppezauer-wachauer_katharina">
+            <name>
+              <forename>Katharina</forename>
+              <surname>Zeppezauer-Wachauer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9310-9029</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112344051</idno>
+          </person>
+          <person xml:id="ernst_marlene">
+            <name>
+              <forename>Marlene</forename>
+              <surname>Ernst</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0097-2267</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q119478419</idno>
+          </person>
+          <person xml:id="dum-tragut_jasmine">
+            <name>
+              <forename>Jasmine</forename>
+              <surname>Dum Tragut</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0130-6274</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q54972385</idno>
+          </person>
+          <person xml:id="lindmayr-brandl_andrea">
+            <name>
+              <forename>Andrea</forename>
+              <surname>Lindmayr-Brandl</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4438-7158</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q21253287</idno>
+          </person>
+          <person xml:id="bleuler_anna-kathrin">
+            <name>
+              <forename>Anna Kathrin</forename>
+              <surname>Bleuler</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9053-0130</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q14498362</idno>
+          </person>
+          <person xml:id="tangerner_elisabeth">
+            <name>
+              <forename>Elisabeth</forename>
+              <surname>Tangerner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-1826-4833</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113746530</idno>
+          </person>
+          <person xml:id="matschinegg_ingrid">
+            <name>
+              <forename>Ingrid</forename>
+              <surname>Matschinegg</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7922-4338</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q124636495</idno>
+          </person>
+          <person xml:id="hintersteiner_julia">
+            <name>
+              <forename>Julia</forename>
+              <surname>Hintersteiner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-8333-3658</idno>
+          </person>
+          <person xml:id="nicka_isabella">
+            <name>
+              <forename>Isabella</forename>
+              <surname>Nicka</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3587-6606</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598062</idno>
+          </person>
+          <person xml:id="schober_regina">
+            <name>
+              <forename>Regina</forename>
+              <surname>Schober</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1105-0922</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q106656144</idno>
+          </person>
+          <person xml:id="beutel-thurow_linda">
+            <name>
+              <forename>Linda</forename>
+              <surname>Beutel-Thurow</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-1074-1588</idno>
+          </person>
+          <person xml:id="dorsch_isabelle">
+            <name>
+              <forename>Isabelle</forename>
+              <surname>Dorsch</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7391-5189</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133411000</idno>
+          </person>
+          <person xml:id="reinhardt_corinna">
+            <name>
+              <forename>Corinna</forename>
+              <surname>Reinhardt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2595-325X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55078627</idno>
+          </person>
+          <person xml:id="andresen_melanie">
+            <name>
+              <forename>Melanie</forename>
+              <surname>Andresen</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3913-1273</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126594998</idno>
+          </person>
+          <person xml:id="reiners-selbach_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Reiners-Selbach</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4763-4348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692074</idno>
+          </person>
+          <person xml:id="olliges-wieczorek_ute">
+            <name>
+              <forename>Ute</forename>
+              <surname>Olliges-Wieczorek</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95202447</idno>
+          </person>
+          <person xml:id="fuchs_christiane">
+            <name>
+              <forename>Christiane</forename>
+              <surname>Fuchs</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3565-8315</idno>
+          </person>
+          <person xml:id="brinkhoff_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Brinkhoff</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="goebel_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Goebel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3243-1935</idno>
+          </person>
+          <person xml:id="weihs_claus">
+            <name>
+              <forename>Claus</forename>
+              <surname>Weihs</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0005-2495-8314</idno>
+          </person>
+          <person xml:id="bauer_dietmar">
+            <name>
+              <forename>Dietmar</forename>
+              <surname>Bauer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2920-7032</idno>
+          </person>
+          <person xml:id="henrich_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Henrich</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5074-3254</idno>
+          </person>
+          <person xml:id="schaefers_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Schäfers</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="ballhausen_hendrik">
+            <name>
+              <forename>Hendrik</forename>
+              <surname>Ballhausen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4733-1926</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q88013325</idno>
+          </person>
+          <person xml:id="brandstaetter_walter">
+            <name>
+              <forename>Walter</forename>
+              <surname>Brandstätter</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-8085-3489</idno>
+          </person>
+          <person xml:id="gruber-tokic_elisabeth">
+            <name>
+              <forename>Elisabeth</forename>
+              <surname>Gruber-Tokić</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3387-3097</idno>
+          </person>
+          <person xml:id="faerberboeck_peter">
+            <name>
+              <forename>Peter</forename>
+              <surname>Färberböck</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8701-8259</idno>
+          </person>
+          <person xml:id="bloemer_johannes">
+            <name>
+              <forename>Johannes</forename>
+              <surname>Blömer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6065-3535</idno>
+          </person>
+          <person xml:id="luebke_karsten">
+            <name>
+              <forename>Karsten</forename>
+              <surname>Lübke</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-5129-4886</idno>
+          </person>
+          <person xml:id="rammos_yannis">
+            <name>
+              <forename>Yannis</forename>
+              <surname>Rammos</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1455-5990</idno>
+          </person>
           <person xml:id="dillen_wout">
             <name>
               <forename>Wout</forename>
@@ -2051,6 +2676,14 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1721-5732</idno>
+          </person>
+          <person xml:id="collins_kathleen">
+            <name>
+              <forename>Kathleen</forename>
+              <surname>Collins</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135092726</idno>
           </person>
           <person xml:id="koolen_corina">
             <name>
@@ -3762,6 +4395,15 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8397-7973</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q103028614</idno>
+          </person>
+          <person xml:id="hentschel_johannes">
+            <name>
+              <forename>Johannes</forename>
+              <surname>Hentschel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1986-9545</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131113034</idno>
           </person>
           <person xml:id="hentschel_klaus">
             <name>
@@ -10537,6 +11179,11 @@
           <!-- #### Cities #### -->
           <!-- ###### Continent: Europe ###### -->
           <!-- ######## German cities ######## -->
+          <place type="city" xml:id="dortmund">
+            <country corresp="#germany"/>
+            <name>Dortmund</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004982</idno>
+          </place>
           <place type="city" xml:id="trier">
             <country corresp="#germany"/>
             <name>Trier</name>
@@ -10764,7 +11411,7 @@
           </place>
           <place type="city" xml:id="wolfenbuettel">
             <country corresp="#germany"/>
-            <name xml:lang="de">Wolfenbüttel</name>
+            <name>Wolfenbüttel</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005253</idno>
           </place>
           <place type="city" xml:id="stuttgart">
@@ -10991,6 +11638,16 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007168</idno>
           </place>
           <!-- ######## UK cities ######## -->
+          <place type="city" xml:id="leeds">
+            <country corresp="#uk"/>
+            <name>Leeds</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7010442</idno>
+          </place>
+          <place type="city" xml:id="edinburgh">
+            <country corresp="#uk"/>
+            <name>Edinburgh</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7009546</idno>
+          </place>
           <place type="city" xml:id="glasgow">
             <country corresp="#uk"/>
             <name>Glasgow</name>
@@ -11139,6 +11796,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007942</idno>
           </place>
           <!-- ######## French cities ######## -->
+          <place type="city" xml:id="champs-sur-marne">
+            <country corresp="#france"/>
+            <name>Champs-sur-Marne</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7017210</idno>
+          </place>
           <place type="city" xml:id="bastia">
             <country corresp="#france"/>
             <name>Bastia</name>
@@ -11205,6 +11867,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008441</idno>
           </place>
           <!-- ######## Danish cities ######## -->
+          <place type="city" xml:id="copenhagen">
+            <country corresp="#denmark"/>
+            <name>Copenhagen</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7003474</idno>
+          </place>
           <place type="city" xml:id="aarhus">
             <country corresp="#denmark"/>
             <name>Aarhus</name>
@@ -11545,6 +12212,16 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="montclair">
+            <country corresp="#usa"/>
+            <name>Montclair</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/Q678437</idno>
+          </place>
+          <place type="city" xml:id="madison">
+            <country corresp="#usa"/>
+            <name>Madison</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013966</idno>
+          </place>
           <place type="city" xml:id="armonk">
             <country corresp="#usa"/>
             <name>Armonk</name>
@@ -22666,7 +23343,7 @@
           <ptr type="programme"
             target="https://web.archive.org/web/20250503165139/https://dhc.hypotheses.org/a-propos"/>
           <event type="lecture-series-term" from="2018-10" to="2019-01" xml:id="ls9_t1">
-            <eventName xml:lang="de">Wintersemester 2018-2019</eventName>
+            <eventName xml:lang="de">Wintersemester 2018-19</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20240812232945/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem18/digital-cultural-heritage/"/>
             <event type="lecture" when="2018-10-17" xml:id="ls9_t1_l1">
@@ -22997,7 +23674,7 @@
             <org role="organizer" corresp="#eide_oyvind #paliou_eleftheria"/>
           </event>
           <event type="lecture-series-term" from="2019-10" to="2020-01" xml:id="ls9_t2">
-            <eventName xml:lang="de">Wintersemester 2019-2020</eventName>
+            <eventName xml:lang="de">Wintersemester 2019-20</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250319130741/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem19/colloquium-in-digital-cultural-heritage"/>
             <event type="lecture" when="2019-10-16" xml:id="ls9_t2_l1">
@@ -23399,7 +24076,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2020-11" to="2021-02" xml:id="ls9_t3">
-            <eventName xml:lang="de">Wintersemester 2020-2021</eventName>
+            <eventName xml:lang="de">Wintersemester 2020-21</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250318101021/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem20/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2020-11-04" xml:id="ls9_t3_l1">
@@ -23708,7 +24385,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2021-10" to="2022-02" xml:id="ls9_t4">
-            <eventName xml:lang="de">Wintersemester 2021-2022</eventName>
+            <eventName xml:lang="de">Wintersemester 2021-22</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250308085941/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem21/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2021-10-20" xml:id="ls9_t4_l1">
@@ -24088,7 +24765,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2022-10" to="2023-02" xml:id="ls9_t5">
-            <eventName xml:lang="de">Wintersemester 2022-2023</eventName>
+            <eventName xml:lang="de">Wintersemester 2022-23</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250302173603/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wintersemester-2022-2023/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2022-10-19" xml:id="ls9_t5_l1">
@@ -24504,7 +25181,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2023-10" to="2024-01" xml:id="ls9_t6">
-            <eventName xml:lang="de">Wintersemester 2023-2024</eventName>
+            <eventName xml:lang="de">Wintersemester 2023-24</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250227125247/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wintersemester-2023-2024/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2023-10-18" xml:id="ls9_t6_l1">
@@ -24904,7 +25581,7 @@
               corresp="#eide_oyvind #paliou_eleftheria #hageneuer_sebastian #hermes_juergen"/>
           </event>
           <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls9_t7">
-            <eventName xml:lang="de">Wintersemester 2024-2025</eventName>
+            <eventName xml:lang="de">Wintersemester 2024-25</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250301150511/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wintersemester-2024-2025/colloquium-in-digital-cultural-heritage/"/>
             <event type="lecture" when="2024-10-16" xml:id="ls9_t7_l1">
@@ -27702,8 +28379,29 @@
               <eventName xml:lang="en">Exploring Characters in Calderón Drama Corpus (CalDraCor)
                 with Computational Methods</eventName>
               <ptr type="programme"
-                target="https://web.archive.org/web/20250624190707/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/exploring-characters-in-calderon-drama-corpus-caldracor-with-computational-methods-232721/"/>
-              <note type="abstract" xml:lang="en">not found</note>
+                target="https://web.archive.org/web/20250709162010/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/sose-2025/n/exploring-characters-in-calderon-drama-corpus-caldracor-with-computational-methods-232721/"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk presents a novel computational study of the gracioso archetype (servant
+                  figures whose metatheatrical and humorous interventions both lighten and
+                  critically frame the drama) in Calderonian plays. Drawing on a richly annotated
+                  XML‑TEI corpus from Calderón Drama Corpus (CalDraCor), we implement two
+                  complementary experiments. First, we apply social network analysis to extract
+                  character interaction networks from dialogue and scene co‑occurrence data,
+                  computing different centrality degrees to assess the strategic positioning of
+                  graciosos within the play’s social fabric. Second, we develop a supervised
+                  classification model that distinguishes graciosos from other characters,
+                  leveraging lexical and stylistic features to capture distinctive patterns. By
+                  integrating quantitative network metrics with machine‑learning‐based
+                  identification, this talk offers a holistic perspective on how the gracioso
+                  functions narratively and structurally in Calderón’s plays. Expected outcomes
+                  include insights into stylistic markers, and quantitative evidence of the
+                  gracioso’s role as a critical intermediary and social connector. Our
+                  interdisciplinary methodology advances both literary scholarship and digital
+                  humanities practice, providing a replicable toolkit for analyzing character
+                  archetypes and their dramatic significance across theatrical corpora. This
+                  methodological framework can be adapted to other early modern repertoires,
+                  facilitating comparative studies of dramatic characterization and genre
+                  evolution.</p> not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#romance-studies #literary-studies"/>
                 <term type="topics-llm">drama, characters, calderón, computational methods, text
@@ -27718,7 +28416,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-tuebingen"/>
+                  <affiliation corresp="#uni-tuebingen #uni-berlin-fu"/>
                 </person>
                 <person role="speaker" corresp="#keith_allison">
                   <name>
@@ -38818,6 +39516,1756 @@
               corresp="#blombach_andreas #dykes_nathan #kremer_dominik #lang_sabine" cert="low"/>
           </event>
         </event>
+
+        <event xml:id="ls35" type="lecture-series" where="#berlin">
+          <eventName xml:lang="en">Overcoming Obstacles in Digital Humanities</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250628171844/https://www.mpiwg-berlin.mpg.de/page/overcoming-obstacles-digital-humanities"/>
+          <note type="description" xml:lang="en">
+            <p>The VoH Group, in cooperation with Research IT, is pleased to present a series of
+              lectures, "Overcoming Obstacles, Learning from Experiences: A Transdisciplinary
+              Conversation about Computer Vision, 3D Models, Preservation, and Outreach in Digital
+              Humanities Projects," May–July 2024. The goal of this lecture series is to share
+              experiences from different DH projects across multiple disciplines in the
+              Humanities—History of Science, History, Art History, and Archaeology. Invited speakers
+              will focus on methods essential for the VoH group, such as databases, their
+              development, preservation, and dissemination, computer vision and its components, such
+              as classification, annotation, and vectorization, as well as 3-D modeling. Analogous
+              to the thinking behind the project "Visualization and Material Culture of the Heavens
+              Database: An Image Database as a Research Tool," the discussed DH projects are
+              primarily interested in the systematic DH-related analysis of objects with images and
+              visual specimens in manuscripts. Two of the lectures will present new aspects to be
+              considered in future VoH research—the study of corpora and object makers. Lectures in
+              the series will provide the opportunity to discuss the challenges that arise in the
+              cooperation between colleagues of different disciplines and the necessary processes of
+              translation. Therefore, other lecture topics include the formulation of
+              computer-suitable research questions, the application of AI, or the use of semantic
+              web technology. Speakers hail from several different institutional settings, among
+              them computer labs, museums, and universities. They will introduce their projects,
+              ranging from databases to computer vision, some featuring ambiguity and multiplicity
+              in digital repositories and others tools of knowledge and the potential of their
+              appeal to broader audiences.</p>
+          </note>
+          <event type="lecture-series-term" from="2024-05" to="2024-07" xml:id="ls35_t1">
+            <eventName>2024</eventName>
+            <event type="lecture" when="2024-05-08" xml:id="ls35_t1_l1">
+              <eventName xml:lang="en">Tools of Knowledge: Revitalising a Legacy Database of
+                Scientific Instrument Makers</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250628175644/https://www.mpiwg-berlin.mpg.de/event/tools-knowledge-revitalising-legacy-database-scientific-instrument-makers"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk presents some reflections on the UK Arts &amp; Humanities Research
+                  Council funded project, “Tools of Knowledge,” which has remodeled a legacy
+                  database of scientific instrument makers in the UK and Ireland from 1550–1914 as a
+                  semantic database (i.e., one structured to create relationships and reveal
+                  implicit meaning within data). An introduction to the new database will be
+                  followed by a discussion of the ways in which the project experimented with data
+                  visualization and linking to additional sources about instruments to represent
+                  their individual "lives," or itineraries. Some lessons learned will be shared,
+                  including issues common to other digital humanities projects related to labor and
+                  credit. Consideration will also be given to possible audiences and to the
+                  potential for public engagement around the project’s work.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#higgitt_rebekah">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#museum-nms"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#mpi-wg"/>
+            </event>
+            <event type="lecture" when="2024-05-22" xml:id="ls35_t1_l2">
+              <eventName xml:lang="en">Ptolemaic Astronomy through Computer Vision: A Building
+                Platform for Research on Astronomical Diagrams</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250628175246/https://www.mpiwg-berlin.mpg.de/event/ptolemaic-astronomy-through-computer-vision-building-platform-research-astronomical-diagrams"/>
+              <note type="abstract" xml:lang="en">
+                <p>By creating digital humanities tools for research in the history of science, the
+                  EIDA project—started in February 2023—incorporates artificial intelligence into
+                  the study and analysis of a corpus of manuscripts of Ptolemaic tradition and early
+                  prints of mathematical astronomy. With the help of computer vision algorithms to
+                  accelerate specific steps (such as visual elements extraction, clustering, and
+                  vectorization) of the processing of the sources, EIDA opens new perspectives for
+                  the study of astral diagrams. The information system created for the project,
+                  based on a data model enabling the detailed description of the sources, will
+                  provide a diversity of tools dedicated to the exploration, analysis, and edition
+                  of diagrams in historical sources.</p>
+                <p>This presentation synthesizes how computer vision algorithms can be integrated
+                  into the work of historians and automate multiple steps of the processing of their
+                  source material. The presentation will also include an exploration of the tools
+                  developed by the EIDA project to support the work of researchers and lay the
+                  groundwork for a public platform featuring reusable resources.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#norindr_jade">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#observatoire-de-paris"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#mpi-wg"/>
+            </event>
+            <event type="lecture" when="2024-06-03" xml:id="ls35_t1_l3">
+              <eventName xml:lang="en">On Obstacle Courses and Other Racings (or an Outburst about
+                Reusing 3D Models of Cultural Heritage Objects for Research and
+                Conservation)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250628180725/https://www.mpiwg-berlin.mpg.de/event/obstacle-courses-and-other-racings-or-outburst-about-reusing-3d-models-cultural-heritage"/>
+              <note type="abstract" xml:lang="en">
+                <p>Little attention seems to have been given in material cultural heritage research
+                  practice to the digital data lifecycle and, although often mentioned, to actually
+                  making research data FAIR (Findable, Accessible, Interoperable, Reusable;
+                  Wilkinson et al., 2016). In this talk, I will showcase an investigation into Greek
+                  and Cypriot pottery, 10th–4th c. BCE, from various European collections, and with
+                  a strong emphasis on 3D digital resources. The aims are manifold, namely, to
+                  understand the chronological and geographical variability of the items’ production
+                  and use (e.g., shape classification and patterns, capacity standards, use-wear,
+                  and network analysis), as well as to enable conservation studies and monitoring.
+                  However, despite the large amount of 3D models of archaeological objects available
+                  online, I will explain some of the obstacles encountered when attempting to reuse
+                  them and proceeding with this investigation. This presentation tackles issues
+                  related to digital archives and repositories, the quality of and trust in 3D
+                  digital resources, contextual and useful metadata for research (including
+                  technical metadata, aka paradata), and data incompleteness—although a resource
+                  cannot be fully described, it can be better described.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moitinho-de-almeida_vera">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-porto"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#mpi-wg"/>
+            </event>
+            <event type="lecture" when="2024-06-19" xml:id="ls35_t1_l4">
+              <eventName xml:lang="en">Computer Vision for History</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250628181949/https://www.mpiwg-berlin.mpg.de/event/computer-vision-history"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this presentation, I will discuss different ways Computer Vision can be used
+                  to address concrete historical questions, and present different tools built in my
+                  group, with a particular focus on methods that require limited manual annotation
+                  of the data. In particular, I will discuss projects that (i) vectorize historical
+                  astronomical diagrams in different geometric primitives; (ii) extract
+                  illustrations from documents and look for similarities between them; (iii) extract
+                  prototypical letter shapes from handwritten documents and leverage them to answer
+                  paleographical questions; and (iv) analyze printed ornaments.</p>
+                <p/>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#aubry_mathieu">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#fh-enpc"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#mpi-wg"/>
+            </event>
+            <event type="lecture" when="2024-07-11" xml:id="ls35_t1_l5">
+              <eventName xml:lang="en">Archives by and for Research in the History of Science and
+                Digital Humanities: Describe, Annotate, Preserve, and Disseminate</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250628182648/https://www.mpiwg-berlin.mpg.de/event/archives-and-research-history-science-and-digital-humanities-describe-annotate-preserve-and"/>
+              <note type="abstract" xml:lang="en">
+                <p>This presentation aims to describe and examine various uses of archives in
+                  history of science projects that employ digital humanities methods. The focus is
+                  on the discrepancy between the information on finding aids (provided by
+                  archivists) and the needs of research projects, which often require descriptions
+                  of a different nature. Is it possible to bridge the gap between archivists and
+                  research project members so that information can be shared between these two
+                  worlds? How can the archival processing of documents be used for research, and
+                  conversely, how can a research tool be enriched with the results produced by the
+                  digital humanities project? Various projects from the Archives Henri-Poincaré -
+                  Philosophie et Recherches sur les Sciences et les Technologies (AHP, Nancy and
+                  Strasbourg, France) use tools and methods of digital humanities to exploit corpora
+                  and build databases are presented.</p>
+                <p>Methodological choices include: the semantic web technology (Poincaré’s letters),
+                  the linking of documents within in a complex corpus (Bourbaki project), fine image
+                  annotation with IIIF (Bourgoin project), and the participatory constitution of an
+                  archival collection via crowdsourcing (Batalab project). These projects use Omeka
+                  (S and Classic) amongst other tools. I also present the ecosystem established to
+                  process the preserved archival collections.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#willaime_pierre">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#cnrs"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#mpi-wg"/>
+            </event>
+            <event type="lecture" when="2024-07-18" xml:id="ls35_t1_l6">
+              <eventName xml:lang="en">Computer Vision Approaches for Greek Vase
+                Paintings</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250628183141/https://www.mpiwg-berlin.mpg.de/event/computer-vision-approaches-greek-vase-paintings"/>
+              <note type="abstract" xml:lang="en">
+                <p>Current developments in the field of artificial intelligence have made the
+                  question of how this technology can and will change the world of scientific method
+                  even more urgent. Thousands of clay vessels with their characteristic black and
+                  red color have been handed down over centuries from ancient Greece and provide an
+                  insight into everyday life in antiquity. One way to understand them was and still
+                  is through comparison of different images as new images with familiar
+                  compositional schemes and figure types were created again and again. But how does
+                  a computer "see" these ancient images, how does it compare them, how does it
+                  evaluate individual images, and according to which parameters? This lecture sheds
+                  light on both computer vision approaches to these questions and the challenges
+                  that archaeological imagery pose for such approaches.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#reinhardt_corinna">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-zuerich"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#mpi-wg"/>
+            </event>
+            <org role="organizer" corresp="#brentjes_rana #pham_kim"/>
+          </event>
+        </event>
+
+        <event xml:id="ls36" type="lecture-series" where="#hamburg">
+          <eventName xml:lang="de">Digital Humanities: Grundlagen, Methoden und Reflexion in
+            interdisziplinärer Perspektive</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250628185343/https://www.zfw.uni-hamburg.de/oeffentliche-vortraege/programm-wise/10-digital-humanities"/>
+          <note type="description" xml:lang="de">
+            <p>Die Digitalisierung hat mittlerweile auch in den Geisteswissenschaften Einzug
+              gehalten – sowohl in der Forschung als auch in den außeruniversitären Berufsfeldern.
+              Jenseits der Nutzung des Computers zum Schreiben von Texten und zum Surfen im Internet
+              hat sich im Rahmen der so genannten Digital Humanities ein breites Spektrum an
+              Methoden entwickelt, die das traditionelle Handwerkszeug der Geisteswissenschaften mit
+              neuen Möglichkeiten ergänzen.</p>
+            <p>Die Vorlesung bietet einen einführenden Überblick über die digitalen Technologien und
+              Verfahren, die heute zum Einsatz kommen, um Texte zu analysieren, auf digitalen
+              Plattformen zu präsentieren und für die Nachwelt zu archivieren. Ein Schwerpunkt liegt
+              dabei auf den Verfahren und Werkzeugen der Sprach- und Literaturwissenschaften. Neben
+              einer Bestandsaufnahme und der Präsentation von Beispielanwendungen zielt die
+              Vorlesung auf die Reflexion der mit der Digitalisierung einhergehenden Veränderungen
+              des geisteswissenschaftlichen Forschungs- und Arbeitsprozesses. Es soll jeweils nach
+              dem methodologischen und konzeptionellen Zugewinn gefragt werden, den das neue
+              Methodenparadigma der Digital Humanities birgt oder bergen könnte.</p>
+            <p>Sitzungen, die in einzelne Grundlagenbereiche der Digital Humanities einführen,
+              wechseln sich mit Berichten aus aktuellen Forschungsprojekten ab.</p>
+            <p>Die Vorlesung richtet sich an alle, die ein Interesse an digitalen Verfahren in
+              textbezogenen Geisteswissenschaften haben. Auch wenn der Schwerpunkt der vorgestellten
+              Projekte in den Sprach- und Literaturwissenschaften liegt, können die Methoden
+              grundsätzlich interdisziplinär angewendet werden. Es werden keine Vorkenntnisse der
+              digitalen Methoden vorausgesetzt.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls36_t1">
+            <eventName xml:lang="de">Wintersemester 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250628191420/https://www.zfw.uni-hamburg.de/oeffentliche-vortraege/programm-wise/10-digital-humanities/086-10-plakat-digital-humanities.pdf"/>
+
+            <event type="lecture" when="2024-10-17" xml:id="ls36_t1_l1">
+              <eventName xml:lang="de">Einführung: Was sind Daten in den (digitalen)
+                Geisteswissenschaften</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nantke_julia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+                <person role="speaker" corresp="#zinsmeister_heike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-10-24" xml:id="ls36_t1_l2">
+              <eventName xml:lang="de">Transkription: Erzeugung von Daten durch
+                Übersetzung</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nantke_julia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-11-07" xml:id="ls36_t1_l3">
+              <eventName xml:lang="de">Maschinelles Lernen und große Sprachmodelle: Grundlage für
+                die Analyse großer Datenmengen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zinsmeister_heike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-11-14" xml:id="ls36_t1_l4">
+              <eventName xml:lang="de">Annotationen: Linguistische Grundlagen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zinsmeister_heike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-11-21" xml:id="ls36_t1_l5">
+              <eventName xml:lang="de">Ethische Fragen der automatischen Sprachverarbeitung und
+                -generierung</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#andresen_melanie">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#deepl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-11-28" xml:id="ls36_t1_l6">
+              <eventName xml:lang="de">Annotationen: Die literaturwissenschaftliche
+                Perspektive</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nantke_julia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-12-05" xml:id="ls36_t1_l7">
+              <eventName xml:lang="de">DisKo: Ein Diversitäts-Korpus für die algorithmische
+                Textanalyse</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#flueh_marie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+                <person role="speaker" corresp="#schumacher_mareike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stuttgart #uni-regensburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-12-12" xml:id="ls36_t1_l8">
+              <eventName xml:lang="de">Digitale Edition</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nantke_julia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2024-12-19" xml:id="ls36_t1_l9">
+              <eventName xml:lang="de">Codiertes Wissen: Linked Open Data und andere
+                Datenressourcen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zinsmeister_heike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2025-01-09" xml:id="ls36_t1_l10">
+              <eventName xml:lang="de">Gegen große Erzählungen: Theoriediskurse in den Digital
+                Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kleymann_rabea">
+                  <name>
+                    <roleName type="title">Jun.-Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-chemnitz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2025-01-16" xml:id="ls36_t1_l11">
+              <eventName xml:lang="de">Spannung und Cliffhanger in Erzählliteratur des 19.
+                Jahrhunderts: Modellierung und quantitative Analysen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schroeter_julian">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2025-01-23" xml:id="ls36_t1_l12">
+              <eventName xml:lang="de">forTEXT – Literatur digital erforschen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#akazawa_mari">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+                <person role="speaker" corresp="#gius_evelyn">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <event type="lecture" when="2025-01-30" xml:id="ls36_t1_l13">
+              <eventName xml:lang="de">Literatur im Netz und digitale
+                Wissenschaftskultur</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nantke_julia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg"/>
+            </event>
+
+            <org role="organizer" corresp="#nantke_julia #zinsmeister_heike"/>
+          </event>
+        </event>
+
+        <event xml:id="ls37" type="lecture-series" where="#duesseldorf">
+          <eventName xml:lang="de">Informationswissenschaft und Digital Humanities</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250628222726/https://www.ling.hhu.de/bereiche-des-institutes/abteilung-fuer-informationswissenschaft/ringvorlesungisdh"/>
+          <note type="description" xml:lang="de">
+            <p>Die Ringvorlesung "Informationswissenschaft und Digital Humanities" ist organisiert
+              und geleitet von Dr. Isabelle Dorsch und Dr. Aylin Imeri (Abteilung für
+              Informationswissenschaft an der Heinrich-Heine-Universität Düsseldorf) und Stefan
+              Reiners-Selbach (Koordinator für Digital Humanities an der Heinrich-Heine-Universität
+              Düsseldorf).</p>
+            <p>Die interdisziplinäre Ringvorlesung vereint somit die Fachbereiche
+              Informationswissenschaft und Digital Humanities. Ziel ist es, sowohl Gemeinsamkeiten
+              als auch Unterschiede aufzuzeigen, konkrete Fallbeispiele mit Fokus auf Projekten von
+              Forschenden der HHU und Kooperationspartner:innen vorzustellen und den Teilnehmenden
+              auch insbesondere einen praktischen Einblick in ausgewählte Methoden zu geben.
+              Zielgruppe sind Studierende und Forschende sowie alle interessierten Personen.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls37_t1">
+            <eventName/>
+
+            <event type="lecture" when="2022-05-06" xml:id="ls37_t1_l1">
+              <eventName xml:lang="en">Social Media based Measurements of Psychosocial Phenomena:
+                Potentials and Pitfalls</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=Bag9uzwrJzE"/>
+              <note type="abstract" xml:lang="en">
+                <p>Digital Trace Data from online platforms and digital devices, including social
+                  media data, has great potential in informing social research about human
+                  attitudes, behaviors, and characteristics. Such data is available in high volume
+                  and velocity and can complement traditional forms of data in the social sciences,
+                  such as survey data, especially in conjunction with computational models designed
+                  to work with large-scale data. However, digital traces also have several pitfalls,
+                  such as confounding effects of the platforms. In this talk, we critically reflect
+                  on some of these pitfalls and devise ways to identify them.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sen_indira">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#gesis"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-duesseldorf"/>
+            </event>
+
+            <event type="lecture" when="2022-05-20" xml:id="ls37_t1_l2">
+              <eventName xml:lang="en">Open Data</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#siebenlist_tobias">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#ronin-institute"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-duesseldorf"/>
+            </event>
+
+            <event type="lecture" when="2022-06-03" xml:id="ls37_t1_l3">
+              <eventName xml:lang="en">Reanimating African American Oral Histories of the Gulf
+                South</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=yLus_ODOXEk"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk, I will introduce the Reanimating African American Oral Histories of
+                  the Gulf South project (https://raaohgs.oral.history.ufl.edu/) started in 2021,
+                  supported by the National Endowment of the Humanities (NEH), educators and other
+                  community members. I will focus on reporting our computational efforts in making
+                  the voices and histories of African Americans who reside in the Gulf South
+                  accessible.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#tang_kevin">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-duesseldorf"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-duesseldorf"/>
+            </event>
+
+            <event type="lecture" when="2022-06-24" xml:id="ls37_t1_l4">
+              <eventName xml:lang="de">Bibliotheken als Datengeber – Digitale Sammlungen als Basis
+                für Forschungs- und Citizen-Science-Projekte</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=t0tqfcMd44A"/>
+              <note type="abstract" xml:lang="de">
+                <p>In dem Vortrag werden die Möglichkeiten aufgezeigt, die die Digital Humanities
+                  für die Aufbereitung der Daten bieten. Ferner geht es um Aspekte rund um die
+                  Bereitstellung von Daten, seien es Bücher, Artikel, bibliographische
+                  Informationen, ganze Texte oder Zahlen. Aktuelle Entwicklungen werden vorgestellt
+                  und ein offener Austausch dazu angestrebt.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#olliges-wieczorek_ute">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-duesseldorf"/>
+                </person>
+                <person role="speaker" corresp="#fleischer_dirk">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-duesseldorf #library-uni-duesseldorf"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-duesseldorf"/>
+            </event>
+
+            <event type="lecture" when="2022-07-01" xml:id="ls37_t1_l5">
+              <eventName xml:lang="de">Das algorithmische Selbst - mediale Konfigurationen und
+                narrative Perspektiven</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=wMqhPnpSQYc"/>
+              <note type="abstract" xml:lang="de">
+                <p>Im digitalen Zeitalter wird das Selbst zunehmend durch algorithmische Strukturen
+                  bestimmt. In meinem Vortrag werde ich kulturelle und gesellschaftliche Diskurse um
+                  das "algorithmische Selbst" (Pasquale 2015) betrachten und dabei insbesondere
+                  literarische Verhandlungen dieser neuen Selbstkonzeption in den Blick nehmen. An
+                  ausgewählten US-amerikanischen Romanen möchte ich zeigen, wie sich traditionelle
+                  Narrative sowohl ästhetisch-experimentell als auch kritisch zu algorithmischen
+                  Vorstellungen des Selbst verhalten.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schober_regina">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-duesseldorf"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-duesseldorf"/>
+            </event>
+
+            <org role="organizer" corresp="#imeri_aylin #reiners-selbach_stefan #dorsch_isabelle"/>
+          </event>
+        </event>
+
+        <event xml:id="ls38" type="lecture-series" where="#bielefeld">
+          <eventName xml:lang="en">Lecture Series Data Science</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250629104211/https://www.uni-bielefeld.de/einrichtungen/bicdas/more/lecture-series/#accordion-comp_0000603712b7_0000001437_6a0d"/>
+
+          <event type="lecture-series-term" from="2017-10" to="2018-01" xml:id="ls38_t1">
+            <eventName xml:lang="en">Winter term 2017-18</eventName>
+            <note type="description" xml:lang="en">
+              <p>In the 2017/18 winter term BiCDaS offered a lecture series on selected Data Science
+                topics. Six different experts delivered presentations that provided insight into
+                their research in various fields of data science.</p>
+              <p>Although the lecture series is over, you can still watch most talks below. It is a
+                great collection of resources and showcases the wide range of topics in Data
+                Science.</p>
+            </note>
+
+            <event type="lecture" when="2017" xml:id="ls38_t1_l1">
+              <eventName xml:lang="en">Data Science and Digital Humanities, Models, Practices, and
+                Interpretations</eventName>
+              <ptr type="video"
+                target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=119ee7e4-7ca9-4a30-8077-a87200daa75f"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schwandt_silke">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2017" xml:id="ls38_t1_l2">
+              <eventName xml:lang="en">Cryptographic Access Control—Reconciling Security and
+                Privacy</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bloemer_johannes">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paderborn"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2017" xml:id="ls38_t1_l3">
+              <eventName xml:lang="en">Auditory Data Science</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hermann_thomas">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2017" xml:id="ls38_t1_l4">
+              <eventName xml:lang="en">Data? What for? Thoughts around research question based data
+                collection</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sauzet_odile">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2017" xml:id="ls38_t1_l5">
+              <eventName xml:lang="en">Enabling Data-Intensive Science</eventName>
+              <ptr type="slides"
+                target="https://web.archive.org/web/20240224193647/https://www.ifi.uzh.ch/dam/jcr:207e4193-139b-40ec-9040-ee5bedaf9ee3/2017-11-23%20Zurich%20PDF.pdf"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#streit_achim">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-karlsruhe"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2018-10" to="2019-05" xml:id="ls38_t2">
+            <eventName xml:lang="en">Winter term 2018-19</eventName>
+
+            <event type="lecture" when="2018-10-19" xml:id="ls38_t2_l1">
+              <eventName xml:lang="en">Improving Health through Data Science</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Data science refers to the acquisition of knowledge from data. The field is
+                  increasingly important as more and more data is being collected in a rising number
+                  of areas and has great potential for optimizing processes. One of these areas is
+                  medicine. Medical data is growing in volume and complexity, for example through
+                  the accelerated digitization of patient data or improved high-throughput
+                  technologies in molecular biology. Processing such data requires both statistical
+                  and computational expertise as well as medical domain knowledge for correct
+                  interpretation.</p>
+                <p>I will present projects in which interdisciplinary cooperation between statistics
+                  / data science and medicine / biology led to a gain in knowledge and thus to
+                  improved diagnostics: On the one hand from the field of risk prediction for
+                  prostate cancer patients and childhood asthma; here we were able to use and
+                  combine machine learning techniques in such a way that the complex data base
+                  available was used more effectively and we were able to improve previously used
+                  forecasting methods. On the other hand, for the detection of transcriptional
+                  heterogeneity in leukemia patients; here, we use an RNA measurement method that
+                  sequences small amounts of cells rather than single cells to reduce cost, effort,
+                  unwanted effects of cell isolation and, most importantly, technical errors. In the
+                  case of heterogeneous cell populations, the resulting data is a tangle of signals.
+                  A statistical algorithm developed by us can extract the single-cell information
+                  again.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#fuchs_christiane">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2018-12-14" xml:id="ls38_t2_l2">
+              <eventName xml:lang="en">Supporting Meta-Analysis with Semantic Technologies: the case
+                of managing pre-clinical evidence for the treatment of spinal cord
+                injuries</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In many knowledge-intensive areas, experts are overwhelmed with information. As
+                  the number of publications in many fields is growing at an exponential rate, it is
+                  becoming harder and harder for experts to keep up and distill the "evidence" or
+                  knowledge from the available published knowledge. New approaches to structuring
+                  and managing evidence to support insight generation and answering of specific
+                  questions are crucial. Machines can support the task of structuring the available
+                  evidence. But there are a number of challenges to face. First, knowledge is
+                  published in unstructured form, so we need to teach machines to extract the
+                  relevant insights from published articles. Second, we need ontologies or knowledge
+                  representation approaches to represent the knowledge to support cross-document
+                  aggregation as rarely only one document contains the relevant answer or insight to
+                  a question.</p>
+                <p>We present results of the BMBF-funded project PSINK that seeks to develop a novel
+                  approach to systematizing evidence in the field of medicine, in particular in the
+                  area dealing with the treatment of spinal cord injuries, for which no successful
+                  treatment exists as of today. The project builds on natural language processing
+                  techniques and semantic technologies to develop a knowledge base that eventually
+                  should contain all the pre-clinical knowledge available on the efficacy of spinal
+                  cord injury therapies. This will support a novel concept what we call
+                  "meta-analysis on demand".</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cimiano_philipp">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2019-01-18" xml:id="ls38_t2_l3">
+              <eventName xml:lang="en">A Glimpse into Microbial Dark Matter through the de.NBI
+                Cloud</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Microorganisms are the most abundant cellular life forms on Earth, occupying even
+                  the most extreme environments. The large majority of these organisms have not been
+                  obtained in pure culture and therefore have long been inaccessible to genome
+                  sequencing, which would provide blueprints for the evolutionary and functional
+                  diversity that shapes our biosphere. Since the advent of next-generation
+                  sequencing technologies, metagenomics and single cell genomics can shed light on
+                  the uncharted branches of the tree of life. While representing very complementary
+                  approaches, both technologies can recover microbial genomes from environmental
+                  samples, with their own strengths and weaknesses.</p>
+                <p>More than 100,000 metagenomic datasets of hundreds of Terabytes in size are
+                  currently available in public data repositories and can be mined for new
+                  representatives of candidate phyla to obtain genomes of the underrepresented
+                  branches of the tree of life. Also, these metagenomic data sets are invaluable in
+                  bioprospecting, an approach for screening for molecules and activities from
+                  environmental samples with biotechnological potential. However, for many small
+                  research labs these data remain inaccessible due to the lack of computational
+                  resources.</p>
+                <p>Cloud computing offers a solution, as it provides compute and storage capacities
+                  at scale. The CeBiTec at Bielefeld University is operating an OpenStack-based
+                  cloud computing infrastructure for the life science community within the German
+                  Network for Bioinformatics Infrastructure (de.NBI). The de.NBI Cloud
+                  (https://cloud.denbi.de/) is a full academic cloud federation, providing compute
+                  and storage resources free of charge for academic users. It provides a powerful IT
+                  infrastructure in combination with flexible bioinformatics workflows and analysis
+                  tools to the life science community in Germany. In my presentation I will show how
+                  the de.NBI Cloud can close the gap of missing computational resources for
+                  metagenomics research as one example.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sczyrba_alexander">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2019-01-25" xml:id="ls38_t2_l4">
+              <eventName xml:lang="en">Data, modeling, inferential and computational thinking:
+                components in data literacy education</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Statistical thinking and computational skills together with real world
+                  applications are regarded as fundamental elements in data literacy education. Data
+                  modeling and simulation based inference may facilitate conceptual understanding in
+                  all domains of data literacy. This can be achieved by a re-thinking of the
+                  consensus based curriculum. It is time to start - and for a first review of the
+                  lessons learned.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#luebke_karsten">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#fh-fom"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2019-01-30" xml:id="ls38_t2_l5">
+              <eventName xml:lang="en">Data Science on music data</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk we structure the field of data science and substantiate our key
+                  premise that statistics is one of the most important disciplines in data science
+                  and the most important discipline to analyze and quantify uncertainty. As an
+                  application, the talk demonstrates data science methods on music data for
+                  automatic transcription and automatic genre determination, both on the basis of
+                  signal-based features from audio recordings of music pieces.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#weihs_claus">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-dortmund"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2019-05-22" xml:id="ls38_t2_l6">
+              <eventName xml:lang="en">An introduction to the Socio-Economic Panel (SOEP)
+                Study</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Nearly 15,000 households and about 30,000 persons participate in the SOEP survey.
+                  The SOEP provides a broad set of self-reported "objective" variables, such as
+                  income, age, gender, education, employment status, or gripping force, and a broad
+                  set of self-reported "subjective" variables, such as from satisfaction with life,
+                  over fairness and reciprocity perceptions to psychological measurement like the
+                  "Big Five."</p>
+                <p>Running for already 35 years, SOEP gathers information from a spectrum of birth
+                  cohorts. As such, it is a valuable empirical basis for researchers to explore
+                  long-time societal changes; relationships between early life events on later life
+                  outcomes; interdependencies between the individual and the family or household;
+                  mechanisms of inter-generational mobility and transmission; accumulation processes
+                  of resources; short- and long-term effects of institutional change and policy
+                  reforms; speed of convergence between East and West or between migrants and
+                  natives.</p>
+                <p>The talk will give an overview about the basic features of the SOEP - from the
+                  basic sampling strategy to the structure of the released data. How external users
+                  can access the data and in which ways the SOEP data can be enriched using
+                  auxiliary datasets like geocoded data. Addtionally it will also give an overview
+                  about the SOEP Innovation Sample (SOEP-IS) and how external researchers can submit
+                  proposals. SOEP-IS can accommodate not only short-term experiments but also
+                  longer-term survey modules that are not suitable for SOEP-Core, whether because
+                  the survey instruments are still relatively new or because of the specific issues
+                  dealt with in the research.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#goebel_jan">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#diw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2019-12" to="2018-02" xml:id="ls38_t3">
+            <eventName xml:lang="en">Winter term 2019-20</eventName>
+
+            <event type="lecture" when="2019-12-13" xml:id="ls38_t3_l1">
+              <eventName xml:lang="en">Are we there yet? Predicting travel times in urban street
+                networks</eventName>
+              <ptr type="video"
+                target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9562b74c-f7ea-47cc-909e-ab6800dfcf7d"/>
+              <note type="abstract" xml:lang="en">
+                <p>Knowing the travel time for a given route is of importance for logistics
+                  applications, but also for individual travel, as is documented by the provision of
+                  predictions for example in Google maps. In both applications we do not only want
+                  to know the expected travel time but also the associated uncertainty as typically
+                  being late might incur a larger penalty than being too early.</p>
+                <p>For predicting travel times a large range of different time series methods are
+                  applied using a very diverse landscape of data sources with associated strengths
+                  and problems. The methods used include a large number of time series analysis
+                  techniques dealing with univariate and multivariate data sets, linear and
+                  non-linear models.</p>
+                <p>In this talk I will describe how some of the underlying problems are solved using
+                  insights from domain knowledge and statistical data analysis methods. The main
+                  underlying theme is that brute force purely data driven modelling does not work.
+                  Also only theory driven modelling typically is not sufficient. It is the
+                  combination of these two approaches that leads to success.</p>
+                <p>I will also hint at some of the current challenges, both technological and
+                  institutional. This will lead to my answers to the question: Are we there yet, can
+                  we provide reliable travel time predictions?</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bauer_dietmar">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2020-01-10" xml:id="ls38_t3_l2">
+              <eventName xml:lang="en">Research data federation in the arts and humanities:
+                background, concepts and services in DARIAH-DE</eventName>
+              <ptr type="video"
+                target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=71b0312a-e9d3-4029-9156-ab6800e3c7e3"/>
+              <note type="abstract" xml:lang="en">
+                <p>A fundamental function of cultural heritage projects and institutions consists in
+                  the collection, cataloguing and persistent storage of material of human culture.
+                  Challenges emerge with upcoming needs to digitize such material and to provide it
+                  to research communities or the general public. A large amount of cultural heritage
+                  collections are stored in depots and might never reach a digitally published state
+                  - mainly due to the necessary selectivity of digitization projects and the amount
+                  and diversity of artifacts that are being acquired and collected. With this
+                  respect, the openness, interoperability and sustainability of repositories are of
+                  particular importance as these requirements form a foundation for a long-term
+                  preservation of digital cultural heritage along with the scholarly discourse.</p>
+                <p>In this talk, we discuss the value and benefits that an adoption of the
+                  FAIR-principles [Fußnote: findable, accessible, interoperable, reusable; see:
+                  https://www.go-fair.org/fair-principles] has on research data management in the
+                  digital humanities. After a short glance on current perspectives and requirements
+                  of funding organizations with regard to the FAIR-principles and their adoption, we
+                  present results of the Digital Research Infrastructure for the Arts and Humanities
+                  (DARIAH). The BMBF-funded initiative has developed strategies and services, which
+                  facilitate the introduction of FAIR-principles to collections of cultural
+                  heritage. In our talk, we particularly focus on methods that allow the explication
+                  of contextual knowledge on existing collections to achieve interpretability of
+                  their content in integrative contexts and hence supporting such collections to
+                  become FAIR.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#henrich_andreas">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bamberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2020-01-17" xml:id="ls38_t3_l3">
+              <eventName xml:lang="en">Mobile In-Store Analytics: Examining Shopper Behavior and
+                Reactions to Location-Based Mobile Promotions</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Sensors embedded in mobile phones allow for analyzing contextual factors, such as
+                  consumers' current outdoor location, and use it for targeting purposes, which was
+                  shown to improve customer responses to mobile promotions. However, many customers
+                  also use their phones inside of stores, which provides opportunities for better
+                  understanding in-store behavior and for location-based targeting during the actual
+                  shopping process. We present the results of a unique large-scale field test, which
+                  we conducted in cooperation with a fashion retailer. Specifically, we developed
+                  and employed a mobile application that is capable of tracking customers in the
+                  store and of delivering individualized promotion messages. We use the application
+                  to examine the effects of in-store behavior on purchases, and to conduct a
+                  between-subjects experiment that tests the effects of different location-based
+                  promotion types.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schaefers_tobias">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#fh-cbs"/>
+                </person>
+                <person role="speaker" corresp="#brinkhoff_stefan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-dortmund"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2020-01-24" xml:id="ls38_t3_l4">
+              <eventName xml:lang="en">Secure Multiparty Computation - digital collaboration on
+                private data</eventName>
+              <ptr type="video"
+                target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6ef5fd26-c159-4adf-bf9f-ab6800e7d0b2"/>
+              <note type="abstract" xml:lang="en">
+                <p>The free flow of information is the life blood of digital industries and much of
+                  modern science. Yet collaboration is impeded by inefficiently low data sharing as
+                  proprietary data is kept in private siloes. Often, data exchange is prevented by
+                  competition and lack of trust between data owners, consumer and privacy concerns,
+                  and data protection regulation. Is there a way to reconcile digital collaboration
+                  with data privacy?</p>
+                <p>Secure Multiparty Computation (SMPC), a disruptive technology, promises to do
+                  just that. It simulates a virtual trusted third party as a cryptographic network
+                  between the parties. The network only exists as long as all parties actively
+                  engage in the the calculation, and the joint result is distributed to all. The
+                  individual private data, however, remains with the original data owners, and
+                  nothing can be learned by an external or internal attacker except for the intended
+                  result of the computation.</p>
+                <p>In many ways, secure multiparty computation is similar to the blockchain. Both
+                  work in trustless settings without a central authority. However, while distributed
+                  ledger technologies provide trust, reliability, and transparency; secure
+                  multiparty computation provides privacy, security, dynamic consent, and control
+                  over proprietary data.</p>
+                <p>This talk provides a brief non-technical introduction to secure multiparty
+                  computation. A proof-of-principle is presented in which proprietary patient data
+                  was jointly evaluated between two remote university hospitals.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ballhausen_hendrik">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2020-01-31" xml:id="ls38_t3_l5">
+              <eventName xml:lang="en">Data Science Techniques in Digital Humanities and Digital
+                Knowledge Services</eventName>
+              <ptr type="video"
+                target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8b471262-73b8-42f8-ae99-ab6800e956b9"/>
+              <note type="abstract" xml:lang="en">
+                <p>From 2015 to 2019, the Faculty of Linguistics and Literary Studies of Bielefeld
+                  University carried out the DFG project Kinder und Jugendliteratur im Medienverbund
+                  1933 -1945. The University Library has developed the technical infrastructure for
+                  data acquisition, data processing and data visualisation. Based on a complex data
+                  model for describing different types of media (especially films, radio broadcasts
+                  and print editions, but also theatre performances, records, television broadcasts,
+                  advertising material) as a manifestation of literary material, the different
+                  linkages have to be worked out and visualized by visualization techniques. The
+                  lecture introduces the used approaches, methods and their implementation in detail
+                  and also reports on the use of these techniques in other digital services of the
+                  University Library. This includes in particular analyses of the global publication
+                  network in the context of bibliometric information.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#summann_friedrich">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <event type="lecture" when="2020-02-14" xml:id="ls38_t3_l6">
+              <eventName xml:lang="en">Programming Languages in Data Science</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>At present R and Python are the most widely used programming languages for data
+                  science. R, based on the earlier language S, developed at Bell Labs in the 1980's,
+                  is, by design, intended for data analysis and graphics applications.</p>
+                <p>Python, developed in the 1990's for general applications, has seen widespread
+                  adoption in the scientific computing and data science communities. Both of these
+                  are dynamic languages that can be used interactively in a REPL
+                  (read-eval-print-loop) allowing for rapid prototyping of algorithms and on-the-fly
+                  analyses. Both languages also have well-developed infrastructure including
+                  integrated development environments and thousands of user-contributed packages
+                  available on repositories. Both languages are Open Source and freely
+                  available.</p>
+                <p>As a member of the core development team for R I have considerable experience
+                  using R and developing packages for R. I have also used Python though not to the
+                  same extent. Despite a long history with these languages I recently switched my
+                  development efforts to Julia, primarily for flexibility.</p>
+                <p>I will compare and contrast these languages and explain why I choose to use the
+                  less mature but more flexible one for data science.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bates_douglas">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wisconsin-madison"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-06" to="2024-06" xml:id="ls38_t4">
+            <eventName xml:lang="en">Summer term 2024</eventName>
+
+            <event type="lecture" when="2024-06-17" xml:id="ls38_t4_l1">
+              <eventName xml:lang="de">Digital Literacy mit ChatGPT: Kompetenzen zum Umgang mit
+                digitalen Texten</eventName>
+              <note type="abstract" xml:lang="de">
+                <p>Forschungsdaten sind in den Geisteswissenschaften allgegenwärtig und Forschende
+                  müssen mit ihnen souverän umgehen können. Dies erfordert eine kontinuierliche
+                  Auseinandersetzung mit digitalen Kompetenzen, ein Bereich, dem sich die Digital
+                  Humanities seit vielen Jahren widmen. Mit der zunehmenden Verbreitung generativer
+                  Sprachmodelle hat sich der Erwerb von Wissen nicht nur beschleunigt, sondern auch
+                  individualisiert. Dieser Vortrag beleuchtet genau diese Thematik und präsentiert
+                  ChatGPT als ein leistungsstarkes Instrument zur Förderung der Digital
+                  Literacy.</p>
+                <p>Der Vortrag beginnt mit einer konzeptuellen Einführung in die Digital Literacy
+                  und hebt die essenzielle Rolle digitaler Texte in der wissenschaftlichen Arbeit
+                  hervor. Dabei wird auch das Projekt Text+, ein Konsortium innerhalb der Nationalen
+                  Forschungsdateninfrastruktur (NFDI), kurz vorgestellt.</p>
+                <p>Ein genauerer Blick richtet sich auf verschiedene Aspekte der Repräsentation
+                  digitaler Texte, angefangen von der Zeichenkodierung bis hin zur Annotation der
+                  Analyseergebnisse. Insbesondere wird das XML-basierte Annotationsframework der
+                  Text Encoding Initiative (TEI) näher betrachtet.</p>
+                <p>Neben der Repräsentation digitaler Texte wird auch die Analyse und
+                  Weiterverarbeitung der digitalen Forschungsressourcen angesprochen. Hierfür sind
+                  Programmierkenntnisse unabdingbar, weshalb auch diese erworben werden müssen.
+                  Insbesondere wird auf die Programmiersprache Python und die Open-Source-Bibliothek
+                  spaCy eingegangen, die als leistungsfähiges Werkzeug zur Verarbeitung natürlicher
+                  Sprache dient.</p>
+                <p>Dieser Vortrag basiert auf einem Kurs für Studierende der Germanistik an der
+                  Universität Mannheim, der im Frühjahrssemester 2024 stattfand. Die Erfahrungen und
+                  Erkenntnisse aus diesem Kurs "Digital Literacy mit ChatGPT" sind nicht nur für
+                  zukünftige Kurse anwendbar, sondern können auch auf ähnliche Kurse in anderen
+                  Disziplinen übertragen werden, um ein breiteres Verständnis für die digitale
+                  Kompetenz zu fördern und die Integration digitaler Werkzeuge in die akademische
+                  Forschung zu erleichtern.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#witt_andreas">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#ids"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-bielefeld"/>
+            </event>
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+
+        <event xml:id="ls39" type="lecture-series" where="#freiburg">
+          <eventName xml:lang="de">Digital Humanities. Medienwissenschaftliche Perspektiven –
+            Mediävistische Schlaglichter</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20220124190036/https://www.mittelalterzentrum.uni-freiburg.de/ringvorlesung-maz"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250708235517/https://arthist.net/archive/35152"/>
+          <note type="description" xml:lang="de">
+            <p>Gerade in der Mediävistik, wo komplexe handschriftliche Überlieferungen,
+              Fragmentierung von Quellen, Veränderungen von Räumen etc. bestimmende Faktoren sind,
+              ermöglichen digitale Medien neue Denk- und Handlungsansätze. Ihnen spüren die
+              mediävistischen Themen der Ringvorlesung nach.</p>
+            <p>Erstmals findet die Veranstaltung in Kooperation mit der Medienkulturwissenschaft
+              statt (Starttermin: 03.11., 12-14 Uhr c.t.). Mediävistische und
+              Medienwissenschaftliche Vorträge alternieren 14-tägig und selbstverständlich sind
+              Studierende, Mitglieder und Gäste des Mittelalterzentrums zu allen Vorträgen und
+              Panels herzlich eingeladen. Sie vermitteln in der Gesamtheit ein vielfältiges Bild von
+              der digitalen Transformation der Geisteswissenschaften, was die Methoden, aber auch
+              die Gegenstände anbelangt.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="ls39_t1">
+            <eventName xml:lang="de">Wintersemester 2021-22</eventName>
+
+            <!-- 
+            03.11.21 Barbara Flückiger (Zürich): Entwicklung eines digitalen Ökosystems zur Dokumentation, Analyse und Visualisierung von Filmen
+            
+            10.11.21 Ueli Zahnd (Genf): Vom Codex zum Netzwerk: Potentiale einer digitalen Scholastik
+            
+            17.11.21 Christoph Hust (Leipzig): Heimcomputer, Spiele und Musik: Fragestellungen und Methoden der Ludomusicology
+            
+            24.11.21 Andreas Haug, Alexander Hartelt (Würzburg) | Hana Vlhova-Wörner, Jan Hajic jr. (Prag): Panel Digitale Edition von Musikhandschriften des Mittelalters
+            
+            01.12.21 Dietmar Kammerer, Mai Matuszkiewicz (Marburg): Medienwissenschaftliche Vernetzung und Plattformen: Vorstellung der Projekts Mediarep
+            
+            08.12.21 Tim Geelhaar (Frankfurt), Michael Schonhardt (Kassel), Achim Rabus (Freiburg): Panel Transkribus im Einsatz für die Forschung. Chancen und Herausforderungen
+            
+            15.12.21 Thorsten Wübbena (Leibniz-Institut): DH Lab IEG - Geisteswissenschaftliche Forschung digital gestalten
+            
+            12.01.22 Holger Simon (Köln): Digitalität in den Gedächtnisinstitutionen. Wandel in Präsentation, Vermittlung und Forschung
+            
+            19.01.22 Angela Schwarz (Siegen): "Sie können jetzt in die Vergangenheit reisen": Assassin's Creed als Geschichtstourismus
+            
+            26.01.22 Sarah Pittroff (Mainz): Die räumliche Kontextualisierung mittelalterlicher Glasmalereien und die Potentiale der interaktiven Darstellung            
+            
+            02.02.22 Thomas Hensel (Pforzheim): Kunstwissenschaft und Game Studies
+            
+            09.02.22 Torsten Schrade (Mainz): NFDI4Culture - Forschungsdatenmanagement, Methodenentwicklung und disziplinenübergreifender Transfer im Bereich materieller und immaterieller Kulturgüter
+            -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+        <event xml:id="ls40" type="lecture-series" where="#saarbruecken #trier">
+          <eventName xml:lang="de">Geisteswissenschaften und Informatik im Dialog. Aktuelle
+            Perspektiven der Digital Humanities</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709001042/https://www.uni-saarland.de/fachrichtung/musikwissenschaft/institut/veranstaltungen.html"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709000134/https://www.uni-saarland.de/fileadmin/upload/fachrichtung/musikwiss/Plan_Ringvorlesung_WS_21-22.pdf"/>
+          <note type="description" xml:lang="de">
+            <p>In Zusammenarbeit mit dem Trier Center for Digital Humanities der Universität Trier
+              bietet die Fachrichtung Musikwissenschaft der Universität des Saarlandes im laufenden
+              Wintersemester eine interdisziplinäre Ringvorlesung an zum Thema
+              „Geisteswissenschaften und Informatik im Dialog. Aktuelle Perspektiven der Digital
+              Humanitities“. Beteiligt sind Geisteswissenschaftler und Informatiker zahlreicher
+              Universitäten und Forschungsinstitute im In- und Ausland, u. a. der International
+              Audio Laboratories Erlangen (Fraunhofer IIS und Universität Erlangen-Nürnberg), der
+              Indiana University in Bloomington und des Deutschen Forschungszentrums für Künstliche
+              Intelligenz (DFKI) in Saarbrücken.</p>
+            <p>Die Ringvorlesung findet im laufenden Wintersemester online statt über „Zoom“,
+              jeweils montags, 18-20 Uhr. Beginn ist am 8. November 2021 um 18 Uhr c. t. mit dem
+              Vortrag von Univ.-Prof. Dr. Christof Schöch (Universität Trier, Trier Center for
+              Digital Humanities) zum Thema „Digital Humanities und/als Open Science“. Christof
+              Schöch ist Romanist, einer der beiden Direktoren des Trier Center for Digital
+              Humanities, Mitglied des NFDI4Culture Steering Board und Präsident des Verbands
+              Digital Humanities im deutschsprachigen Raum.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="ls40_t1">
+            <eventName xml:lang="de">Wintersemester 2021-22</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#schoech_christof #kleinertz_rainer"/>
+          </event>
+        </event>
+
+        <event xml:id="ls41" type="lecture-series" where="#erlangen #nuernberg">
+          <eventName xml:lang="de">Perspektiven der Digitalen Geistes- und
+            Sozialwissenschaften</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709002405/https://www.izdigital.fau.de/perspektiven-der-digitalen-geistes-und-sozialwissenschaften"/>
+          <note type="description" xml:lang="de">
+            <p>„Beginnt endlich die Digitalisierung der Geisteswissenschaften?“ Dieser erst kürzlich
+              in der Süddeutschen Zeitung gestellten Frage ist zu entgegnen, dass der Prozess der
+              Digitalisierung der Geisteswissenschaften ebenso wie der Sozialwissenschaften und
+              Kulturwissenschaften seit den ersten Anfängen in den 1960er Jahren inzwischen so weit
+              fortgeschritten ist, dass daraus ein eigener, neuer Wissenschaftsbereich entstanden
+              ist. Um eine Definition der „Digital Humanities“ wird weltweit in der Scientific
+              Community gerungen; Lehrstühle und Studiengänge haben den Begriff in der universitären
+              Landschaft etabliert. In der Reihe der Vorträge werden verschiedene Positionen und
+              Perspektiven zur Diskussion gestellt und einzelne Projekte aus den Bereichen der
+              digitalen Geistes- und Sozialwissenschaften präsentiert. Die Referentinnen und
+              Referenten geben Einblicke in die Bandbreite der internationalen Forschung und in die
+              aktuellen wissenschaftlichen Diskurse. Mit der international besetzten Ringvorlesung
+              stellt sich das 2014 etablierte Interdisziplinäre Zentrum Digitale Geistes- und
+              Sozialwissenschaften im Wintersemester 14/15 an der FAU und der interessierten
+              Öffentlichkeit vor (www.izdigital.fau.de). Renommierte Expertinnen und Experten werden
+              dabei verschiedene Aspekte und Perspektiven in den beiden zentralen Themenfeldern des
+              neuen interdisziplinären Zentrums zur Diskussion stellen: Welche neuen methodischen
+              Zugänge eröffnen digitale Techniken für Forschung in den Geistes- und
+              Sozialwissenschaften, welche Fragestellungen können damit bearbeitet werden? Was sind
+              die Effekte, Potenziale und Risiken digitaler Techniken in Wissenschaft und
+              Gesellschaft?</p>
+          </note>
+
+          <event type="lecture-series-term" from="2014-11" to="2015-01" xml:id="ls41_t1">
+            <eventName xml:lang="de">Wintersemester 2014-15</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+        <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
+          <eventName xml:lang="en">I2SC Lecture Series</eventName>
+          <note type="description" xml:lang="en">
+            <p>The Interdisciplinary Institute for Societal Computing offers a regular Lecture
+              Series to bring together researchers of different academic fields to analyze and
+              discuss the broad topic of society and technology. The Lecture Series is designed as a
+              laboratory of interdisciplinary research to encourage cooperation and new research
+              approaches. The series will feature a mix of speakers from Computer Science, Social
+              Science, and Digital Humanities.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
+            <eventName xml:lang="en">Summer 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
+            <eventName xml:lang="en">Winter 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
+            <eventName xml:lang="en">Summer 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+        </event>
+
+        <event xml:id="ls45" type="lecture-series" where="#berlin">
+          <eventName xml:lang="de">Digital Humanities: Die digitale Transformation der
+            Geisteswissenschaften</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20210128125418/https://dhd-blog.org/?p=8333"/>
+          <note type="description" xml:lang="de">
+            <p>Die Ringvorlesung „Digital Humanities: Die digitale Transformation der
+              Geisteswissenschaften“ thematisiert die voranschreitende digitale Transformation der
+              Geistes- und Kulturwissenschaften. Digital Humanities ist eine unscharfe
+              Sammelbezeichnung für computergestützte Methoden und Praktiken in den
+              Geisteswissenschaften, die es sowohl ermöglichen, alte Forschungsfragen auf neue Weise
+              zu bearbeiten, als auch neue Ansätze in den Geisteswissenschaften zu verfolgen. Die
+              Ringvorlesung wird einen Überblick über die Digital Humanities geben, im Zentrum
+              werden praxisbezogene Einblicke und nicht die Definitions- und Abgrenzungsdebatten
+              stehen. Über die exemplarischen Einführungen hinaus werden Vorträge der Frage
+              nachgehen, ob und inwiefern die theoretischen und methodischen Konzepte und Praktiken
+              der Digital Humanities einen Paradigmenwechsel, eine qualitative Transformation der
+              Geisteswissenschaften bewirken, die über die Digitalisierung analoger Arbeitsweisen
+              hinausgeht. Oder handelt es sich bei den Digital Humanities um ein modisches,
+              letztlich aber vergängliches Phänomen innerhalb einer zwar zunehmend digitalisierten,
+              im Wesentlichen aber unveränderten geisteswissenschaftlichen Praxis?</p>
+            <p>International renommierte Expertinnen und Experten aus der Kunst- und Bildgeschichte,
+              den Geschichtswissenschaften, der Archäologie, Literaturwissenschaft und
+              Komparatistik, Korpus-Linguistik sowie den Informationswissenschaften werden die
+              Auswirkungen der Digitalisierung auf die Forschungs-, Publikations-, Vermittlungs- und
+              Kommunikationsprozesse ihrer jeweiligen Disziplin thematisieren. Zudem werden die
+              wechselseitigen Implikationen zwischen den digitalen Geisteswissenschaften und der
+              ‚vernetzten Gesellschaft‘ diskutiert.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2017-10" to="2018-02" xml:id="ls45_t1">
+            <eventName xml:lang="de">Wintersemester 2017-18</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#thomas_christian"/>
+          </event>
+        </event>
+
+        <event xml:id="ls46" type="lecture-series" where="#hamburg #leeds">
+          <eventName xml:lang="en">Hamburg-Leeds Lecture Series</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709164519/https://www.gw.uni-hamburg.de/ueber-die-fakultaet/digital-humanities/dh-lab/hamburg-leeds-lecture-series.html"/>
+          <note type="description" xml:lang="en">
+            <p>The lecture series is dedicated to the conditions of accessing, researching and
+              representing cultural artefacts in the course of the latest developments in
+              digitalisation. Through their digitisation, cultural artefacts are becoming more
+              visible and accessible to a wider public. Digitisation also brings with it a drive
+              towards standardisation, which is at odds with the individual characteristics of
+              digitised objects and the individual interests and needs of users. The use of
+              generative AI and Large Language Models (LLMs) offers new possibilities of access and
+              potentially new insights into the structures and mechanisms of objects and related
+              practices, including the affect of users interacting with digital data. At the same
+              time, born digital artefacts such as data on floppy discs, CD ROMs and hard drives are
+              increasingly entering the archives, potentially requiring new research practices.</p>
+            <p>The talks will examine the interactions between users and historical and digital
+              archives from different disciplinary perspectives, particularly with regard to new
+              methods of AI-supported research and representation.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2025-02" to="2025-04" xml:id="ls46_t1">
+            <eventName>2025</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
+          </event>
+        </event>
+
+        <event xml:id="ls47" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">TCDH-Forschungskolloquiums</eventName>
+
+          <event type="lecture-series-term" from="2021-10" to="2022-01" xml:id="ls47_t1">
+            <eventName>Wintersemester 2021-22</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-04" to="2022-07" xml:id="ls47_t2">
+            <eventName>Sommersemester 2022</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2022-23 -->
+          <!-- There is no summer semester 2023 -->
+          <!-- There is no winter semester 2023-24 -->
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls47_t3">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2024-25 -->
+          <event type="lecture-series-term" from="2025-02" to="2025-07" xml:id="ls47_t4">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+        </event>
+
         <!-- ##### Austria ##### -->
         <event xml:id="ls22" type="lecture-series" where="#wien">
           <eventName xml:lang="en">The Digital Humanities Guest Lecture Series / Introduction to
@@ -41546,6 +43994,460 @@
             <org role="organizer" corresp="#woldrich_anna"/>
           </event>
         </event>
+
+        <event xml:id="ls42" type="lecture-series" where="#salzburg">
+          <eventName xml:lang="de">Dazzling Data: Digital Humanities in der Mediävistik und
+            Frühneuzeitforschung</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250629151629/https://izmf-salzburg.at/2023/09/12/ringvorlesung-2023-24-dazzling-data/"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250629151638/https://izmf-salzburg.at/wp-content/uploads/2023/09/Dazzling-Data_GS.pdf"/>
+          <note type="description" xml:lang="de">
+            <p>Die Fächer, die sich mit der Erforschung des Mittelalters und der Frühen Neuzeit
+              beschäftigen, entwickelten früh ein Interesse an der Anwendung von Methoden der
+              Digital Humanities (DH). Sie haben maßgeblich zur Formierung der Digital Humanities
+              als Wissenschaftssparte beigetragen und können heute auf eine breite DH-Expertise und
+              auf große und komplexe Datenschätze bauen.</p>
+            <p>In den letzten Jahren sind viele neue Fragestellungen und Arbeitsweisen für Quellen
+              und Gegenstände des Mittelalters und der Frühen Neuzeit in diesem Bereich
+              hinzugekommen – Zeit, einige davon im Rahmen einer Ringvorlesung vorzustellen: Die
+              Studierenden erfahren, wie DH-Methoden angewandt werden und welche Möglichkeiten sie
+              aus disziplinärer oder interdisziplinärer Perspektive bieten. Darüber hinaus wird
+              gezeigt, wie DH-Zugriffe für die Analyse unterschiedlicher Quellentypen (Bilder,
+              literarische und historische Textquellen, Objekte, historische Karten, archäologische
+              Prospektionsdaten, Musikalien etc.) verwendet werden.</p>
+            <p>Das Spektrum reicht dabei vom Einsatz sog. Künstlicher Intelligenz, Natural Language
+              Processing, Distant Viewing, DNA-Sequenzierung und Netzwerkanalyse bis hin zum
+              Digitalen Editieren und Annotieren. Auch das Arbeiten mit digitalen 3D-Modellen und
+              GIS-basierten Analysen sowie Ansätze aus den Game Studies und den Citizen Sciences
+              werden in den Fokus gerückt.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2023-10" to="2024-01" xml:id="ls42_t1">
+            <eventName xml:lang="de">Wintersemester 2023-2024</eventName>
+            <ptr type="video" target="https://unitv.org/beitrag.asp?ID=1161"/>
+
+            <event type="lecture" when="2023-10-02" xml:id="ls42_t1_l1">
+              <eventName xml:lang="de">Einführung: Dazzling Data – Digital Humanities in der
+                Mediävistik und Frühneuzeitforschung</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nicka_isabella">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+                <person role="speaker" corresp="#zeppezauer-wachauer_katharina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+                <person role="speaker" corresp="#faerberboeck_peter">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-10-09" xml:id="ls42_t1_l2">
+              <eventName xml:lang="de">Sieben Dinge Mariens. Object Detection und kunsthistorische
+                Realienkunde</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bell_peter">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-marburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-10-16" xml:id="ls42_t1_l3">
+              <eventName xml:lang="de">Offene Forschungsstrategien. (Geisteswissenschaftliche)
+                Forschung für die und mit der Öffentlichkeit</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ernst_marlene">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#archive-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-10-23" xml:id="ls42_t1_l4">
+              <eventName xml:lang="de">Interoperabilität von Text und Bild in der digitalen Edition
+                der Wenzelsbibel</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#beutel-thurow_linda">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#hintersteiner_julia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-10-30" xml:id="ls42_t1_l5">
+              <eventName xml:lang="de">HTR, TEI, DNA &amp; NLP: Frühmittelalterliche Handschriften,
+                ihr Paratext und die Digital Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bauer_bernhard">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-graz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-11-06" xml:id="ls42_t1_l6">
+              <eventName xml:lang="de">Digitale Transformation frühneuzeitlicher Memento
+                mori-Literatur: Herausforderungen und Potenziale</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#resch_claudia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#acdh-ch"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-11-13" xml:id="ls42_t1_l7">
+              <eventName xml:lang="de">Burgen digital erschließen – Projekte Hohensalzburg digital
+                und Inventaria</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#matschinegg_ingrid">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#zedlacher_stefan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#brandstaetter_walter">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#tangerner_elisabeth">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#gruber-tokic_elisabeth">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-innsbruck"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-11-20" xml:id="ls42_t1_l8">
+              <eventName xml:lang="de">Transkriptionsdatenbank zum Codex Manesse (Große Heidelberger
+                Liederhandschrift, cpg 848)</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bleuler_anna-kathrin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-augsburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-11-27" xml:id="ls42_t1_l9">
+              <eventName xml:lang="de">Distant Viewing. Darstellungen von Material in
+                mittelalterlicher Malerei mit Digital Humanities- und Computer Vision-Methoden
+                untersuchen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nicka_isabella">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#landkammer_miriam">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#uhl_andreas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#linortner_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-12-04" xml:id="ls42_t1_l10">
+              <eventName xml:lang="de">Integrierte GIS-basierte Analyse mittelalterlicher und
+                frühneuzeitlicher Landschaften anhand archäologischer Prospektionsdaten und
+                digitalisierter historischer Karten</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#filzwieser_roland">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wien"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2023-12-11" xml:id="ls42_t1_l11">
+              <eventName xml:lang="de">DH Anwendungsbeispiele aus der mediävistischen
+                Musikwissenschaft</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klugseder_robert">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#acdh-ch"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2024-01-08" xml:id="ls42_t1_l12">
+              <eventName xml:lang="de">Unsere Pferde galoppieren digital: DH im interdisziplinären
+                Projekt zum Wissenstransfer in mittelalterlicher Pferdemedizin „Meeting in the body
+                of the horse“</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dum-tragut_jasmine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#yavrumyan_marat">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2024-01-15" xml:id="ls42_t1_l13">
+              <eventName xml:lang="de">Musikalische Frühdrucke und geborgte Melodien</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lindmayr-brandl_andrea">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#bosi_carlo">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2024-01-22" xml:id="ls42_t1_l14">
+              <eventName xml:lang="de">Telespiele, Mobile Games und Open World – Game Studies in den
+                Digital Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#brandenburg_aurelia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#fh-bern"/>
+                </person>
+                <person role="speaker" corresp="#faerberboeck_peter">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <event type="lecture" when="2024-01-29" xml:id="ls42_t1_l15">
+              <eventName xml:lang="de">Mittelhochdeutsche Begriffsdatenbank Reloaded</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zeppezauer-wachauer_katharina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+                <person role="speaker" corresp="#van-beek_alan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-salzburg"/>
+            </event>
+
+            <org role="organizer"
+              corresp="#nicka_isabella #zeppezauer-wachauer_katharina #faerberboeck_peter"/>
+          </event>
+
+        </event>
+
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
@@ -43612,6 +46514,205 @@
             <org role="organizer" corresp="#burkart_lucas #fornaro_peter"/>
           </event>
         </event>
+
+        <event xml:id="ls43" type="lecture-series" where="#lausanne">
+          <eventName xml:lang="fr">Séminaires DH</eventName>
+          <eventName xml:lang="en">DH Lecture Series</eventName>
+
+          <event type="lecture-series-term" from="2015-06" to="2015-12" xml:id="ls43_t1">
+            <eventName>2015</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
+
+            <event type="lecture" when="2015-06-04" xml:id="ls43_t1_l1">
+              <eventName xml:lang="en">Mirador: Medieval Manuscripts (and Much More) in a New
+                Light</eventName>
+              <ptr type="programme" target="..."/>
+              <ptr type="video" target="..."/>
+              <note type="abstract" xml:lang="en">
+                <p>In collaboration with the Stanford University Library, Harvard University
+                  (represented by the University Library, HarvardX, and the Committee for the
+                  Digital Humanities) have for the last two years been working to develop a new
+                  IIIF-compliant image viewer (called Mirador) designed, above all else, to
+                  facilitate the study of medieval manuscripts.</p>
+                <p>In addition to introducing and demonstrating Mirador in its latest incarnation,
+                  the presentation will sketch six case studies designed to text and expand
+                  Mirador’s functionality in relation to current scholarly and pedagogic
+                  requirements. The presentation will also discuss the potential of the program to
+                  aid in research on illuminated manuscripts, the speaker’s special area of
+                  interest, with a focus on a little-known group of liturgical manuscripts from the
+                  Dominican convent, Paradies bei Soest, dating to the period 1300–1425.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hamburger_jeffrey">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-harvard"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <!-- 2015-11-15 -->
+            <!-- 2015-12-15 -->
+            <!-- 2015-12-17 -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2016-01" to="2016-07" xml:id="ls43_t2">
+            <eventName>2016</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
+
+            <!-- 2016-01-13 -->
+            <!-- 2016-01-14 -->
+            <!-- 2016-01-20 -->
+            <!-- 2016-01-26 -->
+            <!-- 2016-01-28 -->
+            <!-- 2016-03-01 https://mediaspace.epfl.ch/media/0_qa1vbvxx -->
+            <!-- 2016-05-17 https://mediaspace.epfl.ch/media/0_t57uou80 -->
+            <!-- 2016-07-01 https://mediaspace.epfl.ch/media/0_oscv2r03 -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2017-11" to="2017-12" xml:id="ls43_t3">
+            <eventName>2017</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
+
+            <!-- 2017-11-13 https://mediaspace.epfl.ch/media/0_mi9ipd4p -->
+            <!-- 2017-12-04 https://mediaspace.epfl.ch/media/0_c5jz5qvc -->
+            <!-- 2017-12-15 https://mediaspace.epfl.ch/media/0_n9vr4x8i -->
+            <!-- 2017-12-18 -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2018-10" to="2018-12" xml:id="ls43_t4">
+            <eventName>2018</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626094936/https://www.epfl.ch/schools/cdh/dh-events-2018/"/>
+
+            <!-- 2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx  |   https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/ -->
+            <!-- 2018-10-11 https://mediaspace.epfl.ch/media/0_jt5lo1yk  |   https://web.archive.org/web/20250626094305/https://www.epfl.ch/schools/cdh/dh-lecture-series-sequential-pattern-mining-for-robust-event-detection/ -->
+            <!-- 2018-10-24 https://web.archive.org/web/20250626094353/https://www.epfl.ch/schools/cdh/the-question-of-why-on-the-notions-of-explanation-in-the-dh/ -->
+            <!-- 2018-11-07 https://mediaspace.epfl.ch/media/0_zzxziysy  |   https://web.archive.org/web/20250626094504/https://www.epfl.ch/schools/cdh/sciences-and-technologies-studies-from-case-studies-to-commensurable-data-extending-the-topofil-of-boa-vista-b-latour/ -->
+            <!-- 2018-11-21 https://web.archive.org/web/20250626094545/https://www.epfl.ch/schools/cdh/why-theories-of-aesthetics-matter-in-the-dh/ -->
+            <!-- 2018-11-29 https://mediaspace.epfl.ch/media/0_m2h9n71n  |   https://web.archive.org/web/20250626094843/https://www.epfl.ch/schools/cdh/design-et-humanites-numeriques/ -->
+            <!-- 2018-12-05 https://mediaspace.epfl.ch/media/0_cq0so9aw  |   https://web.archive.org/web/20250626094925/https://www.epfl.ch/schools/cdh/problems-with-data-assumptions-biases-and-more/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2019-02" to="2019-12" xml:id="ls43_t5">
+            <eventName>2019</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626101322/https://www.epfl.ch/schools/cdh/dh-events-2019/"/>
+
+            <!-- 2019-02-19 https://mediaspace.epfl.ch/media/0_9w1zmqbs  |  https://web.archive.org/web/20250626135104/https://www.epfl.ch/schools/cdh/network-inference-from-textual-evidence-information-propagation-translation-and-multi-input-attention/ -->
+
+            <!-- 2019-03-06 https://mediaspace.epfl.ch/media/0_rdepbplf  |  https://web.archive.org/web/20250626134950/https://www.epfl.ch/schools/cdh/digital-humanities-at-scale-2012-2032/ -->
+            <!-- 2019-03-20 https://mediaspace.epfl.ch/media/0_3s3l3c0j  |  https://web.archive.org/web/20250626134920/https://www.epfl.ch/schools/cdh/observational-studies/ -->
+
+            <!-- 2019-04-03 https://mediaspace.epfl.ch/media/0_9fneagxl  |  https://web.archive.org/web/20250626135030/https://www.epfl.ch/schools/cdh/towards-interpretable-deep-visual-recognition-2/ -->
+            <!-- 2019-04-17 https://web.archive.org/web/20250626135239/https://www.epfl.ch/schools/cdh/encoding-embodied-acts-technologies-of-corporeality/ -->
+            <!-- 2019-04-25 https://tube.switch.ch/cast/embed/9373278d-a1ba-46d6-8333-a9e268c45f08  |  https://web.archive.org/web/20250626135327/https://www.epfl.ch/schools/cdh/comics-analysis-and-indexing/ -->
+
+            <!-- 2019-05-01 https://web.archive.org/web/20250626135501/https://www.epfl.ch/schools/cdh/dh-and-ways-of-knowing/ -->
+            <!-- 2019-05-29 https://web.archive.org/web/20250626135918/https://www.epfl.ch/schools/cdh/what-a-historian-wants-from-digital-humanities/ -->
+
+            <!-- 2019-09-18 https://web.archive.org/web/20250626135632/https://memento.epfl.ch/event/what-can-a-historian-expect-of-digital-humanities-/ -->
+
+            <!-- 2019-10-29 https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/ -->
+
+            <!-- 2019-09-20 https://web.archive.org/web/20250626135917/https://memento.epfl.ch/event/kepler-concordia-playing-solar-systems-as-musical-/ -->
+
+            <!-- 2019-10-29 https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/ -->
+
+            <!-- 2019-11-13 https://web.archive.org/web/20250626135825/https://memento.epfl.ch/event/the-digital-turn-in-historical-sociolinguistics-ta/ -->
+            <!-- 2019-11-19 https://web.archive.org/web/20250626135606/https://memento.epfl.ch/event/networks-the-digital-humanities-and-everything-tal/ -->
+
+            <!-- 2019-12-04 https://web.archive.org/web/20250626135710/https://memento.epfl.ch/event/ai-for-humans-a-personal-agenda-talk-by-prof-pasca/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2020-01" to="2018-11" xml:id="ls43_t6">
+            <eventName>2020</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626121810/https://www.epfl.ch/schools/cdh/dh-events-2020/"/>
+
+            <!-- 2020-01-13 https://web.archive.org/web/20250626132121/https://memento.epfl.ch/event/looking-beyond-the-staff-lines-and-listening-behin/ -->
+
+            <!-- 2020-10-07 https://mediaspace.epfl.ch/media/0_tp3btwgh  |  https://web.archive.org/web/20250626132148/https://memento.epfl.ch/event/reading-with-machines-reading-and-writing-in-the-d/ -->
+
+            <!-- 2020-11-04 https://mediaspace.epfl.ch/media/0_5sjdfp3t  |  https://web.archive.org/web/20250626132349/https://memento.epfl.ch/event/from-digital-humanities-to-game-studies-talk-by-dr/ -->
+
+            <!-- 2020-11-18 https://web.archive.org/web/20250626122636/https://memento.epfl.ch/event/quantitative-approaches-to-historical-texts-should/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2021-02" to="2021-10" xml:id="ls43_t7">
+            <eventName>2021</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626124243/https://www.epfl.ch/schools/cdh/dh-events-2021/"/>
+
+            <!-- 2021-02-10 https://mediaspace.epfl.ch/media/0_n5tsll3a  |  https://web.archive.org/web/20250626133536/https://memento.epfl.ch/event/comparative-musicology-the-science-of-the-worlds-m/ -->
+
+            <!-- 2021-02-24 https://web.archive.org/web/20250626133514/https://memento.epfl.ch/event/dating-sites-as-observations-sites-what-we-can-lea/ -->
+
+            <!-- 2021-03-17 https://web.archive.org/web/20250626133729/https://memento.epfl.ch/event/dh-research-seminar-by-nicolas-henchoz-director-ep/ -->
+
+            <!-- 2021-04-14 https://mediaspace.epfl.ch/media/0_b0b9lnb5 -->
+
+            <!-- 2021-05-19 https://mediaspace.epfl.ch/media/0_3hmxzaqc  |  https://web.archive.org/web/20250626133846/https://memento.epfl.ch/event/dh-research-seminar-by-nora-al-badri/ -->
+
+            <!-- 2021-05-12 https://mediaspace.epfl.ch/media/0_m9fze8d8  |  https://web.archive.org/web/20250626134112/https://memento.epfl.ch/event/dh-research-seminar-by-dr-johan-rochel/ -->
+
+            <!-- 2021-10-07 https://web.archive.org/web/20250626133931/https://memento.epfl.ch/event/dh-research-seminar-par-marcello-ienca-phd/ -->
+
+            <org role="organizer" corresp="#collins_kathleen"/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-12" to="2022-12" xml:id="ls43_t8">
+            <eventName>2022</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626124551/https://www.epfl.ch/schools/cdh/dh-seminars-2022-2/"/>
+
+            <!-- 2022-12-14 https://web.archive.org/web/20250626134501/https://memento.epfl.ch/event/dh-seminar-mates-vs-cavell-redux-or-when-do-you-ne/ -->
+
+            <!-- 2022-12-19 https://web.archive.org/web/20250626134415/https://memento.epfl.ch/event/dh-seminar-automatic-analysis-automatic-compositio/ -->
+
+            <org role="organizer" corresp="#hentschel_johannes"/>
+          </event>
+
+          <event type="lecture-series-term" from="2023-04" to="2023-11" xml:id="ls43_t9">
+            <eventName>2023</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
+
+            <!-- 2023-04-26 https://web.archive.org/web/20250626134653/https://memento.epfl.ch/event/dh-seminar-charlie-parker-composer-highlights-an-2/ -->
+
+            <!-- 2023-04-28 https://web.archive.org/web/20250626134750/https://memento.epfl.ch/event/dh-seminar-modernism-jazz-counterpoint-a-henry-m-2/ -->
+
+            <!-- 2023-11-27 https://web.archive.org/web/20250626134704/https://memento.epfl.ch/event/between-justice-seeking-and-entertainment-digita-2/ -->
+
+            <org role="organizer" corresp="#rammos_yannis"/>
+          </event>
+
+        </event>
+
         <!-- ##### Belgium ##### -->
         <event xml:id="ls26" type="lecture-series" where="#antwerpen">
           <eventName xml:lang="en">Platform{DH} Lecture Series / platform{talks}</eventName>
