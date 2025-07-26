@@ -2063,6 +2063,14 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="roy_dibyadyuti">
+            <name>
+              <forename>Roy</forename>
+              <surname>Dibyadyuti</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130919176</idno>
+          </person>
           <person xml:id="kleinertz_rainer">
             <name>
               <forename>Rainer</forename>
@@ -11589,6 +11597,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007168</idno>
           </place>
           <!-- ######## UK cities ######## -->
+          <place type="city" xml:id="leeds">
+            <country corresp="#uk"/>
+            <name>Leeds</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7010442</idno>
+          </place>
           <place type="city" xml:id="edinburgh">
             <country corresp="#uk"/>
             <name>Edinburgh</name>
@@ -41370,6 +41383,118 @@
 
             <org role="organizer" corresp="..."/>
           </event>
+        </event>
+
+        <event xml:id="ls45" type="lecture-series" where="#berlin">
+          <eventName xml:lang="de">Digital Humanities: Die digitale Transformation der
+            Geisteswissenschaften</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20210128125418/https://dhd-blog.org/?p=8333"/>
+          <note type="description" xml:lang="de">
+            <p>Die Ringvorlesung „Digital Humanities: Die digitale Transformation der
+              Geisteswissenschaften“ thematisiert die voranschreitende digitale Transformation der
+              Geistes- und Kulturwissenschaften. Digital Humanities ist eine unscharfe
+              Sammelbezeichnung für computergestützte Methoden und Praktiken in den
+              Geisteswissenschaften, die es sowohl ermöglichen, alte Forschungsfragen auf neue Weise
+              zu bearbeiten, als auch neue Ansätze in den Geisteswissenschaften zu verfolgen. Die
+              Ringvorlesung wird einen Überblick über die Digital Humanities geben, im Zentrum
+              werden praxisbezogene Einblicke und nicht die Definitions- und Abgrenzungsdebatten
+              stehen. Über die exemplarischen Einführungen hinaus werden Vorträge der Frage
+              nachgehen, ob und inwiefern die theoretischen und methodischen Konzepte und Praktiken
+              der Digital Humanities einen Paradigmenwechsel, eine qualitative Transformation der
+              Geisteswissenschaften bewirken, die über die Digitalisierung analoger Arbeitsweisen
+              hinausgeht. Oder handelt es sich bei den Digital Humanities um ein modisches,
+              letztlich aber vergängliches Phänomen innerhalb einer zwar zunehmend digitalisierten,
+              im Wesentlichen aber unveränderten geisteswissenschaftlichen Praxis?</p>
+            <p>International renommierte Expertinnen und Experten aus der Kunst- und Bildgeschichte,
+              den Geschichtswissenschaften, der Archäologie, Literaturwissenschaft und
+              Komparatistik, Korpus-Linguistik sowie den Informationswissenschaften werden die
+              Auswirkungen der Digitalisierung auf die Forschungs-, Publikations-, Vermittlungs- und
+              Kommunikationsprozesse ihrer jeweiligen Disziplin thematisieren. Zudem werden die
+              wechselseitigen Implikationen zwischen den digitalen Geisteswissenschaften und der
+              ‚vernetzten Gesellschaft‘ diskutiert.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2017-10" to="2018-02" xml:id="ls45_t1">
+            <eventName xml:lang="de">Wintersemester 2017-18</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#thomas_christian"/>
+          </event>
+        </event>
+
+        <event xml:id="ls46" type="lecture-series" where="#hamburg #leeds">
+          <eventName xml:lang="en">Hamburg-Leeds Lecture Series</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709164519/https://www.gw.uni-hamburg.de/ueber-die-fakultaet/digital-humanities/dh-lab/hamburg-leeds-lecture-series.html"/>
+          <note type="description" xml:lang="en">
+            <p>The lecture series is dedicated to the conditions of accessing, researching and
+              representing cultural artefacts in the course of the latest developments in
+              digitalisation. Through their digitisation, cultural artefacts are becoming more
+              visible and accessible to a wider public. Digitisation also brings with it a drive
+              towards standardisation, which is at odds with the individual characteristics of
+              digitised objects and the individual interests and needs of users. The use of
+              generative AI and Large Language Models (LLMs) offers new possibilities of access and
+              potentially new insights into the structures and mechanisms of objects and related
+              practices, including the affect of users interacting with digital data. At the same
+              time, born digital artefacts such as data on floppy discs, CD ROMs and hard drives are
+              increasingly entering the archives, potentially requiring new research practices.</p>
+            <p>The talks will examine the interactions between users and historical and digital
+              archives from different disciplinary perspectives, particularly with regard to new
+              methods of AI-supported research and representation.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2025-02" to="2025-04" xml:id="ls46_t1">
+            <eventName>2025</eventName>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
+          </event>
+        </event>
+
+        <event xml:id="ls47" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">TCDH-Forschungskolloquiums</eventName>
+
+          <event type="lecture-series-term" from="2021-10" to="2022-01" xml:id="ls47_t1">
+            <eventName>Wintersemester 2021-22</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-04" to="2022-07" xml:id="ls47_t2">
+            <eventName>Sommersemester 2022</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2022-23 -->
+          <!-- There is no summer semester 2023 -->
+          <!-- There is no winter semester 2023-24 -->
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls47_t3">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2024-25 -->
+          <event type="lecture-series-term" from="2025-02" to="2025-07" xml:id="ls47_t4">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
         </event>
 
         <!-- ##### Austria ##### -->
