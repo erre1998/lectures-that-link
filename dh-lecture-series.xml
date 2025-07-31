@@ -9,17 +9,17 @@
         <editor>
           <surname>Henny-Krahmer</surname>
           <forename>Ulrike</forename>
-          <idno type="ORCID">0000-0003-2852-065X</idno>
+          <idno type="orcid">https://orcid.org/0000-0003-2852-065X</idno>
         </editor>
         <editor>
           <surname>Alvares Freire</surname>
           <forename>Fernanda</forename>
-          <idno type="ORCID">0000-0002-6414-5212</idno>
+          <idno type="orcid">https://orcid.org/0000-0002-6414-5212</idno>
         </editor>
         <editor>
           <surname>Renz</surname>
           <forename>Erik</forename>
-          <idno type="ORCID">0009-0005-8288-7470</idno>
+          <idno type="orcid">https://orcid.org/0009-0005-8288-7470</idno>
         </editor>
         <respStmt>
           <resp>contributor</resp>
@@ -203,23 +203,48 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
-          <org xml:id="fh-cbs" type="university">
+          <org xml:id="uni-siegen" type="university">
+            <name xml:lang="de">Universität Siegen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q504723</idno>
+            <place corresp="#siegen"/>
+          </org>
+          <org xml:id="uni-indiana" type="university">
+            <name xml:lang="en">Indiana University, Bloomington</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1079140</idno>
+            <place corresp="#bloomington"/>
+          </org>
+          <org xml:id="uni-detmold" type="university">
+            <name xml:lang="de">Hochschule für Musik Detmold</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q317855</idno>
+            <place corresp="#detmold"/>
+          </org>
+          <org xml:id="uni-pforzheim" type="university">
+            <name xml:lang="en">Pforzheim University of Applied Sciences</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q884358</idno>
+            <place corresp="#pforzheim"/>
+          </org>
+          <org xml:id="uni-saarland" type="university">
+            <name xml:lang="de">Universität des Saarlandes</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q700758</idno>
+            <place corresp="#saarbruecken"/>
+          </org>
+          <org xml:id="uni-cbs" type="university">
             <name xml:lang="en">Copenhagen Business School</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q703620</idno>
             <place corresp="#copenhagen"/>
           </org>
-          <org xml:id="fh-enpc" type="university">
+          <org xml:id="uni-enpc" type="university">
             <name xml:lang="fr">École nationale des ponts et chaussées</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q273523</idno>
             <place corresp="#champs-sur-marne"/>
           </org>
-          <org xml:id="fh-fom" type="university">
+          <org xml:id="uni-fom" type="university">
             <name xml:lang="de">FOM Hochschule für Oekonomie &amp; Management</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55156</idno>
             <place corresp="#essen"/>
           </org>
-          <org xml:id="fh-bern" type="university">
-            <name xml:lang="de">Hochschule der Künste Bern</name>
+          <org xml:id="uni-bern-hkb" type="university">
+            <name xml:lang="de">Hochschule der Künste Bern (HKB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622152</idno>
             <place corresp="#bern"/>
           </org>
@@ -318,7 +343,7 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q45855</idno>
             <place corresp="#bergamo"/>
           </org>
-          <org xml:id="fh-koeln" type="university">
+          <org xml:id="uni-koeln-th" type="university">
             <name xml:lang="de">Technische Hochschule Köln</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q54166</idno>
             <place corresp="#koeln"/>
@@ -488,12 +513,12 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q157575</idno>
             <place corresp="#strasbourg"/>
           </org>
-          <org xml:id="fh-graubuenden" type="university">
-            <name xml:lang="de">Fachhochschule Graubünden</name>
+          <org xml:id="uni-fhgr" type="university">
+            <name xml:lang="de">Fachhochschule Graubünden (FHGR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622220</idno>
             <place corresp="#chur"/>
           </org>
-          <org xml:id="fh-zuerich" type="university">
+          <org xml:id="uni-zhdk" type="university">
             <name xml:lang="de">Zürcher Hochschule der Künste (ZHdK)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q222450</idno>
             <place corresp="#zuerich"/>
@@ -591,7 +616,7 @@
           <org xml:id="uni-karlova" type="university">
             <name xml:lang="cs">Univerzita Karlova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q31519</idno>
-            <place corresp="#karlova"/>
+            <place corresp="#prague #pilsen #hradec-kralove"/>
           </org>
           <org xml:id="uni-sun-yat-sen" type="university">
             <name xml:lang="en">Sun Yat-sen University</name>
@@ -638,7 +663,7 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q262760</idno>
             <place corresp="#lausanne"/>
           </org>
-          <org xml:id="uni-epfl-lausanne" type="university">
+          <org xml:id="uni-lausanne-epfl" type="university">
             <name xml:lang="fr">École polytechnique fédérale de Lausanne (EPFL)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q262760</idno>
             <place corresp="#lausanne"/>
@@ -693,15 +718,20 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153012</idno>
             <place corresp="#potsdam"/>
           </org>
-          <org xml:id="fh-potsdam" type="university">
-            <name xml:lang="de">Fachhochschule Potsdam</name>
+          <org xml:id="uni-potsdam-fhp" type="university">
+            <name xml:lang="en">Fachhochschule Potsdam (FHP)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q896706</idno>
             <place corresp="#potsdam"/>
           </org>
-          <org xml:id="fh-mainz" type="university">
-            <name xml:lang="de">Hochschule Mainz</name>
+          <org xml:id="uni-mainz-haw" type="university">
+            <name xml:lang="en">Mainz University of Applied Sciences</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q459724</idno>
             <place corresp="#mainz"/>
+          </org>
+          <org xml:id="uni-berlin-udk" type="university">
+            <name xml:lang="de">Universität der Künste Berlin</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55038</idno>
+            <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-tu" type="university">
             <name xml:lang="de">Technische Universität Berlin</name>
@@ -718,13 +748,13 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153006</idno>
             <place corresp="#berlin"/>
           </org>
-          <org xml:id="uni-ipu-berlin" type="university">
+          <org xml:id="uni-berlin-ipu" type="university">
             <name xml:lang="en">International Psychoanalytic University Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1666832</idno>
             <place corresp="#berlin"/>
           </org>
-          <org xml:id="fh-bht" type="university">
-            <name xml:lang="de">Berliner Hochschule für Technik (BHT)</name>
+          <org xml:id="uni-berlin-bht" type="university">
+            <name xml:lang="en">University of Applied Sciences Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q851413</idno>
             <place corresp="#berlin"/>
           </org>
@@ -818,18 +848,18 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1141452</idno>
             <place corresp="#sydney"/>
           </org>
-          <org xml:id="fh-erfurt" type="university">
-            <name xml:lang="de">Fachhochschule Erfurt</name>
+          <org xml:id="uni-erfurt-fhe" type="university">
+            <name xml:lang="en">University of Applied Sciences Erfurt</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1391189</idno>
             <place corresp="#erfurt"/>
           </org>
-          <org xml:id="fh-heidelberg" type="university">
-            <name xml:lang="de">Hochschule Heidelberg</name>
+          <org xml:id="uni-heidelberg-srh" type="university">
+            <name xml:lang="de">SRH Hochschule Heidelberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2207707</idno>
             <place corresp="#heidelberg"/>
           </org>
-          <org xml:id="fh-wismar" type="university">
-            <name xml:lang="de">Fachhochschule Wismar</name>
+          <org xml:id="uni-wismar" type="university">
+            <name xml:lang="en">Wismar University of Applied Sciences</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q883036</idno>
             <place corresp="#wismar"/>
           </org>
@@ -911,6 +941,11 @@
           <org xml:id="uni-leipzig" type="university">
             <name xml:lang="de">Universität Leipzig</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q154804</idno>
+            <place corresp="#leipzig"/>
+          </org>
+          <org xml:id="uni-leipzig-hmt" type="university">
+            <name xml:lang="de">Hochschule für Musik und Theater Leipzig</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q312578</idno>
             <place corresp="#leipzig"/>
           </org>
           <org xml:id="uni-lissabon" type="university">
@@ -1258,7 +1293,7 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q945876</idno>
             <place corresp="#grenoble"/>
           </org>
-          <org xml:id="fh-nordwestschweiz" type="university">
+          <org xml:id="uni-nordwestschweiz" type="university">
             <name xml:lang="de">Fachhochschule Nordwestschweiz (FHNW)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q693069</idno>
             <place corresp="#windisch #muttenz #muenchenstein #solothurn #olten"/>
@@ -1291,7 +1326,7 @@
           <org xml:id="uni-sao-paolo" type="university">
             <name xml:lang="pt">Universidade de São Paulo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q835960</idno>
-            <place corresp="#são-paolo"/>
+            <place corresp="#sao-paolo"/>
           </org>
           <org xml:id="uni-turku" type="university">
             <name xml:lang="en">University of Turku</name>
@@ -1368,7 +1403,7 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1161297</idno>
             <place corresp="#brighton-and-hove"/>
           </org>
-          <org xml:id="fh-boras" type="university">
+          <org xml:id="uni-boras" type="university">
             <name xml:lang="sv">Högskolan i Borås</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622088</idno>
             <place corresp="#boras"/>
@@ -1429,6 +1464,16 @@
             <place corresp="#cambridge-us"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="cas" type="research_institution">
+            <name xml:lang="cs">Akademie věd České republiky</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q97040206</idno>
+            <place corresp="#prague"/>
+          </org>
+          <org xml:id="audiolabs" type="research_institution">
+            <name xml:lang="en">International Audio Laboratories Erlangen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q97040206</idno>
+            <place corresp="#erlangen"/>
+          </org>
           <org xml:id="observatoire-de-paris" type="research_institution">
             <name xml:lang="fr">Observatoire de Paris</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q461340</idno>
@@ -1706,6 +1751,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1452008</idno>
             <place corresp="#darmstadt"/>
           </org>
+          <org xml:id="fraunhofer-iis" type="research_institution">
+            <name xml:lang="de">Fraunhofer-Institut für Integrierte Schaltungen (IIS)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q835535</idno>
+            <place corresp="#erlangen"/>
+          </org>
           <org xml:id="zi-muenchen" type="research_institution">
             <name xml:lang="de">Zentralinstitut für Kunstgeschichte (ZI München)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q190617</idno>
@@ -1919,6 +1969,31 @@
             <place corresp="#gothenburg"/>
           </org>
           <!-- ####### Other ####### -->
+          <org xml:id="nfdi4culture" type="other">
+            <name xml:lang="en">NFDI4Culture</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q98276929</idno>
+            <place corresp="#mainz"/>
+          </org>
+          <org xml:id="nfdi4memory" type="other">
+            <name xml:lang="en">NFDI4Memory</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q98231721</idno>
+            <place corresp="#mainz"/>
+          </org>
+          <org xml:id="nfdi4objects" type="other">
+            <name xml:lang="en">NFDI4Objects</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q98229157</idno>
+            <place corresp="#mainz"/>
+          </org>
+          <org xml:id="textplus" type="other">
+            <name xml:lang="en">Text+</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q98271443</idno>
+            <place corresp="#mannheim"/>
+          </org>
+          <org xml:id="beethovenhaus-bonn" type="other">
+            <name xml:lang="de">Beethoven-Haus Bonn</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q318084</idno>
+            <place corresp="#bonn"/>
+          </org>
           <org xml:id="koninklijk-conservatorium-antwerpen" type="other">
             <name xml:lang="nl">Koninklijk Conservatorium Antwerpen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2665388</idno>
@@ -2099,12 +2174,259 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="hajic-jr_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Hajic jr.</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9207-567X</idno>
+          </person>
+          <person xml:id="vlhova-woerner_hana">
+            <name>
+              <forename>Hana</forename>
+              <surname>Vlhová-Wörner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4947-275X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95086826</idno>
+          </person>
+          <person xml:id="gotham_mark">
+            <name>
+              <forename>Mark</forename>
+              <surname>Gotham</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0722-3074</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130837345</idno>
+          </person>
+          <person xml:id="weiss_christof">
+            <name>
+              <forename>Christof</forename>
+              <surname>Weiß</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2143-4679</idno>
+          </person>
+          <person xml:id="siegert_christine">
+            <name>
+              <forename>Christine</forename>
+              <surname>Siegert</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0293-0258</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95204824</idno>
+          </person>
+          <person xml:id="burch_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Burch</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8050-1475</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q102237826</idno>
+          </person>
+          <person xml:id="saccomano_mark">
+            <name>
+              <forename>Mark</forename>
+              <surname>Saccomano</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4635-7684</idno>
+          </person>
+          <person xml:id="mueller_meinard">
+            <name>
+              <forename>Meinard</forename>
+              <surname>Müller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6062-7524</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q67433457</idno>
+          </person>
+          <person xml:id="klinke_harald">
+            <name>
+              <forename>Harald</forename>
+              <surname>Klinke</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8603-5105</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107378580</idno>
+          </person>
+          <person xml:id="zemanek_evi">
+            <name>
+              <forename>Evi</forename>
+              <surname>Zemanek</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8707-3880</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30090275</idno>
+          </person>
+          <person xml:id="ditfurth_julia-von">
+            <name>
+              <forename>Julia</forename>
+              <nameLink>von</nameLink>
+              <surname>Ditfurth</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-9811-8040</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107300474</idno>
+          </person>
+          <person xml:id="hensel_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Hensel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95339608</idno>
+          </person>
+          <person xml:id="pittroff_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Pittroff</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5134-1081</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95732609</idno>
+          </person>
+          <person xml:id="schwarz_angela">
+            <name>
+              <forename>Angela</forename>
+              <surname>Schwarz</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1140-4329</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95203209</idno>
+          </person>
+          <person xml:id="kammerer_dietmar">
+            <name>
+              <forename>Dietmar</forename>
+              <surname>Kammerer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1126-3431</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q89873522</idno>
+          </person>
+          <person xml:id="matuszkiewicz_kai">
+            <name>
+              <forename>Kai</forename>
+              <surname>Matuszkiewicz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8634-8160</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q124310980</idno>
+          </person>
+          <person xml:id="simon_holger">
+            <name>
+              <forename>Holger</forename>
+              <surname>Simon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7352-4006</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16937908</idno>
+          </person>
+          <person xml:id="hillgaertner_harald">
+            <name>
+              <forename>Harald</forename>
+              <surname>Hillgärtner</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133517824</idno>
+          </person>
+          <person xml:id="remmes_undine">
+            <name>
+              <forename>Undine</forename>
+              <surname>Remmes</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5410-5591</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107299976</idno>
+          </person>
+          <person xml:id="rauscher_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Rauscher</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5410-5591</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112541737</idno>
+          </person>
+          <person xml:id="frischer_bernard">
+            <name>
+              <forename>Bernard</forename>
+              <surname>Frischer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0696-3660</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57436927</idno>
+          </person>
+          <person xml:id="slusallek_philipp">
+            <name>
+              <forename>Philipp</forename>
+              <surname>Slusallek</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2189-2429</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q20243272</idno>
+          </person>
+          <person xml:id="voigt_konstantin">
+            <name>
+              <forename>Konstantin</forename>
+              <surname>Voigt</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95230833</idno>
+          </person>
+          <person xml:id="hartelt_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Hartelt</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9093-5077</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126691963</idno>
+          </person>
+          <person xml:id="haug_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Haug</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62728982</idno>
+          </person>
+          <person xml:id="hust_christoph">
+            <name>
+              <forename>Christoph</forename>
+              <surname>Hust</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-8403-7778</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113769523</idno>
+          </person>
+          <person xml:id="zahnd_ueli">
+            <name>
+              <forename>Ueli</forename>
+              <surname>Zahnd</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6129-1687</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q122796653</idno>
+          </person>
+          <person xml:id="flueckiger_barbara">
+            <name>
+              <forename>Barbara</forename>
+              <surname>Flückiger</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4954-5469</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q807420</idno>
+          </person>
           <person xml:id="roy_dibyadyuti">
             <name>
               <forename>Roy</forename>
               <surname>Dibyadyuti</surname>
             </name>
             <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0684-7977</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130919176</idno>
           </person>
           <person xml:id="kleinertz_rainer">
@@ -2113,6 +2435,7 @@
               <surname>Kleinertz</surname>
             </name>
             <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4157-1438</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q112454935</idno>
           </person>
           <person xml:id="van-beek_alan">
@@ -10023,16 +10346,6 @@
             <idno type="orcid">https://orcid.org/0000-0001-5716-9526</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q102405390</idno>
           </person>
-          <person xml:id="heusinger_klaus_von">
-            <name>
-              <forename>Klaus</forename>
-              <nameLink>von</nameLink>
-              <surname>Heusinger</surname>
-            </name>
-            <gender>male</gender>
-            <idno type="orcid">https://orcid.org/0000-0001-8108-3191</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q62560618</idno>
-          </person>
           <person xml:id="barabucci_gioele">
             <name>
               <forename>Gioele</forename>
@@ -11174,6 +11487,21 @@
           <!-- #### Cities #### -->
           <!-- ###### Continent: Europe ###### -->
           <!-- ######## German cities ######## -->
+          <place type="city" xml:id="siegen">
+            <country corresp="#germany"/>
+            <name>Siegen</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7012712</idno>
+          </place>
+          <place type="city" xml:id="pforzheim">
+            <country corresp="#germany"/>
+            <name>Pforzheim</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7012653</idno>
+          </place>
+          <place type="city" xml:id="detmold">
+            <country corresp="#germany"/>
+            <name>Detmold</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/1002333</idno>
+          </place>
           <place type="city" xml:id="dortmund">
             <country corresp="#germany"/>
             <name>Dortmund</name>
@@ -11976,10 +12304,20 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010979</idno>
           </place>
           <!-- ######## Czech cities ######## -->
-          <place type="city" xml:id="karlova">
+          <place type="city" xml:id="pilsen">
             <country corresp="#czech-republic"/>
-            <name>Karlovac</name>
+            <name>Pilsen</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7011723</idno>
+          </place>
+          <place type="city" xml:id="prague">
+            <country corresp="#czech-republic"/>
+            <name>Prague</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006464</idno>
+          </place>
+          <place type="city" xml:id="hradec-kralove">
+            <country corresp="#czech-republic"/>
+            <name>Hradec Králové</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7012051</idno>
           </place>
           <!-- ######## Belgian cities ######## -->
           <place type="city" xml:id="brussels">
@@ -12207,6 +12545,11 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="bloomington">
+            <country corresp="#usa"/>
+            <name>Bloomington</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013437</idno>
+          </place>
           <place type="city" xml:id="montclair">
             <country corresp="#usa"/>
             <name>Montclair</name>
@@ -12406,7 +12749,7 @@
             <name>Brasília</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005845</idno>
           </place>
-          <place type="city" xml:id="são-paolo">
+          <place type="city" xml:id="sao-paolo">
             <country corresp="#brazil"/>
             <name>São Paulo</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017121</idno>
@@ -14510,7 +14853,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-koeln"/>
+                  <affiliation corresp="#uni-koeln-th"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-pisa"/>
@@ -19093,7 +19436,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-potsdam"/>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-venezia"/>
@@ -20257,7 +20600,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-potsdam"/>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#inha"/>
@@ -22139,7 +22482,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-nordwestschweiz"/>
+                  <affiliation corresp="#uni-nordwestschweiz"/>
                 </person>
                 <person role="speaker" corresp="#demmer_dennis">
                   <name>
@@ -22326,7 +22669,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-mainz"/>
+                  <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -22442,13 +22785,13 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-potsdam"/>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
                 <person role="speaker" corresp="#freyberg_linda">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-potsdam"/>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -24295,7 +24638,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-mainz"/>
+                  <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -26438,7 +26781,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.-Ing.</roleName>
                   </name>
-                  <affiliation corresp="#fh-wismar"/>
+                  <affiliation corresp="#uni-wismar"/>
                 </person>
                 <person role="speaker" corresp="#theise_antje">
                   <name>
@@ -27173,13 +27516,13 @@
                   <name>
                     <roleName type="title">Prof. Dr.-Ing.</roleName>
                   </name>
-                  <affiliation corresp="#fh-wismar"/>
+                  <affiliation corresp="#uni-wismar"/>
                 </person>
                 <person role="speaker" corresp="#werner_christoph">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-wismar"/>
+                  <affiliation corresp="#uni-wismar"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rostock"/>
@@ -27381,7 +27724,7 @@
                   <name>
                     <roleName type="title">Prof. Dr. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-heidelberg #uni-bonn"/>
+                  <affiliation corresp="#uni-shr #uni-bonn"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rostock"/>
@@ -27786,7 +28129,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-erfurt #fh-erfurt"/>
+                  <affiliation corresp="#uni-erfurt #uni-erfurt-fhe"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-rostock"/>
@@ -30218,7 +30561,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.-Ing.</roleName>
                   </name>
-                  <affiliation corresp="#fh-bht"/>
+                  <affiliation corresp="#uni-berlin-bht"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -30434,7 +30777,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-mainz"/>
+                  <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -30805,7 +31148,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-potsdam"/>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
                 <person role="speaker" corresp="#klar_jochen">
                   <name>
@@ -31077,7 +31420,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-potsdam"/>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
@@ -36586,7 +36929,7 @@
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
-                  <affiliation corresp="#fh-mainz"/>
+                  <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-stuttgart"/>
@@ -39774,7 +40117,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-koeln"/>
+                  <affiliation corresp="#uni-koeln-th"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-erlangen-nuernberg"/>
@@ -39957,7 +40300,7 @@
                   <name>
                     <roleName type="title">PhD</roleName>
                   </name>
-                  <affiliation corresp="#fh-enpc"/>
+                  <affiliation corresp="#uni-enpc"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#mpi-wg"/>
@@ -40850,7 +41193,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-fom"/>
+                  <affiliation corresp="#uni-fom"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
@@ -41055,7 +41398,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-cbs"/>
+                  <affiliation corresp="#uni-cbs"/>
                 </person>
                 <person role="speaker" corresp="#brinkhoff_stefan">
                   <name>
@@ -41251,7 +41594,6 @@
           </event>
         </event>
 
-
         <event xml:id="ls39" type="lecture-series" where="#freiburg">
           <eventName xml:lang="de">Digital Humanities. Medienwissenschaftliche Perspektiven –
             Mediävistische Schlaglichter</eventName>
@@ -41276,33 +41618,309 @@
           <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="ls39_t1">
             <eventName xml:lang="de">Wintersemester 2021-22</eventName>
 
-            <!-- 
-            03.11.21 Barbara Flückiger (Zürich): Entwicklung eines digitalen Ökosystems zur Dokumentation, Analyse und Visualisierung von Filmen
-            
-            10.11.21 Ueli Zahnd (Genf): Vom Codex zum Netzwerk: Potentiale einer digitalen Scholastik
-            
-            17.11.21 Christoph Hust (Leipzig): Heimcomputer, Spiele und Musik: Fragestellungen und Methoden der Ludomusicology
-            
-            24.11.21 Andreas Haug, Alexander Hartelt (Würzburg) | Hana Vlhova-Wörner, Jan Hajic jr. (Prag): Panel Digitale Edition von Musikhandschriften des Mittelalters
-            
-            01.12.21 Dietmar Kammerer, Mai Matuszkiewicz (Marburg): Medienwissenschaftliche Vernetzung und Plattformen: Vorstellung der Projekts Mediarep
-            
-            08.12.21 Tim Geelhaar (Frankfurt), Michael Schonhardt (Kassel), Achim Rabus (Freiburg): Panel Transkribus im Einsatz für die Forschung. Chancen und Herausforderungen
-            
-            15.12.21 Thorsten Wübbena (Leibniz-Institut): DH Lab IEG - Geisteswissenschaftliche Forschung digital gestalten
-            
-            12.01.22 Holger Simon (Köln): Digitalität in den Gedächtnisinstitutionen. Wandel in Präsentation, Vermittlung und Forschung
-            
-            19.01.22 Angela Schwarz (Siegen): "Sie können jetzt in die Vergangenheit reisen": Assassin's Creed als Geschichtstourismus
-            
-            26.01.22 Sarah Pittroff (Mainz): Die räumliche Kontextualisierung mittelalterlicher Glasmalereien und die Potentiale der interaktiven Darstellung            
-            
-            02.02.22 Thomas Hensel (Pforzheim): Kunstwissenschaft und Game Studies
-            
-            09.02.22 Torsten Schrade (Mainz): NFDI4Culture - Forschungsdatenmanagement, Methodenentwicklung und disziplinenübergreifender Transfer im Bereich materieller und immaterieller Kulturgüter
-            -->
+            <event type="lecture" when="2021-11-03" xml:id="ls39_t1_l1">
+              <eventName xml:lang="de">Entwicklung eines digitalen Ökosystems zur Dokumentation,
+                Analyse und Visualisierung von Filmen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#flueckiger_barbara">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-zuerich"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
 
-            <org role="organizer" corresp="..."/>
+            <event type="lecture" when="2021-11-10" xml:id="ls39_t1_l2">
+              <eventName xml:lang="de">Vom Codex zum Netzwerk: Potentiale einer digitalen
+                Scholastik</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zahnd_ueli">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-geneve"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2021-11-17" xml:id="ls39_t1_l3">
+              <eventName xml:lang="de">Heimcomputer, Spiele und Musik: Fragestellungen und Methoden
+                der Ludomusicology</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hust_christoph">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leipzig-hmt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2021-11-24" xml:id="ls39_t1_l4">
+              <eventName xml:lang="de">Vom Codex zum Netzwerk: Potentiale einer digitalen
+                Scholastik</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#haug_andreas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+                <person role="speaker" corresp="#hartelt_alexander">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+                <person role="speaker" corresp="#hajic-jr_jan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-karlova"/>
+                </person>
+                <person role="speaker" corresp="#vlhova-woerner_hana">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#cas"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2021-12-01" xml:id="ls39_t1_l5">
+              <eventName xml:lang="de">Medienwissenschaftliche Vernetzung und Plattformen:
+                Vorstellung der Projekts Mediarep</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kammerer_dietmar">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#nfdi4culture"/>
+                </person>
+                <person role="speaker" corresp="#matuszkiewicz_kai">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-marburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2021-12-08" xml:id="ls39_t1_l6">
+              <eventName xml:lang="de">Panel Transkribus im Einsatz für die Forschung. Chancen und
+                Herausforderungen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#geelhaar_tim">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-frankfurt"/>
+                </person>
+                <person role="speaker" corresp="#schonhardt_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-kassel"/>
+                </person>
+                <person role="speaker" corresp="#rabus_achim">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-freiburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2021-12-15" xml:id="ls39_t1_l7">
+              <eventName xml:lang="de">DH Lab IEG - Geisteswissenschaftliche Forschung digital
+                gestalten</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wuebbena_thorsten">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ieg-main"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2022-01-12" xml:id="ls39_t1_l8">
+              <eventName xml:lang="de">Digitalität in den Gedächtnisinstitutionen. Wandel in
+                Präsentation, Vermittlung und Forschung</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#simon_holger">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-koeln"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2022-01-19" xml:id="ls39_t1_l9">
+              <eventName xml:lang="de">"Sie können jetzt in die Vergangenheit reisen": Assassin's
+                Creed als Geschichtstourismus</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schwarz_angela">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-siegen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2022-01-26" xml:id="ls39_t1_l10">
+              <eventName xml:lang="de">Die räumliche Kontextualisierung mittelalterlicher
+                Glasmalereien und die Potentiale der interaktiven Darstellung</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pittroff_sarah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2022-02-02" xml:id="ls39_t1_l11">
+              <eventName xml:lang="de">Kunstwissenschaft und Game Studies</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hensel_thomas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-pforzheim"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <event type="lecture" when="2022-02-09" xml:id="ls39_t1_l12">
+              <eventName xml:lang="de">NFDI4Culture - Forschungsdatenmanagement, Methodenentwicklung
+                und disziplinenübergreifender Transfer im Bereich materieller und immaterieller
+                Kulturgüter</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schrade_torsten">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-freiburg"/>
+            </event>
+
+            <org role="organizer"
+              corresp="#ditfurth_julia-von #hillgaertner_harald #rauscher_andreas #remmes_undine #voigt_konstantin #zemanek_evi"
+            />
           </event>
         </event>
 
@@ -41335,11 +41953,300 @@
           <event type="lecture-series-term" from="2021-11" to="2022-02" xml:id="ls40_t1">
             <eventName xml:lang="de">Wintersemester 2021-22</eventName>
 
-            <!-- ADD THE LECTURES HERE -->
+            <event type="lecture" when="2021-11-08" xml:id="ls40_t1_l1">
+              <eventName xml:lang="de">Digital Humanities und/als Open Science</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schoech_christof">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-trier"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2021-11-15" xml:id="ls40_t1_l2">
+              <eventName xml:lang="de">Aktuelle Möglichkeiten und Perspektiven digitaler
+                Briefeditionen am Beispiel der Korrespondenz August Wilhelm Schlegels</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bamberg_claudia">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-trier"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2021-11-22" xml:id="ls40_t1_l3">
+              <eventName xml:lang="en">Virtual Heritage: The Use of Computer Graphics for
+                Illustrating and Analyzing Ancient Monuments</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#frischer_bernard">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-indiana"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2021-11-29" xml:id="ls40_t1_l4">
+              <eventName xml:lang="de">Dimensionsreduktion und Bildbedeutung. Epistemische Zugänge
+                zu visuellen Korpora digitaler Kultur</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klinke_harald">
+                  <name>
+                    <roleName type="title">PD Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2021-12-06" xml:id="ls40_t1_l5">
+              <eventName xml:lang="de">Neue Wege für die Musikforschung mittels Digitaler
+                Signalverarbeitung I</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mueller_meinard">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen-nuernberg #fraunhofer-iis #audiolabs"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2021-12-13" xml:id="ls40_t1_l6">
+              <eventName xml:lang="en">Digital Reality: Models as the Basis for Understanding the
+                World</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#slusallek_philipp">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland #dfki"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2022-01-03" xml:id="ls40_t1_l7">
+              <eventName xml:lang="en">Beethoven X: Es könnte sein (It could be …). On
+                human-computer interaction and the musical decisions behind AI
+                composition</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gotham_mark">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-dortmund"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2022-01-10" xml:id="ls40_t1_l8">
+              <eventName xml:lang="de">Neue Wege für die Musikforschung mittels Digitaler
+                Signalverarbeitung II</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#weiss_christof">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen-nuernberg #fraunhofer-iis #audiolabs"/>
+                </person>
+                <person role="speaker" corresp="#kleinertz_rainer">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2022-01-17" xml:id="ls40_t1_l9">
+              <eventName xml:lang="en">The Unknown Beethoven: Studying Domestic Arrangements of His
+                Symphonic Works Using Digital Tools</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#siegert_christine">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#beethovenhaus-bonn"/>
+                </person>
+                <person role="speaker" corresp="#saccomano_mark">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paderborn #uni-detmold"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2022-01-24" xml:id="ls40_t1_l10">
+              <eventName xml:lang="de">NFDI4Culture. Forschungsdatenmanagement im Bereich
+                materieller und immaterieller Kulturgüter</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schmidt_doerte">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-udk"/>
+                </person>
+                <person role="speaker" corresp="#schrade_torsten">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2022-01-31" xml:id="ls40_t1_l11">
+              <eventName xml:lang="de">Die digitale Erschließung und Entzifferung der Mayaschrift.
+                Das Projekt Textdatenbank und Wörterbuch des Klassischen Maya</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#prager_christian">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bonn"/>
+                </person>
+                <person role="speaker" corresp="#vertan_cristina">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2022-02-07" xml:id="ls40_t1_l12">
+              <eventName xml:lang="de">Die Sichtbarmachung der Gleichzeitigkeit. Arno Peters’
+                Synchronoptische Weltgeschichte als generisch digitale Plattform</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#burch_thomas">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-trier"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
 
             <org role="organizer" corresp="#schoech_christof #kleinertz_rainer"/>
           </event>
         </event>
+
+
+
 
         <event xml:id="ls41" type="lecture-series" where="#erlangen #nuernberg">
           <eventName xml:lang="de">Perspektiven der Digitalen Geistes- und
@@ -44668,7 +45575,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-bern"/>
+                  <affiliation corresp="#uni-bern-hkb"/>
                 </person>
                 <person role="speaker" corresp="#faerberboeck_peter">
                   <name>
@@ -45876,19 +46783,19 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-zuerich #fh-zuerich"/>
+                  <affiliation corresp="#uni-zuerich #uni-zhdk"/>
                 </person>
                 <person role="speaker" corresp="#wild_larissa">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-lausanne #fh-zuerich"/>
+                  <affiliation corresp="#uni-lausanne #uni-zhdk"/>
                 </person>
                 <person role="speaker" corresp="#krummenacher_dave">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-lausanne #fh-zuerich"/>
+                  <affiliation corresp="#uni-lausanne #uni-zhdk"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-bern"/>
@@ -46047,7 +46954,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-graubuenden"/>
+                  <affiliation corresp="#uni-fhgr"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-bern"/>
@@ -46424,7 +47331,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-epfl-lausanne"/>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-basel"/>
@@ -46628,7 +47535,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-epfl-lausanne"/>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-basel"/>
@@ -46818,7 +47725,7 @@
                   <affiliation corresp="#uni-harvard"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <!-- 2015-11-15 -->
@@ -47587,7 +48494,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-epfl-lausanne"/>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
@@ -48032,7 +48939,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-boras"/>
+                  <affiliation corresp="#uni-boras"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
@@ -49009,7 +49916,7 @@
                   <affiliation corresp="#uni-bochum #uni-iu-berlin"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-london-kcl #uni-ipu-berlin"/>
+              <org role="host-institution" corresp="#uni-london-kcl #uni-berlin-ipu"/>
             </event>
             <event type="lecture" when="2025-03-05" xml:id="ls28_t1_l3">
               <eventName xml:lang="en">Hegel in Cyberspace with Katherine Everitt</eventName>
@@ -50848,7 +51755,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#fh-boras"/>
+                  <affiliation corresp="#uni-boras"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-gothenburg"/>
@@ -51247,7 +52154,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#fh-boras"/>
+                  <affiliation corresp="#uni-boras"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-gothenburg"/>
