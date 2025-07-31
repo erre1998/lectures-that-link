@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Metadata about the contributions to DHd conferences (2014-2025)</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Rostock</publisher>
+        <pubPlace>Rostock</pubPlace>
+        <date>2025</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p><ref>https://github.com/DHd-Verband</ref></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listEvent>
+        <event type="conference" where="#bielefeld" when="2025">
+          <eventName>DHd2025</eventName>
+          <event type="contribution">
+            <eventName>Computergestützte Werkzeuge in der Musikedition: Echtheitsfragen im Werk Tomás Luis de Victorias</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.14942968</idno>
+            <listPerson>
+              <person>
+                <name>Schmolenzky, Pascal</name>
+                <affiliation>Universität des Saarlandes, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Klauk, Stephanie</name>
+                <affiliation>Universität des Saarlandes, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+        </event>
+      </listEvent>
+    </body>
+  </text>
+</TEI>
