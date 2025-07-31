@@ -805,6 +805,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q459724</idno>
             <place corresp="#mainz"/>
           </org>
+          <org xml:id="uni-berlin-htw" type="university">
+            <name xml:lang="de">Hochschule für Technik und Wirtschaft Berlin</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q875138</idno>
+            <place corresp="#berlin"/>
+          </org>
           <org xml:id="uni-berlin-udk" type="university">
             <name xml:lang="de">Universität der Künste Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55038</idno>
@@ -831,7 +836,7 @@
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-bht" type="university">
-            <name xml:lang="en">University of Applied Sciences Berlin</name>
+            <name xml:lang="en">Berliner Hochschule für Technik</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q851413</idno>
             <place corresp="#berlin"/>
           </org>
@@ -2266,6 +2271,102 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="schildhauer_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Schildhauer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3232-9869</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q51064051</idno>
+          </person>
+          <person xml:id="bremer_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Bremer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3912-4524</idno>
+          </person>
+          <person xml:id="weitin_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Weitin</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9003-5746</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q31841486</idno>
+          </person>
+          <person xml:id="hohls_ruediger">
+            <name>
+              <forename>Rüdiger</forename>
+              <surname>Hohls</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-2230-7982</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2203608</idno>
+          </person>
+          <person xml:id="fischer_barbara">
+            <name>
+              <forename>Barbara</forename>
+              <surname>Fischer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q67611457</idno>
+          </person>
+          <person xml:id="storrer_angelika">
+            <name>
+              <forename>Angelika</forename>
+              <surname>Storrer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2697-2046</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57204240</idno>
+          </person>
+          <person xml:id="schubert_charlotte">
+            <name>
+              <forename>Charlotte</forename>
+              <surname>Schubert</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2885-8055</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q97527095</idno>
+          </person>
+          <person xml:id="neuroth_heike">
+            <name>
+              <forename>Heike</forename>
+              <surname>Neuroth</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3637-3154</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95196445</idno>
+          </person>
+          <person xml:id="schroeder_kirsten">
+            <name>
+              <forename>Kirsten</forename>
+              <surname>Schröder</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-3672-4251</idno>
+          </person>
+          <person xml:id="schreibman_susan">
+            <name>
+              <forename>Susan</forename>
+              <surname>Schreibman</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8782-0794</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q50843140</idno>
+          </person>
+          <person xml:id="moretti_franco">
+            <name>
+              <forename>Franco</forename>
+              <surname>Moretti</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7941-8092</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q971600</idno>
+          </person>
           <person xml:id="mcenery_tony">
             <name>
               <forename>Tony</forename>
@@ -42788,13 +42889,323 @@
               wechselseitigen Implikationen zwischen den digitalen Geisteswissenschaften und der
               ‚vernetzten Gesellschaft‘ diskutiert.</p>
           </note>
-
           <event type="lecture-series-term" from="2017-10" to="2018-02" xml:id="ls45_t1">
             <eventName xml:lang="de">Wintersemester 2017-18</eventName>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="#thomas_christian"/>
+            <event type="lecture" when="2017-10-24" xml:id="ls45_t1_l1">
+              <eventName xml:lang="de">Digital Humanities vs. Digital History: Differenzen und
+                Gemeinsamkeiten</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hohls_ruediger">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-hu"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2017-11-07" xml:id="ls45_t1_l2">
+              <eventName xml:lang="de">Zum Selbstverständnis der Wissenschaft in der Gesellschaft ‒
+                Wie halten Sie es mit den Bürgerwissenschaften?</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#fischer_barbara">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#self-employment"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2017-11-14" xml:id="ls45_t1_l3">
+              <eventName xml:lang="de">Virtual-Reality-Systeme als Werkzeug in der
+                Archäologie</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bremer_thomas">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-htw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2017-11-21" xml:id="ls45_t1_l4">
+              <eventName xml:lang="de">„Selbstbestimmung in der vernetzten Gesellschaft“ – Die
+                interdisziplinären Forschungsprogramme des neu gegründeten Deutschen Internet
+                Instituts</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schildhauer_thomas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-udk"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+            <event type="lecture" when="2017-11-28" xml:id="ls45_t1_l5">
+              <eventName xml:lang="de">Reading at Scale. Erkenntnismöglichkeiten an einem
+                mittelgroßen literarischen Korpus</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#weitin_thomas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2017-11-29" xml:id="ls45_t1_l6">
+              <eventName xml:lang="en">Simulating Dramatic Networks</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moretti_franco">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+            <event type="lecture" when="2017-12-05" xml:id="ls45_t1_l7">
+              <eventName xml:lang="de">Zitate und Paraphrasen: Prolegomena zu einer Taxonomie der
+                digitalen Quellenanalyse</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schubert_charlotte">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leipzig"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2017-12-12" xml:id="ls45_t1_l8">
+              <eventName xml:lang="de">Forschung &amp; Karriere: Zur anhaltenden Formierung,
+                Professionalisierung und Professoralisierung der Digital Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sahle_patrick">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-koeln"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2017-12-19" xml:id="ls45_t1_l9">
+              <eventName xml:lang="de">Textkorpora als Ressourcen für die Digital Humanities:
+                Chancen, Herausforderungen, Perspektiven</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#storrer_angelika">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mannheim"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2018-01-09" xml:id="ls45_t1_l10">
+              <eventName xml:lang="de">Von Nutzen und Nachteil einer Historie Digitaler Spiele:
+                Geschichte, Politik und historische Authentizität</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pfister_eugen">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wien"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2018-01-16" xml:id="ls45_t1_l11">
+              <eventName xml:lang="de">Bedeutungsanalyse im ‚Distant Reading‘</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#jannidis_fotis">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+            <event type="lecture" when="2018-01-23" xml:id="ls45_t1_l12">
+              <eventName xml:lang="de">Vom Ende der Linearität: Konzepte wissenschaftlichen
+                Publizierens und Kommunizierens im digitalen Zeitalter</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#koenig_mareike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#dhi-paris"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2018-01-30" xml:id="ls45_t1_l13">
+              <eventName xml:lang="de">Forschungsdaten(management) in den Digital Humanities – Eine
+                Annäherung</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#neuroth_heike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2018-02-06" xml:id="ls45_t1_l14">
+              <eventName xml:lang="de">Das digitale Bild. Eine Herausforderung für die
+                Kunstgeschichte</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kohle_hubertus">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <event type="lecture" when="2018-02-13" xml:id="ls45_t1_l15">
+              <eventName xml:lang="en">From Archives to Activism: Why Public Engagement is Essential
+                for the Future of the Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schreibman_susan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-maynooth"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-berlin-hu"/>
+            </event>
+            <org role="organizer" corresp="#thomas_christian #schroeder_kirsten"/>
           </event>
         </event>
 
