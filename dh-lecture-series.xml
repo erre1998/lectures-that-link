@@ -42817,49 +42817,6 @@
             <org role="organizer" corresp="#hespers_simone"/>
           </event>
         </event>
-
-        <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
-          <eventName xml:lang="en">I2SC Lecture Series</eventName>
-          <note type="description" xml:lang="en">
-            <p>The Interdisciplinary Institute for Societal Computing offers a regular Lecture
-              Series to bring together researchers of different academic fields to analyze and
-              discuss the broad topic of society and technology. The Lecture Series is designed as a
-              laboratory of interdisciplinary research to encourage cooperation and new research
-              approaches. The series will feature a mix of speakers from Computer Science, Social
-              Science, and Digital Humanities.</p>
-          </note>
-
-          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
-            <eventName xml:lang="en">Summer 2024</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-
-          <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
-            <eventName xml:lang="en">Winter 2024-25</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-
-          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
-            <eventName xml:lang="en">Summer 2025</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-        </event>
-
         <event xml:id="ls45" type="lecture-series" where="#berlin">
           <eventName xml:lang="de">Digital Humanities: Die digitale Transformation der
             Geisteswissenschaften</eventName>
@@ -43206,6 +43163,48 @@
               <org role="host-institution" corresp="#uni-berlin-hu"/>
             </event>
             <org role="organizer" corresp="#thomas_christian #schroeder_kirsten"/>
+          </event>
+        </event>
+
+        <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
+          <eventName xml:lang="en">I2SC Lecture Series</eventName>
+          <note type="description" xml:lang="en">
+            <p>The Interdisciplinary Institute for Societal Computing offers a regular Lecture
+              Series to bring together researchers of different academic fields to analyze and
+              discuss the broad topic of society and technology. The Lecture Series is designed as a
+              laboratory of interdisciplinary research to encourage cooperation and new research
+              approaches. The series will feature a mix of speakers from Computer Science, Social
+              Science, and Digital Humanities.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
+            <eventName xml:lang="en">Summer 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
+            <eventName xml:lang="en">Winter 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
+            <eventName xml:lang="en">Summer 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="..."/>
           </event>
         </event>
 
