@@ -29,7 +29,7 @@
   -->
   
     <!--<xsl:call-template name="lectures-per-speaker"/>-->
-    <!--<xsl:call-template name="contributions-per-person"/>-->
+    <xsl:call-template name="contributions-per-person"/>
     
     
   

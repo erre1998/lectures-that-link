@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+<listPerson xmlns="http://www.tei-c.org/ns/1.0" xmlns:local="local">
    <person>
       <name>Sahle, Patrick</name>
       <note type="lecture-series">yes</note>
@@ -1846,7 +1846,7 @@
       <note type="dhd-abstracts">yes</note>
    </person>
    <person>
-      <name>Bamberg, Claudia</name>
+      <name>Naether, Franziska</name>
       <note type="lecture-series">yes</note>
       <note type="dhd-abstracts">yes</note>
    </person>
@@ -1881,7 +1881,7 @@
       <note type="dhd-abstracts">yes</note>
    </person>
    <person>
-      <name>Guhr, Svenja</name>
+      <name>Kleymann, Rabea</name>
       <note type="lecture-series">yes</note>
       <note type="dhd-abstracts">yes</note>
    </person>
@@ -1911,7 +1911,7 @@
       <note type="dhd-abstracts">no</note>
    </person>
    <person>
-      <name/>
+      <name>Tang, Kevin</name>
       <note type="lecture-series">yes</note>
       <note type="dhd-abstracts">no</note>
    </person>
@@ -2017,6 +2017,131 @@
    </person>
    <person>
       <name>Bates, Douglas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Simon, Holger</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schwarz, Angela</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pittroff, Sarah</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hensel, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gotham, Mark</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Weiß, Christof</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kleinertz, Rainer</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Siegert, Christine</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Saccomano, Mark</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Vertan, Cristina</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Burch, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hohls, Rüdiger</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fischer, Barbara</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bremer, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schildhauer, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Weitin, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Moretti, Franco</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schubert, Charlotte</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Storrer, Angelika</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pfister, Eugen</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Jannidis, Fotis</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Neuroth, Heike</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kohle, Hubertus</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schreibman, Susan</name>
       <note type="lecture-series">yes</note>
       <note type="dhd-abstracts">no</note>
    </person>
@@ -2316,7 +2441,7 @@
       <note type="dhd-abstracts">no</note>
    </person>
    <person>
-      <name/>
+      <name>Filzwieser, Roland</name>
       <note type="lecture-series">yes</note>
       <note type="dhd-abstracts">no</note>
    </person>
@@ -2324,5 +2449,170 @@
       <name>Klugseder, Robert</name>
       <note type="lecture-series">yes</note>
       <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Roe, Glenn</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fendt, Kurt</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Forte, Maurizio</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rohrmeier, Martin</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Boullier, Dominique</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kenderdine, Sarah</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Benzi, Kirell Maël</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schlenker, Philippe</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Legrady, George</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kölsch, Stefan</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Doucet, Antoine</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Neuwirth, Markus</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Masure, Anthony</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gatica-Perez, Daniel</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Smith, David</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kaplan, Frederic</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>West, Robert</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Salzmann, Mathieu</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Burie, Jean-Christophe</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Baudry, Jérôme</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kapossy, Bela</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Snook, Kelly</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Shanahan, Daniel</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Auer, Anita</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brandes, Ulrik</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kuntz, Pascale</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Noll, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lauer, Gerhard</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rochat, Yannick</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hengchen, Simon</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Martin, Nathan</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Martin, Henry</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Trottier, Daniel</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
    </person>
 </listPerson>
