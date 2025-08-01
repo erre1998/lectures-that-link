@@ -275,6 +275,31 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-australian" type="university">
+            <name xml:lang="en">Australian National University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q127990</idno>
+            <place corresp="#canberra"/>
+          </org>
+          <org xml:id="uni-new-south-wales" type="university">
+            <name xml:lang="en">University of New South Wales</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q734764</idno>
+            <place corresp="#sydney"/>
+          </org>
+          <org xml:id="uni-viadrina" type="university">
+            <name xml:lang="de">Universität Viadrina</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q149481</idno>
+            <place corresp="#frankfurt-an-der-oder"/>
+          </org>
+          <org xml:id="uni-muenchen-tu" type="university">
+            <name xml:lang="de">Technische Universität München</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q157808</idno>
+            <place corresp="#muenchen"/>
+          </org>
+          <org xml:id="uni-edinburgh" type="university">
+            <name xml:lang="en">University of Edinburgh</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q160302</idno>
+            <place corresp="#edinburgh"/>
+          </org>
           <org xml:id="uni-colombo" type="university">
             <name xml:lang="en">University of Colombo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q720953</idno>
@@ -1555,8 +1580,8 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113633597</idno>
             <place corresp="#koblenz"/>
           </org>
-          <org xml:id="mit" type="university">
-            <name xml:lang="en">Massachusetts Institute of Technology</name>
+          <org xml:id="uni-mit" type="university">
+            <name xml:lang="en">Massachusetts Institute of Technology (MIT)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49108</idno>
             <place corresp="#cambridge-us"/>
           </org>
@@ -1570,6 +1595,11 @@
             <name xml:lang="de">Max-Planck-Institut für Informatik</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
             <place corresp="#saarbruecken"/>
+          </org>
+          <org xml:id="dair" type="research_institution">
+            <name xml:lang="de">Distributed Artificial Intelligence Research Institute (DAIR)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q110231228</idno>
+            <place corresp="#usa"/>
           </org>
           <org xml:id="cas" type="research_institution">
             <name xml:lang="cs">Akademie věd České republiky</name>
@@ -2286,6 +2316,167 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="boullier_dominique">
+            <name>
+              <forename>Dominique</forename>
+              <surname>Boullier</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2080-6434</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3035013</idno>
+          </person>
+          <person xml:id="kenderdine_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Kenderdine</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7190-9946</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q18632143</idno>
+          </person>
+          <person xml:id="rohrmeier_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Rohrmeier</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4323-7257</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131113037</idno>
+          </person>
+          <person xml:id="roe_glenn">
+            <name>
+              <forename>Glenn</forename>
+              <surname>Roe</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5611-7916</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57421247</idno>
+          </person>
+          <person xml:id="benzi_kirell">
+            <name>
+              <forename>Kirell Maël</forename>
+              <surname>Benzi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9870-9477</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q103320255</idno>
+          </person>
+          <person xml:id="schlenker_philippe">
+            <name>
+              <forename>Philippe</forename>
+              <surname>Schlenker</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9489-9325</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q33110612</idno>
+          </person>
+          <person xml:id="legrady_george">
+            <name>
+              <forename>George</forename>
+              <surname>Legrady</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9177-257X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3101713</idno>
+          </person>
+          <person xml:id="koelsch_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Kölsch</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8714-3404</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q28833476</idno>
+          </person>
+          <person xml:id="hamburger_jeffrey">
+            <name>
+              <forename>Jeffrey</forename>
+              <surname>Hamburger</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1103-1692</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1676288</idno>
+          </person>
+          <person xml:id="filzwieser_roland">
+            <name>
+              <forename>Roland</forename>
+              <surname>Filzwieser</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5523-9524</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57899514</idno>
+          </person>
+          <person xml:id="gessler_theresa">
+            <name>
+              <forename>Theresa</forename>
+              <surname>Gessler</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2339-6266</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q115557763</idno>
+          </person>
+          <person xml:id="lause_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Lause</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0946-412X</idno>
+          </person>
+          <person xml:id="ceron_tanise">
+            <name>
+              <forename>Tanise</forename>
+              <surname>Ceron</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0002-4845-2789</idno>
+          </person>
+          <person xml:id="papakyriakopoulos_orestis">
+            <name>
+              <forename>Orestis</forename>
+              <surname>Papakyriakopoulos</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4680-0022</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q109968106</idno>
+          </person>
+          <person xml:id="valera_isabel">
+            <name>
+              <forename>Isabel</forename>
+              <surname>Valera</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6440-4376</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q117040596</idno>
+          </person>
+          <person xml:id="talat_zeerak">
+            <name>
+              <forename>Zeerak</forename>
+              <surname>Talat</surname>
+            </name>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5503-867X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130838689</idno>
+          </person>
+          <person xml:id="agrawal_pranav">
+            <name>
+              <forename>Pranav</forename>
+              <surname>Agrawal</surname>
+            </name>
+            <gender>male</gender>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1477-7692</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q84384089</idno>
+          </person>
+          <person xml:id="hadgu_asmelash-teka">
+            <name>
+              <forename>Asmelash Teka</forename>
+              <surname>Hadgu</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4012-3772</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q96222263</idno>
+          </person>
           <person xml:id="braun_daniela">
             <name>
               <forename>Daniela</forename>
@@ -12118,6 +12309,11 @@
             <country corresp="#germany"/>
             <name>Frankfurt am Main</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005293</idno>
+          </place>
+          <place type="city" xml:id="frankfurt-an-der-oder">
+            <country corresp="#germany"/>
+            <name>Frankfurt an der Oder</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7005972</idno>
           </place>
           <place type="city" xml:id="saarbruecken">
             <country corresp="#germany"/>
@@ -39187,7 +39383,8 @@
                   of the field, textual computational work has often taken center stage, its
                   longevity propelled by the centrality of particular disciplines to DH. We advocate
                   for a broader role for the image, highlighting the potential of visual resources
-                  as the data for analysis and harnessing methods for analyzing images qua images.</p>
+                  as the data for analysis and harnessing methods for analyzing images qua
+                  images.</p>
                 <p>The talk is organized around three case studies: (1) Distant Viewing Protest
                   Photography, (2) Photogrammar, and (3) Seeing Incunabula: Text as Image. They
                   demonstrate how computational image analysis combined with institutional
@@ -43317,7 +43514,6 @@
             <org role="organizer" corresp="#thomas_christian #schroeder_kirsten"/>
           </event>
         </event>
-
         <event xml:id="ls46" type="lecture-series" where="#hamburg #leeds">
           <eventName xml:lang="en">Hamburg-Leeds Lecture Series</eventName>
           <ptr type="programme"
@@ -43342,7 +43538,6 @@
               archives from different disciplinary perspectives, particularly with regard to new
               methods of AI-supported research and representation.</p>
           </note>
-
           <event type="lecture-series-term" from="2025-02" to="2025-04" xml:id="ls46_t1">
             <eventName>Affect, Archive &amp; Artificial Intelligence</eventName>
             <event type="lecture" when="2025-02-26" xml:id="ls46_t1_l1">
@@ -43499,7 +43694,6 @@
             <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
           </event>
         </event>
-
         <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
           <eventName xml:lang="en">I2SC Lecture Series</eventName>
           <note type="description" xml:lang="en">
@@ -43759,63 +43953,301 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
 
-            <!-- ADD THE LECTURES HERE -->
+            <event type="lecture" when="2024-04-11" xml:id="ls44_t3_l1">
+              <eventName xml:lang="en">Policy Impact: From AI Regulation to Academic
+                Inclusion</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=97h7-KZOg9k"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk examines how policies affect people across multiple domains. I analyze
+                  surveillance loopholes in the EU AI Act introduced by German regulators that
+                  potentially compromise civil liberties. The discussion then critiques academic
+                  name-change policies that create unnecessary barriers for transgender and queer
+                  scholars. Finally, I evaluate academic publishing frameworks that exclude
+                  underrepresented communities and propose practical reforms to create more
+                  equitable spaces. Throughout, I demonstrate how seemingly neutral policies can
+                  cause harm when developed without input from marginalized communities.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#agrawal_pranav">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
 
+            <event type="lecture" when="2024-04-25" xml:id="ls44_t3_l2">
+              <eventName xml:lang="en">Beyond AI Hype: Building Machine Learning Systems that Serve
+                Communities</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=VJoYx9JoLZU"/>
+              <note type="abstract" xml:lang="en">
+                <p>Technological advancement, particularly Artificial Intelligence, is often
+                  accompanied by significant hype and grand promises. But who do these technologies
+                  serve? I will motivate this talk by conducting a reality check of current
+                  technologies, such as chatbots, social media platforms, search engines, and
+                  knowledge bases for languages spoken by millions in the Horn of Africa. Drawing
+                  from hands-on experience, I will then explore the development of machine learning
+                  systems for underrepresented languages, focusing on Machine Translation and
+                  Automatic Speech Recognition for Amharic and Tigrinya. These case studies offer
+                  insight into the technical and social challenges involved, as well as the broader
+                  implications for the communities these technologies are intended to serve. I will
+                  conclude by discussing how we evaluate machine learning systems. Evaluation is
+                  central to defining scientific progress in the field, with benchmarks playing a
+                  critical role. However, benchmarks can also be strategically manipulated or
+                  misused. I will highlight how these issues manifest in practice and what they
+                  reveal about the incentives and priorities driving current AI research.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hadgu_asmelash-teka">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#dair"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2024-05-09" xml:id="ls44_t3_l3">
+              <eventName xml:lang="en">Six Degrees of Slavery: Measuring Slave-Ownership and Elite
+                Persistence in Britain</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Although the legacies of slavery in Britain have received increasing attention in
+                  recent years, little evidence exists on how such legacies have shaped the
+                  country’s political elite. This project seeks to quantify and chart these ties
+                  over time, using a novel computational technique harnessing Wikidata, a knowledge
+                  graph closely connected to Wikipedia, as a means of operationalizing historical
+                  proximity between individuals. This technique enables the measurement of personal
+                  proximity to slavery, including via familial and social connections. Aggregating
+                  this data for politicians across a series of historical parliaments demonstrates
+                  how links to slavery persisted via dynastic and other social ties into the 20th
+                  Century and the extent to which ties to slavery still exist among contemporary
+                  politicians. We demonstrate how slavery-backed networks have persisted more
+                  thoroughly in the Conservative Party and the House of Lords than in other
+                  institutions, and explore the robustness of this persistence to historical periods
+                  of reform. The results emphasize the extent to which slavery and its legacies
+                  continue to play an active role in British politics, as well as offering an
+                  efficient and reliable new method for measuring social proximity using online
+                  data.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gessler_theresa">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-viadrina"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2024-05-09" xml:id="ls44_t3_l4">
+              <eventName xml:lang="en">AI Safety Benchmarks Do Not Benchmark Safety</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=HaKi5uwX6p0"/>
+              <note type="abstract" xml:lang="en">
+                <p>As artificial intelligence systems become increasingly integrated into critical
+                  aspects of society, the need for robust safety evaluation is crucial. However,
+                  this talk contends that current AI safety benchmarks, while offering insights into
+                  specific model behaviors, fundamentally fall short of measuring genuine safety. We
+                  argue this from multiple perspectives: First, these benchmarks typically assess
+                  only a narrow, predefined set of known risks, providing limited coverage of the
+                  vast landscape of potential failures, including complex edge cases, subtle biases,
+                  and unknown unknowns. Second, we posit that safety is not merely the absence of
+                  quantifiable risk or a property inherent to an isolated component; rather, it is
+                  an emergent property of the entire socio-technical system operating within its
+                  real-world context. Finally, unlike mature engineering disciplines that
+                  incorporate robust methods for handling uncertainty and rely on continuous
+                  monitoring and adaptation, AI benchmarks offer static evaluations that cannot
+                  account for the dynamic nature of risk or the intersubjective and societal
+                  dimensions of what constitutes acceptable safety. By highlighting these
+                  limitations, this talk aims to demonstrate that a sole reliance on current
+                  benchmarks provides an incomplete and potentially misleading assessment of AI
+                  safety, underscoring the urgent need for more comprehensive, systemic, and
+                  context-aware evaluation paradigms.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#papakyriakopoulos_orestis">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen-tu"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2024-05-23" xml:id="ls44_t3_l5">
+              <eventName xml:lang="en">Delving into ChatGPT usage in academic writing through excess
+                vocabulary</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=81FHy-Jr4G4"/>
+              <note type="abstract" xml:lang="en">
+                <p>Recent large language models (LLMs) can generate and revise text with human-level
+                  performance and have been widely commercialized in systems like ChatGPT. These
+                  models come with clear limitations: they can produce inaccurate information,
+                  reinforce existing biases, and be easily misused. Yet, many scientists have been
+                  using them to assist their scholarly writing. How widespread is LLM usage in the
+                  academic literature currently? To answer this question, we use an unbiased,
+                  large-scale approach, free from any assumptions about academic LLM usage. We study
+                  vocabulary changes in 14 million PubMed abstracts from 2010-2024 and show how the
+                  appearance of LLMs led to an abrupt increase in the frequency of certain style
+                  words. Our analysis based on excess word usage suggests that at least 10% of 2024
+                  abstracts were processed with LLMs. This lower bound differed across disciplines,
+                  countries, and journals, and was as high as 30% for some PubMed sub-corpora. We
+                  show that the appearance of LLM-based writing assistants has had an unprecedented
+                  impact on the scientific literature, surpassing the effect of major world events
+                  such as the COVID-19 pandemic.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lause_jan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2024-06-06" xml:id="ls44_t3_l6">
+              <eventName xml:lang="en">Evaluating Political Bias: Insights into Robustness and
+                Multilinguality</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=_a4iCiDt7fg"/>
+              <note type="abstract" xml:lang="en">
+                <p>Due to the widespread use of large language models (LLMs), it is crucial to
+                  understand whether they embed a specific "worldview" and what these views reflect.
+                  In this talk, I will discuss the challenges in performing a robust evaluation of
+                  political bias in LLMs both from a monolingual and a multilingual perspective. I
+                  will present the results of two studies: the first involves developing a framework
+                  for systematically evaluating political bias in LLMs, with a detailed look at
+                  biases in specific policy issues and the importance of a robust evaluation when
+                  probing LLMs. The second study examines to what extent political biases are
+                  carried over across languages. Results suggest that biases are similar across
+                  European languages. I will conclude by discussing relevant open research questions
+                  regarding political biases in LLMs.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ceron_tanise">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bocconi"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2024-06-27" xml:id="ls44_t3_l7">
+              <eventName xml:lang="en">Is machine learning a Woke, Neutral, or Fascist
+                technic?</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Since the mid-2010s there have been concerns about the social biases that are
+                  embedded in the representational space of machine learning models which has led to
+                  a flourishing field of addressing the social harms of machine learning. This, in
+                  turn, has led to conflicting claims of machine learning being discriminatory,
+                  "woke," and value-neutral. In this lecture I will discuss the history of natural
+                  language processing and machine learning; and examine methods for developing
+                  machine learning tools for human and social data. I argue that claims of wokeness
+                  or even neutrality inherently misunderstand (a) the methods used by machine
+                  learning and (b) the social and historical contexts under which machine learning
+                  technologies are developed. Finally, I will close with a discussion on how machine
+                  learning infrastructures maintain and reify colonial legacies of displacing costs
+                  onto colonial bodies while centralizing benefits in the heart of the empire.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#talat_zeerak">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-edinburgh"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+
+            <event type="lecture" when="2024-07-04" xml:id="ls44_t3_l8">
+              <eventName xml:lang="en">Society-centered AI: An Integrative Perspective on
+                Algorithmic Fairness</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk, I will share my never-ending learning journey on algorithmic
+                  fairness. I will give an overview of fairness in algorithmic decision-making,
+                  reviewing the progress and wrong assumptions made along the way, which have led to
+                  new and fascinating research questions. Most of these questions remain open to
+                  this day and become even more challenging in the era of generative AI. Thus, this
+                  talk will provide only a few answers but many open challenges to motivate the need
+                  for a paradigm shift from owner-centered to society-centered AI. With
+                  society-centered AI, I aim to bring the values, goals, and needs of all relevant
+                  stakeholders into AI development as first-class citizens to ensure that these new
+                  technologies are at the service of society.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#valera_isabel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
             <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
         </event>
-
-
-
-
-
-
-
-
-
-        <event xml:id="ls47" type="lecture-series" where="#trier">
-          <eventName xml:lang="de">TCDH-Forschungskolloquiums</eventName>
-
-          <event type="lecture-series-term" from="2021-10" to="2022-01" xml:id="ls47_t1">
-            <eventName>Wintersemester 2021-22</eventName>
-            <ptr type="programme" target="..."/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-
-          <event type="lecture-series-term" from="2022-04" to="2022-07" xml:id="ls47_t2">
-            <eventName>Sommersemester 2022</eventName>
-            <ptr type="programme" target="..."/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-          <!-- There is no winter semester 2022-23 -->
-          <!-- There is no summer semester 2023 -->
-          <!-- There is no winter semester 2023-24 -->
-          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls47_t3">
-            <eventName>Sommersemester 2024</eventName>
-            <ptr type="programme" target="..."/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-          <!-- There is no winter semester 2024-25 -->
-          <event type="lecture-series-term" from="2025-02" to="2025-07" xml:id="ls47_t4">
-            <eventName>Sommersemester 2025</eventName>
-            <ptr type="programme" target="..."/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
-          </event>
-
-        </event>
-
         <!-- ##### Austria ##### -->
         <event xml:id="ls22" type="lecture-series" where="#wien">
           <eventName xml:lang="en">The Digital Humanities Guest Lecture Series / Introduction to
@@ -46544,7 +46976,6 @@
             <org role="organizer" corresp="#woldrich_anna"/>
           </event>
         </event>
-
         <event xml:id="ls42" type="lecture-series" where="#salzburg">
           <eventName xml:lang="de">Dazzling Data: Digital Humanities in der Mediävistik und
             Frühneuzeitforschung</eventName>
@@ -46997,7 +47428,6 @@
           </event>
 
         </event>
-
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
@@ -47307,7 +47737,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#mit"/>
+                  <affiliation corresp="#uni-mit"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-bern"/>
@@ -49123,14 +49553,282 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
 
-            <!-- 2016-01-13 -->
-            <!-- 2016-01-14 -->
-            <!-- 2016-01-20 -->
-            <!-- 2016-01-26 -->
-            <!-- 2016-01-28 -->
-            <!-- 2016-03-01 https://mediaspace.epfl.ch/media/0_qa1vbvxx -->
-            <!-- 2016-05-17 https://mediaspace.epfl.ch/media/0_t57uou80 -->
-            <!-- 2016-07-01 https://mediaspace.epfl.ch/media/0_oscv2r03 -->
+            <event type="lecture" when="2016-01-13" xml:id="ls43_t2_l1">
+              <eventName xml:lang="en">Early Modern Information Overload: Making Sense of Big Data
+                in the Humanities</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>The exponential increase in the scale of humanities datasets is altering the
+                  relationship of scholars to the objects of their research. Scholarly interactions
+                  are increasingly mediated by sophisticated systems at almost every stage of our
+                  work, from initial search to final analysis.</p>
+                <p>These ‘big data’ approaches—from data mining to distant reading—promise new
+                  insights into our shared cultural record in ways that would have previously been
+                  impossible. But, these same methods also risk disconnecting scholars from the raw
+                  materials of their research as individual texts are subsumed into massive digital
+                  collections.</p>
+                <p>One of the main challenges for the digital humanities is to develop scalable
+                  reading approaches—both distant and close—implying a new hermeneutic circle that
+                  allows scholars to move from macro- to micro-analyses and back. This talk will
+                  outline some previous attempts to address this challenge using data mining and
+                  machine learning techniques to explore large-scale datasets drawn primarily from
+                  the French Enlightenment period. It will then introduce and discuss current
+                  research projects that use sequence alignment algorithms to identify intertextual
+                  relationships over large heterogeneous corpora.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roe_glenn">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-australian"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-01-14" xml:id="ls43_t2_l2">
+              <eventName xml:lang="en">Designing Digital Humanities: An Agile Approach</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>The digital transformation of scholarship and education during the past 15 years
+                  has impacted most disciplines in the arts, humanities, and social sciences. With
+                  an abundance of digitized archives, open data, and digital tools, the
+                  opportunities for humanistic inquiry have grown exponentially. Yet, the conceptual
+                  foundations of Digital Humanities are still very much in debate and the challenges
+                  for developing new forms of knowledge production and educational methodologies
+                  remain.</p>
+                <p>The presenter will examine the ways in which a cross-disciplinary, collaborative,
+                  and project-based approach to Digital Humanities can help advance humanistic
+                  scholarship, evolve digital pedagogy within existing institutional structures, and
+                  open the humanities to new audiences.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#fendt_kurt">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mit"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-01-20" xml:id="ls43_t2_l3">
+              <eventName xml:lang="en">The Future of the Virtual Past</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>The future of human knowledge will be mostly digital. A transition from a linear
+                  growth to an exponential growth of human knowledge is taking place. This
+                  phenomenon will necessitate the development of vastly more complex software,
+                  shareability strategies, and new digital environments. The most impactful
+                  consequence might be universal access to all human knowledge. The world is moving
+                  rapidly towards ubiquitous connectivity that will further change how and where
+                  people associate, gather and share information, and consume media.</p>
+                <p>How can we represent this digitally-mediated human knowledge? What kind of
+                  feedback, interaction, virtual hermeneutics are expected? How much the way we
+                  digitally record/interact can influence our interpretation? This talk will present
+                  different case studies in the above-mentioned scenario at the intersection of
+                  cyberarchaeology, virtual museums, big data and virtual environments.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#forte_maurizio">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-duke"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-01-26" xml:id="ls43_t2_l4">
+              <eventName xml:lang="en">Computational Methods for Complex Text Traditions</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk the presenter will showcase her work to elaborate a computational
+                  model for how text written in the classical and medieval era changed as they were
+                  copied and how we have been using these models to test hypothesis about the stemma
+                  or “manuscript family tree”.</p>
+                <p>The presenter will also touch upon the interesting problems that arise when
+                  bringing digital methods into the humanities.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#andrews_tara">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bern"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-01-28" xml:id="ls43_t2_l5">
+              <eventName xml:lang="en">Bridging Music Analysis, Computation and Cognition –
+                Perspectives for Digital Musicology</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>The rapid progress in digital technology, networks, computational methods and
+                  computing power has had a large impact on society as well as academia. As a new
+                  field on the rise, digital musicology is still in early stages of exploring the
+                  potential of digital technologies and methods. Questions concerning how these may
+                  be employed for addressing (and adapting) core musicological questions have been
+                  the focus of recent interdisciplinary debates. This talk will illustrate ways of
+                  bringing together questions from musicology and music analysis with formal and
+                  computational methods and discuss opportunities and current challenges. One
+                  important issue lies in the fact that music fundamentally constitutes a mental
+                  phenomenon. This entails that computational methods of processing musical
+                  structures relevant for human listeners require taking into account insights from
+                  music cognition. Another related challenge consists in the fact that despite
+                  having large collections of music available, many features of interest for
+                  (musicologically oriented) music analysis are still challenging to compute and
+                  annotated sources are rare.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rohrmeier_martin">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-tu"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-03-01" xml:id="ls43_t2_l6">
+              <eventName xml:lang="en">Patterns and Meaning</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
+              <note type="abstract" xml:lang="en">
+                <p>“No one has ever seen the objects studied by contemporary historians”, Krzysztof
+                  Pomian wrote a few years ago, “and no one could ever have seen them […] because
+                  they have no equivalent within lived experience”. True, no one has a “lived
+                  experience” of demographic change or of literacy rates – or of image like those
+                  used by computational criticism (or digital humanities, as they have been
+                  disastrously named by the US federal agency in charge of funding them). We are
+                  still studying novels, in the new space of literary labs, but we prepare them for
+                  analysisin a way that changes what is in front of our eyes, and in a way that
+                  fully supports Pomian’s point. Reading a novel, watching a play, listening to a
+                  poem: this is the “lived experience” of literature. The images of computational
+                  criticism are abstractions. So: what does it mean, studying literature through a
+                  series of abstractions?</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moretti_franco">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-05-17" xml:id="ls43_t2_l7">
+              <eventName xml:lang="en">Why Big Data Needs Big Theory in Social Sciences</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_t57uou80"/>
+              <note type="abstract" xml:lang="en">
+                <p>This presentation will outline a perspective towards a systematic science of art
+                  and culture. As such, the proposed approach integrates qualitative inquiry with
+                  computation, natural science, and information design, while sharing the aim of
+                  understanding the process of art and cultural history with so-called traditional
+                  practice. It explores unknown complex emerging structure and dynamics by analyzing
+                  large data sets, using both quantitative measurement and qualitative inquiry.
+                  Similar to systems biology, the procedure is characterized by multidisciplinary
+                  co-authorship and publications that make extensive use of scholarly figures.
+                  Justifying the need for such an approach, it will be argued that the process of
+                  art history is both transcending and exponential, while the discipline of art
+                  history, in principle, has no limits in method.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#boullier_dominique">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-epfl-lausanne"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2016-07-01" xml:id="ls43_t2_l8">
+              <eventName xml:lang="en">Spatial Interfaces to Illimitable Archives</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_oscv2r03"/>
+              <note type="abstract" xml:lang="en">
+                <p>Exhibition practices in contemporary galleries, libraries, archives and museums
+                  are being redefined by ever expanding heterogeneous digital archives. This talk
+                  introduces emerging categories of information visualization in the humanities such
+                  as big history, distant reading, cultural analytics and deep mapping, and then
+                  focuses on strategies of engagement through embodied and interactive interfaces to
+                  these digital archives. The argument presents paradigms for multi-dimensional
+                  sculpting of cultural data that open new realms of interpretation and presentation
+                  for spatial, temporal, literary, and audio-visual archives of tangible and
+                  intangible heritage. By emphasizing aesthetic and narrative approaches to the
+                  problems of creating knowledge from the body of an infinite archive, these
+                  paradigms provide new modalities for discovery that are based on emergent
+                  storytelling and embodied interaction.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kenderdine_sarah">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-new-south-wales"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
@@ -49140,10 +49838,146 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
 
-            <!-- 2017-11-13 https://mediaspace.epfl.ch/media/0_mi9ipd4p -->
-            <!-- 2017-12-04 https://mediaspace.epfl.ch/media/0_c5jz5qvc -->
-            <!-- 2017-12-15 https://mediaspace.epfl.ch/media/0_n9vr4x8i -->
-            <!-- 2017-12-18 -->
+            <event type="lecture" when="2017-11-13" xml:id="ls43_t3_l1">
+              <eventName xml:lang="en">Data art, creating artworks from scientific data?</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_mi9ipd4p"/>
+              <note type="abstract" xml:lang="en">
+                <p>Even if it may seem unnatural at first, the combination of art and science is
+                  gaining momentum in the research community. In this talk, I will explain why data
+                  art is a formidable support for scientific communication by showing how I went
+                  from raw data mining to the final creative representation. Throughout various
+                  examples, we will see that this approach can be used regardless of one’s field of
+                  research as long as there is data to support it.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#benzi_kirell">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-epfl-lausanne"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2017-12-04" xml:id="ls43_t3_l2">
+              <eventName xml:lang="en">Music Semantics: Problems and Prospects</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_c5jz5qvc"/>
+              <note type="abstract" xml:lang="en">
+                <p>While it is nearly uncontroversial that music is subject to some ‘syntactic
+                  rules’, it is initially very unclear that music has ‘meaning’ in anything like the
+                  usual sense. We sketch a conceptual framework in which music can trigger
+                  inferences about a music-external reality, and may even be endowed with (highly
+                  underspecified) truth conditions. But their source is very different from that of
+                  most truth-conditional phenomena in language: normal auditory cognition and
+                  aspects of iconic semantics (used for pictures, gestures, and some aspects of
+                  signs) are better models than compositional semantics in language.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schlenker_philippe">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-new-york"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2017-12-15" xml:id="ls43_t3_l3">
+              <eventName xml:lang="en">Projects in Visualizing Data 1975-2017</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_n9vr4x8i"/>
+              <note type="abstract" xml:lang="en">
+                <p>The translation of multivariate abstract data into visualization first requires a
+                  process of classification which is inherently culturally defined, given that
+                  systems of classification tend to be shaped by discipline-specific perspectives,
+                  cultural priorities and historical circumstances. The presentation will address
+                  the evolution of methodologies in my artistic works that explore classification
+                  and the translation of information into visual experiences from pre-digital
+                  photographic works such as “A Catalog of Found Objects” (1975) to interactive
+                  works that organize cultural data as in the “Anecdoted Archive from the Cold War
+                  (1992)”, to installations that collect data from the viewing public such as
+                  “Pockets Full of Memories” (2001-2007), and “Cell Tango” (2006-2009).</p>
+                <p>The presentation will then shift to explore in detail the artwork “Making Visible
+                  the Invisible” (2005-present), a commissioned work at the Seattle Public Library,
+                  a data visualization project that receives its data hourly from the interactions
+                  of library patrons through their check-outs and check-in of books, cds, and
+                  movies. This artwork began operations in September 2005, and is expected to be
+                  active until 2019. The unusual aspect of this project is that it collects data by
+                  the hour, approximately 30,000 per day, 8 million per day, and has so far built-up
+                  a history of over 90 million checkouts, a distinctly insightful historical record
+                  tracking the cultural interests of an urban community, and the transformation of
+                  the library through the 2nd and 3rd decade following the introduction of the
+                  internet. The artwork will be described, and then follow with results of a course
+                  focused on visualizing the relations of data and explorations thru the language of
+                  aesthetics applied to information retrieval. The course has been offered annually
+                  since 2006 in which topics such as cultural trends, and system anomalies have been
+                  explored through the collected Seattle library data.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#legrady_george">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-california"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
+
+            <event type="lecture" when="2017-12-18" xml:id="ls43_t3_l4">
+              <eventName xml:lang="en">Emotions, Music, and the Brain</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Music is a universal feature of human societies, partly owing to its power to
+                  evoke strong emotions and influence moods. During the past decade, the
+                  investigation of the neural correlates of music-evoked emotions has been
+                  invaluable for the understanding of human emotion.</p>
+                <p>Functional neuroimaging studies on music and emotion show that music can modulate
+                  activity in brain structures that are known to be crucially involved in emotion.
+                  The potential of music to modulate activity in these structures has important
+                  implications for the use of music in the treatment of psychiatric and neurological
+                  disorders. The talk will also deal with the psychological mechanisms underlying
+                  the evocation of emotions with music, such as appraisals, emotional resonance,
+                  musical expectancy, and the social functions of music.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#koelsch_stefan">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bergen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
