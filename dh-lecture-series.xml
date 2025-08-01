@@ -275,6 +275,31 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-nantes" type="university">
+            <name xml:lang="fr">Université de Nantes</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q259388</idno>
+            <place corresp="#nantes"/>
+          </org>
+          <org xml:id="uni-ohio-state" type="university">
+            <name xml:lang="en">Ohio State University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q309331</idno>
+            <place corresp="#olumbus"/>
+          </org>
+          <org xml:id="uni-brighton" type="university">
+            <name xml:lang="en">University of Brighton</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3056813</idno>
+            <place corresp="#brighton-and-hove"/>
+          </org>
+          <org xml:id="uni-portland" type="university">
+            <name xml:lang="en">University of Portland</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q513658</idno>
+            <place corresp="#portland"/>
+          </org>
+          <org xml:id="uni-northeastern" type="university">
+            <name xml:lang="en">Northeastern University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q37548</idno>
+            <place corresp="#boston"/>
+          </org>
           <org xml:id="uni-rutgers" type="university">
             <name xml:lang="en">Rutgers University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q499451</idno>
@@ -2351,6 +2376,106 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="kuntz_pascale">
+            <name>
+              <forename>Pascale</forename>
+              <surname>Kuntz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0002-9971-5294</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q102412825</idno>
+          </person>
+          <person xml:id="smith_david">
+            <name>
+              <forename>David</forename>
+              <surname>Smith</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="kaplan_frederic">
+            <name>
+              <forename>Frederic</forename>
+              <surname>Kaplan</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6991-5730</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23714153</idno>
+          </person>
+          <person xml:id="west_robert">
+            <name>
+              <forename>Robert</forename>
+              <surname>West</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3984-1232</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q28053587</idno>
+          </person>
+          <person xml:id="salzmann_mathieu">
+            <name>
+              <forename>Mathieu</forename>
+              <surname>Salzmann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8347-8637</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q88309653</idno>
+          </person>
+          <person xml:id="shanahan_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Shanahan</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6859-1324</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q5218742</idno>
+          </person>
+          <person xml:id="baudry_jerome">
+            <name>
+              <forename>Jérôme</forename>
+              <surname>Baudry</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9949-0681</idno>
+          </person>
+          <person xml:id="burie_jean-christophe">
+            <name>
+              <forename>Jean-Christophe</forename>
+              <surname>Burie</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7323-2855</idno>
+          </person>
+          <person xml:id="brandes_ulrik">
+            <name>
+              <forename>Ulrik</forename>
+              <surname>Brandes</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1520-0430</idno>
+          </person>
+          <person xml:id="kapossy_bela">
+            <name>
+              <forename>Bela</forename>
+              <surname>Kapossy</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-2265-587X</idno>
+          </person>
+          <person xml:id="snook_kelly">
+            <name>
+              <forename>Kelly</forename>
+              <surname>Snook</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0143-5949</idno>
+          </person>
+          <person xml:id="auer_anita">
+            <name>
+              <forename>Anita</forename>
+              <surname>Auer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0007-6302-5810</idno>
+          </person>
           <person xml:id="trottier_daniel">
             <name>
               <forename>Daniel</forename>
@@ -12869,6 +12994,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007942</idno>
           </place>
           <!-- ######## French cities ######## -->
+          <place type="city" xml:id="nantes">
+            <country corresp="#france"/>
+            <name>Nantes</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7008482</idno>
+          </place>
           <place type="city" xml:id="la-rochelle">
             <country corresp="#france"/>
             <name>La Rochelle</name>
@@ -13311,6 +13441,21 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="columbus">
+            <country corresp="#usa"/>
+            <name>Columbus</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013645</idno>
+          </place>
+          <place type="city" xml:id="portland">
+            <country corresp="#usa"/>
+            <name>Portland</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7014273</idno>
+          </place>
+          <place type="city" xml:id="boston">
+            <country corresp="#usa"/>
+            <name>Boston</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013445</idno>
+          </place>
           <place type="city" xml:id="new-jersey">
             <country corresp="#usa"/>
             <name>New Jersey</name>
@@ -50329,30 +50474,453 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626101322/https://www.epfl.ch/schools/cdh/dh-events-2019/"/>
 
-            <!-- 2019-02-19 https://mediaspace.epfl.ch/media/0_9w1zmqbs  |  https://web.archive.org/web/20250626135104/https://www.epfl.ch/schools/cdh/network-inference-from-textual-evidence-information-propagation-translation-and-multi-input-attention/ -->
+            <event type="lecture" when="2019-02-19" xml:id="ls43_t5_l1">
+              <eventName xml:lang="en">Network Inference from Textual Evidence: Information
+                Propagation, Translation, and Multi-Input Attention</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135104/https://www.epfl.ch/schools/cdh/network-inference-from-textual-evidence-information-propagation-translation-and-multi-input-attention/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_9w1zmqbs"/>
+              <note type="abstract" xml:lang="en">
+                <p>Mass digitization has provided a mountain of source material for the humanities
+                  and social sciences, but its structure is unevenly mapped. Dependencies among
+                  documents arise when copying manuscripts, citing scholarly literature, speaking
+                  from talking points, reposting social networking content, popularizing scientific
+                  papers, or otherwise transforming earlier sources. While some dependencies are
+                  observable—e.g., by citations or links—we often need to infer them from textual
+                  evidence. In our Viral Texts and Oceanic Exchanges projects, we have built models
+                  to trace information flow within and across languages in poorly OCR’d newspapers.
+                  Other projects in our group infer and exploit such dependencies to model the
+                  writing of legislation, the impact of scientific press releases, and changes in
+                  the syntax of language.</p>
+                <p>I discuss methods for inferring these dependency structures and exploiting them
+                  to improve other tasks. First, I describe a directed spanning tree model of
+                  information cascades and a new unsupervised contrastive training procedure that
+                  outperforms previous approaches to network inference. I then describe extracting
+                  parallel passages from non-parallel multilingual corpora by performing efficient
+                  search in the continuous document-topic simplex of a polylingual topic model to
+                  train translation systems with greater accuracy than smaller clean datasets.
+                  Finally, I describe methods for detecting multiple transcriptions of the same
+                  passage in a large corpus of noisy OCR and for exploiting these multiple witnesses
+                  to correct noisy text. These multi-input attention models provide efficient
+                  approximations to intractable multi-sequence alignment collation and enable 75%
+                  reductions in error with unsupervised models.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#smith_david">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-northeastern"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-03-06 https://mediaspace.epfl.ch/media/0_rdepbplf  |  https://web.archive.org/web/20250626134950/https://www.epfl.ch/schools/cdh/digital-humanities-at-scale-2012-2032/ -->
-            <!-- 2019-03-20 https://mediaspace.epfl.ch/media/0_3s3l3c0j  |  https://web.archive.org/web/20250626134920/https://www.epfl.ch/schools/cdh/observational-studies/ -->
+            <event type="lecture" when="2019-03-06" xml:id="ls43_t5_l2">
+              <eventName xml:lang="en">Digital Humanities at Scale : 2012 – 2032</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134950/https://www.epfl.ch/schools/cdh/digital-humanities-at-scale-2012-2032/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_rdepbplf"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kaplan_frederic">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-04-03 https://mediaspace.epfl.ch/media/0_9fneagxl  |  https://web.archive.org/web/20250626135030/https://www.epfl.ch/schools/cdh/towards-interpretable-deep-visual-recognition-2/ -->
-            <!-- 2019-04-17 https://web.archive.org/web/20250626135239/https://www.epfl.ch/schools/cdh/encoding-embodied-acts-technologies-of-corporeality/ -->
-            <!-- 2019-04-25 https://tube.switch.ch/cast/embed/9373278d-a1ba-46d6-8333-a9e268c45f08  |  https://web.archive.org/web/20250626135327/https://www.epfl.ch/schools/cdh/comics-analysis-and-indexing/ -->
+            <event type="lecture" when="2019-03-20" xml:id="ls43_t5_l3">
+              <eventName xml:lang="en">Observational studies</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134920/https://www.epfl.ch/schools/cdh/observational-studies/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_3s3l3c0j"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#west_robert">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-05-01 https://web.archive.org/web/20250626135501/https://www.epfl.ch/schools/cdh/dh-and-ways-of-knowing/ -->
-            <!-- 2019-05-29 https://web.archive.org/web/20250626135918/https://www.epfl.ch/schools/cdh/what-a-historian-wants-from-digital-humanities/ -->
+            <event type="lecture" when="2019-04-03" xml:id="ls43_t5_l4">
+              <eventName xml:lang="en">Towards Interpretable Deep Visual Recognition</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135030/https://www.epfl.ch/schools/cdh/towards-interpretable-deep-visual-recognition-2/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_9fneagxl"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#salzmann_mathieu">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-09-18 https://web.archive.org/web/20250626135632/https://memento.epfl.ch/event/what-can-a-historian-expect-of-digital-humanities-/ -->
+            <event type="lecture" when="2019-04-17" xml:id="ls43_t5_l5">
+              <eventName xml:lang="en">Encoding Embodied Acts: Technologies of
+                Corporeality</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135239/https://www.epfl.ch/schools/cdh/encoding-embodied-acts-technologies-of-corporeality/"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kenderdine_sarah">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-10-29 https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/ -->
+            <event type="lecture" when="2019-04-25" xml:id="ls43_t5_l6">
+              <eventName xml:lang="en">Comics analysis and Indexing</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135327/https://www.epfl.ch/schools/cdh/comics-analysis-and-indexing/"/>
+              <ptr type="video"
+                target="https://tube.switch.ch/cast/embed/9373278d-a1ba-46d6-8333-a9e268c45f08"/>
+              <note type="abstract" xml:lang="en">
+                <p>Born in the 19th century, “comics” (Bande Dessinée in French) is a visual medium
+                  used to express ideas via images, often combined with text and graphics. “Comics”
+                  is often considered as the 9th art, the sequential art, disseminated through the
+                  progress of the printing press throughout the world in newspapers, books and
+                  magazines. Nowadays, the development of the new technologies and the World Wide
+                  Web is giving birth to a new form of paperless comics that takes advantage of the
+                  virtual world freedom. However, traditional comics still represent an important
+                  cultural heritage in many countries. They have not yet received the same level of
+                  attention as music, cinema or literature about their adaptation to the digital
+                  format. Using information technologies with “classic” comics would facilitate the
+                  exploration of digital libraries, faster theirs translations, allow augmented
+                  reading (improvement of content during reading, on demand and personalized),
+                  speech playback for the visually impaired, etc.</p>
+                <p>Cultural heritage preservation organizations such as the CIBDI in Angoulême
+                  (French acronym for International City of Comic books and Images), the Kyoto
+                  International Manga Museum and the digitalcomicmuseum.com website in USA have
+                  already digitized hundreds of comic albums that some are now in the public domain.
+                  Despite the expending market place of digital comics, few researches have been
+                  carried out to take advantage of the added value provided by these new media.</p>
+                <p>The difficulty of analyzing the “Bandes Dessinées”, comics and mangas comes from
+                  the large diversity of contents. Indeed, each author has his own style both in
+                  terms of drawing and representation of texts. Developing methods for extracting
+                  and indexing comics content is a significant challenge.</p>
+                <p>In this talk, I will present the different strategies used to extract the
+                  elements of comic strips such as panels, speech balloons, text, characters and
+                  links that may exist between these elements.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#burie_jean-christophe">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-la-rochelle"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-09-20 https://web.archive.org/web/20250626135917/https://memento.epfl.ch/event/kepler-concordia-playing-solar-systems-as-musical-/ -->
+            <event type="lecture" when="2019-05-01" xml:id="ls43_t5_l7">
+              <eventName xml:lang="en">DH and Ways of Knowing</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135501/https://www.epfl.ch/schools/cdh/dh-and-ways-of-knowing/"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">...</term>
+                <term type="audience">...</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#baudry_jerome">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-10-29 https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/ -->
+            <event type="lecture" when="2019-05-29" xml:id="ls43_t5_l8">
+              <eventName xml:lang="en">What a historian wants from Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135918/https://www.epfl.ch/schools/cdh/what-a-historian-wants-from-digital-humanities/"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">...</term>
+                <term type="audience">...</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kapossy_bela">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-11-13 https://web.archive.org/web/20250626135825/https://memento.epfl.ch/event/the-digital-turn-in-historical-sociolinguistics-ta/ -->
-            <!-- 2019-11-19 https://web.archive.org/web/20250626135606/https://memento.epfl.ch/event/networks-the-digital-humanities-and-everything-tal/ -->
+            <event type="lecture" when="2019-09-18" xml:id="ls43_t5_l9">
+              <eventName xml:lang="en">What can a historian expect of Digital
+                Humanities?</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135632/https://memento.epfl.ch/event/what-can-a-historian-expect-of-digital-humanities-/"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kapossy_bela">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2019-12-04 https://web.archive.org/web/20250626135710/https://memento.epfl.ch/event/ai-for-humans-a-personal-agenda-talk-by-prof-pasca/ -->
+            <event type="lecture" when="2019-09-20" xml:id="ls43_t5_l10">
+              <eventName xml:lang="en">Kepler Concordia: Playing solar systems as musical
+                instruments</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135917/https://memento.epfl.ch/event/kepler-concordia-playing-solar-systems-as-musical-/"/>
+              <note type="abstract" xml:lang="en">
+                <p>What if you could answer a 400-year-old burning scientific question just by
+                  playing a musical instrument? What if playing this instrument helped launch a new
+                  economy of music and art in society? Former NASA Scientist, Kelly Snook will
+                  discuss her new project, Concordia, which allows you to play solar systems and
+                  other scientific data like musical instruments. You are immersed in the geometric
+                  world of Johannes Kepler, flying through space as you explore and play the Music
+                  of the Spheres. We are entering into a new era of music as a tool for scientific
+                  exploration and discovery, which is a return to the past when music was part of
+                  the Quadrivium.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#snook_kelly">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-brighton #uni-portland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2019-10-29" xml:id="ls43_t5_l11">
+              <eventName xml:lang="en">The Corpus as an Artifact of Musical Change: Studies in
+                Style, Transmission, and Diffusion</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135533/https://memento.epfl.ch/event/the-corpus-as-an-artifact-of-musical-change-studie/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Musical corpora have been used to examine the changing aspects of compositional
+                  style (e.g. Albrecht and Huron, 2013; Broze and Shanahan, 2013), as well as
+                  mutable aspects of the "situated cognition" of an audience (Byros, 2009). Recent
+                  work (Shanahan and Albrecht, 2019) has employed a combination of corpus and
+                  behavioral research to explore the nature of physical and cognitive constraints on
+                  transmission, and I will follow up on this work here, discussing a theory of
+                  musical change through both corpus and behavioral approaches. Additionally, I will
+                  discuss how we might employ symbolic corpora to inform future theories of musical
+                  change, even when such corpora are lacking in data or are of unknown origin.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#shanahan_daniel">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-ohio-state"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2019-11-13" xml:id="ls43_t5_l12">
+              <eventName xml:lang="en">The Digital Turn in Historical Sociolinguistics</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135825/https://memento.epfl.ch/event/the-digital-turn-in-historical-sociolinguistics-ta/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Over the last thirty years numerous corpora of various historical varieties of
+                  English and other languages have been compiled and made available to historical
+                  sociolinguistics, i.e. a research field that investigates language variation and
+                  change over time and space, with a particular focus on the effect that society has
+                  on language use. Regarding the text bases for corpus creation, a development from
+                  using printed material, often written by the top social layers, to manuscript
+                  materials, written by the lower (less educated) social layers, can be observed. On
+                  the digital side, a move from plain text versions to TEI and other standards has
+                  taken place.</p>
+                <p>This presentation (a) provides a brief overview of the digital development in the
+                  field of historical sociolinguistics, and (b) discusses some challenges that the
+                  corpus creation process entails, e.g. the conversion of textual material into a
+                  corpus, the implementation of meta-linguistic information, the (dis)agreement on
+                  standards, and (c) sketches a vision and the future potential of historical
+                  sociolinguistic databases.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#auer_anita">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2019-11-19" xml:id="ls43_t5_l13">
+              <eventName xml:lang="en">Networks, the Digital Humanities, and Everything</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135606/https://memento.epfl.ch/event/networks-the-digital-humanities-and-everything-tal/"/>
+              <note type="abstract" xml:lang="en">
+                <p>After millions of years of contemplation, a computer might make sense of this
+                  title. Meanwhile, although maybe not for quite as long, I will talk about network
+                  science and some of its applications in literary corpus analysis. The focus is on
+                  fundamental questions related to oppositions such as works of art vs. network
+                  data, close vs. distant reading, and qualitative vs. quantitative approaches, but
+                  they will be exemplified with questions from a study of Deutscher Novellenschatz
+                  (1871-1876). This collection of German-language novellas, edited by Paul Heyse and
+                  Hermann Kurz, is the main subject of an ongoing collaboration with Thomas Weitin
+                  (TU Darmstadt).</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#brandes_ulrik">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-zuerich"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2019-12-04" xml:id="ls43_t5_l14">
+              <eventName xml:lang="en">AI for Humans: a personal agenda</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626135710/https://memento.epfl.ch/event/ai-for-humans-a-personal-agenda-talk-by-prof-pasca/"/>
+              <note type="abstract" xml:lang="en">
+                <p>French surveys have revealed that for one third of employees, professional
+                  digital tools are a cause of stress, and that for the general public, one in five
+                  adults never used digital tools or stopped using them because of their difficulty.
+                  Moreover, negative feelings are reported by more than 60% of the interviewees of a
+                  survey on Artificial Intelligence. A large literature is now devoted to the
+                  explanatory factors but the role of engineers and developers of digital
+                  technologies is still poorly studied. The popular adage "it's computers’ fault"
+                  captures this invisibility. Yet major international AI conferences now include
+                  sessions dedicated to ethical issues and societal impacts that engage scientists.
+                  In this presentation, which will take the liberty of a reflexive posture, I will
+                  analyze different avenues of research that I have explored in an attempt to
+                  develop data mining and artificial intelligence algorithms "more adapted" to human
+                  users. Three approaches will be discussed: (1) human-algorithm coupling through
+                  knowledge modeling with ontologies, and "relevant" information filtering with data
+                  visualization (2) human-inspired algorithms based on usage observations (3)
+                  machine learning algorithms accessibility by including available computing
+                  resources in the algorithm development.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kuntz_pascale">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-nantes"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
