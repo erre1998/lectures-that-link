@@ -275,6 +275,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-colombo" type="university">
+            <name xml:lang="en">University of Colombo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q720953</idno>
+            <place corresp="#colombo"/>
+          </org>
           <org xml:id="uni-leeds" type="university">
             <name xml:lang="en">University of Leeds</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q503424</idno>
@@ -1561,6 +1566,11 @@
             <place corresp="#geneve"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="mpii" type="research_institution">
+            <name xml:lang="de">Max-Planck-Institut für Informatik</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
+            <place corresp="#saarbruecken"/>
+          </org>
           <org xml:id="cas" type="research_institution">
             <name xml:lang="cs">Akademie věd České republiky</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q97040206</idno>
@@ -2276,6 +2286,58 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="braun_daniela">
+            <name>
+              <forename>Daniela</forename>
+              <surname>Braun</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113450832</idno>
+          </person>
+          <person xml:id="weber_ingmar">
+            <name>
+              <forename>Ingmar</forename>
+              <surname>Weber</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6840-7718</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30511848</idno>
+          </person>
+          <person xml:id="gamage_dilrukshi">
+            <name>
+              <forename>Dilrukshi</forename>
+              <surname>Gamage</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4169-2579</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130936353</idno>
+          </person>
+          <person xml:id="sorge_christoph">
+            <name>
+              <forename>Christoph</forename>
+              <surname>Sorge</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-7388-4240</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q123965971</idno>
+          </person>
+          <person xml:id="feldmann_anja">
+            <name>
+              <forename>Anja</forename>
+              <surname>Feldmann</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5530-6993</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q92913</idno>
+          </person>
+          <person xml:id="gautam_vagrant">
+            <name>
+              <forename>Vagrant</forename>
+              <surname>Gautam</surname>
+            </name>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7263-8578</idno>
+          </person>
           <person xml:id="aubry_mathieu">
             <name>
               <forename>Mathieu</forename>
@@ -11799,6 +11861,10 @@
             <bloc type="continent" corresp="#asia"/>
             <name>Japan</name>
           </place>
+          <place type="country" xml:id="sri-lanka">
+            <bloc type="continent" corresp="#asia"/>
+            <name>Sri Lanka</name>
+          </place>
           <place type="country" xml:id="united-arab-emirates">
             <bloc type="continent" corresp="#asia"/>
             <name>United Arab Emirates</name>
@@ -11819,10 +11885,14 @@
             <bloc type="continent" corresp="#asia"/>
             <name>Israel</name>
           </place>
-          <!-- ###### Continent: Australia ###### -->
+          <!-- ###### Continent: Oceania ###### -->
           <place type="country" xml:id="australia">
             <bloc type="continent" corresp="#oceania"/>
             <name>Australia</name>
+          </place>
+          <place type="country" xml:id="new-zealand">
+            <bloc type="continent" corresp="#oceania"/>
+            <name>New Zealand</name>
           </place>
           <!-- ###### Continent: North America ###### -->
           <place type="country" xml:id="canada">
@@ -12874,6 +12944,12 @@
             <country corresp="#israel"/>
             <name>Jerusalem</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001371</idno>
+          </place>
+          <!-- ######## Sri Lanka cities ######## -->
+          <place type="city" xml:id="colombo">
+            <country corresp="#sri-lanka"/>
+            <name>Colombo</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7002533</idno>
           </place>
           <!-- ######## Japanese cities ######## -->
           <place type="city" xml:id="bunkyo">
@@ -41889,7 +41965,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#ieg-main"/>
+                  <affiliation corresp="#ieg-mainz"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-freiburg"/>
@@ -43439,10 +43515,233 @@
             <eventName xml:lang="en">Summer 2024</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="..."/>
+            <event type="lecture" when="2024-04-26" xml:id="ls44_t1_l1">
+              <eventName xml:lang="en">Digital vs. analog footprints</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In the digital world users leave footprints, e.g., by the applications they use
+                  or regarding their geographic interest by visiting various Websites from country
+                  code Top Level Domains (ccTLDs). In the analog world various statistics try to
+                  capture human behavior. Both approaches have their drawbacks. For example, users
+                  interest can shift quickly yet not all domains under a specific top level domains
+                  may be related to that geographic region. At the same time gathering offline
+                  statistics is often costly and may require a huge effort.</p>
+                <p>In this talk I will use Internet measurement studies as examples to outline our
+                  ability to collect digital footprints, including gathering information about the
+                  implications of the COVID-19 Pandemic on Internet traffic. Then I will discuss how
+                  geographic interest may correlate with population statistics.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#feldmann_anja">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#mpii"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-10" xml:id="ls44_t1_l2">
+              <eventName xml:lang="en">On Gender Gaps in Natural Language Processing</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=-mr8zLHIguA"/>
+              <note type="abstract" xml:lang="en">
+                <p>In the field of natural language processing (NLP), gender gaps are thought of and
+                  treated similarly to the gender wage gap in economics. I will present previous
+                  work on the Gender Gap Tracker at Simon Fraser University and more recent work
+                  done at Saarland University on pronoun use with large language models, to
+                  illustrate how gender gaps are technically operationalized in NLP. These examples
+                  will serve as motivation to discuss bigger-picture epistemological gaps in how
+                  “gender” is treated in NLP - typically as binary, immutable, and directly
+                  inferable from characteristics such as a person’s name, pronouns, and so on.
+                  Drawing on methodologies, frameworks and viewpoints from other disciplines,
+                  including work I was involved in on the use of intersectionality in AI fairness, I
+                  will end with my thoughts and hopes for closing the epistemological gaps, with the
+                  goal of addressing the technical gaps more effectively and justly.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gautam_vagrant">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-31" xml:id="ls44_t1_l3">
+              <eventName xml:lang="en">Legal Aspects of Artificial Intelligence: Balancing Privacy
+                and Utility</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=PvBCFQRZUfY"/>
+              <note type="abstract" xml:lang="en">
+                <p>The regulation of artificial intelligence poses new challenges for the law. For
+                  example, personal data is subject to data protection law even though the impact of
+                  the data processing might appear insignificant in many cases. In particular, this
+                  may apply to machine learning applications, which often use personal data of
+                  millions of different people.</p>
+                <p>The European Union is currently changing the legal framework for data processing.
+                  How will this framework affect the development of AI systems, the gathering of
+                  personal data for training purposes, and the application of trained models? Is the
+                  privacy of individuals still guaranteed - and if so, is data protection hindering
+                  technical progress? The lecture will provide an overview of current developments
+                  and analyse them from an interdisciplinary perspective.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sorge_christoph">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-06-14" xml:id="ls44_t1_l4">
+              <eventName xml:lang="en">The Rise of Generative AI: Exploring Trust, Believability,
+                and Social Media Dynamics</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=eb7tFYaS7oI"/>
+              <note type="abstract" xml:lang="en">
+                <p>We have entered a new era of artificial intelligence (AI), characterized by the
+                  rapid proliferation of Generative AI (GenAI) and its numerous applications. As
+                  humans, our interactions with “content” in various forms, including text, images,
+                  and videos, have undergone a profound transformation due to the integration of AI
+                  technologies. It has become increasingly challenging to discern whether we are
+                  communicating with a human or an AI model. Concurrently, the content generated
+                  using Large Language Models (LLMs) and AI-synthesized images and videos using
+                  Diffusion models have significantly altered our perspectives in the real world and
+                  on social media.</p>
+                <p>In certain instances, we encounter AI-generated fake profiles during job
+                  screening or marketing. In other cases, we are confronted with AI-generated fake
+                  videos, such as deepfakes, on social media, which purport to depict actions that
+                  never actually occurred. Notably, in an era of clickbait-incentivized social media
+                  platforms, deepfakes and other forms of appealing AI-generated content
+                  significantly increase human engagement, leading to various potential outcomes,
+                  both positive and negative.</p>
+                <p>It remains uncertain how we can establish trust in AI or how society will be
+                  impacted on a large scale by AI-generated content. Several questions arise: How
+                  much will share, incorporate, and interact with content created by AI? Will people
+                  “trust” the outcomes generated by AI? Will people believe what the majority share
+                  on social media? </p>
+                <p>In this presentation, I intend to engage in critical discussions on the topic of
+                  trust in AI, present empirical research findings on the believability and
+                  shareability of synthetic content, and explore the broader societal implications
+                  of GenAI applications and interactions.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gamage_dilrukshi">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-colombo"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-06-28" xml:id="ls44_t1_l5">
+              <eventName xml:lang="en">Unraveling Romantic Communication. Correspondence networks of
+                Early Romanticism</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=9UvD5bn5KRs"/>
+              <note type="abstract" xml:lang="en">
+                <p>The Early Romanticism in Jena and Berlin is considered the outstanding
+                  intellectual revolution of young German authors and scholars at the turn of the
+                  epoch around 1800. The group operated publicly and dispersively, yet
+                  network-forming; they reflected and practised "Geselligkeit," for example, through
+                  the communication form of letters. For the analysis of these epistolary
+                  communication processes among these authors, scholars, intelligentsia, and the
+                  people connected to them, the project aims to build up a database that consists of
+                  the letters exchanged among the key protagonists of Early Romanticism (such as,
+                  among others, Friedrich, Dorothea, August Wilhelm, and Caroline Schlegel, Novalis)
+                  and their correspondents between 1790 and 1802, covering various 'prehistories' up
+                  to the dissolution of the Jena Circle.</p>
+                <p>Using methods from knowledge management and network research, the project draws
+                  on additional data sources, e.g. the Integrated Authority File (GND) of the German
+                  National Library, to work towards a holistic picture of the relationships between
+                  those actors, the flow of knowledge and influences, informal and formal
+                  collaboration processes between them. By analysing communication networks, we aim
+                  to highlight important actors, identify groups and their formation processes,
+                  search for signs of loss or (re-)establishment of contact as well as set all these
+                  factors in a temporal and comparative context. Ultimately, through these results
+                  we intend to get a better understanding of knowledge transfer and production in
+                  the Romantic circle.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#deicke_aline">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-marburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-07-12" xml:id="ls44_t1_l6">
+              <eventName xml:lang="en">Theory vs. Computation? On building many Bridges over the
+                Gap</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=bbPoNaeayuU"/>
+              <note type="abstract" xml:lang="en">
+                <p>In those areas of Digital Humanities where computational methods are integral to
+                  analysis, it becomes essential to critically examine the interplay between
+                  humanities theories on the phenomena of interest and their computational analysis.
+                  While concepts such as operationalization and modeling have been under discussion
+                  for some time, there's still a notable absence of a comprehensive perspective on
+                  the entire research process which also includes humanities’ theories. I will
+                  suggest to view computational research processes in Digital Humanities as
+                  input-process-output workflows in which theoretical concepts serve as integral
+                  components at various stages. Drawing on computational literary studies as a case
+                  study, my presentation aims to elucidate the connection between theory and
+                  computation by proposing a methodology for enabling theory-driven validity.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gius_evelyn">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
 
           <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
@@ -43452,7 +43751,7 @@
 
             <!-- ADD THE LECTURES HERE -->
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
 
           <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
@@ -43462,9 +43761,17 @@
 
             <!-- ADD THE LECTURES HERE -->
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
         </event>
+
+
+
+
+
+
+
+
 
         <event xml:id="ls47" type="lecture-series" where="#trier">
           <eventName xml:lang="de">TCDH-Forschungskolloquiums</eventName>
