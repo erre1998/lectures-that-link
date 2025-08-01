@@ -2276,6 +2276,24 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="aubry_mathieu">
+            <name>
+              <forename>Mathieu</forename>
+              <surname>Aubry</surname>
+            </name>
+            <gender>male</gender>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3804-0193</idno>
+          </person>
+          <person xml:id="tang_kevin">
+            <name>
+              <forename>Kevin</forename>
+              <surname>Tang</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7382-9344</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57685582</idno>
+          </person>
           <person xml:id="steinicke_frank">
             <name>
               <forename>Frank</forename>
@@ -7514,9 +7532,10 @@
               <forename>Sarah</forename>
               <surname>Lang</surname>
             </name>
-            <gender>male</gender>
-            <idno type="orcid">https://orcid.org/0000-0002-4618-9481</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q126596247</idno>
+            <gender>female</gender>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3653-1981</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q104489641</idno>
           </person>
           <person xml:id="noichl_maximilian">
             <name>
