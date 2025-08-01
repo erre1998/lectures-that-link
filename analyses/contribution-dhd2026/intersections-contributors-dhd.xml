@@ -1148,8 +1148,8 @@
       <name>Burch, Thomas</name>
       <idno type="orcid">0000-0002-8050-1475</idno>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">burch_thomas</idno>
    </person>
    <person>
       <name>Burckhardt, Daniel</name>
@@ -2573,8 +2573,8 @@
       <name>Fischer, Barbara</name>
       <idno type="orcid">0009-0009-5034-6687</idno>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">fischer_barbara</idno>
    </person>
    <person>
       <name>Fischer, Frank</name>
@@ -2667,7 +2667,7 @@
       <name>Flückiger, Barbara</name>
       <note type="dhd-abstracts">yes</note>
       <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <idno type="lecture-series">flueckiger_barbara</idno>
    </person>
    <person>
       <name>Flüh, Marie</name>
@@ -3717,7 +3717,7 @@
       <name>Hartelt, Alexander</name>
       <note type="dhd-abstracts">yes</note>
       <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <idno type="lecture-series">hartelt_alexander</idno>
    </person>
    <person>
       <name>Hartmann, Jutta</name>
@@ -4583,7 +4583,7 @@
       <name>Jannidis, Fotis</name>
       <idno type="orcid">0000-0001-6944-6113</idno>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
+      <note type="lecture-series">yes</note>
       <idno type="lecture-series">jannidis_fotis</idno>
    </person>
    <person>
@@ -4888,8 +4888,8 @@
    <person>
       <name>Kaplan, Frederic</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">kaplan_frederic</idno>
    </person>
    <person>
       <name>Karcher, Stefan</name>
@@ -5288,7 +5288,7 @@
       <name>Klinke, Harald</name>
       <note type="dhd-abstracts">yes</note>
       <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <idno type="lecture-series">klinke_harald</idno>
    </person>
    <person>
       <name>Klinker, Fabian</name>
@@ -5403,7 +5403,7 @@
       <name>Kohle, Hubertus</name>
       <idno type="orcid">0000-0003-3162-1304</idno>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
+      <note type="lecture-series">yes</note>
       <idno type="lecture-series">kohle_hubertus</idno>
    </person>
    <person>
@@ -6140,7 +6140,7 @@
    <person>
       <name>Lauer, Gerhard</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
+      <note type="lecture-series">yes</note>
       <idno type="lecture-series">lauer_gerhard</idno>
    </person>
    <person>
@@ -7471,8 +7471,8 @@
    <person>
       <name>Neuroth, Heike</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">neuroth_heike</idno>
    </person>
    <person>
       <name>Nicholson, Daniel J.</name>
@@ -8031,8 +8031,8 @@
    <person>
       <name>Pittroff, Sarah</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">pittroff_sarah</idno>
    </person>
    <person>
       <name>Plakidis, Melina</name>
@@ -9127,7 +9127,7 @@
       <idno type="orcid">0000-0002-7226-8204</idno>
       <note type="dhd-abstracts">yes</note>
       <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <idno type="lecture-series">schlieder_christoph</idno>
    </person>
    <person>
       <name>Schlimpen, Hannah</name>
@@ -9451,8 +9451,8 @@
    <person>
       <name>Schubert, Charlotte</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">schubert_charlotte</idno>
    </person>
    <person>
       <name>Schubert, Tim</name>
@@ -9766,8 +9766,8 @@
    <person>
       <name>Siegert, Christine</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">siegert_christine</idno>
    </person>
    <person>
       <name>Siemund, Melanie</name>
@@ -10112,7 +10112,7 @@
       <name>Steinicke, Frank</name>
       <note type="dhd-abstracts">yes</note>
       <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <idno type="lecture-series">steinicke_frank</idno>
    </person>
    <person>
       <name>Steinmann, Lena</name>
@@ -10859,7 +10859,7 @@
    <person>
       <name>Vertan, Cristina</name>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
+      <note type="lecture-series">yes</note>
       <idno type="lecture-series">vertan_cristina</idno>
    </person>
    <person>
@@ -11205,8 +11205,8 @@
       <name>Weitin, Thomas</name>
       <idno type="orcid">0000-0002-9003-5746</idno>
       <note type="dhd-abstracts">yes</note>
-      <note type="lecture-series">no</note>
-      <idno type="lecture-series">not found</idno>
+      <note type="lecture-series">yes</note>
+      <idno type="lecture-series">weitin_thomas</idno>
    </person>
    <person>
       <name>Weiß, Andreas</name>
