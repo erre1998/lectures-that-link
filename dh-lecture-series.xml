@@ -275,6 +275,41 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-rutgers" type="university">
+            <name xml:lang="en">Rutgers University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q499451</idno>
+            <place corresp="#new-jersey"/>
+          </org>
+          <org xml:id="uni-rotterdam-erasmus" type="university">
+            <name xml:lang="nl">Erasmus Universiteit Rotterdam</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q633529</idno>
+            <place corresp="#rotterdam"/>
+          </org>
+          <org xml:id="uni-michigan" type="university">
+            <name xml:lang="en">University of Michigan</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q230492</idno>
+            <place corresp="#ann-arbor"/>
+          </org>
+          <org xml:id="uni-durham" type="university">
+            <name xml:lang="en">University of Durham</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q458393</idno>
+            <place corresp="#durham"/>
+          </org>
+          <org xml:id="uni-esmuc" type="university">
+            <name xml:lang="es">Escola Superior de Música de Catalunya</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3038223</idno>
+            <place corresp="#barcelona"/>
+          </org>
+          <org xml:id="uni-toulouse" type="university">
+            <name xml:lang="fr">Université de Toulouse</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q20669873</idno>
+            <place corresp="#toulouse"/>
+          </org>
+          <org xml:id="uni-la-rochelle" type="university">
+            <name xml:lang="fr">Université de La Rochelle</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1500822</idno>
+            <place corresp="#la-rochelle"/>
+          </org>
           <org xml:id="uni-australian" type="university">
             <name xml:lang="en">Australian National University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q127990</idno>
@@ -2316,6 +2351,83 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="trottier_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Trottier</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8476-673X</idno>
+          </person>
+          <person xml:id="martin_henry">
+            <name>
+              <forename>Henry</forename>
+              <surname>Martin</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="martin_nathan">
+            <name>
+              <forename>Nathan</forename>
+              <surname>Martin</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135554492</idno>
+          </person>
+          <person xml:id="hengchen_simon">
+            <name>
+              <forename>Simon</forename>
+              <surname>Hengchen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8453-7221</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q105529276</idno>
+          </person>
+          <person xml:id="noll_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Noll</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6701-7104</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2426323</idno>
+          </person>
+          <person xml:id="masure_anthony">
+            <name>
+              <forename>Anthony</forename>
+              <surname>Masure</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6633-0761</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130372210</idno>
+          </person>
+          <person xml:id="gatica-perez_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Gatica-Perez</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5488-2182</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113292860</idno>
+          </person>
+          <person xml:id="neuwirth_markus">
+            <name>
+              <forename>Markus</forename>
+              <surname>Neuwirth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1990-052X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95293250</idno>
+          </person>
+          <person xml:id="doucet_antoine">
+            <name>
+              <forename>Antoine</forename>
+              <surname>Doucet</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6160-3356</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q96290624</idno>
+          </person>
           <person xml:id="boullier_dominique">
             <name>
               <forename>Dominique</forename>
@@ -12757,6 +12869,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007942</idno>
           </place>
           <!-- ######## French cities ######## -->
+          <place type="city" xml:id="la-rochelle">
+            <country corresp="#france"/>
+            <name>La Rochelle</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7638074</idno>
+          </place>
           <place type="city" xml:id="champs-sur-marne">
             <country corresp="#france"/>
             <name>Champs-sur-Marne</name>
@@ -12979,6 +13096,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1047785</idno>
           </place>
           <!-- ######## Dutch cities ######## -->
+          <place type="city" xml:id="rotterdam">
+            <country corresp="#netherlands"/>
+            <name>Rotterdam</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7006792</idno>
+          </place>
           <place type="city" xml:id="nijmegen">
             <country corresp="#netherlands"/>
             <name>Nijmegen</name>
@@ -13189,6 +13311,16 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="new-jersey">
+            <country corresp="#usa"/>
+            <name>New Jersey</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7007565</idno>
+          </place>
+          <place type="city" xml:id="ann-arbor">
+            <country corresp="#usa"/>
+            <name>Ann Arbor</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013304</idno>
+          </place>
           <place type="city" xml:id="bloomington">
             <country corresp="#usa"/>
             <name>Bloomington</name>
@@ -49590,7 +49722,7 @@
                   <affiliation corresp="#uni-australian"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-01-14" xml:id="ls43_t2_l2">
@@ -49623,7 +49755,7 @@
                   <affiliation corresp="#uni-mit"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-01-20" xml:id="ls43_t2_l3">
@@ -49657,7 +49789,7 @@
                   <affiliation corresp="#uni-duke"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-01-26" xml:id="ls43_t2_l4">
@@ -49685,7 +49817,7 @@
                   <affiliation corresp="#uni-bern"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-01-28" xml:id="ls43_t2_l5">
@@ -49723,7 +49855,7 @@
                   <affiliation corresp="#uni-berlin-tu"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-03-01" xml:id="ls43_t2_l6">
@@ -49758,7 +49890,7 @@
                   <affiliation corresp="#uni-stanford"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-05-17" xml:id="ls43_t2_l7">
@@ -49789,10 +49921,10 @@
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
-                  <affiliation corresp="#uni-epfl-lausanne"/>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2016-07-01" xml:id="ls43_t2_l8">
@@ -49827,7 +49959,7 @@
                   <affiliation corresp="#uni-new-south-wales"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
@@ -49861,10 +49993,10 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-epfl-lausanne"/>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2017-12-04" xml:id="ls43_t3_l2">
@@ -49895,7 +50027,7 @@
                   <affiliation corresp="#uni-new-york"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2017-12-15" xml:id="ls43_t3_l3">
@@ -49943,7 +50075,7 @@
                   <affiliation corresp="#uni-california"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <event type="lecture" when="2017-12-18" xml:id="ls43_t3_l4">
@@ -49976,7 +50108,7 @@
                   <affiliation corresp="#uni-bergen"/>
                 </person>
               </listPerson>
-              <org role="host-institution" corresp="#uni-epfl-lausanne"/>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
@@ -49987,13 +50119,207 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626094936/https://www.epfl.ch/schools/cdh/dh-events-2018/"/>
 
-            <!-- 2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx  |   https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/ -->
-            <!-- 2018-10-11 https://mediaspace.epfl.ch/media/0_jt5lo1yk  |   https://web.archive.org/web/20250626094305/https://www.epfl.ch/schools/cdh/dh-lecture-series-sequential-pattern-mining-for-robust-event-detection/ -->
-            <!-- 2018-10-24 https://web.archive.org/web/20250626094353/https://www.epfl.ch/schools/cdh/the-question-of-why-on-the-notions-of-explanation-in-the-dh/ -->
-            <!-- 2018-11-07 https://mediaspace.epfl.ch/media/0_zzxziysy  |   https://web.archive.org/web/20250626094504/https://www.epfl.ch/schools/cdh/sciences-and-technologies-studies-from-case-studies-to-commensurable-data-extending-the-topofil-of-boa-vista-b-latour/ -->
-            <!-- 2018-11-21 https://web.archive.org/web/20250626094545/https://www.epfl.ch/schools/cdh/why-theories-of-aesthetics-matter-in-the-dh/ -->
-            <!-- 2018-11-29 https://mediaspace.epfl.ch/media/0_m2h9n71n  |   https://web.archive.org/web/20250626094843/https://www.epfl.ch/schools/cdh/design-et-humanites-numeriques/ -->
-            <!-- 2018-12-05 https://mediaspace.epfl.ch/media/0_cq0so9aw  |   https://web.archive.org/web/20250626094925/https://www.epfl.ch/schools/cdh/problems-with-data-assumptions-biases-and-more/ -->
+            <event type="lecture" when="2018-10-10" xml:id="ls43_t4_l1">
+              <eventName xml:lang="en">Hidden in Plain Sight: Unspoken Premises of DH
+                Visualization</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/"/>
+              <ptr type="video" target="2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moretti_franco">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford #uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2018-10-11" xml:id="ls43_t4_l2">
+              <eventName xml:lang="en">Sequential pattern mining for robust event
+                detection</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094305/https://www.epfl.ch/schools/cdh/dh-lecture-series-sequential-pattern-mining-for-robust-event-detection/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_jt5lo1yk"/>
+              <note type="abstract" xml:lang="en">
+                <p>In the age of open and big data, the task of automatically analysing numerous
+                  media in various format and multiple languages is getting all the more critical.
+                  The ability to quickly and efficiently analyse massive amounts of documents, both
+                  digitised and digitally-born, is crucial. With a history dating a few centuries
+                  and a current rate of about hundreds of thousands of articles published every day,
+                  newspapers represent a heterogeneous resource of great importance. This talk will
+                  present an approach that is able to detect events from news using very limited
+                  external resources, notably not requiring any form of linguistic analysis. By
+                  relying on the journalistic genre rather than on linguistic analysis, it is both
+                  able to process text written in any language, and in a fashion that is robust to
+                  noise (eg, stemming from imperfect OCR). Applied for instance to epidemic event
+                  detection, it is able to find what epidemic diseases are active where, in any
+                  language and in real time. Evaluated over 40 languages, the DaNIEL system is on
+                  average able to find epidemic events faster than human experts. In this
+                  presentation, we will further explain how this work is being expanded to further
+                  domains and particularly to the specific case of historical newspapers.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#doucet_antoine">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-la-rochelle"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2018-10-24" xml:id="ls43_t4_l3">
+              <eventName xml:lang="en">The Question of Why: On the Notions of Explanation in the
+                DH</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094353/https://www.epfl.ch/schools/cdh/the-question-of-why-on-the-notions-of-explanation-in-the-dh/"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#neuwirth_markus">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2018-11-07" xml:id="ls43_t4_l4">
+              <eventName xml:lang="en">Sciences and Technologies Studies: From Case Studies to
+                Commensurable Data. Extending “The Topofil of Boa Vista” (B. Latour)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094504/https://www.epfl.ch/schools/cdh/sciences-and-technologies-studies-from-case-studies-to-commensurable-data-extending-the-topofil-of-boa-vista-b-latour/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_zzxziysy"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#boullier_dominique">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2018-11-21" xml:id="ls43_t4_l5">
+              <eventName xml:lang="en">Why Theories of Aesthetics matter in the DH</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094545/https://www.epfl.ch/schools/cdh/why-theories-of-aesthetics-matter-in-the-dh/"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rohrmeier_martin">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2018-11-29" xml:id="ls43_t4_l6">
+              <eventName xml:lang="fr">Design et humanités numériques</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094843/https://www.epfl.ch/schools/cdh/design-et-humanites-numeriques/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_m2h9n71n"/>
+              <note type="abstract" xml:lang="fr">
+                <p>En étudiant des opérations et des systèmes techniques potentiellement ouverts à
+                  la recherche, cet essai interroge le rapport du design aux « humanités numériques
+                  » (digital humanities) qui se développent, dans le contexte francophone, depuis le
+                  milieu des années 2000. En quoi les environnements numériques contemporains
+                  actualisent-ils les modes de production et de transmission des savoirs ? Quelle
+                  est la place des designers dans des projets relevant des sciences humaines et
+                  sociales ? De la modélisation des connaissances à l’injonction à l’innovation et à
+                  la créativité, du design d’expérience aux conditionnements techniques, de l’étude
+                  de la rationalité numérique aux reconfigurations de la subjectivité, ce parcours
+                  réflexif montre que l’industrie des programmes, chaque jour un peu plus puissante,
+                  n’a pas épuisé tout le champ des possibles. En interrogeant et en révélant
+                  l’environnement technique dans lequel les humanités numériques opèrent, le travail
+                  des techniques numériques par le design montre ainsi qu’il reste de la place pour
+                  d’autres modulations, d’autres sensibilités, d’autres cultures.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#masure_anthony">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-toulouse"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2018-12-05" xml:id="ls43_t4_l7">
+              <eventName xml:lang="en">Problems with Data: Assumptions, Biases, and More</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626094925/https://www.epfl.ch/schools/cdh/problems-with-data-assumptions-biases-and-more/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_cq0so9aw"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gatica-perez_daniel">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
@@ -50036,13 +50362,173 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626121810/https://www.epfl.ch/schools/cdh/dh-events-2020/"/>
 
-            <!-- 2020-01-13 https://web.archive.org/web/20250626132121/https://memento.epfl.ch/event/looking-beyond-the-staff-lines-and-listening-behin/ -->
+            <event type="lecture" when="2020-01-13" xml:id="ls43_t6_l1">
+              <eventName xml:lang="en">Looking beyond the staff lines and listening behind the
+                sound: Novel applications of two old-fashioned paradigms to the analysis of musical
+                harmony</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626132121/https://memento.epfl.ch/event/looking-beyond-the-staff-lines-and-listening-behin/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Two traditional accounts to the analysis of chord progressions – Roman Numeral
+                  Analysis and Functional Harmony – have recently been joined by two paradigms which
+                  by themselves are timehonored domains of music-theoretical reasoning and
+                  conceptualization. But their application to musical harmony is a more recent
+                  development. One productive idea is to view chords and chord inversions as if they
+                  where scales or modes. This allows a productive transfer from a mathematical
+                  discipline called algebraic combinatorics on words to the combinatorics of modes
+                  (including chords and their inversions). The meanwhile ramified body of knowledge
+                  includes contributions by Eric Regener, John Clough, Jack Douthett, Norman Carey,
+                  David Clampitt, Karst de Jong and others (including Daniel Harasim and myself :-).
+                  Thereby it turns out that some of the mathematical findings are by no means alien
+                  to traditional music-theoretical knowledge. They rather turn out to be natural
+                  consequences of insights which underly the invention of traditional musical pitch
+                  notation. The applications to chord progressions include aspects of voice leading
+                  as well as the patterns underlying typical fundament progressions. Another
+                  productive idea is a quite unorthodox application of Fourier analysis, which in
+                  connection with music is usually admired as the ultimative tool for the study and
+                  experimental manipulation of musical sounds. It turns out, however, that it can
+                  also suitably be applied to the study of pitch class sets (subsets of the
+                  chromatic 12-tone-system) and pitch class profiles (fuzzy subsets). The
+                  contributions to this direction are due to David Lewin, Ian Quinn, Emmanuel Amiot
+                  and Jason Yust. Also here it turns out that the incorruptible mathematical results
+                  are not alien to traditional musictheoretical knowledge. The „partials“ of the
+                  Fourier decompositions are closely related to prominent pitch class collections.
+                  For given chord progressions in musical pieces they lend themselves to be
+                  interpreted as events in „analytical voices“. After brief informal introductions
+                  to these different mathematical approaches I will dedicate the last part of my
+                  talk to the comparison of associated analytical results in selected musical pieces
+                  and to the detection of instances of solidarity between these results. It is a
+                  challenging open task at the borderline between theory and analysis to disentangle
+                  systematic dependencies from ideosyncratic piece-specific correspondences.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#noll_thomas">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-esmuc"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2020-10-07 https://mediaspace.epfl.ch/media/0_tp3btwgh  |  https://web.archive.org/web/20250626132148/https://memento.epfl.ch/event/reading-with-machines-reading-and-writing-in-the-d/ -->
+            <event type="lecture" when="2020-10-07" xml:id="ls43_t6_l2">
+              <eventName xml:lang="en">Reading with machines. Reading and writing in the digital
+                age</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626132148/https://memento.epfl.ch/event/reading-with-machines-reading-and-writing-in-the-d/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_tp3btwgh"/>
+              <note type="abstract" xml:lang="en">
+                <p>In the public a number of claims floating around about the end of books and end
+                  of reading. Shallow reading instead of deep reading is the way specifically the
+                  young generation reads if this generation reads at all. In contrast to these
+                  claims, our research shows how vivid young readers write and read books today,
+                  mainly on social media. Since this reading is often far away from established ways
+                  of reading, we developed a research agenda to explore the digital lives of books
+                  and todays readers, look into the real-time data and try to find ways to measure
+                  reading activities in large data sets.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lauer_gerhard">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-basel"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2020-11-04 https://mediaspace.epfl.ch/media/0_5sjdfp3t  |  https://web.archive.org/web/20250626132349/https://memento.epfl.ch/event/from-digital-humanities-to-game-studies-talk-by-dr/ -->
+            <event type="lecture" when="2020-11-04" xml:id="ls43_t6_l3">
+              <eventName xml:lang="en">From Digital Humanities to Game Studies</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626132349/https://memento.epfl.ch/event/from-digital-humanities-to-game-studies-talk-by-dr/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_5sjdfp3t"/>
+              <note type="abstract" xml:lang="en">
+                <p>Born about sixty years ago in universities, video games have become a cultural
+                  phenomenon. Academics from a wide range of disciplines study them today. By
+                  exploring the past as well as the current state of this digital native media, we
+                  tackle topics as diverse as the development of information technologies, the
+                  planned obsolescence of digital media and their archiving, the art of non-linear
+                  storytelling, the dynamics of gaming social media platforms, and many other
+                  domains.</p>
+                <p>While doing research in digital humanities, one of its closest fields, game
+                  studies captured my interest. As an illustration of video games’ multiple facets,
+                  game studies welcomes researchers from all kinds of disciplines (computer science,
+                  mathematics, physics, business, humanities, sociology, sport, etc.). In this talk,
+                  I will highlight the proximity between game studies and digital humanities by
+                  showcasing some research projects I am currently working on: The history of Swiss
+                  video games / history of video games in Switzerland The archiving of video games
+                  (with Memoriav and Musée Bolo) A middle reading analysis of video games press
+                  (with Selim Krichane and LUDOV, University of Montreal) How to study video games
+                  source code (with Stéphanie Mader, CNAM) A platform studies approach to the
+                  Smaky</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rochat_yannick">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2020-11-18 https://web.archive.org/web/20250626122636/https://memento.epfl.ch/event/quantitative-approaches-to-historical-texts-should/ -->
+            <event type="lecture" when="2020-11-18" xml:id="ls43_t6_l4">
+              <eventName xml:lang="en">Quantitative approaches to historical texts: should you care
+                about OCR?</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626122636/https://memento.epfl.ch/event/quantitative-approaches-to-historical-texts-should/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Quantitative methods for historical text analysis offer exciting opportunities
+                  for researchers interested in gaining new insights into long studied texts.
+                  However, the methodological underpinnings of these methods remains under-explored.
+                  In the first part of the talk I will show and discuss, through the use of a case
+                  study, the effect the OCR process has on a range of quantitative text
+                  analyses.</p>
+                <p>In the second part of the talk, I will present a novel and totally unsupervised
+                  OCR post-correction method on the same dataset, as well as its most recent
+                  evolution on a highly-inflected language.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hengchen_simon">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-gothenburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
@@ -50074,9 +50560,78 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626124551/https://www.epfl.ch/schools/cdh/dh-seminars-2022-2/"/>
 
-            <!-- 2022-12-14 https://web.archive.org/web/20250626134501/https://memento.epfl.ch/event/dh-seminar-mates-vs-cavell-redux-or-when-do-you-ne/ -->
+            <event type="lecture" when="2022-12-14" xml:id="ls43_t8_l1">
+              <eventName xml:lang="en">DH Seminar: Mates vs. Cavell Redux; Or, When Do You Need a
+                (Musical) Corpus?</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134501/https://memento.epfl.ch/event/dh-seminar-mates-vs-cavell-redux-or-when-do-you-ne/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Recent debates in music theory around empirical and corpus-based methods
+                  (Gjerdingen 1991, Neuwirth and Rohrmeier 2016, London 2022) replay, perhaps
+                  unwittingly, disputes that unfolded some fifty years ago in linguistics and the
+                  philosophy of language. I illustrate by revisiting an exchange between Benson
+                  Mates (1964) and Stanley Cavell (1969) over the evidentiary standards relevant to
+                  “ordinary language” philosophy, and to figures such as Gilbert Ryle and J. L.
+                  Austin in particular. This earlier debate proves instructive in considering the
+                  position of corpus studies in current music theory. In particular, I ask: what
+                  kinds of music-theoretical claims require corpus-based support, whether there are
+                  claims that do not require such support, and if so what kinds of evidence should
+                  be adduced in their favor. Ultimately, the question will arise of whether music
+                  theory is a single, unified discipline or a broad tent of possibly interrelated
+                  but not necessarily unanimous inquiries.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#martin_nathan">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-michigan"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2022-12-19 https://web.archive.org/web/20250626134415/https://memento.epfl.ch/event/dh-seminar-automatic-analysis-automatic-compositio/ -->
+            <event type="lecture" when="2022-12-19" xml:id="ls43_t8_l2">
+              <eventName xml:lang="en">DH Seminar: Automatic analysis, automatic composition, and
+                automatic analysis for automatic composition</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134415/https://memento.epfl.ch/event/dh-seminar-automatic-analysis-automatic-compositio/"/>
+              <note type="abstract" xml:lang="en">
+                <p>To mark the 250th anniversary of Beethoven’s birth, Deutsche Telekom initiated
+                  and funded "Beethoven X", a project to create some kind of realization of
+                  Beethoven’s fragmentary sketches for a 10th symphony using machine learning. This
+                  experimental undertaking brought together a team of music and computer science
+                  experts and shone a light on the many musicological and computational decisions
+                  that go into such a task. This talk uses our experience with the Beethoven X
+                  Project to discuss some of those general considerations, including the nature of
+                  possible human-computer interactions, (dis-)similarities between computational and
+                  traditional (non-computational) methods of composing, and the probably decisive
+                  role the next generation of this work will reserve for computational analysis.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gotham_mark">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-durham"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#hentschel_johannes"/>
           </event>
@@ -50086,11 +50641,123 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
 
-            <!-- 2023-04-26 https://web.archive.org/web/20250626134653/https://memento.epfl.ch/event/dh-seminar-charlie-parker-composer-highlights-an-2/ -->
+            <event type="lecture" when="2023-04-26" xml:id="ls43_t9_l1">
+              <eventName xml:lang="en">DH Seminar: "Charlie Parker, Composer: Highlights and
+                Controversies"</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134653/https://memento.epfl.ch/event/dh-seminar-charlie-parker-composer-highlights-an-2/"/>
+              <note type="abstract" xml:lang="en">
+                <p>“Charlie Parker, Composer: Highlights and Controversies” is a presentation
+                  developed from my book on Parker’s compositions, published by Oxford University
+                  Press in 2020. Parker was one of the great jazz artists of the mid-twentieth
+                  century. The presentation begins with a discussion of the general problem of just
+                  what is a jazz composition, and includes such topics as recordings vs.
+                  manuscripts, plagiarism, copyrighting an improvisation, the function of the
+                  Library of Congress, extending a “composition” without the composer's consent, and
+                  improvisation vs. composing. As part of the presentation, I show how Parker worked
+                  in the gray area between written and improvised material, “borrowed” the work of
+                  others, had his own work “borrowed,” and left a legacy of well-known jazz
+                  compositions that continue to inspire jazz musicians and listeners.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#martin_henry">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rutgers"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2023-04-28 https://web.archive.org/web/20250626134750/https://memento.epfl.ch/event/dh-seminar-modernism-jazz-counterpoint-a-henry-m-2/ -->
+            <event type="lecture" when="2023-04-28" xml:id="ls43_t9_l2">
+              <eventName xml:lang="en">DH Seminar: "Modernism, Jazz, Counterpoint: A Henry Martin
+                Mix"</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134750/https://memento.epfl.ch/event/dh-seminar-modernism-jazz-counterpoint-a-henry-m-2/"/>
+              <note type="abstract" xml:lang="en">
+                <p>This lecture analyzes my work as a composer. Unifying in retrospect the chaos of
+                  invention and the randomness of circumstance, I show how my work shifted from the
+                  high modernism of the mid-twentieth century to a mix of bebop, postbop,
+                  counterpoint, and traditional forms that represents me best as a musician. This
+                  shift reconciled my two principal musical interests: the Western classical
+                  tradition and jazz. Re-focusing the past through the lens of the present, and
+                  highlighting a small group of my works, I also show how my involvement with music
+                  theory affected me as a composer, and present structural analyses of what I think
+                  are especially interesting passages.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#martin_henry">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rutgers"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2023-11-27 https://web.archive.org/web/20250626134704/https://memento.epfl.ch/event/between-justice-seeking-and-entertainment-digita-2/ -->
+            <event type="lecture" when="2023-11-27" xml:id="ls43_t9_l3">
+              <eventName xml:lang="en">Between Justice Seeking and Entertainment: Digital
+                Vigilantism and the Court of Public Opinion</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134704/https://memento.epfl.ch/event/between-justice-seeking-and-entertainment-digita-2/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Individuals rely on digital media to denounce others. In some cases this is
+                  accepted as an appropriate response to criminal and moral injustices, or other
+                  grievances. Yet digital vigilantism may also bring unwarranted harms, for example
+                  when reproducing categorical forms of discrimination. Both offence taking and its
+                  response are expressed online by gathering and distributing information about
+                  targeted individuals.</p>
+                <p>By seeking their own form of criminal and social justice, digital media users can
+                  challenge state legitimacy. Yet digital vigilantism includes shaming and other
+                  forms of cultural violence that are not clearly monopolised, or even regulated.
+                  While earlier scholarship considers the court of public opinion in terms of
+                  journalistic interventions in legal proceedings, this presentation proposes a
+                  radical expansion of both the actors involved and the cases explored in the public
+                  eye. This amounts to a mainstreaming of the scrutiny and assessment of both public
+                  figures and private citizens through an assemblage of actors, devices and
+                  platforms. While movements like #metoo bring accountability to long-neglected
+                  forms of sexual violence and oppression, these repertoires are also mobilised by
+                  alt-right populists for political gain.</p>
+                <p>This presentation is attentive to the routinisation of mediated scrutiny and
+                  denunciation, in order to situate the discourses and practices that gain salience.
+                  Focusing on prominent and minor cases in the Anglo-American and Dutch contexts, it
+                  suggests that not only are sites like Twitter and Reddit platforms for disputing
+                  targets’ reputations but that the legitimacy of these very practices is also
+                  frequently disputed.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#trottier_daniel">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rotterdam-erasmus"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#rammos_yannis"/>
           </event>
