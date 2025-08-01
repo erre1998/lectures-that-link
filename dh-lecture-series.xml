@@ -275,6 +275,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-leeds" type="university">
+            <name xml:lang="en">University of Leeds</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q503424</idno>
+            <place corresp="#leeds"/>
+          </org>
           <org xml:id="uni-maynooth" type="university">
             <name xml:lang="en">Maynooth University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2601879</idno>
@@ -2271,6 +2276,58 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="steinicke_frank">
+            <name>
+              <forename>Frank</forename>
+              <surname>Steinicke</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57942123</idno>
+          </person>
+          <person xml:id="roth_kerstin">
+            <name>
+              <forename>Kerstin</forename>
+              <surname>Roth</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8528-4193</idno>
+          </person>
+          <person xml:id="popple_simon">
+            <name>
+              <forename>Simon</forename>
+              <surname>Popple</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2997-0348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q125553124</idno>
+          </person>
+          <person xml:id="scharrer_lisa">
+            <name>
+              <forename>Lisa</forename>
+              <surname>Scharrer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0002-1479-2101</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130799397</idno>
+          </person>
+          <person xml:id="filatkina_natalia">
+            <name>
+              <forename>Natalia</forename>
+              <surname>Filatkina</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8890-0107</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1966116</idno>
+          </person>
+          <person xml:id="stainforth_elizabeth">
+            <name>
+              <forename>Elizabeth</forename>
+              <surname>Stainforth</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2917-3522</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q108929236</idno>
+          </person>
           <person xml:id="schildhauer_thomas">
             <name>
               <forename>Thomas</forename>
@@ -43166,6 +43223,188 @@
           </event>
         </event>
 
+        <event xml:id="ls46" type="lecture-series" where="#hamburg #leeds">
+          <eventName xml:lang="en">Hamburg-Leeds Lecture Series</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250709164519/https://www.gw.uni-hamburg.de/ueber-die-fakultaet/digital-humanities/dh-lab/hamburg-leeds-lecture-series.html"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250801094324/https://ahc.leeds.ac.uk/fine-art/events/event/3344/affect-archive-artificial-intelligence"/>
+          <note type="description" xml:lang="en">
+            <p>The Hamburg-Leeds Lecture Series is dedicated to the conditions of accessing,
+              researching and representing cultural artefacts in the course of the latest
+              developments in digitalisation. Through their digitisation, cultural artefacts are
+              becoming more visible and accessible to a wider public.</p>
+            <p>Digitisation also brings with it a drive towards standardisation, which is at odds
+              with the individual characteristics of digitised objects and the individual interests
+              and needs of users.</p>
+            <p>The use of generative AI and Large Language Models (LLMs) offers new possibilities of
+              access and potentially new insights into the structures and mechanisms of objects and
+              related practices, including the affect of users interacting with digital data. At the
+              same time, born digital artefacts such as data on floppy discs, CD ROMs and hard
+              drives are increasingly entering the archives, potentially requiring new research
+              practices. </p>
+            <p>The talks will examine the interactions between users and historical and digital
+              archives from different disciplinary perspectives, particularly with regard to new
+              methods of AI-supported research and representation.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2025-02" to="2025-04" xml:id="ls46_t1">
+            <eventName>Affect, Archive &amp; Artificial Intelligence</eventName>
+            <event type="lecture" when="2025-02-26" xml:id="ls46_t1_l1">
+              <eventName xml:lang="en">Born-digital Artefacts: Multimodal Modeling &amp;
+                Computational Analysis</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#nantke_julia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+                <person role="speaker" corresp="#steinicke_frank">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
+            </event>
+            <event type="lecture" when="2025-02-26" xml:id="ls46_t1_l2">
+              <eventName xml:lang="en">Inside the Congruence Engine: Digital Reconstructions of
+                Cultural Heritage</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#popple_simon">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leeds"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
+            </event>
+            <event type="lecture" when="2025-03-03" xml:id="ls46_t1_l3">
+              <eventName xml:lang="en">Language history, language attitudes and everyday
+                communication in the context of multilingualism in Early Modern Europe: Insights
+                into the FSL-project</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roth_kerstin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+                <person role="speaker" corresp="#borek_luise">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+                <person role="speaker" corresp="#scharrer_lisa">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+                <person role="speaker" corresp="#filatkina_natalia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
+            </event>
+            <event type="lecture" when="2025-03-03" xml:id="ls46_t1_l4">
+              <eventName xml:lang="en">Europeana: The Geopolitics of Digital Heritage Aggregation at
+                Scale</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#stainforth_elizabeth">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leeds"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
+            </event>
+            <event type="lecture" when="2025-04-02" xml:id="ls46_t1_l5">
+              <eventName xml:lang="en">Affect in Digital Spaces: Qualitative and Quantitative
+                Approaches</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zinsmeister_heike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
+            </event>
+            <event type="lecture" when="2025-04-02" xml:id="ls46_t1_l6">
+              <eventName xml:lang="en">Feeling the Archive: Relations of Affect and Algorithms in
+                Digitality</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roy_dibyadyuti">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-leeds"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
+            </event>
+            <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
+          </event>
+        </event>
+
         <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
           <eventName xml:lang="en">I2SC Lecture Series</eventName>
           <note type="description" xml:lang="en">
@@ -43205,36 +43444,6 @@
             <!-- ADD THE LECTURES HERE -->
 
             <org role="organizer" corresp="..."/>
-          </event>
-        </event>
-
-        <event xml:id="ls46" type="lecture-series" where="#hamburg #leeds">
-          <eventName xml:lang="en">Hamburg-Leeds Lecture Series</eventName>
-          <ptr type="programme"
-            target="https://web.archive.org/web/20250709164519/https://www.gw.uni-hamburg.de/ueber-die-fakultaet/digital-humanities/dh-lab/hamburg-leeds-lecture-series.html"/>
-          <note type="description" xml:lang="en">
-            <p>The lecture series is dedicated to the conditions of accessing, researching and
-              representing cultural artefacts in the course of the latest developments in
-              digitalisation. Through their digitisation, cultural artefacts are becoming more
-              visible and accessible to a wider public. Digitisation also brings with it a drive
-              towards standardisation, which is at odds with the individual characteristics of
-              digitised objects and the individual interests and needs of users. The use of
-              generative AI and Large Language Models (LLMs) offers new possibilities of access and
-              potentially new insights into the structures and mechanisms of objects and related
-              practices, including the affect of users interacting with digital data. At the same
-              time, born digital artefacts such as data on floppy discs, CD ROMs and hard drives are
-              increasingly entering the archives, potentially requiring new research practices.</p>
-            <p>The talks will examine the interactions between users and historical and digital
-              archives from different disciplinary perspectives, particularly with regard to new
-              methods of AI-supported research and representation.</p>
-          </note>
-
-          <event type="lecture-series-term" from="2025-02" to="2025-04" xml:id="ls46_t1">
-            <eventName>2025</eventName>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
           </event>
         </event>
 
