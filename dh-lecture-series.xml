@@ -2376,6 +2376,14 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="weiss_katharina">
+            <name>
+              <forename>Katharina</forename>
+              <surname>Weiß</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135581178</idno>
+          </person>          
           <person xml:id="kuntz_pascale">
             <name>
               <forename>Pascale</forename>
@@ -41673,7 +41681,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
 
           <event type="lecture-series-term" from="2018-10" to="2019-05" xml:id="ls38_t2">
@@ -41919,7 +41927,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
 
           <event type="lecture-series-term" from="2019-12" to="2018-02" xml:id="ls38_t3">
@@ -42178,7 +42186,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
 
           <event type="lecture-series-term" from="2024-06" to="2024-06" xml:id="ls38_t4">
@@ -42236,7 +42244,7 @@
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
         </event>
         <event xml:id="ls39" type="lecture-series" where="#freiburg">
