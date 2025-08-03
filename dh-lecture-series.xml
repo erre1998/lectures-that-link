@@ -22,11 +22,11 @@
           <idno type="orcid">https://orcid.org/0009-0005-8288-7470</idno>
         </editor>
         <respStmt>
-          <resp>contributor</resp>
+          <resp>Contributor</resp>
           <name>Victoria Khalzova-Murken</name>
         </respStmt>
         <respStmt>
-          <resp>contributor</resp>
+          <resp>Contributor</resp>
           <name>Helene Henriette Kamrath</name>
         </respStmt>
       </titleStmt>
@@ -275,6 +275,21 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-hong-kong-city" type="university">
+            <name xml:lang="en">City University of Hong Kong</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q787360</idno>
+            <place corresp="#hong-kong"/>
+          </org>
+          <org xml:id="uni-keio" type="university">
+            <name xml:lang="en">Keio University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q815432</idno>
+            <place corresp="#tokyo"/>
+          </org>
+          <org xml:id="uni-texas-dallas" type="university">
+            <name xml:lang="en">University of Texas at Dallas</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1781394</idno>
+            <place corresp="#dallas"/>
+          </org>
           <org xml:id="uni-catalunya-oberta" type="university">
             <name xml:lang="es">Universitat Oberta de Catalunya</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3042433</idno>
@@ -860,12 +875,12 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q129421</idno>
             <place corresp="#davis"/>
           </org>
-          <org xml:id="uni-la-california" type="university">
+          <org xml:id="uni-california-los-angeles" type="university">
             <name xml:lang="en">University of California, Los Angeles</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q174710</idno>
             <place corresp="#los-angeles"/>
           </org>
-          <org xml:id="uni-sb-california" type="university">
+          <org xml:id="uni-california-santa-barbara" type="university">
             <name xml:lang="en">University of California, Santa Barbara</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q263064</idno>
             <place corresp="#santa-barbara"/>
@@ -1666,6 +1681,11 @@
             <place corresp="#geneve"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="ined" type="research_institution">
+            <name xml:lang="fr">Institut national d'études démographiques (INED)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3152388</idno>
+            <place corresp="#aubervilliers"/>
+          </org>
           <org xml:id="mpii" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für Informatik</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
@@ -2401,6 +2421,77 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="ienca_marcello">
+            <name>
+              <forename>Marcello</forename>
+              <surname>Ienca</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8835-5444</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57912630</idno>
+          </person>
+          <person xml:id="henchoz_nicolas">
+            <name>
+              <forename>Nicolas</forename>
+              <surname>Henchoz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4284-1321</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q124615197</idno>
+          </person>
+          <person xml:id="al-badr_nora">
+            <name>
+              <forename>Nora</forename>
+              <surname>Al Badr</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64589500</idno>
+          </person>
+          <person xml:id="rochel_johan">
+            <name>
+              <forename>Johan</forename>
+              <surname>Rochel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8123-4057</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q96998098</idno>
+          </person>
+          <person xml:id="shaw_jeffrey">
+            <name>
+              <forename>Jeffrey</forename>
+              <surname>Shaw</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5719-6986</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3176729</idno>
+          </person>
+          <person xml:id="novak_marcos">
+            <name>
+              <forename>Marcos</forename>
+              <surname>Novak</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5161-0675</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q124872827</idno>
+          </person>
+          <person xml:id="bergstroem_marie">
+            <name>
+              <forename>Marie</forename>
+              <surname>Bergström</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0949-5997</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q85631397</idno>
+          </person>
+          <person xml:id="savage_patrick">
+            <name>
+              <forename>Patrick</forename>
+              <surname>Savage</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6996-7496</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q56614300</idno>
+          </person>
           <person xml:id="garimella_kiran">
             <name>
               <forename>Kiran</forename>
@@ -13172,6 +13263,11 @@
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007942</idno>
           </place>
           <!-- ######## French cities ######## -->
+          <place type="city" xml:id="aubervilliers">
+            <country corresp="#france"/>
+            <name>Aubervilliers</name>
+            <idno type="gnd">https://d-nb.info/gnd/4232057-4</idno>
+          </place>
           <place type="city" xml:id="nantes">
             <country corresp="#france"/>
             <name>Nantes</name>
@@ -13594,6 +13690,11 @@
             <name>Guangzhou</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/8208558</idno>
           </place>
+          <place type="city" xml:id="hong-kong">
+            <country corresp="#china"/>
+            <name>Hong Kong</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004542</idno>
+          </place>
           <!-- ######## City-states #### -->
           <place type="city" xml:id="singapore-city">
             <country corresp="#singapore"/>
@@ -13619,6 +13720,11 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="dallas">
+            <country corresp="#usa"/>
+            <name>Dallas</name>
+            <idno type="tgn">https://vocab.getty.edu/page/tgn/7013503</idno>
+          </place>
           <place type="city" xml:id="boulder">
             <country corresp="#usa"/>
             <name>Boulder</name>
@@ -24094,7 +24200,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-sb-california"/>
+                  <affiliation corresp="#uni-california-santa-barbara"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -40262,7 +40368,7 @@
         <event xml:id="ls18" type="lecture-series" where="#potsdam">
           <eventName xml:lang="de">Vortragsreihe „Code &amp; Kultur“</eventName>
           <ptr type="programme"
-            target="https://web.archive.org/web/20250503170915/https://www.uni-potsdam.de/de/digital-humanities/aktivitaeten/code-and-culture-lecture-series"/>
+            target="https://web.archive.org/web/20250803172047/https://www.uni-potsdam.de/de/digital-humanities/events/code-and-culture-lecture-series"/>
           <event type="lecture-series-term" from="2024-04" to="2025-05" xml:id="ls18_t1">
             <eventName/>
             <event type="lecture" when="2024-04-02" xml:id="ls18_t1_l1">
@@ -50502,8 +50608,6 @@
             <event type="lecture" when="2015-06-04" xml:id="ls43_t1_l1">
               <eventName xml:lang="en">Mirador: Medieval Manuscripts (and Much More) in a New
                 Light</eventName>
-              <ptr type="programme" target="..."/>
-              <ptr type="video" target="..."/>
               <note type="abstract" xml:lang="en">
                 <p>In collaboration with the Stanford University Library, Harvard University
                   (represented by the University Library, HarvardX, and the Committee for the
@@ -50536,9 +50640,96 @@
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
 
-            <!-- 2015-11-15 -->
-            <!-- 2015-12-15 -->
-            <!-- 2015-12-17 -->
+            <event type="lecture" when="2015-11-15" xml:id="ls43_t1_l2">
+              <eventName xml:lang="en">Transvergence, Human and Digital: Priorities and
+                Possibilities</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Transvergence establishes the superset to transarchitectures and explores
+                  transformation and speciation across the transmodal continuum of technologies and
+                  humanities, engineering and mathematics, arts and sciences. This talk discusses
+                  the concept of transvergent THEMAS as a model for ensuring that the priorities of
+                  the so-called “digital humanities” remain focused on the human while still
+                  encouraging the exploration of new possibilities.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#novak_marcos">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-california-santa-barbara"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2015-12-15" xml:id="ls43_t1_l3">
+              <eventName xml:lang="en">Towards a Systematic Science of Art and Culture</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>This presentation will outline a perspective towards a systematic science of art
+                  and culture. As such, the proposed approach integrates qualitative inquiry with
+                  computation, natural science, and information design, while sharing the aim of
+                  understanding the process of art and cultural history with so-called traditional
+                  practice. It explores unknown complex emerging structure and dynamics by analyzing
+                  large data sets, using both quantitative measurement and qualitative inquiry.
+                  Similar to systems biology, the procedure is characterized by multidisciplinary
+                  co-authorship and publications that make extensive use of scholarly figures.
+                  Justifying the need for such an approach, it will be argued that the process of
+                  art history is both transcending and exponential, while the discipline of art
+                  history, in principle, has no limits in method.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schich_maximilian">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-texas-dallas"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
+
+            <event type="lecture" when="2015-12-17" xml:id="ls43_t1_l4">
+              <eventName xml:lang="en">Musical Musicologies for the Digital Age</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>The digital era has begun to revolutionise the way musicology is conducted, both
+                  by opening up new avenues for research, and by reforming the way in which
+                  traditional areas of scholarship are approached. This talk will introduce some
+                  promising sub-disciplines of “Digital Musicology”, discussing the benefits they
+                  bring, but also highlighting where caution is needed to ensure musical validity
+                  and usefulness (that is, to make sure these digital musicologies remain
+                  “musical”).</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gotham_mark">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-cambridge"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
@@ -51824,19 +52015,263 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250626124243/https://www.epfl.ch/schools/cdh/dh-events-2021/"/>
 
-            <!-- 2021-02-10 https://mediaspace.epfl.ch/media/0_n5tsll3a  |  https://web.archive.org/web/20250626133536/https://memento.epfl.ch/event/comparative-musicology-the-science-of-the-worlds-m/ -->
+            <event type="lecture" when="2021-02-10" xml:id="ls43_t7_l1">
+              <eventName xml:lang="en">Comparative musicology: The science of the world’s
+                music</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626133536/https://memento.epfl.ch/event/comparative-musicology-the-science-of-the-worlds-m/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_n5tsll3a"/>
+              <note type="abstract" xml:lang="en">
+                <p>What is music, and why did it evolve? How can we understand the unity and
+                  diversity found throughout the world?s music? Scientific attempts to answer these
+                  questions through cross-cultural comparison stalled during the 20th century and
+                  have only recently begun to make a resurgence. In this talk, I will synthesize
+                  recent advances to outline a new unified theoretical/methodological framework to
+                  understand and compare all of the world’s music. This framework takes advantage of
+                  new scientific theories and methods - particularly from advances in computer
+                  science, psychology, genetic anthropology, and cultural evolution - to apply
+                  comparative musicological research to answer longstanding questions about the
+                  origins of music and to contemporary issues including music copyright law and
+                  UNESCO policy. In doing so, I argue for an inclusive, multidisciplinary field that
+                  combines the qualitative methods traditionally employed by musicologists and
+                  cultural anthropologists with quantitative methods from the natural sciences.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#savage_patrick">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-keio"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2021-02-24 https://web.archive.org/web/20250626133514/https://memento.epfl.ch/event/dating-sites-as-observations-sites-what-we-can-lea/ -->
+            <event type="lecture" when="2021-02-24" xml:id="ls43_t7_l2">
+              <eventName xml:lang="en">Dating sites as observations sites. What we can learn from
+                online dating data</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626133514/https://memento.epfl.ch/event/dating-sites-as-observations-sites-what-we-can-lea/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Online dating has become a widespread feature of modern social life. In less than
+                  two decades, seeking partners through commercial intermediaries went from being a
+                  marginal and stigmatized practice to a common activity. This makes online dating
+                  interesting to sociological inquiry in two ways. First, as a research topic in its
+                  own right, online dating gives us a better understanding of contemporary sexual
+                  norms and behaviors. Second, data from dating platforms can be used to study
+                  partner preferences and matching mechanisms, and so to test sociological theory on
+                  partner choice. The presentation will focus on this second approach, showing how
+                  online dating makes it possible to revisit classic sociological inquiry.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bergstroem_marie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ined"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2021-03-17 https://web.archive.org/web/20250626133729/https://memento.epfl.ch/event/dh-research-seminar-by-nicolas-henchoz-director-ep/ -->
+            <event type="lecture" when="2021-03-17" xml:id="ls43_t7_l3">
+              <eventName xml:lang="en">And what about the humans in Digital Humanities? An approach
+                of design research to transform technologies and data into daily life
+                impact</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626133729/https://memento.epfl.ch/event/dh-research-seminar-by-nicolas-henchoz-director-ep/"/>
+              <note type="abstract" xml:lang="en">
+                <p>Trust is a major issue in the digital media. It has led to ambitious research
+                  programs to detect fake news. But how do we convert the improvement of reliability
+                  into a gain of trust by the readers ? Digitization of heritage has made content
+                  more accessible and allowed new interactions. But can these heritages engage with
+                  a larger audience? Innovation is now mostly tech driven. We think disruption and
+                  performance. But what about the user experience ? What do we understand about the
+                  factors of acceptance ? The EPFL+ECAL Lab, the design research center of the EPFL
+                  established in partnership with the ECAL (Ecole d’art et de design de Lausanne),
+                  investigates these questions. Its approach combines three dimensions : the
+                  creation of experimental solutions through design and art practices, the
+                  integration of emerging technologies, and the observation of user perception. This
+                  perception is highly related to the users and the context. It requires to leave
+                  the lab and experiment in real life condition. With some surprising results : the
+                  Resoli project, for instance, shows that digital innovation should be developed
+                  with elderly people rather than millennials to be more successful ! Design
+                  research is a natural partner of digital humanities to transform data in impactful
+                  propositions for citizens.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#henchoz_nicolas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2021-04-14 https://mediaspace.epfl.ch/media/0_b0b9lnb5 -->
+            <event type="lecture" when="2021-04-14" xml:id="ls43_t7_l4">
+              <eventName xml:lang="en">Trajectories of New Media Art</eventName>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_b0b9lnb5"/>
+              <note type="abstract" xml:lang="en">
+                <p>New Media Art today offers a spectrum of perceptual experiences that forge new
+                  levels of heightened perception based on innovative methods of presenting and
+                  exchanging information. Media Art utilizes new technologies to reformulate space
+                  and time as a surrogate experience, enabling the interactive viewer to become
+                  immersed and enlivened by these mediated formations. In his talk Professor Shaw
+                  will elucidate the range of his over 50-year art practice, showing examples of
+                  work that research the reformulation of narrative as an aesthetics of emergent
+                  interaction, co-creation and embodiment. The trajectories of Media Art since the
+                  early 60’s engage fundamental topics that include: the body of viewer and its
+                  engagement with the artwork, the conjunction between the virtual and the real,
+                  prosthetic representation and augmented perception, social intervention and
+                  cultural rehabilitation, the disappearance of the past and displacement of the
+                  present by the future, narrative after storytelling, technology’s bipolar benefits
+                  and malignancy, and the quixotic guise of art’s materiality.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#shaw_jeffrey">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hong-kong-city"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2021-05-19 https://mediaspace.epfl.ch/media/0_3hmxzaqc  |  https://web.archive.org/web/20250626133846/https://memento.epfl.ch/event/dh-research-seminar-by-nora-al-badri/ -->
+            <event type="lecture" when="2021-05-19" xml:id="ls43_t7_l5">
+              <eventName xml:lang="en">Babylonian Vision - decolonising collections</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626133846/https://memento.epfl.ch/event/dh-research-seminar-by-nora-al-badri/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_3hmxzaqc"/>
+              <note type="abstract" xml:lang="en">
+                <p>Al-Badri will discuss her latest works “Babylonian Vision” and “Neural Ancestral
+                  Sculptures Series” which will be displayed at EPFL Pavilions, in Pavilion A,
+                  starting 26th of May. She uses General Adversarial Networks to generate
+                  technoheritage and to decolonise the largest collections of Mesopotamian artefacts
+                  in the Global North. The artist will dive into questions of ethical AI, the
+                  Blackbox problem in her work as well as artistic explorations towards synthetic
+                  image-making by showcasing her use of Southern datasets as an archive of
+                  abundance.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#al-badr_nora">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2021-05-12 https://mediaspace.epfl.ch/media/0_m9fze8d8  |  https://web.archive.org/web/20250626134112/https://memento.epfl.ch/event/dh-research-seminar-by-dr-johan-rochel/ -->
+            <event type="lecture" when="2021-05-12" xml:id="ls43_t7_l6">
+              <eventName xml:lang="en">A computational-philosophical approach to the international
+                law on AI</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626134112/https://memento.epfl.ch/event/dh-research-seminar-by-dr-johan-rochel/"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_m9fze8d8"/>
+              <note type="abstract" xml:lang="en">
+                <p>This brief talk will provide an overview of the research project I would like to
+                  start at the CDH. Because of the relevance it holds for virtually all emerging
+                  technologies, AI is seen as a promising case-study of how to address structural
+                  challenges for international law on technology. A number of international actors
+                  have drafted ethical guidelines for AI governance, placing the focus on values
+                  such as autonomy, accountability, or digital sustainability. This research project
+                  builds on this momentum. The first general objective is to evaluate the contours
+                  of an international law on AI. The second general objective is to give this
+                  emerging international law a normative backbone by drawing upon a specific
+                  doctrinal approach to international law, thereby drawing on a republican approach
+                  structured around a notion of freedom defined as meaning an absence of domination.
+                  The third general objective is to identify the lessons learnt from this republican
+                  international law on AI for international law on emerging technologies. The
+                  results will contribute to theoretical issues in international law and help
+                  identify best practices for policymaking in the context of technologies. They will
+                  also improve international law’s capacity to address technological developments
+                  that impact individuals and States alike.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rochel_johan">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
-            <!-- 2021-10-07 https://web.archive.org/web/20250626133931/https://memento.epfl.ch/event/dh-research-seminar-par-marcello-ienca-phd/ -->
+            <event type="lecture" when="2021-10-07" xml:id="ls43_t7_l7">
+              <eventName xml:lang="en">If the human being goes digital, ethics goes digital: Ethics
+                at the human-machine interface</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250626133931/https://memento.epfl.ch/event/dh-research-seminar-par-marcello-ienca-phd/"/>
+              <note type="abstract" xml:lang="en">
+                <p> Emerging technologies such as brain-computer interfaces (BCIs) establish a
+                  direct connection pathway between humans and machines, i.e. between the biological
+                  and the digital world. This presentation will explore the ethical implications of
+                  BCIs and identify key societal challenges at the human-machine interface.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ienca_marcello">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lausanne-epfl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-lausanne-epfl"/>
+            </event>
 
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
@@ -51847,8 +52282,8 @@
               target="https://web.archive.org/web/20250626124551/https://www.epfl.ch/schools/cdh/dh-seminars-2022-2/"/>
 
             <event type="lecture" when="2022-12-14" xml:id="ls43_t8_l1">
-              <eventName xml:lang="en">DH Seminar: Mates vs. Cavell Redux; Or, When Do You Need a
-                (Musical) Corpus?</eventName>
+              <eventName xml:lang="en">Mates vs. Cavell Redux; Or, When Do You Need a (Musical)
+                Corpus?</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626134501/https://memento.epfl.ch/event/dh-seminar-mates-vs-cavell-redux-or-when-do-you-ne/"/>
               <note type="abstract" xml:lang="en">
@@ -51885,8 +52320,8 @@
             </event>
 
             <event type="lecture" when="2022-12-19" xml:id="ls43_t8_l2">
-              <eventName xml:lang="en">DH Seminar: Automatic analysis, automatic composition, and
-                automatic analysis for automatic composition</eventName>
+              <eventName xml:lang="en">Automatic analysis, automatic composition, and automatic
+                analysis for automatic composition</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626134415/https://memento.epfl.ch/event/dh-seminar-automatic-analysis-automatic-compositio/"/>
               <note type="abstract" xml:lang="en">
@@ -51928,8 +52363,8 @@
               target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
 
             <event type="lecture" when="2023-04-26" xml:id="ls43_t9_l1">
-              <eventName xml:lang="en">DH Seminar: "Charlie Parker, Composer: Highlights and
-                Controversies"</eventName>
+              <eventName xml:lang="en">Charlie Parker, Composer: Highlights and
+                Controversies</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626134653/https://memento.epfl.ch/event/dh-seminar-charlie-parker-composer-highlights-an-2/"/>
               <note type="abstract" xml:lang="en">
@@ -51964,8 +52399,7 @@
             </event>
 
             <event type="lecture" when="2023-04-28" xml:id="ls43_t9_l2">
-              <eventName xml:lang="en">DH Seminar: "Modernism, Jazz, Counterpoint: A Henry Martin
-                Mix"</eventName>
+              <eventName xml:lang="en">Modernism, Jazz, Counterpoint: A Henry Martin Mix</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626134750/https://memento.epfl.ch/event/dh-seminar-modernism-jazz-counterpoint-a-henry-m-2/"/>
               <note type="abstract" xml:lang="en">
@@ -53300,7 +53734,7 @@
             </event>
             <event type="lecture" when="2020-03-03" xml:id="ls26_t1_l33">
               <eventName xml:lang="fr">Relire la littérature des années 30 grâce aux humanités
-                numériques: le cas des hebdomadaires d’information et de reportage.</eventName>
+                numériques: le cas des hebdomadaires d’information et de reportage</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250427160456/https://platformdh.uantwerpen.be/index.php/event/lecture-series-paul-aron/"/>
               <note type="abstract" xml:lang="fr">
@@ -53873,7 +54307,7 @@
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
-                  <affiliation corresp="#uni-la-california"/>
+                  <affiliation corresp="#uni-california-los-angeles"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
