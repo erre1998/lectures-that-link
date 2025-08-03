@@ -2001,6 +2001,11 @@
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <!-- ####### L ####### -->
+          <org xml:id="library-uni-tuebingen" type="glam">
+            <name xml:lang="de">Universitätsbibliothek Tübingen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2496347</idno>
+            <place corresp="#tuebingen"/>
+          </org>
           <org xml:id="library-uni-bielefeld" type="glam">
             <name xml:lang="de">Universitätsbibliothek Bielefeld</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1770764</idno>
@@ -2383,7 +2388,7 @@
             </name>
             <gender>female</gender>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q135581178</idno>
-          </person>          
+          </person>
           <person xml:id="kuntz_pascale">
             <name>
               <forename>Pascale</forename>
@@ -12182,6 +12187,90 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7451-7596</idno>
+          </person>
+          <person xml:id="raffini_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Raffini</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1117-8811</idno>
+          </person>
+          <person xml:id="krmnicek_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Krmnicek</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0593-2539</idno>
+          </person>
+          <person xml:id="ehrlicher_hanno">
+            <name>
+              <forename>Hanno</forename>
+              <surname>Ehrlicher</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8572-7836</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126691728</idno>
+          </person>
+          <person xml:id="croci_cassidy">
+            <name>
+              <forename>Cassidy</forename>
+              <surname>Croci</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3576-0507</idno>
+          </person>
+          <person xml:id="dusil_stephan">
+            <name>
+              <forename>Stephan</forename>
+              <surname>Dusil</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1406-813X</idno>
+          </person>
+          <person xml:id="schnell_corwin">
+            <name>
+              <forename>Corwin</forename>
+              <surname>Schnell</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0000-7995-4840</idno>
+          </person>
+          <person xml:id="mahlberg_michaela">
+            <name>
+              <forename>Michaela</forename>
+              <surname>Mahlberg</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4598-8011</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57692552</idno>
+          </person>
+          <person xml:id="goeggelmann_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Göggelmann</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0005-5396-1993</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692033</idno>
+          </person>
+          <person xml:id="feyersinger_erwin">
+            <name>
+              <forename>Erwin</forename>
+              <surname>Feyersinger</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2366-5748</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134485738</idno>
+          </person>
+          <person xml:id="amelang_david">
+            <name>
+              <forename>David Jefferson</forename>
+              <surname>Amelang López</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5999-6947</idno>
           </person>
         </listPerson>
       </particDesc>
@@ -35957,8 +36046,6 @@
         <event xml:id="ls14" type="lecture-series" where="#tuebingen">
           <eventName xml:lang="de">Digital Humanities: Anwendungsbereiche, Möglichkeiten,
             Werkzeuge</eventName>
-          <ptr type="programme"
-            target="https://web.archive.org/web/20250201004218/https://timms.uni-tuebingen.de/List/List?id=UT_2024_____001_sose24digithuman_000_"/>
           <note type="description" xml:lang="de">
             <p>Ziel dieser Vorlesung ist es, aus disziplinärer und interdisziplinärer Perspektive
               Einblicke in die Anwendungsbereiche und Möglichkeiten der Digital Humanities zu geben,
@@ -35976,6 +36063,8 @@
           </note>
           <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls14_t1">
             <eventName xml:lang="de">Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250201004218/https://timms.uni-tuebingen.de/List/List?id=UT_2024_____001_sose24digithuman_000_"/>
             <event type="lecture" when="2023-04-23" xml:id="ls14_t1_l1">
               <eventName xml:lang="de">Was sind Digital Humanities?</eventName>
               <ptr type="video"
@@ -36273,6 +36362,306 @@
                 <person role="speaker" corresp="#morent_stefan">
                   <name>
                     <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <org role="organizer" corresp="#schwabe_fabian"/>
+          </event>
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls14_t2">
+            <eventName xml:lang="de">Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250803145533/https://uni-tuebingen.de/securedl/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTQyMDczMzIsImV4cCI6MTc1NDI5NzMzMiwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW4vVW5pX1R1ZWJpbmdlbi9GYWt1bHRhZXRlbi9QaGlsb3NvcGhpZS9TdHVkaXVtL1N0dWRpZW5nYWVuZ2UvTWFzdGVyL0RpZ2l0YWxfSHVtYW5pdGllcy9Eb2t1bWVudGUvMjAyNS1Qb3N0ZXJSaW5ndm9ybGVzdW5nLnBkZiIsInBhZ2UiOjEwNjI2NX0.dpMRxmuG9cjQ9jC2jEsZGIWBHT4nGkytXtvz5mODBjo/2025-PosterRingvorlesung.pdf"/>
+            <event type="lecture" when="2025-04-15" xml:id="ls14_t2_l1">
+              <eventName xml:lang="de">Digital Humanities und deren Einsatz an der Universität
+                Tübingen</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schwabe_fabian">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+                <person role="speaker" corresp="#morent_stefan">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-04-29" xml:id="ls14_t2_l2">
+              <eventName xml:lang="en">Artificial Intelligence and Literary Theory</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#raffini_daniel">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rome-sapienza"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-05-06" xml:id="ls14_t2_l3">
+              <eventName xml:lang="en">Social Network Analysis and the Old Norse
+                Landnámabók</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#croci_cassidy">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-05-13" xml:id="ls14_t2_l4">
+              <eventName xml:lang="de">Von der Theorie in die Praxis: Eine VR-Ausstellung am
+                Knotenpunkt zwischen Numismatik, Theologie und Digital Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#krmnicek_stefan">
+                  <name>
+                    <roleName type="title">PD Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-05-20" xml:id="ls14_t2_l5">
+              <eventName xml:lang="de">Von TEI zu NLP: eine computergestützte Analyse von
+                Dramenfiguren auf der Basis des digitalen Korpus der Werke Calderóns</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ehrlicher_hanno">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+                <person role="speaker" corresp="#jung_kerstin">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stuttgart"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-05-27" xml:id="ls14_t2_l6">
+              <eventName xml:lang="de">Gutachten der Juristischen Fakultät – digital
+                angenähert</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dusil_stephan">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+                <person role="speaker" corresp="#schnell_corwin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-06-03" xml:id="ls14_t2_l7">
+              <eventName xml:lang="de">Digitale Annotation und die daraus gewonnenen
+                Erkenntnisse</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bauer_matthias">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-06-17" xml:id="ls14_t2_l8">
+              <eventName xml:lang="en">Concordance analysis in Digital Humanities</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mahlberg_michaela">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen-nuernberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-06-24" xml:id="ls14_t2_l9">
+              <eventName xml:lang="en">Dickens digital</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zirker_angelika">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+                <person role="speaker" corresp="#goeggelmann_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-07-01" xml:id="ls14_t2_l10">
+              <eventName xml:lang="de">Digitale Annotation zwischen Markup und
+                Hermeneutik</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#eufe_rembert">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-07-08" xml:id="ls14_t2_l11">
+              <eventName xml:lang="en">From Small Things (Big Things One Day Come): data-driven
+                experimentation with community generated digital content</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hughes_lorna">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-glasgow"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-07-15" xml:id="ls14_t2_l12">
+              <eventName xml:lang="en">DH and Early Modern European Theatre: Data Models, Databases,
+                Data Visualisation</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#amelang_david">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-madrid-autonoma"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-tuebingen"/>
+            </event>
+            <event type="lecture" when="2025-07-22" xml:id="ls14_t2_l13">
+              <eventName xml:lang="de">Machine-Learning-Anwendungen in der
+                Filmwissenschaft</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#feyersinger_erwin">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
                   </name>
                   <affiliation corresp="#uni-tuebingen"/>
                 </person>
@@ -43451,6 +43840,552 @@
             <org role="organizer" corresp="#hespers_simone"/>
           </event>
         </event>
+        <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
+          <eventName xml:lang="en">I2SC Lecture Series</eventName>
+          <note type="description" xml:lang="en">
+            <p>The Interdisciplinary Institute for Societal Computing offers a regular Lecture
+              Series to bring together researchers of different academic fields to analyze and
+              discuss the broad topic of society and technology. The Lecture Series is designed as a
+              laboratory of interdisciplinary research to encourage cooperation and new research
+              approaches. The series will feature a mix of speakers from Computer Science, Social
+              Science, and Digital Humanities.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
+            <eventName xml:lang="en">Summer 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
+            <event type="lecture" when="2024-04-26" xml:id="ls44_t1_l1">
+              <eventName xml:lang="en">Digital vs. analog footprints</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In the digital world users leave footprints, e.g., by the applications they use
+                  or regarding their geographic interest by visiting various Websites from country
+                  code Top Level Domains (ccTLDs). In the analog world various statistics try to
+                  capture human behavior. Both approaches have their drawbacks. For example, users
+                  interest can shift quickly yet not all domains under a specific top level domains
+                  may be related to that geographic region. At the same time gathering offline
+                  statistics is often costly and may require a huge effort.</p>
+                <p>In this talk I will use Internet measurement studies as examples to outline our
+                  ability to collect digital footprints, including gathering information about the
+                  implications of the COVID-19 Pandemic on Internet traffic. Then I will discuss how
+                  geographic interest may correlate with population statistics.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#feldmann_anja">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#mpii"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-10" xml:id="ls44_t1_l2">
+              <eventName xml:lang="en">On Gender Gaps in Natural Language Processing</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=-mr8zLHIguA"/>
+              <note type="abstract" xml:lang="en">
+                <p>In the field of natural language processing (NLP), gender gaps are thought of and
+                  treated similarly to the gender wage gap in economics. I will present previous
+                  work on the Gender Gap Tracker at Simon Fraser University and more recent work
+                  done at Saarland University on pronoun use with large language models, to
+                  illustrate how gender gaps are technically operationalized in NLP. These examples
+                  will serve as motivation to discuss bigger-picture epistemological gaps in how
+                  “gender” is treated in NLP - typically as binary, immutable, and directly
+                  inferable from characteristics such as a person’s name, pronouns, and so on.
+                  Drawing on methodologies, frameworks and viewpoints from other disciplines,
+                  including work I was involved in on the use of intersectionality in AI fairness, I
+                  will end with my thoughts and hopes for closing the epistemological gaps, with the
+                  goal of addressing the technical gaps more effectively and justly.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gautam_vagrant">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-31" xml:id="ls44_t1_l3">
+              <eventName xml:lang="en">Legal Aspects of Artificial Intelligence: Balancing Privacy
+                and Utility</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=PvBCFQRZUfY"/>
+              <note type="abstract" xml:lang="en">
+                <p>The regulation of artificial intelligence poses new challenges for the law. For
+                  example, personal data is subject to data protection law even though the impact of
+                  the data processing might appear insignificant in many cases. In particular, this
+                  may apply to machine learning applications, which often use personal data of
+                  millions of different people.</p>
+                <p>The European Union is currently changing the legal framework for data processing.
+                  How will this framework affect the development of AI systems, the gathering of
+                  personal data for training purposes, and the application of trained models? Is the
+                  privacy of individuals still guaranteed - and if so, is data protection hindering
+                  technical progress? The lecture will provide an overview of current developments
+                  and analyse them from an interdisciplinary perspective.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sorge_christoph">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-06-14" xml:id="ls44_t1_l4">
+              <eventName xml:lang="en">The Rise of Generative AI: Exploring Trust, Believability,
+                and Social Media Dynamics</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=eb7tFYaS7oI"/>
+              <note type="abstract" xml:lang="en">
+                <p>We have entered a new era of artificial intelligence (AI), characterized by the
+                  rapid proliferation of Generative AI (GenAI) and its numerous applications. As
+                  humans, our interactions with “content” in various forms, including text, images,
+                  and videos, have undergone a profound transformation due to the integration of AI
+                  technologies. It has become increasingly challenging to discern whether we are
+                  communicating with a human or an AI model. Concurrently, the content generated
+                  using Large Language Models (LLMs) and AI-synthesized images and videos using
+                  Diffusion models have significantly altered our perspectives in the real world and
+                  on social media.</p>
+                <p>In certain instances, we encounter AI-generated fake profiles during job
+                  screening or marketing. In other cases, we are confronted with AI-generated fake
+                  videos, such as deepfakes, on social media, which purport to depict actions that
+                  never actually occurred. Notably, in an era of clickbait-incentivized social media
+                  platforms, deepfakes and other forms of appealing AI-generated content
+                  significantly increase human engagement, leading to various potential outcomes,
+                  both positive and negative.</p>
+                <p>It remains uncertain how we can establish trust in AI or how society will be
+                  impacted on a large scale by AI-generated content. Several questions arise: How
+                  much will share, incorporate, and interact with content created by AI? Will people
+                  “trust” the outcomes generated by AI? Will people believe what the majority share
+                  on social media?</p>
+                <p>In this presentation, I intend to engage in critical discussions on the topic of
+                  trust in AI, present empirical research findings on the believability and
+                  shareability of synthetic content, and explore the broader societal implications
+                  of GenAI applications and interactions.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gamage_dilrukshi">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-colombo"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-06-28" xml:id="ls44_t1_l5">
+              <eventName xml:lang="en">Unraveling Romantic Communication. Correspondence networks of
+                Early Romanticism</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=9UvD5bn5KRs"/>
+              <note type="abstract" xml:lang="en">
+                <p>The Early Romanticism in Jena and Berlin is considered the outstanding
+                  intellectual revolution of young German authors and scholars at the turn of the
+                  epoch around 1800. The group operated publicly and dispersively, yet
+                  network-forming; they reflected and practised "Geselligkeit," for example, through
+                  the communication form of letters. For the analysis of these epistolary
+                  communication processes among these authors, scholars, intelligentsia, and the
+                  people connected to them, the project aims to build up a database that consists of
+                  the letters exchanged among the key protagonists of Early Romanticism (such as,
+                  among others, Friedrich, Dorothea, August Wilhelm, and Caroline Schlegel, Novalis)
+                  and their correspondents between 1790 and 1802, covering various 'prehistories' up
+                  to the dissolution of the Jena Circle.</p>
+                <p>Using methods from knowledge management and network research, the project draws
+                  on additional data sources, e.g. the Integrated Authority File (GND) of the German
+                  National Library, to work towards a holistic picture of the relationships between
+                  those actors, the flow of knowledge and influences, informal and formal
+                  collaboration processes between them. By analysing communication networks, we aim
+                  to highlight important actors, identify groups and their formation processes,
+                  search for signs of loss or (re-)establishment of contact as well as set all these
+                  factors in a temporal and comparative context. Ultimately, through these results
+                  we intend to get a better understanding of knowledge transfer and production in
+                  the Romantic circle.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#deicke_aline">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-marburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-07-12" xml:id="ls44_t1_l6">
+              <eventName xml:lang="en">Theory vs. Computation? On building many Bridges over the
+                Gap</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=bbPoNaeayuU"/>
+              <note type="abstract" xml:lang="en">
+                <p>In those areas of Digital Humanities where computational methods are integral to
+                  analysis, it becomes essential to critically examine the interplay between
+                  humanities theories on the phenomena of interest and their computational analysis.
+                  While concepts such as operationalization and modeling have been under discussion
+                  for some time, there's still a notable absence of a comprehensive perspective on
+                  the entire research process which also includes humanities’ theories. I will
+                  suggest to view computational research processes in Digital Humanities as
+                  input-process-output workflows in which theoretical concepts serve as integral
+                  components at various stages. Drawing on computational literary studies as a case
+                  study, my presentation aims to elucidate the connection between theory and
+                  computation by proposing a methodology for enabling theory-driven validity.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gius_evelyn">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
+            <eventName xml:lang="en">Winter 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
+
+            <!-- ADD THE LECTURES HERE -->
+
+            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
+          </event>
+
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
+            <eventName xml:lang="en">Summer 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
+            <event type="lecture" when="2024-04-11" xml:id="ls44_t3_l1">
+              <eventName xml:lang="en">Policy Impact: From AI Regulation to Academic
+                Inclusion</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=97h7-KZOg9k"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk examines how policies affect people across multiple domains. I analyze
+                  surveillance loopholes in the EU AI Act introduced by German regulators that
+                  potentially compromise civil liberties. The discussion then critiques academic
+                  name-change policies that create unnecessary barriers for transgender and queer
+                  scholars. Finally, I evaluate academic publishing frameworks that exclude
+                  underrepresented communities and propose practical reforms to create more
+                  equitable spaces. Throughout, I demonstrate how seemingly neutral policies can
+                  cause harm when developed without input from marginalized communities.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#agrawal_pranav">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hamburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-04-25" xml:id="ls44_t3_l2">
+              <eventName xml:lang="en">Beyond AI Hype: Building Machine Learning Systems that Serve
+                Communities</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=VJoYx9JoLZU"/>
+              <note type="abstract" xml:lang="en">
+                <p>Technological advancement, particularly Artificial Intelligence, is often
+                  accompanied by significant hype and grand promises. But who do these technologies
+                  serve? I will motivate this talk by conducting a reality check of current
+                  technologies, such as chatbots, social media platforms, search engines, and
+                  knowledge bases for languages spoken by millions in the Horn of Africa. Drawing
+                  from hands-on experience, I will then explore the development of machine learning
+                  systems for underrepresented languages, focusing on Machine Translation and
+                  Automatic Speech Recognition for Amharic and Tigrinya. These case studies offer
+                  insight into the technical and social challenges involved, as well as the broader
+                  implications for the communities these technologies are intended to serve. I will
+                  conclude by discussing how we evaluate machine learning systems. Evaluation is
+                  central to defining scientific progress in the field, with benchmarks playing a
+                  critical role. However, benchmarks can also be strategically manipulated or
+                  misused. I will highlight how these issues manifest in practice and what they
+                  reveal about the incentives and priorities driving current AI research.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hadgu_asmelash-teka">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#dair"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-09" xml:id="ls44_t3_l3">
+              <eventName xml:lang="en">Six Degrees of Slavery: Measuring Slave-Ownership and Elite
+                Persistence in Britain</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Although the legacies of slavery in Britain have received increasing attention in
+                  recent years, little evidence exists on how such legacies have shaped the
+                  country’s political elite. This project seeks to quantify and chart these ties
+                  over time, using a novel computational technique harnessing Wikidata, a knowledge
+                  graph closely connected to Wikipedia, as a means of operationalizing historical
+                  proximity between individuals. This technique enables the measurement of personal
+                  proximity to slavery, including via familial and social connections. Aggregating
+                  this data for politicians across a series of historical parliaments demonstrates
+                  how links to slavery persisted via dynastic and other social ties into the 20th
+                  Century and the extent to which ties to slavery still exist among contemporary
+                  politicians. We demonstrate how slavery-backed networks have persisted more
+                  thoroughly in the Conservative Party and the House of Lords than in other
+                  institutions, and explore the robustness of this persistence to historical periods
+                  of reform. The results emphasize the extent to which slavery and its legacies
+                  continue to play an active role in British politics, as well as offering an
+                  efficient and reliable new method for measuring social proximity using online
+                  data.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gessler_theresa">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-viadrina"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-09" xml:id="ls44_t3_l4">
+              <eventName xml:lang="en">AI Safety Benchmarks Do Not Benchmark Safety</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=HaKi5uwX6p0"/>
+              <note type="abstract" xml:lang="en">
+                <p>As artificial intelligence systems become increasingly integrated into critical
+                  aspects of society, the need for robust safety evaluation is crucial. However,
+                  this talk contends that current AI safety benchmarks, while offering insights into
+                  specific model behaviors, fundamentally fall short of measuring genuine safety. We
+                  argue this from multiple perspectives: First, these benchmarks typically assess
+                  only a narrow, predefined set of known risks, providing limited coverage of the
+                  vast landscape of potential failures, including complex edge cases, subtle biases,
+                  and unknown unknowns. Second, we posit that safety is not merely the absence of
+                  quantifiable risk or a property inherent to an isolated component; rather, it is
+                  an emergent property of the entire socio-technical system operating within its
+                  real-world context. Finally, unlike mature engineering disciplines that
+                  incorporate robust methods for handling uncertainty and rely on continuous
+                  monitoring and adaptation, AI benchmarks offer static evaluations that cannot
+                  account for the dynamic nature of risk or the intersubjective and societal
+                  dimensions of what constitutes acceptable safety. By highlighting these
+                  limitations, this talk aims to demonstrate that a sole reliance on current
+                  benchmarks provides an incomplete and potentially misleading assessment of AI
+                  safety, underscoring the urgent need for more comprehensive, systemic, and
+                  context-aware evaluation paradigms.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#papakyriakopoulos_orestis">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-muenchen-tu"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-05-23" xml:id="ls44_t3_l5">
+              <eventName xml:lang="en">Delving into ChatGPT usage in academic writing through excess
+                vocabulary</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=81FHy-Jr4G4"/>
+              <note type="abstract" xml:lang="en">
+                <p>Recent large language models (LLMs) can generate and revise text with human-level
+                  performance and have been widely commercialized in systems like ChatGPT. These
+                  models come with clear limitations: they can produce inaccurate information,
+                  reinforce existing biases, and be easily misused. Yet, many scientists have been
+                  using them to assist their scholarly writing. How widespread is LLM usage in the
+                  academic literature currently? To answer this question, we use an unbiased,
+                  large-scale approach, free from any assumptions about academic LLM usage. We study
+                  vocabulary changes in 14 million PubMed abstracts from 2010-2024 and show how the
+                  appearance of LLMs led to an abrupt increase in the frequency of certain style
+                  words. Our analysis based on excess word usage suggests that at least 10% of 2024
+                  abstracts were processed with LLMs. This lower bound differed across disciplines,
+                  countries, and journals, and was as high as 30% for some PubMed sub-corpora. We
+                  show that the appearance of LLM-based writing assistants has had an unprecedented
+                  impact on the scientific literature, surpassing the effect of major world events
+                  such as the COVID-19 pandemic.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lause_jan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-06-06" xml:id="ls44_t3_l6">
+              <eventName xml:lang="en">Evaluating Political Bias: Insights into Robustness and
+                Multilinguality</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=_a4iCiDt7fg"/>
+              <note type="abstract" xml:lang="en">
+                <p>Due to the widespread use of large language models (LLMs), it is crucial to
+                  understand whether they embed a specific "worldview" and what these views reflect.
+                  In this talk, I will discuss the challenges in performing a robust evaluation of
+                  political bias in LLMs both from a monolingual and a multilingual perspective. I
+                  will present the results of two studies: the first involves developing a framework
+                  for systematically evaluating political bias in LLMs, with a detailed look at
+                  biases in specific policy issues and the importance of a robust evaluation when
+                  probing LLMs. The second study examines to what extent political biases are
+                  carried over across languages. Results suggest that biases are similar across
+                  European languages. I will conclude by discussing relevant open research questions
+                  regarding political biases in LLMs.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ceron_tanise">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bocconi"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-06-27" xml:id="ls44_t3_l7">
+              <eventName xml:lang="en">Is machine learning a Woke, Neutral, or Fascist
+                technic?</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Since the mid-2010s there have been concerns about the social biases that are
+                  embedded in the representational space of machine learning models which has led to
+                  a flourishing field of addressing the social harms of machine learning. This, in
+                  turn, has led to conflicting claims of machine learning being discriminatory,
+                  "woke," and value-neutral. In this lecture I will discuss the history of natural
+                  language processing and machine learning; and examine methods for developing
+                  machine learning tools for human and social data. I argue that claims of wokeness
+                  or even neutrality inherently misunderstand (a) the methods used by machine
+                  learning and (b) the social and historical contexts under which machine learning
+                  technologies are developed. Finally, I will close with a discussion on how machine
+                  learning infrastructures maintain and reify colonial legacies of displacing costs
+                  onto colonial bodies while centralizing benefits in the heart of the empire.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#talat_zeerak">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-edinburgh"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-07-04" xml:id="ls44_t3_l8">
+              <eventName xml:lang="en">Society-centered AI: An Integrative Perspective on
+                Algorithmic Fairness</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk, I will share my never-ending learning journey on algorithmic
+                  fairness. I will give an overview of fairness in algorithmic decision-making,
+                  reviewing the progress and wrong assumptions made along the way, which have led to
+                  new and fascinating research questions. Most of these questions remain open to
+                  this day and become even more challenging in the era of generative AI. Thus, this
+                  talk will provide only a few answers but many open challenges to motivate the need
+                  for a paradigm shift from owner-centered to society-centered AI. With
+                  society-centered AI, I aim to bring the values, goals, and needs of all relevant
+                  stakeholders into AI development as first-class citizens to ensure that these new
+                  technologies are at the service of society.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#valera_isabel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
+          </event>
+        </event>
         <event xml:id="ls45" type="lecture-series" where="#berlin">
           <eventName xml:lang="de">Digital Humanities: Die digitale Transformation der
             Geisteswissenschaften</eventName>
@@ -43977,560 +44912,6 @@
               <org role="host-institution" corresp="#uni-hamburg #uni-leeds"/>
             </event>
             <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
-          </event>
-        </event>
-        <event xml:id="ls44" type="lecture-series" where="#saarbruecken">
-          <eventName xml:lang="en">I2SC Lecture Series</eventName>
-          <note type="description" xml:lang="en">
-            <p>The Interdisciplinary Institute for Societal Computing offers a regular Lecture
-              Series to bring together researchers of different academic fields to analyze and
-              discuss the broad topic of society and technology. The Lecture Series is designed as a
-              laboratory of interdisciplinary research to encourage cooperation and new research
-              approaches. The series will feature a mix of speakers from Computer Science, Social
-              Science, and Digital Humanities.</p>
-          </note>
-
-          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
-            <eventName xml:lang="en">Summer 2024</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250709154235/https://www.i2sc.net/events/past-events/i2sc-lecture-series-summer-2024"/>
-            <event type="lecture" when="2024-04-26" xml:id="ls44_t1_l1">
-              <eventName xml:lang="en">Digital vs. analog footprints</eventName>
-              <note type="abstract" xml:lang="en">
-                <p>In the digital world users leave footprints, e.g., by the applications they use
-                  or regarding their geographic interest by visiting various Websites from country
-                  code Top Level Domains (ccTLDs). In the analog world various statistics try to
-                  capture human behavior. Both approaches have their drawbacks. For example, users
-                  interest can shift quickly yet not all domains under a specific top level domains
-                  may be related to that geographic region. At the same time gathering offline
-                  statistics is often costly and may require a huge effort.</p>
-                <p>In this talk I will use Internet measurement studies as examples to outline our
-                  ability to collect digital footprints, including gathering information about the
-                  implications of the COVID-19 Pandemic on Internet traffic. Then I will discuss how
-                  geographic interest may correlate with population statistics.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#feldmann_anja">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#mpii"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <event type="lecture" when="2024-05-10" xml:id="ls44_t1_l2">
-              <eventName xml:lang="en">On Gender Gaps in Natural Language Processing</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=-mr8zLHIguA"/>
-              <note type="abstract" xml:lang="en">
-                <p>In the field of natural language processing (NLP), gender gaps are thought of and
-                  treated similarly to the gender wage gap in economics. I will present previous
-                  work on the Gender Gap Tracker at Simon Fraser University and more recent work
-                  done at Saarland University on pronoun use with large language models, to
-                  illustrate how gender gaps are technically operationalized in NLP. These examples
-                  will serve as motivation to discuss bigger-picture epistemological gaps in how
-                  “gender” is treated in NLP - typically as binary, immutable, and directly
-                  inferable from characteristics such as a person’s name, pronouns, and so on.
-                  Drawing on methodologies, frameworks and viewpoints from other disciplines,
-                  including work I was involved in on the use of intersectionality in AI fairness, I
-                  will end with my thoughts and hopes for closing the epistemological gaps, with the
-                  goal of addressing the technical gaps more effectively and justly.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#gautam_vagrant">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-saarland"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <event type="lecture" when="2024-05-31" xml:id="ls44_t1_l3">
-              <eventName xml:lang="en">Legal Aspects of Artificial Intelligence: Balancing Privacy
-                and Utility</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=PvBCFQRZUfY"/>
-              <note type="abstract" xml:lang="en">
-                <p>The regulation of artificial intelligence poses new challenges for the law. For
-                  example, personal data is subject to data protection law even though the impact of
-                  the data processing might appear insignificant in many cases. In particular, this
-                  may apply to machine learning applications, which often use personal data of
-                  millions of different people.</p>
-                <p>The European Union is currently changing the legal framework for data processing.
-                  How will this framework affect the development of AI systems, the gathering of
-                  personal data for training purposes, and the application of trained models? Is the
-                  privacy of individuals still guaranteed - and if so, is data protection hindering
-                  technical progress? The lecture will provide an overview of current developments
-                  and analyse them from an interdisciplinary perspective.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#sorge_christoph">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-saarland"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <event type="lecture" when="2024-06-14" xml:id="ls44_t1_l4">
-              <eventName xml:lang="en">The Rise of Generative AI: Exploring Trust, Believability,
-                and Social Media Dynamics</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=eb7tFYaS7oI"/>
-              <note type="abstract" xml:lang="en">
-                <p>We have entered a new era of artificial intelligence (AI), characterized by the
-                  rapid proliferation of Generative AI (GenAI) and its numerous applications. As
-                  humans, our interactions with “content” in various forms, including text, images,
-                  and videos, have undergone a profound transformation due to the integration of AI
-                  technologies. It has become increasingly challenging to discern whether we are
-                  communicating with a human or an AI model. Concurrently, the content generated
-                  using Large Language Models (LLMs) and AI-synthesized images and videos using
-                  Diffusion models have significantly altered our perspectives in the real world and
-                  on social media.</p>
-                <p>In certain instances, we encounter AI-generated fake profiles during job
-                  screening or marketing. In other cases, we are confronted with AI-generated fake
-                  videos, such as deepfakes, on social media, which purport to depict actions that
-                  never actually occurred. Notably, in an era of clickbait-incentivized social media
-                  platforms, deepfakes and other forms of appealing AI-generated content
-                  significantly increase human engagement, leading to various potential outcomes,
-                  both positive and negative.</p>
-                <p>It remains uncertain how we can establish trust in AI or how society will be
-                  impacted on a large scale by AI-generated content. Several questions arise: How
-                  much will share, incorporate, and interact with content created by AI? Will people
-                  “trust” the outcomes generated by AI? Will people believe what the majority share
-                  on social media?</p>
-                <p>In this presentation, I intend to engage in critical discussions on the topic of
-                  trust in AI, present empirical research findings on the believability and
-                  shareability of synthetic content, and explore the broader societal implications
-                  of GenAI applications and interactions.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#gamage_dilrukshi">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-colombo"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <event type="lecture" when="2024-06-28" xml:id="ls44_t1_l5">
-              <eventName xml:lang="en">Unraveling Romantic Communication. Correspondence networks of
-                Early Romanticism</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=9UvD5bn5KRs"/>
-              <note type="abstract" xml:lang="en">
-                <p>The Early Romanticism in Jena and Berlin is considered the outstanding
-                  intellectual revolution of young German authors and scholars at the turn of the
-                  epoch around 1800. The group operated publicly and dispersively, yet
-                  network-forming; they reflected and practised "Geselligkeit," for example, through
-                  the communication form of letters. For the analysis of these epistolary
-                  communication processes among these authors, scholars, intelligentsia, and the
-                  people connected to them, the project aims to build up a database that consists of
-                  the letters exchanged among the key protagonists of Early Romanticism (such as,
-                  among others, Friedrich, Dorothea, August Wilhelm, and Caroline Schlegel, Novalis)
-                  and their correspondents between 1790 and 1802, covering various 'prehistories' up
-                  to the dissolution of the Jena Circle.</p>
-                <p>Using methods from knowledge management and network research, the project draws
-                  on additional data sources, e.g. the Integrated Authority File (GND) of the German
-                  National Library, to work towards a holistic picture of the relationships between
-                  those actors, the flow of knowledge and influences, informal and formal
-                  collaboration processes between them. By analysing communication networks, we aim
-                  to highlight important actors, identify groups and their formation processes,
-                  search for signs of loss or (re-)establishment of contact as well as set all these
-                  factors in a temporal and comparative context. Ultimately, through these results
-                  we intend to get a better understanding of knowledge transfer and production in
-                  the Romantic circle.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#deicke_aline">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-marburg"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <event type="lecture" when="2024-07-12" xml:id="ls44_t1_l6">
-              <eventName xml:lang="en">Theory vs. Computation? On building many Bridges over the
-                Gap</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=bbPoNaeayuU"/>
-              <note type="abstract" xml:lang="en">
-                <p>In those areas of Digital Humanities where computational methods are integral to
-                  analysis, it becomes essential to critically examine the interplay between
-                  humanities theories on the phenomena of interest and their computational analysis.
-                  While concepts such as operationalization and modeling have been under discussion
-                  for some time, there's still a notable absence of a comprehensive perspective on
-                  the entire research process which also includes humanities’ theories. I will
-                  suggest to view computational research processes in Digital Humanities as
-                  input-process-output workflows in which theoretical concepts serve as integral
-                  components at various stages. Drawing on computational literary studies as a case
-                  study, my presentation aims to elucidate the connection between theory and
-                  computation by proposing a methodology for enabling theory-driven validity.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#gius_evelyn">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-darmstadt"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
-          </event>
-
-          <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
-            <eventName xml:lang="en">Winter 2024-25</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
-
-            <!-- ADD THE LECTURES HERE -->
-
-            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
-          </event>
-
-          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
-            <eventName xml:lang="en">Summer 2025</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250709160106/https://www.i2sc.net/events/i2sc-lecture-series"/>
-
-            <event type="lecture" when="2024-04-11" xml:id="ls44_t3_l1">
-              <eventName xml:lang="en">Policy Impact: From AI Regulation to Academic
-                Inclusion</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=97h7-KZOg9k"/>
-              <note type="abstract" xml:lang="en">
-                <p>This talk examines how policies affect people across multiple domains. I analyze
-                  surveillance loopholes in the EU AI Act introduced by German regulators that
-                  potentially compromise civil liberties. The discussion then critiques academic
-                  name-change policies that create unnecessary barriers for transgender and queer
-                  scholars. Finally, I evaluate academic publishing frameworks that exclude
-                  underrepresented communities and propose practical reforms to create more
-                  equitable spaces. Throughout, I demonstrate how seemingly neutral policies can
-                  cause harm when developed without input from marginalized communities.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#agrawal_pranav">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-hamburg"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-04-25" xml:id="ls44_t3_l2">
-              <eventName xml:lang="en">Beyond AI Hype: Building Machine Learning Systems that Serve
-                Communities</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=VJoYx9JoLZU"/>
-              <note type="abstract" xml:lang="en">
-                <p>Technological advancement, particularly Artificial Intelligence, is often
-                  accompanied by significant hype and grand promises. But who do these technologies
-                  serve? I will motivate this talk by conducting a reality check of current
-                  technologies, such as chatbots, social media platforms, search engines, and
-                  knowledge bases for languages spoken by millions in the Horn of Africa. Drawing
-                  from hands-on experience, I will then explore the development of machine learning
-                  systems for underrepresented languages, focusing on Machine Translation and
-                  Automatic Speech Recognition for Amharic and Tigrinya. These case studies offer
-                  insight into the technical and social challenges involved, as well as the broader
-                  implications for the communities these technologies are intended to serve. I will
-                  conclude by discussing how we evaluate machine learning systems. Evaluation is
-                  central to defining scientific progress in the field, with benchmarks playing a
-                  critical role. However, benchmarks can also be strategically manipulated or
-                  misused. I will highlight how these issues manifest in practice and what they
-                  reveal about the incentives and priorities driving current AI research.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#hadgu_asmelash-teka">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#dair"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-05-09" xml:id="ls44_t3_l3">
-              <eventName xml:lang="en">Six Degrees of Slavery: Measuring Slave-Ownership and Elite
-                Persistence in Britain</eventName>
-              <note type="abstract" xml:lang="en">
-                <p>Although the legacies of slavery in Britain have received increasing attention in
-                  recent years, little evidence exists on how such legacies have shaped the
-                  country’s political elite. This project seeks to quantify and chart these ties
-                  over time, using a novel computational technique harnessing Wikidata, a knowledge
-                  graph closely connected to Wikipedia, as a means of operationalizing historical
-                  proximity between individuals. This technique enables the measurement of personal
-                  proximity to slavery, including via familial and social connections. Aggregating
-                  this data for politicians across a series of historical parliaments demonstrates
-                  how links to slavery persisted via dynastic and other social ties into the 20th
-                  Century and the extent to which ties to slavery still exist among contemporary
-                  politicians. We demonstrate how slavery-backed networks have persisted more
-                  thoroughly in the Conservative Party and the House of Lords than in other
-                  institutions, and explore the robustness of this persistence to historical periods
-                  of reform. The results emphasize the extent to which slavery and its legacies
-                  continue to play an active role in British politics, as well as offering an
-                  efficient and reliable new method for measuring social proximity using online
-                  data.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">canceled</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#gessler_theresa">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-viadrina"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-05-09" xml:id="ls44_t3_l4">
-              <eventName xml:lang="en">AI Safety Benchmarks Do Not Benchmark Safety</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=HaKi5uwX6p0"/>
-              <note type="abstract" xml:lang="en">
-                <p>As artificial intelligence systems become increasingly integrated into critical
-                  aspects of society, the need for robust safety evaluation is crucial. However,
-                  this talk contends that current AI safety benchmarks, while offering insights into
-                  specific model behaviors, fundamentally fall short of measuring genuine safety. We
-                  argue this from multiple perspectives: First, these benchmarks typically assess
-                  only a narrow, predefined set of known risks, providing limited coverage of the
-                  vast landscape of potential failures, including complex edge cases, subtle biases,
-                  and unknown unknowns. Second, we posit that safety is not merely the absence of
-                  quantifiable risk or a property inherent to an isolated component; rather, it is
-                  an emergent property of the entire socio-technical system operating within its
-                  real-world context. Finally, unlike mature engineering disciplines that
-                  incorporate robust methods for handling uncertainty and rely on continuous
-                  monitoring and adaptation, AI benchmarks offer static evaluations that cannot
-                  account for the dynamic nature of risk or the intersubjective and societal
-                  dimensions of what constitutes acceptable safety. By highlighting these
-                  limitations, this talk aims to demonstrate that a sole reliance on current
-                  benchmarks provides an incomplete and potentially misleading assessment of AI
-                  safety, underscoring the urgent need for more comprehensive, systemic, and
-                  context-aware evaluation paradigms.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#papakyriakopoulos_orestis">
-                  <name>
-                    <roleName type="title">Prof. Dr.</roleName>
-                  </name>
-                  <affiliation corresp="#uni-muenchen-tu"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-05-23" xml:id="ls44_t3_l5">
-              <eventName xml:lang="en">Delving into ChatGPT usage in academic writing through excess
-                vocabulary</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=81FHy-Jr4G4"/>
-              <note type="abstract" xml:lang="en">
-                <p>Recent large language models (LLMs) can generate and revise text with human-level
-                  performance and have been widely commercialized in systems like ChatGPT. These
-                  models come with clear limitations: they can produce inaccurate information,
-                  reinforce existing biases, and be easily misused. Yet, many scientists have been
-                  using them to assist their scholarly writing. How widespread is LLM usage in the
-                  academic literature currently? To answer this question, we use an unbiased,
-                  large-scale approach, free from any assumptions about academic LLM usage. We study
-                  vocabulary changes in 14 million PubMed abstracts from 2010-2024 and show how the
-                  appearance of LLMs led to an abrupt increase in the frequency of certain style
-                  words. Our analysis based on excess word usage suggests that at least 10% of 2024
-                  abstracts were processed with LLMs. This lower bound differed across disciplines,
-                  countries, and journals, and was as high as 30% for some PubMed sub-corpora. We
-                  show that the appearance of LLM-based writing assistants has had an unprecedented
-                  impact on the scientific literature, surpassing the effect of major world events
-                  such as the COVID-19 pandemic.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#lause_jan">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-tuebingen"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-06-06" xml:id="ls44_t3_l6">
-              <eventName xml:lang="en">Evaluating Political Bias: Insights into Robustness and
-                Multilinguality</eventName>
-              <ptr type="video" target="https://www.youtube.com/watch?v=_a4iCiDt7fg"/>
-              <note type="abstract" xml:lang="en">
-                <p>Due to the widespread use of large language models (LLMs), it is crucial to
-                  understand whether they embed a specific "worldview" and what these views reflect.
-                  In this talk, I will discuss the challenges in performing a robust evaluation of
-                  political bias in LLMs both from a monolingual and a multilingual perspective. I
-                  will present the results of two studies: the first involves developing a framework
-                  for systematically evaluating political bias in LLMs, with a detailed look at
-                  biases in specific policy issues and the importance of a robust evaluation when
-                  probing LLMs. The second study examines to what extent political biases are
-                  carried over across languages. Results suggest that biases are similar across
-                  European languages. I will conclude by discussing relevant open research questions
-                  regarding political biases in LLMs.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#ceron_tanise">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-bocconi"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-06-27" xml:id="ls44_t3_l7">
-              <eventName xml:lang="en">Is machine learning a Woke, Neutral, or Fascist
-                technic?</eventName>
-              <note type="abstract" xml:lang="en">
-                <p>Since the mid-2010s there have been concerns about the social biases that are
-                  embedded in the representational space of machine learning models which has led to
-                  a flourishing field of addressing the social harms of machine learning. This, in
-                  turn, has led to conflicting claims of machine learning being discriminatory,
-                  "woke," and value-neutral. In this lecture I will discuss the history of natural
-                  language processing and machine learning; and examine methods for developing
-                  machine learning tools for human and social data. I argue that claims of wokeness
-                  or even neutrality inherently misunderstand (a) the methods used by machine
-                  learning and (b) the social and historical contexts under which machine learning
-                  technologies are developed. Finally, I will close with a discussion on how machine
-                  learning infrastructures maintain and reify colonial legacies of displacing costs
-                  onto colonial bodies while centralizing benefits in the heart of the empire.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">in person</term>
-                <term type="audience">hybrid</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#talat_zeerak">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-edinburgh"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-
-            <event type="lecture" when="2024-07-04" xml:id="ls44_t3_l8">
-              <eventName xml:lang="en">Society-centered AI: An Integrative Perspective on
-                Algorithmic Fairness</eventName>
-              <note type="abstract" xml:lang="en">
-                <p>In this talk, I will share my never-ending learning journey on algorithmic
-                  fairness. I will give an overview of fairness in algorithmic decision-making,
-                  reviewing the progress and wrong assumptions made along the way, which have led to
-                  new and fascinating research questions. Most of these questions remain open to
-                  this day and become even more challenging in the era of generative AI. Thus, this
-                  talk will provide only a few answers but many open challenges to motivate the need
-                  for a paradigm shift from owner-centered to society-centered AI. With
-                  society-centered AI, I aim to bring the values, goals, and needs of all relevant
-                  stakeholders into AI development as first-class citizens to ensure that these new
-                  technologies are at the service of society.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">canceled</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="#valera_isabel">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="#uni-saarland"/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="#uni-saarland"/>
-            </event>
-            <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
         </event>
         <!-- ##### Austria ##### -->
@@ -49779,7 +50160,6 @@
             <org role="organizer" corresp="#burkart_lucas #fornaro_peter"/>
           </event>
         </event>
-
         <event xml:id="ls43" type="lecture-series" where="#lausanne">
           <eventName xml:lang="fr">Séminaires DH</eventName>
           <eventName xml:lang="en">DH Lecture Series</eventName>
@@ -51339,7 +51719,6 @@
           </event>
 
         </event>
-
         <!-- ##### Belgium ##### -->
         <event xml:id="ls26" type="lecture-series" where="#antwerpen">
           <eventName xml:lang="en">Platform{DH} Lecture Series / platform{talks}</eventName>
