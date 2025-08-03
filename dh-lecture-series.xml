@@ -40559,6 +40559,8 @@
             <event type="lecture" when="2025-05-12" xml:id="ls18_t1_l10">
               <eventName xml:lang="en">Genres of existence: Network graphs, genre theory, and the
                 metaphysics of fictional things</eventName>
+              <ptr type="slides"
+                target="https://www.uni-potsdam.de/fileadmin/projects/digital-humanities/Flyer_und_Imagematerial/Code_And_Culture/PORTER__Genres_of_existence.pdf"/>
               <note type="abstract" xml:lang="en">
                 <p>While analyzing literary genre as it appears in a large dataset scraped from the
                   book review website Goodreads.com, my colleagues and I have consistently found
@@ -40600,6 +40602,45 @@
                     <roleName type="title">not found</roleName>
                   </name>
                   <affiliation corresp="#uni-pennsylvania"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-potsdam"/>
+            </event>
+            <event type="lecture" when="2025-06-23" xml:id="ls18_t1_l11">
+              <eventName xml:lang="en">Introducing Computing Writing: Why Literary Studies
+                Matter</eventName>
+              <ptr type="slides"
+                target="https://www.uni-potsdam.de/fileadmin/projects/digital-humanities/Flyer_und_Imagematerial/Code_And_Culture/PORTER__Genres_of_existence.pdf"/>
+              <note type="abstract" xml:lang="en">
+                <p>This talk introduces Computing Writing, a book (nearing completion) that argues
+                  computing and writing are not separate realms but entangled material-semiotic
+                  practices. The book identifies a “paradox of representationalism”: while literary
+                  scholars reject the idea that writing simply represents pre-existing reality, many
+                  embrace this framework for computing and data, treating them as instrumental tools
+                  of discovery or destruction, rather than participants in meaning-making.</p>
+                <p>Drawing primarily on feminist Science and Technology Studies, the book develops a
+                  performative approach to literary studies (including CLS) through “diffractive
+                  writing.” This approach explores patterns of understanding that emerge from,
+                  rather than preceding, relations of diverse writing practices, including with text
+                  and data. Working across and combining literary theory, textual studies, and
+                  literary history and criticism, alongside the collaborative data project, A
+                  Writing-Reading Interface (AWRI), it argues that literary studies, including CLS,
+                  matters as a rich tradition and ongoing practice of exploring and extending the
+                  realities and possibilities of writing-world relations.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bode_katherine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-australian"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-potsdam"/>
@@ -41946,7 +41987,6 @@
           <eventName xml:lang="en">Lecture Series Data Science</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250629104211/https://www.uni-bielefeld.de/einrichtungen/bicdas/more/lecture-series/#accordion-comp_0000603712b7_0000001437_6a0d"/>
-
           <event type="lecture-series-term" from="2017-10" to="2018-01" xml:id="ls38_t1">
             <eventName xml:lang="en">Winter term 2017-18</eventName>
             <note type="description" xml:lang="en">
@@ -41957,7 +41997,6 @@
                 great collection of resources and showcases the wide range of topics in Data
                 Science.</p>
             </note>
-
             <event type="lecture" when="2017" xml:id="ls38_t1_l1">
               <eventName xml:lang="en">Data Science and Digital Humanities, Models, Practices, and
                 Interpretations</eventName>
@@ -41981,7 +42020,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2017" xml:id="ls38_t1_l2">
               <eventName xml:lang="en">Cryptographic Access Control—Reconciling Security and
                 Privacy</eventName>
@@ -42003,7 +42041,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2017" xml:id="ls38_t1_l3">
               <eventName xml:lang="en">Auditory Data Science</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -42024,7 +42061,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2017" xml:id="ls38_t1_l4">
               <eventName xml:lang="en">Data? What for? Thoughts around research question based data
                 collection</eventName>
@@ -42046,7 +42082,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2017" xml:id="ls38_t1_l5">
               <eventName xml:lang="en">Enabling Data-Intensive Science</eventName>
               <ptr type="slides"
@@ -42069,10 +42104,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
-
           <event type="lecture-series-term" from="2018-10" to="2019-05" xml:id="ls38_t2">
             <eventName xml:lang="en">Winter term 2018-19</eventName>
 
@@ -42318,10 +42351,8 @@
 
             <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
-
           <event type="lecture-series-term" from="2019-12" to="2018-02" xml:id="ls38_t3">
             <eventName xml:lang="en">Winter term 2019-20</eventName>
-
             <event type="lecture" when="2019-12-13" xml:id="ls38_t3_l1">
               <eventName xml:lang="en">Are we there yet? Predicting travel times in urban street
                 networks</eventName>
@@ -42364,7 +42395,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2020-01-10" xml:id="ls38_t3_l2">
               <eventName xml:lang="en">Research data federation in the arts and humanities:
                 background, concepts and services in DARIAH-DE</eventName>
@@ -42411,7 +42441,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2020-01-17" xml:id="ls38_t3_l3">
               <eventName xml:lang="en">Mobile In-Store Analytics: Examining Shopper Behavior and
                 Reactions to Location-Based Mobile Promotions</eventName>
@@ -42452,7 +42481,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2020-01-24" xml:id="ls38_t3_l4">
               <eventName xml:lang="en">Secure Multiparty Computation - digital collaboration on
                 private data</eventName>
@@ -42498,7 +42526,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2020-01-31" xml:id="ls38_t3_l5">
               <eventName xml:lang="en">Data Science Techniques in Digital Humanities and Digital
                 Knowledge Services</eventName>
@@ -42535,7 +42562,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2020-02-14" xml:id="ls38_t3_l6">
               <eventName xml:lang="en">Programming Languages in Data Science</eventName>
               <note type="abstract" xml:lang="en">
@@ -42574,13 +42600,10 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
-
           <event type="lecture-series-term" from="2024-06" to="2024-06" xml:id="ls38_t4">
             <eventName xml:lang="en">Summer term 2024</eventName>
-
             <event type="lecture" when="2024-06-17" xml:id="ls38_t4_l1">
               <eventName xml:lang="de">Digital Literacy mit ChatGPT: Kompetenzen zum Umgang mit
                 digitalen Texten</eventName>
@@ -42632,7 +42655,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
         </event>
