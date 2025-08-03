@@ -275,6 +275,21 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-catalunya-oberta" type="university">
+            <name xml:lang="es">Universitat Oberta de Catalunya</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3042433</idno>
+            <place corresp="#barcelona"/>
+          </org>
+          <org xml:id="uni-central-european" type="university">
+            <name xml:lang="en">Central European University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q757391</idno>
+            <place corresp="#wien"/>
+          </org>
+          <org xml:id="uni-colorado" type="university">
+            <name xml:lang="en">University of Colorado Boulder</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q736674</idno>
+            <place corresp="#boulder"/>
+          </org>
           <org xml:id="uni-nantes" type="university">
             <name xml:lang="fr">Université de Nantes</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q259388</idno>
@@ -1656,6 +1671,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
             <place corresp="#saarbruecken"/>
           </org>
+          <org xml:id="c2dh" type="research_institution">
+            <name xml:lang="de">Luxembourg Centre for Contemporary and Digital History (C2DH)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q74434404</idno>
+            <place corresp="#luxembourg"/>
+          </org>
           <org xml:id="dair" type="research_institution">
             <name xml:lang="de">Distributed Artificial Intelligence Research Institute (DAIR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q110231228</idno>
@@ -2381,6 +2401,67 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="garimella_kiran">
+            <name>
+              <forename>Kiran</forename>
+              <surname>Garimella</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0173-5557</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q116196151</idno>
+          </person>
+          <person xml:id="duering_marten">
+            <name>
+              <forename>Marten</forename>
+              <surname>Düring</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7411-771X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57606416</idno>
+          </person>
+          <person xml:id="omodei_elisa">
+            <name>
+              <forename>Elisa</forename>
+              <surname>Roig Sanz</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6353-7708</idno>
+          </person>
+          <person xml:id="roig-sanz_diana">
+            <name>
+              <forename>Diana</forename>
+              <surname>Roig Sanz</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6353-7708</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q58049624</idno>
+          </person>
+          <person xml:id="antoniak_maria">
+            <name>
+              <forename>Maria</forename>
+              <surname>Antoniak</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4807-2850</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130603304</idno>
+          </person>
+          <person xml:id="koenig_cornelius">
+            <name>
+              <forename>Cornelius</forename>
+              <surname>König</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2820-9151</idno>
+          </person>
+          <person xml:id="garcia_david">
+            <name>
+              <forename>David</forename>
+              <surname>Garcia</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2820-9151</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q56928231</idno>
+          </person>
           <person xml:id="weiss_katharina">
             <name>
               <forename>Katharina</forename>
@@ -13538,6 +13619,11 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="boulder">
+            <country corresp="#usa"/>
+            <name>Boulder</name>
+            <idno type="gnd">https://d-nb.info/gnd/4126960-3</idno>
+          </place>
           <place type="city" xml:id="columbus">
             <country corresp="#usa"/>
             <name>Columbus</name>
@@ -40610,7 +40696,7 @@
               <eventName xml:lang="en">Introducing Computing Writing: Why Literary Studies
                 Matter</eventName>
               <ptr type="slides"
-                target="https://www.uni-potsdam.de/fileadmin/projects/digital-humanities/Flyer_und_Imagematerial/Code_And_Culture/PORTER__Genres_of_existence.pdf"/>
+                target="https://web.archive.org/web/20250803160250/https://www.uni-potsdam.de/fileadmin/projects/digital-humanities/Flyer_und_Imagematerial/Code_And_Culture/PORTER__Genres_of_existence.pdf"/>
               <note type="abstract" xml:lang="en">
                 <p>This talk introduces Computing Writing, a book (nearing completion) that argues
                   computing and writing are not separate realms but entangled material-semiotic
@@ -43872,7 +43958,6 @@
               approaches. The series will feature a mix of speakers from Computer Science, Social
               Science, and Digital Humanities.</p>
           </note>
-
           <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls44_t1">
             <eventName xml:lang="en">Summer 2024</eventName>
             <ptr type="programme"
@@ -43896,8 +43981,8 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#feldmann_anja">
@@ -43931,7 +44016,7 @@
               </note>
               <note type="realization">
                 <term type="speech">online</term>
-                <term type="audience">online</term>
+                <term type="audience">hybrid</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#gautam_vagrant">
@@ -43965,7 +44050,7 @@
               </note>
               <note type="realization">
                 <term type="speech">online</term>
-                <term type="audience">online</term>
+                <term type="audience">hybrid</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#sorge_christoph">
@@ -44013,7 +44098,7 @@
               </note>
               <note type="realization">
                 <term type="speech">online</term>
-                <term type="audience">online</term>
+                <term type="audience">hybrid</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#gamage_dilrukshi">
@@ -44057,7 +44142,7 @@
               </note>
               <note type="realization">
                 <term type="speech">online</term>
-                <term type="audience">online</term>
+                <term type="audience">hybrid</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#deicke_aline">
@@ -44091,7 +44176,7 @@
               </note>
               <note type="realization">
                 <term type="speech">online</term>
-                <term type="audience">online</term>
+                <term type="audience">hybrid</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#gius_evelyn">
@@ -44105,17 +44190,240 @@
             </event>
             <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
-
           <event type="lecture-series-term" from="2024-11" to="2025-02" xml:id="ls44_t2">
             <eventName xml:lang="en">Winter 2024-25</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250709155447/https://www.i2sc.net/events/past-events/i2sc-lecture-series-winter-202425"/>
-
-            <!-- ADD THE LECTURES HERE -->
-
+            <event type="lecture" when="2024-11-08" xml:id="ls44_t2_l1">
+              <eventName xml:lang="en">Pitfalls, Challenges, and Benefits of Interdisciplinary
+                Research: Reflections from a Psychologist Collaborating with Computer Scientists for
+                Over a Decade</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=8K1niR9F3_g"/>
+              <note type="abstract" xml:lang="en">
+                <p>The Interdisciplinary Institute for Societal Computing at Saarland University is
+                  dedicated to fostering research at the intersection of society and technology,
+                  which is why “interdisciplinary” is central to its name. In this talk, I would
+                  like to share my personal experiences as a psychologist who has worked
+                  collaboratively with computer scientists for over 13 years. I began this journey
+                  somewhat naively and have since undergone a long learning process. This experience
+                  has convinced me that anyone interested in interdisciplinary work should
+                  periodically reflect on the pitfalls, challenges, and benefits of such
+                  collaboration. I hope my lecture provides one of those opportunities for
+                  reflection.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#koenig_cornelius">
+                  <name>
+                    <roleName type="title">Prof</roleName>
+                  </name>
+                  <affiliation corresp="#uni-saarland"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-11-15" xml:id="ls44_t2_l2">
+              <eventName xml:lang="en">Linking Survey and Social Media Data to Study Political
+                Polarization</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Social media data donation through data download packages (DDPs) is a promising
+                  new way of collecting individual-level digital trace data with informed consent.
+                  When linked with survey data, data donation is an even more promising tool that
+                  helps answer novel research questions. In this talk, I will show how this approach
+                  allowed us to investigate polarization measurement biases that arise when only
+                  visible traces accessible through platform APIs are considered, while neglecting
+                  invisible traces not recorded via online channels, which can reveal key aspects of
+                  political engagement online.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#omodei_elisa">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-central-european"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-11-29" xml:id="ls44_t2_l3">
+              <eventName xml:lang="en">Machine Learning to Link Historical Media
+                Collections</eventName>
+              <note type="abstract" xml:lang="en">
+                <p>Historical media count among the most attractive sources for historical research.
+                  Following mass digitisation efforts over the past decades, researchers now face
+                  the problem of overabundance of materials which can no longer be managed with
+                  keyword search and basic content filtering techniques alone even though only a
+                  fraction of the overall archival record has actually been made available. This
+                  poses challenges for the contextualisation and critical assessment of these
+                  sources which can be effectively addressed using semantic enrichments based on
+                  natural language processing techniques. In this lecture, I will present ongoing
+                  efforts by the project "Impresso. Media Monitoring of the Past". I will discuss
+                  epistemological challenges in data exploration and interface design as well as
+                  opportunities in terms of reflected content exploration, computational analysis,
+                  and including an outlook to forthcoming Impresso Datalab.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#duering_marten">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#c2dh"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2024-11-29" xml:id="ls44_t2_l4">
+              <eventName xml:lang="en">Language Understanding as a Constraint on Consensus Size in
+                LLM Societies</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=Nxq0ZS4zgEQ"/>
+              <note type="abstract" xml:lang="en">
+                <p>The applications of Large Language Models (LLMs) are going towards collaborative
+                  tasks where several agents interact with each other like in an LLM society. In
+                  such a setting, large groups of LLMs could reach consensus about arbitrary norms
+                  for which there is no information supporting one option over another, regulating
+                  their own behavior in a self-organized way. In human societies, the ability to
+                  reach consensus without institutions has a limit in the cognitive capacities of
+                  humans. To understand if a similar phenomenon characterizes also LLMs, we apply
+                  methods from complexity science and principles from behavioral sciences in a new
+                  approach of AI anthropology. We find that LLMs are able to reach consensus in
+                  groups and that the opinion dynamics of LLMs can be understood with a function
+                  parametrized by a majority force coefficient that determines whether consensus is
+                  possible. This majority force is stronger for models with higher language
+                  understanding capabilities and decreases for larger groups, leading to a critical
+                  group size beyond which, for a given LLM, consensus is unfeasible. This critical
+                  group size grows exponentially with the language understanding capabilities of
+                  models and for the most advanced models, it can reach an order of magnitude beyond
+                  the typical size of informal human groups.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#garcia_david">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-konstanz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2025-01-10" xml:id="ls44_t2_l5">
+              <eventName xml:lang="en">From Stories to Sonnets: Data-Centered NLP for Creative
+                Works</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=FtdxpB0Uo1g"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk, I'll share two recent studies that use natural language processing
+                  (NLP) techniques to model creative works like stories and poetry. In the first
+                  part of the talk, I'll discuss NLP approaches for story detection and analysis,
+                  focusing on how NLP methods can help us study storytelling at large scales and
+                  across diverse contexts. In the second part, I'll discuss the poetic capabilities
+                  of large language models (LLMs), focusing on audits of the vast pretraining
+                  datasets used to build these models. Both studies will highlight the challenges in
+                  creating open evaluation datasets for creative works and the importance of
+                  interdisciplinary collaboration between NLP and the humanities.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#antoniak_maria">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-colorado"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2025-01-24" xml:id="ls44_t2_l6">
+              <eventName xml:lang="en">From Stories to Sonnets: Data-Centered NLP for Creative
+                Works</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=Hy4IFZnwyFI"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk, I will present a study looking at the prevalence of misinformation,
+                  political propaganda and hate speech on WhatsApp. Using a large WhatsApp data
+                  donation program in India and Brazil covering thousands of users, we
+                  systematically analyze private group messages to understand content prevalence,
+                  virality, and user profiles in problematic content spread. Our analysis from data
+                  in India shows a high prevalence of political content, with significant
+                  misinformation and hate speech against Muslims. This misinformation was notably
+                  prevalent in caste-based groups and had been previously debunked by fact-checkers,
+                  indicating a failure of fact-checks to reach these groups. This research is the
+                  first quantitative analysis of everyday WhatsApp use and highlights challenges
+                  with end-to-end encrypted platforms. It provides a baseline for developing
+                  moderation policies to combat misinformation and promote responsible use of
+                  encrypted communication channels. The study also develops novel data donation
+                  methods and tools to collect representative samples from hard to study platforms.
+                  These approaches can be scaled to other platforms to enable data collection in the
+                  post API age.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#garimella_kiran">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rutgers"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
+            <event type="lecture" when="2025-02-07" xml:id="ls44_t2_l7">
+              <eventName xml:lang="en">not found</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">canceled</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roig-sanz_diana">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-catalunya-oberta"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-saarland"/>
+            </event>
             <org role="organizer" corresp="#weber_ingmar #braun_daniela" cert="low"/>
           </event>
-
           <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls44_t3">
             <eventName xml:lang="en">Summer 2025</eventName>
             <ptr type="programme"
@@ -44138,7 +44446,7 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44176,7 +44484,7 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44255,7 +44563,7 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44293,7 +44601,7 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44327,7 +44635,7 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
@@ -44361,7 +44669,7 @@
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
-                <term type="speech">in person</term>
+                <term type="speech">online</term>
                 <term type="audience">hybrid</term>
               </note>
               <listPerson>
