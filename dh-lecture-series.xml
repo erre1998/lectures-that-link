@@ -48820,6 +48820,92 @@
         </event>
 
         <event xml:id="..." type="lecture-series" where="#graz">
+          <eventName xml:lang="en">Lunchtime Lecture</eventName>
+          <ptr type="programme" target="..."/>
+          <note type="description" xml:lang="de">
+            <p>...</p>
+          </note>
+
+          <event type="lecture-series-term" from="2015-07" to="2016-01" xml:id="...">
+            <eventName xml:lang="de">Wintersemester 2015-16</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20160414192355/https://dhd-blog.org/?p=6239"/>
+
+            <!-- 2015-07-07 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-towards-a-tei-model-for-the-encoding-of-diplomatic-charters-the-charters-of-t/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/ALVAREZ_-_TEI_standard_for_charters.pdf -->
+            <!-- 2015-10-27 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-johanna-pirker-3d-immersive-digital-humanities-moeglichkeiten-im-virtuellen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Pirker_-_3D_Immersive_Digital_Humanities.pdf  |  https://www.youtube.com/watch?v=47YXrWpSJNY -->
+            <!-- 2015-11-24 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-leif-scheuermann-virtuelle-forschungsumgebungen-eine-zukunftsperspektive/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Scheuermann_-_Virtuelle_Forschungsumgebungen.pdf  |  https://www.youtube.com/watch?v=9Xu2ALnltc4 -->
+            <!-- 2015-12-15 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-guenter-muehlberger-transkribus-fuer-studenten-konzept-einer-e-learninganwen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Mu__hlberger_-_Transkribus_Vortrag.pdf  |  https://www.youtube.com/watch?v=Gkmq7ymUQ98 -->
+            <!-- 2016-01-19 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-lorna-hughes-open-talk-digital-humanities-to-research-infrastructures/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Hughes_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=Q0uibrlKy7U -->
+
+            <org role="organizer" corresp="#..."/>
+          </event>
+
+          <!-- 2016-03-15  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-richard-parncutt-statistical-analysis-of-a-music-database-to-investigate-hist/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Parncutt_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=FXB2Efhcchw  -->
+          <!-- 2016-04-19  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-und-workshop-von-rainer-simon-pelagios-semantic-annotation-of-historical-place/  |  https://www.youtube.com/watch?v=c-hQcdGcR5A  -->
+          <!-- 2016-05-10  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-walter-scholger-urheberrechtliche-aspekte-von-forschung-und-lehre-im-digitale/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Scholger_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=2yf4mpI2v8M  -->
+          <!-- 2016-06-14  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-claudia-resch-daten-zu-schoen-zum-sterben-zur-nachnutzung-digital-aufber/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Resch_-_Lunchtime_Lecture.pdf |  https://www.youtube.com/watch?v=pxwxOS9scww  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/ltl_resch.pdf-->
+
+
+          <!-- 2016-10-25  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-roman-bleier-diplomatische-transkription-mit-tei-am-beispiel-der-briefe-des-h/ -->
+          <!-- 2016-11-29  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-bernadette-biedermann-museale-sammlungen-virtuell-repraesentiert-am-beispiel/   |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Biedermann_-_Lunchtime_Lecture.pdf -->
+          <!-- 2016-12-20  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-matej-durco-digital-humanities-an-der-oeaw/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Durco_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-01-17  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-hans-clausen-dramennetzwerkanalyse-schwierigkeiten-und-methoden-einer-rep/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Clausen_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-03-07  https://digital-humanities.uni-graz.at/de/neuigkeiten/dominique-stutzmann-automated-indexing-of-medieval-manuscripts-the-himanis-research-project-and-th/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Stutzmann_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-04-25   https://digital-humanities.uni-graz.at/de/neuigkeiten/stefan-dumont-ediarum-eine-digitale-arbeitsumgebung-fuer-editionsvorhaben/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Dumont_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-05-09  https://digital-humanities.uni-graz.at/de/neuigkeiten/carina-koch-elisabeth-steiner-webportal-kultur-und-wissenschaftserbe-steiermark/ -->
+
+          <!-- 2017-10-24  https://digital-humanities.uni-graz.at/de/neuigkeiten/florian-windhager-la-linea-3d-neue-wege-zur-visualisierung-von-biographiedaten/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LTL_Flyer_Windhager.pdf -->
+          <!-- 2017-11-14  https://digital-humanities.uni-graz.at/de/neuigkeiten/katrin-glinka-visualisierungen-in-den-geisteswissenschaften-zwischen-analyse-argumentation-und-ve/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Glinka_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-12-12  https://digital-humanities.uni-graz.at/de/neuigkeiten/eva-tropper-martin-sauerbrey-bildquellen-virtuell-repraesentieren-zwei-postkarten-projekte-in-koo/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LunchtimeLecture_Tropper_12-12-2017.pdf -->
+          <!-- 2018-01-23  https://digital-humanities.uni-graz.at/de/neuigkeiten/frederike-neuber-digital-reborn-die-digitale-edition-der-briefe-jean-pauls-zwischen-tradition-und/ -->
+          <!-- 2018-03-20  https://digital-humanities.uni-graz.at/de/neuigkeiten/matija-ogrin-digital-scholarly-editions-of-early-modern-slovenian-manuscripts/ -->
+          <!-- 2018-04-17  https://digital-humanities.uni-graz.at/de/neuigkeiten/birgit-strauss-koscher-datenschutz-an-der-uni-graz/ -->
+          <!-- 2018-05-08  https://digital-humanities.uni-graz.at/de/neuigkeiten/sarah-wagner-objekte-im-netz-ein-modell-zur-digitalisierung-und-vernetzung-universitaerer-sammlu/ -->
+          <!-- 2018-06-26  https://digital-humanities.uni-graz.at/de/neuigkeiten/philipp-koncar-a-community-divided-analyzing-controversy-on-reddit/ -->
+
+
+          <!-- 2018-11-06  https://digital-humanities.uni-graz.at/de/neuigkeiten/thomas-wallnig-die-hybrid-edition-der-pez-korrespondenz-als-forschungsstrategische-herausforderung/  |   -->
+          <!-- 2019-01-15  https://digital-humanities.uni-graz.at/de/neuigkeiten/johannes-ibel-memorial-archives-vernetztes-forschen-zu-ns-opfern/ -->
+          <!-- 2020-01-29  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunch-time-luctures/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Fauland_LTL.pdf -->
+
+
+          <!-- 2020-10-21  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-online/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LTL_2020_10_Bernhard_Geiger_LTL.pdf -->
+          <!-- 2020-12-16  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lectures-16.-dezember-2020-12.00-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202012_-_Francesca_Anichini_and_Gabriele_Gattiglia_LTL.pdf -->
+          <!-- 2021-01-20  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lecture/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20210120-Karl-Preiner_LTL.pdf  -->
+          <!-- 2021-03-17  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lectures-17.-maerz-2021-12.00-uhr-christiane-fritze-events-in-digitalen-editionen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202103_-_Leif_Scheuermann_LTL.pdf -->
+          <!-- 2021-04-21  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lectures-21.-april-2021-12.00-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20210421_-_Pietro_Liuzzo_LTL.pdf -->
+
+
+          <!-- 2022-10-12  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lecture-13.-april-2022-1200-uhr/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20221012_-_Sommerscheid.pdf -->
+          <!-- 2023-03-01  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-1.-maerz-2023-1200-uhr-sr-81.31/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LTL_20230111_Hiebel_Rampl.pdf -->
+          <!-- 2023-04-26  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-26.-april-2023-1200-uhr-sr-81.31/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_qhod.pdf -->
+          <!-- 2023-05-03  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-3.-mai-2023-1200-uhr-sr-81.31/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Papadopoulos.pdf -->
+          <!-- 2023-06-07  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-7.6.2023-1200/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Kjelmann.pdf -->
+          <!-- 2023-06-28  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-28.6.2023-1200-unimeet/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Bizzoni.pdf -->
+
+
+          <!-- 2023-12-06  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lecture-6.-dezember-2023-1200-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Stein.pdf -->
+          <!-- 2024-01-24  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-24.1.2024-1200/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Ristic.pdf -->
+          <!-- 2024-03-13  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-13.3.2024-1200/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster-Winslow.pdf -->
+          <!-- 2024-04-10  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-10.4.2024-12.00-uhr/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Fera_Moedlinger.pdf-->
+          <!-- 2024-05-08  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-lunchtime-lecture-8.-mai-2024-1200-uhr-1/  |   https://static.uni-graz.at/fileadmin/_files/_gewi_sites/_informationsmodellierung/PDF/Poster_Haas.pdf-->
+
+
+          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="...">
+            <eventName xml:lang="de">Wintersemester 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250806195902/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/WS2024_25-LTL-Poster.pdf"/>
+
+            <!-- 2024-10-30 -->
+            <!-- 2024-11-27 -->
+            <!-- 2024-12-04 -->
+            <!-- 2025-01-08 -->
+
+            <org role="organizer" corresp="#..."/>
+          </event>
+        </event>
+
+        <event xml:id="..." type="lecture-series" where="#graz">
           <eventName xml:lang="en">Breakfast Lecture</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250804093554/https://digital-humanities.uni-graz.at/de/veranstaltungsuebersicht/breakfast-lecture/"/>
@@ -52819,6 +52905,7 @@
           </note>
           <event type="lecture-series-term" from="2014-10" to="2023-07" xml:id="ls26_t1">
             <eventName/>
+            <!-- 2014 -->
             <event type="lecture" when="2014-10-20" xml:id="ls26_t1_l1">
               <eventName xml:lang="en">How to Make It Stick: A Study of Long-Term Musical
                 Memorability Using Citizen Science</eventName>
@@ -52853,6 +52940,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2015 -->
             <event type="lecture" when="2015-03-15" xml:id="ls26_t1_l2">
               <eventName xml:lang="en">The Future of the Book and the Books of the
                 Future</eventName>
@@ -52927,6 +53015,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2016 -->
             <event type="lecture" when="2016-02-15" xml:id="ls26_t1_l4">
               <eventName xml:lang="en">From Rapacious Wolfs to Independent Women: Cultural
                 Transmission of Little Red Riding Hood</eventName>
@@ -53164,6 +53253,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2017 -->
             <event type="lecture" when="2017-02-13" xml:id="ls26_t1_l10">
               <eventName xml:lang="en">A Statistical Approach to Syntactic Variation. The Case of
                 the Hebrew Bible</eventName>
@@ -53431,6 +53521,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2018 -->
             <event type="lecture" when="2018-03-19" xml:id="ls26_t1_l17">
               <eventName xml:lang="en">Digital Forensics in the Humanities: Beyond
                 Philology</eventName>
@@ -53840,6 +53931,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2019 -->
             <event type="lecture" when="2019-04-01" xml:id="ls26_t1_l28">
               <eventName xml:lang="en">What We See on the Screen</eventName>
               <ptr type="programme"
@@ -53995,6 +54087,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2020 -->
             <event type="lecture" when="2020-02-10" xml:id="ls26_t1_l32">
               <eventName xml:lang="en">Building a “difference engine” for digital literary
                 history</eventName>
@@ -54113,6 +54206,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2021 -->
             <event type="lecture" when="2021-11-15" xml:id="ls26_t1_l35">
               <eventName xml:lang="en">The Rule and the Doubt. Studying the use of doubt in the
                 Italo Calvino’s narrative works</eventName>
@@ -54150,6 +54244,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2022 -->
             <event type="lecture" when="2022-02-21" xml:id="ls26_t1_l36">
               <eventName xml:lang="nl">Hiphop lezen: kwantitatieve en kwalitatieve methoden voor
                 letterkundig onderzoek naar hiphop</eventName>
@@ -54366,6 +54461,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-antwerpen"/>
             </event>
+            <!-- 2023 -->
             <event type="lecture" when="2023-03-06" xml:id="ls26_t1_l41">
               <eventName xml:lang="en">Failure to connect: exploring the human relationships at the
                 heart of digital humanities</eventName>
