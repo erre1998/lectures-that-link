@@ -2421,6 +2421,34 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="sahle_patrick">
+            <name>
+              <forename>Patrick</forename>
+              <surname>Sahle</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8648-2033</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64930071</idno>
+          </person>
+          <person xml:id="lang_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Lang</surname>
+            </name>
+            <gender>female</gender>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3653-1981</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q104489641</idno>
+          </person>
+          <person xml:id="baillot_anne">
+            <name>
+              <forename>Anne</forename>
+              <surname>Baillot</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4593-059X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q21254237</idno>
+          </person>
           <person xml:id="ienca_marcello">
             <name>
               <forename>Marcello</forename>
@@ -8202,16 +8230,6 @@
             <idno type="orcid">https://orcid.org/0000-0002-6836-6047</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q59688520</idno>
           </person>
-          <person xml:id="lang_sarah">
-            <name>
-              <forename>Sarah</forename>
-              <surname>Lang</surname>
-            </name>
-            <gender>female</gender>
-            <gender>non-binary</gender>
-            <idno type="orcid">https://orcid.org/0000-0003-3653-1981</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q104489641</idno>
-          </person>
           <person xml:id="noichl_maximilian">
             <name>
               <forename>Maximilian</forename>
@@ -9638,15 +9656,6 @@
             <idno type="orcid">https://orcid.org/0000-0002-6414-5212</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130955279</idno>
           </person>
-          <person xml:id="baillot_anne">
-            <name>
-              <forename>Anne</forename>
-              <surname>Baillot</surname>
-            </name>
-            <gender>female</gender>
-            <idno type="orcid">https://orcid.org/0000-0002-4593-059X</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q21254237</idno>
-          </person>
           <person xml:id="bermudez-sabel_helena">
             <name>
               <forename>Helena</forename>
@@ -10835,15 +10844,6 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2480-4746</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126691934</idno>
-          </person>
-          <person xml:id="sahle_patrick">
-            <name>
-              <forename>Patrick</forename>
-              <surname>Sahle</surname>
-            </name>
-            <gender>male</gender>
-            <idno type="orcid">https://orcid.org/0000-0002-8648-2033</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q64930071</idno>
           </person>
           <person xml:id="schulz_sarah">
             <name>
@@ -12616,15 +12616,34 @@
           <!-- #### Cities #### -->
           <!-- ###### Continent: Europe ###### -->
           <!-- ######## German cities ######## -->
-          <place type="city" xml:id="ilmenau">
+          <place type="city" xml:id="tuebingen">
             <country corresp="#germany"/>
-            <name>Ilmenau</name>
-            <idno type="tgn">http://vocab.getty.edu/page/tgn/7012825</idno>
+            <name>Tübingen</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004426</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4061147-4</idno>
+          </place>
+          <place type="city" xml:id="koeln">
+            <country corresp="#germany"/>
+            <name>Cologne</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004446</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4031483-2</idno>
+          </place>
+          <place type="city" xml:id="berlin">
+            <country corresp="#germany"/>
+            <name>Berlin</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4005728-8</idno>
           </place>
           <place type="city" xml:id="siegen">
             <country corresp="#germany"/>
             <name>Siegen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012712</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4054883-1</idno>
+          </place>
+          <place type="city" xml:id="ilmenau">
+            <country corresp="#germany"/>
+            <name>Ilmenau</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7012825</idno>
           </place>
           <place type="city" xml:id="pforzheim">
             <country corresp="#germany"/>
@@ -12705,21 +12724,6 @@
             <country corresp="#germany"/>
             <name>Düsseldorf</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004443</idno>
-          </place>
-          <place type="city" xml:id="tuebingen">
-            <country corresp="#germany"/>
-            <name>Tübingen</name>
-            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004426</idno>
-          </place>
-          <place type="city" xml:id="koeln">
-            <country corresp="#germany"/>
-            <name>Cologne</name>
-            <idno type="tgn">http://vocab.getty.edu/page/tgn/7004446</idno>
-          </place>
-          <place type="city" xml:id="berlin">
-            <country corresp="#germany"/>
-            <name>Berlin</name>
-            <idno type="tgn">http://vocab.getty.edu/page/tgn/</idno>
           </place>
           <place type="city" xml:id="dresden">
             <country corresp="#germany"/>
@@ -27453,11 +27457,13 @@
           <event type="lecture-series-term" from="2023-04" to="2024-07" xml:id="ls10_t1">
             <eventName xml:lang="de">Sommersemester 2023</eventName>
             <ptr type="programme"
-              target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
+              target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/
+              forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
             <event type="lecture" when="2023-04-03" xml:id="ls10_t1_l1">
               <eventName xml:lang="de">Digital Humanities 2023? Eine Bestandsaufnahme</eventName>
               <ptr type="programme"
-                target="https://web.archive.org/web/20241115000441/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-humanities-2023-eine-bestandsaufnahme-159435/"/>
+                target="https://web.archive.org/web/20241115000441/https://www.germanistik.uni-rostock.de/
+                forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-humanities-2023-eine-bestandsaufnahme-159435/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.7798685"/>
               <note type="abstract" xml:lang="de">
                 <p>Frühe Pionierarbeiten der Digital Humanities entstanden schon in den 60er-Jahren
@@ -48530,6 +48536,31 @@
           </event>
 
         </event>
+
+        <event xml:id="..." type="lecture-series" where="#graz">
+          <eventName xml:lang="en">Breakfast Lecture</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250804093554/https://digital-humanities.uni-graz.at/de/veranstaltungsuebersicht/breakfast-lecture/"/>
+          <note type="description" xml:lang="de">
+            <p>Wir können uns immer wieder an der inhaltlichen Diversität unserer Arbeit begeistern,
+              daher möchten wir sie mit möglichst vielen Interessierten teilen und bieten dafür am
+              Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities die
+              "Breakfast Lecture" an: Diese Veranstaltungsreihe soll es ermöglichen, sich in einem
+              zwanglosen Ambiente - unter gleichgesinnten Forschenden und Studierenden -
+              weiterzubilden, Fachdiskussionen zu führen, Erfahrungen auszutauschen.</p>
+          </note>
+
+          <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="...">
+            <eventName xml:lang="de">2025</eventName>
+
+            <!-- 2025-06-11 https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
+            <!-- 2025-06-18 https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
+
+            <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
+          </event>
+
+        </event>
+
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
