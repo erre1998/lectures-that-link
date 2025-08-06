@@ -870,10 +870,15 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q262760</idno>
             <place corresp="#lausanne"/>
           </org>
-          <org xml:id="uni-california" type="university">
-            <name xml:lang="en">University of California</name>
+          <org xml:id="uni-california-davis" type="university">
+            <name xml:lang="en">University of California, Davis</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q129421</idno>
             <place corresp="#davis"/>
+          </org>
+          <org xml:id="uni-california-berkeley" type="university">
+            <name xml:lang="en">University of California, Berkeley</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q168756</idno>
+            <place corresp="#berkeley"/>
           </org>
           <org xml:id="uni-california-los-angeles" type="university">
             <name xml:lang="en">University of California, Los Angeles</name>
@@ -2282,7 +2287,7 @@
             <place corresp="#mannheim"/>
           </org>
           <org xml:id="tib" type="other">
-            <name xml:lang="de">TIB (Technische Informationsbibliothek)</name>
+            <name xml:lang="de">Technische Informationsbibliothek (TIB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2399120</idno>
             <place corresp="#hannover"/>
           </org>
@@ -2421,6 +2426,67 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="moss_fabian">
+            <name>
+              <forename>Fabian</forename>
+              <surname>Fabian</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9377-2066</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q92562368</idno>
+          </person>
+          <person xml:id="franz_simone">
+            <name>
+              <forename>Simone</forename>
+              <surname>Franz</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4525-6977</idno>
+          </person>
+          <person xml:id="bajohr_hannes">
+            <name>
+              <forename>Hannes</forename>
+              <surname>Bajohr</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8554-6261</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16887904</idno>
+          </person>
+          <person xml:id="doenicke_tillmann">
+            <name>
+              <forename>Tillmann</forename>
+              <surname>Doenicke</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5844-9167</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692103</idno>
+          </person>
+          <person xml:id="barth_florian">
+            <name>
+              <forename>Florian</forename>
+              <surname>Barth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3408-7311</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126596347</idno>
+          </person>
+          <person xml:id="bayerschmidt_philipp">
+            <name>
+              <forename>Philipp</forename>
+              <surname>Bayerschmidt</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0002-2743-2455</idno>
+          </person>
+          <person xml:id="pagenstecher_cord">
+            <name>
+              <forename>Cord</forename>
+              <surname>Pagenstecher</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2412-5348</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95317347</idno>
+          </person>
           <person xml:id="sahle_patrick">
             <name>
               <forename>Patrick</forename>
@@ -13724,6 +13790,12 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="berkeley">
+            <country corresp="#usa"/>
+            <name>Berkeley</name>
+            <idno type="tgn">https://vocab.getty.edu/page/tgn/7013386</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4005720-3</idno>
+          </place>
           <place type="city" xml:id="dallas">
             <country corresp="#usa"/>
             <name>Dallas</name>
@@ -34689,6 +34761,216 @@
             <org role="organizer"
               corresp="#lemke_karoline #klappenbach_lou #hug_marius #goettel_sebastian"/>
           </event>
+
+          <event type="lecture-series-term" from="2024-01" to="2024-07" xml:id="ls12_t9">
+            <eventName xml:lang="de">2025</eventName>
+
+            <event type="lecture" when="2025-01-27" xml:id="ls12_t9_l1">
+              <eventName xml:lang="de">Wissen im Netzwerk. Praxisrelevante Ansätze zur Überführung
+                von Forschungsdaten digitaler Editionen in Knowledge-Graphen</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250624012803/https://dhd-blog.org/?p=21940"/>
+              <note type="abstract" xml:lang="de">
+                <p>Der Vortrag beleuchtet das Zusammenspiel digitaler Editionen, Knowledge-Graphen
+                  und bibliothekarischer Wissensorganisation. Dabei nehmen Terminologien wie
+                  kontrollierte Vokabulare, Normdaten und Ontologien als vermittelnde Elemente für
+                  die disziplinübergreifende semantische Vernetzung von Forschungsdaten und die
+                  Wissenskodierung eine zentrale Rolle ein.</p>
+                <p>Ausgehend von einer Kombination semi-strukturierter Leitfadeninterviews sowie
+                  einer Datenmodellierung stellt der Vortrag ausgewählte empirische Befunde zur
+                  Analyse des Potentials von Knowledge-Graphen für digitale Editionen vor. Vor dem
+                  Hintergrund des Aufbaus von Knowledge-Graphen in den geistes- und
+                  kulturwissenschaftlichen Konsortien der Nationalen Forschungsdateninfrastruktur
+                  (NFDI) geht er der Frage nach, wie Forschungsdaten digitaler Editionen (bspw.
+                  XML/TEI-Registerdateien) semantisch angereichert, geöffnet und nachnutzbar gemacht
+                  werden können, um sie in Knowledge-Graphen zu überführen. Dabei werden unter
+                  anderem Gender Biases in Wissensbasen, Datenqualität und -herkunft sowie die
+                  Bedeutung wissenschaftlicher Bibliotheken und Informationsinfrastrukturen
+                  diskutiert.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#franz_simone">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#tib"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+
+            <event type="lecture" when="2025-02-24" xml:id="ls12_t9_l2">
+              <eventName xml:lang="de">Distanzierte Autorschaft</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250806155531/https://dhd-blog.org/?p=22046"/>
+              <note type="abstract" xml:lang="de">
+                <p>Der Vortrag gibt einen Überblick über den Begriff der Autorschaft in KI und in
+                  Systemen zur Verarbeitung natürlicher Sprache und erörtert frühere und aktuelle
+                  Debatten über Computer als literarische Autoren. Er schlägt das Konzept der
+                  kausalen Autorenschaft vor, um die Arten der Distanz zwischen menschlichen und
+                  maschinellen Agenten zu messen, wobei er die anthropozentrische Ausrichtung dieser
+                  Idee anerkennt. Als Gegengewicht dazu wird der Begriff der verteilten Autorschaft
+                  diskutiert, der das Netzwerk der an der Entstehung eines Textes beteiligten
+                  Akteure berücksichtigt und seine eigenen Grenzen hat. Beide Konzepte sind Elemente
+                  einer zukünftigen Theorie der Autorschaft im Zeitalter des maschinellen
+                  Lernens.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bajohr_hannes">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-california-berkeley"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+
+            <event type="lecture" when="2025-05-05" xml:id="ls12_t9_l3">
+              <eventName xml:lang="de">Erweiterbare NLP-Pipelines: Komplexe Textanalyse mit
+                MONAPipe</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250806161545/https://dhd-blog.org/?p=22238"/>
+              <note type="abstract" xml:lang="de">
+                <p>In den digitalen Geisteswissenschaften und der Computerlinguistik gibt es eine
+                  stetige Nachfrage nach zugänglichen Werkzeugen für die Verarbeitung natürlicher
+                  Sprache (NLP), ebenso wie ein kontinuierliches Wachstum der verfügbaren
+                  Textdatenmengen. Das spaCy-basierte Python-Paket MONAPipe passt sich an diese
+                  Gegebenheiten an, indem es ein modulares, quelloffenes und
+                  institutionsübergreifend entwickeltes Pipeline-System bereitstellt, mit dem ein
+                  breites Spektrum an Informationen, darunter syntaktische Dependenzen,
+                  Koreferenzen, Ereignisse, reflexive Textpassagen und vieles mehr, in Texten
+                  ausgezeichnet werden kann.</p>
+                <p>MONAPipe wird im Rahmen der Nationalen Forschungsdateninfrastruktur Text+
+                  gemeinschaftlich von den beteiligten Partnern für die Anwendung im Bereich der
+                  digitalen Geisteswissenschaften entwickelt. Zur Infrastruktur von MONAPipe gehört
+                  die Langzeitarchivierung von integrierten Classifiern sowie die Bereitstellung
+                  spezifischer Komponenten via API. Letztere können lokal genutzt werden oder als
+                  Online-Dienst mit Zugang zu einem Hochleistungsrechenzentrum.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#barth_florian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-goettingen"/>
+                </person>
+                <person role="speaker" corresp="#doenicke_tillmann">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-goettingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+
+            <event type="lecture" when="2025-05-26" xml:id="ls12_t9_l4">
+              <eventName xml:lang="de">Oral-History.Digital – Der Aufbau eines Interviewportals und
+                die Erschließung heterogener Archive mit Topic Modeling</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250806162330/https://dhd-blog.org/?p=22413"/>
+              <note type="abstract" xml:lang="de">
+                <p>Das Interviewportal „Oral-History.Digital“ ist eine von der Freien Universität
+                  Berlin betriebene Erschließungs- und Recherche-Plattform für wissenschaftliche
+                  Sammlungen von audiovisuellen Forschungsdaten (www.oral-history.digital).
+                  Universitäten, Museen und Stiftungen können ihre Audio- und Video-Interviews
+                  hochladen, mit Werkzeugen für Transkription oder Verschlagwortung bearbeiten und
+                  mit einem granularen Rechtemanagement für Bildung und Wissenschaft bereitstellen.
+                  Interessierte können die inzwischen über 4000 Interviews von rund 40 Institutionen
+                  sammlungsübergreifend durchsuchen. Angemeldete Nutzende können die Aufnahmen mit
+                  Untertiteln ansehen, annotieren und zitieren.</p>
+                <p>Zur Unterstützung der teilnehmenden Interviewarchive hat die an
+                  „Oral-History.Digital“ mitwirkende FernUniversität Hagen einen
+                  Topic-Modeling-Service entwickelt, der die automatische Erstellung von
+                  Inhaltsverzeichnissen und Themenregistern unterstützt. Grundlage ist ein auf Basis
+                  von 991 Interviews aus sieben verschiedenen Archiven berechnetes und evaluiertes
+                  Topic-Modell. Über ein Register von 100 Topics können nun gezielt Textpassagen zu
+                  entsprechend gelabelten Themen gefunden werden. Der Orientierung innerhalb der
+                  mehrstündigen Interviews dienen klickbare Inhaltsverzeichnisse, die aus den Topics
+                  erzeugt wurden. Zudem unterstützt ein interaktives Dashboard die Analyse der
+                  Interviews.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pagenstecher_cord">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-fu"/>
+                </person>
+                <person role="speaker" corresp="#bayerschmidt_philipp">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-hagen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+
+            <event type="lecture" when="2025-07-14" xml:id="ls12_t9_l5">
+              <eventName xml:lang="de">Text+ Musik: Multimodale Kodierungsherausforderungen im
+                DigiMusTh-Kooperationsprojekt</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250806163044/https://dhd-blog.org/?p=22573"/>
+              <note type="abstract" xml:lang="de">
+                <p>Das Text+-Kooperationsproject »DigiMusTh« hat den Aufbau einer offenen digitalen
+                  Sammlung historischer musiktheoretischer Texte aus dem deutschsprachigen Raum
+                  anhand von Beispielen aus dem 19. Jahrhundert zum Ziel. Diesem Unterfangen stehen
+                  eine Reihe besonderer Herausforderungen gegenüber, die sich vornehmlich aus der
+                  Multimodalität der Dokumente ergeben, welche neben Text auch Bilder, Grafiken,
+                  sowie Musiknotation enthalten. Der Beitrag präsentiert den aktuellen Stand des
+                  Projekts, erläutert einige dieser Herausforderungen und stellt Lösungsvorschläge
+                  zur Debatte.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moss_fabian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+            <org role="organizer"
+              corresp="#lemke_karoline #klappenbach_lou #hug_marius #goettel_sebastian"/>
+          </event>
         </event>
         <event xml:id="ls13" type="lecture-series" where="#berlin">
           <eventName xml:lang="de">Phänomenologie der Digital Humanities</eventName>
@@ -40934,7 +41216,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-california"/>
+                  <affiliation corresp="#uni-california-davis"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-vechta"/>
@@ -48553,8 +48835,8 @@
           <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="...">
             <eventName xml:lang="de">2025</eventName>
 
-            <!-- 2025-06-11 https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
-            <!-- 2025-06-18 https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
+            <!-- 2025-06-11 |  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
+            <!-- 2025-06-18 |  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
 
             <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
           </event>
@@ -51157,7 +51439,7 @@
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
-                  <affiliation corresp="#uni-california"/>
+                  <affiliation corresp="#uni-california-davis"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
@@ -56690,7 +56972,7 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-california"/>
+                  <affiliation corresp="#uni-california-davis"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-gothenburg"/>
