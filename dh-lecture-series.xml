@@ -45638,6 +45638,7 @@
             <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
           </event>
         </event>
+
         <!-- ##### Austria ##### -->
         <event xml:id="ls22" type="lecture-series" where="#wien">
           <eventName xml:lang="en">The Digital Humanities Guest Lecture Series / Introduction to
@@ -48896,10 +48897,10 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250806195902/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/WS2024_25-LTL-Poster.pdf"/>
 
-            <!-- 2024-10-30 -->
-            <!-- 2024-11-27 -->
-            <!-- 2024-12-04 -->
-            <!-- 2025-01-08 -->
+            <!-- 2024-10-30 https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20241030_Goederle.pdf -->
+            <!-- 2024-11-27 https://www.iib.ac.rs/assets/images/screenshot-1.jpeg -->
+            <!-- 2024-12-04 https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Muller_Laackmann_Wagner_Poster.pdf -->
+            <!-- 2025-01-08 https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Probst_Poster.pdf -->
 
             <org role="organizer" corresp="#..."/>
           </event>
