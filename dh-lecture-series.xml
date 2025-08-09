@@ -45834,13 +45834,99 @@
 
         </event>
 
-        <event xml:id="ls48" type="lecture-series" where="#trier">
+        <event xml:id="ls49" type="lecture-series" where="#mainz">
           <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
             Kulturwissenschaften</eventName>
 
+          <event type="lecture-series-term" from="2017-05" to="2017-07" xml:id="ls49_t1">
+            <eventName>Sommersemester 2017</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115211643/https://www.digitale-methodik.uni-mainz.de/inhalt/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20241202085044/https://www.digitale-methodik.uni-mainz.de/programm/"/>
 
 
 
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2018-04" to="2018-07" xml:id="ls49_t2">
+            <eventName>Sommersemester 2018</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115220116/https://www.digitale-methodik.uni-mainz.de/konzept-ringvorlesung-sommersemester-2018/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115230932/https://www.digitale-methodik.uni-mainz.de/programm-ringvorlesung-sommersemester-2018/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809175938/https://www.igl.uni-mainz.de/fileadmin/user_upload/Transdisziplinaere_Aspekte_digitaler_Methodik_in_den_Geistes-_und_Kulturwissenschaften.pdf"/>
+
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2019-05" to="2019-07" xml:id="ls49_t3">
+            <eventName>Sommersemester 2019</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250315111530/https://www.digitale-methodik.uni-mainz.de/ringvorlesung-sommersemester-2019/"/>
+
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <!-- It seems that there was no edition of the lecture series in 2020 -->
+
+          <event type="lecture-series-term" from="2021-04" to="2021-07" xml:id="ls49_t4">
+            <eventName>Sommersemester 2021</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115224658/https://www.digitale-methodik.uni-mainz.de/programm-ringvorlesung-2021/"/>
+
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls49_t5">
+            <eventName>Sommersemester 2022</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115223239/https://www.digitale-methodik.uni-mainz.de/ringvorlesung-2022/"/>
+
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2023-04" to="2023-07" xml:id="ls49_t6">
+            <eventName>Sommersemester 2023</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250210102949/https://www.digitale-methodik.uni-mainz.de/1952-2/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20241202074200/https://www.digitale-methodik.uni-mainz.de/files/2023/04/2023_ringvorlesung_a4_print-1.pdf"/>
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls49_t7">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20240418191212/https://www.digitale-methodik.uni-mainz.de/aktuelles/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250213015216/https://fedihum.s3proxy.de/media_attachments/files/112/293/055/767/557/975/original/ca69be58c58bcbea.png"/>
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls49_t8">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
+
+
+
+            <org role="organizer" corresp="..."/>
+          </event>
 
         </event>
 
