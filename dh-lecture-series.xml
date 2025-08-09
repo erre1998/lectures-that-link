@@ -43482,6 +43482,8 @@
             <eventName xml:lang="de">Wintersemester 2021-22</eventName>
             <event type="lecture" when="2021-11-08" xml:id="ls40_t1_l1">
               <eventName xml:lang="de">Digital Humanities und/als Open Science</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807150945/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43503,6 +43505,8 @@
             <event type="lecture" when="2021-11-15" xml:id="ls40_t1_l2">
               <eventName xml:lang="de">Aktuelle Möglichkeiten und Perspektiven digitaler
                 Briefeditionen am Beispiel der Korrespondenz August Wilhelm Schlegels</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807150714/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-0"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43524,6 +43528,8 @@
             <event type="lecture" when="2021-11-22" xml:id="ls40_t1_l3">
               <eventName xml:lang="en">Virtual Heritage: The Use of Computer Graphics for
                 Illustrating and Analyzing Ancient Monuments</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20221204194515/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-4"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43545,6 +43551,8 @@
             <event type="lecture" when="2021-11-29" xml:id="ls40_t1_l4">
               <eventName xml:lang="de">Dimensionsreduktion und Bildbedeutung. Epistemische Zugänge
                 zu visuellen Korpora digitaler Kultur</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807145804/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-1"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43566,6 +43574,8 @@
             <event type="lecture" when="2021-12-06" xml:id="ls40_t1_l5">
               <eventName xml:lang="de">Neue Wege für die Musikforschung mittels Digitaler
                 Signalverarbeitung I</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807145234/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-7"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43587,6 +43597,8 @@
             <event type="lecture" when="2021-12-13" xml:id="ls40_t1_l6">
               <eventName xml:lang="en">Digital Reality: Models as the Basis for Understanding the
                 World</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807162937/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-5"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43609,6 +43621,8 @@
               <eventName xml:lang="en">Beethoven X: Es könnte sein (It could be …). On
                 human-computer interaction and the musical decisions behind AI
                 composition</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807145524/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-6"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43630,6 +43644,8 @@
             <event type="lecture" when="2022-01-10" xml:id="ls40_t1_l8">
               <eventName xml:lang="de">Neue Wege für die Musikforschung mittels Digitaler
                 Signalverarbeitung II</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807145234/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-7"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43657,6 +43673,8 @@
             <event type="lecture" when="2022-01-17" xml:id="ls40_t1_l9">
               <eventName xml:lang="en">The Unknown Beethoven: Studying Domestic Arrangements of His
                 Symphonic Works Using Digital Tools</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20221208234213/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-8"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43684,6 +43702,8 @@
             <event type="lecture" when="2022-01-24" xml:id="ls40_t1_l10">
               <eventName xml:lang="de">NFDI4Culture. Forschungsdatenmanagement im Bereich
                 materieller und immaterieller Kulturgüter</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807145119/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-9"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43711,6 +43731,8 @@
             <event type="lecture" when="2022-01-31" xml:id="ls40_t1_l11">
               <eventName xml:lang="de">Die digitale Erschließung und Entzifferung der Mayaschrift.
                 Das Projekt Textdatenbank und Wörterbuch des Klassischen Maya</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807151424/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-10"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -43738,6 +43760,8 @@
             <event type="lecture" when="2022-02-07" xml:id="ls40_t1_l12">
               <eventName xml:lang="de">Die Sichtbarmachung der Gleichzeitigkeit. Arno Peters’
                 Synchronoptische Weltgeschichte als generisch digitale Plattform</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250807151710/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-3"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
@@ -45637,6 +45661,187 @@
             </event>
             <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
           </event>
+        </event>
+
+        <event xml:id="ls47" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">TCDH-Forschungskolloquiums „Perspektiven der Digital
+            Humanities“</eventName>
+
+          <event type="lecture-series-term" from="2021-10" to="2022-01" xml:id="ls47_t1">
+            <eventName>Wintersemester 2021-22</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2021-12-02 https://web.archive.org/web/20250807164734/https://tcdh.uni-trier.de/de/event/vortrag-von-michael-mueller-berlin-und-michael-niedermeier-berlin-im-rahmen-des -->
+            <!-- 2021-12-16 https://web.archive.org/web/20250807164921/https://tcdh.uni-trier.de/de/event/vortrag-von-nicolas-schenk-trier-im-rahmen-des-forschungskolloquiums -->
+            <!-- 2022-01-06 https://web.archive.org/web/20250807164806/https://tcdh.uni-trier.de/de/event/vortrag-von-carolin-geib-trier-im-rahmen-des-forschungskolloquiums -->
+            <!-- 2022-01-20 https://web.archive.org/web/20250807164933/https://tcdh.uni-trier.de/de/event/vortrag-von-anne-klee-trier-im-rahmen-des-forschungskolloquiums -->
+            <!-- 2022-02-10 https://web.archive.org/web/20250807164944/https://tcdh.uni-trier.de/de/event/vortrag-von-julia-roettgermann-trier-im-rahmen-des-forschungskolloquiums -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-04" to="2022-07" xml:id="ls47_t2">
+            <eventName>Sommersemester 2022</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2022-04-07 https://web.archive.org/web/20250807145944/https://tcdh.uni-trier.de/de/event/vortrag-von-maria-doetsch-trier-im-rahmen-des-forschungskolloquiums-digitale-perspektiven -->
+            <!-- 2022-04-28 https://web.archive.org/web/20250807150022/https://tcdh.uni-trier.de/de/event/vortrag-von-estelle-bunout-luxembourg-im-rahmen-des-forschungskolloquiums-digitale  -->
+            <!-- 2022-05-12 https://web.archive.org/web/20250807150036/https://tcdh.uni-trier.de/de/event/vortrag-von-petra-maisak-bad-homburg-im-rahmen-des-forschungskolloquiums-digitale -->
+            <!-- 2022-06-09 https://web.archive.org/web/20250807150047/https://tcdh.uni-trier.de/de/event/vortrag-von-ariadne-baresch-trier-im-rahmen-des-forschungskolloquiums-digitale-perspektiven -->
+            <!-- 2022-06-23 https://web.archive.org/web/20250807145924/https://tcdh.uni-trier.de/de/event/vortrag-von-jenny-brys-claudia-haefner-christian-thomas-weimar-im-rahmen-des -->
+            <!-- 2022-06-30 https://web.archive.org/web/20250807150104/https://tcdh.uni-trier.de/de/event/vortrag-von-keli-du-trier-im-rahmen-des-forschungskolloquiums-digitale-perspektiven-sose-2022 -->
+            <!-- 2022-07-07 https://web.archive.org/web/20250807150105/https://tcdh.uni-trier.de/de/event/vortrag-von-tatjana-toensmeyer-agnes-laba-matthias-bremm-wuppertal-im-rahmen-des -->
+            <!-- 2022-07-14 https://web.archive.org/web/20250807150238/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-stefan-hessbrueggen-walter-im-rahmen-des-forschungskolloquiums-digitale -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2022-23 -->
+          <!-- There is no summer semester 2023 -->
+          <!-- There is no winter semester 2023-24 -->
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls47_t3">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807094731/https://tcdh.uni-trier.de/de/event/programm-des-tcdh-forschungskolloquiums-perspektiven-der-digital-humanities"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807094710/https://tcdh.uni-trier.de/sites/default/files/inline-images/Perspektiven%20der%20Digital%20Humanities%20Vortr%C3%A4ge%20des%20TCDH-Forschungskolloquiums.jpg"/>
+
+            <!-- 2024-04-18 https://web.archive.org/web/20250807100056/https://tcdh.uni-trier.de/de/event/vortrag-von-anne-klee-trier-linked-open-data-und-historische-woerterbuecher-wie-lassen-sich -->
+            <!-- 2024-05-02 https://web.archive.org/web/20250807100950/https://tcdh.uni-trier.de/de/event/vortraege-von-radim-hladik-prag-und-byungjun-kim-daejeon-im-rahmen-des-tcdh  |  https://web.archive.org/web/20250807100447/https://hlageek.github.io/reports/tcdh_2024/?print-pdf=#/coding2-exploring-reproducibility-in-qualitative-data-analysis-qda-through-research-software-development -->
+            <!-- 2024-05-02 https://web.archive.org/web/20250807100950/https://tcdh.uni-trier.de/de/event/vortraege-von-radim-hladik-prag-und-byungjun-kim-daejeon-im-rahmen-des-tcdh -->
+            <!-- 2024-05-16 https://web.archive.org/web/20250809151220/https://tcdh.uni-trier.de/de/event/vortrag-von-giovanni-mischi-bozen-dr-thomas-burch-trier-digitale-schaetze-der-vielfalt -->
+            <!-- 2024-06-06 https://web.archive.org/web/20250809151207/https://tcdh.uni-trier.de/de/event/vortrag-von-tinghui-duan-trier-wie-der-hase-mithilfe-von-ki-das-rennen-gewinnen-koennte -->
+            <!-- 2024-06-13 https://web.archive.org/web/20250809151304/https://tcdh.uni-trier.de/de/event/vortrag-von-anna-traurig-wuerzburg-william-lovell-digital-ein-editions-und-buchprojekt -->
+            <!-- 2024-06-27 https://web.archive.org/web/20250809151405/https://tcdh.uni-trier.de/de/event/vortraege-von-tatiana-bessonova-trier-und-vivien-wolter-trier-im-rahmen-des-tcdh -->
+            <!-- 2024-06-27 https://web.archive.org/web/20250809151405/https://tcdh.uni-trier.de/de/event/vortraege-von-tatiana-bessonova-trier-und-vivien-wolter-trier-im-rahmen-des-tcdh -->
+            <!-- 2024-07-11 https://web.archive.org/web/20250809151643/https://tcdh.uni-trier.de/de/event/vortrag-von-pd-dr-benjamin-gittel-trier-zuschreibungen-und-textuelle-korrelate-fiktionaler -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2024-25 -->
+          <event type="lecture-series-term" from="2025-02" to="2025-07" xml:id="ls47_t4">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807093738/https://tcdh.uni-trier.de/de/event/programm-des-tcdh-forschungskolloquiums-perspektiven-der-digital-humanities-0"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807094231/https://tcdh.uni-trier.de/sites/default/files/inline-images/TCDH%20Forschungskolloquium%202025%20Update.png"/>
+
+            <!-- 2025-06-05 https://web.archive.org/web/20250807095047/https://tcdh.uni-trier.de/de/event/vortraege-von-svenja-wagner-trier-und-marina-spielberg-trier-im-rahmen-des-tcdh -->
+            <!-- 2025-06-05 https://web.archive.org/web/20250807095047/https://tcdh.uni-trier.de/de/event/vortraege-von-svenja-wagner-trier-und-marina-spielberg-trier-im-rahmen-des-tcdh -->
+            <!-- 2025-06-26 https://web.archive.org/web/20250807095044/https://tcdh.uni-trier.de/de/event/vortrag-von-julia-roettgermann-universitaet-trier-tcdh-literaturgeschichte-als-wissensgraph -->
+            <!-- 2025-07-03 https://web.archive.org/web/20250809151824/https://tcdh.uni-trier.de/de/event/vortrag-von-joelle-weis-svenja-wagner-universitaet-trier-tcdh-fuerstinnenbibliotheken-des-18 -->
+            <!-- 2025-07-10 https://web.archive.org/web/20250809152042/https://tcdh.uni-trier.de/de/event/vortrag-zu-wossidlo-teuchert-online-digitale-erschliessung-vernetzung-und-publikation-des -->
+
+            <org role="organizer" corresp="#..."/>
+          </event>
+
+        </event>
+
+        <event xml:id="ls48" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">Praxis der Digital Humanities</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250809142625/https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-ii/faecher/computerlinguistik-und-digital-humanities/studium/msc-dh/vortragsreihe-praxis-der-digital-humanities"/>
+
+          <event type="lecture-series-term" from="2018-11" to="2019-01" xml:id="ls48_t1">
+            <eventName>Wintersemester 2018-19</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2018-11-08 https://web.archive.org/web/20250809153836/https://tcdh.uni-trier.de/de/event/vortrag-digital-editions-historical-text-re-use -->
+            <!-- 2018-11-21 https://web.archive.org/web/20250809153821/https://tcdh.uni-trier.de/de/event/vortrag-digital-humanities-theatre-research-und-workshop-interactive-network-visualization -->
+            <!-- 2018-12-13 https://web.archive.org/web/20250809153903/https://tcdh.uni-trier.de/de/event/vortrag-worueber-wir-sprechen-wenn-wir-ueber-topic-modeling-sprechen -->
+            <!-- 2019-01-10 https://web.archive.org/web/20250809154058/https://tcdh.uni-trier.de/de/event/vortrag-ocr4all -->
+            <!-- 2019-01-24 https://web.archive.org/web/20250809154035/https://tcdh.uni-trier.de/de/event/veranstaltung-des-jubilaeumsprogramms-20182019 | https://web.archive.org/web/20250809154213/https://www.uni-trier.de/fileadmin/fb2/LDV/Vortr%C3%A4ge_und_Workshops/Plakat_Block_Januar_2019.pdf -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2019-11" to="2020-01" xml:id="ls48_t2">
+            <eventName>Wintersemester 2019-20</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2019-11-07 https://web.archive.org/web/20250809154713/https://tcdh.uni-trier.de/de/event/vortrag-onama-ein-linked-open-data-projekt-zur-untersuchung-von-narrativen-des-mittelalters -->
+            <!-- 2019-11-24 https://web.archive.org/web/20250809154726/https://tcdh.uni-trier.de/en/event/lecture-stylometry-chinese-and-following-flow-information -->
+            <!-- 2019-11-28 https://web.archive.org/web/20250809154925/https://tcdh.uni-trier.de/de/event/vortrag-im-rahmen-einer-arbeitstagung-hathitrust-research-center-us-american-perspective -->
+            <!-- 2019-12-05 https://web.archive.org/web/20250809154804/https://tcdh.uni-trier.de/en/event/lecture-digitally-modelling-history-traditional-games -->
+            <!-- 2020-01-30 https://web.archive.org/web/20250809154809/https://tcdh.uni-trier.de/de/event/vortrag-scholarly-publishing-beyond-pdf-publication-data-data-data -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2020-11" to="2021-01" xml:id="ls48_t3">
+            <eventName>Wintersemester 2020-21</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2020-11-19 https://web.archive.org/web/20250809155050/https://tcdh.uni-trier.de/en/event/lecture-digital-humanities-korean-trajectory -->
+            <!-- 2020-12-03 https://web.archive.org/web/20250809155009/https://tcdh.uni-trier.de/de/event/vortrag-visual-culture-and-artificial-intelligence -->
+            <!-- 2020-12-17 https://web.archive.org/web/20250809155411/https://tcdh.uni-trier.de/de/event/vortrag-musikwissenschaft-und-informatik-im-dialog-moeglichkeiten-der-computergestuetzten -->
+            <!-- 2021-01-14 https://web.archive.org/web/20250809155302/https://tcdh.uni-trier.de/en/event/lecture-linked-open-data-lod-research-what-wikidata-and-how-can-we-contribute-and-use-it -->
+            <!-- 2021-01-21 https://web.archive.org/web/20250809155401/https://tcdh.uni-trier.de/de/event/vortrag-adding-value-ancient-greek-pottery-data-presenting-project-lekythos -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2021-12" to="2020-02" xml:id="ls48_t4">
+            <eventName>Wintersemester 2021-22</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- sameAs="#..." / 2021-12-01 https://web.archive.org/web/20250809165404/https://tcdh.uni-trier.de/de/event/vortrag-von-keli-du-trier-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2021-12-07 https://web.archive.org/web/20250809165404/https://tcdh.uni-trier.de/de/event/vortrag-von-martin-kocula-parsqube-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- sameAs="#..." / 2021-12-03  https://web.archive.org/web/20250809165349/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-nick-montfort-mit-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2022-01-11 https://web.archive.org/web/20250809165411/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-maria-effinger-heidelberg-university-press-der-vorlesungsreihe-praxis-der -->
+            <!-- 2022-01-18 https://web.archive.org/web/20250809165141/https://tcdh.uni-trier.de/de/event/vortrag-von-jprof-dr-julie-birkholz-und-sven-lieber-universitaet-ghent-und-koenigliche -->
+            <!-- 2022-02-01 https://web.archive.org/web/20250809165119/https://tcdh.uni-trier.de/en/event/lecture-dr-jose-calvo-telloin-lecture-series-praxis-der-digital-humanities -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2022-10" to="2022-12" xml:id="ls48_t5">
+            <eventName>Wintersemester 2022-23</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2022-10-25 https://web.archive.org/web/20250809164114/https://tcdh.uni-trier.de/de/event/vortrag-von-tanja-tu-ids-mannheim-ueber-ihren-weg-die-digital-humanities -->
+            <!-- 2022-11-15 https://web.archive.org/web/20250809164055/https://mimotext.uni-trier.de/vortrag-dr-olaf-simons/ -->
+            <!-- 2022-11-22 https://web.archive.org/web/20250809164044/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-stefan-hessbrueggen-walter-mimotext-fellow-kanones-der-aufklaerung-ein -->
+            <!-- 2022-12-06 https://web.archive.org/web/20250809164217/https://tcdh.uni-trier.de/de/event/vortrag-von-henning-bovenkerk-westfaelische-wilhelms-universitaet-muenster-mimotext-fellow -->
+            <!-- 2022-12-13 -->
+            <!-- 2022-12-20 -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2023-11" to="2024-02" xml:id="ls48_t6">
+            <eventName>Wintersemester 2023-24</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2023-11-06 https://web.archive.org/web/20250809170956/https://tcdh.uni-trier.de/de/event/vortrag-von-nicola-mclelland-university-nottingham-der-vorlesungsreihe-praxis-der-digital -->
+            <!-- 2024-01-16 https://web.archive.org/web/20250809155553/https://tcdh.uni-trier.de/de/event/vortrag-von-andreas-lueschow-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-01-23 https://web.archive.org/web/20250809155603/https://tcdh.uni-trier.de/de/event/vortrag-von-caroline-jansky-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-02-06 https://web.archive.org/web/20250809155645/https://tcdh.uni-trier.de/de/event/vortrag-von-sarah-wagner-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-02-13 https://web.archive.org/web/20250809155740/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-ruediger-singer-der-vorlesungsreihe-praxis-der-digital-humanities -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-10" to="2024-12" xml:id="ls48_t7">
+            <eventName>Wintersemester 2024-25</eventName>
+            <ptr type="programme" target="..."/>
+
+            <!-- 2024-10-29 https://web.archive.org/web/20250809160038/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-svenja-guhr-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-11-27 https://web.archive.org/web/20250809160137/https://tcdh.uni-trier.de/de/event/vortrag-von-irakli-khvedelidze-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-12-04 https://web.archive.org/web/20250809160003/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-dr-anne-baillot-der-vorlesungsreihe-praxis-der-digital-humanities -->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+        </event>
+
+        <event xml:id="ls48" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
+            Kulturwissenschaften</eventName>
+
+
+
+
+
         </event>
 
         <!-- ##### Austria ##### -->
@@ -48820,22 +49025,22 @@
 
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#graz">
+        <event xml:id="ls50" type="lecture-series" where="#graz">
           <eventName xml:lang="en">Lunchtime Lecture</eventName>
           <ptr type="programme" target="..."/>
           <note type="description" xml:lang="de">
             <p>...</p>
           </note>
 
-          <event type="lecture-series-term" from="2015-07" to="2016-01" xml:id="...">
+          <event type="lecture-series-term" from="2015-07" to="2016-01" xml:id="ls50_t1">
             <eventName xml:lang="de">Wintersemester 2015-16</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20160414192355/https://dhd-blog.org/?p=6239"/>
 
-            <!-- 2015-07-07 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-towards-a-tei-model-for-the-encoding-of-diplomatic-charters-the-charters-of-t/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/ALVAREZ_-_TEI_standard_for_charters.pdf -->
-            <!-- 2015-10-27 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-johanna-pirker-3d-immersive-digital-humanities-moeglichkeiten-im-virtuellen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Pirker_-_3D_Immersive_Digital_Humanities.pdf  |  https://www.youtube.com/watch?v=47YXrWpSJNY -->
-            <!-- 2015-11-24 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-leif-scheuermann-virtuelle-forschungsumgebungen-eine-zukunftsperspektive/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Scheuermann_-_Virtuelle_Forschungsumgebungen.pdf  |  https://www.youtube.com/watch?v=9Xu2ALnltc4 -->
-            <!-- 2015-12-15 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-guenter-muehlberger-transkribus-fuer-studenten-konzept-einer-e-learninganwen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Mu__hlberger_-_Transkribus_Vortrag.pdf  |  https://www.youtube.com/watch?v=Gkmq7ymUQ98 -->
+            <!-- 2015-07-07 https://web.archive.org/web/20250807165330/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-towards-a-tei-model-for-the-encoding-of-diplomatic-charters-the-charters-of-t/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/ALVAREZ_-_TEI_standard_for_charters.pdf -->
+            <!-- 2015-10-27 https://web.archive.org/web/20250807165341/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-johanna-pirker-3d-immersive-digital-humanities-moeglichkeiten-im-virtuellen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Pirker_-_3D_Immersive_Digital_Humanities.pdf  |  https://www.youtube.com/watch?v=47YXrWpSJNY -->
+            <!-- 2015-11-24 https://web.archive.org/web/20250807165359/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-leif-scheuermann-virtuelle-forschungsumgebungen-eine-zukunftsperspektive/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Scheuermann_-_Virtuelle_Forschungsumgebungen.pdf  |  https://www.youtube.com/watch?v=9Xu2ALnltc4 -->
+            <!-- 2015-12-15 https://web.archive.org/web/20250807165424/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-guenter-muehlberger-transkribus-fuer-studenten-konzept-einer-e-learninganwen/  |  https://web.archive.org/web/20250807171035/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Mu__hlberger_-_Transkribus_Vortrag.pdf  |  https://www.youtube.com/watch?v=Gkmq7ymUQ98 -->
             <!-- 2016-01-19 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-lorna-hughes-open-talk-digital-humanities-to-research-infrastructures/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Hughes_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=Q0uibrlKy7U -->
 
             <org role="organizer" corresp="#..."/>
@@ -48897,16 +49102,16 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250806195902/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/WS2024_25-LTL-Poster.pdf"/>
 
-            <!-- 2024-10-30 https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20241030_Goederle.pdf -->
-            <!-- 2024-11-27 https://www.iib.ac.rs/assets/images/screenshot-1.jpeg -->
-            <!-- 2024-12-04 https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Muller_Laackmann_Wagner_Poster.pdf -->
-            <!-- 2025-01-08 https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Probst_Poster.pdf -->
+            <!-- 2024-10-30 https://web.archive.org/web/20250809172028/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20241030_Goederle.pdf -->
+            <!-- 2024-11-27 https://web.archive.org/web/20250809172031/https://www.iib.ac.rs/assets/images/screenshot-1.jpeg -->
+            <!-- 2024-12-04 https://web.archive.org/web/20250809172011/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Muller_Laackmann_Wagner_Poster.pdf -->
+            <!-- 2025-01-08 https://web.archive.org/web/20250809171744/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Probst_Poster.pdf -->
 
             <org role="organizer" corresp="#..."/>
           </event>
         </event>
 
-        <event xml:id="..." type="lecture-series" where="#graz">
+        <event xml:id="ls51" type="lecture-series" where="#graz">
           <eventName xml:lang="en">Breakfast Lecture</eventName>
           <ptr type="programme"
             target="https://web.archive.org/web/20250804093554/https://digital-humanities.uni-graz.at/de/veranstaltungsuebersicht/breakfast-lecture/"/>
@@ -48919,11 +49124,11 @@
               weiterzubilden, Fachdiskussionen zu führen, Erfahrungen auszutauschen.</p>
           </note>
 
-          <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="...">
+          <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="ls51_t1">
             <eventName xml:lang="de">2025</eventName>
 
-            <!-- 2025-06-11 |  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
-            <!-- 2025-06-18 |  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
+            <!-- 2025-06-11 |  https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
+            <!-- 2025-06-18 |  https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
 
             <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
           </event>
