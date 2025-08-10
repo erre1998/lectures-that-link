@@ -2426,10 +2426,18 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="helmig_clara">
+            <name>
+              <forename>Clara</forename>
+              <surname>Helmig</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0003-2635-3904</idno>
+          </person>
           <person xml:id="moss_fabian">
             <name>
               <forename>Fabian</forename>
-              <surname>Fabian</surname>
+              <surname>Moss</surname>
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-9377-2066</idno>
@@ -45924,6 +45932,73 @@
               target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
 
 
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+        </event>
+
+        <event xml:id="ls52" type="lecture-series" where="#regensburg">
+          <eventName xml:lang="de">Trends der Digital Humanities</eventName>
+
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls52_t1">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809192526/https://www.uni-regensburg.de/sprache-literatur-kultur/digital-humanities/veranstaltungen/vergangene-semester/index.html"/>
+
+
+
+            <org role="organizer" corresp="#schumacher_mareike #helmig_clara"/>
+          </event>
+
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls52_t2">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809192731/https://www.uni-regensburg.de/sprache-literatur-kultur/digital-humanities/veranstaltungen/ringvorlesung-sommer-2025/index.html"/>
+
+
+
+            <org role="organizer" corresp="#schumacher_mareike #helmig_clara"/>
+          </event>
+
+        </event>
+
+        <event xml:id="ls53" type="lecture-series" where="#mainz">
+          <eventName xml:lang="de">Von Büchern zu Bytes: Die digitale Transformation in der
+            Geschichtswissenschaft</eventName>
+
+          <event type="lecture-series-term" from="2023-10" to="2024-06" xml:id="ls53_t1">
+            <eventName>Staffel 1</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809195538/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes"/>
+
+            <!-- 2023-10-27 https://www.youtube.com/watch?v=69mvMLyVXmU  |  https://www.youtube.com/watch?v=dLyqJtYiXbA  |  https://www.youtube.com/watch?v=FW5udQ3k9oU  |  https://doi.org/10.5281/zenodo.10078729 -->
+            <!-- 2023-11-24 https://www.youtube.com/watch?v=ytYEvyeZH7A  |  https://doi.org/10.5281/zenodo.10213756 -->
+            <!-- 2023-12-10 https://www.youtube.com/watch?v=YGwl3f7o9h8  |  https://doi.org/10.5281/zenodo.10781223 -->
+            <!-- 2024-01-26 https://www.youtube.com/watch?v=KJ_gJQN-05U  |  https://doi.org/10.5281/zenodo.10786192 -->
+            <!-- 2024-02-23 https://www.youtube.com/watch?v=_zv1Lnc4E6U  |  https://doi.org/10.5281/zenodo.12154779 -->
+            <!-- 2024-03-22 https://www.youtube.com/watch?v=cnzKtWdn9mQ  |  https://doi.org/10.5281/zenodo.11195619 -->
+            <!-- 2024-04-26 https://www.youtube.com/watch?v=U0etiDhv_FY -->
+            <!-- 2024-05-24 https://www.youtube.com/watch?v=HAilSqf4Ses  |  https://doi.org/10.5281/zenodo.12684280 -->
+            <!-- 2024-06-28 https://www.youtube.com/watch?v=aEFuYRDausY  |  https://doi.org/10.5281/zenodo.13381764-->
+
+            <org role="organizer" corresp="..."/>
+          </event>
+
+          <event type="lecture-series-term" from="2024-10" to="2025-06" xml:id="ls53_t2">
+            <eventName>Staffel 2</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809195538/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes"/>
+
+            <!-- 2024-10-25 https://web.archive.org/web/20250810174727/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/factgrid-eine-wikibase-instanz-fuer-historische-daten/  |  https://www.youtube.com/watch?v=znuP1Rp_YZc -->
+            <!-- 2024-11-22 https://web.archive.org/web/20250810174524/https://www.uni-konstanz.de/international-participation-und-erasmus-humanities/aktuelles/kalender-detail/termin/transkribus-escriptorium-zwei-plattformen-zur-transkription-und-automatisierten-erkennung-von-historischen-textquellen/  |  https://www.youtube.com/watch?v=3j1dHcwZS7I -->
+            <!-- 2024-12-13 https://web.archive.org/web/20250810175219/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/visualising-historical-data-across-epistemological-practices/ -->
+            <!-- 2025-01-24 https://web.archive.org/web/20250810175257/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/die-zukunft-der-vergangenheit-eine-einfuehrung-in-die-arbeit-mit-chatgpt-co-in-den-geschichtswissenschaften/  |  https://www.youtube.com/watch?v=g8ThVmhOdtg -->
+            <!-- 2025-02-21 https://web.archive.org/web/20250810175601/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/forschungsdaten-digital-managen-mit-fud-ein-vielseitiges-tool-fuer-die-geistes-und-sozialwissenschaften/  |  https://www.youtube.com/watch?v=HOuaWZ3f8Do -->
+            <!-- 2025-03-21 https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/ -->
+            <!-- 2025-04-25 https://web.archive.org/web/20250810180045/https://www.literature.uni-konstanz.de/gebert/aktuelles/veranstaltungen/detailed-event-calender/termin/die-begriffe-der-geschichte-kontrollierte-vokabulare-und-sachbegriffsressourcen-fuer-die-digitale-historische-arbeit/  |  https://www.youtube.com/watch?v=D4WP2A_AaP0 -->
+            <!-- 2025-05-23 https://web.archive.org/web/20250810180141/https://www.mathematik.uni-konstanz.de/analysis/seminare/details-oberseminar/termin/kompetent-recherchieren-nach-literatur-und-mehr-zentrale-tools-des-fachinformationsdienstes-geschichtswissenschaft/  |  https://www.youtube.com/watch?v=DMYuCcfGg7A  |  https://doi.org/10.5281/zenodo.15781348 -->
+            <!-- 2025-06-27 https://web.archive.org/web/20250810180226/https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/  |  https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/ -->
 
             <org role="organizer" corresp="..."/>
           </event>
