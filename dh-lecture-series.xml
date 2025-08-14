@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -21721,7 +21719,8 @@
                 <term type="discipline" corresp="#art-history #library-information"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/preserving https://vocabs.dariah.eu/tadirah/disseminating https://vocabs.dariah.eu/tadirah/linkedOpenData"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">cultural heritage, open data, data visualization, search
+                  engines, online platforms</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -21807,7 +21806,8 @@
                 <term type="discipline" corresp="#library-information #digital-humanities"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/dataVisualization https://vocabs.dariah.eu/tadirah/designing https://vocabs.dariah.eu/tadirah/browsing"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">cultural heritage, interactive visualizations, data
+                  exploration, collection interfaces, user engagement</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -21850,7 +21850,8 @@
                 <term type="discipline" corresp="#history #art-history"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/editing https://vocabs.dariah.eu/tadirah/georeferencing"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">spatialized information system, medieval tapestry,
+                  scientific valorization, high-definition reproduction, public mediation</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -21916,7 +21917,8 @@
                 <term type="discipline" corresp="#museology #art-history"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/enriching https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/disseminating https://vocabs.dariah.eu/tadirah/collaborating"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">open data, museums, cultural heritage, community
+                  collaboration, data enrichment</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#renault_elisabeth">
@@ -21968,7 +21970,8 @@
                 <term type="discipline" corresp="#museology #art-history"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">roman sculptures, digital publishing, wikidata integration,
+                  single source publishing, interactive illustrations</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#molinie_christelle">
@@ -22026,7 +22029,8 @@
                 <term type="discipline" corresp="#library-information #literary-studies"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/preserving"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">theater history, financial records, data visualization,
+                  cultural heritage, 17th-18th century france</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#biet_christian">
@@ -22083,7 +22087,8 @@
                 <term type="discipline" corresp="#library-information"/>
                 <term type="topics-tadirah"
                   corresp="https://vocabs.dariah.eu/tadirah/capturing https://vocabs.dariah.eu/tadirah/digitalPublishing https://vocabs.dariah.eu/tadirah/linkedOpenData https://vocabs.dariah.eu/tadirah/organizing"/>
-                <term type="topics-llm"/>
+                <term type="topics-llm">open access, scientific publications, digital preservation,
+                  semantic web, collaborative research</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#begnis_helene">
@@ -27537,13 +27542,11 @@
           <event type="lecture-series-term" from="2023-04" to="2024-07" xml:id="ls10_t1">
             <eventName xml:lang="de">Sommersemester 2023</eventName>
             <ptr type="programme"
-              target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/
-              forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
+              target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/               forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
             <event type="lecture" when="2023-04-03" xml:id="ls10_t1_l1">
               <eventName xml:lang="de">Digital Humanities 2023? Eine Bestandsaufnahme</eventName>
               <ptr type="programme"
-                target="https://web.archive.org/web/20241115000441/https://www.germanistik.uni-rostock.de/
-                forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-humanities-2023-eine-bestandsaufnahme-159435/"/>
+                target="https://web.archive.org/web/20241115000441/https://www.germanistik.uni-rostock.de/                 forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-humanities-2023-eine-bestandsaufnahme-159435/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.7798685"/>
               <note type="abstract" xml:lang="de">
                 <p>Frühe Pionierarbeiten der Digital Humanities entstanden schon in den 60er-Jahren
@@ -34796,9 +34799,8 @@
                   Bedeutung wissenschaftlicher Bibliotheken und Informationsinfrastrukturen
                   diskutiert.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">knowledge graphs, semantic enrichment,
+                  controlled vocabularies, data modeling, research data infrastructure</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34830,9 +34832,8 @@
                   einer zukünftigen Theorie der Autorschaft im Zeitalter des maschinellen
                   Lernens.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai authorship, computational creativity,
+                  natural language processing, distributed authorship, causal agency</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34870,9 +34871,8 @@
                   spezifischer Komponenten via API. Letztere können lokal genutzt werden oder als
                   Online-Dienst mit Zugang zu einem Hochleistungsrechenzentrum.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">nlp pipelines, modular text analysis,
+                  open-source tools, high-performance computing, linguistic annotation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34920,9 +34920,8 @@
                   erzeugt wurden. Zudem unterstützt ein interaktives Dashboard die Analyse der
                   Interviews.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">oral history archives, topic modeling,
+                  audiovisual data, collaborative platforms, interview annotation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34959,9 +34958,8 @@
                   Projekts, erläutert einige dieser Herausforderungen und stellt Lösungsvorschläge
                   zur Debatte.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">multimodal encoding, historical music
+                  theory, 19th-century texts, music notation, open digital collections</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -36866,9 +36864,8 @@
               <eventName xml:lang="de">Digital Humanities und deren Einsatz an der Universität
                 Tübingen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital methods, university
+                  applications, research integration, academic case study, germany</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36892,9 +36889,8 @@
             <event type="lecture" when="2025-04-29" xml:id="ls14_t2_l2">
               <eventName xml:lang="en">Artificial Intelligence and Literary Theory</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai, literary criticism, computational
+                  analysis, text interpretation, machine learning</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36913,9 +36909,9 @@
               <eventName xml:lang="en">Social Network Analysis and the Old Norse
                 Landnámabók</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">landnámabók, old norse literature,
+                  historical networks, social network analysis, medieval settlement
+                patterns</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36934,9 +36930,9 @@
               <eventName xml:lang="de">Von der Theorie in die Praxis: Eine VR-Ausstellung am
                 Knotenpunkt zwischen Numismatik, Theologie und Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">virtual reality exhibitions,
+                  numismatics, religious studies, interdisciplinary collaboration, applied
+                  research</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36955,9 +36951,9 @@
               <eventName xml:lang="de">Von TEI zu NLP: eine computergestützte Analyse von
                 Dramenfiguren auf der Basis des digitalen Korpus der Werke Calderóns</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">tei encoding, computational literary
+                  analysis, character analysis, spanish golden age theater, corpus
+                  linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36982,9 +36978,8 @@
               <eventName xml:lang="de">Gutachten der Juristischen Fakultät – digital
                 angenähert</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">legal expertise, digitization, faculty
+                  evaluation, legal documentation, computational analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37009,9 +37004,8 @@
               <eventName xml:lang="de">Digitale Annotation und die daraus gewonnenen
                 Erkenntnisse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital annotation, text analysis, data
+                  extraction, scholarly editing, research insights</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37029,9 +37023,8 @@
             <event type="lecture" when="2025-06-17" xml:id="ls14_t2_l8">
               <eventName xml:lang="en">Concordance analysis in Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text mining, corpus linguistics,
+                  computational text analysis, word frequency, linguistic patterns</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37049,9 +37042,8 @@
             <event type="lecture" when="2025-06-24" xml:id="ls14_t2_l9">
               <eventName xml:lang="en">Dickens digital</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">charles dickens, literary analysis,
+                  digital archives, text encoding, 19th-century literature</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37076,9 +37068,8 @@
               <eventName xml:lang="de">Digitale Annotation zwischen Markup und
                 Hermeneutik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital annotation, markup languages,
+                  hermeneutics, text interpretation, computational philology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37097,9 +37088,8 @@
               <eventName xml:lang="en">From Small Things (Big Things One Day Come): data-driven
                 experimentation with community generated digital content</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data-driven research, community
+                  archives, digital content, experimental methods, small data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37118,9 +37108,8 @@
               <eventName xml:lang="en">DH and Early Modern European Theatre: Data Models, Databases,
                 Data Visualisation</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">early modern theater, data modeling,
+                  database design, data visualization, european cultural history</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37139,9 +37128,8 @@
               <eventName xml:lang="de">Machine-Learning-Anwendungen in der
                 Filmwissenschaft</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">film studies, machine learning,
+                  computational analysis, media research, automated classification</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -41116,9 +41104,9 @@
                   matters as a rich tradition and ongoing practice of exploring and extending the
                   realities and possibilities of writing-world relations.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">computing and writing, feminist science
+                  and technology studies, performative literary studies, diffractive writing, text
+                  and data relations</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41751,9 +41739,9 @@
                   credit. Consideration will also be given to possible audiences and to the
                   potential for public engagement around the project’s work.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">database revitalization, scientific
+                  instrument makers, semantic data modeling, data visualization, public
+                  engagement</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41790,9 +41778,8 @@
                   developed by the EIDA project to support the work of researchers and lay the
                   groundwork for a public platform featuring reusable resources.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">astral diagrams, computer vision,
+                  historical manuscripts, artificial intelligence, data modeling</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41831,9 +41818,9 @@
                   technical metadata, aka paradata), and data incompleteness—although a resource
                   cannot be fully described, it can be better described.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">3d modeling, cultural heritage
+                  preservation, data reuse challenges, fair principles, archaeological pottery
+                  analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41863,9 +41850,8 @@
                   paleographical questions; and (iv) analyze printed ornaments.</p>
                 <p/>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">computer vision, historical analysis,
+                  image vectorization, handwriting recognition, pattern extraction</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41905,9 +41891,8 @@
                   (S and Classic) amongst other tools. I also present the ecosystem established to
                   process the preserved archival collections.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">archival research, history of science,
+                  semantic web, crowdsourcing, omeka</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41940,9 +41925,8 @@
                   light on both computer vision approaches to these questions and the challenges
                   that archaeological imagery pose for such approaches.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">computer vision, greek vase paintings,
+                  archaeological imagery, pattern recognition, artificial intelligence</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41999,9 +41983,8 @@
               <eventName xml:lang="de">Einführung: Was sind Daten in den (digitalen)
                 Geisteswissenschaften</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data types, humanities research, data
+                  definition, computational methods, scholarly data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42027,9 +42010,8 @@
               <eventName xml:lang="de">Transkription: Erzeugung von Daten durch
                 Übersetzung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text transcription, data generation,
+                  translation studies, textual analysis, source interpretation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42049,9 +42031,8 @@
               <eventName xml:lang="de">Maschinelles Lernen und große Sprachmodelle: Grundlage für
                 die Analyse großer Datenmengen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">machine learning, large language models,
+                  data analysis, big data, computational linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42070,9 +42051,8 @@
             <event type="lecture" when="2024-11-14" xml:id="ls36_t1_l4">
               <eventName xml:lang="de">Annotationen: Linguistische Grundlagen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">linguistic annotation, corpus
+                  linguistics, text analysis, language structure, metadata tagging</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42092,9 +42072,9 @@
               <eventName xml:lang="de">Ethische Fragen der automatischen Sprachverarbeitung und
                 -generierung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">automatic language processing, ethical
+                  implications, ai-generated text, linguistic bias, computational
+                linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42114,9 +42094,8 @@
               <eventName xml:lang="de">Annotationen: Die literaturwissenschaftliche
                 Perspektive</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text annotation, literary studies, close
+                  reading, interpretative methods, scholarly editing</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42136,9 +42115,9 @@
               <eventName xml:lang="de">DisKo: Ein Diversitäts-Korpus für die algorithmische
                 Textanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">corpus linguistics, algorithmic text
+                  analysis, diversity representation, german language, computational
+                  linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42163,9 +42142,8 @@
             <event type="lecture" when="2024-12-12" xml:id="ls36_t1_l8">
               <eventName xml:lang="de">Digitale Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital editing, textual scholarship,
+                  markup languages, scholarly publishing, source transcription</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42185,9 +42163,8 @@
               <eventName xml:lang="de">Codiertes Wissen: Linked Open Data und andere
                 Datenressourcen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">linked data, open data, semantic web,
+                  knowledge representation, data resources</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42207,9 +42184,8 @@
               <eventName xml:lang="de">Gegen große Erzählungen: Theoriediskurse in den Digital
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">post-structuralism, critical theory,
+                  meta-narratives, epistemology, interdisciplinary debate</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42229,9 +42205,8 @@
               <eventName xml:lang="de">Spannung und Cliffhanger in Erzählliteratur des 19.
                 Jahrhunderts: Modellierung und quantitative Analysen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">suspense, narrative techniques,
+                  19th-century literature, computational modeling, literary analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42250,9 +42225,8 @@
             <event type="lecture" when="2025-01-23" xml:id="ls36_t1_l12">
               <eventName xml:lang="de">forTEXT – Literatur digital erforschen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">literary analysis, text mining,
+                  computational literary studies, german literature, research tools</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42278,9 +42252,9 @@
               <eventName xml:lang="de">Literatur im Netz und digitale
                 Wissenschaftskultur</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">networked literature, online literary
+                  studies, scholarly communication, web-based research, academic digital
+                  culture</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42334,9 +42308,8 @@
                   such as confounding effects of the platforms. In this talk, we critically reflect
                   on some of these pitfalls and devise ways to identify them.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">social media analysis, computational
+                  social science, digital trace data, behavioral research, data bias</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42355,9 +42328,8 @@
             <event type="lecture" when="2022-05-20" xml:id="ls37_t1_l2">
               <eventName xml:lang="en">Open Data</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">open access, data sharing, transparency,
+                  public resources, information freedom</term></note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -42384,9 +42356,9 @@
                   the voices and histories of African Americans who reside in the Gulf South
                   accessible.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">african american history, oral
+                  histories, computational analysis, gulf south region, cultural
+                preservation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42413,9 +42385,8 @@
                   Informationen, ganze Texte oder Zahlen. Aktuelle Entwicklungen werden vorgestellt
                   und ein offener Austausch dazu angestrebt.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">libraries as data providers, digital
+                  collections, research data, citizen science, data accessibility</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42450,9 +42421,8 @@
                   Narrative sowohl ästhetisch-experimentell als auch kritisch zu algorithmischen
                   Vorstellungen des Selbst verhalten.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">algorithmic identity, literary
+                  narratives, cultural discourse, self-conception, us american fiction</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42491,9 +42461,8 @@
               <ptr type="video"
                 target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=119ee7e4-7ca9-4a30-8077-a87200daa75f"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data science, computational methods,
+                  interdisciplinary research, modeling, interpretive analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42512,9 +42481,8 @@
               <eventName xml:lang="en">Cryptographic Access Control—Reconciling Security and
                 Privacy</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">encryption, data protection, access
+                  management, cybersecurity, privacy preservation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42532,9 +42500,8 @@
             <event type="lecture" when="2017" xml:id="ls38_t1_l3">
               <eventName xml:lang="en">Auditory Data Science</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">sound analysis, computational audio,
+                  data sonification, acoustic research, audio processing</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42553,9 +42520,8 @@
               <eventName xml:lang="en">Data? What for? Thoughts around research question based data
                 collection</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data-driven research, research design,
+                  data collection, purposeful data, methodological reflection</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42575,9 +42541,8 @@
               <ptr type="slides"
                 target="https://web.archive.org/web/20240224193647/https://www.ifi.uzh.ch/dam/jcr:207e4193-139b-40ec-9040-ee5bedaf9ee3/2017-11-23%20Zurich%20PDF.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data-intensive research, computational
+                  methods, scientific workflows, big data, research infrastructure</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42622,9 +42587,9 @@
                   A statistical algorithm developed by us can extract the single-cell information
                   again.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">medical data analysis, machine learning
+                  in healthcare, risk prediction models, transcriptional heterogeneity,
+                  interdisciplinary data science</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42666,9 +42631,9 @@
                   cord injury therapies. This will support a novel concept what we call
                   "meta-analysis on demand".</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">semantic technologies, meta-analysis,
+                  natural language processing, spinal cord injury research, knowledge
+                  representation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42716,9 +42681,8 @@
                   the de.NBI Cloud can close the gap of missing computational resources for
                   metagenomics research as one example.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">metagenomics, single-cell genomics,
+                  microbial diversity, cloud computing, bioprospecting</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42745,9 +42709,8 @@
                   consensus based curriculum. It is time to start - and for a first review of the
                   lessons learned.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data literacy, statistical thinking,
+                  computational skills, data modeling, simulation-based inference</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42773,9 +42736,9 @@
                   automatic transcription and automatic genre determination, both on the basis of
                   signal-based features from audio recordings of music pieces.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">music data analysis, statistical
+                  methods, uncertainty quantification, automatic music transcription, genre
+                  classification</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42819,9 +42782,9 @@
                   the survey instruments are still relatively new or because of the specific issues
                   dealt with in the research.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">longitudinal survey, socio-economic
+                  data, life satisfaction metrics, intergenerational mobility, research data
+                  access</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42866,9 +42829,9 @@
                   institutional. This will lead to my answers to the question: Are we there yet, can
                   we provide reliable travel time predictions?</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">travel time prediction, urban mobility,
+                  time series analysis, data-driven modeling, domain knowledge
+                integration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42912,9 +42875,9 @@
                   their content in integrative contexts and hence supporting such collections to
                   become FAIR.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">cultural heritage digitization, fair
+                  principles, research data management, data interoperability, repository
+                  sustainability</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42946,9 +42909,9 @@
                   between-subjects experiment that tests the effects of different location-based
                   promotion types.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">location-based marketing, consumer
+                  behavior analysis, mobile sensor data, in-store tracking, promotional targeting
+                  strategies</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42997,9 +42960,8 @@
                   computation. A proof-of-principle is presented in which proprietary patient data
                   was jointly evaluated between two remote university hospitals.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data privacy, cryptographic networks,
+                  collaborative computing, proprietary data sharing, trustless systems</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43033,9 +42995,8 @@
                   University Library. This includes in particular analyses of the global publication
                   network in the context of bibliometric information.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data modeling, media studies, data
+                  visualization, bibliometrics, cultural analytics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43071,9 +43032,8 @@
                 <p>I will compare and contrast these languages and explain why I choose to use the
                   less mature but more flexible one for data science.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">programming languages, data analysis,
+                  scientific computing, open-source tools, language comparison</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43126,9 +43086,8 @@
                   Kompetenz zu fördern und die Integration digitaler Werkzeuge in die akademische
                   Forschung zu erleichtern.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">chatgpt, digital literacy, text encoding
+                  initiative (tei), python programming, natural language processing</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43172,9 +43131,8 @@
               <eventName xml:lang="de">Entwicklung eines digitalen Ökosystems zur Dokumentation,
                 Analyse und Visualisierung von Filmen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">film analysis, digital ecosystems, film
+                  documentation, data visualization, media studies</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43193,9 +43151,8 @@
               <eventName xml:lang="de">Vom Codex zum Netzwerk: Potentiale einer digitalen
                 Scholastik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">scholasticism, medieval manuscripts,
+                  network analysis, digital textual analysis, codex studies</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43214,9 +43171,8 @@
               <eventName xml:lang="de">Heimcomputer, Spiele und Musik: Fragestellungen und Methoden
                 der Ludomusicology</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">retro computing, video game music,
+                  ludomusicology, game sound design, cultural media studies</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43235,9 +43191,8 @@
               <eventName xml:lang="de">Vom Codex zum Netzwerk: Potentiale einer digitalen
                 Scholastik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">scholasticism, medieval manuscripts,
+                  network analysis, digital textual analysis, codex studies</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43274,9 +43229,8 @@
               <eventName xml:lang="de">Medienwissenschaftliche Vernetzung und Plattformen:
                 Vorstellung der Projekts Mediarep</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">media studies, research networks,
+                  academic platforms, project presentation, scholarly infrastructure</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43301,9 +43255,9 @@
               <eventName xml:lang="de">Panel Transkribus im Einsatz für die Forschung. Chancen und
                 Herausforderungen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">handwriting recognition, historical
+                  documents, optical character recognition, research workflows, transcription
+                  tools</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43334,9 +43288,9 @@
               <eventName xml:lang="de">DH Lab IEG - Geisteswissenschaftliche Forschung digital
                 gestalten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital history, research
+                  infrastructure, collaborative tools, academic workflows, humanities
+                labs</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43355,9 +43309,9 @@
               <eventName xml:lang="de">Digitalität in den Gedächtnisinstitutionen. Wandel in
                 Präsentation, Vermittlung und Forschung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">memory institutions, digital
+                  transformation, cultural heritage, exhibition practices, research
+                methods</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43376,9 +43330,9 @@
               <eventName xml:lang="de">"Sie können jetzt in die Vergangenheit reisen": Assassin's
                 Creed als Geschichtstourismus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">virtual history, historical tourism,
+                  video game narratives, immersive storytelling, cultural
+                representation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43397,9 +43351,9 @@
               <eventName xml:lang="de">Die räumliche Kontextualisierung mittelalterlicher
                 Glasmalereien und die Potentiale der interaktiven Darstellung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">medieval stained glass, spatial
+                  analysis, cultural heritage visualization, interactive mapping, art history
+                  methods</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43417,9 +43371,8 @@
             <event type="lecture" when="2022-02-02" xml:id="ls39_t1_l11">
               <eventName xml:lang="de">Kunstwissenschaft und Game Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">visual arts, game studies, art history,
+                  interdisciplinary research, media analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43439,9 +43392,9 @@
                 und disziplinenübergreifender Transfer im Bereich materieller und immaterieller
                 Kulturgüter</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data infrastructure, cultural heritage,
+                  research data management, interdisciplinary collaboration, material and intangible
+                  culture</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43493,9 +43446,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807150945/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">open science, research transparency,
+                  collaborative scholarship, academic publishing, open access</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43516,9 +43468,9 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807150714/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-0"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital editions, scholarly editing,
+                  correspondence analysis, august wilhelm schlegel, textual
+                scholarship</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43539,9 +43491,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20221204194515/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-4"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">virtual heritage, computer graphics,
+                  ancient monuments, cultural preservation, 3d visualization</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43562,9 +43513,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145804/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-1"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">visual computation, image analysis,
+                  cultural data, dimensionality reduction, epistemology</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43585,9 +43535,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145234/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-7"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">audio analysis, music research, signal
+                  processing, computational methods, sound technology</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43608,9 +43557,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807162937/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-5"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">virtual reality, computational modeling,
+                  world representation, simulation theory, epistemology</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43632,9 +43580,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145524/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-6"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai music composition, human-computer
+                  interaction, creative ai, beethoven, algorithmic music</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43655,9 +43602,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145234/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-7"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">audio analysis, music technology, signal
+                  processing, computational musicology, sound engineering</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43684,9 +43630,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20221208234213/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-8"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">beethoven, musicology, symphonic
+                  arrangements, domestic music, computational analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43713,9 +43658,9 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145119/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-9"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">cultural heritage management, research
+                  data infrastructure, material culture, intangible heritage, data
+                  preservation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43742,9 +43687,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807151424/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-10"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">maya script, computational decipherment,
+                  text database, linguistic analysis, ancient writing systems</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43771,9 +43715,9 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807151710/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-3"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">visualization of history, comparative
+                  timelines, global history, cartographic methods, historical data
+                platforms</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43846,9 +43790,9 @@
                   dieser Werkzeuge methodische Möglichkeiten eröffnet werden, die auch sehr
                   grundsätzliche epistemische Auswirkungen haben können.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">history of digital methods,
+                  interdisciplinary research, computational tools, epistemological impact, scholarly
+                  traditions</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43882,9 +43826,8 @@
                   transformiert die Literaturwissenschaft. Von dieser Veränderung handelt der
                   Vortrag.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">computational literary studies, distant
+                  reading, text mining, digital editions, large-scale digitization</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43926,9 +43869,9 @@
                   Zusammenfassend werden Eckpunkte eines Programms dargestellt, durch das die Webble
                   Technology den Digital Humanities in Zukunft neue Chancen eröffnen kann.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">serendipity in research, meme media
+                  technology, computational discovery, unconventional hypotheses, webble
+                  technology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43959,9 +43902,8 @@
                   opportunities, challenges and risks of big data to understanding cities from both
                   a geographic, and wider social science, perspective.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">smart cities, urban governance, big data
+                  analytics, surveillance technologies, infrastructure vulnerabilities</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43991,9 +43933,9 @@
                   they can present different if overlapping views of the world, combining them is
                   necessary to move towards richer geographical stories.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">spatial analysis, text-to-map
+                  transformation, intermedia studies, formal modeling, critical
+                formalization</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44029,9 +43971,9 @@
                   ‚Vorsprung der Kunst‘ profitieren können (oder müssten), um bereits jetzt in eine
                   postdigitale Phase überzugehen?</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">post-digital art, art history
+                  methodology, digital art evolution, technology critique, analog-digital
+                  convergence</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44060,9 +44002,9 @@
                   Museen vorgestellt. Hier eröffnen sich neue Chancen für Geschäftsmodelle in der
                   Kultur und für die Wissenschaftskommunikation.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital transformation, cultural
+                  institutions, analog vs digital, museum innovation, science
+                communication</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44095,9 +44037,9 @@
                   different as digital humanities, computer science, physics and sociologists of
                   knowledge is needed to experiment, develop and implement knowledge maps.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">knowledge visualization, information
+                  navigation, data classification, interdisciplinary collaboration, online
+                  information retrieval</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44131,9 +44073,8 @@
                   niederschlagen, deren Ortsmodelle die Verbindung zwischen räumlicher Semantik und
                   sozialer Interaktion berücksichtigen.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">geospatial modeling, cultural geography,
+                  qualitative data analysis, participatory mapping, spatial semantics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44161,9 +44102,8 @@
                   Analysemethoden von Vorteil. Am Beispiel von sog. „Geokollokationen“, Kollokatoren
                   zu Toponymen, zeige ich einen Anwendungsfall aus diesem Bereich.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">visual linguistics, diagrammatics,
+                  semiotics, corpus linguistics, geocollocations</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44197,9 +44137,8 @@
                   Abstraktionsniveaus, empirisch nachprüfbar bleiben. Dies werden wir anhand der
                   deutschen Dialektologie demonstrieren.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital tools, humanities research, data
+                  accessibility, empirical theory, dialectology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44239,9 +44178,9 @@
                   may show the historian about prostitution in the period – and what historians can
                   offer to corpus linguists who are approaching texts from this period.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">corpus linguistics, social history,
+                  seventeenth-century england, prostitution studies, marginalized
+                groups</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44279,9 +44218,9 @@
                   tracking will be oppressive rather than empowering to the individuals
                   involved.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">educational data mining, learner
+                  empowerment, learning visualization, quantified self, ethical concerns in
+                  tracking</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44314,9 +44253,9 @@
                   and research aims. I present a selection of these issues for discussion and
                   consideration of possible solutions.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">imaging techniques, ancient manuscripts,
+                  reflectance transformation imaging, material analysis, textual
+                  interpretation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44354,9 +44293,9 @@
                   wissenschaftlichen Sammlungen verantwortlich. Unter anderem entwickelt er die
                   Web-Plattform „Wissenschaftliche Sammlungen digital“.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">museum collections, digitization
+                  strategies, institutional challenges, cultural heritage preservation, resource
+                  limitations</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44403,9 +44342,9 @@
                   implications of the COVID-19 Pandemic on Internet traffic. Then I will discuss how
                   geographic interest may correlate with population statistics.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital footprints, analog data
+                  collection, internet measurement, geographic interest analysis, covid-19 internet
+                  impact</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44437,9 +44376,9 @@
                   will end with my thoughts and hopes for closing the epistemological gaps, with the
                   goal of addressing the technical gaps more effectively and justly.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">bias in nlp, gender representation,
+                  language model fairness, intersectionality in ai, epistemological
+                critiques</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44471,9 +44410,9 @@
                   technical progress? The lecture will provide an overview of current developments
                   and analyse them from an interdisciplinary perspective.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai regulation, data privacy, machine
+                  learning ethics, eu data protection, interdisciplinary legal
+                analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44519,9 +44458,8 @@
                   shareability of synthetic content, and explore the broader societal implications
                   of GenAI applications and interactions.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">generative ai, trust in technology,
+                  social media dynamics, ai-generated content, deepfake detection</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44563,9 +44501,8 @@
                   we intend to get a better understanding of knowledge transfer and production in
                   the Romantic circle.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">romanticism, correspondence networks,
+                  epistolarity, social network analysis, knowledge transfer</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44597,9 +44534,9 @@
                   study, my presentation aims to elucidate the connection between theory and
                   computation by proposing a methodology for enabling theory-driven validity.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">theory-computation integration, research
+                  workflow modeling, operationalization in humanities, computational literary
+                  studies, theory-driven validity</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44637,9 +44574,9 @@
                   collaboration. I hope my lecture provides one of those opportunities for
                   reflection.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">interdisciplinary collaboration,
+                  psychology and computer science, research challenges, teamwork dynamics, academic
+                  reflection</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44667,9 +44604,8 @@
                   invisible traces not recorded via online channels, which can reveal key aspects of
                   political engagement online.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">survey data, social media analysis,
+                  political polarization, data donation, research methodology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44701,9 +44637,9 @@
                   opportunities in terms of reflected content exploration, computational analysis,
                   and including an outlook to forthcoming Impresso Datalab.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">media archives, natural language
+                  processing, semantic enrichment, data exploration, computational
+                analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44741,9 +44677,8 @@
                   models and for the most advanced models, it can reach an order of magnitude beyond
                   the typical size of informal human groups.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">llm societies, consensus dynamics,
+                  language understanding, opinion modeling, critical group size</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44773,9 +44708,9 @@
                   creating open evaluation datasets for creative works and the importance of
                   interdisciplinary collaboration between NLP and the humanities.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">nlp for creative works, storytelling
+                  analysis, large-scale text modeling, language model audits, interdisciplinary
+                  collaboration</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44812,9 +44747,9 @@
                   These approaches can be scaled to other platforms to enable data collection in the
                   post API age.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">misinformation spread, whatsapp data
+                  analysis, political propaganda, hate speech detection, encrypted platform
+                  moderation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44832,9 +44767,9 @@
             <event type="lecture" when="2025-02-07" xml:id="ls44_t2_l7">
               <eventName xml:lang="en">not found</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">sorry, no keywords available,
+                  insufficient information, data missing, unable to process, no input
+                  provided</term></note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -44868,9 +44803,8 @@
                   equitable spaces. Throughout, I demonstrate how seemingly neutral policies can
                   cause harm when developed without input from marginalized communities.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">policy regulation, ai ethics, civil
+                  liberties, academic inclusion, marginalized communities</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44906,9 +44840,9 @@
                   misused. I will highlight how these issues manifest in practice and what they
                   reveal about the incentives and priorities driving current AI research.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai hype, underrepresented languages,
+                  machine translation, automatic speech recognition, ai evaluation
+                benchmarks</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44945,9 +44879,8 @@
                   efficient and reliable new method for measuring social proximity using online
                   data.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">slavery legacies, elite persistence,
+                  computational history, social network analysis, political inequality</term></note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -44985,9 +44918,9 @@
                   safety, underscoring the urgent need for more comprehensive, systemic, and
                   context-aware evaluation paradigms.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai safety limitations, socio-technical
+                  systems, risk assessment gaps, dynamic uncertainty, benchmarking
+                flaws</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45023,9 +44956,8 @@
                   impact on the scientific literature, surpassing the effect of major world events
                   such as the COVID-19 pandemic.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">llm usage, academic writing, vocabulary
+                  analysis, pubmed abstracts, scientific literature trends</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45057,9 +44989,8 @@
                   European languages. I will conclude by discussing relevant open research questions
                   regarding political biases in LLMs.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">political bias, large language models,
+                  multilingual analysis, evaluation frameworks, policy issue biases</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45091,9 +45022,9 @@
                   learning infrastructures maintain and reify colonial legacies of displacing costs
                   onto colonial bodies while centralizing benefits in the heart of the empire.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">bias in ai, machine learning ethics,
+                  natural language processing history, colonialism in technology, algorithmic
+                  discrimination</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45123,9 +45054,8 @@
                   stakeholders into AI development as first-class citizens to ensure that these new
                   technologies are at the service of society.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">algorithmic fairness, generative ai,
+                  stakeholder inclusion, ai ethics, paradigm shift</term></note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -45177,9 +45107,9 @@
               <eventName xml:lang="de">Digital Humanities vs. Digital History: Differenzen und
                 Gemeinsamkeiten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital history, disciplinary
+                  boundaries, comparative analysis, methodological overlap, academic
+                  distinctions</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45198,9 +45128,9 @@
               <eventName xml:lang="de">Zum Selbstverständnis der Wissenschaft in der Gesellschaft ‒
                 Wie halten Sie es mit den Bürgerwissenschaften?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">citizen science, public engagement,
+                  scientific identity, societal role of research, participatory knowledge
+                  production</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45219,9 +45149,8 @@
               <eventName xml:lang="de">Virtual-Reality-Systeme als Werkzeug in der
                 Archäologie</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">virtual reality, archaeology, 3d
+                  reconstruction, immersive technology, cultural heritage</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45241,9 +45170,9 @@
                 interdisziplinären Forschungsprogramme des neu gegründeten Deutschen Internet
                 Instituts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">autonomous decision-making, networked
+                  society, interdisciplinary research, internet governance, german internet
+                  institute</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45262,9 +45191,8 @@
               <eventName xml:lang="de">Reading at Scale. Erkenntnismöglichkeiten an einem
                 mittelgroßen literarischen Korpus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">literary analysis, corpus linguistics,
+                  large-scale reading, computational methods, text mining</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45282,9 +45210,8 @@
             <event type="lecture" when="2017-11-29" xml:id="ls45_t1_l6">
               <eventName xml:lang="en">Simulating Dramatic Networks</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">network analysis, theater studies,
+                  computational modeling, social networks, performance simulation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45303,9 +45230,8 @@
               <eventName xml:lang="de">Zitate und Paraphrasen: Prolegomena zu einer Taxonomie der
                 digitalen Quellenanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text reuse, citation analysis,
+                  paraphrase detection, source classification, textual scholarship</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45324,9 +45250,8 @@
               <eventName xml:lang="de">Forschung &amp; Karriere: Zur anhaltenden Formierung,
                 Professionalisierung und Professoralisierung der Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">academic careers, disciplinary
+                  formation, professionalization, institutionalization, faculty roles</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45345,9 +45270,8 @@
               <eventName xml:lang="de">Textkorpora als Ressourcen für die Digital Humanities:
                 Chancen, Herausforderungen, Perspektiven</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text corpora, linguistic resources, data
+                  analysis, research methods, computational linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45366,9 +45290,8 @@
               <eventName xml:lang="de">Von Nutzen und Nachteil einer Historie Digitaler Spiele:
                 Geschichte, Politik und historische Authentizität</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">video games, historical accuracy,
+                  cultural politics, media history, historical narratives</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45386,9 +45309,9 @@
             <event type="lecture" when="2018-01-16" xml:id="ls45_t1_l11">
               <eventName xml:lang="de">Bedeutungsanalyse im ‚Distant Reading‘</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">meaning analysis, distant reading,
+                  computational text analysis, literary interpretation, large-scale
+                data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45407,9 +45330,9 @@
               <eventName xml:lang="de">Vom Ende der Linearität: Konzepte wissenschaftlichen
                 Publizierens und Kommunizierens im digitalen Zeitalter</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">non-linear publishing, academic
+                  communication, digital scholarship, scholarly publishing models, future of
+                  research dissemination</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45428,9 +45351,8 @@
               <eventName xml:lang="de">Forschungsdaten(management) in den Digital Humanities – Eine
                 Annäherung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data management, research data,
+                  scholarly workflows, infrastructure, best practices</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45449,9 +45371,8 @@
               <eventName xml:lang="de">Das digitale Bild. Eine Herausforderung für die
                 Kunstgeschichte</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">visual culture, art history, image
+                  analysis, digital media, computational aesthetics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45470,9 +45391,8 @@
               <eventName xml:lang="en">From Archives to Activism: Why Public Engagement is Essential
                 for the Future of the Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">public engagement, archives, activism,
+                  humanities advocacy, community impact</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45520,9 +45440,9 @@
               <eventName xml:lang="en">Born-digital Artefacts: Multimodal Modeling &amp;
                 Computational Analysis</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">born-digital objects, multimodal
+                  analysis, computational modeling, artifact preservation, data
+                  representation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -45547,9 +45467,9 @@
               <eventName xml:lang="en">Inside the Congruence Engine: Digital Reconstructions of
                 Cultural Heritage</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">digital reconstructions, cultural
+                  heritage, computational modeling, archival collaboration, interactive
+                  exhibits</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45569,9 +45489,8 @@
                 communication in the context of multilingualism in Early Modern Europe: Insights
                 into the FSL-project</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">linguistic history, multilingualism,
+                  early modern europe, language attitudes, everyday communication</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -45608,9 +45527,9 @@
               <eventName xml:lang="en">Europeana: The Geopolitics of Digital Heritage Aggregation at
                 Scale</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">cultural heritage aggregation, european
+                  digital infrastructure, geopolitical implications, large-scale data platforms,
+                  memory institutions</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45629,9 +45548,8 @@
               <eventName xml:lang="en">Affect in Digital Spaces: Qualitative and Quantitative
                 Approaches</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">emotion analysis, online interaction,
+                  mixed methods, computational social science, affective computing</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -45650,9 +45568,8 @@
               <eventName xml:lang="en">Feeling the Archive: Relations of Affect and Algorithms in
                 Digitality</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">emotion, archives, algorithms, digital
+                  culture, affective computing</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -48769,9 +48686,8 @@
               <eventName xml:lang="de">Einführung: Dazzling Data – Digital Humanities in der
                 Mediävistik und Frühneuzeitforschung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">medieval studies, early modern period,
+                  data visualization, historical research, computational methods</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48803,9 +48719,8 @@
               <eventName xml:lang="de">Sieben Dinge Mariens. Object Detection und kunsthistorische
                 Realienkunde</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">marian iconography, object detection,
+                  art history, material culture, computer vision</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48825,9 +48740,8 @@
               <eventName xml:lang="de">Offene Forschungsstrategien. (Geisteswissenschaftliche)
                 Forschung für die und mit der Öffentlichkeit</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">open access, public engagement,
+                  collaborative research, open science, participatory scholarship</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48847,9 +48761,9 @@
               <eventName xml:lang="de">Interoperabilität von Text und Bild in der digitalen Edition
                 der Wenzelsbibel</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text-bible editions, medieval manuscript
+                  digitization, image-text alignment, interoperability standards, cultural heritage
+                  preservation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48875,9 +48789,9 @@
               <eventName xml:lang="de">HTR, TEI, DNA &amp; NLP: Frühmittelalterliche Handschriften,
                 ihr Paratext und die Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">handwriting recognition, textual
+                  encoding, medieval manuscripts, paratext analysis, natural language
+                  processing</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48897,9 +48811,8 @@
               <eventName xml:lang="de">Digitale Transformation frühneuzeitlicher Memento
                 mori-Literatur: Herausforderungen und Potenziale</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">early modern literature, memento mori,
+                  digital transformation, textual analysis, cultural heritage</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48919,9 +48832,9 @@
               <eventName xml:lang="de">Burgen digital erschließen – Projekte Hohensalzburg digital
                 und Inventaria</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">medieval castles, cultural heritage
+                  digitization, 3d modeling, historical architecture, digital
+                preservation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48965,9 +48878,8 @@
               <eventName xml:lang="de">Transkriptionsdatenbank zum Codex Manesse (Große Heidelberger
                 Liederhandschrift, cpg 848)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">codex manesse, medieval manuscripts,
+                  transcription database, german literature, handwritten texts</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -48988,9 +48900,8 @@
                 mittelalterlicher Malerei mit Digital Humanities- und Computer Vision-Methoden
                 untersuchen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">material analysis, medieval art,
+                  computer vision, image processing, distant reading</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49029,9 +48940,9 @@
                 frühneuzeitlicher Landschaften anhand archäologischer Prospektionsdaten und
                 digitalisierter historischer Karten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">geospatial analysis, medieval
+                  landscapes, early modern landscapes, archaeological prospection, historical
+                  cartography</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49051,9 +48962,8 @@
               <eventName xml:lang="de">DH Anwendungsbeispiele aus der mediävistischen
                 Musikwissenschaft</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">medieval music, musicology applications,
+                  computational analysis, historical manuscripts, musical notation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49074,9 +48984,9 @@
                 Projekt zum Wissenstransfer in mittelalterlicher Pferdemedizin „Meeting in the body
                 of the horse“</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">horse medicine, medieval veterinary
+                  practices, interdisciplinary research, knowledge transfer, equine
+                studies</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49101,9 +49011,8 @@
             <event type="lecture" when="2024-01-15" xml:id="ls42_t1_l13">
               <eventName xml:lang="de">Musikalische Frühdrucke und geborgte Melodien</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">early music printing, musical borrowing,
+                  renaissance music, melody reuse, historical musicology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49129,9 +49038,8 @@
               <eventName xml:lang="de">Telespiele, Mobile Games und Open World – Game Studies in den
                 Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">video games, game studies, mobile
+                  gaming, open-world design, interactive media</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49156,9 +49064,8 @@
             <event type="lecture" when="2024-01-29" xml:id="ls42_t1_l15">
               <eventName xml:lang="de">Mittelhochdeutsche Begriffsdatenbank Reloaded</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">middle high german, lexical databases,
+                  historical linguistics, semantic analysis, medieval studies</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49258,7 +49165,7 @@
           <!-- 2024-05-08  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-lunchtime-lecture-8.-mai-2024-1200-uhr-1/  |   https://static.uni-graz.at/fileadmin/_files/_gewi_sites/_informationsmodellierung/PDF/Poster_Haas.pdf-->
 
 
-          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="...">
+          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls50_tx">
             <eventName xml:lang="de">Wintersemester 2024-25</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250806195902/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/WS2024_25-LTL-Poster.pdf"/>
@@ -51388,9 +51295,8 @@
                   interest, with a focus on a little-known group of liturgical manuscripts from the
                   Dominican convent, Paradies bei Soest, dating to the period 1300–1425.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">mirador, iiiif image viewer, medieval
+                  manuscripts, illuminated manuscripts, scholarly annotation tools</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51417,9 +51323,9 @@
                   the so-called “digital humanities” remain focused on the human while still
                   encouraging the exploration of new possibilities.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">transvergence, interdisciplinary
+                  collaboration, human-centered technology, transmodal systems, thematic
+                  modeling</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51450,9 +51356,9 @@
                   art history is both transcending and exponential, while the discipline of art
                   history, in principle, has no limits in method.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">art history, computational analysis,
+                  cultural analytics, interdisciplinary research, data-driven
+                scholarship</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51479,9 +51385,8 @@
                   and usefulness (that is, to make sure these digital musicologies remain
                   “musical”).</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">musicology, computational analysis,
+                  digital tools, research methods, musical validity</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51527,9 +51432,8 @@
                   research projects that use sequence alignment algorithms to identify intertextual
                   relationships over large heterogeneous corpora.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">big data, data mining, distant reading,
+                  machine learning, intertextual analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51560,9 +51464,9 @@
                   scholarship, evolve digital pedagogy within existing institutional structures, and
                   open the humanities to new audiences.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">agile methodology, interdisciplinary
+                  collaboration, knowledge production, digital pedagogy, scholarly
+                innovation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51594,9 +51498,8 @@
                   different case studies in the above-mentioned scenario at the intersection of
                   cyberarchaeology, virtual museums, big data and virtual environments.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">virtual heritage, cyberarchaeology,
+                  knowledge preservation, interactive environments, data visualization</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51622,9 +51525,8 @@
                 <p>The presenter will also touch upon the interesting problems that arise when
                   bringing digital methods into the humanities.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">text traditions, computational modeling,
+                  manuscript transmission, stemmatology, humanities methodology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51660,9 +51562,8 @@
                   (musicologically oriented) music analysis are still challenging to compute and
                   annotated sources are rare.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">music analysis, computational methods,
+                  music cognition, interdisciplinary research, music data annotation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51695,9 +51596,9 @@
                   criticism are abstractions. So: what does it mean, studying literature through a
                   series of abstractions?</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data visualization, computational
+                  criticism, literary analysis, abstraction in research, lived experience vs.
+                  data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51729,9 +51630,9 @@
                   art history is both transcending and exponential, while the discipline of art
                   history, in principle, has no limits in method.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">cultural analytics, computational art
+                  history, interdisciplinary research, data-driven theory, complex
+                systems</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51764,9 +51665,8 @@
                   paradigms provide new modalities for discovery that are based on emergent
                   storytelling and embodied interaction.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data visualization, cultural archives,
+                  interactive interfaces, embodied interaction, narrative exploration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51801,9 +51701,9 @@
                   examples, we will see that this approach can be used regardless of one’s field of
                   research as long as there is data to support it.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data visualization, scientific
+                  communication, creative representation, data mining, interdisciplinary
+                  collaboration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51832,9 +51732,8 @@
                   aspects of iconic semantics (used for pictures, gestures, and some aspects of
                   signs) are better models than compositional semantics in language.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">music semantics, auditory cognition,
+                  iconic semantics, truth conditions, non-linguistic meaning</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51880,9 +51779,9 @@
                   since 2006 in which topics such as cultural trends, and system anomalies have been
                   explored through the collected Seattle library data.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data visualization, cultural
+                  classification, interactive art, library data analysis, aesthetic information
+                  retrieval</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51913,9 +51812,8 @@
                   the evocation of emotions with music, such as appraisals, emotional resonance,
                   musical expectancy, and the social functions of music.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">emotions, music psychology,
+                  neuroimaging, brain activity, music therapy</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51946,9 +51844,8 @@
                 target="https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/"/>
               <ptr type="video" target="2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">visualization, implicit assumptions,
+                  data representation, critical analysis, design bias</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51988,9 +51885,9 @@
                   presentation, we will further explain how this work is being expanded to further
                   domains and particularly to the specific case of historical newspapers.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">sequential pattern mining, event
+                  detection, news analysis, multilingual processing, historical data
+                  extraction</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52012,9 +51909,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626094353/https://www.epfl.ch/schools/cdh/the-question-of-why-on-the-notions-of-explanation-in-the-dh/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">explanation theory, causal reasoning,
+                  interpretive methods, epistemology, humanities research</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52037,9 +51933,9 @@
                 target="https://web.archive.org/web/20250626094504/https://www.epfl.ch/schools/cdh/sciences-and-technologies-studies-from-case-studies-to-commensurable-data-extending-the-topofil-of-boa-vista-b-latour/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_zzxziysy"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">science and technology studies, case
+                  study analysis, data commensurability, bruno latour, spatial
+                humanities</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52060,9 +51956,9 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626094545/https://www.epfl.ch/schools/cdh/why-theories-of-aesthetics-matter-in-the-dh/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">aesthetic theory, computational
+                  analysis, cultural interpretation, humanistic critique, artistic
+                value</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52099,9 +51995,9 @@
                   des techniques numériques par le design montre ainsi qu’il reste de la place pour
                   d’autres modulations, d’autres sensibilités, d’autres cultures.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">design theory, knowledge production,
+                  technical systems, creative methodologies, subjectivity in
+                technology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52123,9 +52019,8 @@
                 target="https://web.archive.org/web/20250626094925/https://www.epfl.ch/schools/cdh/problems-with-data-assumptions-biases-and-more/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_cq0so9aw"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data quality, research biases, data
+                  assumptions, ethical data, data limitations</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52180,9 +52075,9 @@
                   approximations to intractable multi-sequence alignment collation and enable 75%
                   reductions in error with unsupervised models.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">textual analysis, information
+                  propagation, network inference, multilingual corpora, ocr error
+                correction</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52204,9 +52099,8 @@
                 target="https://web.archive.org/web/20250626134950/https://www.epfl.ch/schools/cdh/digital-humanities-at-scale-2012-2032/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_rdepbplf"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">large-scale research, computational
+                  methods, future trends, data analysis, long-term impact</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52228,9 +52122,8 @@
                 target="https://web.archive.org/web/20250626134920/https://www.epfl.ch/schools/cdh/observational-studies/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_3s3l3c0j"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">causal inference, research methodology,
+                  data analysis, empirical research, study design</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52252,9 +52145,8 @@
                 target="https://web.archive.org/web/20250626135030/https://www.epfl.ch/schools/cdh/towards-interpretable-deep-visual-recognition-2/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_9fneagxl"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">computer vision, deep learning,
+                  interpretability, visual recognition, neural networks</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52276,9 +52168,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135239/https://www.epfl.ch/schools/cdh/encoding-embodied-acts-technologies-of-corporeality/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">gesture analysis, movement encoding,
+                  embodied cognition, performance technology, kinesthetic data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52328,9 +52219,9 @@
                   elements of comic strips such as panels, speech balloons, text, characters and
                   links that may exist between these elements.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">comics analysis, content indexing,
+                  visual narrative extraction, cultural heritage digitization, sequential art
+                  processing</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52351,9 +52242,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135501/https://www.epfl.ch/schools/cdh/dh-and-ways-of-knowing/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ways of knowing, epistemology, knowledge
+                  production, interdisciplinary methods, critical theory</term></note>
               <note type="realization">
                 <term type="speech">...</term>
                 <term type="audience">...</term>
@@ -52374,9 +52264,8 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135918/https://www.epfl.ch/schools/cdh/what-a-historian-wants-from-digital-humanities/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">historical research, data analysis,
+                  scholarly needs, interdisciplinary collaboration, research tools</term></note>
               <note type="realization">
                 <term type="speech">...</term>
                 <term type="audience">...</term>
@@ -52398,9 +52287,9 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135632/https://memento.epfl.ch/event/what-can-a-historian-expect-of-digital-humanities-/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">historical research, methodology,
+                  interdisciplinary collaboration, data analysis, scholarly
+                expectations</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52432,9 +52321,8 @@
                   exploration and discovery, which is a return to the past when music was part of
                   the Quadrivium.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">data sonification, interactive music,
+                  scientific visualization, kepler’s laws, art-science collaboration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52466,9 +52354,8 @@
                   discuss how we might employ symbolic corpora to inform future theories of musical
                   change, even when such corpora are lacking in data or are of unknown origin.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">musical corpora, compositional style,
+                  cognitive constraints, transmission theory, symbolic data analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52505,9 +52392,8 @@
                   standards, and (c) sketches a vision and the future potential of historical
                   sociolinguistic databases.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">historical sociolinguistics, language
+                  variation, corpus linguistics, tei encoding, manuscript digitization</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52538,9 +52424,9 @@
                   Hermann Kurz, is the main subject of an ongoing collaboration with Thomas Weitin
                   (TU Darmstadt).</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">network science, literary corpus
+                  analysis, close reading, distant reading, qualitative vs quantitative
+                  methods</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52579,9 +52465,9 @@
                   machine learning algorithms accessibility by including available computing
                   resources in the algorithm development.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai ethics, human-computer interaction,
+                  algorithmic fairness, knowledge representation, accessible machine
+                learning</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52644,9 +52530,8 @@
                   challenging open task at the borderline between theory and analysis to disentangle
                   systematic dependencies from ideosyncratic piece-specific correspondences.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">music theory, algebraic combinatorics,
+                  fourier analysis, chord progression analysis, pitch class sets</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52678,9 +52563,9 @@
                   and todays readers, look into the real-time data and try to find ways to measure
                   reading activities in large data sets.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">reading habits, social media literature,
+                  computational text analysis, youth engagement, real-time data
+                tracking</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52721,9 +52606,8 @@
                   source code (with Stéphanie Mader, CNAM) A platform studies approach to the
                   Smaky</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">video games, game studies, media
+                  archiving, interdisciplinary research, source code analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52755,9 +52639,9 @@
                   OCR post-correction method on the same dataset, as well as its most recent
                   evolution on a highly-inflected language.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">optical character recognition, text
+                  analysis, historical documents, quantitative methods, error
+                correction</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52802,9 +52686,9 @@
                   combines the qualitative methods traditionally employed by musicologists and
                   cultural anthropologists with quantitative methods from the natural sciences.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">comparative musicology, cross-cultural
+                  analysis, music evolution, computational methods, cultural
+                anthropology</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52836,9 +52720,8 @@
                   partner choice. The presentation will focus on this second approach, showing how
                   online dating makes it possible to revisit classic sociological inquiry.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">online dating, partner preferences,
+                  sociological theory, matching mechanisms, sexual norms</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52879,9 +52762,8 @@
                   research is a natural partner of digital humanities to transform data in impactful
                   propositions for citizens.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">user experience, trust in media, design
+                  research, heritage engagement, technology acceptance</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52916,9 +52798,8 @@
                   present by the future, narrative after storytelling, technology’s bipolar benefits
                   and malignancy, and the quixotic guise of art’s materiality.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">new media art, interactive art, emergent
+                  interaction, augmented perception, virtual-real conjunction</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52949,9 +52830,8 @@
                   image-making by showcasing her use of Southern datasets as an archive of
                   abundance.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">artificial intelligence, decolonization,
+                  mesopotamian artifacts, generative art, cultural heritage</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -52992,9 +52872,8 @@
                   also improve international law’s capacity to address technological developments
                   that impact individuals and States alike.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">ai ethics, international law, ai
+                  governance, republican theory, technological regulation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53021,9 +52900,9 @@
                   and the digital world. This presentation will explore the ethical implications of
                   BCIs and identify key societal challenges at the human-machine interface.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">neuroethics, brain-computer interfaces,
+                  human-machine interaction, technological ethics, bio-digital
+                integration</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53067,9 +52946,8 @@
                   theory is a single, unified discipline or a broad tent of possibly interrelated
                   but not necessarily unanimous inquiries.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">music theory, corpus-based methods,
+                  empirical research, philosophy of language, disciplinary unity</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53102,9 +52980,8 @@
                   traditional (non-computational) methods of composing, and the probably decisive
                   role the next generation of this work will reserve for computational analysis.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">machine learning, music composition,
+                  beethoven, computational creativity, human-computer collaboration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53146,9 +53023,8 @@
                   others, had his own work “borrowed,” and left a legacy of well-known jazz
                   compositions that continue to inspire jazz musicians and listeners.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">jazz composition, improvisation,
+                  copyright law, musical plagiarism, charlie parker legacy</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53179,9 +53055,8 @@
                   theory affected me as a composer, and present structural analyses of what I think
                   are especially interesting passages.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">composition, jazz, modernism,
+                  counterpoint, music theory</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53227,9 +53102,8 @@
                   targets’ reputations but that the legitimacy of these very practices is also
                   frequently disputed.</p>
               </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="topics-llm">online vigilantism, public shaming,
+                  social justice, media accountability, reputational harm</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
