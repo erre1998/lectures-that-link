@@ -237,25 +237,25 @@
               <idno type="wikidata">https://www.wikidata.org/wiki/Q145903</idno>
             </catDesc>
           </category>
-          <category xml:base="biology">
+          <category xml:id="biology">
             <catDesc>
               <name>biology</name>
               <idno type="wikidata">https://www.wikidata.org/wiki/Q420</idno>
             </catDesc>
           </category>
-          <category xml:base="gender-studies">
+          <category xml:id="gender-studies">
             <catDesc>
               <name>gender studies</name>
               <idno type="wikidata">https://www.wikidata.org/wiki/Q1662673</idno>
             </catDesc>
           </category>
-          <category xml:base="asian-studies">
+          <category xml:id="asian-studies">
             <catDesc>
               <name>asian studies</name>
               <idno type="wikidata">https://www.wikidata.org/wiki/Q4806809</idno>
             </catDesc>
           </category>
-          <category xml:base="science-communication">
+          <category xml:id="science-communication">
             <catDesc>
               <name>science communication</name>
               <idno type="wikidata">https://www.wikidata.org/wiki/Q472328</idno>
@@ -27542,11 +27542,11 @@
           <event type="lecture-series-term" from="2023-04" to="2024-07" xml:id="ls10_t1">
             <eventName xml:lang="de">Sommersemester 2023</eventName>
             <ptr type="programme"
-              target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/               forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
+              target="https://web.archive.org/web/20241114133706/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/"/>
             <event type="lecture" when="2023-04-03" xml:id="ls10_t1_l1">
               <eventName xml:lang="de">Digital Humanities 2023? Eine Bestandsaufnahme</eventName>
               <ptr type="programme"
-                target="https://web.archive.org/web/20241115000441/https://www.germanistik.uni-rostock.de/                 forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-humanities-2023-eine-bestandsaufnahme-159435/"/>
+                target="https://web.archive.org/web/20241115000441/https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/ringvorlesung/2023/n/digital-humanities-2023-eine-bestandsaufnahme-159435/"/>
               <ptr type="slides" target="https://doi.org/10.5281/zenodo.7798685"/>
               <note type="abstract" xml:lang="de">
                 <p>Frühe Pionierarbeiten der Digital Humanities entstanden schon in den 60er-Jahren
@@ -34772,10 +34772,8 @@
             <org role="organizer"
               corresp="#lemke_karoline #klappenbach_lou #hug_marius #goettel_sebastian"/>
           </event>
-
-          <event type="lecture-series-term" from="2024-01" to="2024-07" xml:id="ls12_t9">
+          <event type="lecture-series-term" from="2025-01" to="2025-07" xml:id="ls12_t9">
             <eventName xml:lang="de">2025</eventName>
-
             <event type="lecture" when="2025-01-27" xml:id="ls12_t9_l1">
               <eventName xml:lang="de">Wissen im Netzwerk. Praxisrelevante Ansätze zur Überführung
                 von Forschungsdaten digitaler Editionen in Knowledge-Graphen</eventName>
@@ -34799,8 +34797,10 @@
                   Bedeutung wissenschaftlicher Bibliotheken und Informationsinfrastrukturen
                   diskutiert.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">knowledge graphs, semantic enrichment,
-                  controlled vocabularies, data modeling, research data infrastructure</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #digital-humanities"/>
+                <term type="topics-llm">knowledge graphs, semantic enrichment, controlled
+                  vocabularies, data modeling, research data infrastructure</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34815,7 +34815,6 @@
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
             </event>
-
             <event type="lecture" when="2025-02-24" xml:id="ls12_t9_l2">
               <eventName xml:lang="de">Distanzierte Autorschaft</eventName>
               <ptr type="programme"
@@ -34832,8 +34831,10 @@
                   einer zukünftigen Theorie der Autorschaft im Zeitalter des maschinellen
                   Lernens.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">ai authorship, computational creativity,
-                  natural language processing, distributed authorship, causal agency</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #philosophy"/>
+                <term type="topics-llm">ai authorship, computational creativity, natural language
+                  processing, distributed authorship, causal agency</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34848,7 +34849,6 @@
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
             </event>
-
             <event type="lecture" when="2025-05-05" xml:id="ls12_t9_l3">
               <eventName xml:lang="de">Erweiterbare NLP-Pipelines: Komplexe Textanalyse mit
                 MONAPipe</eventName>
@@ -34871,8 +34871,10 @@
                   spezifischer Komponenten via API. Letztere können lokal genutzt werden oder als
                   Online-Dienst mit Zugang zu einem Hochleistungsrechenzentrum.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">nlp pipelines, modular text analysis,
-                  open-source tools, high-performance computing, linguistic annotation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #computer-science"/>
+                <term type="topics-llm">nlp pipelines, modular text analysis, open-source tools,
+                  high-performance computing, linguistic annotation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34893,7 +34895,6 @@
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
             </event>
-
             <event type="lecture" when="2025-05-26" xml:id="ls12_t9_l4">
               <eventName xml:lang="de">Oral-History.Digital – Der Aufbau eines Interviewportals und
                 die Erschließung heterogener Archive mit Topic Modeling</eventName>
@@ -34920,8 +34921,10 @@
                   erzeugt wurden. Zudem unterstützt ein interaktives Dashboard die Analyse der
                   Interviews.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">oral history archives, topic modeling,
-                  audiovisual data, collaborative platforms, interview annotation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term type="topics-llm">oral history archives, topic modeling, audiovisual data,
+                  collaborative platforms, interview annotation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34942,7 +34945,6 @@
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
             </event>
-
             <event type="lecture" when="2025-07-14" xml:id="ls12_t9_l5">
               <eventName xml:lang="de">Text+ Musik: Multimodale Kodierungsherausforderungen im
                 DigiMusTh-Kooperationsprojekt</eventName>
@@ -34958,8 +34960,10 @@
                   Projekts, erläutert einige dieser Herausforderungen und stellt Lösungsvorschläge
                   zur Debatte.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">multimodal encoding, historical music
-                  theory, 19th-century texts, music notation, open digital collections</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #history"/>
+                <term type="topics-llm">multimodal encoding, historical music theory, 19th-century
+                  texts, music notation, open digital collections</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -36864,8 +36868,10 @@
               <eventName xml:lang="de">Digital Humanities und deren Einsatz an der Universität
                 Tübingen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital methods, university
-                  applications, research integration, academic case study, germany</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">digital methods, university applications, research
+                  integration, academic case study, germany</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36889,8 +36895,10 @@
             <event type="lecture" when="2025-04-29" xml:id="ls14_t2_l2">
               <eventName xml:lang="en">Artificial Intelligence and Literary Theory</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">ai, literary criticism, computational
-                  analysis, text interpretation, machine learning</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #literary-studies"/>
+                <term type="topics-llm">ai, literary criticism, computational analysis, text
+                  interpretation, machine learning</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36909,9 +36917,10 @@
               <eventName xml:lang="en">Social Network Analysis and the Old Norse
                 Landnámabók</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">landnámabók, old norse literature,
-                  historical networks, social network analysis, medieval settlement
-                patterns</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #digital-humanities"/>
+                <term type="topics-llm">landnámabók, old norse literature, historical networks,
+                  social network analysis, medieval settlement patterns</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36930,9 +36939,10 @@
               <eventName xml:lang="de">Von der Theorie in die Praxis: Eine VR-Ausstellung am
                 Knotenpunkt zwischen Numismatik, Theologie und Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">virtual reality exhibitions,
-                  numismatics, religious studies, interdisciplinary collaboration, applied
-                  research</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #history #theology"/>
+                <term type="topics-llm">virtual reality exhibitions, numismatics, religious studies,
+                  interdisciplinary collaboration, applied research</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36951,9 +36961,10 @@
               <eventName xml:lang="de">Von TEI zu NLP: eine computergestützte Analyse von
                 Dramenfiguren auf der Basis des digitalen Korpus der Werke Calderóns</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">tei encoding, computational literary
-                  analysis, character analysis, spanish golden age theater, corpus
-                  linguistics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">tei encoding, computational literary analysis, character
+                  analysis, spanish golden age theater, corpus linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36978,8 +36989,10 @@
               <eventName xml:lang="de">Gutachten der Juristischen Fakultät – digital
                 angenähert</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">legal expertise, digitization, faculty
-                  evaluation, legal documentation, computational analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
+                <term type="topics-llm">legal expertise, digitization, faculty evaluation, legal
+                  documentation, computational analysis</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37004,8 +37017,10 @@
               <eventName xml:lang="de">Digitale Annotation und die daraus gewonnenen
                 Erkenntnisse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital annotation, text analysis, data
-                  extraction, scholarly editing, research insights</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">digital annotation, text analysis, data extraction,
+                  scholarly editing, research insights</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37023,8 +37038,11 @@
             <event type="lecture" when="2025-06-17" xml:id="ls14_t2_l8">
               <eventName xml:lang="en">Concordance analysis in Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">text mining, corpus linguistics,
-                  computational text analysis, word frequency, linguistic patterns</term></note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#linguistics #digital-humanities #computational-linguistics"/>
+                <term type="topics-llm">text mining, corpus linguistics, computational text
+                  analysis, word frequency, linguistic patterns</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37042,8 +37060,10 @@
             <event type="lecture" when="2025-06-24" xml:id="ls14_t2_l9">
               <eventName xml:lang="en">Dickens digital</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">charles dickens, literary analysis,
-                  digital archives, text encoding, 19th-century literature</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">charles dickens, literary analysis, digital archives, text
+                  encoding, 19th-century literature</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37068,8 +37088,10 @@
               <eventName xml:lang="de">Digitale Annotation zwischen Markup und
                 Hermeneutik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital annotation, markup languages,
-                  hermeneutics, text interpretation, computational philology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #philosophy"/>
+                <term type="topics-llm">digital annotation, markup languages, hermeneutics, text
+                  interpretation, computational philology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37088,8 +37110,10 @@
               <eventName xml:lang="en">From Small Things (Big Things One Day Come): data-driven
                 experimentation with community generated digital content</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data-driven research, community
-                  archives, digital content, experimental methods, small data</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #digital-humanities"/>
+                <term type="topics-llm">data-driven research, community archives, digital content,
+                  experimental methods, small data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37108,8 +37132,10 @@
               <eventName xml:lang="en">DH and Early Modern European Theatre: Data Models, Databases,
                 Data Visualisation</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">early modern theater, data modeling,
-                  database design, data visualization, european cultural history</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #digital-humanities"/>
+                <term type="topics-llm">early modern theater, data modeling, database design, data
+                  visualization, european cultural history</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37128,8 +37154,10 @@
               <eventName xml:lang="de">Machine-Learning-Anwendungen in der
                 Filmwissenschaft</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">film studies, machine learning,
-                  computational analysis, media research, automated classification</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #computer-science"/>
+                <term type="topics-llm">film studies, machine learning, computational analysis,
+                  media research, automated classification</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -41739,9 +41767,11 @@
                   credit. Consideration will also be given to possible audiences and to the
                   potential for public engagement around the project’s work.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">database revitalization, scientific
-                  instrument makers, semantic data modeling, data visualization, public
-                  engagement</term></note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#history #library-information #science-communication"/>
+                <term type="topics-llm">database revitalization, scientific instrument makers,
+                  semantic data modeling, data visualization, public engagement</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41778,8 +41808,10 @@
                   developed by the EIDA project to support the work of researchers and lay the
                   groundwork for a public platform featuring reusable resources.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">astral diagrams, computer vision,
-                  historical manuscripts, artificial intelligence, data modeling</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#classics #computer-science"/>
+                <term type="topics-llm">astral diagrams, computer vision, historical manuscripts,
+                  artificial intelligence, data modeling</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41818,9 +41850,10 @@
                   technical metadata, aka paradata), and data incompleteness—although a resource
                   cannot be fully described, it can be better described.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">3d modeling, cultural heritage
-                  preservation, data reuse challenges, fair principles, archaeological pottery
-                  analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #classics #literary-studies"/>
+                <term type="topics-llm">3d modeling, cultural heritage preservation, data reuse
+                  challenges, fair principles, archaeological pottery analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41850,8 +41883,10 @@
                   paleographical questions; and (iv) analyze printed ornaments.</p>
                 <p/>
               </note>
-              <note type="keywords"><term type="topics-llm">computer vision, historical analysis,
-                  image vectorization, handwriting recognition, pattern extraction</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #computer-science"/>
+                <term type="topics-llm">computer vision, historical analysis, image vectorization,
+                  handwriting recognition, pattern extraction</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41891,8 +41926,10 @@
                   (S and Classic) amongst other tools. I also present the ecosystem established to
                   process the preserved archival collections.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">archival research, history of science,
-                  semantic web, crowdsourcing, omeka</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #digital-humanities"/>
+                <term type="topics-llm">archival research, history of science, semantic web,
+                  crowdsourcing, omeka</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41925,8 +41962,10 @@
                   light on both computer vision approaches to these questions and the challenges
                   that archaeological imagery pose for such approaches.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">computer vision, greek vase paintings,
-                  archaeological imagery, pattern recognition, artificial intelligence</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#classics #computer-science"/>
+                <term type="topics-llm">computer vision, greek vase paintings, archaeological
+                  imagery, pattern recognition, artificial intelligence</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43131,8 +43170,11 @@
               <eventName xml:lang="de">Entwicklung eines digitalen Ökosystems zur Dokumentation,
                 Analyse und Visualisierung von Filmen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">film analysis, digital ecosystems, film
-                  documentation, data visualization, media studies</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies"/>
+                <term type="topics-llm">film analysis, digital ecosystems, film documentation, data
+                  visualization, media studies</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43151,8 +43193,11 @@
               <eventName xml:lang="de">Vom Codex zum Netzwerk: Potentiale einer digitalen
                 Scholastik</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">scholasticism, medieval manuscripts,
-                  network analysis, digital textual analysis, codex studies</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #theology #philosophy"/>
+                <term type="topics-llm">scholasticism, medieval manuscripts, network analysis,
+                  digital textual analysis, codex studies</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43171,8 +43216,11 @@
               <eventName xml:lang="de">Heimcomputer, Spiele und Musik: Fragestellungen und Methoden
                 der Ludomusicology</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">retro computing, video game music,
-                  ludomusicology, game sound design, cultural media studies</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#game-studies #museology"/>
+                <term type="topics-llm">retro computing, video game music, ludomusicology, game
+                  sound design, cultural media studies</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43188,11 +43236,12 @@
               <org role="host-institution" corresp="#uni-freiburg"/>
             </event>
             <event type="lecture" when="2021-11-24" xml:id="ls39_t1_l4">
-              <eventName xml:lang="de">Vom Codex zum Netzwerk: Potentiale einer digitalen
-                Scholastik</eventName>
+              <eventName xml:lang="de">Digitale Edition von Musikhandschriften des
+                Mittelalters</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">scholasticism, medieval manuscripts,
-                  network analysis, digital textual analysis, codex studies</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #museology"/>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43229,8 +43278,11 @@
               <eventName xml:lang="de">Medienwissenschaftliche Vernetzung und Plattformen:
                 Vorstellung der Projekts Mediarep</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">media studies, research networks,
-                  academic platforms, project presentation, scholarly infrastructure</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #cultural-studies"/>
+                <term type="topics-llm">media studies, research networks, academic platforms,
+                  project presentation, scholarly infrastructure</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43255,9 +43307,11 @@
               <eventName xml:lang="de">Panel Transkribus im Einsatz für die Forschung. Chancen und
                 Herausforderungen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">handwriting recognition, historical
-                  documents, optical character recognition, research workflows, transcription
-                  tools</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #cultural-studies"/>
+                <term type="topics-llm">handwriting recognition, historical documents, optical
+                  character recognition, research workflows, transcription tools</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43288,9 +43342,11 @@
               <eventName xml:lang="de">DH Lab IEG - Geisteswissenschaftliche Forschung digital
                 gestalten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital history, research
-                  infrastructure, collaborative tools, academic workflows, humanities
-                labs</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
+                <term type="topics-llm">digital history, research infrastructure, collaborative
+                  tools, academic workflows, humanities labs</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43309,9 +43365,11 @@
               <eventName xml:lang="de">Digitalität in den Gedächtnisinstitutionen. Wandel in
                 Präsentation, Vermittlung und Forschung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">memory institutions, digital
-                  transformation, cultural heritage, exhibition practices, research
-                methods</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #science-communication"/>
+                <term type="topics-llm">memory institutions, digital transformation, cultural
+                  heritage, exhibition practices, research methods</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43330,9 +43388,10 @@
               <eventName xml:lang="de">"Sie können jetzt in die Vergangenheit reisen": Assassin's
                 Creed als Geschichtstourismus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">virtual history, historical tourism,
-                  video game narratives, immersive storytelling, cultural
-                representation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#game-studies #history"/>
+                <term type="topics-llm">virtual history, historical tourism, video game narratives,
+                  immersive storytelling, cultural representation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43351,9 +43410,11 @@
               <eventName xml:lang="de">Die räumliche Kontextualisierung mittelalterlicher
                 Glasmalereien und die Potentiale der interaktiven Darstellung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">medieval stained glass, spatial
-                  analysis, cultural heritage visualization, interactive mapping, art history
-                  methods</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #media-studies"/>
+                <term type="topics-llm">medieval stained glass, spatial analysis, cultural heritage
+                  visualization, interactive mapping, art history methods</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43371,8 +43432,10 @@
             <event type="lecture" when="2022-02-02" xml:id="ls39_t1_l11">
               <eventName xml:lang="de">Kunstwissenschaft und Game Studies</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">visual arts, game studies, art history,
-                  interdisciplinary research, media analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #game-studies"/>
+                <term type="topics-llm">visual arts, game studies, art history, interdisciplinary
+                  research, media analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43392,9 +43455,12 @@
                 und disziplinenübergreifender Transfer im Bereich materieller und immaterieller
                 Kulturgüter</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data infrastructure, cultural heritage,
-                  research data management, interdisciplinary collaboration, material and intangible
-                  culture</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #cultural-studies"/>
+                <term type="topics-llm">data infrastructure, cultural heritage, research data
+                  management, interdisciplinary collaboration, material and intangible
+                  culture</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -45107,9 +45173,10 @@
               <eventName xml:lang="de">Digital Humanities vs. Digital History: Differenzen und
                 Gemeinsamkeiten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital history, disciplinary
-                  boundaries, comparative analysis, methodological overlap, academic
-                  distinctions</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
+                <term type="topics-llm">digital history, disciplinary boundaries, comparative
+                  analysis, methodological overlap, academic distinctions</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45128,9 +45195,11 @@
               <eventName xml:lang="de">Zum Selbstverständnis der Wissenschaft in der Gesellschaft ‒
                 Wie halten Sie es mit den Bürgerwissenschaften?</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">citizen science, public engagement,
-                  scientific identity, societal role of research, participatory knowledge
-                  production</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
+                <term type="topics-llm">citizen science, public engagement, scientific identity,
+                  societal role of research, participatory knowledge production</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45149,8 +45218,11 @@
               <eventName xml:lang="de">Virtual-Reality-Systeme als Werkzeug in der
                 Archäologie</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">virtual reality, archaeology, 3d
-                  reconstruction, immersive technology, cultural heritage</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #archaeology"/>
+                <term type="topics-llm">virtual reality, archaeology, 3d reconstruction, immersive
+                  technology, cultural heritage</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45170,9 +45242,11 @@
                 interdisziplinären Forschungsprogramme des neu gegründeten Deutschen Internet
                 Instituts</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">autonomous decision-making, networked
-                  society, interdisciplinary research, internet governance, german internet
-                  institute</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences #computer-science"/>
+                <term type="topics-llm">autonomous decision-making, networked society,
+                  interdisciplinary research, internet governance, german internet institute</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45191,8 +45265,11 @@
               <eventName xml:lang="de">Reading at Scale. Erkenntnismöglichkeiten an einem
                 mittelgroßen literarischen Korpus</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">literary analysis, corpus linguistics,
-                  large-scale reading, computational methods, text mining</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">literary analysis, corpus linguistics, large-scale reading,
+                  computational methods, text mining</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45210,8 +45287,11 @@
             <event type="lecture" when="2017-11-29" xml:id="ls45_t1_l6">
               <eventName xml:lang="en">Simulating Dramatic Networks</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">network analysis, theater studies,
-                  computational modeling, social networks, performance simulation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">network analysis, theater studies, computational modeling,
+                  social networks, performance simulation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45230,8 +45310,10 @@
               <eventName xml:lang="de">Zitate und Paraphrasen: Prolegomena zu einer Taxonomie der
                 digitalen Quellenanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">text reuse, citation analysis,
-                  paraphrase detection, source classification, textual scholarship</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #library-information"/>
+                <term type="topics-llm">text reuse, citation analysis, paraphrase detection, source
+                  classification, textual scholarship</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45250,8 +45332,11 @@
               <eventName xml:lang="de">Forschung &amp; Karriere: Zur anhaltenden Formierung,
                 Professionalisierung und Professoralisierung der Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">academic careers, disciplinary
-                  formation, professionalization, institutionalization, faculty roles</term></note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#education-science #digital-humanities #science-communication"/>
+                <term type="topics-llm">academic careers, disciplinary formation,
+                  professionalization, institutionalization, faculty roles</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45270,8 +45355,10 @@
               <eventName xml:lang="de">Textkorpora als Ressourcen für die Digital Humanities:
                 Chancen, Herausforderungen, Perspektiven</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">text corpora, linguistic resources, data
-                  analysis, research methods, computational linguistics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
+                <term type="topics-llm">text corpora, linguistic resources, data analysis, research
+                  methods, computational linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45290,8 +45377,10 @@
               <eventName xml:lang="de">Von Nutzen und Nachteil einer Historie Digitaler Spiele:
                 Geschichte, Politik und historische Authentizität</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">video games, historical accuracy,
-                  cultural politics, media history, historical narratives</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#game-studies #history"/>
+                <term type="topics-llm">video games, historical accuracy, cultural politics, media
+                  history, historical narratives</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45309,9 +45398,10 @@
             <event type="lecture" when="2018-01-16" xml:id="ls45_t1_l11">
               <eventName xml:lang="de">Bedeutungsanalyse im ‚Distant Reading‘</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">meaning analysis, distant reading,
-                  computational text analysis, literary interpretation, large-scale
-                data</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">meaning analysis, distant reading, computational text
+                  analysis, literary interpretation, large-scale data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45330,9 +45420,12 @@
               <eventName xml:lang="de">Vom Ende der Linearität: Konzepte wissenschaftlichen
                 Publizierens und Kommunizierens im digitalen Zeitalter</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">non-linear publishing, academic
-                  communication, digital scholarship, scholarly publishing models, future of
-                  research dissemination</term></note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#science-communication #library-information #media-studies"/>
+                <term type="topics-llm">non-linear publishing, academic communication, digital
+                  scholarship, scholarly publishing models, future of research
+                dissemination</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45351,8 +45444,10 @@
               <eventName xml:lang="de">Forschungsdaten(management) in den Digital Humanities – Eine
                 Annäherung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data management, research data,
-                  scholarly workflows, infrastructure, best practices</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">data management, research data, scholarly workflows,
+                  infrastructure, best practices</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45371,8 +45466,11 @@
               <eventName xml:lang="de">Das digitale Bild. Eine Herausforderung für die
                 Kunstgeschichte</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">visual culture, art history, image
-                  analysis, digital media, computational aesthetics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topics-llm">visual culture, art history, image analysis, digital media,
+                  computational aesthetics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45391,8 +45489,10 @@
               <eventName xml:lang="en">From Archives to Activism: Why Public Engagement is Essential
                 for the Future of the Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">public engagement, archives, activism,
-                  humanities advocacy, community impact</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication #library-information"/>
+                <term type="topics-llm">public engagement, archives, activism, humanities advocacy,
+                  community impact</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45440,9 +45540,11 @@
               <eventName xml:lang="en">Born-digital Artefacts: Multimodal Modeling &amp;
                 Computational Analysis</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">born-digital objects, multimodal
-                  analysis, computational modeling, artifact preservation, data
-                  representation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #cultural-studies #media-studies"/>
+                <term type="topics-llm">born-digital objects, multimodal analysis, computational
+                  modeling, artifact preservation, data representation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -45467,9 +45569,11 @@
               <eventName xml:lang="en">Inside the Congruence Engine: Digital Reconstructions of
                 Cultural Heritage</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital reconstructions, cultural
-                  heritage, computational modeling, archival collaboration, interactive
-                  exhibits</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topics-llm">digital reconstructions, cultural heritage, computational
+                  modeling, archival collaboration, interactive exhibits</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45489,8 +45593,11 @@
                 communication in the context of multilingualism in Early Modern Europe: Insights
                 into the FSL-project</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">linguistic history, multilingualism,
-                  early modern europe, language attitudes, everyday communication</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #linguistics"/>
+                <term type="topics-llm">linguistic history, multilingualism, early modern europe,
+                  language attitudes, everyday communication</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -45527,9 +45634,11 @@
               <eventName xml:lang="en">Europeana: The Geopolitics of Digital Heritage Aggregation at
                 Scale</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">cultural heritage aggregation, european
-                  digital infrastructure, geopolitical implications, large-scale data platforms,
-                  memory institutions</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #political-science"/>
+                <term type="topics-llm">cultural heritage aggregation, european digital
+                  infrastructure, geopolitical implications, large-scale data platforms, memory
+                  institutions</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45548,8 +45657,11 @@
               <eventName xml:lang="en">Affect in Digital Spaces: Qualitative and Quantitative
                 Approaches</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">emotion analysis, online interaction,
-                  mixed methods, computational social science, affective computing</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topics-llm">emotion analysis, online interaction, mixed methods,
+                  computational social science, affective computing</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -45568,8 +45680,11 @@
               <eventName xml:lang="en">Feeling the Archive: Relations of Affect and Algorithms in
                 Digitality</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">emotion, archives, algorithms, digital
-                  culture, affective computing</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #computer-science"/>
+                <term type="topics-llm">emotion, archives, algorithms, digital culture, affective
+                  computing</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45889,6 +46004,46 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250809195538/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes"/>
 
+            <event type="lecture" when="2023-10-27" xml:id="ls53_t1_l1">
+              <eventName xml:lang="de">Daten im Dienste der Geschichte - Was bedeutet
+                Forschungsdatenmanagement in historisch arbeitenden Disziplinen?</eventName>
+
+
+
+              <note type="abstract" xml:lang="de">
+                <p>In der Welt der Geschichtswissenschaften ist das Verständnis und die Handhabung
+                  von Forschungsdaten von entscheidender Bedeutung. Dieser Vortrag hat zum Ziel, den
+                  Begriff "Forschungsdaten" in diesem Kontext zu erläutern und zu verdeutlichen,
+                  welche Wechselwirkung zwischen Datenmanagement und Forschungsprozess bestehen. Von
+                  der Datenerhebung bis zur Auswertung sind klare Strukturen und effektive
+                  Strategien unerlässlich, um belastbare Ergebnisse zu erzielen, keine Daten- und
+                  Arbeitsverluste zu erleiden und auch, um sich die Arbeit an manchen Stellen zu
+                  erleichtern. Wir werden einen Blick auf die vielfältigen Aspekte des
+                  Datenmanagements werfen und darüber hinaus aufzeigen, warum es für jede*
+                  Geschichtswissenschaftler*in von großer Bedeutung ist, sich intensiv mit diesem
+                  Thema auseinanderzusetzen. Denn letztlich ist es das Datenmanagement, das uns
+                  ermöglicht, durch die Jahrhunderte zu navigieren und die Vergangenheit in all
+                  ihrer Komplexität zu entschlüsseln.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="...">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="..."/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="..."/>
+            </event>
+
+
             <!-- 2023-10-27 https://www.youtube.com/watch?v=69mvMLyVXmU  |  https://www.youtube.com/watch?v=dLyqJtYiXbA  |  https://www.youtube.com/watch?v=FW5udQ3k9oU  |  https://doi.org/10.5281/zenodo.10078729 -->
             <!-- 2023-11-24 https://www.youtube.com/watch?v=ytYEvyeZH7A  |  https://doi.org/10.5281/zenodo.10213756 -->
             <!-- 2023-12-10 https://www.youtube.com/watch?v=YGwl3f7o9h8  |  https://doi.org/10.5281/zenodo.10781223 -->
@@ -45915,7 +46070,7 @@
             <!-- 2025-03-21 https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/ -->
             <!-- 2025-04-25 https://web.archive.org/web/20250810180045/https://www.literature.uni-konstanz.de/gebert/aktuelles/veranstaltungen/detailed-event-calender/termin/die-begriffe-der-geschichte-kontrollierte-vokabulare-und-sachbegriffsressourcen-fuer-die-digitale-historische-arbeit/  |  https://www.youtube.com/watch?v=D4WP2A_AaP0 -->
             <!-- 2025-05-23 https://web.archive.org/web/20250810180141/https://www.mathematik.uni-konstanz.de/analysis/seminare/details-oberseminar/termin/kompetent-recherchieren-nach-literatur-und-mehr-zentrale-tools-des-fachinformationsdienstes-geschichtswissenschaft/  |  https://www.youtube.com/watch?v=DMYuCcfGg7A  |  https://doi.org/10.5281/zenodo.15781348 -->
-            <!-- 2025-06-27 https://web.archive.org/web/20250810180226/https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/  |  https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/ -->
+            <!-- 2025-06-27 https://web.archive.org/web/20250810180226/https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/ -->
 
             <org role="organizer" corresp="..."/>
           </event>
