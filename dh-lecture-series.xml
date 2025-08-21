@@ -42022,8 +42022,9 @@
               <eventName xml:lang="de">Einführung: Was sind Daten in den (digitalen)
                 Geisteswissenschaften</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data types, humanities research, data
-                  definition, computational methods, scholarly data</term></note>
+              <note type="keywords">
+                <term type="topics-llm">data types, humanities research, data definition,
+                  computational methods, scholarly data</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42329,7 +42330,6 @@
               auch insbesondere einen praktischen Einblick in ausgewählte Methoden zu geben.
               Zielgruppe sind Studierende und Forschende sowie alle interessierten Personen.</p>
           </note>
-
           <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls37_t1">
             <eventName/>
 
@@ -42347,8 +42347,10 @@
                   such as confounding effects of the platforms. In this talk, we critically reflect
                   on some of these pitfalls and devise ways to identify them.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">social media analysis, computational
-                  social science, digital trace data, behavioral research, data bias</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #social-siences"/>
+                <term type="topics-llm">social media analysis, computational social science, digital
+                  trace data, behavioral research, data bias</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42367,8 +42369,11 @@
             <event type="lecture" when="2022-05-20" xml:id="ls37_t1_l2">
               <eventName xml:lang="en">Open Data</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">open access, data sharing, transparency,
-                  public resources, information freedom</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topics-llm">open access, data sharing, transparency, public resources,
+                  information freedom</term>
+              </note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -42395,9 +42400,11 @@
                   the voices and histories of African Americans who reside in the Gulf South
                   accessible.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">african american history, oral
-                  histories, computational analysis, gulf south region, cultural
-                preservation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #regional-studies"/>
+                <term type="topics-llm">african american history, oral histories, computational
+                  analysis, gulf south region, cultural preservation</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42424,8 +42431,11 @@
                   Informationen, ganze Texte oder Zahlen. Aktuelle Entwicklungen werden vorgestellt
                   und ein offener Austausch dazu angestrebt.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">libraries as data providers, digital
-                  collections, research data, citizen science, data accessibility</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topics-llm">libraries as data providers, digital collections, research
+                  data, citizen science, data accessibility</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42460,8 +42470,11 @@
                   Narrative sowohl ästhetisch-experimentell als auch kritisch zu algorithmischen
                   Vorstellungen des Selbst verhalten.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">algorithmic identity, literary
-                  narratives, cultural discourse, self-conception, us american fiction</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #literary-studies #english-studies"/>
+                <term type="topics-llm">algorithmic identity, literary narratives, cultural
+                  discourse, self-conception, us american fiction</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
