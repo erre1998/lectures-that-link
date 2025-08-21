@@ -261,6 +261,12 @@
               <idno type="wikidata">https://www.wikidata.org/wiki/Q472328</idno>
             </catDesc>
           </category>
+          <category xml:id="medicine">
+            <catDesc>
+              <name>medicine</name>
+              <idno type="wikidata">https://www.wikidata.org/wiki/Q11190</idno>
+            </catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -34800,7 +34806,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#computer-science #digital-humanities"/>
                 <term type="topics-llm">knowledge graphs, semantic enrichment, controlled
-                  vocabularies, data modeling, research data infrastructure</term></note>
+                  vocabularies, data modeling, research data infrastructure</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34834,7 +34841,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#literary-studies #philosophy"/>
                 <term type="topics-llm">ai authorship, computational creativity, natural language
-                  processing, distributed authorship, causal agency</term></note>
+                  processing, distributed authorship, causal agency</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -34924,7 +34932,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#history"/>
                 <term type="topics-llm">oral history archives, topic modeling, audiovisual data,
-                  collaborative platforms, interview annotation</term></note>
+                  collaborative platforms, interview annotation</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -36871,7 +36880,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
                 <term type="topics-llm">digital methods, university applications, research
-                  integration, academic case study, germany</term></note>
+                  integration, academic case study, germany</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36942,7 +36952,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#media-studies #history #theology"/>
                 <term type="topics-llm">virtual reality exhibitions, numismatics, religious studies,
-                  interdisciplinary collaboration, applied research</term></note>
+                  interdisciplinary collaboration, applied research</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36964,7 +36975,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#literary-studies"/>
                 <term type="topics-llm">tei encoding, computational literary analysis, character
-                  analysis, spanish golden age theater, corpus linguistics</term></note>
+                  analysis, spanish golden age theater, corpus linguistics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -36992,7 +37004,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#computational-linguistics"/>
                 <term type="topics-llm">legal expertise, digitization, faculty evaluation, legal
-                  documentation, computational analysis</term></note>
+                  documentation, computational analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37020,7 +37033,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
                 <term type="topics-llm">digital annotation, text analysis, data extraction,
-                  scholarly editing, research insights</term></note>
+                  scholarly editing, research insights</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37042,7 +37056,8 @@
                 <term type="discipline"
                   corresp="#linguistics #digital-humanities #computational-linguistics"/>
                 <term type="topics-llm">text mining, corpus linguistics, computational text
-                  analysis, word frequency, linguistic patterns</term></note>
+                  analysis, word frequency, linguistic patterns</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37063,7 +37078,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#literary-studies"/>
                 <term type="topics-llm">charles dickens, literary analysis, digital archives, text
-                  encoding, 19th-century literature</term></note>
+                  encoding, 19th-century literature</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37091,7 +37107,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities #philosophy"/>
                 <term type="topics-llm">digital annotation, markup languages, hermeneutics, text
-                  interpretation, computational philology</term></note>
+                  interpretation, computational philology</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37113,7 +37130,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#media-studies #digital-humanities"/>
                 <term type="topics-llm">data-driven research, community archives, digital content,
-                  experimental methods, small data</term></note>
+                  experimental methods, small data</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37135,7 +37153,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#literary-studies #digital-humanities"/>
                 <term type="topics-llm">early modern theater, data modeling, database design, data
-                  visualization, european cultural history</term></note>
+                  visualization, european cultural history</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -37157,7 +37176,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#media-studies #computer-science"/>
                 <term type="topics-llm">film studies, machine learning, computational analysis,
-                  media research, automated classification</term></note>
+                  media research, automated classification</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -41134,7 +41154,8 @@
               </note>
               <note type="keywords"><term type="topics-llm">computing and writing, feminist science
                   and technology studies, performative literary studies, diffractive writing, text
-                  and data relations</term></note>
+                  and data relations</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41771,7 +41792,8 @@
                 <term type="discipline"
                   corresp="#history #library-information #science-communication"/>
                 <term type="topics-llm">database revitalization, scientific instrument makers,
-                  semantic data modeling, data visualization, public engagement</term></note>
+                  semantic data modeling, data visualization, public engagement</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41811,7 +41833,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#classics #computer-science"/>
                 <term type="topics-llm">astral diagrams, computer vision, historical manuscripts,
-                  artificial intelligence, data modeling</term></note>
+                  artificial intelligence, data modeling</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41853,7 +41876,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#cultural-studies #classics #literary-studies"/>
                 <term type="topics-llm">3d modeling, cultural heritage preservation, data reuse
-                  challenges, fair principles, archaeological pottery analysis</term></note>
+                  challenges, fair principles, archaeological pottery analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41886,7 +41910,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#history #computer-science"/>
                 <term type="topics-llm">computer vision, historical analysis, image vectorization,
-                  handwriting recognition, pattern extraction</term></note>
+                  handwriting recognition, pattern extraction</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -41929,7 +41954,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#history #digital-humanities"/>
                 <term type="topics-llm">archival research, history of science, semantic web,
-                  crowdsourcing, omeka</term></note>
+                  crowdsourcing, omeka</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -42017,14 +42043,15 @@
             <eventName xml:lang="de">Wintersemester 2024-25</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250628191420/https://www.zfw.uni-hamburg.de/oeffentliche-vortraege/programm-wise/10-digital-humanities/086-10-plakat-digital-humanities.pdf"/>
-
             <event type="lecture" when="2024-10-17" xml:id="ls36_t1_l1">
               <eventName xml:lang="de">Einführung: Was sind Daten in den (digitalen)
                 Geisteswissenschaften</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term type="topics-llm">data types, humanities research, data definition,
-                  computational methods, scholarly data</term></note>
+                  computational methods, scholarly data</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42045,13 +42072,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-10-24" xml:id="ls36_t1_l2">
               <eventName xml:lang="de">Transkription: Erzeugung von Daten durch
                 Übersetzung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">text transcription, data generation,
-                  translation studies, textual analysis, source interpretation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computer-science"/>
+                <term type="topics-llm">text transcription, data generation, translation studies,
+                  textual analysis, source interpretation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42066,13 +42094,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-11-07" xml:id="ls36_t1_l3">
               <eventName xml:lang="de">Maschinelles Lernen und große Sprachmodelle: Grundlage für
                 die Analyse großer Datenmengen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">machine learning, large language models,
-                  data analysis, big data, computational linguistics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">machine learning, large language models, data analysis, big
+                  data, computational linguistics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42087,12 +42117,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-11-14" xml:id="ls36_t1_l4">
               <eventName xml:lang="de">Annotationen: Linguistische Grundlagen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">linguistic annotation, corpus
-                  linguistics, text analysis, language structure, metadata tagging</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #computational-linguistics"/>
+                <term type="topics-llm">linguistic annotation, corpus linguistics, text analysis,
+                  language structure, metadata tagging</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42107,14 +42139,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-11-21" xml:id="ls36_t1_l5">
               <eventName xml:lang="de">Ethische Fragen der automatischen Sprachverarbeitung und
                 -generierung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">automatic language processing, ethical
-                  implications, ai-generated text, linguistic bias, computational
-                linguistics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #computer-science"/>
+                <term type="topics-llm">automatic language processing, ethical implications,
+                  ai-generated text, linguistic bias, computational linguistics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42129,13 +42162,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-11-28" xml:id="ls36_t1_l6">
               <eventName xml:lang="de">Annotationen: Die literaturwissenschaftliche
                 Perspektive</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">text annotation, literary studies, close
-                  reading, interpretative methods, scholarly editing</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">text annotation, literary studies, close reading,
+                  interpretative methods, scholarly editing</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42150,14 +42185,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-12-05" xml:id="ls36_t1_l7">
               <eventName xml:lang="de">DisKo: Ein Diversitäts-Korpus für die algorithmische
                 Textanalyse</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">corpus linguistics, algorithmic text
-                  analysis, diversity representation, german language, computational
-                  linguistics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#gender-studies #literary-studies"/>
+                <term type="topics-llm">corpus linguistics, algorithmic text analysis, diversity
+                  representation, german language, computational linguistics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42178,12 +42214,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-12-12" xml:id="ls36_t1_l8">
               <eventName xml:lang="de">Digitale Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital editing, textual scholarship,
-                  markup languages, scholarly publishing, source transcription</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">digital editing, textual scholarship, markup languages,
+                  scholarly publishing, source transcription</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42198,13 +42236,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2024-12-19" xml:id="ls36_t1_l9">
               <eventName xml:lang="de">Codiertes Wissen: Linked Open Data und andere
                 Datenressourcen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">linked data, open data, semantic web,
-                  knowledge representation, data resources</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
+                <term type="topics-llm">linked data, open data, semantic web, knowledge
+                  representation, data resources</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42219,13 +42259,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2025-01-09" xml:id="ls36_t1_l10">
               <eventName xml:lang="de">Gegen große Erzählungen: Theoriediskurse in den Digital
                 Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">post-structuralism, critical theory,
-                  meta-narratives, epistemology, interdisciplinary debate</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #philosophy"/>
+                <term type="topics-llm">post-structuralism, critical theory, meta-narratives,
+                  epistemology, interdisciplinary debate</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42240,13 +42282,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2025-01-16" xml:id="ls36_t1_l11">
               <eventName xml:lang="de">Spannung und Cliffhanger in Erzählliteratur des 19.
                 Jahrhunderts: Modellierung und quantitative Analysen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">suspense, narrative techniques,
-                  19th-century literature, computational modeling, literary analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">suspense, narrative techniques, 19th-century literature,
+                  computational modeling, literary analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42261,12 +42305,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2025-01-23" xml:id="ls36_t1_l12">
               <eventName xml:lang="de">forTEXT – Literatur digital erforschen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">literary analysis, text mining,
-                  computational literary studies, german literature, research tools</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">literary analysis, text mining, computational literary
+                  studies, german literature, research tools</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42287,14 +42333,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <event type="lecture" when="2025-01-30" xml:id="ls36_t1_l13">
               <eventName xml:lang="de">Literatur im Netz und digitale
                 Wissenschaftskultur</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">networked literature, online literary
-                  studies, scholarly communication, web-based research, academic digital
-                  culture</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #science-communication"/>
+                <term type="topics-llm">networked literature, online literary studies, scholarly
+                  communication, web-based research, academic digital culture</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42309,7 +42356,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-hamburg"/>
             </event>
-
             <org role="organizer" corresp="#nantke_julia #zinsmeister_heike"/>
           </event>
         </event>
@@ -42513,8 +42559,11 @@
               <ptr type="video"
                 target="https://uni-bielefeld.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=119ee7e4-7ca9-4a30-8077-a87200daa75f"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data science, computational methods,
-                  interdisciplinary research, modeling, interpretive analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #digital-humanities"/>
+                <term type="topics-llm">data science, computational methods, interdisciplinary
+                  research, modeling, interpretive analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42533,8 +42582,11 @@
               <eventName xml:lang="en">Cryptographic Access Control—Reconciling Security and
                 Privacy</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">encryption, data protection, access
-                  management, cybersecurity, privacy preservation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">encryption, data protection, access management,
+                  cybersecurity, privacy preservation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42552,8 +42604,11 @@
             <event type="lecture" when="2017" xml:id="ls38_t1_l3">
               <eventName xml:lang="en">Auditory Data Science</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">sound analysis, computational audio,
-                  data sonification, acoustic research, audio processing</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #museology"/>
+                <term type="topics-llm">sound analysis, computational audio, data sonification,
+                  acoustic research, audio processing</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42572,8 +42627,11 @@
               <eventName xml:lang="en">Data? What for? Thoughts around research question based data
                 collection</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data-driven research, research design,
-                  data collection, purposeful data, methodological reflection</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #philosophy"/>
+                <term type="topics-llm">data-driven research, research design, data collection,
+                  purposeful data, methodological reflection</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42593,8 +42651,11 @@
               <ptr type="slides"
                 target="https://web.archive.org/web/20240224193647/https://www.ifi.uzh.ch/dam/jcr:207e4193-139b-40ec-9040-ee5bedaf9ee3/2017-11-23%20Zurich%20PDF.pdf"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data-intensive research, computational
-                  methods, scientific workflows, big data, research infrastructure</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">data-intensive research, computational methods, scientific
+                  workflows, big data, research infrastructure</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42613,7 +42674,6 @@
           </event>
           <event type="lecture-series-term" from="2018-10" to="2019-05" xml:id="ls38_t2">
             <eventName xml:lang="en">Winter term 2018-19</eventName>
-
             <event type="lecture" when="2018-10-19" xml:id="ls38_t2_l1">
               <eventName xml:lang="en">Improving Health through Data Science</eventName>
               <note type="abstract" xml:lang="en">
@@ -42639,9 +42699,12 @@
                   A statistical algorithm developed by us can extract the single-cell information
                   again.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">medical data analysis, machine learning
-                  in healthcare, risk prediction models, transcriptional heterogeneity,
-                  interdisciplinary data science</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #medicine"/>
+                <term type="topics-llm">medical data analysis, machine learning in healthcare, risk
+                  prediction models, transcriptional heterogeneity, interdisciplinary data
+                  science</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42656,7 +42719,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2018-12-14" xml:id="ls38_t2_l2">
               <eventName xml:lang="en">Supporting Meta-Analysis with Semantic Technologies: the case
                 of managing pre-clinical evidence for the treatment of spinal cord
@@ -42683,9 +42745,11 @@
                   cord injury therapies. This will support a novel concept what we call
                   "meta-analysis on demand".</p>
               </note>
-              <note type="keywords"><term type="topics-llm">semantic technologies, meta-analysis,
-                  natural language processing, spinal cord injury research, knowledge
-                  representation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #medicine"/>
+                <term type="topics-llm">semantic technologies, meta-analysis, natural language
+                  processing, spinal cord injury research, knowledge representation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42700,7 +42764,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2019-01-18" xml:id="ls38_t2_l3">
               <eventName xml:lang="en">A Glimpse into Microbial Dark Matter through the de.NBI
                 Cloud</eventName>
@@ -42733,8 +42796,11 @@
                   the de.NBI Cloud can close the gap of missing computational resources for
                   metagenomics research as one example.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">metagenomics, single-cell genomics,
-                  microbial diversity, cloud computing, bioprospecting</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #biology"/>
+                <term type="topics-llm">metagenomics, single-cell genomics, microbial diversity,
+                  cloud computing, bioprospecting</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42749,7 +42815,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2019-01-25" xml:id="ls38_t2_l4">
               <eventName xml:lang="en">Data, modeling, inferential and computational thinking:
                 components in data literacy education</eventName>
@@ -42761,8 +42826,11 @@
                   consensus based curriculum. It is time to start - and for a first review of the
                   lessons learned.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data literacy, statistical thinking,
-                  computational skills, data modeling, simulation-based inference</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #education-science"/>
+                <term type="topics-llm">data literacy, statistical thinking, computational skills,
+                  data modeling, simulation-based inference</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42777,7 +42845,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2019-01-30" xml:id="ls38_t2_l5">
               <eventName xml:lang="en">Data Science on music data</eventName>
               <note type="abstract" xml:lang="en">
@@ -42788,9 +42855,11 @@
                   automatic transcription and automatic genre determination, both on the basis of
                   signal-based features from audio recordings of music pieces.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">music data analysis, statistical
-                  methods, uncertainty quantification, automatic music transcription, genre
-                  classification</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #museology"/>
+                <term type="topics-llm">music data analysis, statistical methods, uncertainty
+                  quantification, automatic music transcription, genre classification</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42805,7 +42874,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <event type="lecture" when="2019-05-22" xml:id="ls38_t2_l6">
               <eventName xml:lang="en">An introduction to the Socio-Economic Panel (SOEP)
                 Study</eventName>
@@ -42834,9 +42902,11 @@
                   the survey instruments are still relatively new or because of the specific issues
                   dealt with in the research.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">longitudinal survey, socio-economic
-                  data, life satisfaction metrics, intergenerational mobility, research data
-                  access</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #social-siences"/>
+                <term type="topics-llm">longitudinal survey, socio-economic data, life satisfaction
+                  metrics, intergenerational mobility, research data access</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42851,7 +42921,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-bielefeld"/>
             </event>
-
             <org role="organizer" corresp="weiss_katharina" cert="low"/>
           </event>
           <event type="lecture-series-term" from="2019-12" to="2018-02" xml:id="ls38_t3">
@@ -42881,9 +42950,11 @@
                   institutional. This will lead to my answers to the question: Are we there yet, can
                   we provide reliable travel time predictions?</p>
               </note>
-              <note type="keywords"><term type="topics-llm">travel time prediction, urban mobility,
-                  time series analysis, data-driven modeling, domain knowledge
-                integration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">travel time prediction, urban mobility, time series
+                  analysis, data-driven modeling, domain knowledge integration</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42927,9 +42998,11 @@
                   their content in integrative contexts and hence supporting such collections to
                   become FAIR.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">cultural heritage digitization, fair
-                  principles, research data management, data interoperability, repository
-                  sustainability</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #cultural-studies"/>
+                <term type="topics-llm">cultural heritage digitization, fair principles, research
+                  data management, data interoperability, repository sustainability</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -42961,9 +43034,10 @@
                   between-subjects experiment that tests the effects of different location-based
                   promotion types.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">location-based marketing, consumer
-                  behavior analysis, mobile sensor data, in-store tracking, promotional targeting
-                  strategies</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">location-based marketing, consumer behavior analysis, mobile
+                  sensor data, in-store tracking, promotional targeting strategies</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43012,8 +43086,11 @@
                   computation. A proof-of-principle is presented in which proprietary patient data
                   was jointly evaluated between two remote university hospitals.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data privacy, cryptographic networks,
-                  collaborative computing, proprietary data sharing, trustless systems</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">data privacy, cryptographic networks, collaborative
+                  computing, proprietary data sharing, trustless systems</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43047,8 +43124,11 @@
                   University Library. This includes in particular analyses of the global publication
                   network in the context of bibliometric information.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data modeling, media studies, data
-                  visualization, bibliometrics, cultural analytics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topics-llm">data modeling, media studies, data visualization,
+                  bibliometrics, cultural analytics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43084,8 +43164,11 @@
                 <p>I will compare and contrast these languages and explain why I choose to use the
                   less mature but more flexible one for data science.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">programming languages, data analysis,
-                  scientific computing, open-source tools, language comparison</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">programming languages, data analysis, scientific computing,
+                  open-source tools, language comparison</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44423,7 +44506,8 @@
               </note>
               <note type="keywords"><term type="topics-llm">digital footprints, analog data
                   collection, internet measurement, geographic interest analysis, covid-19 internet
-                  impact</term></note>
+                  impact</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44456,8 +44540,8 @@
                   goal of addressing the technical gaps more effectively and justly.</p>
               </note>
               <note type="keywords"><term type="topics-llm">bias in nlp, gender representation,
-                  language model fairness, intersectionality in ai, epistemological
-                critiques</term></note>
+                  language model fairness, intersectionality in ai, epistemological critiques</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44490,8 +44574,8 @@
                   and analyse them from an interdisciplinary perspective.</p>
               </note>
               <note type="keywords"><term type="topics-llm">ai regulation, data privacy, machine
-                  learning ethics, eu data protection, interdisciplinary legal
-                analysis</term></note>
+                  learning ethics, eu data protection, interdisciplinary legal analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44538,7 +44622,8 @@
                   of GenAI applications and interactions.</p>
               </note>
               <note type="keywords"><term type="topics-llm">generative ai, trust in technology,
-                  social media dynamics, ai-generated content, deepfake detection</term></note>
+                  social media dynamics, ai-generated content, deepfake detection</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44581,7 +44666,8 @@
                   the Romantic circle.</p>
               </note>
               <note type="keywords"><term type="topics-llm">romanticism, correspondence networks,
-                  epistolarity, social network analysis, knowledge transfer</term></note>
+                  epistolarity, social network analysis, knowledge transfer</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44615,7 +44701,8 @@
               </note>
               <note type="keywords"><term type="topics-llm">theory-computation integration, research
                   workflow modeling, operationalization in humanities, computational literary
-                  studies, theory-driven validity</term></note>
+                  studies, theory-driven validity</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44717,8 +44804,8 @@
                   and including an outlook to forthcoming Impresso Datalab.</p>
               </note>
               <note type="keywords"><term type="topics-llm">media archives, natural language
-                  processing, semantic enrichment, data exploration, computational
-                analysis</term></note>
+                  processing, semantic enrichment, data exploration, computational analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45371,7 +45458,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#computational-linguistics"/>
                 <term type="topics-llm">text corpora, linguistic resources, data analysis, research
-                  methods, computational linguistics</term></note>
+                  methods, computational linguistics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45393,7 +45481,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#game-studies #history"/>
                 <term type="topics-llm">video games, historical accuracy, cultural politics, media
-                  history, historical narratives</term></note>
+                  history, historical narratives</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45460,7 +45549,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
                 <term type="topics-llm">data management, research data, scholarly workflows,
-                  infrastructure, best practices</term></note>
+                  infrastructure, best practices</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -45505,7 +45595,8 @@
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #library-information"/>
                 <term type="topics-llm">public engagement, archives, activism, humanities advocacy,
-                  community impact</term></note>
+                  community impact</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -49131,7 +49222,8 @@
                 Musikwissenschaft</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="topics-llm">medieval music, musicology applications,
-                  computational analysis, historical manuscripts, musical notation</term></note>
+                  computational analysis, historical manuscripts, musical notation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49153,8 +49245,8 @@
                 of the horse“</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="topics-llm">horse medicine, medieval veterinary
-                  practices, interdisciplinary research, knowledge transfer, equine
-                studies</term></note>
+                  practices, interdisciplinary research, knowledge transfer, equine studies</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49180,7 +49272,8 @@
               <eventName xml:lang="de">Musikalische Frühdrucke und geborgte Melodien</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="topics-llm">early music printing, musical borrowing,
-                  renaissance music, melody reuse, historical musicology</term></note>
+                  renaissance music, melody reuse, historical musicology</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49207,7 +49300,8 @@
                 Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="topics-llm">video games, game studies, mobile
-                  gaming, open-world design, interactive media</term></note>
+                  gaming, open-world design, interactive media</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49233,7 +49327,8 @@
               <eventName xml:lang="de">Mittelhochdeutsche Begriffsdatenbank Reloaded</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="topics-llm">middle high german, lexical databases,
-                  historical linguistics, semantic analysis, medieval studies</term></note>
+                  historical linguistics, semantic analysis, medieval studies</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -51493,7 +51588,8 @@
               </note>
               <note type="keywords"><term type="topics-llm">transvergence, interdisciplinary
                   collaboration, human-centered technology, transmodal systems, thematic
-                  modeling</term></note>
+                  modeling</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51525,8 +51621,8 @@
                   history, in principle, has no limits in method.</p>
               </note>
               <note type="keywords"><term type="topics-llm">art history, computational analysis,
-                  cultural analytics, interdisciplinary research, data-driven
-                scholarship</term></note>
+                  cultural analytics, interdisciplinary research, data-driven scholarship</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51554,7 +51650,8 @@
                   “musical”).</p>
               </note>
               <note type="keywords"><term type="topics-llm">musicology, computational analysis,
-                  digital tools, research methods, musical validity</term></note>
+                  digital tools, research methods, musical validity</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51601,7 +51698,8 @@
                   relationships over large heterogeneous corpora.</p>
               </note>
               <note type="keywords"><term type="topics-llm">big data, data mining, distant reading,
-                  machine learning, intertextual analysis</term></note>
+                  machine learning, intertextual analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51633,8 +51731,8 @@
                   open the humanities to new audiences.</p>
               </note>
               <note type="keywords"><term type="topics-llm">agile methodology, interdisciplinary
-                  collaboration, knowledge production, digital pedagogy, scholarly
-                innovation</term></note>
+                  collaboration, knowledge production, digital pedagogy, scholarly innovation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51667,7 +51765,8 @@
                   cyberarchaeology, virtual museums, big data and virtual environments.</p>
               </note>
               <note type="keywords"><term type="topics-llm">virtual heritage, cyberarchaeology,
-                  knowledge preservation, interactive environments, data visualization</term></note>
+                  knowledge preservation, interactive environments, data visualization</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
