@@ -43608,8 +43608,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807150945/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">open science, research transparency,
-                  collaborative scholarship, academic publishing, open access</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">open science, research transparency, collaborative
+                  scholarship, academic publishing, open access</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43630,9 +43633,12 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807150714/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-0"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">digital editions, scholarly editing,
-                  correspondence analysis, august wilhelm schlegel, textual
-                scholarship</term></note>
+              <note type="keywords">
+                <term type="discipline"
+                  corresp="#digital-humanities #german-studies #literary-studies"/>
+                <term type="topics-llm">digital editions, scholarly editing, correspondence
+                  analysis, august wilhelm schlegel, textual scholarship</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43653,8 +43659,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20221204194515/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-4"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">virtual heritage, computer graphics,
-                  ancient monuments, cultural preservation, 3d visualization</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies #classics"/>
+                <term type="topics-llm">virtual heritage, computer graphics, ancient monuments,
+                  cultural preservation, 3d visualization</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43675,8 +43684,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145804/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-1"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">visual computation, image analysis,
-                  cultural data, dimensionality reduction, epistemology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topics-llm">visual computation, image analysis, cultural data,
+                  dimensionality reduction, epistemology</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43697,8 +43709,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145234/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-7"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">audio analysis, music research, signal
-                  processing, computational methods, sound technology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #computer-science"/>
+                <term type="topics-llm">audio analysis, music research, signal processing,
+                  computational methods, sound technology</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43719,8 +43734,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807162937/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-5"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">virtual reality, computational modeling,
-                  world representation, simulation theory, epistemology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #philosophy"/>
+                <term type="topics-llm">virtual reality, computational modeling, world
+                  representation, simulation theory, epistemology</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43742,8 +43760,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145524/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-6"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">ai music composition, human-computer
-                  interaction, creative ai, beethoven, algorithmic music</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #computer-science"/>
+                <term type="topics-llm">ai music composition, human-computer interaction, creative
+                  ai, beethoven, algorithmic music</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43764,8 +43785,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145234/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-7"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">audio analysis, music technology, signal
-                  processing, computational musicology, sound engineering</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #computer-science"/>
+                <term type="topics-llm">audio analysis, music technology, signal processing,
+                  computational musicology, sound engineering</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43792,8 +43816,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20221208234213/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-8"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">beethoven, musicology, symphonic
-                  arrangements, domestic music, computational analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology"/>
+                <term type="topics-llm">beethoven, musicology, symphonic arrangements, domestic
+                  music, computational analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43820,9 +43847,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807145119/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-9"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">cultural heritage management, research
-                  data infrastructure, material culture, intangible heritage, data
-                  preservation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topics-llm">cultural heritage management, research data infrastructure,
+                  material culture, intangible heritage, data preservation</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43849,8 +43878,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807151424/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-10"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">maya script, computational decipherment,
-                  text database, linguistic analysis, ancient writing systems</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #regional-studies"/>
+                <term type="topics-llm">maya script, computational decipherment, text database,
+                  linguistic analysis, ancient writing systems</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43877,9 +43909,11 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250807151710/https://tcdh.uni-trier.de/de/event/ringvorlesung-geisteswissenschaften-und-informatik-im-dialog-3"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">visualization of history, comparative
-                  timelines, global history, cartographic methods, historical data
-                platforms</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term type="topics-llm">visualization of history, comparative timelines, global
+                  history, cartographic methods, historical data platforms</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -43952,9 +43986,11 @@
                   dieser Werkzeuge methodische Möglichkeiten eröffnet werden, die auch sehr
                   grundsätzliche epistemische Auswirkungen haben können.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">history of digital methods,
-                  interdisciplinary research, computational tools, epistemological impact, scholarly
-                  traditions</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
+                <term type="topics-llm">history of digital methods, interdisciplinary research,
+                  computational tools, epistemological impact, scholarly traditions</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -43988,8 +44024,11 @@
                   transformiert die Literaturwissenschaft. Von dieser Veränderung handelt der
                   Vortrag.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">computational literary studies, distant
-                  reading, text mining, digital editions, large-scale digitization</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">computational literary studies, distant reading, text
+                  mining, digital editions, large-scale digitization</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44031,9 +44070,11 @@
                   Zusammenfassend werden Eckpunkte eines Programms dargestellt, durch das die Webble
                   Technology den Digital Humanities in Zukunft neue Chancen eröffnen kann.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">serendipity in research, meme media
-                  technology, computational discovery, unconventional hypotheses, webble
-                  technology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #computer-science"/>
+                <term type="topics-llm">serendipity in research, meme media technology,
+                  computational discovery, unconventional hypotheses, webble technology</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44064,8 +44105,11 @@
                   opportunities, challenges and risks of big data to understanding cities from both
                   a geographic, and wider social science, perspective.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">smart cities, urban governance, big data
-                  analytics, surveillance technologies, infrastructure vulnerabilities</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topics-llm">smart cities, urban governance, big data analytics,
+                  surveillance technologies, infrastructure vulnerabilities</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44095,9 +44139,11 @@
                   they can present different if overlapping views of the world, combining them is
                   necessary to move towards richer geographical stories.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">spatial analysis, text-to-map
-                  transformation, intermedia studies, formal modeling, critical
-                formalization</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #geography"/>
+                <term type="topics-llm">spatial analysis, text-to-map transformation, intermedia
+                  studies, formal modeling, critical formalization</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44133,9 +44179,11 @@
                   ‚Vorsprung der Kunst‘ profitieren können (oder müssten), um bereits jetzt in eine
                   postdigitale Phase überzugehen?</p>
               </note>
-              <note type="keywords"><term type="topics-llm">post-digital art, art history
-                  methodology, digital art evolution, technology critique, analog-digital
-                  convergence</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history"/>
+                <term type="topics-llm">post-digital art, art history methodology, digital art
+                  evolution, technology critique, analog-digital convergence</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44164,9 +44212,11 @@
                   Museen vorgestellt. Hier eröffnen sich neue Chancen für Geschäftsmodelle in der
                   Kultur und für die Wissenschaftskommunikation.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">digital transformation, cultural
-                  institutions, analog vs digital, museum innovation, science
-                communication</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topics-llm">digital transformation, cultural institutions, analog vs
+                  digital, museum innovation, science communication</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44199,9 +44249,11 @@
                   different as digital humanities, computer science, physics and sociologists of
                   knowledge is needed to experiment, develop and implement knowledge maps.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">knowledge visualization, information
-                  navigation, data classification, interdisciplinary collaboration, online
-                  information retrieval</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topics-llm">knowledge visualization, information navigation, data
+                  classification, interdisciplinary collaboration, online information
+                  retrieval</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44235,8 +44287,11 @@
                   niederschlagen, deren Ortsmodelle die Verbindung zwischen räumlicher Semantik und
                   sozialer Interaktion berücksichtigen.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">geospatial modeling, cultural geography,
-                  qualitative data analysis, participatory mapping, spatial semantics</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#geography #cultural-studies"/>
+                <term type="topics-llm">geospatial modeling, cultural geography, qualitative data
+                  analysis, participatory mapping, spatial semantics</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44264,8 +44319,11 @@
                   Analysemethoden von Vorteil. Am Beispiel von sog. „Geokollokationen“, Kollokatoren
                   zu Toponymen, zeige ich einen Anwendungsfall aus diesem Bereich.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">visual linguistics, diagrammatics,
-                  semiotics, corpus linguistics, geocollocations</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #linguistics"/>
+                <term type="topics-llm">visual linguistics, diagrammatics, semiotics, corpus
+                  linguistics, geocollocations</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44299,8 +44357,11 @@
                   Abstraktionsniveaus, empirisch nachprüfbar bleiben. Dies werden wir anhand der
                   deutschen Dialektologie demonstrieren.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">digital tools, humanities research, data
-                  accessibility, empirical theory, dialectology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #linguistics"/>
+                <term type="topics-llm">digital tools, humanities research, data accessibility,
+                  empirical theory, dialectology</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44340,9 +44401,11 @@
                   may show the historian about prostitution in the period – and what historians can
                   offer to corpus linguists who are approaching texts from this period.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">corpus linguistics, social history,
-                  seventeenth-century england, prostitution studies, marginalized
-                groups</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #social-siences"/>
+                <term type="topics-llm">corpus linguistics, social history, seventeenth-century
+                  england, prostitution studies, marginalized groups</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44380,9 +44443,11 @@
                   tracking will be oppressive rather than empowering to the individuals
                   involved.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">educational data mining, learner
-                  empowerment, learning visualization, quantified self, ethical concerns in
-                  tracking</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#education-science #media-studies"/>
+                <term type="topics-llm">educational data mining, learner empowerment, learning
+                  visualization, quantified self, ethical concerns in tracking</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44415,9 +44480,11 @@
                   and research aims. I present a selection of these issues for discussion and
                   consideration of possible solutions.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">imaging techniques, ancient manuscripts,
-                  reflectance transformation imaging, material analysis, textual
-                  interpretation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#classics"/>
+                <term type="topics-llm">imaging techniques, ancient manuscripts, reflectance
+                  transformation imaging, material analysis, textual interpretation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44455,9 +44522,11 @@
                   wissenschaftlichen Sammlungen verantwortlich. Unter anderem entwickelt er die
                   Web-Plattform „Wissenschaftliche Sammlungen digital“.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">museum collections, digitization
-                  strategies, institutional challenges, cultural heritage preservation, resource
-                  limitations</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology"/>
+                <term type="topics-llm">museum collections, digitization strategies, institutional
+                  challenges, cultural heritage preservation, resource limitations</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
