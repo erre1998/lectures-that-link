@@ -49263,17 +49263,18 @@
               GIS-basierten Analysen sowie Ansätze aus den Game Studies und den Citizen Sciences
               werden in den Fokus gerückt.</p>
           </note>
-
           <event type="lecture-series-term" from="2023-10" to="2024-01" xml:id="ls42_t1">
             <eventName xml:lang="de">Wintersemester 2023-2024</eventName>
             <ptr type="video" target="https://unitv.org/beitrag.asp?ID=1161"/>
-
             <event type="lecture" when="2023-10-02" xml:id="ls42_t1_l1">
               <eventName xml:lang="de">Einführung: Dazzling Data – Digital Humanities in der
                 Mediävistik und Frühneuzeitforschung</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">medieval studies, early modern period,
-                  data visualization, historical research, computational methods</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term type="topics-llm">medieval studies, early modern period, data visualization,
+                  historical research, computational methods</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49300,13 +49301,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-10-09" xml:id="ls42_t1_l2">
               <eventName xml:lang="de">Sieben Dinge Mariens. Object Detection und kunsthistorische
                 Realienkunde</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">marian iconography, object detection,
-                  art history, material culture, computer vision</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #cultural-studies"/>
+                <term type="topics-llm">marian iconography, object detection, art history, material
+                  culture, computer vision</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49321,13 +49324,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-10-16" xml:id="ls42_t1_l3">
               <eventName xml:lang="de">Offene Forschungsstrategien. (Geisteswissenschaftliche)
                 Forschung für die und mit der Öffentlichkeit</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">open access, public engagement,
-                  collaborative research, open science, participatory scholarship</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
+                <term type="topics-llm">open access, public engagement, collaborative research, open
+                  science, participatory scholarship</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49342,14 +49347,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-10-23" xml:id="ls42_t1_l4">
               <eventName xml:lang="de">Interoperabilität von Text und Bild in der digitalen Edition
                 der Wenzelsbibel</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">text-bible editions, medieval manuscript
-                  digitization, image-text alignment, interoperability standards, cultural heritage
-                  preservation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #digital-humanities"/>
+                <term type="topics-llm">text-bible editions, medieval manuscript digitization,
+                  image-text alignment, interoperability standards, cultural heritage
+                  preservation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49370,14 +49377,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-10-30" xml:id="ls42_t1_l5">
               <eventName xml:lang="de">HTR, TEI, DNA &amp; NLP: Frühmittelalterliche Handschriften,
                 ihr Paratext und die Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">handwriting recognition, textual
-                  encoding, medieval manuscripts, paratext analysis, natural language
-                  processing</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #digital-humanities"/>
+                <term type="topics-llm">handwriting recognition, textual encoding, medieval
+                  manuscripts, paratext analysis, natural language processing</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49392,13 +49400,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-11-06" xml:id="ls42_t1_l6">
               <eventName xml:lang="de">Digitale Transformation frühneuzeitlicher Memento
                 mori-Literatur: Herausforderungen und Potenziale</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">early modern literature, memento mori,
-                  digital transformation, textual analysis, cultural heritage</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #literary-studies"/>
+                <term type="topics-llm">early modern literature, memento mori, digital
+                  transformation, textual analysis, cultural heritage</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49413,14 +49423,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-11-13" xml:id="ls42_t1_l7">
               <eventName xml:lang="de">Burgen digital erschließen – Projekte Hohensalzburg digital
                 und Inventaria</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">medieval castles, cultural heritage
-                  digitization, 3d modeling, historical architecture, digital
-                preservation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #history"/>
+                <term type="topics-llm">medieval castles, cultural heritage digitization, 3d
+                  modeling, historical architecture, digital preservation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49459,13 +49470,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-11-20" xml:id="ls42_t1_l8">
               <eventName xml:lang="de">Transkriptionsdatenbank zum Codex Manesse (Große Heidelberger
                 Liederhandschrift, cpg 848)</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">codex manesse, medieval manuscripts,
-                  transcription database, german literature, handwritten texts</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topics-llm">codex manesse, medieval manuscripts, transcription database,
+                  german literature, handwritten texts</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49480,14 +49493,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-11-27" xml:id="ls42_t1_l9">
               <eventName xml:lang="de">Distant Viewing. Darstellungen von Material in
                 mittelalterlicher Malerei mit Digital Humanities- und Computer Vision-Methoden
                 untersuchen</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">material analysis, medieval art,
-                  computer vision, image processing, distant reading</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #digital-humanities"/>
+                <term type="topics-llm">material analysis, medieval art, computer vision, image
+                  processing, distant reading</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49520,15 +49534,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-12-04" xml:id="ls42_t1_l10">
               <eventName xml:lang="de">Integrierte GIS-basierte Analyse mittelalterlicher und
                 frühneuzeitlicher Landschaften anhand archäologischer Prospektionsdaten und
                 digitalisierter historischer Karten</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">geospatial analysis, medieval
-                  landscapes, early modern landscapes, archaeological prospection, historical
-                  cartography</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#archaeology #history #geography"/>
+                <term type="topics-llm">geospatial analysis, medieval landscapes, early modern
+                  landscapes, archaeological prospection, historical cartography</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">hybrid</term>
@@ -49543,13 +49558,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2023-12-11" xml:id="ls42_t1_l11">
               <eventName xml:lang="de">DH Anwendungsbeispiele aus der mediävistischen
                 Musikwissenschaft</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">medieval music, musicology applications,
-                  computational analysis, historical manuscripts, musical notation</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #musicology"/>
+                <term type="topics-llm">medieval music, musicology applications, computational
+                  analysis, historical manuscripts, musical notation</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49565,14 +49581,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2024-01-08" xml:id="ls42_t1_l12">
               <eventName xml:lang="de">Unsere Pferde galoppieren digital: DH im interdisziplinären
                 Projekt zum Wissenstransfer in mittelalterlicher Pferdemedizin „Meeting in the body
                 of the horse“</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">horse medicine, medieval veterinary
-                  practices, interdisciplinary research, knowledge transfer, equine studies</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #medicine"/>
+                <term type="topics-llm">horse medicine, medieval veterinary practices,
+                  interdisciplinary research, knowledge transfer, equine studies</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49594,12 +49611,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2024-01-15" xml:id="ls42_t1_l13">
               <eventName xml:lang="de">Musikalische Frühdrucke und geborgte Melodien</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">early music printing, musical borrowing,
-                  renaissance music, melody reuse, historical musicology</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #history"/>
+                <term type="topics-llm">early music printing, musical borrowing, renaissance music,
+                  melody reuse, historical musicology</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49621,13 +49639,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2024-01-22" xml:id="ls42_t1_l14">
               <eventName xml:lang="de">Telespiele, Mobile Games und Open World – Game Studies in den
                 Digital Humanities</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">video games, game studies, mobile
-                  gaming, open-world design, interactive media</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#game-studies"/>
+                <term type="topics-llm">video games, game studies, mobile gaming, open-world design,
+                  interactive media</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49649,12 +49668,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <event type="lecture" when="2024-01-29" xml:id="ls42_t1_l15">
               <eventName xml:lang="de">Mittelhochdeutsche Begriffsdatenbank Reloaded</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">middle high german, lexical databases,
-                  historical linguistics, semantic analysis, medieval studies</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#german-studies"/>
+                <term type="topics-llm">middle high german, lexical databases, historical
+                  linguistics, semantic analysis, medieval studies</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49676,11 +49696,9 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-salzburg"/>
             </event>
-
             <org role="organizer"
               corresp="#nicka_isabella #zeppezauer-wachauer_katharina #faerberboeck_peter"/>
           </event>
-
         </event>
 
         <event xml:id="ls50" type="lecture-series" where="#graz">
