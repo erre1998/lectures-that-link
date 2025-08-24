@@ -25007,6 +25007,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/1483b"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #computer-science"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25030,6 +25031,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/14g4w"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25059,6 +25061,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/1497f"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25081,6 +25084,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/14elg"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25103,6 +25107,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/14c0w"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#computer-science #philosophy"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25124,6 +25129,7 @@
                 Secession</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#art-history #museology"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25146,6 +25152,7 @@
                 Neuzeit</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -25179,6 +25186,7 @@
                 Philippopolis: A Digital Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
+                <term type="discipline" corresp="#history #regional-studies #digital-humanities"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
