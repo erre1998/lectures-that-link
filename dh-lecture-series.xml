@@ -2436,6 +2436,65 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="lipinska_aleksandra">
+            <name>
+              <forename>Aleksandra</forename>
+              <surname>Lipińska</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1883-8912</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107355086</idno>
+          </person>
+          <person xml:id="mercer_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Mercer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135955893</idno>
+          </person>
+          <person xml:id="kamencek_teresa">
+            <name>
+              <forename>Teresa</forename>
+              <surname>Kamencek</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0003-8096-8133</idno>
+          </person>
+          <person xml:id="klinger_roman">
+            <name>
+              <forename>Roman</forename>
+              <surname>Klinger</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2014-6619</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30439210</idno>
+          </person>
+          <person xml:id="boizou_loic">
+            <name>
+              <forename>Loic</forename>
+              <surname>Boizou</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135955779</idno>
+          </person>
+          <person xml:id="berger_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Berger</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q102428224</idno>
+          </person>
+          <person xml:id="wagner_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Wagner</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1835-1653</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q116953040</idno>
+          </person>
           <person xml:id="helmig_clara">
             <name>
               <forename>Clara</forename>
@@ -25061,7 +25120,7 @@
               <ptr type="blogpost" target="https://doi.org/10.58079/1497f"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term type="discipline" corresp="#history"/>
+                <term type="discipline" corresp="#history #computational-linguistics"/>
                 <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
               </note>
               <note type="realization">
@@ -46443,46 +46502,6 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250809195538/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes"/>
 
-            <event type="lecture" when="2023-10-27" xml:id="ls53_t1_l1">
-              <eventName xml:lang="de">Daten im Dienste der Geschichte - Was bedeutet
-                Forschungsdatenmanagement in historisch arbeitenden Disziplinen?</eventName>
-
-
-
-              <note type="abstract" xml:lang="de">
-                <p>In der Welt der Geschichtswissenschaften ist das Verständnis und die Handhabung
-                  von Forschungsdaten von entscheidender Bedeutung. Dieser Vortrag hat zum Ziel, den
-                  Begriff "Forschungsdaten" in diesem Kontext zu erläutern und zu verdeutlichen,
-                  welche Wechselwirkung zwischen Datenmanagement und Forschungsprozess bestehen. Von
-                  der Datenerhebung bis zur Auswertung sind klare Strukturen und effektive
-                  Strategien unerlässlich, um belastbare Ergebnisse zu erzielen, keine Daten- und
-                  Arbeitsverluste zu erleiden und auch, um sich die Arbeit an manchen Stellen zu
-                  erleichtern. Wir werden einen Blick auf die vielfältigen Aspekte des
-                  Datenmanagements werfen und darüber hinaus aufzeigen, warum es für jede*
-                  Geschichtswissenschaftler*in von großer Bedeutung ist, sich intensiv mit diesem
-                  Thema auseinanderzusetzen. Denn letztlich ist es das Datenmanagement, das uns
-                  ermöglicht, durch die Jahrhunderte zu navigieren und die Vergangenheit in all
-                  ihrer Komplexität zu entschlüsseln.</p>
-              </note>
-              <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="...">
-                  <name>
-                    <roleName type="title">not found</roleName>
-                  </name>
-                  <affiliation corresp="..."/>
-                </person>
-              </listPerson>
-              <org role="host-institution" corresp="..."/>
-            </event>
-
-
             <!-- 2023-10-27 https://www.youtube.com/watch?v=69mvMLyVXmU  |  https://www.youtube.com/watch?v=dLyqJtYiXbA  |  https://www.youtube.com/watch?v=FW5udQ3k9oU  |  https://doi.org/10.5281/zenodo.10078729 -->
             <!-- 2023-11-24 https://www.youtube.com/watch?v=ytYEvyeZH7A  |  https://doi.org/10.5281/zenodo.10213756 -->
             <!-- 2023-12-10 https://www.youtube.com/watch?v=YGwl3f7o9h8  |  https://doi.org/10.5281/zenodo.10781223 -->
@@ -49708,7 +49727,6 @@
               corresp="#nicka_isabella #zeppezauer-wachauer_katharina #faerberboeck_peter"/>
           </event>
         </event>
-
         <event xml:id="ls50" type="lecture-series" where="#graz">
           <eventName xml:lang="en">Lunchtime Lecture</eventName>
           <ptr type="programme" target="..."/>
@@ -49755,7 +49773,15 @@
 
 
           <!-- 2018-11-06  https://digital-humanities.uni-graz.at/de/neuigkeiten/thomas-wallnig-die-hybrid-edition-der-pez-korrespondenz-als-forschungsstrategische-herausforderung/  |   -->
+
+
           <!-- 2019-01-15  https://digital-humanities.uni-graz.at/de/neuigkeiten/johannes-ibel-memorial-archives-vernetztes-forschen-zu-ns-opfern/ -->
+          <!-- 2019-03-19  https://www.uni-graz.at/de/veranstaltungen/bryan-jurish-berlin-brandenburgische-akademie-der-wissenschaften-clarin-de-dtacab-a-field-spo/ -->
+          <!-- 2019-04-02  https://www.uni-graz.at/de/veranstaltungen/lunchtime-lecture/ -->
+          <!-- 2019-05-07  https://www.uni-graz.at/de/veranstaltungen/lunchtime-lecture-1/ -->
+          <!-- 2019-05-27  https://www.uni-graz.at/de/veranstaltungen/lunchtime-lectures/ -->
+
+
           <!-- 2020-01-29  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunch-time-luctures/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Fauland_LTL.pdf -->
 
 
@@ -51888,12 +51914,10 @@
         <event xml:id="ls43" type="lecture-series" where="#lausanne">
           <eventName xml:lang="fr">Séminaires DH</eventName>
           <eventName xml:lang="en">DH Lecture Series</eventName>
-
           <event type="lecture-series-term" from="2015-06" to="2015-12" xml:id="ls43_t1">
             <eventName>2015</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
-
             <event type="lecture" when="2015-06-04" xml:id="ls43_t1_l1">
               <eventName xml:lang="en">Mirador: Medieval Manuscripts (and Much More) in a New
                 Light</eventName>
@@ -51911,8 +51935,11 @@
                   interest, with a focus on a little-known group of liturgical manuscripts from the
                   Dominican convent, Paradies bei Soest, dating to the period 1300–1425.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">mirador, iiiif image viewer, medieval
-                  manuscripts, illuminated manuscripts, scholarly annotation tools</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #history"/>
+                <term type="topics-llm">mirador, iiiif image viewer, medieval manuscripts,
+                  illuminated manuscripts, scholarly annotation tools</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -51927,7 +51954,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2015-11-15" xml:id="ls43_t1_l2">
               <eventName xml:lang="en">Transvergence, Human and Digital: Priorities and
                 Possibilities</eventName>
@@ -51939,9 +51965,10 @@
                   the so-called “digital humanities” remain focused on the human while still
                   encouraging the exploration of new possibilities.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">transvergence, interdisciplinary
-                  collaboration, human-centered technology, transmodal systems, thematic
-                  modeling</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #philosophy"/>
+                <term type="topics-llm">transvergence, interdisciplinary collaboration,
+                  human-centered technology, transmodal systems, thematic modeling</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51957,7 +51984,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2015-12-15" xml:id="ls43_t1_l3">
               <eventName xml:lang="en">Towards a Systematic Science of Art and Culture</eventName>
               <note type="abstract" xml:lang="en">
@@ -51973,8 +51999,10 @@
                   art history is both transcending and exponential, while the discipline of art
                   history, in principle, has no limits in method.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">art history, computational analysis,
-                  cultural analytics, interdisciplinary research, data-driven scholarship</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topics-llm">art history, computational analysis, cultural analytics,
+                  interdisciplinary research, data-driven scholarship</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51990,7 +52018,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2015-12-17" xml:id="ls43_t1_l4">
               <eventName xml:lang="en">Musical Musicologies for the Digital Age</eventName>
               <note type="abstract" xml:lang="en">
@@ -52002,8 +52029,10 @@
                   and usefulness (that is, to make sure these digital musicologies remain
                   “musical”).</p>
               </note>
-              <note type="keywords"><term type="topics-llm">musicology, computational analysis,
-                  digital tools, research methods, musical validity</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">musicology, computational analysis, digital tools, research
+                  methods, musical validity</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -52019,15 +52048,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2016-01" to="2016-07" xml:id="ls43_t2">
             <eventName>2016</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
-
             <event type="lecture" when="2016-01-13" xml:id="ls43_t2_l1">
               <eventName xml:lang="en">Early Modern Information Overload: Making Sense of Big Data
                 in the Humanities</eventName>
@@ -52050,8 +52076,10 @@
                   research projects that use sequence alignment algorithms to identify intertextual
                   relationships over large heterogeneous corpora.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">big data, data mining, distant reading,
-                  machine learning, intertextual analysis</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #digital-humanities"/>
+                <term type="topics-llm">big data, data mining, distant reading, machine learning,
+                  intertextual analysis</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -52067,7 +52095,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-01-14" xml:id="ls43_t2_l2">
               <eventName xml:lang="en">Designing Digital Humanities: An Agile Approach</eventName>
               <note type="abstract" xml:lang="en">
@@ -52083,8 +52110,10 @@
                   scholarship, evolve digital pedagogy within existing institutional structures, and
                   open the humanities to new audiences.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">agile methodology, interdisciplinary
-                  collaboration, knowledge production, digital pedagogy, scholarly innovation</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">agile methodology, interdisciplinary collaboration,
+                  knowledge production, digital pedagogy, scholarly innovation</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -52100,7 +52129,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-01-20" xml:id="ls43_t2_l3">
               <eventName xml:lang="en">The Future of the Virtual Past</eventName>
               <note type="abstract" xml:lang="en">
@@ -52117,8 +52145,10 @@
                   different case studies in the above-mentioned scenario at the intersection of
                   cyberarchaeology, virtual museums, big data and virtual environments.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">virtual heritage, cyberarchaeology,
-                  knowledge preservation, interactive environments, data visualization</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
+                <term type="topics-llm">virtual heritage, cyberarchaeology, knowledge preservation,
+                  interactive environments, data visualization</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -52134,7 +52164,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-01-26" xml:id="ls43_t2_l4">
               <eventName xml:lang="en">Computational Methods for Complex Text Traditions</eventName>
               <note type="abstract" xml:lang="en">
@@ -52145,8 +52174,11 @@
                 <p>The presenter will also touch upon the interesting problems that arise when
                   bringing digital methods into the humanities.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">text traditions, computational modeling,
-                  manuscript transmission, stemmatology, humanities methodology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#classics #history"/>
+                <term type="topics-llm">text traditions, computational modeling, manuscript
+                  transmission, stemmatology, humanities methodology</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52161,7 +52193,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-01-28" xml:id="ls43_t2_l5">
               <eventName xml:lang="en">Bridging Music Analysis, Computation and Cognition –
                 Perspectives for Digital Musicology</eventName>
@@ -52182,8 +52213,11 @@
                   (musicologically oriented) music analysis are still challenging to compute and
                   annotated sources are rare.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">music analysis, computational methods,
-                  music cognition, interdisciplinary research, music data annotation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">music analysis, computational methods, music cognition,
+                  interdisciplinary research, music data annotation</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52198,7 +52232,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-03-01" xml:id="ls43_t2_l6">
               <eventName xml:lang="en">Patterns and Meaning</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
@@ -52216,9 +52249,11 @@
                   criticism are abstractions. So: what does it mean, studying literature through a
                   series of abstractions?</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data visualization, computational
-                  criticism, literary analysis, abstraction in research, lived experience vs.
-                  data</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #philosophy"/>
+                <term type="topics-llm">data visualization, computational criticism, literary
+                  analysis, abstraction in research, lived experience vs. data</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52233,7 +52268,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-05-17" xml:id="ls43_t2_l7">
               <eventName xml:lang="en">Why Big Data Needs Big Theory in Social Sciences</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_t57uou80"/>
@@ -52250,9 +52284,11 @@
                   art history is both transcending and exponential, while the discipline of art
                   history, in principle, has no limits in method.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">cultural analytics, computational art
-                  history, interdisciplinary research, data-driven theory, complex
-                systems</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topics-llm">cultural analytics, computational art history,
+                  interdisciplinary research, data-driven theory, complex systems</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52267,7 +52303,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2016-07-01" xml:id="ls43_t2_l8">
               <eventName xml:lang="en">Spatial Interfaces to Illimitable Archives</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_oscv2r03"/>
@@ -52285,8 +52320,11 @@
                   paradigms provide new modalities for discovery that are based on emergent
                   storytelling and embodied interaction.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data visualization, cultural archives,
-                  interactive interfaces, embodied interaction, narrative exploration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #cultural-studies"/>
+                <term type="topics-llm">data visualization, cultural archives, interactive
+                  interfaces, embodied interaction, narrative exploration</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52301,15 +52339,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2017-11" to="2017-12" xml:id="ls43_t3">
             <eventName>2017</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626090152/https://www.epfl.ch/schools/cdh/research-2/dhi/dh-activities/2015-2016-2017-dh-lecture-series/"/>
-
             <event type="lecture" when="2017-11-13" xml:id="ls43_t3_l1">
               <eventName xml:lang="en">Data art, creating artworks from scientific data?</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_mi9ipd4p"/>
@@ -52321,9 +52356,11 @@
                   examples, we will see that this approach can be used regardless of one’s field of
                   research as long as there is data to support it.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data visualization, scientific
-                  communication, creative representation, data mining, interdisciplinary
-                  collaboration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #computer-science"/>
+                <term type="topics-llm">data visualization, scientific communication, creative
+                  representation, data mining, interdisciplinary collaboration</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52338,7 +52375,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2017-12-04" xml:id="ls43_t3_l2">
               <eventName xml:lang="en">Music Semantics: Problems and Prospects</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_c5jz5qvc"/>
@@ -52352,8 +52388,10 @@
                   aspects of iconic semantics (used for pictures, gestures, and some aspects of
                   signs) are better models than compositional semantics in language.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">music semantics, auditory cognition,
-                  iconic semantics, truth conditions, non-linguistic meaning</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">music semantics, auditory cognition, iconic semantics, truth
+                  conditions, non-linguistic meaning</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52368,7 +52406,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2017-12-15" xml:id="ls43_t3_l3">
               <eventName xml:lang="en">Projects in Visualizing Data 1975-2017</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_n9vr4x8i"/>
@@ -52399,9 +52436,11 @@
                   since 2006 in which topics such as cultural trends, and system anomalies have been
                   explored through the collected Seattle library data.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data visualization, cultural
-                  classification, interactive art, library data analysis, aesthetic information
-                  retrieval</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #cultural-studies"/>
+                <term type="topics-llm">data visualization, cultural classification, interactive
+                  art, library data analysis, aesthetic information retrieval</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52416,7 +52455,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2017-12-18" xml:id="ls43_t3_l4">
               <eventName xml:lang="en">Emotions, Music, and the Brain</eventName>
               <note type="abstract" xml:lang="en">
@@ -52432,8 +52470,11 @@
                   the evocation of emotions with music, such as appraisals, emotional resonance,
                   musical expectancy, and the social functions of music.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">emotions, music psychology,
-                  neuroimaging, brain activity, music therapy</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #medicine"/>
+                <term type="topics-llm">emotions, music psychology, neuroimaging, brain activity,
+                  music therapy</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52448,15 +52489,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2018-10" to="2018-12" xml:id="ls43_t4">
             <eventName>2018</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626094936/https://www.epfl.ch/schools/cdh/dh-events-2018/"/>
-
             <event type="lecture" when="2018-10-10" xml:id="ls43_t4_l1">
               <eventName xml:lang="en">Hidden in Plain Sight: Unspoken Premises of DH
                 Visualization</eventName>
@@ -52464,8 +52502,11 @@
                 target="https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/"/>
               <ptr type="video" target="2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">visualization, implicit assumptions,
-                  data representation, critical analysis, design bias</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">visualization, implicit assumptions, data representation,
+                  critical analysis, design bias</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52480,7 +52521,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2018-10-11" xml:id="ls43_t4_l2">
               <eventName xml:lang="en">Sequential pattern mining for robust event
                 detection</eventName>
@@ -52505,9 +52545,11 @@
                   presentation, we will further explain how this work is being expanded to further
                   domains and particularly to the specific case of historical newspapers.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">sequential pattern mining, event
-                  detection, news analysis, multilingual processing, historical data
-                  extraction</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics #computer-science"/>
+                <term type="topics-llm">sequential pattern mining, event detection, news analysis,
+                  multilingual processing, historical data extraction</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52522,15 +52564,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2018-10-24" xml:id="ls43_t4_l3">
               <eventName xml:lang="en">The Question of Why: On the Notions of Explanation in the
                 DH</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626094353/https://www.epfl.ch/schools/cdh/the-question-of-why-on-the-notions-of-explanation-in-the-dh/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">explanation theory, causal reasoning,
-                  interpretive methods, epistemology, humanities research</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #digital-humanities"/>
+                <term type="topics-llm">explanation theory, causal reasoning, interpretive methods,
+                  epistemology, humanities research</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52545,7 +52589,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2018-11-07" xml:id="ls43_t4_l4">
               <eventName xml:lang="en">Sciences and Technologies Studies: From Case Studies to
                 Commensurable Data. Extending “The Topofil of Boa Vista” (B. Latour)</eventName>
@@ -52553,9 +52596,11 @@
                 target="https://web.archive.org/web/20250626094504/https://www.epfl.ch/schools/cdh/sciences-and-technologies-studies-from-case-studies-to-commensurable-data-extending-the-topofil-of-boa-vista-b-latour/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_zzxziysy"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">science and technology studies, case
-                  study analysis, data commensurability, bruno latour, spatial
-                humanities</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">science and technology studies, case study analysis, data
+                  commensurability, bruno latour, spatial humanities</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52570,15 +52615,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2018-11-21" xml:id="ls43_t4_l5">
               <eventName xml:lang="en">Why Theories of Aesthetics matter in the DH</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626094545/https://www.epfl.ch/schools/cdh/why-theories-of-aesthetics-matter-in-the-dh/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">aesthetic theory, computational
-                  analysis, cultural interpretation, humanistic critique, artistic
-                value</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #digital-humanities"/>
+                <term type="topics-llm">aesthetic theory, computational analysis, cultural
+                  interpretation, humanistic critique, artistic value</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52593,7 +52639,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2018-11-29" xml:id="ls43_t4_l6">
               <eventName xml:lang="fr">Design et humanités numériques</eventName>
               <ptr type="programme"
@@ -52601,8 +52646,8 @@
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_m2h9n71n"/>
               <note type="abstract" xml:lang="fr">
                 <p>En étudiant des opérations et des systèmes techniques potentiellement ouverts à
-                  la recherche, cet essai interroge le rapport du design aux « humanités numériques
-                  » (digital humanities) qui se développent, dans le contexte francophone, depuis le
+                  la recherche, cet essai interroge le rapport du design aux «humanités numériques»
+                  (digital humanities) qui se développent, dans le contexte francophone, depuis le
                   milieu des années 2000. En quoi les environnements numériques contemporains
                   actualisent-ils les modes de production et de transmission des savoirs ? Quelle
                   est la place des designers dans des projets relevant des sciences humaines et
@@ -52615,9 +52660,10 @@
                   des techniques numériques par le design montre ainsi qu’il reste de la place pour
                   d’autres modulations, d’autres sensibilités, d’autres cultures.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">design theory, knowledge production,
-                  technical systems, creative methodologies, subjectivity in
-                technology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #digital-humanities"/>
+                <term type="topics-llm">design theory, knowledge production, technical systems,
+                  creative methodologies, subjectivity in technology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52632,15 +52678,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2018-12-05" xml:id="ls43_t4_l7">
               <eventName xml:lang="en">Problems with Data: Assumptions, Biases, and More</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626094925/https://www.epfl.ch/schools/cdh/problems-with-data-assumptions-biases-and-more/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_cq0so9aw"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">data quality, research biases, data
-                  assumptions, ethical data, data limitations</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #computer-science"/>
+                <term type="topics-llm">data quality, research biases, data assumptions, ethical
+                  data, data limitations</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52655,15 +52703,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2019-02" to="2019-12" xml:id="ls43_t5">
             <eventName>2019</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626101322/https://www.epfl.ch/schools/cdh/dh-events-2019/"/>
-
             <event type="lecture" when="2019-02-19" xml:id="ls43_t5_l1">
               <eventName xml:lang="en">Network Inference from Textual Evidence: Information
                 Propagation, Translation, and Multi-Input Attention</eventName>
@@ -52695,9 +52740,11 @@
                   approximations to intractable multi-sequence alignment collation and enable 75%
                   reductions in error with unsupervised models.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">textual analysis, information
-                  propagation, network inference, multilingual corpora, ocr error
-                correction</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #library-information"/>
+                <term type="topics-llm">textual analysis, information propagation, network
+                  inference, multilingual corpora, ocr error correction</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52712,15 +52759,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-03-06" xml:id="ls43_t5_l2">
-              <eventName xml:lang="en">Digital Humanities at Scale : 2012 – 2032</eventName>
+              <eventName xml:lang="en">Digital Humanities at Scale: 2012 – 2032</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626134950/https://www.epfl.ch/schools/cdh/digital-humanities-at-scale-2012-2032/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_rdepbplf"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">large-scale research, computational
-                  methods, future trends, data analysis, long-term impact</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">large-scale research, computational methods, future trends,
+                  data analysis, long-term impact</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52735,15 +52784,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-03-20" xml:id="ls43_t5_l3">
               <eventName xml:lang="en">Observational studies</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626134920/https://www.epfl.ch/schools/cdh/observational-studies/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_3s3l3c0j"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">causal inference, research methodology,
-                  data analysis, empirical research, study design</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities"/>
+                <term type="topics-llm">causal inference, research methodology, data analysis,
+                  empirical research, study design</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52758,15 +52809,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-04-03" xml:id="ls43_t5_l4">
               <eventName xml:lang="en">Towards Interpretable Deep Visual Recognition</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135030/https://www.epfl.ch/schools/cdh/towards-interpretable-deep-visual-recognition-2/"/>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_9fneagxl"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">computer vision, deep learning,
-                  interpretability, visual recognition, neural networks</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">computer vision, deep learning, interpretability, visual
+                  recognition, neural networks</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52781,15 +52834,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-04-17" xml:id="ls43_t5_l5">
               <eventName xml:lang="en">Encoding Embodied Acts: Technologies of
                 Corporeality</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135239/https://www.epfl.ch/schools/cdh/encoding-embodied-acts-technologies-of-corporeality/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">gesture analysis, movement encoding,
-                  embodied cognition, performance technology, kinesthetic data</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#theater-studies"/>
+                <term type="topics-llm">gesture analysis, movement encoding, embodied cognition,
+                  performance technology, kinesthetic data</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52804,7 +52859,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-04-25" xml:id="ls43_t5_l6">
               <eventName xml:lang="en">Comics analysis and Indexing</eventName>
               <ptr type="programme"
@@ -52839,9 +52893,11 @@
                   elements of comic strips such as panels, speech balloons, text, characters and
                   links that may exist between these elements.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">comics analysis, content indexing,
-                  visual narrative extraction, cultural heritage digitization, sequential art
-                  processing</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #literary-studies"/>
+                <term type="topics-llm">comics analysis, content indexing, visual narrative
+                  extraction, cultural heritage digitization, sequential art processing</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52856,17 +52912,18 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-05-01" xml:id="ls43_t5_l7">
               <eventName xml:lang="en">DH and Ways of Knowing</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135501/https://www.epfl.ch/schools/cdh/dh-and-ways-of-knowing/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">ways of knowing, epistemology, knowledge
-                  production, interdisciplinary methods, critical theory</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #philosophy"/>
+                <term type="topics-llm">ways of knowing, epistemology, knowledge production,
+                  interdisciplinary methods, critical theory</term>
+              </note>
               <note type="realization">
-                <term type="speech">...</term>
-                <term type="audience">...</term>
+                <term type="speech">canceled</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#baudry_jerome">
@@ -52878,17 +52935,18 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-05-29" xml:id="ls43_t5_l8">
               <eventName xml:lang="en">What a historian wants from Digital Humanities</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135918/https://www.epfl.ch/schools/cdh/what-a-historian-wants-from-digital-humanities/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">historical research, data analysis,
-                  scholarly needs, interdisciplinary collaboration, research tools</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
+                <term type="topics-llm">historical research, data analysis, scholarly needs,
+                  interdisciplinary collaboration, research tools</term>
+              </note>
               <note type="realization">
-                <term type="speech">...</term>
-                <term type="audience">...</term>
+                <term type="speech">canceled</term>
               </note>
               <listPerson>
                 <person role="speaker" corresp="#kapossy_bela">
@@ -52900,16 +52958,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-09-18" xml:id="ls43_t5_l9">
               <eventName xml:lang="en">What can a historian expect of Digital
                 Humanities?</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626135632/https://memento.epfl.ch/event/what-can-a-historian-expect-of-digital-humanities-/"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">historical research, methodology,
-                  interdisciplinary collaboration, data analysis, scholarly
-                expectations</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #history"/>
+                <term type="topics-llm">historical research, methodology, interdisciplinary
+                  collaboration, data analysis, scholarly expectations</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52924,7 +52983,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-09-20" xml:id="ls43_t5_l10">
               <eventName xml:lang="en">Kepler Concordia: Playing solar systems as musical
                 instruments</eventName>
@@ -52941,8 +52999,10 @@
                   exploration and discovery, which is a return to the past when music was part of
                   the Quadrivium.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">data sonification, interactive music,
-                  scientific visualization, kepler’s laws, art-science collaboration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">data sonification, interactive music, scientific
+                  visualization, kepler’s laws, art-science collaboration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52957,7 +53017,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-10-29" xml:id="ls43_t5_l11">
               <eventName xml:lang="en">The Corpus as an Artifact of Musical Change: Studies in
                 Style, Transmission, and Diffusion</eventName>
@@ -52974,8 +53033,11 @@
                   discuss how we might employ symbolic corpora to inform future theories of musical
                   change, even when such corpora are lacking in data or are of unknown origin.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">musical corpora, compositional style,
-                  cognitive constraints, transmission theory, symbolic data analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #cultural-studies"/>
+                <term type="topics-llm">musical corpora, compositional style, cognitive constraints,
+                  transmission theory, symbolic data analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -52990,7 +53052,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-11-13" xml:id="ls43_t5_l12">
               <eventName xml:lang="en">The Digital Turn in Historical Sociolinguistics</eventName>
               <ptr type="programme"
@@ -53012,8 +53073,11 @@
                   standards, and (c) sketches a vision and the future potential of historical
                   sociolinguistic databases.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">historical sociolinguistics, language
-                  variation, corpus linguistics, tei encoding, manuscript digitization</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #english-studies"/>
+                <term type="topics-llm">historical sociolinguistics, language variation, corpus
+                  linguistics, tei encoding, manuscript digitization</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53028,7 +53092,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-11-19" xml:id="ls43_t5_l13">
               <eventName xml:lang="en">Networks, the Digital Humanities, and Everything</eventName>
               <ptr type="programme"
@@ -53044,9 +53107,11 @@
                   Hermann Kurz, is the main subject of an ongoing collaboration with Thomas Weitin
                   (TU Darmstadt).</p>
               </note>
-              <note type="keywords"><term type="topics-llm">network science, literary corpus
-                  analysis, close reading, distant reading, qualitative vs quantitative
-                  methods</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #german-studies"/>
+                <term type="topics-llm">network science, literary corpus analysis, close reading,
+                  distant reading, qualitative vs quantitative methods</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53061,7 +53126,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2019-12-04" xml:id="ls43_t5_l14">
               <eventName xml:lang="en">AI for Humans: a personal agenda</eventName>
               <ptr type="programme"
@@ -53085,9 +53149,11 @@
                   machine learning algorithms accessibility by including available computing
                   resources in the algorithm development.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">ai ethics, human-computer interaction,
-                  algorithmic fairness, knowledge representation, accessible machine
-                learning</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topics-llm">ai ethics, human-computer interaction, algorithmic fairness,
+                  knowledge representation, accessible machine learning</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53102,15 +53168,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2020-01" to="2018-11" xml:id="ls43_t6">
             <eventName>2020</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626121810/https://www.epfl.ch/schools/cdh/dh-events-2020/"/>
-
             <event type="lecture" when="2020-01-13" xml:id="ls43_t6_l1">
               <eventName xml:lang="en">Looking beyond the staff lines and listening behind the
                 sound: Novel applications of two old-fashioned paradigms to the analysis of musical
@@ -53150,8 +53213,11 @@
                   challenging open task at the borderline between theory and analysis to disentangle
                   systematic dependencies from ideosyncratic piece-specific correspondences.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">music theory, algebraic combinatorics,
-                  fourier analysis, chord progression analysis, pitch class sets</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">music theory, algebraic combinatorics, fourier analysis,
+                  chord progression analysis, pitch class sets</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53166,7 +53232,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2020-10-07" xml:id="ls43_t6_l2">
               <eventName xml:lang="en">Reading with machines. Reading and writing in the digital
                 age</eventName>
@@ -53183,9 +53248,11 @@
                   and todays readers, look into the real-time data and try to find ways to measure
                   reading activities in large data sets.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">reading habits, social media literature,
-                  computational text analysis, youth engagement, real-time data
-                tracking</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies"/>
+                <term type="topics-llm">reading habits, social media literature, computational text
+                  analysis, youth engagement, real-time data tracking</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53200,7 +53267,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2020-11-04" xml:id="ls43_t6_l3">
               <eventName xml:lang="en">From Digital Humanities to Game Studies</eventName>
               <ptr type="programme"
@@ -53226,8 +53292,11 @@
                   source code (with Stéphanie Mader, CNAM) A platform studies approach to the
                   Smaky</p>
               </note>
-              <note type="keywords"><term type="topics-llm">video games, game studies, media
-                  archiving, interdisciplinary research, source code analysis</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#digital-humanities #game-studies"/>
+                <term type="topics-llm">video games, game studies, media archiving,
+                  interdisciplinary research, source code analysis</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53242,7 +53311,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2020-11-18" xml:id="ls43_t6_l4">
               <eventName xml:lang="en">Quantitative approaches to historical texts: should you care
                 about OCR?</eventName>
@@ -53259,9 +53327,11 @@
                   OCR post-correction method on the same dataset, as well as its most recent
                   evolution on a highly-inflected language.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">optical character recognition, text
-                  analysis, historical documents, quantitative methods, error
-                correction</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term type="topics-llm">optical character recognition, text analysis, historical
+                  documents, quantitative methods, error correction</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53276,15 +53346,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2021-02" to="2021-10" xml:id="ls43_t7">
             <eventName>2021</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626124243/https://www.epfl.ch/schools/cdh/dh-events-2021/"/>
-
             <event type="lecture" when="2021-02-10" xml:id="ls43_t7_l1">
               <eventName xml:lang="en">Comparative musicology: The science of the world’s
                 music</eventName>
@@ -53306,9 +53373,11 @@
                   combines the qualitative methods traditionally employed by musicologists and
                   cultural anthropologists with quantitative methods from the natural sciences.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">comparative musicology, cross-cultural
-                  analysis, music evolution, computational methods, cultural
-                anthropology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">comparative musicology, cross-cultural analysis, music
+                  evolution, computational methods, cultural anthropology</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53323,7 +53392,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2021-02-24" xml:id="ls43_t7_l2">
               <eventName xml:lang="en">Dating sites as observations sites. What we can learn from
                 online dating data</eventName>
@@ -53340,8 +53408,11 @@
                   partner choice. The presentation will focus on this second approach, showing how
                   online dating makes it possible to revisit classic sociological inquiry.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">online dating, partner preferences,
-                  sociological theory, matching mechanisms, sexual norms</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topics-llm">online dating, partner preferences, sociological theory,
+                  matching mechanisms, sexual norms</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53356,7 +53427,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2021-03-17" xml:id="ls43_t7_l3">
               <eventName xml:lang="en">And what about the humans in Digital Humanities? An approach
                 of design research to transform technologies and data into daily life
@@ -53366,24 +53436,27 @@
               <note type="abstract" xml:lang="en">
                 <p>Trust is a major issue in the digital media. It has led to ambitious research
                   programs to detect fake news. But how do we convert the improvement of reliability
-                  into a gain of trust by the readers ? Digitization of heritage has made content
+                  into a gain of trust by the readers? Digitization of heritage has made content
                   more accessible and allowed new interactions. But can these heritages engage with
                   a larger audience? Innovation is now mostly tech driven. We think disruption and
                   performance. But what about the user experience ? What do we understand about the
-                  factors of acceptance ? The EPFL+ECAL Lab, the design research center of the EPFL
+                  factors of acceptance? The EPFL+ECAL Lab, the design research center of the EPFL
                   established in partnership with the ECAL (Ecole d’art et de design de Lausanne),
-                  investigates these questions. Its approach combines three dimensions : the
-                  creation of experimental solutions through design and art practices, the
-                  integration of emerging technologies, and the observation of user perception. This
-                  perception is highly related to the users and the context. It requires to leave
-                  the lab and experiment in real life condition. With some surprising results : the
-                  Resoli project, for instance, shows that digital innovation should be developed
-                  with elderly people rather than millennials to be more successful ! Design
-                  research is a natural partner of digital humanities to transform data in impactful
-                  propositions for citizens.</p>
+                  investigates these questions. Its approach combines three dimensions: the creation
+                  of experimental solutions through design and art practices, the integration of
+                  emerging technologies, and the observation of user perception. This perception is
+                  highly related to the users and the context. It requires to leave the lab and
+                  experiment in real life condition. With some surprising results: the Resoli
+                  project, for instance, shows that digital innovation should be developed with
+                  elderly people rather than millennials to be more successful! Design research is a
+                  natural partner of digital humanities to transform data in impactful propositions
+                  for citizens.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">user experience, trust in media, design
-                  research, heritage engagement, technology acceptance</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #library-information"/>
+                <term type="topics-llm">user experience, trust in media, design research, heritage
+                  engagement, technology acceptance</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53398,7 +53471,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2021-04-14" xml:id="ls43_t7_l4">
               <eventName xml:lang="en">Trajectories of New Media Art</eventName>
               <ptr type="video" target="https://mediaspace.epfl.ch/media/0_b0b9lnb5"/>
@@ -53418,8 +53490,11 @@
                   present by the future, narrative after storytelling, technology’s bipolar benefits
                   and malignancy, and the quixotic guise of art’s materiality.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">new media art, interactive art, emergent
-                  interaction, augmented perception, virtual-real conjunction</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies"/>
+                <term type="topics-llm">new media art, interactive art, emergent interaction,
+                  augmented perception, virtual-real conjunction</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53434,7 +53509,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2021-05-19" xml:id="ls43_t7_l5">
               <eventName xml:lang="en">Babylonian Vision - decolonising collections</eventName>
               <ptr type="programme"
@@ -53450,8 +53524,11 @@
                   image-making by showcasing her use of Southern datasets as an archive of
                   abundance.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">artificial intelligence, decolonization,
-                  mesopotamian artifacts, generative art, cultural heritage</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#cultural-studies"/>
+                <term type="topics-llm">artificial intelligence, decolonization, mesopotamian
+                  artifacts, generative art, cultural heritage</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53466,7 +53543,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2021-05-12" xml:id="ls43_t7_l6">
               <eventName xml:lang="en">A computational-philosophical approach to the international
                 law on AI</eventName>
@@ -53492,8 +53568,11 @@
                   also improve international law’s capacity to address technological developments
                   that impact individuals and States alike.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">ai ethics, international law, ai
-                  governance, republican theory, technological regulation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy #computer-science"/>
+                <term type="topics-llm">ai ethics, international law, ai governance, republican
+                  theory, technological regulation</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53508,21 +53587,22 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2021-10-07" xml:id="ls43_t7_l7">
               <eventName xml:lang="en">If the human being goes digital, ethics goes digital: Ethics
                 at the human-machine interface</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626133931/https://memento.epfl.ch/event/dh-research-seminar-par-marcello-ienca-phd/"/>
               <note type="abstract" xml:lang="en">
-                <p> Emerging technologies such as brain-computer interfaces (BCIs) establish a
-                  direct connection pathway between humans and machines, i.e. between the biological
-                  and the digital world. This presentation will explore the ethical implications of
-                  BCIs and identify key societal challenges at the human-machine interface.</p>
+                <p>Emerging technologies such as brain-computer interfaces (BCIs) establish a direct
+                  connection pathway between humans and machines, i.e. between the biological and
+                  the digital world. This presentation will explore the ethical implications of BCIs
+                  and identify key societal challenges at the human-machine interface.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">neuroethics, brain-computer interfaces,
-                  human-machine interaction, technological ethics, bio-digital
-                integration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#philosophy"/>
+                <term type="topics-llm">neuroethics, brain-computer interfaces, human-machine
+                  interaction, technological ethics, bio-digital integration</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -53537,15 +53617,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#collins_kathleen"/>
           </event>
-
           <event type="lecture-series-term" from="2022-12" to="2022-12" xml:id="ls43_t8">
             <eventName>2022</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626124551/https://www.epfl.ch/schools/cdh/dh-seminars-2022-2/"/>
-
             <event type="lecture" when="2022-12-14" xml:id="ls43_t8_l1">
               <eventName xml:lang="en">Mates vs. Cavell Redux; Or, When Do You Need a (Musical)
                 Corpus?</eventName>
@@ -53566,8 +53643,11 @@
                   theory is a single, unified discipline or a broad tent of possibly interrelated
                   but not necessarily unanimous inquiries.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">music theory, corpus-based methods,
-                  empirical research, philosophy of language, disciplinary unity</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #computational-linguistics"/>
+                <term type="topics-llm">music theory, corpus-based methods, empirical research,
+                  philosophy of language, disciplinary unity</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53582,7 +53662,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2022-12-19" xml:id="ls43_t8_l2">
               <eventName xml:lang="en">Automatic analysis, automatic composition, and automatic
                 analysis for automatic composition</eventName>
@@ -53600,8 +53679,11 @@
                   traditional (non-computational) methods of composing, and the probably decisive
                   role the next generation of this work will reserve for computational analysis.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">machine learning, music composition,
-                  beethoven, computational creativity, human-computer collaboration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #computer-science"/>
+                <term type="topics-llm">machine learning, music composition, beethoven,
+                  computational creativity, human-computer collaboration</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53616,15 +53698,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#hentschel_johannes"/>
           </event>
-
           <event type="lecture-series-term" from="2023-04" to="2023-11" xml:id="ls43_t9">
             <eventName>2023</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250626125928/https://www.epfl.ch/schools/cdh/dh-seminar-2023/"/>
-
             <event type="lecture" when="2023-04-26" xml:id="ls43_t9_l1">
               <eventName xml:lang="en">Charlie Parker, Composer: Highlights and
                 Controversies</eventName>
@@ -53643,8 +53722,11 @@
                   others, had his own work “borrowed,” and left a legacy of well-known jazz
                   compositions that continue to inspire jazz musicians and listeners.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">jazz composition, improvisation,
-                  copyright law, musical plagiarism, charlie parker legacy</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology #history"/>
+                <term type="topics-llm">jazz composition, improvisation, copyright law, musical
+                  plagiarism, charlie parker legacy</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53659,7 +53741,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2023-04-28" xml:id="ls43_t9_l2">
               <eventName xml:lang="en">Modernism, Jazz, Counterpoint: A Henry Martin Mix</eventName>
               <ptr type="programme"
@@ -53675,8 +53756,11 @@
                   theory affected me as a composer, and present structural analyses of what I think
                   are especially interesting passages.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">composition, jazz, modernism,
-                  counterpoint, music theory</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#musicology"/>
+                <term type="topics-llm">composition, jazz, modernism, counterpoint, music
+                  theory</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53691,7 +53775,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <event type="lecture" when="2023-11-27" xml:id="ls43_t9_l3">
               <eventName xml:lang="en">Between Justice Seeking and Entertainment: Digital
                 Vigilantism and the Court of Public Opinion</eventName>
@@ -53722,8 +53805,11 @@
                   targets’ reputations but that the legitimacy of these very practices is also
                   frequently disputed.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">online vigilantism, public shaming,
-                  social justice, media accountability, reputational harm</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#political-science #philosophy #media-studies"/>
+                <term type="topics-llm">online vigilantism, public shaming, social justice, media
+                  accountability, reputational harm</term>
+              </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -53738,10 +53824,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-lausanne-epfl"/>
             </event>
-
             <org role="organizer" corresp="#rammos_yannis"/>
           </event>
-
         </event>
         <!-- ##### Belgium ##### -->
         <event xml:id="ls26" type="lecture-series" where="#antwerpen">
