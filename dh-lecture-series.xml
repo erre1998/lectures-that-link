@@ -1695,11 +1695,6 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3152388</idno>
             <place corresp="#aubervilliers"/>
           </org>
-          <org xml:id="mpii" type="research_institution">
-            <name xml:lang="de">Max-Planck-Institut für Informatik</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
-            <place corresp="#saarbruecken"/>
-          </org>
           <org xml:id="c2dh" type="research_institution">
             <name xml:lang="de">Luxembourg Centre for Contemporary and Digital History (C2DH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q74434404</idno>
@@ -1746,12 +1741,23 @@
             <place corresp="#paris"/>
           </org>
           <org xml:id="mpi-wg" type="research_institution">
-            <name xml:lang="de">Max-Planck-Institut für Wissenschaftsgeschichte (MPIWG)</name>
+            <name xml:lang="de">Max-Planck-Institut für Wissenschaftsgeschichte (MPI-WG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q318118</idno>
             <place corresp="#berlin"/>
           </org>
+          <org xml:id="mpi-inf" type="research_institution">
+            <name xml:lang="de">Max-Planck-Institut für Informatik (MPI-INF)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
+            <place corresp="#saarbruecken"/>
+          </org>
+          <org xml:id="mpi-lhlt" type="research_institution">
+            <name xml:lang="de">Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie
+              (MPI-LHLT)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1912108</idno>
+            <place corresp="#frankfurt-am-main"/>
+          </org>
           <org xml:id="mpi-eva" type="research_institution">
-            <name xml:lang="de">Max-Planck-Institut für evolutionäre Anthropologie (MPI EVA)</name>
+            <name xml:lang="de">Max-Planck-Institut für evolutionäre Anthropologie (MPI-EVA)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q682926</idno>
             <place corresp="#leipzig"/>
           </org>
@@ -23312,6 +23318,8 @@
             <eventName xml:lang="de">Sommersemester 2019</eventName>
             <ptr type="programme"
               target="https://web.archive.org/save/https://dhc.hypotheses.org/uebersicht-der-semesterprogramme/programm-2019"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824133950/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sosem19/digital-humanities-aktuelle-forschungsthemen/"/>
             <event type="lecture" when="2019-04-04" xml:id="ls8_t5_l1">
               <eventName xml:lang="de">Digital Humanities – wer wie was, wieso weshalb
                 warum?</eventName>
@@ -23598,13 +23606,14 @@
               <org role="host-institution" corresp="#uni-koeln"/>
             </event>
             <org role="organizer"
-              corresp="#hermes_juergen #neuefeind_claes #fischer_franz #sahle_patrick #dieckmann_lisa"
-            />
+              corresp="#hermes_juergen #neuefeind_claes #fischer_franz #dieckmann_lisa"/>
           </event>
           <event type="lecture-series-term" from="2020-04" to="2020-07" xml:id="ls8_t6">
             <eventName xml:lang="de">Sommersemester 2020</eventName>
             <ptr type="programme"
               target="https://web.archive.org/save/https://dhc.hypotheses.org/uebersicht-der-semesterprogramme/programm2020"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824133515/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sosem20/digital-humanities-aktuelle-forschungsthemen-1/"/>
             <event type="lecture" when="2020-04-23" xml:id="ls8_t6_l1">
               <eventName xml:lang="en">“Thoughts on document similarity criteria informed by
                 transcription practices”, or simply “Document similarity</eventName>
@@ -23873,6 +23882,8 @@
             <eventName xml:lang="de">Sommersemester 2021</eventName>
             <ptr type="programme"
               target="https://web.archive.org/save/https://dhc.hypotheses.org/uebersicht-der-semesterprogramme/programm-2021"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824133447/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sosem21/digital-humanities-aktuelle-forschungsthemen-2/"/>
             <event type="lecture" when="2021-04-15" xml:id="ls8_t7_l1">
               <eventName xml:lang="en">A Tale of Two Cultures: Zum transatlantischen
                 DH-Diskurs</eventName>
@@ -24206,6 +24217,8 @@
             <eventName xml:lang="de">Sommersemester 2022</eventName>
             <ptr type="programme"
               target="https://web.archive.org/save/https://dhc.hypotheses.org/uebersicht-der-semesterprogramme/programm-2022"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824133615/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sosem22/digital-humanities-cologne/"/>
             <event type="lecture" when="2022-04-07" xml:id="ls8_t8_l1">
               <eventName xml:lang="en">Digital Humanities, or: The Broken Record of
                 Everything</eventName>
@@ -24484,6 +24497,8 @@
             <eventName xml:lang="de">Sommersemester 2023</eventName>
             <ptr type="programme"
               target="https://web.archive.org/save/https://dhc.hypotheses.org/uebersicht-der-semesterprogramme/programm-2023"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824133227/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sommersemester-2023/digital-humanities-cologne/"/>
             <event type="lecture" when="2023-04-13" xml:id="ls8_t9_l1">
               <eventName xml:lang="de">​​Die Welt der digitalen Geisteswissenschaft</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/nkl0"/>
@@ -24766,6 +24781,8 @@
             <eventName xml:lang="de">Sommersemester 2024</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250213123254/https://dhc.hypotheses.org/programm-2024"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824132718/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sommersemester-2024/digital-humanities-cologne/"/>
             <event type="lecture" when="2024-04-18" xml:id="ls8_t10_l1">
               <eventName xml:lang="en">​​Application of CIDOC CRM for Events of the Epos Shahnameh
                 with Especial Focus on Geographical Places</eventName>
@@ -24971,6 +24988,209 @@
                     <roleName type="title">not found</roleName>
                   </name>
                   <affiliation corresp="#zi-muenchen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <org role="organizer"
+              corresp="#hermes_juergen #neuefeind_claes #dieckmann_lisa #gengnagel_tessa"/>
+          </event>
+          <event type="lecture-series-term" from="2025-07" to="2025-07" xml:id="ls8_t11">
+            <eventName xml:lang="de">Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824115019/https://dhc.hypotheses.org/programm-2025"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250824132549/https://lehre.idh.uni-koeln.de/lehrveranstaltungen/sommersemester-2025/digital-humanities-cologne/"/>
+            <event type="lecture" when="2025-04-17" xml:id="ls8_t11_l1">
+              <eventName xml:lang="en">LLM mit und ohne GenAI: Funktionalitäten im Kontext einer
+                Digitalen Edition</eventName>
+              <ptr type="blogpost" target="https://doi.org/10.58079/1483b"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wagner_andreas">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz #mpi-lhlt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-04-24" xml:id="ls8_t11_l2">
+              <eventName xml:lang="de">Mittelalterliche Papsturkunden zwischen historischer
+                Forschungstradition und digitaler Neuorientierung. Das Beispiel der „Iberia
+                Pontificia“</eventName>
+              <ptr type="blogpost" target="https://doi.org/10.58079/14g4w"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ostrowski_alina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bochum"/>
+                </person>
+                <person role="speaker" corresp="#berger_daniel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-goettingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-05-08" xml:id="ls8_t11_l3">
+              <eventName xml:lang="en">The Postil Time Machine: Linking and Visualizing Enriched
+                Historical Texts across Languages, the Example of Early Lutheran Postils in
+                Lithuanian</eventName>
+              <ptr type="blogpost" target="https://doi.org/10.58079/1497f"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#boizou_loic">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-koeln"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-05-15" xml:id="ls8_t11_l4">
+              <eventName xml:lang="en">AI as Writer / Reader / Critic: Implications for the
+                Humanities</eventName>
+              <ptr type="blogpost" target="https://doi.org/10.58079/14elg"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hayles_katherine">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-california-los-angeles #uni-duke #uni-koeln"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-05-22" xml:id="ls8_t11_l5">
+              <eventName xml:lang="en">Adapting Language Models for the Analysis of Real World
+                Textual Data: Train the model, change the prompt, or adapt the task?</eventName>
+              <ptr type="blogpost" target="https://doi.org/10.58079/14c0w"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klinger_roman">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bamberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-06-26" xml:id="ls8_t11_l6">
+              <eventName xml:lang="de">Art History meets Visual Analytics: Der Fall der Wiener
+                Secession</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kamencek_teresa">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wien"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-07-03" xml:id="ls8_t11_l7">
+              <eventName xml:lang="de">Materi-A-Net – Material als Akteur in den transkulturellen
+                Netzwerken zwischen Frankreich und Deutschland im Spätmittelalter und der Frühen
+                Neuzeit</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lipinska_aleksandra">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-koeln"/>
+                </person>
+                <person role="speaker" corresp="#mercer_tobias">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-koeln"/>
+                </person>
+                <person role="speaker" corresp="#blumtritt_jonathan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-koeln"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-koeln"/>
+            </event>
+            <event type="lecture" when="2025-07-10" xml:id="ls8_t11_l8">
+              <eventName xml:lang="en">The Codex of Records of the Metropolitan See of
+                Philippopolis: A Digital Edition</eventName>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#iliev_dimitar">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-sofia"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -44576,9 +44796,10 @@
                   implications of the COVID-19 Pandemic on Internet traffic. Then I will discuss how
                   geographic interest may correlate with population statistics.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">digital footprints, analog data
-                  collection, internet measurement, geographic interest analysis, covid-19 internet
-                  impact</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences"/>
+                <term type="topics-llm">digital footprints, analog data collection, internet
+                  measurement, geographic interest analysis, covid-19 internet impact</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -44589,7 +44810,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#mpii"/>
+                  <affiliation corresp="#mpi-inf"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-saarland"/>
@@ -44611,8 +44832,10 @@
                   will end with my thoughts and hopes for closing the epistemological gaps, with the
                   goal of addressing the technical gaps more effectively and justly.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">bias in nlp, gender representation,
-                  language model fairness, intersectionality in ai, epistemological critiques</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#gender-studies #computer-science"/>
+                <term type="topics-llm">bias in nlp, gender representation, language model fairness,
+                  intersectionality in ai, epistemological critiques</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -44645,8 +44868,10 @@
                   technical progress? The lecture will provide an overview of current developments
                   and analyse them from an interdisciplinary perspective.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">ai regulation, data privacy, machine
-                  learning ethics, eu data protection, interdisciplinary legal analysis</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #philosophy"/>
+                <term type="topics-llm">ai regulation, data privacy, machine learning ethics, eu
+                  data protection, interdisciplinary legal analysis</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -44693,8 +44918,10 @@
                   shareability of synthetic content, and explore the broader societal implications
                   of GenAI applications and interactions.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">generative ai, trust in technology,
-                  social media dynamics, ai-generated content, deepfake detection</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #philosophy #media-studies"/>
+                <term type="topics-llm">generative ai, trust in technology, social media dynamics,
+                  ai-generated content, deepfake detection</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -44737,8 +44964,10 @@
                   we intend to get a better understanding of knowledge transfer and production in
                   the Romantic circle.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">romanticism, correspondence networks,
-                  epistolarity, social network analysis, knowledge transfer</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #german-studies"/>
+                <term type="topics-llm">romanticism, correspondence networks, epistolarity, social
+                  network analysis, knowledge transfer</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -44771,9 +45000,11 @@
                   study, my presentation aims to elucidate the connection between theory and
                   computation by proposing a methodology for enabling theory-driven validity.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">theory-computation integration, research
-                  workflow modeling, operationalization in humanities, computational literary
-                  studies, theory-driven validity</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #digital-humanities"/>
+                <term type="topics-llm">theory-computation integration, research workflow modeling,
+                  operationalization in humanities, computational literary studies, theory-driven
+                  validity</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -44812,9 +45043,11 @@
                   collaboration. I hope my lecture provides one of those opportunities for
                   reflection.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">interdisciplinary collaboration,
-                  psychology and computer science, research challenges, teamwork dynamics, academic
-                  reflection</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#social-siences #computer-science"/>
+                <term type="topics-llm">interdisciplinary collaboration, psychology and computer
+                  science, research challenges, teamwork dynamics, academic reflection</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44842,8 +45075,10 @@
                   invisible traces not recorded via online channels, which can reveal key aspects of
                   political engagement online.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">survey data, social media analysis,
-                  political polarization, data donation, research methodology</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#media-studies #political-science"/>
+                <term type="topics-llm">survey data, social media analysis, political polarization,
+                  data donation, research methodology</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -44875,8 +45110,10 @@
                   opportunities in terms of reflected content exploration, computational analysis,
                   and including an outlook to forthcoming Impresso Datalab.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">media archives, natural language
-                  processing, semantic enrichment, data exploration, computational analysis</term>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term type="topics-llm">media archives, natural language processing, semantic
+                  enrichment, data exploration, computational analysis</term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -44915,8 +45152,11 @@
                   models and for the most advanced models, it can reach an order of magnitude beyond
                   the typical size of informal human groups.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">llm societies, consensus dynamics,
-                  language understanding, opinion modeling, critical group size</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">llm societies, consensus dynamics, language understanding,
+                  opinion modeling, critical group size</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44946,9 +45186,11 @@
                   creating open evaluation datasets for creative works and the importance of
                   interdisciplinary collaboration between NLP and the humanities.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">nlp for creative works, storytelling
-                  analysis, large-scale text modeling, language model audits, interdisciplinary
-                  collaboration</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#literary-studies #computer-science"/>
+                <term type="topics-llm">nlp for creative works, storytelling analysis, large-scale
+                  text modeling, language model audits, interdisciplinary collaboration</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -44964,8 +45206,8 @@
               <org role="host-institution" corresp="#uni-saarland"/>
             </event>
             <event type="lecture" when="2025-01-24" xml:id="ls44_t2_l6">
-              <eventName xml:lang="en">From Stories to Sonnets: Data-Centered NLP for Creative
-                Works</eventName>
+              <eventName xml:lang="en">Misinformation and Hate speech on WhatsApp - Insights from a
+                large-scale data donation study</eventName>
               <ptr type="video" target="https://www.youtube.com/watch?v=Hy4IFZnwyFI"/>
               <note type="abstract" xml:lang="en">
                 <p>In this talk, I will present a study looking at the prevalence of misinformation,
@@ -44985,9 +45227,10 @@
                   These approaches can be scaled to other platforms to enable data collection in the
                   post API age.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">misinformation spread, whatsapp data
-                  analysis, political propaganda, hate speech detection, encrypted platform
-                  moderation</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#political-science #media-studies"/>
+                <term type="topics-llm">misinformation spread, whatsapp data analysis, political
+                  propaganda, hate speech detection, encrypted platform moderation</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45005,9 +45248,6 @@
             <event type="lecture" when="2025-02-07" xml:id="ls44_t2_l7">
               <eventName xml:lang="en">not found</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords"><term type="topics-llm">sorry, no keywords available,
-                  insufficient information, data missing, unable to process, no input
-                  provided</term></note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -45041,8 +45281,11 @@
                   equitable spaces. Throughout, I demonstrate how seemingly neutral policies can
                   cause harm when developed without input from marginalized communities.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">policy regulation, ai ethics, civil
-                  liberties, academic inclusion, marginalized communities</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#political-science"/>
+                <term type="topics-llm">policy regulation, ai ethics, civil liberties, academic
+                  inclusion, marginalized communities</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45078,9 +45321,10 @@
                   misused. I will highlight how these issues manifest in practice and what they
                   reveal about the incentives and priorities driving current AI research.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">ai hype, underrepresented languages,
-                  machine translation, automatic speech recognition, ai evaluation
-                benchmarks</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science #social-siences"/>
+                <term type="topics-llm">ai hype, underrepresented languages, machine translation,
+                  automatic speech recognition, ai evaluation benchmarks</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45117,8 +45361,11 @@
                   efficient and reliable new method for measuring social proximity using online
                   data.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">slavery legacies, elite persistence,
-                  computational history, social network analysis, political inequality</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history"/>
+                <term type="topics-llm">slavery legacies, elite persistence, computational history,
+                  social network analysis, political inequality</term>
+              </note>
               <note type="realization">
                 <term type="speech">canceled</term>
               </note>
@@ -45156,9 +45403,11 @@
                   safety, underscoring the urgent need for more comprehensive, systemic, and
                   context-aware evaluation paradigms.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">ai safety limitations, socio-technical
-                  systems, risk assessment gaps, dynamic uncertainty, benchmarking
-                flaws</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computer-science"/>
+                <term type="topics-llm">ai safety limitations, socio-technical systems, risk
+                  assessment gaps, dynamic uncertainty, benchmarking flaws</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45194,8 +45443,10 @@
                   impact on the scientific literature, surpassing the effect of major world events
                   such as the COVID-19 pandemic.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">llm usage, academic writing, vocabulary
-                  analysis, pubmed abstracts, scientific literature trends</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#computational-linguistics"/>
+                <term type="topics-llm">llm usage, academic writing, vocabulary analysis, pubmed
+                  abstracts, scientific literature trends</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45227,8 +45478,10 @@
                   European languages. I will conclude by discussing relevant open research questions
                   regarding political biases in LLMs.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">political bias, large language models,
-                  multilingual analysis, evaluation frameworks, policy issue biases</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#linguistics #political-science #computer-science"/>
+                <term type="topics-llm">political bias, large language models, multilingual
+                  analysis, evaluation frameworks, policy issue biases</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
@@ -45260,9 +45513,11 @@
                   learning infrastructures maintain and reify colonial legacies of displacing costs
                   onto colonial bodies while centralizing benefits in the heart of the empire.</p>
               </note>
-              <note type="keywords"><term type="topics-llm">bias in ai, machine learning ethics,
-                  natural language processing history, colonialism in technology, algorithmic
-                  discrimination</term></note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #philosophy #computer-science"/>
+                <term type="topics-llm">bias in ai, machine learning ethics, natural language
+                  processing history, colonialism in technology, algorithmic discrimination</term>
+              </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">hybrid</term>
