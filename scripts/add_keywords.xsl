@@ -7,7 +7,7 @@
   version="3.0">
   
   <!-- this script adds the keyword-responses of the llm to the main TEI file
-  of the lectures -->
+  of the lectures; obs: add namespace "local" to response file -->
   
   <!--<xsl:output indent="yes"/>-->
   
@@ -19,7 +19,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="note[@type='keywords'][ancestor::event[@type='lecture-series'][@xml:id='ls26']]">
+  <xsl:template match="note[@type='keywords'][ancestor::event[@type='lecture-series-term'][@xml:id='ls8_t11']]">
     <xsl:variable name="event-id" select="ancestor::event[@type='lecture']/@xml:id"/>
     <note type="keywords" xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:apply-templates select="term[@type='discipline' or @type='topic']"/>
