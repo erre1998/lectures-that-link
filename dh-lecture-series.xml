@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25065,10 +25067,10 @@
                 Digitalen Edition</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/1483b"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#digital-humanities #computer-science"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline"
+                  corresp="#digital-humanities #computer-science"/><term type="topics-llm">large
+                  language models, generative ai, text analysis, digital editing, scholarly
+                  workflows</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -25089,10 +25091,9 @@
                 Pontificia“</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/14g4w"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#history"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline" corresp="#history"/><term
+                  type="topics-llm">medieval studies, papal documents, historical research, digital
+                  archives, iberian history</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -25119,10 +25120,10 @@
                 Lithuanian</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/1497f"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#history #computational-linguistics"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline"
+                  corresp="#history #computational-linguistics"/><term type="topics-llm">postil
+                  analysis, historical text visualization, multilingual text linking, early lutheran
+                  studies, computational linguistics</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -25142,10 +25143,9 @@
                 Humanities</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/14elg"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#computer-science #philosophy"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline" corresp="#computer-science #philosophy"
+                  /><term type="topics-llm">artificial intelligence, creative writing, literary
+                  criticism, text analysis, human-machine collaboration</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -25165,10 +25165,9 @@
                 Textual Data: Train the model, change the prompt, or adapt the task?</eventName>
               <ptr type="blogpost" target="https://doi.org/10.58079/14c0w"/>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#computer-science #philosophy"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline" corresp="#computer-science #philosophy"
+                  /><term type="topics-llm">language models, textual data analysis, model training,
+                  prompt engineering, task adaptation</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -25187,10 +25186,9 @@
               <eventName xml:lang="de">Art History meets Visual Analytics: Der Fall der Wiener
                 Secession</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#art-history #museology"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline" corresp="#art-history #museology"/><term
+                  type="topics-llm">visual analytics, art history, vienna secession, data
+                  visualization, cultural analysis</term></note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
@@ -25210,10 +25208,9 @@
                 Netzwerken zwischen Frankreich und Deutschland im Spätmittelalter und der Frühen
                 Neuzeit</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#history"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline" corresp="#history"/><term
+                  type="topics-llm">material networks, transnational exchange, late medieval
+                  studies, early modern history, actor-network theory</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
@@ -25244,10 +25241,10 @@
               <eventName xml:lang="en">The Codex of Records of the Metropolitan See of
                 Philippopolis: A Digital Edition</eventName>
               <note type="abstract" xml:lang="en">not found</note>
-              <note type="keywords">
-                <term type="discipline" corresp="#history #regional-studies #digital-humanities"/>
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
-              </note>
+              <note type="keywords"><term type="discipline"
+                  corresp="#history #regional-studies #digital-humanities"/><term type="topics-llm"
+                  >digital edition, medieval manuscripts, ecclesiastical records, bulgarian history,
+                  codex studies</term></note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
