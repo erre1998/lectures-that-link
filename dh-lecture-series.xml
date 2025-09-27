@@ -21551,6 +21551,503 @@
             <org role="organizer" corresp="#luzi_christophe #walter_richard"/>
           </event>
         </event>
+        <event xml:id="ls7" type="lecture-series" where="#paris">
+          <eventName xml:lang="fr">Les Lundis numériques de l’INHA</eventName>
+          <ptr type="description"
+            target="https://web.archive.org/web/20250620153054/https://numrha.hypotheses.org/category/conseil-veille-strategie/les-lundis-numeriques-de-linha"/>
+          <note type="description" xml:lang="fr">
+            <p>L’Institut national d’histoire de l’art effectue depuis une dizaine d’années une
+              veille active sur le développement des technologies et méthodologies appliquées à la
+              recherche dans le domaine des humanités numériques, particulièrement en ce qui
+              concerne l’histoire de l’art et le patrimoine culturel. De nombreux contacts et
+              échanges sont régulièrement établis entre les acteurs du numérique au sein de
+              l’établissement, et les chercheurs ou équipes de recherche français ou étrangers
+              engagés à divers stades dans des projets innovants concernant le traitement des
+              contenus liés à la recherche, et à la documentation en histoire de l’art et en
+              sciences humaines et sociales.</p>
+          </note>
+          <!-- Overview of all lectures until 2021: https://numrha.hypotheses.org/1528
+          and from 2021-2023: https://numrha.hypotheses.org/7049 -->
+          <event type="lecture-series-term" from="2013-10" to="2014-07" xml:id="ls7_t1">
+            <eventName xml:lang="fr">2013–2014</eventName>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2014-09" to="2015-06" xml:id="ls7_t2">
+            <eventName xml:lang="fr">2014–2015</eventName>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2015-09" to="2016-06" xml:id="ls7_t3">
+            <eventName xml:lang="fr">2015-2016</eventName>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2016-09" to="2017-06" xml:id="ls7_t4">
+            <eventName xml:lang="fr">2016-2017</eventName>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2017-09" to="2018-06" xml:id="ls7_t5">
+            <eventName xml:lang="fr">2017-2018</eventName>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2018-09" to="2019-06" xml:id="ls7_t6">
+            <eventName xml:lang="fr">2018-2019</eventName>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2019-09" to="2020-06" xml:id="ls7_t7">
+            <eventName xml:lang="fr">2019-2020</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+            <note type="description" xml:lang="fr">
+              <p>Depuis 2013, l’INHA propose un cycle de conférences destinées à présenter, un lundi
+                par mois, différents projets, équipes et travaux menés dans le champs des humanités
+                numériques sur des problématiques propres aux enjeux, représentations, aspects
+                techniques ou questions juridiques de l’histoire de l’art et des images.</p>
+              <p>Depuis janvier 2017, les Lundis numériques sont captés et disponibles sur
+                Youtube.</p>
+              <p>Nous vous proposons de retrouver ici les abrégés et ressources accessibles en ligne
+                des conférences présentées lors de la dernière saison en 2019-2020.</p>
+            </note>
+            <event type="lecture" when="2019-09-16" xml:id="ls7_t8_l1">
+              <eventName xml:lang="fr">POP : la plate-forme ouverte du patrimoine du Ministère de la
+                Culture</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <note type="abstract" xml:lang="fr">
+                <p>La Plateforme Ouverte du Patrimoine (POP) est le résultat d’un important projet
+                  de refonte du système documentaire du Ministère de la Culture, conduit sous la
+                  forme d’une Startup d’Etat. Mise en place pour prévenir la menace d’obsolescence
+                  et l’accès limité des fonds en ligne depuis les années 1990, renseignant sur
+                  divers sujets tels que la peinture, les manuscrits, les monuments, l’architecture
+                  ou la photographie, cette plateforme présente un unique réservoir de données
+                  alimenté par les bases historiques : Joconde, Palissy, Mérimée, Mémoire, MNR
+                  Rose-Valland, Enluminures ou Muséofile.</p>
+                <p>Se voulant accessible au plus grand nombre, en plaçant l’utilisateur au centre du
+                  dispositif, POP entend diffuser et valoriser largement ses données avec le choix
+                  d’un nom évocateur de démocratisation, tout en privilégiant une simplification de
+                  ses modes de recherche en open source. En outre :</p>
+                <list>
+                  <item>– L’utilisation du moteur Elasticsearch facilite l’ingestion, la
+                    visualisation et le rapport de données, permettant un accès mutualisé et base
+                    par base ;</item>
+                  <item>– Les modes de recherche, pensés en écosystèmes, renvoient aux bases
+                    elles-mêmes et font des liens vers l’extérieur ;</item>
+                  <item>– La création de thématiques donne à découvrir les contenus selon différents
+                    sujets (Photographie, Peinture et dessin, Voyages, …). Des rubriques sont ainsi
+                    consacrées au photographe Willy Ronis ou aux dessins d’Eugène Delacroix ;</item>
+                  <item>– Une grande partie des contenus est accessible en open data sur
+                    data.culture.gouv.</item>
+                </list>
+                <p>Après une ouverture du service POP le 15 septembre 2018, présenté comme étant «
+                  en constante évolution », sa réintégration définitive a eu lieu en octobre 2019.
+                  (Voir sur : culture.gouv.fr)</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#art-history #library-information"/>
+                <term type="topics-llm">cultural heritage, open data, data visualization, search
+                  engines, online platforms</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#della-bartolomea_sandrine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ministere-de-la-culture"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2019-10-07" xml:id="ls7_t8_l2">
+              <eventName xml:lang="en">Watch &amp; Wander : Interactive Visualizations of Cultural
+                Heritage Data</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=k00NuOPQPOQ"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Une communauté croissante de concepteurs, d’artistes et d’ingénieurs crée des
+                  interfaces visuelles pour accéder aux données du patrimoine culturel. Alors que le
+                  domaine de la visualisation de l’information a été établi dans l’optique d’appuyer
+                  l’analyse des données en sciences et en ingénierie, les expériences dans les arts
+                  et les sciences humaines provoquent des modes alternatifs d’engagement avec les
+                  données. Dans son exposé, Martin Dörk, a proposé un panorama de « l’univers en
+                  expansion de la visualisation des collections culturelles » et a soulevé un
+                  ensemble de questions sur les potentiels critique et créatif de la visualisation
+                  dans le secteur culturel. En s’inspirant des recherches en design mené dans son
+                  université, l’UCLAB, il a discuté de la façon dont les visualisations peuvent
+                  permettre aux spectateurs de passer de la contemplation d’artefacts isolés à
+                  l’exploration de collections.</p>
+                <p>Au cours de son exposé Martin Dörk a évoqué les projets produits par l’université
+                  de Potsdam :</p>
+                <list>
+                  <item>Le projet Coins, proposant d’explorer les 26 000 monnaies conservées par le
+                    Münzkabinett Berlin de façon à la fois ludique et interactive à l’aide d’un
+                    ensemble de filtres et d’une interface originale.</item>
+                  <item>Une visualisation de la collection des dessins de Frédéric-Guillaume IV de
+                    Prusse (1795 – 1861), permettant une exploration thématique et chronologique de
+                    près de 1500 feuilles</item>
+                  <item>Une visualisation de la collection des oeuvres, photographies, écrits et
+                    archives du dadaïste Raoul Hausmann conservée à la Berlinischen Galerie.</item>
+                  <item>Le projet Close-Up Cloud permettant l’exploration visuelle d’une collection
+                    de 1700 plaques de verres produites par Wilhelm Weimar (1857–1917) et conservées
+                    au Museum für Kunst und Gewerbe Hamburg (MKG)</item>
+                </list>
+                <p>Ainsi que d’autres projets innovants menés dans de nombreuses institutions :</p>
+                <list>
+                  <item>Interface de consultation des collections du Tyne &amp; Wear archives &amp;
+                    Museum</item>
+                  <item>Site web Bellow The Surface, présentant les vestiges archéologiques
+                    découverts à Amsterdam</item>
+                  <item>Digital collection The New York collection</item>
+                  <item>Le projet The Visible Archive</item>
+                  <item>La visualisation des données du Provenance Index du Getty (nécessite
+                    Flash)</item>
+                  <item>Une visualisation des poètes et poésies mobilisés l’oeuvre de Britten
+                    réalisé dans le cadre d’une exposition en 2015</item>
+                  <item>L’interface de visualisation des collections du Staëdl Museum</item>
+                  <item>Une visualisation des anthologies de science-fiction de Gibson</item>
+                </list>
+                <p>Il a également évoqué les travaux suivants :</p>
+                <listBibl>
+                  <bibl>Card, Stuart K., Mackinlay, Jock D., Shneiderman, B. (dir.), Readings in
+                    Information Visualization: Using Vision to Think, Morgan Kaufmann, 1999, 686
+                    pages.</bibl>
+                  <bibl>Dörk, Martin, Carpendale, Sheelagh, Willamson, Carey, « The information
+                    flaneur: a fresh look at information seeking », CHI ’11: Proceedings of the
+                    SIGCHI Conference on Human Factors in Computing Systems, 2011, pp. 1215–1224 .
+                    [En ligne]</bibl>
+                  <bibl>Drucker, Johanna, « Performative Materiality and Theoretical Approaches to
+                    Interface », Digital Humanities Quarterly, 2013, 7(1). [En ligne]</bibl>
+                  <bibl>Heer, Jeffrey, Bostock, Michael et Ogievetsky, Vadim, « A Tour through the
+                    Visualization Zoo », ACMQueue, 2010, 8(5). [En ligne]</bibl>
+                  <bibl>Whitelaw, M., « Generous interfaces for digital collections », Digital
+                    Humanities Quarterly, 2015, 9(1), [En ligne]</bibl>
+                </listBibl>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #digital-humanities"/>
+                <term type="topics-llm">cultural heritage, interactive visualizations, data
+                  exploration, collection interfaces, user engagement</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#doerk_marian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-potsdam-fhp"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2019-11-18" xml:id="ls7_t8_l3">
+              <eventName xml:lang="fr">Un « Système d’Information Documentaire Spatialisée » pour la
+                valorisation scientifique de la Tapisserie de Bayeux</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=LnjA1gJkKIg"/>
+              <note type="abstract" xml:lang="fr">
+                <p>L’État et la Ville de Bayeux se sont associés à l’université de Caen Normandie et
+                  au CNRS pour concevoir et développer un outil d’étude et de valorisation de la
+                  Tapisserie de Bayeux, broderie médiévale du XIe siècle. Cet outil, un « Système
+                  d’information documentaire spatialisée » (SIDS), s’inspire des techniques
+                  utilisées dans les « SIG » et propose d’associer un système documentaire
+                  rassemblant les ressources scientifiques sur l’œuvre (état matériel,
+                  iconographie…) et un système d’information spatialisée. Il offre ainsi des
+                  solutions d’accès aux données sur la reproduction haute définition de cette œuvre
+                  monumentale (près de 70 m de long) à la communauté scientifique (indexation et
+                  extraction des analyses), puis au grand public (outils de médiation
+                  spécifiques).</p>
+                <p>Pour en savoir plus : Antoine Verney, Clémentine Berthelot, Arnaud Daret, Jérôme
+                  Chauveau, Pierre-Yves Buard, Julia Roger et Cécile Binet, « Redocumentariser la
+                  Tapisserie de Bayeux : base de données documentaire et système d’informations
+                  spatialisées », Tabularia, 19 décembre 2018, [En ligne].</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#history #art-history"/>
+                <term type="topics-llm">spatialized information system, medieval tapestry,
+                  scientific valorization, high-definition reproduction, public mediation</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#berthelot_clementine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#bayeux-museum"/>
+                </person>
+                <person role="speaker" corresp="#roger_julia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-caen-normandie"/>
+                </person>
+                <person role="speaker" corresp="#daret_arnaud">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-caen-normandie"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2019-12-09" xml:id="ls7_t8_l4">
+              <eventName xml:lang="fr">De l’opendata à museomix : des pratiques ouvertes qui
+                transforment le musée</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=CAh_qsto5Pc"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Menée depuis 2015, la politique d’ouverture des données du musée d’art et
+                  d’histoire Ville de Saint-Brieuc offre de nombreuses clés utiles à la diffusion du
+                  patrimoine culturel par les outils du numérique. Ce parcours souligne l’importance
+                  de la dimension coopérative des projets utilisant ces outils, qui doivent tous
+                  leur succès à la rencontre et à l’hybridation d’une communauté culturelle locale
+                  avec des communautés numériques et/ou créatives :</p>
+                <list>
+                  <item>Plusieurs jeux de données structurées du musée ont d’abord été mis à
+                    disposition sur des plateformes numériques publiques : au niveau départemental
+                    sur Dat’Armor, au niveau national sur data.gouv.fr et sur la base Joconde</item>
+                  <item>Un important travail d’enrichissement de ces données a été mené en
+                    collaboration avec la communauté Wikidata, comme le montrent les pages Wikidata
+                    et Wikipedia du musée, leurs collections sur Wikimedia Commons et celle d’une
+                    journée Edit-a-thon (2017)</item>
+                  <item>Le fonds Lucien Bailly, riche de milliers de plaques photographiques, a fait
+                    l’objet d’un travail de valorisation et d’éditorialisation en partenariat avec
+                    Dokat, ayant abouti à la création d’un dispositif de médiation sous la forme
+                    d’un nuage d’images numérique.</item>
+                  <item>Le musée s’est engagé avec les communautés Museomix et Museomix Ouest dans
+                    des projets de médiation expérimentale comme Breiz(h) à Gratter (2015),
+                    Museosprint (2016) et le Museomix de Saint-Brieuc et la villa Rohannec’h
+                    (2018)</item>
+                  <item>Ces projets ont finalement attiré de nouveaux partenaires et encouragé de
+                    nouvelles formes d’appropriation du patrimoine, à l’instar des oeuvres de
+                    Florence Levillain ou des évènements Coding Goûter</item>
+                </list>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #art-history"/>
+                <term type="topics-llm">open data, museums, cultural heritage, community
+                  collaboration, data enrichment</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#renault_elisabeth">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#museum-saint-brieuc"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2020-01-13" xml:id="ls7_t8_l5">
+              <eventName xml:lang="fr">Présentation de la publication numérique et imprimée du
+                catalogue des sculptures de la villa romaine de Chiragan
+                (Martres-Tolosane)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=-bTGBPaJR3o"/>
+              <note type="abstract" xml:lang="fr">
+                <p>La double publication du catalogue des sculptures de la villa romaine de Chiragan
+                  par le musée Saint-Raymond est récemment venue honorer de nouvelles méthodologies
+                  de travail accessibles dans le domaine de l’édition, issues notamment des
+                  recherches de Julie Blanc et d’Antoine Fauchié. Le développement de la publication
+                  numérique de la collection Chiragan a en effet été pensée de manière à profiter de
+                  nombreux avantages scientifiques et techniques :</p>
+                <list>
+                  <item>Sur le plan scientifique, le catalogue en ligne offre la possibilité
+                    d’actualiser le corpus en fonction des avancées de la recherche, d’élargir son
+                    horizon de diffusion, de proposer des notices d’une plus grande richesse à
+                    partir de données alignées à Wikidata, de synthèses complexes, de ressources
+                    documentaires complètes et d’illustrations interactives.</item>
+                  <item>Sur le plan technique, le principe de séparation du fond et de la forme qui
+                    régit le web soutient une chaîne d’édition ingénieuse – disponible sur le Gitlab
+                    du projet, autorisant la mise en oeuvre d’un effort de single source publishing.
+                    Avec l’aide d’outils tels que paged.js, forestry.io ou encore jekyll, la
+                    construction d’un système de publication interopérable, modulable et multiforme
+                    a ainsi permis d’accompagner la version numérique du catalogue de Chiragan d’un
+                    guide imprimé, développé à partir d’une seule et même chaîne éditoriale.</item>
+                </list>
+                <p>À voir, pour aller plus loin :</p>
+                <list>
+                  <item>La présentation détaillée du travail de Julie Blanc sur ce projet</item>
+                  <item>« Vers un système modulaire de publication : éditer avec le numérique »
+                    d’Antoine Fauchié et la vidéo de son intervention aux Lundis Numériques en
+                    2018</item>
+                </list>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#museology #art-history"/>
+                <term type="topics-llm">roman sculptures, digital publishing, wikidata integration,
+                  single source publishing, interactive illustrations</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#molinie_christelle">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#museum-saint-raymond #museum-archeologie-toulouse"/>
+                </person>
+                <person role="speaker" corresp="#blanc_julie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation
+                    corresp="#uni-paris-sciences-lettres #uni-paris-vincennes-saint-denis"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2020-02-10" xml:id="ls7_t8_l6">
+              <eventName xml:lang="fr">Programme des registres de la Comédie Française
+                (1680-1793)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=jleKglJ6J64"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Depuis 1680, date d’inauguration de la Comédie Française, des registres
+                  renseignent sur les recettes, les dépenses et les feux des représentations
+                  journalières, aujourd’hui conservés dans la Bibliothèque-Musée de l’institution.
+                  Ces archives, héritage de l’Etat policier de l’Ancien Régime, présentent un corpus
+                  pluridisciplinaire, tant quantitatif que qualitatif. En rapportant à la fois ce
+                  qui est joué, l’affluence des spectateurs et leur répartition en salle, ou les
+                  gratifications et la distribution accordées aux comédiens, elles sont aussi le
+                  reflet d’une réalité politique et sociale, sinon économique.</p>
+                <p>Instauré depuis plus de dix ans, oeuvrant à la fois en France, aux Etats-Unis et
+                  au Canada, le Programme des registres de la Comédie Française propose de conjuguer
+                  ces données au numérique, pour une période s’étalant du 17e au 18e siècle. Conduit
+                  en plusieurs phases, en s’attachant d’abord aux recettes, ce projet comprend des
+                  données variées, mouvantes, « vivantes », qui posent la question complexe
+                  d’interprétations dépassant parfois le cadre chiffré et de comment le numérique
+                  peut y répondre.</p>
+                <p>Avec le choix de la création de bases de données relationnelles, d’une base
+                  complémentaire pour les périodiques critiques ou encore d’un outil de
+                  visualisation, le programme présente ses premiers résultats et rend compte d’un
+                  héritage culturel utile à la recherche tant qu’aux amateurs ou aux comédiens. En
+                  se référant à ces productions, plusieurs chercheurs ont publié sur la Comédie
+                  Française, et divers colloques et séminaires expérimentaux ont été organisés.
+                  Elles ont notamment permis la redécouverte de pièces parfois oubliées ou de
+                  comédiens invisibilisés par l’histoire et pourtant sur-représentés dans les
+                  registres.</p>
+                <p>Ce développement, toujours en cours, démontre ainsi des potentialités
+                  d’actualisation scientifique, en prônant un travail efficient entre le monde des
+                  humanités et du numérique.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information #literary-studies"/>
+                <term type="topics-llm">theater history, financial records, data visualization,
+                  cultural heritage, 17th-18th century france</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#biet_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paris-nanterre"/>
+                </person>
+                <person role="speaker" corresp="#harvey_sara">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-victoria"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <event type="lecture" when="2020-03-09" xml:id="ls7_t8_l7">
+              <eventName xml:lang="fr">Du Portail Persée aux Perséïdes en passant par data Persée:
+                des services innovants au profit de la valorisation numérique du patrimoine
+                documentaire</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250620153536/https://numrha.hypotheses.org/300"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=IYeMfRao1x0"/>
+              <note type="abstract" xml:lang="fr">
+                <p>Le Portail Persée, qui propose un accès libre et gratuit à des collections
+                  complètes de publications scientifiques, conduit, depuis son fondement, une
+                  politique éditoriale et documentaire sélective, assurant une adéquation avec
+                  l’actualité scientifique. Son système structuré permet une convergence entre les
+                  documents matériels et leur édition électronique, avec une chaîne opératoire
+                  précise (numérisation, documentation des revues, sémantisation, diffusion ouverte,
+                  préservation, référencement). Différentes possibilités permettent finalement
+                  d’exploiter les fonds grâce à des outils habituellement attribués aux documents
+                  nativement numériques.</p>
+                <p>Depuis 2015, Persée engage une réflexion sur la mise en place de services
+                  complémentaires utiles pour la recherche qui s’est déployée en plusieurs axes
+                  :</p>
+                <list>
+                  <item>L’unité s’est d’abord ouverte aux sciences de la vie et de la terre en ne se
+                    concentrant plus seulement sur les sciences humaines et sociales ;</item>
+                  <item>La création du label Les Perséïdes, permet, grâce à un travail collaboratif
+                    avec différentes équipes de recherche, l’identification de corpus mis à
+                    disposition en deux dimensions. Le projet ATHAR ainsi conduit avec le
+                    laboratoire InVisu présente rapports, littérature scientifique et archives
+                    photographiques sur les monuments de l’art arabe de villes du bassin
+                    méditerranéen ;</item>
+                  <item>Enfin, la mise à disposition de l’outil triplestore Data Persée réunit les
+                    données de l’ensemble des ressources produites par Persée selon les principes du
+                    web sémantique, permettant de nouvelles requêtes et un format ouvert de
+                    contenus.</item>
+                </list>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="#library-information"/>
+                <term type="topics-llm">open access, scientific publications, digital preservation,
+                  semantic web, collaborative research</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#begnis_helene">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-lumiere-lyon"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#inha"/>
+            </event>
+            <org role="organizer" corresp="#daniel_johanna #smadja_camille #truc_alice"/>
+          </event>
+          <event type="lecture-series-term" from="2020-09" to="2021-06" xml:id="ls7_t8">
+            <eventName xml:lang="fr">2020-2021</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622144533/https://numrha.hypotheses.org/1551"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2022-09" to="2023-06" xml:id="ls7_t9">
+            <eventName xml:lang="fr">2022-2023</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622150038/https://numrha.hypotheses.org/7049"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2023-09" to="2024-06" xml:id="ls7_t10">
+            <eventName xml:lang="fr">2023-2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622145534/https://numrha.hypotheses.org/12379"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+          <event type="lecture-series-term" from="2024-09" to="2025-06" xml:id="ls7_t11">
+            <eventName xml:lang="fr">2024-2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250622145205/https://numrha.hypotheses.org/16905"/>
+            <!-- Lectures will be added here -->
+            <org role="organizer" corresp="#..."/>
+          </event>
+        </event>
         <!-- ##### Germany ##### -->
         <event xml:id="ls8" type="lecture-series" where="#koeln">
           <eventName xml:lang="de">Digital Humanities – Aktuelle Forschungsthemen</eventName>
@@ -45038,11 +45535,335 @@
             <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
           </event>
         </event>
-
-       
-      
-        
-        
+        <event xml:id="ls53" type="lecture-series" where="#mainz">
+          <eventName xml:lang="de">Von Büchern zu Bytes: Die digitale Transformation in der
+            Geschichtswissenschaft</eventName>
+          
+          <event type="lecture-series-term" from="2023-10" to="2024-06" xml:id="ls53_t1">
+            <eventName>Staffel 1</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809195538/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes"/>
+            
+            <!-- 2023-10-27 https://www.youtube.com/watch?v=69mvMLyVXmU  |  https://www.youtube.com/watch?v=dLyqJtYiXbA  |  https://www.youtube.com/watch?v=FW5udQ3k9oU  |  https://doi.org/10.5281/zenodo.10078729 -->
+            <!-- 2023-11-24 https://www.youtube.com/watch?v=ytYEvyeZH7A  |  https://doi.org/10.5281/zenodo.10213756 -->
+            <!-- 2023-12-10 https://www.youtube.com/watch?v=YGwl3f7o9h8  |  https://doi.org/10.5281/zenodo.10781223 -->
+            <!-- 2024-01-26 https://www.youtube.com/watch?v=KJ_gJQN-05U  |  https://doi.org/10.5281/zenodo.10786192 -->
+            <!-- 2024-02-23 https://www.youtube.com/watch?v=_zv1Lnc4E6U  |  https://doi.org/10.5281/zenodo.12154779 -->
+            <!-- 2024-03-22 https://www.youtube.com/watch?v=cnzKtWdn9mQ  |  https://doi.org/10.5281/zenodo.11195619 -->
+            <!-- 2024-04-26 https://www.youtube.com/watch?v=U0etiDhv_FY -->
+            <!-- 2024-05-24 https://www.youtube.com/watch?v=HAilSqf4Ses  |  https://doi.org/10.5281/zenodo.12684280 -->
+            <!-- 2024-06-28 https://www.youtube.com/watch?v=aEFuYRDausY  |  https://doi.org/10.5281/zenodo.13381764-->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2024-10" to="2025-06" xml:id="ls53_t2">
+            <eventName>Staffel 2</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809195538/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes"/>
+            
+            <!-- 2024-10-25 https://web.archive.org/web/20250810174727/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/factgrid-eine-wikibase-instanz-fuer-historische-daten/  |  https://www.youtube.com/watch?v=znuP1Rp_YZc -->
+            <!-- 2024-11-22 https://web.archive.org/web/20250810174524/https://www.uni-konstanz.de/international-participation-und-erasmus-humanities/aktuelles/kalender-detail/termin/transkribus-escriptorium-zwei-plattformen-zur-transkription-und-automatisierten-erkennung-von-historischen-textquellen/  |  https://www.youtube.com/watch?v=3j1dHcwZS7I -->
+            <!-- 2024-12-13 https://web.archive.org/web/20250810175219/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/visualising-historical-data-across-epistemological-practices/ -->
+            <!-- 2025-01-24 https://web.archive.org/web/20250810175257/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/die-zukunft-der-vergangenheit-eine-einfuehrung-in-die-arbeit-mit-chatgpt-co-in-den-geschichtswissenschaften/  |  https://www.youtube.com/watch?v=g8ThVmhOdtg -->
+            <!-- 2025-02-21 https://web.archive.org/web/20250810175601/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/forschungsdaten-digital-managen-mit-fud-ein-vielseitiges-tool-fuer-die-geistes-und-sozialwissenschaften/  |  https://www.youtube.com/watch?v=HOuaWZ3f8Do -->
+            <!-- 2025-03-21 https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/ -->
+            <!-- 2025-04-25 https://web.archive.org/web/20250810180045/https://www.literature.uni-konstanz.de/gebert/aktuelles/veranstaltungen/detailed-event-calender/termin/die-begriffe-der-geschichte-kontrollierte-vokabulare-und-sachbegriffsressourcen-fuer-die-digitale-historische-arbeit/  |  https://www.youtube.com/watch?v=D4WP2A_AaP0 -->
+            <!-- 2025-05-23 https://web.archive.org/web/20250810180141/https://www.mathematik.uni-konstanz.de/analysis/seminare/details-oberseminar/termin/kompetent-recherchieren-nach-literatur-und-mehr-zentrale-tools-des-fachinformationsdienstes-geschichtswissenschaft/  |  https://www.youtube.com/watch?v=DMYuCcfGg7A  |  https://doi.org/10.5281/zenodo.15781348 -->
+            <!-- 2025-06-27 https://web.archive.org/web/20250810180226/https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/ -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+        </event>
+        <event xml:id="ls52" type="lecture-series" where="#regensburg">
+          <eventName xml:lang="de">Trends der Digital Humanities</eventName>
+          
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls52_t1">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809192526/https://www.uni-regensburg.de/sprache-literatur-kultur/digital-humanities/veranstaltungen/vergangene-semester/index.html"/>
+            
+            
+            
+            <org role="organizer" corresp="#schumacher_mareike #helmig_clara"/>
+          </event>
+          
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls52_t2">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809192731/https://www.uni-regensburg.de/sprache-literatur-kultur/digital-humanities/veranstaltungen/ringvorlesung-sommer-2025/index.html"/>
+            
+            
+            
+            <org role="organizer" corresp="#schumacher_mareike #helmig_clara"/>
+          </event>
+          
+        </event>
+        <event xml:id="ls49" type="lecture-series" where="#mainz">
+          <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
+            Kulturwissenschaften</eventName>
+          
+          <event type="lecture-series-term" from="2017-05" to="2017-07" xml:id="ls49_t1">
+            <eventName>Sommersemester 2017</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115211643/https://www.digitale-methodik.uni-mainz.de/inhalt/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20241202085044/https://www.digitale-methodik.uni-mainz.de/programm/"/>
+            
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2018-04" to="2018-07" xml:id="ls49_t2">
+            <eventName>Sommersemester 2018</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115220116/https://www.digitale-methodik.uni-mainz.de/konzept-ringvorlesung-sommersemester-2018/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115230932/https://www.digitale-methodik.uni-mainz.de/programm-ringvorlesung-sommersemester-2018/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809175938/https://www.igl.uni-mainz.de/fileadmin/user_upload/Transdisziplinaere_Aspekte_digitaler_Methodik_in_den_Geistes-_und_Kulturwissenschaften.pdf"/>
+            
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2019-05" to="2019-07" xml:id="ls49_t3">
+            <eventName>Sommersemester 2019</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250315111530/https://www.digitale-methodik.uni-mainz.de/ringvorlesung-sommersemester-2019/"/>
+            
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <!-- It seems that there was no edition of the lecture series in 2020 -->
+          
+          <event type="lecture-series-term" from="2021-04" to="2021-07" xml:id="ls49_t4">
+            <eventName>Sommersemester 2021</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115224658/https://www.digitale-methodik.uni-mainz.de/programm-ringvorlesung-2021/"/>
+            
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls49_t5">
+            <eventName>Sommersemester 2022</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250115223239/https://www.digitale-methodik.uni-mainz.de/ringvorlesung-2022/"/>
+            
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2023-04" to="2023-07" xml:id="ls49_t6">
+            <eventName>Sommersemester 2023</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250210102949/https://www.digitale-methodik.uni-mainz.de/1952-2/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20241202074200/https://www.digitale-methodik.uni-mainz.de/files/2023/04/2023_ringvorlesung_a4_print-1.pdf"/>
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls49_t7">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20240418191212/https://www.digitale-methodik.uni-mainz.de/aktuelles/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250213015216/https://fedihum.s3proxy.de/media_attachments/files/112/293/055/767/557/975/original/ca69be58c58bcbea.png"/>
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls49_t8">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
+            
+            
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+        </event>
+        <event xml:id="ls48" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">Praxis der Digital Humanities</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250809142625/https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-ii/faecher/computerlinguistik-und-digital-humanities/studium/msc-dh/vortragsreihe-praxis-der-digital-humanities"/>
+          
+          <event type="lecture-series-term" from="2018-11" to="2019-01" xml:id="ls48_t1">
+            <eventName>Wintersemester 2018-19</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2018-11-08 https://web.archive.org/web/20250809153836/https://tcdh.uni-trier.de/de/event/vortrag-digital-editions-historical-text-re-use -->
+            <!-- 2018-11-21 https://web.archive.org/web/20250809153821/https://tcdh.uni-trier.de/de/event/vortrag-digital-humanities-theatre-research-und-workshop-interactive-network-visualization -->
+            <!-- 2018-12-13 https://web.archive.org/web/20250809153903/https://tcdh.uni-trier.de/de/event/vortrag-worueber-wir-sprechen-wenn-wir-ueber-topic-modeling-sprechen -->
+            <!-- 2019-01-10 https://web.archive.org/web/20250809154058/https://tcdh.uni-trier.de/de/event/vortrag-ocr4all -->
+            <!-- 2019-01-24 https://web.archive.org/web/20250809154035/https://tcdh.uni-trier.de/de/event/veranstaltung-des-jubilaeumsprogramms-20182019 | https://web.archive.org/web/20250809154213/https://www.uni-trier.de/fileadmin/fb2/LDV/Vortr%C3%A4ge_und_Workshops/Plakat_Block_Januar_2019.pdf -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2019-11" to="2020-01" xml:id="ls48_t2">
+            <eventName>Wintersemester 2019-20</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2019-11-07 https://web.archive.org/web/20250809154713/https://tcdh.uni-trier.de/de/event/vortrag-onama-ein-linked-open-data-projekt-zur-untersuchung-von-narrativen-des-mittelalters -->
+            <!-- 2019-11-24 https://web.archive.org/web/20250809154726/https://tcdh.uni-trier.de/en/event/lecture-stylometry-chinese-and-following-flow-information -->
+            <!-- 2019-11-28 https://web.archive.org/web/20250809154925/https://tcdh.uni-trier.de/de/event/vortrag-im-rahmen-einer-arbeitstagung-hathitrust-research-center-us-american-perspective -->
+            <!-- 2019-12-05 https://web.archive.org/web/20250809154804/https://tcdh.uni-trier.de/en/event/lecture-digitally-modelling-history-traditional-games -->
+            <!-- 2020-01-30 https://web.archive.org/web/20250809154809/https://tcdh.uni-trier.de/de/event/vortrag-scholarly-publishing-beyond-pdf-publication-data-data-data -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2020-11" to="2021-01" xml:id="ls48_t3">
+            <eventName>Wintersemester 2020-21</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2020-11-19 https://web.archive.org/web/20250809155050/https://tcdh.uni-trier.de/en/event/lecture-digital-humanities-korean-trajectory -->
+            <!-- 2020-12-03 https://web.archive.org/web/20250809155009/https://tcdh.uni-trier.de/de/event/vortrag-visual-culture-and-artificial-intelligence -->
+            <!-- 2020-12-17 https://web.archive.org/web/20250809155411/https://tcdh.uni-trier.de/de/event/vortrag-musikwissenschaft-und-informatik-im-dialog-moeglichkeiten-der-computergestuetzten -->
+            <!-- 2021-01-14 https://web.archive.org/web/20250809155302/https://tcdh.uni-trier.de/en/event/lecture-linked-open-data-lod-research-what-wikidata-and-how-can-we-contribute-and-use-it -->
+            <!-- 2021-01-21 https://web.archive.org/web/20250809155401/https://tcdh.uni-trier.de/de/event/vortrag-adding-value-ancient-greek-pottery-data-presenting-project-lekythos -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2021-12" to="2020-02" xml:id="ls48_t4">
+            <eventName>Wintersemester 2021-22</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- sameAs="#..." / 2021-12-01 https://web.archive.org/web/20250809165404/https://tcdh.uni-trier.de/de/event/vortrag-von-keli-du-trier-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2021-12-07 https://web.archive.org/web/20250809165404/https://tcdh.uni-trier.de/de/event/vortrag-von-martin-kocula-parsqube-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- sameAs="#..." / 2021-12-03  https://web.archive.org/web/20250809165349/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-nick-montfort-mit-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2022-01-11 https://web.archive.org/web/20250809165411/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-maria-effinger-heidelberg-university-press-der-vorlesungsreihe-praxis-der -->
+            <!-- 2022-01-18 https://web.archive.org/web/20250809165141/https://tcdh.uni-trier.de/de/event/vortrag-von-jprof-dr-julie-birkholz-und-sven-lieber-universitaet-ghent-und-koenigliche -->
+            <!-- 2022-02-01 https://web.archive.org/web/20250809165119/https://tcdh.uni-trier.de/en/event/lecture-dr-jose-calvo-telloin-lecture-series-praxis-der-digital-humanities -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2022-10" to="2022-12" xml:id="ls48_t5">
+            <eventName>Wintersemester 2022-23</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2022-10-25 https://web.archive.org/web/20250809164114/https://tcdh.uni-trier.de/de/event/vortrag-von-tanja-tu-ids-mannheim-ueber-ihren-weg-die-digital-humanities -->
+            <!-- 2022-11-15 https://web.archive.org/web/20250809164055/https://mimotext.uni-trier.de/vortrag-dr-olaf-simons/ -->
+            <!-- 2022-11-22 https://web.archive.org/web/20250809164044/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-stefan-hessbrueggen-walter-mimotext-fellow-kanones-der-aufklaerung-ein -->
+            <!-- 2022-12-06 https://web.archive.org/web/20250809164217/https://tcdh.uni-trier.de/de/event/vortrag-von-henning-bovenkerk-westfaelische-wilhelms-universitaet-muenster-mimotext-fellow -->
+            <!-- 2022-12-13 -->
+            <!-- 2022-12-20 -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2023-11" to="2024-02" xml:id="ls48_t6">
+            <eventName>Wintersemester 2023-24</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2023-11-06 https://web.archive.org/web/20250809170956/https://tcdh.uni-trier.de/de/event/vortrag-von-nicola-mclelland-university-nottingham-der-vorlesungsreihe-praxis-der-digital -->
+            <!-- 2024-01-16 https://web.archive.org/web/20250809155553/https://tcdh.uni-trier.de/de/event/vortrag-von-andreas-lueschow-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-01-23 https://web.archive.org/web/20250809155603/https://tcdh.uni-trier.de/de/event/vortrag-von-caroline-jansky-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-02-06 https://web.archive.org/web/20250809155645/https://tcdh.uni-trier.de/de/event/vortrag-von-sarah-wagner-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-02-13 https://web.archive.org/web/20250809155740/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-ruediger-singer-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2024-10" to="2024-12" xml:id="ls48_t7">
+            <eventName>Wintersemester 2024-25</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2024-10-29 https://web.archive.org/web/20250809160038/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-svenja-guhr-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-11-27 https://web.archive.org/web/20250809160137/https://tcdh.uni-trier.de/de/event/vortrag-von-irakli-khvedelidze-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            <!-- 2024-12-04 https://web.archive.org/web/20250809160003/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-dr-anne-baillot-der-vorlesungsreihe-praxis-der-digital-humanities -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+        </event>
+        <event xml:id="ls47" type="lecture-series" where="#trier">
+          <eventName xml:lang="de">TCDH-Forschungskolloquiums „Perspektiven der Digital
+            Humanities“</eventName>
+          
+          <event type="lecture-series-term" from="2021-10" to="2022-01" xml:id="ls47_t1">
+            <eventName>Wintersemester 2021-22</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2021-12-02 https://web.archive.org/web/20250807164734/https://tcdh.uni-trier.de/de/event/vortrag-von-michael-mueller-berlin-und-michael-niedermeier-berlin-im-rahmen-des -->
+            <!-- 2021-12-16 https://web.archive.org/web/20250807164921/https://tcdh.uni-trier.de/de/event/vortrag-von-nicolas-schenk-trier-im-rahmen-des-forschungskolloquiums -->
+            <!-- 2022-01-06 https://web.archive.org/web/20250807164806/https://tcdh.uni-trier.de/de/event/vortrag-von-carolin-geib-trier-im-rahmen-des-forschungskolloquiums -->
+            <!-- 2022-01-20 https://web.archive.org/web/20250807164933/https://tcdh.uni-trier.de/de/event/vortrag-von-anne-klee-trier-im-rahmen-des-forschungskolloquiums -->
+            <!-- 2022-02-10 https://web.archive.org/web/20250807164944/https://tcdh.uni-trier.de/de/event/vortrag-von-julia-roettgermann-trier-im-rahmen-des-forschungskolloquiums -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          
+          <event type="lecture-series-term" from="2022-04" to="2022-07" xml:id="ls47_t2">
+            <eventName>Sommersemester 2022</eventName>
+            <ptr type="programme" target="..."/>
+            
+            <!-- 2022-04-07 https://web.archive.org/web/20250807145944/https://tcdh.uni-trier.de/de/event/vortrag-von-maria-doetsch-trier-im-rahmen-des-forschungskolloquiums-digitale-perspektiven -->
+            <!-- 2022-04-28 https://web.archive.org/web/20250807150022/https://tcdh.uni-trier.de/de/event/vortrag-von-estelle-bunout-luxembourg-im-rahmen-des-forschungskolloquiums-digitale  -->
+            <!-- 2022-05-12 https://web.archive.org/web/20250807150036/https://tcdh.uni-trier.de/de/event/vortrag-von-petra-maisak-bad-homburg-im-rahmen-des-forschungskolloquiums-digitale -->
+            <!-- 2022-06-09 https://web.archive.org/web/20250807150047/https://tcdh.uni-trier.de/de/event/vortrag-von-ariadne-baresch-trier-im-rahmen-des-forschungskolloquiums-digitale-perspektiven -->
+            <!-- 2022-06-23 https://web.archive.org/web/20250807145924/https://tcdh.uni-trier.de/de/event/vortrag-von-jenny-brys-claudia-haefner-christian-thomas-weimar-im-rahmen-des -->
+            <!-- 2022-06-30 https://web.archive.org/web/20250807150104/https://tcdh.uni-trier.de/de/event/vortrag-von-keli-du-trier-im-rahmen-des-forschungskolloquiums-digitale-perspektiven-sose-2022 -->
+            <!-- 2022-07-07 https://web.archive.org/web/20250807150105/https://tcdh.uni-trier.de/de/event/vortrag-von-tatjana-toensmeyer-agnes-laba-matthias-bremm-wuppertal-im-rahmen-des -->
+            <!-- 2022-07-14 https://web.archive.org/web/20250807150238/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-stefan-hessbrueggen-walter-im-rahmen-des-forschungskolloquiums-digitale -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2022-23 -->
+          <!-- There is no summer semester 2023 -->
+          <!-- There is no winter semester 2023-24 -->
+          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls47_t3">
+            <eventName>Sommersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807094731/https://tcdh.uni-trier.de/de/event/programm-des-tcdh-forschungskolloquiums-perspektiven-der-digital-humanities"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807094710/https://tcdh.uni-trier.de/sites/default/files/inline-images/Perspektiven%20der%20Digital%20Humanities%20Vortr%C3%A4ge%20des%20TCDH-Forschungskolloquiums.jpg"/>
+            
+            <!-- 2024-04-18 https://web.archive.org/web/20250807100056/https://tcdh.uni-trier.de/de/event/vortrag-von-anne-klee-trier-linked-open-data-und-historische-woerterbuecher-wie-lassen-sich -->
+            <!-- 2024-05-02 https://web.archive.org/web/20250807100950/https://tcdh.uni-trier.de/de/event/vortraege-von-radim-hladik-prag-und-byungjun-kim-daejeon-im-rahmen-des-tcdh  |  https://web.archive.org/web/20250807100447/https://hlageek.github.io/reports/tcdh_2024/?print-pdf=#/coding2-exploring-reproducibility-in-qualitative-data-analysis-qda-through-research-software-development -->
+            <!-- 2024-05-02 https://web.archive.org/web/20250807100950/https://tcdh.uni-trier.de/de/event/vortraege-von-radim-hladik-prag-und-byungjun-kim-daejeon-im-rahmen-des-tcdh -->
+            <!-- 2024-05-16 https://web.archive.org/web/20250809151220/https://tcdh.uni-trier.de/de/event/vortrag-von-giovanni-mischi-bozen-dr-thomas-burch-trier-digitale-schaetze-der-vielfalt -->
+            <!-- 2024-06-06 https://web.archive.org/web/20250809151207/https://tcdh.uni-trier.de/de/event/vortrag-von-tinghui-duan-trier-wie-der-hase-mithilfe-von-ki-das-rennen-gewinnen-koennte -->
+            <!-- 2024-06-13 https://web.archive.org/web/20250809151304/https://tcdh.uni-trier.de/de/event/vortrag-von-anna-traurig-wuerzburg-william-lovell-digital-ein-editions-und-buchprojekt -->
+            <!-- 2024-06-27 https://web.archive.org/web/20250809151405/https://tcdh.uni-trier.de/de/event/vortraege-von-tatiana-bessonova-trier-und-vivien-wolter-trier-im-rahmen-des-tcdh -->
+            <!-- 2024-06-27 https://web.archive.org/web/20250809151405/https://tcdh.uni-trier.de/de/event/vortraege-von-tatiana-bessonova-trier-und-vivien-wolter-trier-im-rahmen-des-tcdh -->
+            <!-- 2024-07-11 https://web.archive.org/web/20250809151643/https://tcdh.uni-trier.de/de/event/vortrag-von-pd-dr-benjamin-gittel-trier-zuschreibungen-und-textuelle-korrelate-fiktionaler -->
+            
+            <org role="organizer" corresp="..."/>
+          </event>
+          <!-- There is no winter semester 2024-25 -->
+          <event type="lecture-series-term" from="2025-02" to="2025-07" xml:id="ls47_t4">
+            <eventName>Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807093738/https://tcdh.uni-trier.de/de/event/programm-des-tcdh-forschungskolloquiums-perspektiven-der-digital-humanities-0"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250807094231/https://tcdh.uni-trier.de/sites/default/files/inline-images/TCDH%20Forschungskolloquium%202025%20Update.png"/>
+            
+            <!-- 2025-06-05 https://web.archive.org/web/20250807095047/https://tcdh.uni-trier.de/de/event/vortraege-von-svenja-wagner-trier-und-marina-spielberg-trier-im-rahmen-des-tcdh -->
+            <!-- 2025-06-05 https://web.archive.org/web/20250807095047/https://tcdh.uni-trier.de/de/event/vortraege-von-svenja-wagner-trier-und-marina-spielberg-trier-im-rahmen-des-tcdh -->
+            <!-- 2025-06-26 https://web.archive.org/web/20250807095044/https://tcdh.uni-trier.de/de/event/vortrag-von-julia-roettgermann-universitaet-trier-tcdh-literaturgeschichte-als-wissensgraph -->
+            <!-- 2025-07-03 https://web.archive.org/web/20250809151824/https://tcdh.uni-trier.de/de/event/vortrag-von-joelle-weis-svenja-wagner-universitaet-trier-tcdh-fuerstinnenbibliotheken-des-18 -->
+            <!-- 2025-07-10 https://web.archive.org/web/20250809152042/https://tcdh.uni-trier.de/de/event/vortrag-zu-wossidlo-teuchert-online-digitale-erschliessung-vernetzung-und-publikation-des -->
+            
+            <org role="organizer" corresp="#..."/>
+          </event>
+          
+        </event>
         <!-- ##### Austria ##### -->
         <event xml:id="ls22" type="lecture-series" where="#wien">
           <eventName xml:lang="en">The Digital Humanities Guest Lecture Series / Introduction to
@@ -48118,8 +48939,122 @@
               corresp="#nicka_isabella #zeppezauer-wachauer_katharina #faerberboeck_peter"/>
           </event>
         </event>
-        
-       
+        <event xml:id="ls51" type="lecture-series" where="#graz">
+          <eventName xml:lang="en">Breakfast Lecture</eventName>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20250804093554/https://digital-humanities.uni-graz.at/de/veranstaltungsuebersicht/breakfast-lecture/"/>
+          <note type="description" xml:lang="de">
+            <p>Wir können uns immer wieder an der inhaltlichen Diversität unserer Arbeit begeistern,
+              daher möchten wir sie mit möglichst vielen Interessierten teilen und bieten dafür am
+              Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities die
+              "Breakfast Lecture" an: Diese Veranstaltungsreihe soll es ermöglichen, sich in einem
+              zwanglosen Ambiente - unter gleichgesinnten Forschenden und Studierenden -
+              weiterzubilden, Fachdiskussionen zu führen, Erfahrungen auszutauschen.</p>
+          </note>
+          
+          <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="ls51_t1">
+            <eventName xml:lang="de">2025</eventName>
+            
+            <!-- 2025-06-11 |  https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
+            <!-- 2025-06-18 |  https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
+            
+            <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
+          </event>
+          
+        </event>
+        <event xml:id="ls50" type="lecture-series" where="#graz">
+          <eventName xml:lang="en">Lunchtime Lecture</eventName>
+          <ptr type="programme" target="..."/>
+          <note type="description" xml:lang="de">
+            <p>...</p>
+          </note>
+          
+          <event type="lecture-series-term" from="2015-07" to="2016-01" xml:id="ls50_t1">
+            <eventName xml:lang="de">Wintersemester 2015-16</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20160414192355/https://dhd-blog.org/?p=6239"/>
+            
+            <!-- 2015-07-07 https://web.archive.org/web/20250807165330/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-towards-a-tei-model-for-the-encoding-of-diplomatic-charters-the-charters-of-t/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/ALVAREZ_-_TEI_standard_for_charters.pdf -->
+            <!-- 2015-10-27 https://web.archive.org/web/20250807165341/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-johanna-pirker-3d-immersive-digital-humanities-moeglichkeiten-im-virtuellen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Pirker_-_3D_Immersive_Digital_Humanities.pdf  |  https://www.youtube.com/watch?v=47YXrWpSJNY -->
+            <!-- 2015-11-24 https://web.archive.org/web/20250807165359/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-leif-scheuermann-virtuelle-forschungsumgebungen-eine-zukunftsperspektive/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Scheuermann_-_Virtuelle_Forschungsumgebungen.pdf  |  https://www.youtube.com/watch?v=9Xu2ALnltc4 -->
+            <!-- 2015-12-15 https://web.archive.org/web/20250807165424/https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-guenter-muehlberger-transkribus-fuer-studenten-konzept-einer-e-learninganwen/  |  https://web.archive.org/web/20250807171035/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Mu__hlberger_-_Transkribus_Vortrag.pdf  |  https://www.youtube.com/watch?v=Gkmq7ymUQ98 -->
+            <!-- 2016-01-19 https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-lorna-hughes-open-talk-digital-humanities-to-research-infrastructures/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Hughes_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=Q0uibrlKy7U -->
+            
+            <org role="organizer" corresp="#..."/>
+          </event>
+          
+          <!-- 2016-03-15  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-richard-parncutt-statistical-analysis-of-a-music-database-to-investigate-hist/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Parncutt_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=FXB2Efhcchw  -->
+          <!-- 2016-04-19  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-und-workshop-von-rainer-simon-pelagios-semantic-annotation-of-historical-place/  |  https://www.youtube.com/watch?v=c-hQcdGcR5A  -->
+          <!-- 2016-05-10  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-walter-scholger-urheberrechtliche-aspekte-von-forschung-und-lehre-im-digitale/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Scholger_-_Lunchtime_Lecture.pdf  |  https://www.youtube.com/watch?v=2yf4mpI2v8M  -->
+          <!-- 2016-06-14  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-claudia-resch-daten-zu-schoen-zum-sterben-zur-nachnutzung-digital-aufber/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Resch_-_Lunchtime_Lecture.pdf |  https://www.youtube.com/watch?v=pxwxOS9scww  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/ltl_resch.pdf-->
+          
+          
+          <!-- 2016-10-25  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-roman-bleier-diplomatische-transkription-mit-tei-am-beispiel-der-briefe-des-h/ -->
+          <!-- 2016-11-29  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-bernadette-biedermann-museale-sammlungen-virtuell-repraesentiert-am-beispiel/   |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Biedermann_-_Lunchtime_Lecture.pdf -->
+          <!-- 2016-12-20  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-matej-durco-digital-humanities-an-der-oeaw/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Durco_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-01-17  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-von-hans-clausen-dramennetzwerkanalyse-schwierigkeiten-und-methoden-einer-rep/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Clausen_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-03-07  https://digital-humanities.uni-graz.at/de/neuigkeiten/dominique-stutzmann-automated-indexing-of-medieval-manuscripts-the-himanis-research-project-and-th/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Stutzmann_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-04-25   https://digital-humanities.uni-graz.at/de/neuigkeiten/stefan-dumont-ediarum-eine-digitale-arbeitsumgebung-fuer-editionsvorhaben/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Dumont_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-05-09  https://digital-humanities.uni-graz.at/de/neuigkeiten/carina-koch-elisabeth-steiner-webportal-kultur-und-wissenschaftserbe-steiermark/ -->
+          
+          <!-- 2017-10-24  https://digital-humanities.uni-graz.at/de/neuigkeiten/florian-windhager-la-linea-3d-neue-wege-zur-visualisierung-von-biographiedaten/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LTL_Flyer_Windhager.pdf -->
+          <!-- 2017-11-14  https://digital-humanities.uni-graz.at/de/neuigkeiten/katrin-glinka-visualisierungen-in-den-geisteswissenschaften-zwischen-analyse-argumentation-und-ve/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Glinka_-_Lunchtime_Lecture.pdf -->
+          <!-- 2017-12-12  https://digital-humanities.uni-graz.at/de/neuigkeiten/eva-tropper-martin-sauerbrey-bildquellen-virtuell-repraesentieren-zwei-postkarten-projekte-in-koo/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LunchtimeLecture_Tropper_12-12-2017.pdf -->
+          <!-- 2018-01-23  https://digital-humanities.uni-graz.at/de/neuigkeiten/frederike-neuber-digital-reborn-die-digitale-edition-der-briefe-jean-pauls-zwischen-tradition-und/ -->
+          <!-- 2018-03-20  https://digital-humanities.uni-graz.at/de/neuigkeiten/matija-ogrin-digital-scholarly-editions-of-early-modern-slovenian-manuscripts/ -->
+          <!-- 2018-04-17  https://digital-humanities.uni-graz.at/de/neuigkeiten/birgit-strauss-koscher-datenschutz-an-der-uni-graz/ -->
+          <!-- 2018-05-08  https://digital-humanities.uni-graz.at/de/neuigkeiten/sarah-wagner-objekte-im-netz-ein-modell-zur-digitalisierung-und-vernetzung-universitaerer-sammlu/ -->
+          <!-- 2018-06-26  https://digital-humanities.uni-graz.at/de/neuigkeiten/philipp-koncar-a-community-divided-analyzing-controversy-on-reddit/ -->
+          
+          
+          <!-- 2018-11-06  https://digital-humanities.uni-graz.at/de/neuigkeiten/thomas-wallnig-die-hybrid-edition-der-pez-korrespondenz-als-forschungsstrategische-herausforderung/  |   -->
+          
+          
+          <!-- 2019-01-15  https://digital-humanities.uni-graz.at/de/neuigkeiten/johannes-ibel-memorial-archives-vernetztes-forschen-zu-ns-opfern/ -->
+          <!-- 2019-03-19  https://www.uni-graz.at/de/veranstaltungen/bryan-jurish-berlin-brandenburgische-akademie-der-wissenschaften-clarin-de-dtacab-a-field-spo/ -->
+          <!-- 2019-04-02  https://www.uni-graz.at/de/veranstaltungen/lunchtime-lecture/ -->
+          <!-- 2019-05-07  https://www.uni-graz.at/de/veranstaltungen/lunchtime-lecture-1/ -->
+          <!-- 2019-05-27  https://www.uni-graz.at/de/veranstaltungen/lunchtime-lectures/ -->
+          
+          
+          <!-- 2020-01-29  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunch-time-luctures/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Fauland_LTL.pdf -->
+          
+          
+          <!-- 2020-10-21  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-online/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LTL_2020_10_Bernhard_Geiger_LTL.pdf -->
+          <!-- 2020-12-16  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lectures-16.-dezember-2020-12.00-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202012_-_Francesca_Anichini_and_Gabriele_Gattiglia_LTL.pdf -->
+          <!-- 2021-01-20  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lecture/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20210120-Karl-Preiner_LTL.pdf  -->
+          <!-- 2021-03-17  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lectures-17.-maerz-2021-12.00-uhr-christiane-fritze-events-in-digitalen-editionen/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202103_-_Leif_Scheuermann_LTL.pdf -->
+          <!-- 2021-04-21  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lectures-21.-april-2021-12.00-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20210421_-_Pietro_Liuzzo_LTL.pdf -->
+          
+          
+          <!-- 2022-10-12  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lecture-13.-april-2022-1200-uhr/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20221012_-_Sommerscheid.pdf -->
+          <!-- 2023-03-01  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-1.-maerz-2023-1200-uhr-sr-81.31/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/LTL_20230111_Hiebel_Rampl.pdf -->
+          <!-- 2023-04-26  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-26.-april-2023-1200-uhr-sr-81.31/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_qhod.pdf -->
+          <!-- 2023-05-03  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-3.-mai-2023-1200-uhr-sr-81.31/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Papadopoulos.pdf -->
+          <!-- 2023-06-07  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-7.6.2023-1200/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Kjelmann.pdf -->
+          <!-- 2023-06-28  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-28.6.2023-1200-unimeet/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Bizzoni.pdf -->
+          
+          
+          <!-- 2023-12-06  https://digital-humanities.uni-graz.at/de/neuigkeiten/online-lunchtime-lecture-6.-dezember-2023-1200-uhr/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Stein.pdf -->
+          <!-- 2024-01-24  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-24.1.2024-1200/  |  https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Ristic.pdf -->
+          <!-- 2024-03-13  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-13.3.2024-1200/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster-Winslow.pdf -->
+          <!-- 2024-04-10  https://digital-humanities.uni-graz.at/de/neuigkeiten/lunchtime-lecture-10.4.2024-12.00-uhr/  |   https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Poster_Fera_Moedlinger.pdf-->
+          <!-- 2024-05-08  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-lunchtime-lecture-8.-mai-2024-1200-uhr-1/  |   https://static.uni-graz.at/fileadmin/_files/_gewi_sites/_informationsmodellierung/PDF/Poster_Haas.pdf-->
+          
+          
+          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls50_tx">
+            <eventName xml:lang="de">Wintersemester 2024-25</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250806195902/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/WS2024_25-LTL-Poster.pdf"/>
+            
+            <!-- 2024-10-30 https://web.archive.org/web/20250809172028/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/20241030_Goederle.pdf -->
+            <!-- 2024-11-27 https://web.archive.org/web/20250809172031/https://www.iib.ac.rs/assets/images/screenshot-1.jpeg -->
+            <!-- 2024-12-04 https://web.archive.org/web/20250809172011/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Muller_Laackmann_Wagner_Poster.pdf -->
+            <!-- 2025-01-08 https://web.archive.org/web/20250809171744/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Probst_Poster.pdf -->
+            
+            <org role="organizer" corresp="#..."/>
+          </event>
+        </event>
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
@@ -54690,6 +55625,669 @@
             </event>
             <org role="organizer" cert="low"
               corresp="#morimoto_yuko #pavon-lucero_maria-victoria #garcia-munoz_luis-enrique"/>
+          </event>
+        </event>
+        <event xml:id="ls32" type="lecture-series" where="#barcelona">
+          <eventName xml:lang="es">Ciclo de Videoconferencias del Máster en Humanidades y Patrimonio
+            Digitales</eventName>
+          <ptr type="programme"
+            target="https://www.uab.cat/web/agenda-1345829788444.html?inici=2008-01-01"/>
+          <!-- NOTES -->
+          <!-- See also: https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html -->
+          <!-- See also: https://www.youtube.com/playlist?list=PLSl0-hG_seZo8_DdFxpxEdwrfXNfYwcEm -->
+          <!-- The content still needs to be archived. The issue likely arises from the fact that this overview does not specifically filter out all lectures belonging to the series. Identifying them as part of the series is only possible by clicking on individual entries. -->
+          <!-- Another issue is that not all lectures have videos on YouTube, and in some cases, the lecture date listed in the YouTube description is incorrect. This has been confirmed by reviewing the video itself, where the correct year is shown during the presentation. As a result, the information must be compiled from various sources. -->
+          <!-- Additionally, over time, certain talks tend to reappear. As a result, there are instances of duplicated or highly similar entries in terms of speaker and title, but with differing dates. -->
+          <event type="lecture-series-term" from="2020-10" to="2020-12" xml:id="ls32_t1">
+            <eventName>2020</eventName>
+            <event type="lecture" when="2020-10-16" xml:id="ls32_t1_l1">
+              <eventName xml:lang="es">El pasado es nuestro futuro. Tecnología al servicio del
+                patrimonio cultural</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250216230809/https://www.uab.cat/web/agenda/detalle-actividad/el-pasado-es-nuestro-futuro-tecnologia-al-servicio-del-patrimonio-cultural-1345829788681.html?detid=1345830092881"/>
+              <note type="abstract" xml:lang="es">
+                <p>...</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">archeology, cultural heritage, technology, preservation,
+                  future</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#marquis_nestor">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#self-employment"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2020-10-23" xml:id="ls32_t1_l2">
+              <eventName xml:lang="es">Contribució dels projectes d'humanitats digitals i patrimoni
+                cultural digital a la reapropiació ciutadana de el patrimoni cultural a
+                Barcelona</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=vl6nw4BPuC8"/>
+              <note type="abstract" xml:lang="es">
+                <p>La conferencia trata el uso de las TIC en el ámbito de patrimonio cultural y
+                  reflexiona sobre el concepto de humanidades digitales. Hernández explica las
+                  experiencias acumuladas en la aplicación de la tecnología digital y remarca las
+                  nuevas posibilidades de relación del conocimiento. También nos transmite la
+                  importancia de la innovación i las posibilidades que se abren para la creación de
+                  empresas en el ámbito de Humanidades Digitales.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">ict, cultural heritage, technology, innovation,
+                  knowledge</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hernandez-gueell_marc">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#la-tempesta"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <!-- 2020-10-30 (?) -->
+            <event type="lecture" when="2020-11-06" xml:id="ls32_t1_l3">
+              <eventName xml:lang="es">AtalayaVirtual: Documentación y Difusión del Patrimonio de
+                las Universidades Andaluzas usando las nuevas tecnologías</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=5TEMJCSuOwY"/>
+              <note type="abstract" xml:lang="es">
+                <p>En esta conferencia Francisco Javier Melero Rus explica el proyecto de
+                  documentación y difusión del patrimonio de las universidades andaluzas usando
+                  nuevas tecnologías – Atalaya 3D. Conoceremos el desarrollo de la estrategia
+                  digital de este proyecto, tanto en la parte de la digitalización, como en la
+                  presentación i difusión del patrimonio digital.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">virtual reality, cultural heritage, university,
+                  documentation, digitalization</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#melero-rus_francisco-javier">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-granada"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <!-- 2020-11-13 (?) -->
+            <!-- 2020-11-20 (?) -->
+            <!-- 2020-11-27 (?) -->
+            <!-- 2020-12-04 (?) -->
+            <event type="lecture" when="2020-12-11" xml:id="ls32_t1_l4">
+              <eventName xml:lang="es">Reconeixement d'imatges a la museografia de l'Espai Cràter,
+                el nou centre museològic sobre volcans a Olot</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=pzAyl8aSj68"/>
+              <note type="abstract" xml:lang="es">
+                <p>L’Espai Cràter serà un nou centre expositiu que explicarà el fenomen vulcanològic
+                  de Catalunya així com l’estreta relació de la comunitat local en un entorn natural
+                  tan singular com la Garrotxa. En la presentació es posarà l’accent en el
+                  desenvolupament i la conceptualització del projecte des del seu inici fins a la
+                  seva execució. L’objectiu és poder donar una mirada àmplia de la complexitat de
+                  desplegar un centre expositiu des de zero als alumnes. També s’explicarà en la
+                  seva integritat el projecte museogràfic i el sistema de reconeixement d’imatges
+                  emprat per al seu ús a la sala.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">volcanoes, museums, image recognition, exhibition
+                  development, local community</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#collell_xevi">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-girona"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2020-12-18" xml:id="ls32_t1_l5">
+              <eventName xml:lang="es">La digitalización 3D del patrimonio cultural: el caso de
+                Global Digital Heritage</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217021200/https://www.uab.cat/web/agenda/detalle-actividad/el-proyecto-global-digital-heritage-1345829788681.html?detid=1345830106419"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=1sEPYjKnyNY"/>
+              <note type="abstract" xml:lang="es">
+                <p>En esta conferencia Victor Manuel Lopez-Menchero explica la actividad de la
+                  fundación Global Digital Heritage en el marco general de digitalización del
+                  patrimonio cultural. Patrimonio cultural está amenazado y a menudo destruido sin
+                  posibilidad de restitución. Desde los más altos organismos mundiales y europeos se
+                  han propuesto las estrategias para movilización mundial en digitalización para
+                  conservación y divulgación del patrimonio. Esta conferencia nos explicara una
+                  variedad de soluciones técnicas, de máquinas y de software para la digitalización
+                  3D desde objetos pequeños hasta los entornos de yacimientos arqueológicos o
+                  monumentos de arquitectura utilizados en numerosos proyectos de la GDH.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">3d scanning, cultural heritage, preservation, archaeology,
+                  global cooperation</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lopez-menchero_victor">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-castilla-la-mancha"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <org role="organizer" corresp="barcelo_juan"/>
+          </event>
+          <event type="lecture-series-term" from="2021-01" to="2021-12" xml:id="ls32_t2">
+            <eventName>2021</eventName>
+            <event type="lecture" when="2021-01-22" xml:id="ls32_t2_l1">
+              <eventName xml:lang="es">Nuevas tecnologías para nuevos públicos en las bibliotecas
+                del siglo XXI</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217024309/https://www.uab.cat/web/repositorio-digital-1345829787112.html"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250102112841/https://www.uab.cat/web/agenda/detalle-actividad/nuevas-tecnologias-para-nuevos-publicos-en-las-bibliotecas-del-siglo-xxi-1345829788681.html?detid=1345830183782"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=9v83Rjk5KPg"/>
+              <note type="abstract" xml:lang="es">
+                <p>En esta conferencia vamos a conocer la política de preservación digital de la
+                  Biblioteca Nacional de España y diversos proyectos dirigidos a preservación,
+                  difusión y estudio del patrimonio gestionado por BNE. A parte de un repaso
+                  cronológico del desarrollo de la acción digital de la BNE veremos cómo las
+                  herramientas digitales pueden abrir nuevas posibilidades y dar paso a una nueva
+                  forma de comunicar con el patrimonio.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">libraries, digital preservation, cultural heritage, public
+                  engagement, technological innovation</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#luis-bueren_jose">
+                  <affiliation corresp="#library-bne"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-01-29" xml:id="ls32_t2_l2">
+              <eventName xml:lang="es">Los entornos digitales en los planes de educación
+                patrimonial</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250102110902/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-los-entornos-digitales-en-los-planes-de-educacion-patrimonial-8220-olaia-fontal-merillas-directora-del-observatorio-de-educacion-patrimonial-en-espana-1345829788681.html?detid=1345830185036"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="topics-llm">education, cultural heritage, virtual environments,
+                  training, planning</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#fontal-merillas_olaia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-valladolid"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-02-05" xml:id="ls32_t2_l3">
+              <eventName xml:lang="es">Educación patrimonial y tecnología móvil. Del GPS y la PDA al
+                teléfono inteligente</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203010223/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-educacion-patrimonial-y-tecnologia-movil-del-gps-y-la-pda-al-telefono-inteligente-de-naiara-vicent-1345829788681.html?detid=1345830192938"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="topics-llm">heritage education, mobile technology, gps, pda,
+                  smartphone</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vicent_naiara">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-pais-vasco"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-02-12" xml:id="ls32_t2_l4">
+              <eventName xml:lang="es">Creación y gestión del conocimiento colectivo (Trabajo
+                colaborativo en red)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203013924/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-creacion-y-gestion-del-conocimiento-colectivo-trabajo-colaborativo-en-red-joaquin-gairin-uab-1345829788681.html?detid=1345830192951"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="topics-llm">collective knowledge, network collaboration, knowledge
+                  management, online communities, crowd intelligence</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sallan-gairin_joaquin">
+                  <affiliation corresp="#uni-barcelona-autonoma"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-02-19" xml:id="ls32_t2_l5">
+              <eventName xml:lang="es">Humanidades espaciales: Tecnologías, métodos y enfoques
+                espacio-temporales en las humanidades digitales</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203015142/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-humanidades-espaciales-tecnologias-metodos-y-enfoques-espacio-temporales-en-las-humanidades-digitales-1345829788681.html?detid=1345830192964"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=jjLqjKqkZhI"/>
+              <note type="abstract" xml:lang="es">
+                <p>Enmarcada por las nuevas perspectivas derivadas del enfoque espacio-temporal en
+                  la aplicación a proyectos de investigación en humanidades digitales, esta
+                  conferencia pretende mostrar algunas de las más destacadas innovaciones en el
+                  entorno de la modelización de datos, geoetiquetado de textos y mapeado de
+                  narrativas, análisis espacial y textual, webmapping, visualizaciones dinámicas,
+                  gazetteers históricos o datos abiertos enlazados.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">spatial, temporal, modeling, geotagging,
+                  visualization</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#del-bosque-gonzalez_isabel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#csic"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-02-26" xml:id="ls32_t2_l6">
+              <eventName xml:lang="es">Tecnología y patrimonio. Aportaciones y reflexiones desde la
+                pedagogía</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203145032/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-tecnologia-y-patrimonio-aportaciones-y-reflexiones-desde-la-pedagogia-1345829788681.html?detid=1345835446379"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="topics-llm">technology, heritage, education, reflection, pedagogy</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#coma-quintana_laia">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-barcelona"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <!-- 2021-03-05 (?) -->
+            <event type="lecture" when="2021-03-12" xml:id="ls32_t2_l7">
+              <eventName xml:lang="es">Nuevas Tecnologías en la Historia del Arte</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203150229/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-nuevas-tecnologias-en-la-historia-del-arte-1345829788681.html?detid=1345835447870"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="topics-llm">artificial intelligence, art history, technology,
+                  innovation, cultural heritage</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rodriguez-ortega_nuria">
+                  <affiliation corresp="#uni-malaga"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-03-19" xml:id="ls32_t2_l8">
+              <eventName xml:lang="es">Análisis de manuscritos teatrales áureos con fotografía
+                espectral y espectroscopía de rayos X</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203151248/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-analisis-de-manuscritos-teatrales-aureos-con-fotografia-espectral-y-espectroscopia-de-rayos-x-1345829788681.html?detid=1345835451222"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=yMPxbxL5rsk"/>
+              <note type="abstract" xml:lang="es">
+                <p>En muchas ocasiones, el análisis paleográfico y codicológico de manuscritos
+                  teatrales áureos no permite ofrecer respuestas concluyentes a cuestiones sobre la
+                  composición y transmisión de la obra o sobre la intervención de terceras personas
+                  en la configuración del texto. En esta conferencia se presentarán algunos
+                  instrumentos relacionados con la fotografía y la espectroscopía que pueden ayudar
+                  al investigador y al filólogo a resolver esas y otras cuestiones. La aplicación de
+                  estas técnicas a determinados manuscritos autógrafos ha permitido, por ejemplo,
+                  leer debajo de fragmentos tachados o identificar la composición química de las
+                  tintas empleadas.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">manuscripts, spectral photography, x-ray spectroscopy, text
+                  analysis, chemical composition</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#boadas_sonia">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bologna"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <!-- 2021-03-26 (?) -->
+            <!-- 2021-04-02 (?) -->
+            <!-- 2021-04-09 (?) -->
+            <event type="lecture" when="2021-04-16" xml:id="ls32_t2_l9">
+              <eventName xml:lang="es">El potencial didáctico del videojuego Crusader Kings
+                II</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20241203152700/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-el-potencial-didactico-del-videojuego-crusader-kings-ii-1345829788681.html?detid=1345835454519"/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term type="topics-llm">medieval history, education, video games, crusades,
+                  strategy</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#martínez-giralt_alejandro">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#csic"/>
+                </person>
+                <person role="speaker" corresp="#miquel_laura">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#csic"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <!-- 2021-04-23 (?) -->
+            <event type="lecture" when="2021-04-30" xml:id="ls32_t2_l10">
+              <eventName xml:lang="en">Interaction Design for Museums and Beyond: Cultural Forms and
+                Engagement</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250217041028/https://www.uab.cat/web/agenda/detalle-actividad/conferencia-interaction-design-for-museums-and-beyond-cultural-forms-and-engagement-1345829788681.html?detid=1345835455982"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=S3US5MzTER0"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this presentation Michael Horn will think about the role of emerging
+                  interactive technologies in informal learning spaces such as museums, libraries,
+                  and cultural centers. His work takes up the question of how to help young people
+                  develop lifelong passions for learning in ways that resonate with existing
+                  cultural forms of literacy, learning, and play. Horn's work has been exhibited in
+                  museums around the world. His recent TunePad project explores creativity,
+                  learning, and self-expression at the intersection of music and computer code.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">interactivity, museums, education, creativity, music</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#horn_michael">
+                  <name>
+                    <roleName type="title">Assoc. Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-northwestern"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <!-- 2021-05-07 (?) -->
+            <!-- 2021-05-14 (?) -->
+            <!-- 2021-05-21 ### no video found ### https://www.uab.cat/web/agenda/detalle-actividad/conferencia-l-ahdcat-i-les-humanitats-digitals-en-catala-oportunitats-i-reptes-en-catala-1345829788681.html?detid=1345840721691 -->
+            <!-- 2021-05-28 ### no video found ### https://www.uab.cat/web/agenda/detalle-actividad/patrimonio-educacion-y-comunidad-proyecto-socioeducativo-del-ayuntamiento-de-palau-de-plegamans-1345829788681.html?detid=1345840723520 -->
+            <event type="lecture" when="2021-10-29" xml:id="ls32_t2_l11">
+              <eventName xml:lang="es">La educación patrimonial desde la perspectiva de los
+                Objetivos de Desarrollo Sostenible</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=EXqbcdzcFsI"/>
+              <note type="abstract" xml:lang="es">
+                <p>Reflexionamos sobre la cabida e influencia que tiene el nuevo concepto de
+                  patrimonio apoyado en la noción de vínculos, que se ha ido consolidando
+                  internacionalmente en las dos primeras décadas del siglo XXI,  en el marco de los
+                  Objetivos de Desarrollo Sostenible de la Agenda 2030 fijada por la ONU.
+                  Analizaremos la posible vinculación entre la educación patrimonial y algunos de
+                  estos objetivos de Desarrollo Sostenible, para fijar metas que debe asumir la
+                  educación patrimonial hasta 2030. Finalmente, haremos una propuesta de proyecto de
+                  investigación centrada en algunos ODS.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">heritage, sustainability, education, agenda 2030, un</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#fontal-merillas_olaia">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-valladolid"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-11-05" xml:id="ls32_t2_l12">
+              <eventName xml:lang="es">Arkikus: una ventana tecnológica al pasado de nuestro
+                patrimonio</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=RtcfecJOkhk"/>
+              <note type="abstract" xml:lang="es">
+                <p>¿Has soñado alguna vez con ver a través de una ventana cómo eran las ciudades en
+                  la antigüedad? ¿Te ha apetecido quizá descubrir cómo era la vida al interior de un
+                  monasterio medieval? ¿Te has imaginado paseando por lo que eran las calles de tu
+                  barrio hace cientos de años? Arkikus permite experimentar este viaje al pasado
+                  gracias a la reconstrucción virtual hiperrealista de arquitecturas, ambientes y
+                  personajes hoy desaparecidos y su visualización a través de apps de uso público
+                  desarrolladas ex profeso para conjuntos patrimoniales y adaptadas a diferentes
+                  formatos (móvil o tablet, web, gafas VR). Gracias a una documentación patrimonial
+                  exhaustiva y al uso de las últimas tecnologías de modelado 3D, renderizado y
+                  postprocesado de imágenes, Arkikus genera entornos históricos virtuales fidedignos
+                  y de gran calidad gráfica que crean una experiencia inmersiva única. Estos se
+                  acompañan de contenidos en forma de textos, audios e imágenes que completan la
+                  información patrimonial ofrecida a los usuarios. Las apps Arkikus son una
+                  herramienta de alto valor didáctico abierta a la innovación continua y vienen a
+                  ejemplificar cómo las técnicas digitales modernas, siempre que estén bien
+                  enfocadas y empleadas, ofrecen un salto cualitativo a la hora de divulgar nuestro
+                  patrimonio cultural.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">virtual reality, 3d modeling, cultural heritage, historical
+                  reconstruction, education</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ordono-daubagna_javier">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#arkikus"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-11-19" xml:id="ls32_t2_l13">
+              <eventName xml:lang="es">Lugares, personas y hechos. El análisis cuantitativo de
+                textos históricos</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=Ipg0FnsnmGc"/>
+              <note type="abstract" xml:lang="es">
+                <p>Los últimos años han visto un fuerte incremento en el uso de técnicas de
+                  Humanidades Digitales dentro de la investigación histórica. El número de fuentes
+                  escritas, arqueológicas o cartográficas al servicio del investigador es más
+                  elevado que nunca, pero este aumento en el volumen de datos también requiere
+                  nuevas herramientas de análisis. El análisis cuantitativo de textos permite
+                  explorar el creciente corpus de evidencia a partir de herramientas como los
+                  Sistemas de Información Geográfica, la visualización de datos o la estadística,
+                  que permiten nuevas aproximaciones al pasado que integren múltiples fuentes dentro
+                  del análisis, explorando dinámicas complejas difíciles de identificar con los
+                  métodos tradicionales de las Humanidades. Todo y este potencial, los usos de estas
+                  herramientas dentro de la investigación histórica son todavía escasos. Esta
+                  Videoconferencia presentará la metodología desarrollada para analizar las acciones
+                  navales durante la fase final de la Guerra de Sucesión en Cataluña (1713-1714),
+                  todo integrante herramientas como el etiquetado de fuentes, las bases de datos, el
+                  análisis espacial y la visualización de información.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">quantitative analysis, historical data, geographic
+                  information systems, data visualization, historical research</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rubio-campillo_xavier">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-barcelona"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-11-26" xml:id="ls32_t2_l14">
+              <eventName xml:lang="es">La creación y gestión del conocimiento colectivo. El trabajo
+                colaborativo en red</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=iV4UDJ7Mslw"/>
+              <note type="abstract" xml:lang="es">
+                <p>La complejidad y dinamismo de la realidad actual exige, cada vez más, la
+                  actuación de equipos de profesionales. Frente a los nuevos retos sociales y
+                  culturales se impone el trabajo colaborativo. La cuestión es encontrar y
+                  desarrollar los mecanismos y procedimiento que lo hagan posible. Los grupos de
+                  creación y gestión del conocimiento colectivo utilizan metodologías y sistemas de
+                  trabajo que facilitan tanto el compartir conocimientos como el promover y generar
+                  nuevos conocimientos. Conocer estos planteamientos, sus posibilidades y
+                  limitaciones son el contenido principal de la conferencia.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">collective knowledge, collaboration, network, methodologies,
+                  knowledge sharing</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#sallan-gairin_joaquin">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-barcelona-autonoma"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <event type="lecture" when="2021-12-10" xml:id="ls32_t2_l15">
+              <eventName xml:lang="es">Nuevas tecnologías aplicadas al mundo de los museos y la
+                cultura</eventName>
+              <ptr type="video" target="https://www.youtube.com/watch?v=3Z8_WRP02Uw"/>
+              <note type="abstract" xml:lang="es">
+                <p>Los museos se posicionan actualmente en un contexto de redefinición organizativa,
+                  donde las estrategias digitales forman parte de las prácticas de los profesionales
+                  de la cultura así como de la oferta de mediación de las instituciones culturales.
+                  El uso de las innovaciones digitales en el ámbito de los museos constituye una
+                  oportunidad, tanto de promoción como de comunicación, para los profesionales de la
+                  cultura. Los museos se enfrentan así a los retos de los grandes proyectos de
+                  digitalización de colecciones, de la circulación en línea de catálogos y de la
+                  creación de dispositivos digitales. También se observa una voluntad por parte de
+                  los museos de ser parte del movimiento de la cultura digital contemporánea,
+                  dominada por las expectativas experienciales del público que son interactivas,
+                  divertidas y cognitivas. Por lo tanto, los museos deben conocer e integrar las
+                  prácticas culturales digitales de los visitantes (niños, adultos, visitas
+                  familiares) y tener en cuenta su creciente interés por las experiencias renovadas
+                  que brindan las tecnologías digitales.</p>
+              </note>
+              <note type="keywords">
+                <term type="topics-llm">museums, digital strategies, cultural institutions, digital
+                  innovation, visitor experience</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cano_ricardo">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#eve-museos"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-barcelona-autonoma"/>
+            </event>
+            <org role="organizer" corresp="barcelo_juan"/>
+          </event>
+          <event type="lecture-series-term" from="2022-02" to="2022-12" xml:id="ls32_t3">
+            <eventName>2022</eventName>
+            <!-- Here: lectures from 2022 -->
+            <!-- 2022-01-14 https://www.youtube.com/watch?v=wGrbjGfsGK8 -->
+            <!-- 2022-02-04 https://www.youtube.com/watch?v=bylGbtDj1PI -->
+            <!-- 2022-02-11 https://www.youtube.com/watch?v=gNKI-TP2GwM -->
+            <!-- 2022-02-25 https://www.youtube.com/watch?v=oPwPWQnTFTM -->
+            <!-- 2022-03-04 https://www.youtube.com/watch?v=thqODnnRQO0   -->
+            <org role="organizer" corresp="barcelo_juan"/>
+          </event>
+          <event type="lecture-series-term" from="2023-01" to="2023-12" xml:id="ls32_t4">
+            <eventName>2023</eventName>
+            <!-- Here: lectures from 2023 -->
+            <org role="organizer" corresp="barcelo_juan"/>
           </event>
         </event>
         <!-- ##### Sweden ##### -->
