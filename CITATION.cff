@@ -1,8 +1,11 @@
 message: "If you use this software, please cite it using these metadata."
 title: "Lectures that Link"
-version: "0.5"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15769950
+version: "0.6"
 license: "GPL-3.0"
-date-released: 2025-06-30
+date-released: 2025-09-27
 authors: 
   - family-names: Henny-Krahmer
     given-names: Ulrike
