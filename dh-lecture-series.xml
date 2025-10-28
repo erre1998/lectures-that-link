@@ -48954,10 +48954,12 @@
           
           <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="ls51_t1">
             <eventName xml:lang="de">2025</eventName>
-            
+´
             <!-- 2025-06-11 |  https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
             <!-- 2025-06-18 |  https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
-            
+
+            <!-- 2025-10-29 |  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-29.-october-900-bis-1000-uhr/  | https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Breakfast_lectures_2025_10_29_Repolusk.pdf  -->
+
             <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
           </event>
           
@@ -49055,6 +49057,19 @@
             <org role="organizer" corresp="#..."/>
           </event>
         </event>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
