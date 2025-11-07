@@ -23,15 +23,19 @@
         </editor>
         <respStmt>
           <resp>Contributor</resp>
-          <name>Victoria Khalzova-Murken</name>
+          <name>Charlotte Grünig</name>
         </respStmt>
         <respStmt>
           <resp>Contributor</resp>
           <name>Helene Henriette Kamrath</name>
         </respStmt>
+        <respStmt>
+          <resp>Contributor</resp>
+          <name>Victoria Khalzova-Murken</name>
+        </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>Version 0.6</edition>
+        <edition>Version 0.7</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>University of Rostock</publisher>
@@ -284,6 +288,16 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-selcuk" type="university">
+            <name xml:lang="en">Selçuk Üniversitesi</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1627814</idno>
+            <place corresp="#konya"/>
+          </org>
+          <org xml:id="uni-toronto" type="university">
+            <name xml:lang="en">University of Toronto</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q180865</idno>
+            <place corresp="#toronto"/>
+          </org>
           <org xml:id="uni-hong-kong-city" type="university">
             <name xml:lang="en">City University of Hong Kong</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q787360</idno>
@@ -1207,6 +1221,7 @@
           <org xml:id="uni-rostock" type="university">
             <name xml:lang="de">Universität Rostock</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q159895</idno>
+            <idno type="ror">https://ror.org/03zdwsf69</idno>
             <place corresp="#rostock"/>
           </org>
           <org xml:id="uni-venezia" type="university">
@@ -1692,12 +1707,20 @@
           <org xml:id="uni-genf" type="university">
             <name xml:lang="fr">Université de Genève</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q503473</idno>
+            <idno type="ror">https://ror.org/01swzsf04</idno>
             <place corresp="#geneve"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="hpi" type="research_institution">
+            <name xml:lang="de">Hasso-Plattner-Institut (HPI)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q884105</idno>
+            <idno type="ror">https://ror.org/058rn5r42</idno>
+            <place corresp="#potsdam"/>
+          </org>
           <org xml:id="ined" type="research_institution">
             <name xml:lang="fr">Institut national d'études démographiques (INED)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3152388</idno>
+            <idno type="ror">https://ror.org/02cnsac56</idno>
             <place corresp="#aubervilliers"/>
           </org>
           <org xml:id="c2dh" type="research_institution">
@@ -2441,6 +2464,622 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="niedermueller_peter">
+            <name>
+              <forename>Peter</forename>
+              <surname>Niedermüller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-4041-3792</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95280526</idno>
+          </person>
+          <person xml:id="santi_marco">
+            <name>
+              <forename>Marco</forename>
+              <surname>Santi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7395-6298</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107975586</idno>
+          </person>
+          <person xml:id="romero-tormo_marco">
+            <name>
+              <forename>Mario</forename>
+              <surname>Romero Tormo</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="westphal_tim">
+            <name>
+              <forename>Tim</forename>
+              <surname>Westphal</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0000-8580-4558</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133315016</idno>
+          </person>
+          <person xml:id="block_friedrich-wilhelm">
+            <name>
+              <forename>Friedrich</forename>
+              <forename>Wilhelm</forename>
+              <surname>Block</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q26255697</idno>
+          </person>
+          <person xml:id="vierthaler_paul">
+            <name>
+              <forename>Paul</forename>
+              <surname>Vierthaler</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2135-9499</idno>
+          </person>
+          <person xml:id="organisciak_peter">
+            <name>
+              <forename>Peter</forename>
+              <surname>Organisciak</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9058-2280</idno>
+          </person>
+          <person xml:id="lehmkuhl_ursula">
+            <name>
+              <forename>Ursula</forename>
+              <surname>Lehmkuhl</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3100-8809</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2501748</idno>
+          </person>
+          <person xml:id="bunout_estelle">
+            <name>
+              <forename>Estelle</forename>
+              <surname>Bunout</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1009-3426</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126691964</idno>
+          </person>
+          <person xml:id="maisak_petra">
+            <name>
+              <forename>Petra</forename>
+              <surname>Maisak</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6516783</idno>
+          </person>
+          <person xml:id="baresch_ariadne">
+            <name>
+              <forename>Ariadne</forename>
+              <surname>Baresch</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8527-4024</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692161</idno>
+          </person>
+          <person xml:id="toensmeyer_tatjana">
+            <name>
+              <forename>Tatjana</forename>
+              <surname>Tönsmeyer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-6482-2051</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2395697</idno>
+          </person>
+          <person xml:id="laba_agnes">
+            <name>
+              <forename>Agnes</forename>
+              <surname>Laba</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1000-465X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133410643</idno>
+          </person>
+          <person xml:id="hladik_radim">
+            <name>
+              <forename>Radim</forename>
+              <surname>Hladík</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8078-6477</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q120601718</idno>
+          </person>
+          <person xml:id="bessonova_tatiana">
+            <name>
+              <forename>Tatiana</forename>
+              <surname>Bessonova</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="kim_byungjun">
+            <name>
+              <forename>Byungjun</forename>
+              <surname>Kim</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9925-9343</idno>
+          </person>
+          <person xml:id="traurig_anna">
+            <name>
+              <forename>Anna</forename>
+              <surname>Traurig</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="wolter_vivien">
+            <name>
+              <forename>Vivien</forename>
+              <forename>Christin</forename>
+              <surname>Wolter</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9982-9382</idno>
+          </person>
+          <person xml:id="gittel_benjamin">
+            <name>
+              <forename>Benjamin</forename>
+              <surname>Gittel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1855-0049</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130791802</idno>
+          </person>
+          <person xml:id="wagner_svenja">
+            <name>
+              <forename>Svenja</forename>
+              <surname>Wagner</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="spielberg_marina">
+            <name>
+              <forename>Marina</forename>
+              <surname>Spielberg</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-6924-0485</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135969863</idno>
+          </person>
+          <person xml:id="weis_joelle">
+            <name>
+              <forename>Joëlle</forename>
+              <surname>Weis</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0080-4362</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q106713469</idno>
+          </person>
+          <person xml:id="repolusk_tristan">
+            <name>
+              <forename>Tristan</forename>
+              <surname>Repolusk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-8435-1185</idno>
+          </person>
+          <person xml:id="cetinkaya_ali">
+            <name>
+              <forename>Ali</forename>
+              <surname>Çetinkaya</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4535-3953</idno>
+          </person>
+          <person xml:id="austin_robert">
+            <name>
+              <forename>Robert</forename>
+              <surname>Austin</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-8355-9881</idno>
+          </person>
+          <person xml:id="bremm_matthias">
+            <name>
+              <forename>Matthias</forename>
+              <surname>Bremm</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="browne_cameron">
+            <name>
+              <forename>Cameron</forename>
+              <surname>Browne</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2997-3255</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62036865</idno>
+          </person>
+          <person xml:id="cha_javier">
+            <name>
+              <forename>Javier</forename>
+              <surname>Cha</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4900-2923</idno>
+          </person>
+          <person xml:id="papadopoulou_maria">
+            <name>
+              <forename>Maria</forename>
+              <surname>Papadopoulou</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6451-8712</idno>
+          </person>
+          <person xml:id="kocula_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Kocula</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="montfort_nick">
+            <name>
+              <forename>Nick</forename>
+              <surname>Montfort</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7558-5160</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q7027563</idno>
+          </person>
+          <person xml:id="birkholz_julie">
+            <name>
+              <forename>Julie</forename>
+              <surname>Birkholz</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1193-0847</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107719116</idno>
+          </person>
+          <person xml:id="lieber_sven">
+            <name>
+              <forename>Sven</forename>
+              <surname>Lieber</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7304-3787</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59469449</idno>
+          </person>
+          <person xml:id="tu_tanja">
+            <name>
+              <forename>Ngoc</forename>
+              <forename>Duyen</forename>
+              <forename>Tanja</forename>
+              <surname>Tu</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7586-0617</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126592366</idno>
+          </person>
+          <person xml:id="bovenkerk_henning">
+            <name>
+              <forename>Henning</forename>
+              <surname>Bovenkerk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-0591-5783</idno>
+          </person>
+          <person xml:id="kalb_florian">
+            <name>
+              <forename>Florian</forename>
+              <surname>Kalb</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="geissel_pia">
+            <name>
+              <forename>Pia</forename>
+              <surname>Geißel</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692132</idno>
+          </person>
+          <person xml:id="moeller_katrin">
+            <name>
+              <forename>Katrin</forename>
+              <surname>Moeller</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4090-5667</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q105701586</idno>
+          </person>
+          <person xml:id="mclelland_nicola">
+            <name>
+              <forename>Nicola</forename>
+              <surname>McLelland</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6499-9453</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q72720738</idno>
+          </person>
+          <person xml:id="lueschow_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Lüschow</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9287-0286</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595552</idno>
+          </person>
+          <person xml:id="jansky_caroline">
+            <name>
+              <forename>Caroline</forename>
+              <surname>Jansky</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7071-1022</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135969793</idno>
+          </person>
+          <person xml:id="wagner_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Wagner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1352-129X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126596129</idno>
+          </person>
+          <person xml:id="singer_ruediger">
+            <name>
+              <forename>Rüdiger</forename>
+              <surname>Singer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9960-3327</idno>
+          </person>
+          <person xml:id="khvedelidze_irakli">
+            <name>
+              <forename>Irakli</forename>
+              <surname>Khvedelidze</surname>
+            </name>
+            <gender>male</gender>
+          </person>
+          <person xml:id="niedermeier_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Niedermeier</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23059930</idno>
+          </person>
+          <person xml:id="mueller_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Müller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3196-6230</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q106103020</idno>
+          </person>
+          <person xml:id="schenk_nicolas">
+            <name>
+              <forename>Nicolas</forename>
+              <surname>Schenk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1733-9601</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126594726</idno>
+          </person>
+          <person xml:id="geib_carolin">
+            <name>
+              <forename>Carolin</forename>
+              <surname>Geib</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="klee_anne">
+            <name>
+              <forename>Anne</forename>
+              <surname>Klee</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126597955</idno>
+          </person>
+          <person xml:id="roettgermann_julia">
+            <name>
+              <forename>Julia</forename>
+              <surname>Röttgermann</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1918-8117</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126597596</idno>
+          </person>
+          <person xml:id="doetsch_maria">
+            <name>
+              <forename>Maria</forename>
+              <surname>Dötsch</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="simons_olaf">
+            <name>
+              <forename>Olaf</forename>
+              <surname>Simons</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9230-4666</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q63216650</idno>
+          </person>
+          <person xml:id="burckhardt_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Burckhardt</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q113647991</idno>
+          </person>
+          <person xml:id="geraerts_jaap">
+            <name>
+              <forename>Jaap</forename>
+              <surname>Geraerts</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8741-5916</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q79222858</idno>
+          </person>
+          <person xml:id="baroncini_sofia">
+            <name>
+              <forename>Sofia</forename>
+              <surname>Baroncini</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5636-8328</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q115055900</idno>
+          </person>
+          <person xml:id="hering_katharina">
+            <name>
+              <forename>Katharina</forename>
+              <surname>Hering</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1133-7296</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131844649</idno>
+          </person>
+          <person xml:id="schlueter_kathleen">
+            <name>
+              <forename>Kathleen</forename>
+              <surname>Schlüter</surname>
+            </name>
+            <gender>female</gender>
+          </person>
+          <person xml:id="buedenbender_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Büdenbender</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0478-0396</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692092</idno>
+          </person>
+          <person xml:id="benz_jacob">
+            <name>
+              <forename>Jacob</forename>
+              <surname>Benz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-0307-4838</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131844635</idno>
+          </person>
+          <person xml:id="kamlah_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Kamlah</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0417-7562</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135969879</idno>
+          </person>
+          <person xml:id="will_larissa">
+            <name>
+              <forename>Larissa</forename>
+              <surname>Will</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-6220-8939</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q135969878</idno>
+          </person>
+          <person xml:id="horaniet_ibanez_aida">
+            <name>
+              <forename>Aida</forename>
+              <surname>Horaniet</surname>
+              <surname>Ibañez</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1346-8449</idno>
+          </person>
+          <person xml:id="richter_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Richter</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0009-8118-9493</idno>
+          </person>
+          <person xml:id="lemaire_marina">
+            <name>
+              <forename>Marina</forename>
+              <surname>Lemaire</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4726-2481</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q119471676</idno>
+          </person>
+          <person xml:id="rommelfanger_yvonne">
+            <name>
+              <forename>Yvonne</forename>
+              <surname>Rommelfanger</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0004-2323-4122</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q119471971</idno>
+          </person>
+          <person xml:id="koether_felix">
+            <name>
+              <forename>Felix</forename>
+              <surname>Köther</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6432-1431</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130318151</idno>
+          </person>
+          <person xml:id="horstkemper_gregor">
+            <name>
+              <forename>Gregor</forename>
+              <surname>Horstkemper</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1450-2015</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136636875</idno>
+          </person>
+          <person xml:id="du_keli">
+            <name>
+              <forename>Keli</forename>
+              <surname>Du</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7800-0682</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595940</idno>
+          </person>
+          <person xml:id="herr_wiebke">
+            <name>
+              <forename>Wiebke</forename>
+              <surname>Herr</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95651443</idno>
+          </person>
+          <person xml:id="friesenhausen_moritz">
+            <name>
+              <forename>Moritz</forename>
+              <surname>Friesenhausen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-1821-5597</idno>
+          </person>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <person xml:id="lipinska_aleksandra">
             <name>
               <forename>Aleksandra</forename>
@@ -13802,6 +14441,12 @@
             <name>Abu Dhabi</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7002913</idno>
           </place>
+          <!-- ######## Turkish cities ######## -->
+          <place type="city" xml:id="konya">
+            <country corresp="#russia"/>
+            <name>Konya</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7002539</idno>
+          </place>
           <!-- ######## Russian cities ######## -->
           <place type="city" xml:id="moskau">
             <country corresp="#russia"/>
@@ -14074,6 +14719,11 @@
             <idno type="gnd">https://d-nb.info/gnd/4219690-5</idno>
           </place>
           <!-- ######## Canadian cities ######## -->
+          <place type="city" xml:id="toronto">
+            <country corresp="#canada"/>
+            <name>Toronto</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013284</idno>
+          </place>
           <place type="city" xml:id="edmonton">
             <country corresp="#canada"/>
             <name>Edmonton</name>
@@ -14143,6 +14793,9 @@
         <change who="#uhk #erre" when="2025-09-27">Prepares version 0.6 of the dataset for a
           contribution to the upcoming DHd 2026 conference in Wien. This version contains 44 lecture
           series.</change>
+        <change who="#uhk #erre" when="2025-11-15">Prepare version 0.7 of the dataset for an article
+          in the upcoming issue of the Journal of Open Humanities Data. This version contains XX
+          lecture series.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -19462,7 +20115,7 @@
               <listPerson>
                 <person role="speaker" corresp="#daquino_marilena">
                   <name>
-                    <roleName type="title">Asst. Prof. PhD</roleName>
+                    <roleName type="title">Ass.-Prof. PhD</roleName>
                   </name>
                   <affiliation corresp="#uni-bologna"/>
                 </person>
@@ -20586,7 +21239,7 @@
               <listPerson>
                 <person role="speaker" corresp="#madden_amanda">
                   <name>
-                    <roleName type="title">Asst. Prof.</roleName>
+                    <roleName type="title">Ass.-Prof.</roleName>
                   </name>
                   <affiliation corresp="#uni-george-mason"/>
                 </person>
@@ -21551,6 +22204,7 @@
             <org role="organizer" corresp="#luzi_christophe #walter_richard"/>
           </event>
         </event>
+
         <event xml:id="ls7" type="lecture-series" where="#paris">
           <eventName xml:lang="fr">Les Lundis numériques de l’INHA</eventName>
           <ptr type="description"
@@ -21598,6 +22252,8 @@
             <!-- Lectures will be added here -->
             <org role="organizer" corresp="#..."/>
           </event>
+
+
           <event type="lecture-series-term" from="2019-09" to="2020-06" xml:id="ls7_t7">
             <eventName xml:lang="fr">2019-2020</eventName>
             <ptr type="programme"
@@ -22019,6 +22675,7 @@
             </event>
             <org role="organizer" corresp="#daniel_johanna #smadja_camille #truc_alice"/>
           </event>
+
           <event type="lecture-series-term" from="2020-09" to="2021-06" xml:id="ls7_t8">
             <eventName xml:lang="fr">2020-2021</eventName>
             <ptr type="programme"
@@ -22048,6 +22705,9 @@
             <org role="organizer" corresp="#..."/>
           </event>
         </event>
+
+
+
         <!-- ##### Germany ##### -->
         <event xml:id="ls8" type="lecture-series" where="#koeln">
           <eventName xml:lang="de">Digital Humanities – Aktuelle Forschungsthemen</eventName>
@@ -34728,6 +35388,120 @@
               </listPerson>
               <org role="host-institution" corresp="#bbaw"/>
             </event>
+            <event type="lecture" when="2025-09-29" xml:id="ls12_t9_l6">
+              <eventName xml:lang="en">Exploring Social Interactions in Letters through Social
+                Network Analysis: The Zenon Archive as a Use Case</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20251105110949/https://dhd-blog.org/?p=22823"/>
+              <ptr type="video" target="https://www.youtube.com/watch?v=TPWWPqMPH4M"/>
+              <note type="abstract" xml:lang="en">
+                <p>This presentation explores how Social Network Analysis (SNA) can be applied to
+                  study social interactions as represented in historical letter corpora. By
+                  combining qualitative text analysis with Social Network Analysis (SNA), the
+                  approach models and visualizes interpersonal relations to investigate patterns of
+                  interaction, the roles of key actors, and the structure of historical communities.
+                  As one of the largest collections from the Hellenistic period, the letters and
+                  documents of the Zenon archive provide rich information about administrative,
+                  economic, and personal networks and serve as an exemplary use case to the
+                  approach. Applying SNA to this corpus highlights the potential and challenges of
+                  working with large corpora of written communication and serves as an example of
+                  how this framework can be extended to other epistolary datasets.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#alvares-freire_fernanda">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#bbaw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
+            <event type="lecture" when="2025-10-27" xml:id="ls12_t9_l7">
+              <eventName xml:lang="de">Vom Gelehrten zum Problem – Maschinelle Datierung von
+                Leibniz-Handschriften: Die Anwendung von Deep-Learning-Verfahren zur Unterstützung
+                der historisch-kritischen Editionsarbeit</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20251105110949/https://dhd-blog.org/?p=22823"/>
+              <note type="abstract" xml:lang="de">
+                <p>Seit Beginn der Arbeit an einer historisch-kritischen Edition Gottfried Wilhelm
+                  Leibniz im Jahr 1901 bildet die Datierung des umfangreichen handschriftlichen
+                  Nachlasses eine große editorische Hürde. Rund 100.000 Blätter aus der Hand des
+                  letzten Universalgelehrten dokumentieren eine über fünf Jahrzehnte reichende
+                  intellektuelle Entwicklung, wobei einem Großteil der Schriftstücke eine
+                  zeitgenössische Datierung fehlt. Traditionelle Methoden der Datierung sind für
+                  einen Korpus dieser Dimension unzureichend: Die manuelle Bestimmung durch
+                  Expertinnen ist angesichts der Materialmenge praktisch nicht zu bewältigen, und
+                  auch die Wasserzeichenanalyse erlaubt nur grobe Annäherungen im Bereich von
+                  Jahrzehnten.</p>
+                <p>Der Beitrag erprobt, inwieweit bildgestützte Deep-Learning-Modelle diese Lücke
+                  schließen können und ob diese dabei eine editorisch nutzbare Genauigkeit
+                  erreichen. Wünschenswert ist eine maximale Abweichung von ±1 Jahr. Im Mittelpunkt
+                  steht die Frage, ob Deep-Learning-Modelle die feinen intra-personalen
+                  Schreibdrifts eines einzelnen Autors über fast fünf Jahrzehnte abbilden können.
+                  Anders als bestehende Arbeiten, die meist das Alter verschiedener Schreiber
+                  klassifizieren, zielt der Ansatz auf die Detektion des schreibereigenen
+                  Stilwandels innerhalb Leibniz‘ Werk. Der weitläufige Nachlass von Leibniz bietet
+                  hierfür eine geeignete Grundlage.</p>
+                <p>Es wird bewusst auf Transkription oder OCR verzichtet, so werden die besonderen
+                  Herausforderungen von Leibniz‘ Schriftbild (Überarbeitungen, Streichungen,
+                  wechselnde Sprachen) umgangen. Um sicherzustellen, dass die Modelle
+                  schriftbezogene und nicht materialbedingte Merkmale lernen, werden verschiedene
+                  Normalisierungsschritte durchgeführt: Zeilenweise Segmentierung und Binarisierung
+                  eliminieren Papierstruktur und Tintenintensität als Faktoren.</p>
+                <p>Als Datenbasis dienen ca. 600 Seiten aus dem Zeitraum 1669-1716: 400 datierte
+                  Briefe sowie 200 Seiten wissenschaftlicher Ausarbeitungen. Das Material wurde so
+                  gewählt, dass für jedes Jahr Vorlagen verfügbar sind. Es werden verschiedene
+                  Deep-Learning-Architekturen entwickelt und evaluiert, die relevante Merkmale
+                  direkt aus den Bilddaten lernen. Anders als klassische Ansätze der digitalen
+                  Paläographie mit manueller Merkmalsextraktion wird auf ein
+                  Ende-zu-Ende-Lernverfahren gesetzt. Ziel des Projekts ist die Entwicklung von
+                  Ansätzen zur hochauflösenden Datierung frühneuzeitlicher Gelehrtenhandschriften
+                  für den Einsatz in der alltäglichen editorischen Praxis. Die entwickelte modulare
+                  Pipeline ermöglicht flexibel konfigurierbare Experimente und legt besonderen Wert
+                  auf Visualisierung und Erklärbarkeit der Ergebnisse.</p>
+                <p>Das Projekt positioniert sich an der Schnittstelle von Digital Humanities und
+                  Computer Vision und zeigt, wie klassisches maschinelles Lernen die traditionelle
+                  editorische Arbeit ergänzen kann. Es entsteht in Kooperation zwischen der
+                  Leibniz-Arbeitsstelle der BBAW, dem DH-Referat TELOTA und dem KI-Servicezentrum
+                  des Hasso-Plattner-Instituts in Potsdam.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#westphal_tim">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#bbaw"/>
+                </person>
+                <person role="speaker" corresp="#santi_marco">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#bbaw"/>
+                </person>
+                <person role="speaker" corresp="#romero-tormo_marco">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#hpi"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#bbaw"/>
+            </event>
             <org role="organizer"
               corresp="#lemke_karoline #klappenbach_lou #hug_marius #goettel_sebastian"/>
           </event>
@@ -35675,7 +36449,7 @@
               <listPerson>
                 <person role="speaker" corresp="#rodighiero_dario">
                   <name>
-                    <roleName type="title">Asst. Prof.</roleName>
+                    <roleName type="title">Ass.-Prof.</roleName>
                   </name>
                   <affiliation corresp="#uni-groningen"/>
                 </person>
@@ -46479,6 +47253,8 @@
           </event>
 
         </event>
+
+
         <event xml:id="ls49" type="lecture-series" where="#mainz">
           <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
             Kulturwissenschaften</eventName>
@@ -46489,8 +47265,66 @@
               target="https://web.archive.org/web/20250115211643/https://www.digitale-methodik.uni-mainz.de/inhalt/"/>
             <ptr type="programme"
               target="https://web.archive.org/web/20241202085044/https://www.digitale-methodik.uni-mainz.de/programm/"/>
+            <note type="description" xml:lang="de">
+              <p>Wie „verstehen“ Rechner Sprachbilder? Was bedeutet „Applications age like fish,
+                data ages like wine“ für Projekte der Digital Humanities? Wie denken Übersetzerinnen
+                bzw. Übersetzer und was macht der Algorithmus daraus? Was fängt man mit
+                distributioneller Semantik an und wohin entwickelt sich das
+                Informationsmanagement?</p>
+              <p>An zehn Terminen berichten Wissenschaftlerinnen und Wissenschaftler aus aktuellen
+                Forschungsvorhaben, neuen Anwendungsbereichen und Zukunftsperspektiven in den
+                Digital Humanities. Sie berichten dabei aus unterschiedlicher fachlicher, nationaler
+                und instituioneller Perspektive.</p>
+              <p>So sind in der Vorlesung vertreten: außeruniversitäre Forschungseinrichtungen aus
+                Deutschland (Berlin-Brandenburgische Akademie der Wissenschaft; Akademie der
+                Wissenschaften und der Literatur Mainz) und Österreich (Österreichische Akademie der
+                Wissenschaften), die Hochschule Mainz, Universitäten aus Beligien, Deutschland, der
+                Schweiz und der USA (University of Ghent, Universität Mainz, Université de
+                Neuchâtel, University Stanford) und ein gemeinnütziger Verein (Open Knowledge
+                Foundation Deutschland).</p>
+              <p>Die Ringvorlesung des neuen hochschulübergreifenden Masterstudiengangs “Digitale
+                Methodik in den Geistes- und Kulturwissenschaften” findet erstmals im Sommersemester
+                2017 statt. Die Veranstaltungen sind öffentlich.</p>
+              <p>Die Einladung der renommierten Referentinnen und Referenten wird ermöglicht durch
+                die Unterstützung der Akademie der Wissenschaften und der Literatur Mainz, der
+                Hochschule Mainz, des Leibniz-Institutes für Europäische Geschichte und des Mainzer
+                Zentrums für Digitalität in den Geistes- und Kulturwissenschaften (mainzed).</p>
+            </note>
 
+            <event type="lecture" when="2017-05-03" xml:id="ls49_t1_l1">
+              <eventName xml:lang="de">Digitale Briefeditionen und ihre Vernetzung</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dumont_stefan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#bbaw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
+            </event>
 
+            <!-- 2017-05-10   https://web.archive.org/web/20241202085044/https://www.digitale-methodik.uni-mainz.de/files/2017/04/Flyer-A4.pdf  |  https://web.archive.org/web/20241202085044/https://www.digitale-methodik.uni-mainz.de/files/2017/04/Abstract.pdf -->
+            <!-- 2017-05-17 -->
+            <!-- 2017-05-24 -->
+            <!-- 2017-05-31 -->
+            <!-- 2017-06-07 -->
+            <!-- 2017-06-14 -->
+            <!-- 2017-06-21 -->
+            <!-- 2017-06-28 -->
+            <!-- 2017-07-05 -->
 
             <org role="organizer" corresp="..."/>
           </event>
@@ -46503,20 +47337,71 @@
               target="https://web.archive.org/web/20250115230932/https://www.digitale-methodik.uni-mainz.de/programm-ringvorlesung-sommersemester-2018/"/>
             <ptr type="programme"
               target="https://web.archive.org/web/20250809175938/https://www.igl.uni-mainz.de/fileadmin/user_upload/Transdisziplinaere_Aspekte_digitaler_Methodik_in_den_Geistes-_und_Kulturwissenschaften.pdf"/>
+            <note type="description" xml:lang="de">
+              <p>Wie „verstehen“ Rechner Sprachbilder? Was bedeutet „Applications age like fish,
+                data ages like wine“ für Projekte der Digital Humanities? Wie denken Übersetzerinnen
+                bzw. Übersetzer und was macht der Algorithmus daraus? Was fängt man mit
+                distributioneller Semantik an und wohin entwickelt sich das
+                Informationsmanagement?</p>
+              <p>Es berichten Wissenschaftlerinnen und Wissenschaftler aus aktuellen
+                Forschungsvorhaben, neuen Anwendungsbereichen und Zukunftsperspektiven in den
+                Digital Humanities. Sie berichten dabei aus unterschiedlicher fachlicher, nationaler
+                und instituioneller Perspektive.</p>
+              <p>So sind in der Vorlesung vertreten: außeruniversitäre Forschungseinrichtungen aus
+                Deutschland (Brandeburgisches Zentrum für Medienwissenschaft, GESIS –
+                Leibniz-Institut für Sozialwissenschaften) und Österreich (Austrian Institut for
+                Technology), der Hochschule Mainz, der Universitäten Mainz, Trier und Würzburg und
+                des Haverford College (USA) sowie eines gemeinnützigen Vereins (Wikimedia e.
+                V.).</p>
+              <p>Die Ringvorlesung des hochschulübergreifenden Masterstudiengangs Digitale Methodik
+                in den Geistes- und Kulturwissenschaften findet im Sommersemester 2018 zum zweiten
+                Mal statt. Die Veranstaltun­gen sind öffentlich.</p>
+              <p>Die Einladung der renommierten Referentinnen und Referenten wird ermöglicht durch
+                die Unterstützung der Hochschule Mainz, des Leibniz-Institutes für Europäische
+                Geschichte und des Mainzer Zentrums für Digitalität in den Geistes- und
+                Kulturwissenschaften (mainzed).</p>
+            </note>
 
+            <!-- 2018-04-26 -->
+            <!-- 2018-05-02 -->
+            <!-- 2018-05-16 -->
+            <!-- 2018-05-23 -->
+            <!-- 2018-05-30 -->
+            <!-- 2018-06-06 -->
+            <!-- 2018-06-13 -->
+            <!-- 2018-06-20 -->
+            <!-- 2018-06-27 -->
+            <!-- 2018-07-04 -->
 
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2019-05" to="2019-07" xml:id="ls49_t3">
             <eventName>Sommersemester 2019</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250315111530/https://www.digitale-methodik.uni-mainz.de/ringvorlesung-sommersemester-2019/"/>
+            <note type="description" xml:lang="de">
+              <p>Die Ringvorlesung des hochschulübergreifend­en Masterstu­diengangs Digitale
+                Methodik in den Geistes- und Kulturwissenschaften findet im Sommersemester 2019 zum
+                dritent Mal statt. Die Veranstaltun­gen sind öffentlich.</p>
+              <p>Die Einladung der renommierten Referentinnen und Referenten wird ermöglicht durch
+                die Unterstützung der Hochschule Mainz, des Leibniz-Institutes für Europäische
+                Geschichte und des Mainzer Zentrums für Digitalität in den Geistes- und
+                Kulturwissenschaften (mainzed).</p>
+            </note>
 
+            <!-- 2019-05-08 -->
+            <!-- 2019-05-15 -->
+            <!-- 2019-05-22 -->
+            <!-- 2019-05-29 -->
+            <!-- 2019-06-05 -->
+            <!-- 2019-06-12 -->
+            <!-- 2019-06-19 -->
+            <!-- 2019-06-26 -->
+            <!-- 2019-07-03 -->
+            <!-- 2019-07-10 -->
 
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
           <!-- It seems that there was no edition of the lecture series in 2020 -->
@@ -46525,20 +47410,57 @@
             <eventName>Sommersemester 2021</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250115224658/https://www.digitale-methodik.uni-mainz.de/programm-ringvorlesung-2021/"/>
+            <note type="description" xml:lang="de">
+              <p>Pandemie-bedingt wird unsere Ringvorlesung auch in diesem Sommer digital
+                stattfinden. Dennoch ist es uns gelungen, eine ganze Reihe von interessanten
+                Referenten zu gewinnen, die in Video-Vorträge über ihre Arbeit berichtet werden. Das
+                Programm finden Sie bitte untenstehend. Aus einer Reihe von Gründen haben wir uns
+                jedoch entschieden, diese Video-Konferenzen nicht gänzlich öffentlich machen,
+                sondern auf den Kreis der Studierenden und einiger weniger Gäste zu beschränken.</p>
+            </note>
 
+            <!-- 2021-04-28 -->
+            <!-- 2021-05-05 -->
+            <!-- 2021-05-26 -->
+            <!-- 2021-06-02 -->
+            <!-- 2021-06-09 -->
+            <!-- 2021-06-16 -->
+            <!-- 2021-06-23 -->
+            <!-- 2021-06-30 -->
+            <!-- 2021-07-07 -->
+            <!-- 2021-07-14 -->
 
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls49_t5">
             <eventName>Sommersemester 2022</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250115223239/https://www.digitale-methodik.uni-mainz.de/ringvorlesung-2022/"/>
+            <note type="description" xml:lang="de">
+              <p>Auch im Sommersemester 2022 veranstalte der hochschulübergreifende Mainzer
+                Masterstudiengang Digitale Methodik in den Geistes- und Kulturwissenschaften eine
+                Ringvorlesung unter dem Titel Transdisziplinäre Aspekte Digitaler Methodik in den
+                Geistes- und Kulturwissenschaften. Die Veranstaltung findet als hybrides Format
+                dieses Jahr ausnahmsweise im Helmholtz-Institut Mainz (Staudingerweg 18, 55128,
+                Ausnahme 6.7.2022!) Mittwochs 18–20 Uhr statt. Die wissenschaftliche Gastvorträge im
+                Rahmen der Veranstaltung sind öffentlich. Aufgrund der pandemischen Situation werden
+                Gäste, die in Präsenz oder digital teilnehmen möchten um vorherige Anmeldung
+                gebeten.</p>
+            </note>
 
+            <!-- 2022-05-04 -->
+            <!-- 2022-05-11 -->
+            <!-- 2022-05-18 -->
+            <!-- 2022-05-25 -->
+            <!-- 2022-06-08 -->
+            <!-- 2022-06-15 -->
 
+            <!-- 2022-06-29 -->
+            <!-- 2022-07-06 -->
+            <!-- 2022-07-13 -->
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2023-04" to="2023-07" xml:id="ls49_t6">
@@ -46547,9 +47469,26 @@
               target="https://web.archive.org/web/20250210102949/https://www.digitale-methodik.uni-mainz.de/1952-2/"/>
             <ptr type="programme"
               target="https://web.archive.org/web/20241202074200/https://www.digitale-methodik.uni-mainz.de/files/2023/04/2023_ringvorlesung_a4_print-1.pdf"/>
+            <note type="description" xml:lang="de">
+              <p>Die Ringvorlesung kann diesen Sommer endlich wieder in gewohnter Weise in Präsenz
+                Mittwochs 18–20 Uhr stattfinden. Ort ist in der Regel (wenige Ausnahmen sind im
+                Programm fett vermerkt) wie in den Jahren von 2016 bis 2019 im Konferenzraum des
+                Leibniz-Institut für Europäische Geschichte | IEG (Alte Universitätsstraße 19, 55116
+                Mainz). Alle Interessierten sind zu den öffentlichen Vorträgen herzlich
+                eingeladen.</p>
+            </note>
 
+            <!-- 2023-04-26 -->
+            <!-- 2023-05-03 -->
+            <!-- 2023-05-10 -->
+            <!-- 2023-05-24 -->
+            <!-- 2023-05-31 -->
+            <!-- 2023-06-14 -->
+            <!-- 2023-06-21 -->
+            <!-- 2023-06-28 -->
+            <!-- 2023-07-05 -->
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls49_t7">
@@ -46558,9 +47497,27 @@
               target="https://web.archive.org/web/20240418191212/https://www.digitale-methodik.uni-mainz.de/aktuelles/"/>
             <ptr type="programme"
               target="https://web.archive.org/web/20250213015216/https://fedihum.s3proxy.de/media_attachments/files/112/293/055/767/557/975/original/ca69be58c58bcbea.png"/>
+            <note type="description" xml:lang="de">
+              <p>Die Ringvorlesung findet dieses Jahr wieder in gewohnter Weise Mittwochs von 18–20
+                Uhr im Leibniz-Institut für europäische Geschichte (IEG, Alte Universitäts-Str. 19,
+                55116 Mainz) statt (Ausnahme 26.6. siehe unten). Alle Interessierten sind herzlich
+                eingeladen.</p>
+            </note>
+
+            <!-- 2024-04-24 -->
 
 
-            <org role="organizer" corresp="..."/>
+            <!-- 2024-05-15 -->
+            <!-- 2024-05-22 -->
+
+            <!-- 2024-06-05 -->
+            <!-- 2024-06-12 -->
+            <!-- 2024-06-19 Vom Regenwald auf den Bildschirm: Digitale Ansätze zur Erforschung der antiken Maya-Schrift -->
+            <!-- 2024-06-26 Musik modellieren: Von der Schwierigkeit, das Unsichtbare sichtbar zu machen -->
+            <!-- 2024-07-03 -->
+            <!-- 2024-07-10 Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“ -->
+
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls49_t8">
@@ -46568,9 +47525,16 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
 
+            <!-- 2025-04-23 -->
+            <!-- 2025-05-07 -->
+            <!-- 2025-05-14 -->
+            <!-- 2025-05-21 -->
+            <!-- 2025-06-04 -->
+            <!-- 2025-06-25 -->
+            <!-- 2025-07-02 -->
+            <!-- 2025-07-09 -->
 
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" corresp="#niedermueller_peter"/>
           </event>
 
         </event>
@@ -46691,7 +47655,7 @@
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#block_friedrich-w.">
+                <person role="speaker" corresp="#block_friedrich-wilhelm">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
@@ -51847,6 +52811,7 @@
               corresp="#nicka_isabella #zeppezauer-wachauer_katharina #faerberboeck_peter"/>
           </event>
         </event>
+
         <event xml:id="ls51" type="lecture-series" where="#graz">
           <eventName xml:lang="en">Breakfast Lecture</eventName>
           <ptr type="programme"
@@ -51861,13 +52826,149 @@
           </note>
 
           <event type="lecture-series-term" from="2025-06" to="2025-06" xml:id="ls51_t1">
-            <eventName xml:lang="de">2025</eventName> ´ <!-- 2025-06-11 |  https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/  |  https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf -->
-            <!-- 2025-06-18 |  https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/  |  https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf -->
-            <!-- 2025-10-29 |  https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-29.-october-900-bis-1000-uhr/  | https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Breakfast_lectures_2025_10_29_Repolusk.pdf  -->
+            <eventName xml:lang="de">2025</eventName>
+
+            <event type="lecture" when="2025-06-11" xml:id="ls51_t1_l1">
+              <eventName xml:lang="en">Automated Classification of Ottoman Court Records: Machine
+                Learning Approaches to Historical Legal Texts</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf"/>
+              <ptr type="video" target="..."/>
+              <note type="abstract" xml:lang="en">
+                <p>This presentation introduces a computational framework for automatically
+                  classifying 112,000 Latintranscribed Ottoman court records (kadi sicilleri) into
+                  seven legal categories using machine learning. These historical documents,
+                  spanning centuries of Ottoman jurisprudence, chronicle everything from property
+                  transactions to family disputes across the empire’s vast territories. While
+                  traditionally requiring years of specialized paleographic training to categorize,
+                  our approach demonstrates that modern NLP techniques can achieve over 92% accuracy
+                  in genre classification.</p>
+                <p>The study benchmarks four machine learning models – from traditional logistic
+                  regression to stateof-the-art transformer architectures – revealing how each
+                  captures different aspects of Ottoman legal language. Fine-tuned Turkish BERT
+                  excels at recognizing context-dependent formulas and longrange dependencies, while
+                  simpler models offer transparency through interpretable feature weights. Notably,
+                  the models’ systematic confusions between Court Proceedings and Commercial
+                  Transactions mirror the genuine overlap in Ottoman legal practice, turning
+                  computational “errors” into historical insights.</p>
+                <p>Beyond technical metrics, this work demonstrates how digital methods can
+                  accelerate historical research while preserving domain expertise. By releasing an
+                  open dataset of 5,000 annotated records, we aim to foster collaborative research
+                  at the intersection of computational linguistics and Ottoman studies. The
+                  presentation will discuss both the methodological framework and its implications
+                  for digital humanities research on non-Western historical corpora.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cetinkaya_ali">
+                  <name>
+                    <roleName type="title">Ass.-Prof. PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-selcuk"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-graz"/>
+            </event>
+
+            <event type="lecture" when="2025-06-18" xml:id="ls51_t1_l2">
+              <eventName xml:lang="en">Post-National and National: Kosovo’s Quest for a Narrative
+                (Digital or Otherwise)</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf"/>
+              <ptr type="video" target="..."/>
+              <note type="abstract" xml:lang="en">
+                <p>Kosovo's externally constructed independence in 2008 seemed to offer a new path
+                  to historical understanding that might make Kosovo an outlier in the memory
+                  politics of the Balkans where hegemonic narratives of victimhood and triumph
+                  prevail. Armed with a unique constitution, unburdened by religion, loads of
+                  international advisors and a young and dynamic population eager to join (not
+                  re-join) Europe. Kosovo had options, or so it seemed, including a very significant
+                  role for digital memory given Kosovo’s high level of “connectivity”.</p>
+                <p>This presentation examines how different actors in Kosovo has shaped the memory
+                  narrative over time often in response to domestic pressures but also those coming
+                  from the international community that still plays an outsized role in Kosovo. From
+                  the heady days of a potentially post-national future to the establishment of new
+                  and controversial narratives, Kosovo now finds itself just like the rest of the
+                  Balkans.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#austin_robert">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-toronto"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-graz"/>
+            </event>
+
+            <event type="lecture" when="2025-10-29" xml:id="ls51_t1_l3">
+              <eventName xml:lang="en">KuiSCIMA: How to Create and Use a Digital Symbolic Dataset of
+                Medieval Chinese Music</eventName>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20251105134209/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-29.-october-900-bis-1000-uhr/"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20251105134039/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Breakfast_lectures_2025_10_29_Repolusk.pdf"/>
+              <ptr type="video" target="..."/>
+              <note type="abstract" xml:lang="en">
+                <p>The influential poet and composer Jiang Kui 姜夔 (1155– 1221) authored numerous
+                  poems. His renowned poetry collection Baishidaoren Gequ 白石道人歌曲 (Songs of the
+                  Whitestone Daoist) contains 109 songs in total, but only 28 of them feature three
+                  different kinds of musical notation. This collection is among the earliest
+                  surviving sources of melodized Chinese lyrics. However, it was forgotten for over
+                  300 years until a handwritten copy reappeared at the beginning of the 18th
+                  century. By then, some notations had long fallen out of use, and errors were
+                  introduced during the copying processes. In this lecture we will explore the
+                  KuiSCIMA corpus, a digital dataset comprising five influential historical editions
+                  of Baishidaoren Gequ (with page-level image annotations) and two purely symbolic
+                  editions. We will examine the musical notations and suitable digital encodings,
+                  understand the challenges posed by the ambiguity and scarcity of the material, and
+                  see how machine learning and Optical Music Recognition can facilitate the creation
+                  of the corpus. Finally, we will use KuiSCIMA to develop a fully transparent
+                  generative model, incorporating both knowledge-driven and datadriven elements, to
+                  create and listen to an artificial piece based on the style of Baishidaoren
+                  Gequ.</p>
+              </note>
+              <note type="keywords">
+                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#repolusk_tristan">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-graz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-graz"/>
+            </event>
+
             <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
           </event>
 
         </event>
+
         <event xml:id="ls50" type="lecture-series" where="#graz">
           <eventName xml:lang="en">Lunchtime Lecture</eventName>
           <ptr type="programme" target="..."/>
@@ -51961,6 +53062,7 @@
             <org role="organizer" corresp="#..."/>
           </event>
         </event>
+
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
