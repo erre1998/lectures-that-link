@@ -288,8 +288,18 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-william-and-mary" type="university">
+            <name xml:lang="en">College of William &amp; Mary</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q875637</idno>
+            <place corresp="#williamsburg"/>
+          </org>
+          <org xml:id="uni-nottingham" type="university">
+            <name xml:lang="en">University of Nottingham</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q472316</idno>
+            <place corresp="#nottingham"/>
+          </org>
           <org xml:id="uni-selcuk" type="university">
-            <name xml:lang="en">Selçuk Üniversitesi</name>
+            <name xml:lang="en">Selçuk University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1627814</idno>
             <place corresp="#konya"/>
           </org>
@@ -767,6 +777,11 @@
             <name xml:lang="en">University of Cambridge</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q35794</idno>
             <place corresp="#cambridge-uk"/>
+          </org>
+          <org xml:id="uni-mit" type="university">
+            <name xml:lang="en">Massachusetts Institute of Technology (MIT)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49108</idno>
+            <place corresp="#cambridge-us"/>
           </org>
           <org xml:id="uni-yale" type="university">
             <name xml:lang="en">Yale University</name>
@@ -1604,7 +1619,12 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q865528</idno>
             <place corresp="#coventry"/>
           </org>
-          <org xml:id="uni-maastrich" type="university">
+          <org xml:id="uni-denver" type="university">
+            <name xml:lang="en">University of Denver</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q519427</idno>
+            <place corresp="#denver"/>
+          </org>
+          <org xml:id="uni-maastricht" type="university">
             <name xml:lang="en">Maastricht University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1137652</idno>
             <place corresp="#maastrich"/>
@@ -1699,18 +1719,31 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113633597</idno>
             <place corresp="#koblenz"/>
           </org>
-          <org xml:id="uni-mit" type="university">
-            <name xml:lang="en">Massachusetts Institute of Technology (MIT)</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q49108</idno>
-            <place corresp="#cambridge-us"/>
-          </org>
           <org xml:id="uni-genf" type="university">
             <name xml:lang="fr">Université de Genève</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q503473</idno>
             <idno type="ror">https://ror.org/01swzsf04</idno>
             <place corresp="#geneve"/>
           </org>
+          <org xml:id="uni-kaist" type="university">
+            <name xml:lang="de">Korea Advanced Institute of Science &amp; Technology (KAIST)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q39949</idno>
+            <idno type="ror">https://ror.org/05apxxy63</idno>
+            <place corresp="#daejeon"/>
+          </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="brg" type="research_institution">
+            <name xml:lang="de">Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1005526</idno>
+            <idno type="ror">https://ror.org/04d77de73</idno>
+            <place corresp="#hannover"/>
+          </org>
+          <org xml:id="hi-marburg" type="research_institution">
+            <name xml:lang="de">Herder-Institut</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q870192</idno>
+            <idno type="ror">https://ror.org/00sngv739</idno>
+            <place corresp="#marburg"/>
+          </org>
           <org xml:id="hpi" type="research_institution">
             <name xml:lang="de">Hasso-Plattner-Institut (HPI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q884105</idno>
@@ -2010,6 +2043,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q836312</idno>
             <place corresp="#paris"/>
           </org>
+          <org xml:id="ghi-washington" type="research_institution">
+            <name xml:lang="de">German Historical Institute Washington DC (GHI)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1205702</idno>
+            <place corresp="washington"/>
+          </org>
           <org xml:id="fiz-karlsruhe" type="research_institution">
             <name xml:lang="de">Leibniz-Institut für Informationsinfrastruktur (FIZ
               Karlsruhe)</name>
@@ -2051,6 +2089,13 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q266063</idno>
             <place corresp="#ljubljana"/>
           </org>
+          <org xml:id="mmz" type="research_institution">
+            <name xml:lang="de">Moses Mendelssohn Zentrum für europäisch-jüdische Studien
+              (MMZ)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1537723</idno>
+            <idno type="ror">https://ror.org/04vj48162</idno>
+            <place corresp="#potsdam"/>
+          </org>
           <org xml:id="dai" type="research_institution">
             <name xml:lang="de">Deutsches Archäologisches Institut (DAI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q695302</idno>
@@ -2089,6 +2134,22 @@
             <place corresp="#kassel"/>
           </org>
           <!-- ####### L ####### -->
+          <org xml:id="library-igdj" type="glam">
+            <name xml:lang="de">Institut für die Geschichte der deutschen Juden (IGdJ)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q28738350</idno>
+            <idno type="ror">https://ror.org/0206aqk41</idno>
+            <place corresp="#hamburg"/>
+          </org>
+          <org xml:id="library-bdcv" type="glam">
+            <name xml:lang="es">Biblioteca Daniel Cosío Villegas</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q42865647</idno>
+            <place corresp="#mexico-city"/>
+          </org>
+          <org xml:id="library-uni-goettingen" type="glam">
+            <name xml:lang="de">Staats- und Universitätsbibliothek Göttingen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q564783</idno>
+            <place corresp="#goettingen"/>
+          </org>
           <org xml:id="library-uni-tuebingen" type="glam">
             <name xml:lang="de">Universitätsbibliothek Tübingen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496347</idno>
@@ -2184,6 +2245,11 @@
             <name xml:lang="fr">Bibliothèque nationale de France</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q193563</idno>
             <place corresp="#paris"/>
+          </org>
+          <org xml:id="library-lbz" type="glam">
+            <name xml:lang="de">Landesbibliothekszentrum Rheinland-Pfalz (LBZ)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1802141</idno>
+            <place corresp="#koblenz"/>
           </org>
           <!-- ####### A ####### -->
           <org xml:id="archive-salzburg" type="glam">
@@ -2355,6 +2421,11 @@
             <place corresp="#stockholm #gothenburg"/>
           </org>
           <!-- ##### Companies ##### -->
+          <org xml:id="parsqube" type="company">
+            <name xml:lang="en">parsQube GmbH</name>
+            <!-- No Wikidata ID found -->
+            <place corresp="#karlsruhe"/>
+          </org>
           <org xml:id="deepl" type="company">
             <name xml:lang="en">DeepL SE</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131894787</idno>
@@ -2483,7 +2554,6 @@
             <idno type="orcid">https://orcid.org/0009-0001-7129-2018</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126692207</idno>
           </person>
-
           <person xml:id="doering_laura">
             <name>
               <forename>Laura</forename>
@@ -13370,6 +13440,10 @@
             <name>Croatia</name>
           </place>
           <!-- ###### Continent: Asia ###### -->
+          <place type="country" xml:id="south-korea">
+            <bloc type="continent" corresp="#asia"/>
+            <name>South Korea</name>
+          </place>
           <place type="country" xml:id="japan">
             <bloc type="continent" corresp="#asia"/>
             <name>Japan</name>
@@ -13408,6 +13482,10 @@
             <name>New Zealand</name>
           </place>
           <!-- ###### Continent: North America ###### -->
+          <place type="country" xml:id="mexico">
+            <bloc type="continent" corresp="#north-america"/>
+            <name>Mexico</name>
+          </place>
           <place type="country" xml:id="canada">
             <bloc type="continent" corresp="#north-america"/>
             <name>Canada</name>
@@ -13460,71 +13538,85 @@
             <country corresp="#germany"/>
             <name>Ilmenau</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012825</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4026566-3</idno>
           </place>
           <place type="city" xml:id="pforzheim">
             <country corresp="#germany"/>
             <name>Pforzheim</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012653</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4045637-7</idno>
           </place>
           <place type="city" xml:id="detmold">
             <country corresp="#germany"/>
             <name>Detmold</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1002333</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4011555-0</idno>
           </place>
           <place type="city" xml:id="dortmund">
             <country corresp="#germany"/>
             <name>Dortmund</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004982</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4012814-3</idno>
           </place>
           <place type="city" xml:id="trier">
             <country corresp="#germany"/>
             <name>Trier</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004447</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4060877-3</idno>
           </place>
           <place type="city" xml:id="chemnitz">
             <country corresp="#germany"/>
             <name>Chemnitz</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005951</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4029702-0</idno>
           </place>
           <place type="city" xml:id="kassel">
             <country corresp="#germany"/>
             <name>Kassel</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004431</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4029869-3</idno>
           </place>
           <place type="city" xml:id="vechta">
             <country corresp="#germany"/>
             <name>Vechta</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1041525</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4062421-3</idno>
           </place>
           <place type="city" xml:id="wuppertal">
             <country corresp="#germany"/>
             <name>Wuppertal</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004943</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4067084-3</idno>
           </place>
           <place type="city" xml:id="karlsruhe">
             <country corresp="#germany"/>
             <name>Karlsruhe</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004424</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4029713-5</idno>
           </place>
           <place type="city" xml:id="weil-der-stadt">
             <country corresp="#germany"/>
             <name>Weil der Stadt</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1041707</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4065086-8</idno>
           </place>
           <place type="city" xml:id="dummerstorf">
             <country corresp="#germany"/>
             <name>Dummerstorf</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7197606</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4389418-5</idno>
           </place>
           <place type="city" xml:id="erlangen">
             <country corresp="#germany"/>
             <name>Erlangen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004332</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4015299-6</idno>
           </place>
           <place type="city" xml:id="nuernberg">
             <country corresp="#germany"/>
             <name>Nuremberg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004334</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4042742-0</idno>
           </place>
           <place type="city" xml:id="muenster">
             <country corresp="#germany"/>
@@ -13555,51 +13647,61 @@
             <country corresp="#germany"/>
             <name>Darmstadt</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7077069</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4011077-1</idno>
           </place>
           <place type="city" xml:id="duisburg">
             <country corresp="#germany"/>
             <name>Duisburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7077749</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4013284-5</idno>
           </place>
           <place type="city" xml:id="erfurt">
             <country corresp="#germany"/>
             <name>Erfurt</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7024031</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4015240-6</idno>
           </place>
           <place type="city" xml:id="essen">
             <country corresp="#germany"/>
             <name>Essen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004905</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4015557-2</idno>
           </place>
           <place type="city" xml:id="augsburg">
             <country corresp="#germany"/>
             <name>Augsburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004324</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4003614-5</idno>
           </place>
           <place type="city" xml:id="bielefeld">
             <country corresp="#germany"/>
             <name>Bielefeld</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005978</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4006510-8</idno>
           </place>
           <place type="city" xml:id="bochum">
             <country corresp="#germany"/>
             <name>Bochum</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004904</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4007328-2</idno>
           </place>
           <place type="city" xml:id="bonn">
             <country corresp="#germany"/>
             <name>Bonn</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005090</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4007666-0</idno>
           </place>
           <place type="city" xml:id="goettingen">
             <country corresp="#germany"/>
             <name>Göttingen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005246</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021477-1</idno>
           </place>
           <place type="city" xml:id="greifswald">
             <country corresp="#germany"/>
             <name>Greifswald</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004725</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021965-3</idno>
           </place>
           <place type="city" xml:id="halle">
             <country corresp="#germany"/>
@@ -13929,6 +14031,11 @@
             <country corresp="#uk"/>
             <name>Leeds</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010442</idno>
+          </place>
+          <place type="city" xml:id="nottingham">
+            <country corresp="#uk"/>
+            <name>Nottingham</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7012006</idno>
           </place>
           <place type="city" xml:id="edinburgh">
             <country corresp="#uk"/>
@@ -14510,6 +14617,12 @@
             <name>Tokyo</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1001032</idno>
           </place>
+          <!-- ######## South Korean cities ######## -->
+          <place type="city" xml:id="daejeon">
+            <country corresp="#south-korea"/>
+            <name>Daejeon</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7002222</idno>
+          </place>
           <!-- ######## Chinese cities ######## -->
           <place type="city" xml:id="guangzhou">
             <country corresp="#china"/>
@@ -14546,6 +14659,24 @@
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
+          <place type="city" xml:id="washington">
+            <country corresp="#usa"/>
+            <name>Washington, D.C.</name>
+            <idno type="tgn">https://vocab.getty.edu/page/tgn/7013962</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4064682-8</idno>
+          </place>
+          <place type="city" xml:id="williamsburg">
+            <country corresp="#usa"/>
+            <name>Williamsburg</name>
+            <idno type="tgn">https://vocab.getty.edu/page/tgn/7022220</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4203189-8</idno>
+          </place>
+          <place type="city" xml:id="denver">
+            <country corresp="#usa"/>
+            <name>Denver</name>
+            <idno type="tgn">https://vocab.getty.edu/page/tgn/7013545</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085412-7</idno>
+          </place>
           <place type="city" xml:id="berkeley">
             <country corresp="#usa"/>
             <name>Berkeley</name>
@@ -14777,6 +14908,12 @@
             <country corresp="#canada"/>
             <name>Waterloo</name>
             <idno type="gnd">https://d-nb.info/gnd/4140559-6</idno>
+          </place>
+          <!-- ######## Mexican cities ######## -->
+          <place type="city" xml:id="mexico-city">
+            <country corresp="#mexico-city"/>
+            <name>Mexico City</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7007227</idno>
           </place>
           <!-- ###### Continent: South America ###### -->
           <!-- ######## Argentinian cities ######## -->
@@ -26475,7 +26612,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-maastrich"/>
+                  <affiliation corresp="#uni-maastricht"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -27096,7 +27233,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-maastrich"/>
+                  <affiliation corresp="#uni-maastricht"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-koeln"/>
@@ -46456,13 +46593,13 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#igdj-hamburg"/>
+                  <affiliation corresp="#library-igdj"/>
                 </person>
                 <person role="speaker" corresp="#neovesky_anna">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#igdj-hamburg"/>
+                  <affiliation corresp="#library-igdj"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
@@ -46560,7 +46697,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#mmz-potsdam"/>
+                  <affiliation corresp="#mmz"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
@@ -47192,19 +47329,19 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#bsb-münchen"/>
+                  <affiliation corresp="#library-bsb"/>
                 </person>
                 <person role="speaker" corresp="#herr_wiebke">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#bsb-münchen"/>
+                  <affiliation corresp="#library-bsb"/>
                 </person>
                 <person role="speaker" corresp="#friesenhausen_moritz">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#bsb-münchen"/>
+                  <affiliation corresp="#library-bsb"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
@@ -47358,7 +47495,7 @@
             <!-- 2017-06-28 -->
             <!-- 2017-07-05 -->
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2018-04" to="2018-07" xml:id="ls49_t2">
@@ -47405,7 +47542,7 @@
             <!-- 2018-06-27 -->
             <!-- 2018-07-04 -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2019-05" to="2019-07" xml:id="ls49_t3">
@@ -47433,7 +47570,7 @@
             <!-- 2019-07-03 -->
             <!-- 2019-07-10 -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <!-- It seems that there was no edition of the lecture series in 2020 -->
@@ -47462,7 +47599,7 @@
             <!-- 2021-07-07 -->
             <!-- 2021-07-14 -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls49_t5">
@@ -47492,7 +47629,7 @@
             <!-- 2022-07-06 -->
             <!-- 2022-07-13 -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2023-04" to="2023-07" xml:id="ls49_t6">
@@ -47520,7 +47657,7 @@
             <!-- 2023-06-28 -->
             <!-- 2023-07-05 -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls49_t7">
@@ -47549,7 +47686,7 @@
             <!-- 2024-07-03 -->
             <!-- 2024-07-10 Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“ -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
           <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls49_t8">
@@ -47566,7 +47703,7 @@
             <!-- 2025-07-02 -->
             <!-- 2025-07-09 -->
 
-            <org role="organizer" corresp="#niedermueller_peter"/>
+            <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
         </event>
@@ -47759,7 +47896,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#college-william-and-mary"/>
+                  <affiliation corresp="#uni-william-and-mary"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -47996,7 +48133,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#not found"/>
+                  <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -48112,7 +48249,7 @@
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
-                  <affiliation corresp="#uni-cambridge-mit"/>
+                  <affiliation corresp="#uni-mit"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -48271,7 +48408,7 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#ids-mannheim"/>
+                  <affiliation corresp="#ids"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -48411,7 +48548,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#landesbibliothekszentrum-koblenz"/>
+                  <affiliation corresp="#library-lbz"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -48524,7 +48661,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#bundesanstalt-für-geowissenschaften-und-rohstoffe"/>
+                  <affiliation corresp="#brg"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -49401,7 +49538,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#kaist"/>
+                  <affiliation corresp="#uni-kaist"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
