@@ -2083,6 +2083,11 @@
           </org>
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
+          <org xml:id="gallery-Kunsttempel" type="glam">
+            <name xml:lang="de">Kunsttempel</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30093262</idno>
+            <place corresp="#kassel"/>
+          </org>
           <!-- ####### L ####### -->
           <org xml:id="library-uni-tuebingen" type="glam">
             <name xml:lang="de">Universitätsbibliothek Tübingen</name>
@@ -2259,6 +2264,11 @@
             <place corresp="#gothenburg"/>
           </org>
           <!-- ####### Other ####### -->
+          <org xml:id="zfdg" type="other">
+            <name xml:lang="de">Zeitschrift für digitale Geisteswissenschaften (ZfdG)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q50817854</idno>
+            <place corresp="#wolfenbuettel"/>
+          </org>
           <org xml:id="nfdi4culture" type="other">
             <name xml:lang="en">NFDI4Culture</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q98276929</idno>
@@ -2464,6 +2474,25 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="ripoll_elodie">
+            <name>
+              <forename>Élodie</forename>
+              <surname>Ripoll</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-7129-2018</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692207</idno>
+          </person>
+
+          <person xml:id="doering_laura">
+            <name>
+              <forename>Laura</forename>
+              <surname>Döring</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0001-7129-2018</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131844640</idno>
+          </person>
           <person xml:id="niedermueller_peter">
             <name>
               <forename>Peter</forename>
@@ -46333,6 +46362,7 @@
             <eventName>Staffel 1</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250924095900/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes/staffel-1/"/>
+            <ptr type="blogpost" target="https://doi.org/10.58079/13jkc"/>
 
             <event type="lecture" when="2023-10-27" xml:id="ls53_t1_l1">
               <eventName xml:lang="de">Daten im Dienste der Geschichte. Was bedeutet
@@ -46777,12 +46807,14 @@
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low"
+              corresp="#doering_laura #buedenbender_stefan #lemaire_marina"/>
           </event>
           <event type="lecture-series-term" from="2024-10" to="2025-06" xml:id="ls53_t2">
             <eventName>Staffel 2</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250924095926/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes/staffel-2/"/>
+            <ptr type="blogpost" target="https://doi.org/10.58079/14o4k"/>
 
             <event type="lecture" when="2024-10-25" xml:id="ls53_t2_l1">
               <eventName xml:lang="de">FactGrid: Eine Wikibase-Instanz für historische
@@ -47223,7 +47255,8 @@
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low"
+              corresp="#doering_laura #buedenbender_stefan #lemaire_marina"/>
           </event>
 
         </event>
@@ -47253,7 +47286,6 @@
           </event>
 
         </event>
-
 
         <event xml:id="ls49" type="lecture-series" where="#mainz">
           <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
@@ -47548,14 +47580,15 @@
           <event type="lecture-series-term" from="2018-11" to="2019-01" xml:id="ls48_t1">
             <eventName>Wintersemester 2018-19</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2018-11-08" xml:id="...">
+            <event type="lecture" when="2018-11-08" xml:id="ls48_t1_l1">
               <eventName xml:lang="en">Digital Editions of Historical Text Re-Use</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809153836/https://tcdh.uni-trier.de/de/event/vortrag-digital-editions-historical-text-re-use"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47571,14 +47604,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2018-11-21" xml:id="...">
+            <event type="lecture" when="2018-11-21" xml:id="ls48_t1_l2">
               <eventName xml:lang="en">Digital Humanities for Theatre Research</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809153821/https://tcdh.uni-trier.de/de/event/vortrag-digital-humanities-theatre-research-und-workshop-interactive-network-visualization"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47594,15 +47628,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2018-12-13" xml:id="...">
+            <event type="lecture" when="2018-12-13" xml:id="ls48_t1_l3">
               <eventName xml:lang="de">Worüber wir sprechen, wenn wir über Topic Modeling
                 sprechen</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809153903/https://tcdh.uni-trier.de/de/event/vortrag-worueber-wir-sprechen-wenn-wir-ueber-topic-modeling-sprechen"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47618,14 +47653,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2019-01-10" xml:id="...">
+            <event type="lecture" when="2019-01-10" xml:id="ls48_t1_l4">
               <eventName xml:lang="en">OCR4all</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154058/https://tcdh.uni-trier.de/de/event/vortrag-ocr4all"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47641,14 +47677,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2019-01-24" xml:id="...">
+            <event type="lecture" when="2019-01-24" xml:id="ls48_t1_l5">
               <eventName xml:lang="de">postpraepost. Posie und Digitalisierung</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154035/https://tcdh.uni-trier.de/de/event/veranstaltung-des-jubilaeumsprogramms-20182019"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47659,33 +47696,26 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#not found"/>
+                  <affiliation corresp="#gallery-Kunsttempel"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- 2018-11-08 https://web.archive.org/web/20250809153836/https://tcdh.uni-trier.de/de/event/vortrag-digital-editions-historical-text-re-use -->
-            <!-- 2018-11-21 https://web.archive.org/web/20250809153821/https://tcdh.uni-trier.de/de/event/vortrag-digital-humanities-theatre-research-und-workshop-interactive-network-visualization -->
-            <!-- 2018-12-13 https://web.archive.org/web/20250809153903/https://tcdh.uni-trier.de/de/event/vortrag-worueber-wir-sprechen-wenn-wir-ueber-topic-modeling-sprechen -->
-            <!-- 2019-01-10 https://web.archive.org/web/20250809154058/https://tcdh.uni-trier.de/de/event/vortrag-ocr4all -->
-            <!-- 2019-01-24 https://web.archive.org/web/20250809154035/https://tcdh.uni-trier.de/de/event/veranstaltung-des-jubilaeumsprogramms-20182019 | https://web.archive.org/web/20250809154213/https://www.uni-trier.de/fileadmin/fb2/LDV/Vortr%C3%A4ge_und_Workshops/Plakat_Block_Januar_2019.pdf -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof"/>
           </event>
-
           <event type="lecture-series-term" from="2019-11" to="2020-01" xml:id="ls48_t2">
             <eventName>Wintersemester 2019-20</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2019-11-07" xml:id="...">
+            <event type="lecture" when="2019-11-07" xml:id="ls48_t2_l1">
               <eventName xml:lang="de">ONAMA. Ein Linked-Open-Data-Projekt zur Untersuchung von
                 Narrativen des Mittelalters in Bildern und Texten</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154713/https://tcdh.uni-trier.de/de/event/vortrag-onama-ein-linked-open-data-projekt-zur-untersuchung-von-narrativen-des-mittelalters"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47709,15 +47739,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2019-11-24" xml:id="...">
+            <event type="lecture" when="2019-11-24" xml:id="ls48_t2_l2">
               <eventName xml:lang="en">Stylometry, Chinese, and Following the Flow of
                 Information</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154726/https://tcdh.uni-trier.de/en/event/lecture-stylometry-chinese-and-following-flow-information"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47733,15 +47764,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2019-11-28" xml:id="...">
+            <event type="lecture" when="2019-11-28" xml:id="ls48_t2_l3">
               <eventName xml:lang="en">HathiTrust Research Center – The US-American
                 Perspective</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154925/https://tcdh.uni-trier.de/de/event/vortrag-im-rahmen-einer-arbeitstagung-hathitrust-research-center-us-american-perspective"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47757,15 +47789,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2019-12-05" xml:id="...">
+            <event type="lecture" when="2019-12-05" xml:id="ls48_t2_l4">
               <eventName xml:lang="en">Digitally Modelling the History of Traditional
                 Games</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154804/https://tcdh.uni-trier.de/en/event/lecture-digitally-modelling-history-traditional-games"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -47781,22 +47814,23 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2020-01-30" xml:id="...">
+            <event type="lecture" when="2020-01-30" xml:id="ls48_t2_l5">
               <eventName xml:lang="en">Scholarly Publishing Beyond the PDF: Publication of Data,
                 with Data, as Data</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809154809/https://tcdh.uni-trier.de/de/event/vortrag-scholarly-publishing-beyond-pdf-publication-data-data-data"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#schöch_christof">
+                <person role="speaker" corresp="#schoech_christof">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -47805,21 +47839,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- 2019-11-07 https://web.archive.org/web/20250809154713/https://tcdh.uni-trier.de/de/event/vortrag-onama-ein-linked-open-data-projekt-zur-untersuchung-von-narrativen-des-mittelalters -->
-            <!-- 2019-11-24 https://web.archive.org/web/20250809154726/https://tcdh.uni-trier.de/en/event/lecture-stylometry-chinese-and-following-flow-information -->
-            <!-- 2019-11-28 https://web.archive.org/web/20250809154925/https://tcdh.uni-trier.de/de/event/vortrag-im-rahmen-einer-arbeitstagung-hathitrust-research-center-us-american-perspective -->
-            <!-- 2019-12-05 https://web.archive.org/web/20250809154804/https://tcdh.uni-trier.de/en/event/lecture-digitally-modelling-history-traditional-games -->
-            <!-- 2020-01-30 https://web.archive.org/web/20250809154809/https://tcdh.uni-trier.de/de/event/vortrag-scholarly-publishing-beyond-pdf-publication-data-data-data -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof"/>
           </event>
-
           <event type="lecture-series-term" from="2020-11" to="2021-01" xml:id="ls48_t3">
             <eventName>Wintersemester 2020-21</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2020-11-19" xml:id="...">
+            <event type="lecture" when="2020-11-19" xml:id="ls48_t3_l1">
               <eventName xml:lang="en">Digital Humanities: The Korean Trajectory</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809155050/https://tcdh.uni-trier.de/en/event/lecture-digital-humanities-korean-trajectory"/>
@@ -47833,7 +47858,9 @@
                   digital humanities on the whole.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -47849,8 +47876,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2020-12-03" xml:id="...">
+            <event type="lecture" when="2020-12-03" xml:id="ls48_t3_l2">
               <eventName xml:lang="en">Visual Culture and Artificial Intelligence</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809155009/https://tcdh.uni-trier.de/de/event/vortrag-visual-culture-and-artificial-intelligence"/>
@@ -47867,7 +47893,9 @@
                   transdisciplinary field of Critical AI Studies.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -47878,20 +47906,21 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#not found"/>
+                  <affiliation corresp="#uni-erlangen-nuernberg"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2020-12-17" xml:id="...">
+            <event type="lecture" when="2020-12-17" xml:id="ls48_t3_l3">
               <eventName xml:lang="de">Musikwissenschaft und Informatik im Dialog: Möglichkeiten der
                 computergestützten harmonischen Analyse</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809155411/https://tcdh.uni-trier.de/de/event/vortrag-musikwissenschaft-und-informatik-im-dialog-moeglichkeiten-der-computergestuetzten"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -47902,13 +47931,12 @@
                   <name>
                     <roleName type="title">Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#not found"/>
+                  <affiliation corresp="#uni-saarland"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2021-01-14" xml:id="...">
+            <event type="lecture" when="2021-01-14" xml:id="ls48_t3_l4">
               <eventName xml:lang="en">Linked Open Data (LOD) for research: what is Wikidata and how
                 can we contribute and use it?</eventName>
               <ptr type="programme"
@@ -47921,24 +47949,25 @@
                   our research library.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#gutiérrez_silvia">
+                <person role="speaker" corresp="#gutierrez_silvia">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#not found"/>
+                  <affiliation corresp="#library-bdcv"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2021-01-21" xml:id="...">
+            <event type="lecture" when="2021-01-21" xml:id="ls48_t3_l5">
               <eventName xml:lang="en">Adding value to ancient Greek pottery data: presenting
                 project Lekythos</eventName>
               <ptr type="programme"
@@ -47954,7 +47983,9 @@
                   knowledge graphs.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -47970,21 +48001,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- 2020-11-19 https://web.archive.org/web/20250809155050/https://tcdh.uni-trier.de/en/event/lecture-digital-humanities-korean-trajectory -->
-            <!-- 2020-12-03 https://web.archive.org/web/20250809155009/https://tcdh.uni-trier.de/de/event/vortrag-visual-culture-and-artificial-intelligence -->
-            <!-- 2020-12-17 https://web.archive.org/web/20250809155411/https://tcdh.uni-trier.de/de/event/vortrag-musikwissenschaft-und-informatik-im-dialog-moeglichkeiten-der-computergestuetzten -->
-            <!-- 2021-01-14 https://web.archive.org/web/20250809155302/https://tcdh.uni-trier.de/en/event/lecture-linked-open-data-lod-research-what-wikidata-and-how-can-we-contribute-and-use-it -->
-            <!-- 2021-01-21 https://web.archive.org/web/20250809155401/https://tcdh.uni-trier.de/de/event/vortrag-adding-value-ancient-greek-pottery-data-presenting-project-lekythos -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof"/>
           </event>
-
           <event type="lecture-series-term" from="2021-12" to="2020-02" xml:id="ls48_t4">
             <eventName>Wintersemester 2021-22</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2021-12-01" xml:id="...">
+            <event type="lecture" when="2021-12-01" xml:id="ls48_t4_l1">
+              <!--  sameAs="#..." -->
               <eventName xml:lang="de">Evaluation von LDA Topic Modeling in Digital Humanities –
                 Forschungsstand, Methode, Ergebnisse</eventName>
               <ptr type="programme"
@@ -48004,7 +48027,9 @@
                   nämlich Topic-Modeling-basierte Dokumentklassifikation und Topic-Kohärenz.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48020,8 +48045,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2021-12-07" xml:id="...">
+            <event type="lecture" when="2021-12-07" xml:id="ls48_t4_l2">
               <eventName xml:lang="de">Vom DH-Studenten zum XML-Entwickler: Erfahrungsbericht über
                 Jobchancen im Studiengang Digital Humanities</eventName>
               <ptr type="programme"
@@ -48035,7 +48059,9 @@
                   Masterarbeit.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48051,8 +48077,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2021-12-03" xml:id="...">
+            <event type="lecture" when="2021-12-03" xml:id="ls48_t4_l3">
+              <!--  sameAs="#..." -->
               <eventName xml:lang="en">Literature and the Computational Arts</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809165349/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-nick-montfort-mit-der-vorlesungsreihe-praxis-der-digital-humanities"/>
@@ -48073,7 +48099,9 @@
                   Arbeiten umfassen) als grundlegend für computergenerierte Poesie an.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48089,8 +48117,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-01-11" xml:id="...">
+            <event type="lecture" when="2022-01-11" xml:id="ls48_t4_l4">
               <eventName xml:lang="de">Open Access als Strategie! Elektronisches Publizieren an der
                 Universitätsbibliothek Heidelberg</eventName>
               <ptr type="programme"
@@ -48116,7 +48143,9 @@
                   Publikationsmodell.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48127,13 +48156,12 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-press-heidelberg"/>
+                  <affiliation corresp="#uni-heidelberg"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-01-18" xml:id="...">
+            <event type="lecture" when="2022-01-18" xml:id="ls48_t4_l5">
               <eventName xml:lang="en">Wikidata and literature</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809165141/https://tcdh.uni-trier.de/de/event/vortrag-von-jprof-dr-julie-birkholz-und-sven-lieber-universitaet-ghent-und-koenigliche"/>
@@ -48151,7 +48179,9 @@
                   für die diese Technologien neu sind.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48162,7 +48192,7 @@
                   <name>
                     <roleName type="title">Jun.-Prof. Dr.</roleName>
                   </name>
-                  <affiliation corresp="#uni-ghent"/>
+                  <affiliation corresp="#uni-gent"/>
                 </person>
               </listPerson>
               <listPerson>
@@ -48175,8 +48205,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-02-01" xml:id="...">
+            <event type="lecture" when="2022-02-01" xml:id="ls48_t4_l6">
               <eventName xml:lang="en">DH in the Library, the Library behind DH: Practical
                 Experience from a DH-Subject Librarian</eventName>
               <ptr type="programme"
@@ -48191,38 +48220,30 @@
                   publications.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#calvo-telloin_José">
+                <person role="speaker" corresp="#calvo-tello_jose">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#not found"/>
+                  <affiliation corresp="#library-uni-goettingen"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- sameAs="#..." / 2021-12-01 https://web.archive.org/web/20250809165404/https://tcdh.uni-trier.de/de/event/vortrag-von-keli-du-trier-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2021-12-07 https://web.archive.org/web/20250809165404/https://tcdh.uni-trier.de/de/event/vortrag-von-martin-kocula-parsqube-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- sameAs="#..." / 2021-12-03  https://web.archive.org/web/20250809165349/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-nick-montfort-mit-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2022-01-11 https://web.archive.org/web/20250809165411/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-maria-effinger-heidelberg-university-press-der-vorlesungsreihe-praxis-der -->
-            <!-- 2022-01-18 https://web.archive.org/web/20250809165141/https://tcdh.uni-trier.de/de/event/vortrag-von-jprof-dr-julie-birkholz-und-sven-lieber-universitaet-ghent-und-koenigliche -->
-            <!-- 2022-02-01 https://web.archive.org/web/20250809165119/https://tcdh.uni-trier.de/en/event/lecture-dr-jose-calvo-telloin-lecture-series-praxis-der-digital-humanities -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof #ripoll_elodie"/>
           </event>
-
           <event type="lecture-series-term" from="2022-10" to="2022-12" xml:id="ls48_t5">
             <eventName>Wintersemester 2022-23</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2022-10-25" xml:id="...">
+            <event type="lecture" when="2022-10-25" xml:id="ls48_t5_l1">
               <eventName xml:lang="de">Mein Weg in die Digital Humanities-Forschung</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809164114/https://tcdh.uni-trier.de/de/event/vortrag-von-tanja-tu-ids-mannheim-ueber-ihren-weg-die-digital-humanities"/>
@@ -48237,7 +48258,9 @@
                   „Computational Literary Studies“.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -48253,15 +48276,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-11-15" xml:id="...">
+            <event type="lecture" when="2022-11-15" xml:id="ls48_t5_l2">
               <eventName xml:lang="de">FactGrid – eine kollaborative Wikibase-Plattform für
                 historische Daten?</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809164055/https://mimotext.uni-trier.de/vortrag-dr-olaf-simons/"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -48277,21 +48301,22 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-11-22" xml:id="...">
+            <event type="lecture" when="2022-11-22" xml:id="ls48_t5_l3">
               <eventName xml:lang="de">Kanones der Aufklärung: ein Werkstattbericht</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809164044/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-stefan-hessbrueggen-walter-mimotext-fellow-kanones-der-aufklaerung-ein"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#hessbrüggen-walter_stefan">
+                <person role="speaker" corresp="#hessbrueggen-walter_stefan">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
@@ -48300,8 +48325,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-12-06" xml:id="...">
+            <event type="lecture" when="2022-12-06" xml:id="ls48_t5_l4">
               <eventName xml:lang="de">Quantitative Sozialgeschichte und Digital Humanities:
                 Digitale Methoden zur Auswertung serieller Quellen</eventName>
               <ptr type="programme"
@@ -48350,7 +48374,9 @@
                   Analyseansätze aufgefunden werden können.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48366,14 +48392,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-12-13" xml:id="...">
+            <event type="lecture" when="2022-12-13" xml:id="ls48_t5_l5">
               <eventName xml:lang="de">Mit DH ins Landesbibliothekszentrum: Projektmanagement für
                 ein landesweites Informations- und Lernportal</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -48389,21 +48416,22 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2022-12-20" xml:id="...">
+            <event type="lecture" when="2022-12-20" xml:id="ls48_t5_l6">
               <eventName xml:lang="de">Berufsperspektiven in Forschungsbibliothek und Universität.
                 Jobchancen nach dem DH-Studium</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#geißel_pia">
+                <person role="speaker" corresp="#geissel_pia">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -48412,22 +48440,12 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- 2022-10-25 https://web.archive.org/web/20250809164114/https://tcdh.uni-trier.de/de/event/vortrag-von-tanja-tu-ids-mannheim-ueber-ihren-weg-die-digital-humanities -->
-            <!-- 2022-11-15 https://web.archive.org/web/20250809164055/https://mimotext.uni-trier.de/vortrag-dr-olaf-simons/ -->
-            <!-- 2022-11-22 https://web.archive.org/web/20250809164044/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-stefan-hessbrueggen-walter-mimotext-fellow-kanones-der-aufklaerung-ein -->
-            <!-- 2022-12-06 https://web.archive.org/web/20250809164217/https://tcdh.uni-trier.de/de/event/vortrag-von-henning-bovenkerk-westfaelische-wilhelms-universitaet-muenster-mimotext-fellow -->
-            <!-- 2022-12-13 -->
-            <!-- 2022-12-20 -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof #ripoll_elodie"/>
           </event>
-
           <event type="lecture-series-term" from="2023-11" to="2024-02" xml:id="ls48_t6">
             <eventName>Wintersemester 2023-24</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2023-11-06" xml:id="...">
+            <event type="lecture" when="2023-11-06" xml:id="ls48_t6_l1">
               <eventName xml:lang="de">Adelungs Englisch-Deutsches Wörterbuch (1783, 1796): Betrug
                 und mehr</eventName>
               <ptr type="programme"
@@ -48455,7 +48473,9 @@
                   sowie den Gebrauch von metalinguistischen Bezeichnungen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -48466,7 +48486,7 @@
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#mcLelland_nicola">
+                <person role="speaker" corresp="#mclelland_nicola">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -48475,8 +48495,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2024-01-16" xml:id="...">
+            <event type="lecture" when="2024-01-16" xml:id="ls48_t6_l2">
               <eventName xml:lang="de">Zentral, verteilt, und immer dazwischen – Von Schnittstellen,
                 Metadaten und Digital Humanities</eventName>
               <ptr type="programme"
@@ -48492,14 +48511,16 @@
                   Gedächtnisinstitutionen aufgezeigt.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#lüschow_andreas">
+                <person role="speaker" corresp="#lueschow_andreas">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -48508,8 +48529,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2024-01-23" xml:id="...">
+            <event type="lecture" when="2024-01-23" xml:id="ls48_t6_l3">
               <eventName xml:lang="de">Hauptsache »Open«? Digitale Geisteswissenschaften
                 publizieren</eventName>
               <ptr type="programme"
@@ -48525,7 +48545,9 @@
                   digitalen Publizierens gegeben.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48536,13 +48558,12 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#zfdG"/>
+                  <affiliation corresp="#zfdg"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2024-02-06" xml:id="...">
+            <event type="lecture" when="2024-02-06" xml:id="ls48_t6_l4">
               <eventName xml:lang="de">Vom Inventar zum Knowledge Graph – Medien und Modelle der
                 Objektdokumentation</eventName>
               <ptr type="programme"
@@ -48559,7 +48580,9 @@
                   2023, https://www.nfdi4objects.net/).</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48575,8 +48598,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2024-02-13" xml:id="...">
+            <event type="lecture" when="2024-02-13" xml:id="ls48_t6_l5">
               <eventName xml:lang="de">Fabeln, Fratzen, Sprechblasen: Karikatur-Muster auf einer
                 digitalen Plattform</eventName>
               <ptr type="programme"
@@ -48590,14 +48612,16 @@
                   welche am TCDH entwickelten Werkzeuge dabei helfen.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#singer_rüdiger">
+                <person role="speaker" corresp="#singer_ruediger">
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
@@ -48606,28 +48630,21 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- 2023-11-06 https://web.archive.org/web/20250809170956/https://tcdh.uni-trier.de/de/event/vortrag-von-nicola-mclelland-university-nottingham-der-vorlesungsreihe-praxis-der-digital -->
-            <!-- 2024-01-16 https://web.archive.org/web/20250809155553/https://tcdh.uni-trier.de/de/event/vortrag-von-andreas-lueschow-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2024-01-23 https://web.archive.org/web/20250809155603/https://tcdh.uni-trier.de/de/event/vortrag-von-caroline-jansky-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2024-02-06 https://web.archive.org/web/20250809155645/https://tcdh.uni-trier.de/de/event/vortrag-von-sarah-wagner-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2024-02-13 https://web.archive.org/web/20250809155740/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-ruediger-singer-der-vorlesungsreihe-praxis-der-digital-humanities -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof #ripoll_elodie"/>
           </event>
-
           <event type="lecture-series-term" from="2024-10" to="2024-12" xml:id="ls48_t7">
             <eventName>Wintersemester 2024-25</eventName>
             <ptr type="programme" target="..."/>
-
-            <event type="lecture" when="2024-10-29" xml:id="...">
+            <event type="lecture" when="2024-10-29" xml:id="ls48_t7_l1">
               <eventName xml:lang="de">Internationale Kooperationen in der computationellen
                 Literaturwissenschaft (CLS)</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809160038/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-svenja-guhr-der-vorlesungsreihe-praxis-der-digital-humanities"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48644,15 +48661,16 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2024-11-27" xml:id="...">
+            <event type="lecture" when="2024-11-27" xml:id="ls48_t7_l2">
               <eventName xml:lang="de">Erstellung eines georgischen Korpus für die European Literary
                 Text Collection (ELTeC): Herausforderungen und Perspektiven</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809160137/https://tcdh.uni-trier.de/de/event/vortrag-von-irakli-khvedelidze-der-vorlesungsreihe-praxis-der-digital-humanities"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -48667,20 +48685,21 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="##tcdh, uni-trier"/>
+                  <affiliation corresp="#tcdh, uni-trier"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <event type="lecture" when="2024-12-04" xml:id="...">
+            <event type="lecture" when="2024-12-04" xml:id="ls48_t7_l3">
               <eventName xml:lang="de">Digital ist besser - oder auch nicht? Fünfzehn Jahre DHd
                 zwischen Begeisterung und Transformation</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809160003/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-dr-anne-baillot-der-vorlesungsreihe-praxis-der-digital-humanities"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48696,14 +48715,8 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
-
-            <!-- 2024-10-29 https://web.archive.org/web/20250809160038/https://tcdh.uni-trier.de/de/event/vortrag-von-dr-svenja-guhr-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2024-11-27 https://web.archive.org/web/20250809160137/https://tcdh.uni-trier.de/de/event/vortrag-von-irakli-khvedelidze-der-vorlesungsreihe-praxis-der-digital-humanities -->
-            <!-- 2024-12-04 https://web.archive.org/web/20250809160003/https://tcdh.uni-trier.de/de/event/vortrag-von-prof-dr-anne-baillot-der-vorlesungsreihe-praxis-der-digital-humanities -->
-
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#schoech_christof #ripoll_elodie"/>
           </event>
-
         </event>
 
         <event xml:id="ls47" type="lecture-series" where="#trier">
@@ -48904,7 +48917,7 @@
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#bamberg_claudia"/>
           </event>
 
           <event type="lecture-series-term" from="2022-04" to="2022-07" xml:id="ls47_t2">
@@ -49030,7 +49043,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#bad-homburg"/>
+                  <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
@@ -49299,13 +49312,13 @@
                   <name>
                     <roleName type="title">Dr.</roleName>
                   </name>
-                  <affiliation corresp="#tcdh"/>
+                  <affiliation corresp="#uni-trier"/>
                 </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#bamberg_claudia"/>
           </event>
           <!-- There is no winter semester 2022-23 -->
           <!-- There is no summer semester 2023 -->
@@ -49553,7 +49566,7 @@
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
 
-            <org role="organizer" corresp="..."/>
+            <org role="organizer" cert="low" corresp="#bamberg_claudia"/>
           </event>
           <!-- There is no winter semester 2024-25 -->
           <event type="lecture-series-term" from="2025-02" to="2025-07" xml:id="ls47_t4">
@@ -49731,7 +49744,7 @@
               <org role="host-institution" corresp="#uni-trier"/>
             </event>
 
-            <org role="organizer" corresp="#..."/>
+            <org role="organizer" cert="low" corresp="#bamberg_claudia #wolter_vivien"/>
           </event>
 
         </event>
