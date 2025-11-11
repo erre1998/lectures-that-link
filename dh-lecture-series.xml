@@ -13622,26 +13622,31 @@
             <country corresp="#germany"/>
             <name>Münster</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004445</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4040608-8</idno>
           </place>
           <place type="city" xml:id="passau">
             <country corresp="#germany"/>
             <name>Passau</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004407</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044828-9</idno>
           </place>
           <place type="city" xml:id="duesseldorf">
             <country corresp="#germany"/>
             <name>Düsseldorf</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004443</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4013255-9</idno>
           </place>
           <place type="city" xml:id="dresden">
             <country corresp="#germany"/>
             <name>Dresden</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004455</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4012995-0</idno>
           </place>
           <place type="city" xml:id="rostock">
             <country corresp="#germany"/>
             <name>Rostock</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7100449</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4050610-1</idno>
           </place>
           <place type="city" xml:id="darmstadt">
             <country corresp="#germany"/>
@@ -13707,81 +13712,91 @@
             <country corresp="#germany"/>
             <name>Halle (Saale)</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1036898</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4023025-9</idno>
           </place>
           <place type="city" xml:id="hamburg">
             <country corresp="#germany"/>
             <name>Hamburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7179584</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4023118-5</idno>
           </place>
           <place type="city" xml:id="heidelberg">
             <country corresp="#germany"/>
             <name>Heidelberg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005177</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4023996-2</idno>
           </place>
           <place type="city" xml:id="kiel">
             <country corresp="#germany"/>
             <name>Kiel</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004457</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4030481-4</idno>
           </place>
           <place type="city" xml:id="leipzig">
             <country corresp="#germany"/>
             <name>Leipzig</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012329</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4035206-7</idno>
           </place>
           <place type="city" xml:id="marburg">
             <country corresp="#germany"/>
             <name>Marburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012330</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4037446-4</idno>
           </place>
           <place type="city" xml:id="frankfurt-am-main">
             <country corresp="#germany"/>
             <name>Frankfurt am Main</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005293</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4037446-4</idno>
           </place>
           <place type="city" xml:id="frankfurt-an-der-oder">
             <country corresp="#germany"/>
             <name>Frankfurt an der Oder</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005972</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4018122-4</idno>
           </place>
           <place type="city" xml:id="saarbruecken">
             <country corresp="#germany"/>
             <name>Saarbrücken</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004454</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4076912-4</idno>
           </place>
           <place type="city" xml:id="mannheim">
             <country corresp="#germany"/>
             <name>Mannheim</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005179</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4037372-1</idno>
           </place>
           <place type="city" xml:id="marbach">
             <country corresp="#germany"/>
             <name>Marbach am Neckar</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012592</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4037443-9</idno>
           </place>
           <place type="city" xml:id="muenchen">
             <country corresp="#germany"/>
             <name>Munich</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004333</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4127793-4</idno>
           </place>
           <place type="city" xml:id="paderborn">
             <country corresp="#germany"/>
             <name>Paderborn</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005101</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044283-4</idno>
           </place>
           <place type="city" xml:id="wismar">
             <country corresp="#germany"/>
             <name>Wismar</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7078999</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4201278-8</idno>
           </place>
           <place type="city" xml:id="wuerzburg">
             <country corresp="#germany"/>
             <name>Würzburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004335</idno>
-          </place>
-          <place type="city" xml:id="krems">
-            <country corresp="#germany"/>
-            <name>Krems an der Donau</name>
-            <idno type="tgn">http://vocab.getty.edu/page/tgn/7003173</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4067037-5</idno>
           </place>
           <place type="city" xml:id="bamberg">
             <country corresp="#germany"/>
@@ -13825,44 +13840,52 @@
           </place>
           <place type="city" xml:id="freiburg">
             <country corresp="#germany"/>
-            <name>Freiburg</name>
+            <name>Freiburg im Breisgau</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004423</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4018272-1</idno>
           </place>
           <place type="city" xml:id="bremen">
             <country corresp="#germany"/>
             <name>Bremen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005286</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4008135-7</idno>
           </place>
           <place type="city" xml:id="kaiserslautern">
             <country corresp="#germany"/>
             <name>Kaiserslautern</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012955</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4029261-7</idno>
           </place>
           <place type="city" xml:id="hannover">
             <country corresp="#germany"/>
             <name>Hannover</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013260</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4023349-2</idno>
           </place>
           <place type="city" xml:id="aachen">
             <country corresp="#germany"/>
             <name>Aachen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004799</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4000003-5</idno>
           </place>
           <place type="city" xml:id="konstanz">
             <country corresp="#germany"/>
             <name>Konstanz</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005174</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4032215-4</idno>
           </place>
           <place type="city" xml:id="koblenz">
             <country corresp="#germany"/>
             <name>Koblenz</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004448</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4031410-8</idno>
           </place>
           <!-- ######## Polish cities ######## -->
           <place type="city" xml:id="krakow">
             <country corresp="#poland"/>
             <name>Kraków</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007652</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4073760-3</idno>
           </place>
           <!-- ######## Italian cities ######## -->
           <place type="city" xml:id="salerno">
@@ -14301,109 +14324,136 @@
             <country corresp="#switzerland"/>
             <name>St. Gallen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007460</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4051594-1</idno>
           </place>
           <place type="city" xml:id="windisch">
             <country corresp="#switzerland"/>
             <name>Windisch</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017421</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4066271-8</idno>
           </place>
           <place type="city" xml:id="muttenz">
             <country corresp="#switzerland"/>
             <name>Muttenz</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007424</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4256381-1</idno>
           </place>
           <place type="city" xml:id="muenchenstein">
             <country corresp="#switzerland"/>
             <name>Münchenstein</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1064213</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4375605-0</idno>
           </place>
           <place type="city" xml:id="solothurn">
             <country corresp="#switzerland"/>
             <name>Solothurn</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007295</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4055458-2</idno>
           </place>
           <place type="city" xml:id="olten">
             <country corresp="#switzerland"/>
             <name>Olten</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007436</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4043506-4</idno>
           </place>
           <place type="city" xml:id="lausanne">
             <country corresp="#switzerland"/>
             <name>Lausanne</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007299</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4034750-3</idno>
           </place>
           <place type="city" xml:id="gontenschwil">
             <country corresp="#switzerland"/>
             <name>Gontenschwil</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7023950</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4469771-5</idno>
           </place>
           <place type="city" xml:id="basel">
             <country corresp="#switzerland"/>
             <name>Basel</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007269</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4004617-5</idno>
           </place>
           <place type="city" xml:id="geneve">
             <country corresp="#switzerland"/>
             <name>Geneva</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007279</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4020137-5</idno>
           </place>
           <place type="city" xml:id="neuchatel">
             <country corresp="#switzerland"/>
             <name>Neuchâtel</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007292</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4075303-7</idno>
           </place>
           <place type="city" xml:id="zuerich">
             <country corresp="#switzerland"/>
             <name>Zurich</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007302</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4068038-1</idno>
           </place>
           <place type="city" xml:id="bern">
             <country corresp="#switzerland"/>
             <name>Bern</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007557</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4005762-8</idno>
           </place>
           <!-- ######## Austrian cities ######## -->
+          <place type="city" xml:id="krems">
+            <country corresp="#germany"/>
+            <name>Krems an der Donau</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7003173</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4033043-6</idno>
+          </place>
           <place type="city" xml:id="salzburg">
             <country corresp="#austria"/>
             <name>Salzburg</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003256</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4076982-3</idno>
           </place>
           <place type="city" xml:id="wien">
             <country corresp="#austria"/>
             <name>Vienna</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003321</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4066009-6</idno>
           </place>
           <place type="city" xml:id="graz">
             <country corresp="#austria"/>
             <name>Graz</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003097</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021912-4</idno>
           </place>
           <!-- ######## Portuguese cities ######## -->
           <place type="city" xml:id="lisboa">
             <country corresp="#portugal"/>
             <name>Lisbon</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010978</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4035919-0</idno>
           </place>
           <place type="city" xml:id="porto">
             <country corresp="#portugal"/>
             <name>Porto</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010979</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4046838-0</idno>
           </place>
           <!-- ######## Czech cities ######## -->
           <place type="city" xml:id="pilsen">
             <country corresp="#czech-republic"/>
             <name>Pilsen</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011723</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4076145-9</idno>
           </place>
           <place type="city" xml:id="prague">
             <country corresp="#czech-republic"/>
             <name>Prague</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006464</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4076310-9</idno>
           </place>
           <place type="city" xml:id="hradec-kralove">
             <country corresp="#czech-republic"/>
             <name>Hradec Králové</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012051</idno>
+            <idno type="gnd">https://d-nb.info/gnd/1106410947</idno>
           </place>
           <!-- ######## Belgian cities ######## -->
           <place type="city" xml:id="brussels">
