@@ -291,946 +291,1137 @@
           <org xml:id="uni-william-and-mary" type="university">
             <name xml:lang="en">College of William &amp; Mary</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q875637</idno>
+            <idno type="ror">https://ror.org/03hsf0573</idno>
             <place corresp="#williamsburg"/>
           </org>
           <org xml:id="uni-nottingham" type="university">
             <name xml:lang="en">University of Nottingham</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q472316</idno>
+            <idno type="ror">https://ror.org/01ee9ar58</idno>
             <place corresp="#nottingham"/>
           </org>
           <org xml:id="uni-selcuk" type="university">
             <name xml:lang="en">Selçuk University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1627814</idno>
+            <idno type="ror">https://ror.org/045hgzm75</idno>
             <place corresp="#konya"/>
           </org>
           <org xml:id="uni-toronto" type="university">
             <name xml:lang="en">University of Toronto</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q180865</idno>
+            <idno type="ror">https://ror.org/03dbr7087</idno>
             <place corresp="#toronto"/>
           </org>
           <org xml:id="uni-hong-kong-city" type="university">
             <name xml:lang="en">City University of Hong Kong</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q787360</idno>
+            <idno type="ror">https://ror.org/03q8dnn23</idno>
             <place corresp="#hong-kong"/>
           </org>
           <org xml:id="uni-keio" type="university">
             <name xml:lang="en">Keio University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q815432</idno>
+            <idno type="ror">https://ror.org/02kn6nx58</idno>
             <place corresp="#tokyo"/>
           </org>
           <org xml:id="uni-texas-dallas" type="university">
             <name xml:lang="en">University of Texas at Dallas</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1781394</idno>
+            <idno type="ror">https://ror.org/049emcs32</idno>
             <place corresp="#dallas"/>
           </org>
           <org xml:id="uni-catalunya-oberta" type="university">
             <name xml:lang="es">Universitat Oberta de Catalunya</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3042433</idno>
+            <idno type="ror">https://ror.org/01f5wp925</idno>
             <place corresp="#barcelona"/>
           </org>
           <org xml:id="uni-central-european" type="university">
             <name xml:lang="en">Central European University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q757391</idno>
+            <idno type="ror">https://ror.org/02zx40v98</idno>
             <place corresp="#wien"/>
           </org>
+          <!-- HIER -->
           <org xml:id="uni-colorado" type="university">
             <name xml:lang="en">University of Colorado Boulder</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q736674</idno>
+            <idno type="ror">https://ror.org/02ttsq026</idno>
             <place corresp="#boulder"/>
           </org>
           <org xml:id="uni-nantes" type="university">
             <name xml:lang="fr">Université de Nantes</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q259388</idno>
+            <idno type="ror">https://ror.org/03gnr7b55</idno>
             <place corresp="#nantes"/>
           </org>
           <org xml:id="uni-ohio-state" type="university">
             <name xml:lang="en">Ohio State University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q309331</idno>
+            <idno type="ror">https://ror.org/00rs6vg23</idno>
             <place corresp="#olumbus"/>
           </org>
           <org xml:id="uni-brighton" type="university">
             <name xml:lang="en">University of Brighton</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3056813</idno>
+            <idno type="ror">https://ror.org/04kp2b655</idno>
             <place corresp="#brighton-and-hove"/>
           </org>
           <org xml:id="uni-portland" type="university">
             <name xml:lang="en">University of Portland</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q513658</idno>
+            <idno type="ror">https://ror.org/01q6pmm96</idno>
             <place corresp="#portland"/>
           </org>
           <org xml:id="uni-northeastern" type="university">
             <name xml:lang="en">Northeastern University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q37548</idno>
+            <idno type="ror">https://ror.org/04t5xt781</idno>
             <place corresp="#boston"/>
           </org>
           <org xml:id="uni-rutgers" type="university">
             <name xml:lang="en">Rutgers University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q499451</idno>
+            <idno type="ror">https://ror.org/05vt9qd57</idno>
             <place corresp="#new-jersey"/>
           </org>
           <org xml:id="uni-rotterdam-erasmus" type="university">
             <name xml:lang="nl">Erasmus Universiteit Rotterdam</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q633529</idno>
+            <idno type="ror">https://ror.org/057w15z03</idno>
             <place corresp="#rotterdam"/>
           </org>
           <org xml:id="uni-michigan" type="university">
             <name xml:lang="en">University of Michigan</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q230492</idno>
+            <idno type="ror">https://ror.org/00jmfr291</idno>
             <place corresp="#ann-arbor"/>
           </org>
           <org xml:id="uni-durham" type="university">
             <name xml:lang="en">University of Durham</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q458393</idno>
+            <idno type="ror">https://ror.org/01v29qb04</idno>
             <place corresp="#durham"/>
           </org>
           <org xml:id="uni-esmuc" type="university">
             <name xml:lang="es">Escola Superior de Música de Catalunya</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3038223</idno>
+            <idno type="ror">https://ror.org/053d21744</idno>
             <place corresp="#barcelona"/>
           </org>
           <org xml:id="uni-toulouse" type="university">
             <name xml:lang="fr">Université de Toulouse</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q20669873</idno>
+            <idno type="ror">https://ror.org/017tgbk05</idno>
+            <idno type="ror">https://ror.org/004raaa70</idno>
             <place corresp="#toulouse"/>
           </org>
           <org xml:id="uni-la-rochelle" type="university">
             <name xml:lang="fr">Université de La Rochelle</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1500822</idno>
+            <idno type="ror">https://ror.org/04mv1z119</idno>
             <place corresp="#la-rochelle"/>
           </org>
           <org xml:id="uni-australian" type="university">
             <name xml:lang="en">Australian National University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q127990</idno>
+            <idno type="ror">https://ror.org/019wvm592</idno>
             <place corresp="#canberra"/>
           </org>
           <org xml:id="uni-new-south-wales" type="university">
             <name xml:lang="en">University of New South Wales</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q734764</idno>
+            <idno type="ror">https://ror.org/03r8z3t63</idno>
             <place corresp="#sydney"/>
           </org>
           <org xml:id="uni-viadrina" type="university">
             <name xml:lang="de">Universität Viadrina</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q149481</idno>
+            <idno type="ror">https://ror.org/02msan859</idno>
             <place corresp="#frankfurt-an-der-oder"/>
           </org>
           <org xml:id="uni-muenchen-tu" type="university">
             <name xml:lang="de">Technische Universität München</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q157808</idno>
+            <idno type="ror">https://ror.org/02kkvpp62</idno>
             <place corresp="#muenchen"/>
           </org>
           <org xml:id="uni-edinburgh" type="university">
             <name xml:lang="en">University of Edinburgh</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q160302</idno>
+            <idno type="ror">https://ror.org/01nrxwf90</idno>
             <place corresp="#edinburgh"/>
           </org>
           <org xml:id="uni-colombo" type="university">
             <name xml:lang="en">University of Colombo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q720953</idno>
+            <idno type="ror">https://ror.org/02phn5242</idno>
             <place corresp="#colombo"/>
           </org>
           <org xml:id="uni-leeds" type="university">
             <name xml:lang="en">University of Leeds</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q503424</idno>
+            <idno type="ror">https://ror.org/024mrxd33</idno>
             <place corresp="#leeds"/>
           </org>
           <org xml:id="uni-maynooth" type="university">
             <name xml:lang="en">Maynooth University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2601879</idno>
+            <idno type="ror">https://ror.org/048nfjm95</idno>
             <place corresp="#maynooth"/>
           </org>
           <org xml:id="uni-siegen" type="university">
             <name xml:lang="de">Universität Siegen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q504723</idno>
+            <idno type="ror">https://ror.org/02azyry73</idno>
             <place corresp="#siegen"/>
           </org>
           <org xml:id="uni-indiana" type="university">
             <name xml:lang="en">Indiana University, Bloomington</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1079140</idno>
+            <idno type="ror">https://ror.org/02k40bc56</idno>
             <place corresp="#bloomington"/>
           </org>
           <org xml:id="uni-detmold" type="university">
             <name xml:lang="de">Hochschule für Musik Detmold</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q317855</idno>
+            <idno type="ror">https://ror.org/03y02pg02</idno>
             <place corresp="#detmold"/>
           </org>
           <org xml:id="uni-pforzheim" type="university">
             <name xml:lang="en">Pforzheim University of Applied Sciences</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q884358</idno>
+            <idno type="ror">https://ror.org/00qakfc35</idno>
             <place corresp="#pforzheim"/>
           </org>
           <org xml:id="uni-saarland" type="university">
             <name xml:lang="de">Universität des Saarlandes</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q700758</idno>
+            <idno type="ror">https://ror.org/01jdpyv68</idno>
             <place corresp="#saarbruecken"/>
           </org>
           <org xml:id="uni-cbs" type="university">
             <name xml:lang="en">Copenhagen Business School</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q703620</idno>
+            <idno type="ror">https://ror.org/04sppb023</idno>
             <place corresp="#copenhagen"/>
           </org>
           <org xml:id="uni-enpc" type="university">
             <name xml:lang="fr">École nationale des ponts et chaussées</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q273523</idno>
+            <idno type="ror">https://ror.org/02nwvxz07</idno>
             <place corresp="#champs-sur-marne"/>
           </org>
           <org xml:id="uni-fom" type="university">
             <name xml:lang="de">FOM Hochschule für Oekonomie &amp; Management</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55156</idno>
+            <idno type="ror">https://ror.org/05m3vpd98</idno>
             <place corresp="#essen"/>
           </org>
           <org xml:id="uni-bern-hkb" type="university">
             <name xml:lang="de">Hochschule der Künste Bern (HKB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622152</idno>
+            <!-- No ROR ID found -->
             <place corresp="#bern"/>
           </org>
           <org xml:id="uni-wisconsin-madison" type="university">
             <name xml:lang="en">University of Wisconsin-Madison</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q838330</idno>
+            <idno type="ror">https://ror.org/01y2jtd41</idno>
             <place corresp="#madison"/>
           </org>
           <org xml:id="uni-karlsruhe" type="university">
             <name xml:lang="de">Karlsruher Institut für Technologie</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q309988</idno>
+            <idno type="ror">https://ror.org/04t3en479</idno>
             <place corresp="#karlsruhe"/>
           </org>
           <org xml:id="uni-dortmund" type="university">
             <name xml:lang="de">Technische Universität Dortmund</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q685557</idno>
+            <idno type="ror">https://ror.org/01k97gp34</idno>
             <place corresp="#dortmund"/>
           </org>
           <org xml:id="uni-bruxelles" type="university">
             <name xml:lang="fr">Université libre de Bruxelles</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q574606</idno>
+            <idno type="ror">https://ror.org/01r9htc13</idno>
             <place corresp="#brussels"/>
           </org>
           <org xml:id="uni-yeshiva" type="university">
             <name xml:lang="en">Yeshiva University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1048851</idno>
+            <idno type="ror">https://ror.org/045x93337</idno>
             <place corresp="#new-york-city"/>
           </org>
           <org xml:id="uni-amsterdam-vrije" type="university">
             <name xml:lang="nl">Vrije Universiteit Amsterdam</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1065414</idno>
+            <idno type="ror">https://ror.org/008xxew50</idno>
             <place corresp="#amsterdam"/>
           </org>
           <org xml:id="uni-radboud" type="university">
             <name xml:lang="nl">Radboud Universiteit Nijmegen</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q273631</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q632004</idno>
+            <idno type="ror">https://ror.org/016xsfp80</idno>
             <place corresp="#nijmegen"/>
           </org>
           <org xml:id="uni-paris-psl" type="university">
             <name xml:lang="fr">Université PSL</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q273631</idno>
+            <idno type="ror">https://ror.org/046b3cj80</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-trento" type="university">
             <name xml:lang="it">Università di Trento</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q930528</idno>
+            <idno type="ror">https://ror.org/05trd4x28</idno>
             <place corresp="#trento"/>
           </org>
           <org xml:id="uni-salerno" type="university">
             <name xml:lang="it">Università di Salerno</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1633215</idno>
+            <idno type="ror">https://ror.org/0192m2k53</idno>
             <place corresp="#salerno"/>
           </org>
           <org xml:id="uni-trier" type="university">
             <name xml:lang="de">Universität Trier</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q702486</idno>
+            <idno type="ror">https://ror.org/02778hg05</idno>
             <place corresp="#trier"/>
           </org>
           <org xml:id="uni-pompeu-fabra" type="university">
             <name xml:lang="es">Universidad Pompeu Fabra</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q24543</idno>
+            <idno type="ror">https://ror.org/04n0g0b29</idno>
             <place corresp="#barcelona"/>
           </org>
           <org xml:id="uni-toyo" type="university">
             <name xml:lang="en">University of Toyo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1321655</idno>
+            <idno type="ror">https://ror.org/059d6yn51</idno>
             <place corresp="#bunkyo #tokyo"/>
           </org>
           <org xml:id="uni-jagiellonski" type="university">
             <name xml:lang="pl">Uniwersytet Jagielloński</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q189441</idno>
+            <idno type="ror">https://ror.org/03bqmcz70</idno>
             <place corresp="#krakow"/>
           </org>
           <org xml:id="uni-pennsylvania" type="university">
             <name xml:lang="en">University of Pennsylvania</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49117</idno>
+            <idno type="ror">https://ror.org/00b30xv10</idno>
             <place corresp="#philadelphia"/>
           </org>
           <org xml:id="uni-london-queen-mary" type="university">
             <name xml:lang="en">Queen Mary University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q195668</idno>
+            <idno type="ror">https://ror.org/026zzn846</idno>
             <place corresp="#london"/>
           </org>
           <org xml:id="uni-e-campus" type="university">
             <name xml:lang="it">Università eCampus</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q4005892</idno>
+            <idno type="ror">https://ror.org/006maft66</idno>
             <place corresp="#novedrate"/>
           </org>
           <org xml:id="uni-perugia" type="university">
             <name xml:lang="it">Università di Bergamo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q748085</idno>
+            <idno type="ror">https://ror.org/00x27da85</idno>
             <place corresp="#perugia"/>
           </org>
           <org xml:id="uni-bergamo" type="university">
             <name xml:lang="it">Università di Bergamo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q45855</idno>
+            <idno type="ror">https://ror.org/02mbd5571</idno>
             <place corresp="#bergamo"/>
           </org>
           <org xml:id="uni-koeln-th" type="university">
             <name xml:lang="de">Technische Hochschule Köln</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q54166</idno>
+            <idno type="ror">https://ror.org/014nnvj65</idno>
             <place corresp="#koeln"/>
           </org>
           <org xml:id="uni-calabria" type="university">
             <name xml:lang="it">Università della Calabria</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1752540</idno>
+            <idno type="ror">https://ror.org/02rc97e94</idno>
             <place corresp="#rende #cosenza"/>
           </org>
           <org xml:id="uni-macerata" type="university">
             <name xml:lang="it">Università di Macerata</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1742507</idno>
+            <idno type="ror">https://ror.org/0001fmy77</idno>
             <place corresp="#macerata"/>
           </org>
           <org xml:id="uni-milano-bicocca" type="university">
             <name xml:lang="it">Università di Milano-Bicocca</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1073674</idno>
+            <idno type="ror">https://ror.org/01ynf4891</idno>
             <place corresp="#milan"/>
           </org>
           <org xml:id="uni-richmond" type="university">
             <name xml:lang="en">University of Richmond</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1115878</idno>
+            <idno type="ror">https://ror.org/03y71xh61</idno>
             <place corresp="#richmond"/>
           </org>
           <org xml:id="uni-bucknell" type="university">
             <name xml:lang="en">Bucknell University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3444679</idno>
+            <idno type="ror">https://ror.org/00fc1qt65</idno>
             <place corresp="#lewisburg"/>
           </org>
           <org xml:id="uni-abu-dhabi" type="university">
             <name xml:lang="en">Abu Dhabi University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q4670157</idno>
+            <idno type="ror">https://ror.org/01r3kjq03</idno>
             <place corresp="#abu-dhabi"/>
           </org>
           <org xml:id="uni-abu-dhabi-ny" type="university">
             <name xml:lang="en">New York University Abu Dhabi</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q566189</idno>
+            <idno type="ror">https://ror.org/00e5k0821</idno>
             <place corresp="#abu-dhabi"/>
           </org>
           <org xml:id="uni-miguel-hernandez" type="university">
             <name xml:lang="es">Universidad Miguel Hernández de Elche</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q24676</idno>
+            <idno type="ror">https://ror.org/01azzms13</idno>
             <place corresp="#elche"/>
           </org>
           <org xml:id="uni-salzburg" type="university">
             <name xml:lang="de">Universität Salzburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q27265</idno>
+            <idno type="ror">https://ror.org/05gs8cd61</idno>
             <place corresp="#salzburg"/>
           </org>
           <org xml:id="uni-haute-alsace" type="university">
             <name xml:lang="fr">Université de Haute-Alsace</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q280183</idno>
+            <idno type="ror">https://ror.org/04k8k6n84</idno>
             <place corresp="#colmar #mulhouse"/>
           </org>
           <org xml:id="uni-corse" type="university">
             <name xml:lang="fr">Université de Corse</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q335841</idno>
+            <idno type="ror">https://ror.org/050ra0n32</idno>
             <place corresp="#corte"/>
           </org>
           <org xml:id="uni-andes" type="university">
             <name xml:lang="es">Universidad de los Andes</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q159630</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1569421</idno>
+            <idno type="ror">https://ror.org/02mhbdp94</idno>
             <place corresp="#bogota"/>
           </org>
           <org xml:id="uni-chemnitz" type="university">
             <name xml:lang="de">Technische Universität Chemnitz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q159630</idno>
+            <idno type="ror">https://ror.org/00a208s56</idno>
             <place corresp="#chemnitz"/>
           </org>
           <org xml:id="uni-kassel" type="university">
             <name xml:lang="de">University of Kassel</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q833822</idno>
+            <idno type="ror">https://ror.org/04zc7p361</idno>
             <place corresp="#kassel"/>
           </org>
           <org xml:id="uni-malta" type="university">
             <name xml:lang="it">Università di Malta</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q426045</idno>
+            <idno type="ror">https://ror.org/03a62bv60</idno>
             <place corresp="#msida"/>
           </org>
           <org xml:id="uni-milano-politecnico" type="university">
             <name xml:lang="it">Politecnico di Milanoa</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q392904</idno>
+            <idno type="ror">https://ror.org/01nffqt88</idno>
             <place corresp="#milan"/>
           </org>
           <org xml:id="uni-tuscia" type="university">
             <name xml:lang="it">Università della Tuscia</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1780458</idno>
+            <idno type="ror">https://ror.org/03svwq685</idno>
             <place corresp="#viterbo"/>
           </org>
           <org xml:id="uni-pavia" type="university">
             <name xml:lang="it">Università di Pavia</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q219317</idno>
+            <idno type="ror">https://ror.org/00s6t1f81</idno>
             <place corresp="#pavia"/>
           </org>
           <org xml:id="uni-oslo" type="university">
             <name xml:lang="nb">Universitetet i Oslo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q486156</idno>
+            <idno type="ror">https://ror.org/01xtthb56</idno>
             <place corresp="#oslo"/>
           </org>
           <org xml:id="uni-santiago-de-compostela" type="university">
             <name xml:lang="es">Universidad de Santiago de Compostela</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1473677</idno>
+            <idno type="ror">https://ror.org/030eybx10</idno>
             <place corresp="#santiago-de-compostela"/>
           </org>
           <org xml:id="uni-novi-gorici" type="university">
             <name xml:lang="sl">Univerza v Novi Gorici</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q656086</idno>
+            <idno type="ror">https://ror.org/00mw0tw28</idno>
             <place corresp="#nova-gorica"/>
           </org>
           <org xml:id="uni-cork" type="university">
             <name xml:lang="en">University College Cork</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1574185</idno>
+            <idno type="ror">https://ror.org/03265fv13</idno>
             <place corresp="#cork"/>
           </org>
           <org xml:id="uni-zadar" type="university">
             <name xml:lang="en">Sveučilište u Zadru</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496233</idno>
+            <idno type="ror">https://ror.org/00t89vb53</idno>
             <place corresp="#zadar"/>
           </org>
           <org xml:id="uni-vechta" type="university">
             <name xml:lang="de">Universität Vechta</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496174</idno>
+            <idno type="ror">https://ror.org/045y6d111</idno>
             <place corresp="#vechta"/>
           </org>
           <org xml:id="uni-alberta" type="university">
             <name xml:lang="en">University of Alberta</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q640694</idno>
+            <idno type="ror">https://ror.org/0160cpw27</idno>
             <place corresp="#edmonton"/>
           </org>
           <org xml:id="uni-northwestern" type="university">
             <name xml:lang="en">University of Northwestern</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q7060296</idno>
+            <idno type="ror">https://ror.org/019t2rq07</idno>
             <place corresp="#roseville"/>
           </org>
           <org xml:id="uni-castilla-la-mancha" type="university">
             <name xml:lang="es">Universidad Castilla-La Mancha</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q941806</idno>
+            <idno type="ror">https://ror.org/05r78ng12</idno>
             <place corresp="#ciudad-real"/>
           </org>
           <org xml:id="uni-girona" type="university">
             <name xml:lang="es">Universidad de Gerona</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1814503</idno>
+            <idno type="ror">https://ror.org/01xdxns91</idno>
             <place corresp="#girona"/>
           </org>
           <org xml:id="uni-granada" type="university">
             <name xml:lang="es">Universidad de Granada</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1232180</idno>
+            <idno type="ror">https://ror.org/04njjy449</idno>
             <place corresp="#granada"/>
           </org>
           <org xml:id="uni-glasgow" type="university">
             <name xml:lang="en">University of Glasgow</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q192775</idno>
+            <idno type="ror">https://ror.org/00vtgdb53</idno>
             <place corresp="#glasgow"/>
           </org>
           <org xml:id="uni-tilburg" type="university">
             <name xml:lang="nl">Tilburg University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q595668</idno>
+            <idno type="ror">https://ror.org/04b8v1s79</idno>
             <place corresp="#tilburg"/>
           </org>
           <org xml:id="uni-leiden" type="university">
             <name xml:lang="nl">Universiteit Leiden</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q156598</idno>
+            <idno type="ror">https://ror.org/027bh9e22</idno>
             <place corresp="#leiden"/>
           </org>
           <org xml:id="uni-strasbourg" type="university">
             <name xml:lang="fr">Université de Strasbourg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q157575</idno>
+            <idno type="ror">https://ror.org/00pg6eq24</idno>
             <place corresp="#strasbourg"/>
           </org>
           <org xml:id="uni-graubuenden-fhgr" type="university">
             <name xml:lang="de">Fachhochschule Graubünden (FHGR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622220</idno>
+            <idno type="ror">https://ror.org/032ymzc07</idno>
             <place corresp="#chur"/>
           </org>
           <org xml:id="uni-zhdk" type="university">
             <name xml:lang="de">Zürcher Hochschule der Künste (ZHdK)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q222450</idno>
+            <idno type="ror">https://ror.org/05r0ap620</idno>
             <place corresp="#zuerich"/>
           </org>
           <org xml:id="uni-valencia" type="university">
             <name xml:lang="es">Universidad Politécnica de Valencia</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2003976</idno>
+            <idno type="ror">https://ror.org/01460j859</idno>
             <place corresp="#valencia"/>
           </org>
           <org xml:id="uni-loughborough" type="university">
             <name xml:lang="en">Loughborough University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1434547</idno>
+            <idno type="ror">https://ror.org/04vg4w365</idno>
             <place corresp="#loughborough"/>
           </org>
           <org xml:id="uni-rouen" type="university">
             <name xml:lang="fr">Université de Rouen Normandie</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q494247</idno>
+            <idno type="ror">https://ror.org/03nhjew95</idno>
             <place corresp="#rouen"/>
           </org>
           <org xml:id="uni-cambridge" type="university">
             <name xml:lang="en">University of Cambridge</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q35794</idno>
+            <idno type="ror">https://ror.org/013meh722</idno>
             <place corresp="#cambridge-uk"/>
           </org>
           <org xml:id="uni-mit" type="university">
             <name xml:lang="en">Massachusetts Institute of Technology (MIT)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49108</idno>
+            <idno type="ror">https://ror.org/042nb2s44</idno>
             <place corresp="#cambridge-us"/>
           </org>
           <org xml:id="uni-yale" type="university">
             <name xml:lang="en">Yale University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49112</idno>
+            <idno type="ror">https://ror.org/03v76x132</idno>
             <place corresp="#new-haven"/>
           </org>
           <org xml:id="uni-birmingham" type="university">
             <name xml:lang="en">University of Birmingham</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q223429</idno>
+            <idno type="ror">https://ror.org/03angcq70</idno>
             <place corresp="#birmingham"/>
           </org>
           <org xml:id="uni-wuppertal" type="university">
             <name xml:lang="de">Universität Wuppertal</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q447953</idno>
+            <idno type="ror">https://ror.org/00613ak93</idno>
             <place corresp="#wuppertal"/>
           </org>
           <org xml:id="uni-piemonte-orientale" type="university">
             <name xml:lang="it">Università del Piemonte Orientale</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1235561</idno>
+            <idno type="ror">https://ror.org/04387x656</idno>
             <place corresp="#alessandria #novara #vercelli"/>
           </org>
           <org xml:id="uni-catania" type="university">
             <name xml:lang="it">Università degli studi di Catania</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1248821</idno>
+            <idno type="ror">https://ror.org/03a64bh57</idno>
             <place corresp="#catania"/>
           </org>
           <org xml:id="uni-milano" type="university">
             <name xml:lang="it">Università degli Studi di Milano</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q46210</idno>
+            <idno type="ror">https://ror.org/00wjc7c48</idno>
             <place corresp="#milan"/>
           </org>
           <org xml:id="uni-cattolica-milano" type="university">
             <name xml:lang="it">Università Cattolica del Sacro Cuore, Milano</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q229022</idno>
+            <idno type="ror">https://ror.org/03h7r5v07</idno>
             <place corresp="#milan"/>
           </org>
           <org xml:id="uni-stranieri-di-siena" type="university">
             <name xml:lang="it">Università per Stranieri di Siena</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q600924</idno>
+            <idno type="ror">https://ror.org/05p2kf948</idno>
             <place corresp="#siena"/>
           </org>
           <org xml:id="uni-tuebingen" type="university">
             <name xml:lang="de">Universität Tübingen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153978</idno>
+            <idno type="ror">https://ror.org/03a1kwz48</idno>
             <place corresp="#tuebingen"/>
           </org>
           <org xml:id="uni-bern" type="university">
             <name xml:lang="de">Universität Bern</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q659080</idno>
+            <idno type="ror">https://ror.org/02k7v4d05</idno>
             <place corresp="#bern"/>
           </org>
           <org xml:id="uni-guelph" type="university">
             <name xml:lang="en">University of Guelph</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q795988</idno>
+            <idno type="ror">https://ror.org/01r7awg59</idno>
             <place corresp="#guelph"/>
           </org>
           <org xml:id="uni-lille" type="university">
             <name xml:lang="fr">Université de Lille</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3551621</idno>
+            <idno type="ror">https://ror.org/02kzqn938</idno>
             <place corresp="#lille"/>
           </org>
           <org xml:id="uni-uppsala" type="university">
             <name xml:lang="sv">Uppsala universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q185246</idno>
+            <idno type="ror">https://ror.org/048a87296</idno>
             <place corresp="#uppsala"/>
           </org>
           <org xml:id="uni-melbourne" type="university">
             <name xml:lang="en">University of Melbourne</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q319078</idno>
+            <idno type="ror">https://ror.org/01ej9dk98</idno>
             <place corresp="#melbourne"/>
           </org>
           <org xml:id="uni-karlova" type="university">
             <name xml:lang="cs">Univerzita Karlova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q31519</idno>
+            <idno type="ror">https://ror.org/024d6js02</idno>
             <place corresp="#prague #pilsen #hradec-kralove"/>
           </org>
           <org xml:id="uni-sun-yat-sen" type="university">
             <name xml:lang="en">Sun Yat-sen University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q178972</idno>
+            <idno type="ror">https://ror.org/0064kty71</idno>
             <place corresp="#guangzhou"/>
           </org>
           <org xml:id="uni-padova" type="university">
             <name xml:lang="it">Università di Padova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q193510</idno>
+            <idno type="ror">https://ror.org/00240q980</idno>
             <place corresp="#padova"/>
           </org>
           <org xml:id="uni-groningen" type="university">
             <name xml:lang="nl">Rijksuniversiteit Groningen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q850730</idno>
+            <idno type="ror">https://ror.org/012p63287</idno>
             <place corresp="#groningen"/>
           </org>
           <org xml:id="uni-parma" type="university">
             <name xml:lang="it">Università di Parma</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1758474</idno>
+            <idno type="ror">https://ror.org/02k7wn190</idno>
             <place corresp="#parma"/>
           </org>
           <org xml:id="uni-bamberg" type="university">
             <name xml:lang="de">Universität Bamberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q707272</idno>
+            <idno type="ror">https://ror.org/01c1w6d29</idno>
             <place corresp="#bamberg"/>
           </org>
           <org xml:id="uni-jena" type="university">
             <name xml:lang="de">Universität Jena</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q154561</idno>
+            <idno type="ror">https://ror.org/05qpz1x62</idno>
             <place corresp="#jena"/>
           </org>
           <org xml:id="uni-singapore" type="university">
             <name xml:lang="en">National University of Singapore</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q738236</idno>
+            <idno type="ror">https://ror.org/01tgyzw49</idno>
             <place corresp="#singapore-city"/>
           </org>
           <org xml:id="uni-geneve" type="university">
             <name xml:lang="fr">Université de Genève</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q503473</idno>
+            <idno type="ror">https://ror.org/01swzsf04</idno>
             <place corresp="#geneve"/>
           </org>
           <org xml:id="uni-leuven" type="university">
             <name xml:lang="nl">Katholieke Universiteit Leuven (KU Leuven)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q262760</idno>
+            <idno type="ror">https://ror.org/02s376052</idno>
             <place corresp="#lausanne"/>
           </org>
           <org xml:id="uni-lausanne-epfl" type="university">
             <name xml:lang="fr">École polytechnique fédérale de Lausanne (EPFL)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q262760</idno>
+            <idno type="ror">https://ror.org/02s376052</idno>
             <place corresp="#lausanne"/>
           </org>
           <org xml:id="uni-california-davis" type="university">
             <name xml:lang="en">University of California, Davis</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q129421</idno>
+            <idno type="ror">https://ror.org/05rrcem69</idno>
             <place corresp="#davis"/>
           </org>
           <org xml:id="uni-california-berkeley" type="university">
             <name xml:lang="en">University of California, Berkeley</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q168756</idno>
+            <idno type="ror">https://ror.org/01an7q238</idno>
             <place corresp="#berkeley"/>
           </org>
           <org xml:id="uni-california-los-angeles" type="university">
             <name xml:lang="en">University of California, Los Angeles</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q174710</idno>
+            <idno type="ror">https://ror.org/046rm7j60</idno>
             <place corresp="#los-angeles"/>
           </org>
           <org xml:id="uni-california-santa-barbara" type="university">
             <name xml:lang="en">University of California, Santa Barbara</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q263064</idno>
+            <idno type="ror">https://ror.org/02t274463</idno>
             <place corresp="#santa-barbara"/>
           </org>
           <org xml:id="uni-stuttgart" type="university">
             <name xml:lang="de">Universität Stuttgart</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q122453</idno>
+            <idno type="ror">https://ror.org/04vnq7t77</idno>
             <place corresp="#stuttgart"/>
           </org>
           <org xml:id="uni-giessen" type="university">
             <name xml:lang="de">Universität Gießen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q317053</idno>
+            <idno type="ror">https://ror.org/033eqas34</idno>
             <place corresp="#giessen"/>
           </org>
           <org xml:id="uni-kiel" type="university">
             <name xml:lang="de">Universität Kiel</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q156737</idno>
+            <idno type="ror">https://ror.org/04v76ef78</idno>
             <place corresp="#kiel"/>
           </org>
           <org xml:id="uni-innsbruck" type="university">
             <name xml:lang="de">Universität Innsbruck</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q875788</idno>
+            <idno type="ror">https://ror.org/054pv6659</idno>
             <place corresp="#innsbruck"/>
           </org>
           <org xml:id="uni-lausanne" type="university">
             <name xml:lang="fr">Université de Lausanne</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q658975</idno>
+            <idno type="ror">https://ror.org/019whta54</idno>
             <place corresp="#lausanne"/>
           </org>
           <org xml:id="uni-weimar" type="university">
             <name xml:lang="de">Universität Weimar</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q573975</idno>
+            <idno type="ror">https://ror.org/033bb5z47</idno>
             <place corresp="#weimar"/>
           </org>
           <org xml:id="uni-potsdam" type="university">
             <name xml:lang="de">Universität Potsdam</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153012</idno>
+            <idno type="ror">https://ror.org/03bnmw459</idno>
             <place corresp="#potsdam"/>
           </org>
           <org xml:id="uni-potsdam-fhp" type="university">
             <name xml:lang="en">Fachhochschule Potsdam (FHP)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q896706</idno>
+            <idno type="ror">https://ror.org/012m9bp23</idno>
             <place corresp="#potsdam"/>
           </org>
           <org xml:id="uni-mainz-haw" type="university">
             <name xml:lang="en">Mainz University of Applied Sciences</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q459724</idno>
+            <idno type="ror">https://ror.org/02re32a17</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="uni-berlin-htw" type="university">
             <name xml:lang="de">Hochschule für Technik und Wirtschaft Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q875138</idno>
+            <idno type="ror">https://ror.org/01xzwj424</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-udk" type="university">
             <name xml:lang="de">Universität der Künste Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55038</idno>
+            <idno type="ror">https://ror.org/03eznrw16</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-tu" type="university">
             <name xml:lang="de">Technische Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q51985</idno>
+            <idno type="ror">https://ror.org/03v4gjf40</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-hu" type="university">
             <name xml:lang="de">Humboldt-Universität zu Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q152087</idno>
+            <idno type="ror">https://ror.org/01hcx6992</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-fu" type="university">
             <name xml:lang="de">Freie Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153006</idno>
+            <idno type="ror">https://ror.org/046ak2485</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-ipu" type="university">
             <name xml:lang="en">International Psychoanalytic University Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1666832</idno>
+            <idno type="ror">https://ror.org/00b6j6x40</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-berlin-bht" type="university">
             <name xml:lang="en">Berliner Hochschule für Technik</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q851413</idno>
+            <idno type="ror">https://ror.org/00w7whj55</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="uni-regensburg" type="university">
             <name xml:lang="de">Universität Regensburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q574571</idno>
+            <idno type="ror">https://ror.org/01eezs655</idno>
             <place corresp="#regensburg"/>
           </org>
           <org xml:id="uni-bologna" type="university">
             <name xml:lang="it">Università di Bologna</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131262</idno>
+            <idno type="ror">https://ror.org/01111rn36</idno>
             <place corresp="#bologna"/>
           </org>
           <org xml:id="uni-malaga" type="university">
             <name xml:lang="es">Universidad de Málaga</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q958650</idno>
+            <idno type="ror">https://ror.org/036b2ww28</idno>
             <place corresp="#malaga"/>
           </org>
           <org xml:id="uni-barcelona" type="university">
             <name xml:lang="es">Universidad de Barcelona</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q219615</idno>
+            <idno type="ror">https://ror.org/021018s57</idno>
             <place corresp="#barcelona"/>
           </org>
           <org xml:id="uni-barcelona-autonoma" type="university">
             <name xml:lang="es">Universidad Autónoma de Barcelona</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q43452</idno>
+            <idno type="ror">https://ror.org/052g8jq94</idno>
             <place corresp="#barcelona #sabadell"/>
           </org>
           <org xml:id="uni-pais-vasco" type="university">
             <name xml:lang="es">Universidad del País Vasco</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1232428</idno>
+            <idno type="ror">https://ror.org/000xsnr85</idno>
             <place corresp="#lejona"/>
           </org>
           <org xml:id="uni-eoetvoes-lorand" type="university">
             <name xml:lang="hu">Eötvös Loránd Tudományegyetem</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q390287</idno>
+            <idno type="ror">https://ror.org/01jsq2704</idno>
             <place corresp="#budapest"/>
           </org>
           <org xml:id="uni-freiburg" type="university">
             <name xml:lang="de">Universität Freiburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q153987</idno>
+            <idno type="ror">https://ror.org/0245cg223</idno>
             <place corresp="#freiburg"/>
           </org>
           <org xml:id="uni-amsterdam" type="university">
             <name xml:lang="nl">Universiteit van Amsterdam</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q214341</idno>
+            <idno type="ror">https://ror.org/04dkp9463</idno>
             <place corresp="#amsterdam"/>
           </org>
           <org xml:id="uni-new-york" type="university">
             <name xml:lang="en">New York University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49210</idno>
+            <idno type="ror">https://ror.org/0190ak572</idno>
             <place corresp="#new-york-city"/>
           </org>
           <org xml:id="uni-tallinn" type="university">
             <name xml:lang="et">Tallinna Ülikool</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1257946</idno>
+            <idno type="ror">https://ror.org/05mey9k78</idno>
             <place corresp="#tallinn"/>
           </org>
           <org xml:id="uni-maryland-info" type="university">
             <name xml:lang="en">University of Maryland College of Information Studies</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q7895683</idno>
+            <!-- No ROR ID found -->
             <place corresp="#college-park"/>
           </org>
           <org xml:id="uni-utah" type="university">
             <name xml:lang="en">University of Utah</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q168515</idno>
+            <idno type="ror">https://ror.org/03r0ha626</idno>
             <place corresp="#salt-lake-city"/>
           </org>
           <org xml:id="uni-trondheim" type="university">
             <name xml:lang="nb">Universitetet i Trondheim</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q314536</idno>
+            <idno type="ror">https://ror.org/05xg72x27</idno>
             <place corresp="#trondheim"/>
           </org>
           <org xml:id="uni-tufts" type="university">
             <name xml:lang="en">Tufts University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49120</idno>
+            <idno type="ror">https://ror.org/05wvpxv85</idno>
             <place corresp="#somerville #medford"/>
           </org>
           <org xml:id="uni-stanford" type="university">
             <name xml:lang="en">Stanford University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q41506</idno>
+            <idno type="ror">https://ror.org/00f54p054</idno>
             <place corresp="#stanford"/>
           </org>
           <org xml:id="uni-harvard" type="university">
             <name xml:lang="en">Harvard University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q13371</idno>
+            <idno type="ror">https://ror.org/03vek6s52</idno>
             <place corresp="#cambridge-us"/>
           </org>
           <org xml:id="uni-west-sydney" type="university">
             <name xml:lang="en">University of Western Sydney</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1141452</idno>
+            <idno type="ror">https://ror.org/03t52dk35</idno>
             <place corresp="#sydney"/>
           </org>
           <org xml:id="uni-erfurt-fhe" type="university">
             <name xml:lang="en">University of Applied Sciences Erfurt</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1391189</idno>
+            <idno type="ror">https://ror.org/01hkc4630</idno>
             <place corresp="#erfurt"/>
           </org>
           <org xml:id="uni-heidelberg-srh" type="university">
             <name xml:lang="de">SRH Hochschule Heidelberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2207707</idno>
+            <idno type="ror">https://ror.org/00g07sz63</idno>
             <place corresp="#heidelberg"/>
           </org>
           <org xml:id="uni-wismar" type="university">
             <name xml:lang="en">Wismar University of Applied Sciences</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q883036</idno>
+            <idno type="ror">https://ror.org/00s1ckt27</idno>
             <place corresp="#wismar"/>
           </org>
           <org xml:id="uni-antwerpen" type="university">
             <name xml:lang="nl">Universiteit Antwerpen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q175241</idno>
+            <idno type="ror">https://ror.org/008x57b05</idno>
             <place corresp="#antwerpen"/>
           </org>
           <org xml:id="uni-bielefeld" type="university">
             <name xml:lang="de">Universität Bielefeld</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q24382</idno>
+            <idno type="ror">https://ror.org/02hpadn98</idno>
             <place corresp="#bielefeld"/>
           </org>
           <org xml:id="uni-bonn" type="university">
             <name xml:lang="de">Universität Bonn</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q152171</idno>
+            <idno type="ror">https://ror.org/041nas322</idno>
             <place corresp="#bonn"/>
           </org>
           <org xml:id="uni-buenos-aires" type="university">
             <name xml:lang="es">Universidad de Buenos Aires</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q194223</idno>
+            <idno type="ror">https://ror.org/0081fs513</idno>
             <place corresp="#buenos-aires"/>
           </org>
           <org xml:id="uni-darmstadt" type="university">
             <name xml:lang="de">Technische Universität Darmstadt</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q310695</idno>
+            <idno type="ror">https://ror.org/05n911h24</idno>
             <place corresp="#darmstadt"/>
           </org>
           <org xml:id="uni-dresden" type="university">
             <name xml:lang="de">Technische Universität Dresden</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q158158</idno>
+            <idno type="ror">https://ror.org/042aqky30</idno>
             <place corresp="#dresden"/>
           </org>
           <org xml:id="uni-duisburg-essen" type="university">
             <name xml:lang="de">Universität Duisburg-Essen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q696757</idno>
+            <idno type="ror">https://ror.org/04mz5ra38</idno>
             <place corresp="#essen #duisburg"/>
           </org>
           <org xml:id="uni-eafit" type="university">
             <name xml:lang="es">Universidad EAFIT</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3997314</idno>
+            <idno type="ror">https://ror.org/03y3y9v44</idno>
             <place corresp="#medellin"/>
           </org>
           <org xml:id="uni-erfurt" type="university">
             <name xml:lang="de">Universität Erfurt</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q702524</idno>
+            <idno type="ror">https://ror.org/03606hw36</idno>
             <place corresp="#erfurt"/>
           </org>
           <org xml:id="uni-gent" type="university">
             <name xml:lang="nl">Universiteit Gent</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1137665</idno>
+            <idno type="ror">https://ror.org/00cv9y106</idno>
             <place corresp="#gent"/>
           </org>
           <org xml:id="uni-greifswald" type="university">
             <name xml:lang="de">Universität Greifswald</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q165528</idno>
+            <idno type="ror">https://ror.org/00r1edq15</idno>
             <place corresp="#greifswald"/>
           </org>
           <org xml:id="uni-halle-wittenberg" type="university">
             <name xml:lang="de">Universität Halle-Wittenberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q32120</idno>
+            <idno type="ror">https://ror.org/05gqaka33</idno>
             <place corresp="#halle"/>
           </org>
           <org xml:id="uni-hamburg" type="university">
             <name xml:lang="de">Universität Hamburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q156725</idno>
+            <idno type="ror">https://ror.org/00g30e956</idno>
             <place corresp="#hamburg"/>
           </org>
           <org xml:id="uni-koeln" type="university">
             <name xml:lang="de">Universität Köln</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q123516748</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q54096</idno>
+            <idno type="ror">https://ror.org/00rcxh774</idno>
             <place corresp="#koeln"/>
           </org>
           <org xml:id="uni-le-mans" type="university">
             <name xml:lang="fr">Le Mans Université</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q834825</idno>
+            <idno type="ror">https://ror.org/01mtcc283</idno>
             <place corresp="#le-mans"/>
           </org>
           <org xml:id="uni-leipzig" type="university">
             <name xml:lang="de">Universität Leipzig</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q154804</idno>
+            <idno type="ror">https://ror.org/03s7gtk40</idno>
             <place corresp="#leipzig"/>
           </org>
           <org xml:id="uni-leipzig-hmt" type="university">
             <name xml:lang="de">Hochschule für Musik und Theater Leipzig</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q312578</idno>
+            <idno type="ror">https://ror.org/04msbx814</idno>
             <place corresp="#leipzig"/>
           </org>
           <org xml:id="uni-leipzig-htwk" type="university">
             <name xml:lang="de">Hochschule für Technik, Wirtschaft und Kultur Leipzig</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622216</idno>
+            <idno type="ror">https://ror.org/03xgcq477</idno>
             <place corresp="#leipzig"/>
           </org>
           <org xml:id="uni-lissabon" type="university">
             <name xml:lang="pt">Universidade Nova de Lisboa</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1979891</idno>
+            <idno type="ror">https://ror.org/02xankh89</idno>
             <place corresp="#lisboa"/>
           </org>
           <org xml:id="uni-macquarie" type="university">
             <name xml:lang="en">Macquarie University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q741082</idno>
+            <idno type="ror">https://ror.org/01sf06y89</idno>
             <place corresp="#sydney"/>
           </org>
           <org xml:id="uni-muenchen" type="university">
             <name xml:lang="de">Universität München</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55044</idno>
+            <idno type="ror">https://ror.org/05591te55</idno>
             <place corresp="#muenchen"/>
           </org>
           <org xml:id="uni-neuchatel" type="university">
             <name xml:lang="fr">Université de Neuchâtel</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q541548</idno>
+            <idno type="ror">https://ror.org/00vasag41</idno>
             <place corresp="#neuchatel"/>
           </org>
           <org xml:id="uni-open" type="university">
             <name xml:lang="en">The Open University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2413375</idno>
+            <idno type="ror">https://ror.org/05mzfcs16</idno>
             <place corresp="#milton-keynes"/>
           </org>
           <org xml:id="uni-paderborn" type="university">
             <name xml:lang="de">Universität Paderborn</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q679134</idno>
+            <idno type="ror">https://ror.org/058kzsd48</idno>
             <place corresp="#paderborn"/>
           </org>
           <org xml:id="uni-rostock" type="university">
@@ -1242,481 +1433,577 @@
           <org xml:id="uni-venezia" type="university">
             <name xml:lang="it">Università Ca' Foscari di Venezia</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1546906</idno>
+            <idno type="ror">https://ror.org/04yzxz566</idno>
             <place corresp="#venezia"/>
           </org>
           <org xml:id="uni-wuerzburg" type="university">
             <name xml:lang="de">Universität Würzburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q161976</idno>
+            <idno type="ror">https://ror.org/00fbnyb24</idno>
             <place corresp="#wuerzburg"/>
           </org>
           <org xml:id="uni-goettingen" type="university">
             <name xml:lang="de">Universität Göttingen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q152838</idno>
+            <idno type="ror">https://ror.org/01y9bpm73</idno>
             <place corresp="#goettingen"/>
           </org>
           <org xml:id="uni-zuerich" type="university">
             <name xml:lang="de">Universität Zürich</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q206702</idno>
+            <idno type="ror">https://ror.org/02crff812</idno>
             <place corresp="#zuerich"/>
           </org>
           <org xml:id="uni-augsburg" type="university">
             <name xml:lang="de">Universität Augsburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q616905</idno>
+            <idno type="ror">https://ror.org/03p14d497</idno>
             <place corresp="#augsburg"/>
           </org>
           <org xml:id="uni-marburg" type="university">
             <name xml:lang="de">Universität Marburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q155354</idno>
+            <idno type="ror">https://ror.org/01rdrb571</idno>
             <place corresp="#marburg"/>
           </org>
           <org xml:id="uni-bochum" type="university">
             <name xml:lang="de">Universität Bochum</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q309948</idno>
+            <idno type="ror">https://ror.org/04tsk2644</idno>
             <place corresp="#bochum"/>
           </org>
           <org xml:id="uni-moskau" type="university">
             <name xml:lang="en">Higher School of Economics (HSE)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1959511</idno>
+            <idno type="ror">https://ror.org/055f7t516</idno>
             <place corresp="#moskau"/>
           </org>
           <org xml:id="uni-frankfurt" type="university">
             <name xml:lang="de">Universität Frankfurt</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q50662</idno>
+            <idno type="ror">https://ror.org/04cvxnb49</idno>
             <place corresp="#frankfurt"/>
           </org>
           <org xml:id="uni-basel" type="university">
             <name xml:lang="de">Universität Basel</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q372608</idno>
+            <idno type="ror">https://ror.org/02s6k3f65</idno>
             <place corresp="#basel"/>
           </org>
           <org xml:id="uni-wien" type="university">
             <name xml:lang="de">Universität Wien</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q165980</idno>
+            <idno type="ror">https://ror.org/03prydq77</idno>
             <place corresp="#wien"/>
           </org>
           <org xml:id="uni-krems" type="university">
             <name xml:lang="de">Universität Krems</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q508048</idno>
+            <idno type="ror">https://ror.org/03ef4a036</idno>
             <place corresp="#krems"/>
           </org>
           <org xml:id="uni-graz" type="university">
             <name xml:lang="de">Universität Graz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q622683</idno>
+            <idno type="ror">https://ror.org/01faaaf77</idno>
             <place corresp="#graz"/>
           </org>
           <org xml:id="uni-luxemburg" type="university">
             <name xml:lang="de">Universität Luxemburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q59668</idno>
+            <idno type="ror">https://ror.org/036x5ad56</idno>
             <place corresp="#luxembourg-city"/>
           </org>
           <org xml:id="uni-mannheim" type="university">
             <name xml:lang="de">Universität Mannheim</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q317070</idno>
+            <idno type="ror">https://ror.org/031bsb921</idno>
             <place corresp="#mannheim"/>
           </org>
           <org xml:id="uni-utrecht" type="university">
             <name xml:lang="nl">Universiteit Utrecht</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q221653</idno>
+            <idno type="ror">https://ror.org/04pp8hn57</idno>
             <place corresp="#utrecht"/>
           </org>
           <org xml:id="uni-aarhus" type="university">
             <name xml:lang="da">Aarhus Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q924265</idno>
+            <idno type="ror">https://ror.org/01aj84f44</idno>
             <place corresp="#aarhus"/>
           </org>
           <org xml:id="uni-heidelberg" type="university">
             <name xml:lang="de">Universität Heidelberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q151510</idno>
+            <idno type="ror">https://ror.org/038t36y30</idno>
             <place corresp="#heidelberg"/>
           </org>
           <org xml:id="uni-trinity-dublin" type="university">
             <name xml:lang="en">Trinity College Dublin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q258464</idno>
+            <idno type="ror">https://ror.org/02tyrky19</idno>
             <place corresp="#dublin"/>
           </org>
           <org xml:id="uni-mainz" type="university">
             <name xml:lang="de">Universität Mainz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q161982</idno>
+            <idno type="ror">https://ror.org/023b0x485</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="uni-bocconi" type="university">
             <name xml:lang="it">Università Bocconi</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q959524</idno>
+            <idno type="ror">https://ror.org/05crjpb27</idno>
             <place corresp="#milan"/>
           </org>
           <org xml:id="uni-bremen" type="university">
             <name xml:lang="de">Universität Bremen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q500692</idno>
+            <idno type="ror">https://ror.org/04ers2y35</idno>
             <place corresp="#bremen"/>
           </org>
           <org xml:id="uni-swansea" type="university">
             <name xml:lang="en">Swansea University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1420500</idno>
+            <idno type="ror">https://ror.org/053fq8t95</idno>
             <place corresp="#swansea"/>
           </org>
           <org xml:id="uni-oklahoma" type="university">
             <name xml:lang="en">University of Oklahoma</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q640652</idno>
+            <idno type="ror">https://ror.org/02aqsxs83</idno>
             <place corresp="#norman"/>
           </org>
           <org xml:id="uni-oxford" type="university">
             <name xml:lang="en">University of Oxford</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q34433</idno>
+            <idno type="ror">https://ror.org/052gg0110</idno>
             <place corresp="#oxford"/>
           </org>
           <org xml:id="uni-london-city" type="university">
             <name xml:lang="en">City, University of London</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1094046</idno>
+            <idno type="ror">https://ror.org/04489at23</idno>
             <place corresp="#london"/>
           </org>
           <org xml:id="uni-london-ucl" type="university">
             <name xml:lang="en">University College London</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q193196</idno>
+            <idno type="ror">https://ror.org/02jx3x895</idno>
             <place corresp="#london"/>
           </org>
           <org xml:id="uni-london-kcl" type="university">
             <name xml:lang="en">King’s College London</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q245247</idno>
+            <idno type="ror">https://ror.org/0220mzb33</idno>
             <place corresp="#london"/>
           </org>
           <org xml:id="uni-paris-pantheon-sorbonne" type="university">
             <name xml:lang="fr">Université Panthéon-Sorbonne (Paris 1)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q999763</idno>
+            <idno type="ror">https://ror.org/002t25c44</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-paris-sorbonne-nouvelle" type="university">
             <name xml:lang="fr">Université Sorbonne-Nouvelle (Paris 3)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q571293</idno>
+            <idno type="ror">https://ror.org/03z6jp965</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-paris-sorbonne" type="university">
             <name xml:lang="fr">Université Sorbonne (Paris 4 et 6)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q41497113</idno>
+            <idno type="ror">https://ror.org/02en5vm52</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-paris-cite" type="university">
             <name xml:lang="fr">Université Paris-Cité (Paris 5 et 7)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55849612</idno>
+            <idno type="ror">https://ror.org/05f82e368</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-paris-nanterre" type="university">
             <name xml:lang="fr">Université Paris-Nanterre (Paris 10)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1394262</idno>
+            <idno type="ror">https://ror.org/013bkhk48</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-exeter" type="university">
             <name xml:lang="en">University of Exeter</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1414861</idno>
+            <idno type="ror">https://ror.org/03yghzc09</idno>
             <place corresp="#exeter"/>
           </org>
           <org xml:id="uni-duke" type="university">
             <name xml:lang="en">Duke University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q168751</idno>
+            <idno type="ror">https://ror.org/00py81415</idno>
             <place corresp="#durham"/>
           </org>
           <org xml:id="uni-victoria" type="university">
             <name xml:lang="en">University of Victoria</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1458113</idno>
+            <idno type="ror">https://ror.org/04s5mat29</idno>
             <place corresp="#victoria"/>
           </org>
           <org xml:id="uni-lund" type="university">
             <name xml:lang="sv">Lunds Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q218506</idno>
+            <idno type="ror">https://ror.org/012a77v79</idno>
             <place corresp="#lund"/>
           </org>
           <org xml:id="uni-roma-tor-vergata" type="university">
             <name xml:lang="it">Università di Roma Tor Vergata</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1031803</idno>
+            <idno type="ror">https://ror.org/02p77k626</idno>
             <place corresp="#roma"/>
           </org>
           <org xml:id="uni-roma-tre" type="university">
             <name xml:lang="it">Università Roma Tre</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2297486</idno>
+            <idno type="ror">https://ror.org/05vf0dg29</idno>
             <place corresp="#roma"/>
           </org>
           <org xml:id="uni-stockholm" type="university">
             <name xml:lang="sv">Stockholms Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q221645</idno>
+            <idno type="ror">https://ror.org/05f0yaq80</idno>
             <place corresp="#stockholm"/>
           </org>
           <org xml:id="uni-brasilia" type="university">
             <name xml:lang="pt">Universidade de Brasília</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1330634</idno>
+            <idno type="ror">https://ror.org/02xfp8v59</idno>
             <place corresp="#brasilia"/>
           </org>
           <org xml:id="uni-ecole-des-chartes" type="university">
             <name xml:lang="fr">École Nationale des Chartes (ENC)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q273570</idno>
+            <idno type="ror">https://ror.org/013xvg556</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="uni-sheffield" type="university">
             <name xml:lang="en">University of Sheffield</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q823917</idno>
+            <idno type="ror">https://ror.org/05krs5044</idno>
             <place corresp="#sheffield"/>
           </org>
           <org xml:id="uni-ferrara" type="university">
             <name xml:lang="it">Università di Ferrara</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q955609</idno>
+            <idno type="ror">https://ror.org/041zkgm14</idno>
             <place corresp="#ferrara"/>
           </org>
           <org xml:id="uni-siena" type="university">
             <name xml:lang="it">Università di Siena</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1245999</idno>
+            <idno type="ror">https://ror.org/01tevnk56</idno>
             <place corresp="#siena"/>
           </org>
           <org xml:id="uni-pisa" type="university">
             <name xml:lang="it">Università di Pisa</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q645663</idno>
+            <idno type="ror">https://ror.org/03ad39j10</idno>
             <place corresp="#pisa"/>
           </org>
           <org xml:id="uni-torino" type="university">
             <name xml:lang="it">Università degli Studi di Torino</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q499911</idno>
+            <idno type="ror">https://ror.org/048tbm396</idno>
             <place corresp="#torino"/>
           </org>
           <org xml:id="uni-valladolid" type="university">
             <name xml:lang="es">Universidad de Valladolid</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q768224</idno>
+            <idno type="ror">https://ror.org/01fvbaw18</idno>
             <place corresp="#valladolid"/>
           </org>
           <org xml:id="uni-rey-juan-carlos" type="university">
             <name xml:lang="es">Universidad Rey Juan Carlos</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2000629</idno>
+            <idno type="ror">https://ror.org/01v5cv687</idno>
             <place corresp="#madrid"/>
           </org>
           <org xml:id="uni-nacional-de-educacion-a-distancia" type="university">
             <name xml:lang="es">Universidad Nacional de Educación a Distancia</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q421739</idno>
+            <idno type="ror">https://ror.org/02msb5n36</idno>
             <place corresp="#madrid"/>
           </org>
           <org xml:id="uni-madrid-autonoma" type="university">
             <name xml:lang="es">Universidad Autónoma de Madrid</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q788091</idno>
+            <idno type="ror">https://ror.org/01cby8j38</idno>
             <place corresp="#madrid"/>
           </org>
           <org xml:id="uni-madrid" type="university">
             <name xml:lang="es">Universidad Carlos III de Madrid</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1247135</idno>
+            <idno type="ror">https://ror.org/03ths8210</idno>
             <place corresp="#madrid"/>
           </org>
           <org xml:id="uni-palermo" type="university">
             <name xml:lang="it">Università di Palermo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1641504</idno>
+            <idno type="ror">https://ror.org/044k9ta02</idno>
             <place corresp="#palermo"/>
           </org>
           <org xml:id="uni-saskatchewan" type="university">
             <name xml:lang="en">University of Saskatchewan</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1514848</idno>
+            <idno type="ror">https://ror.org/010x8gc63</idno>
             <place corresp="#saskatoon"/>
           </org>
           <org xml:id="uni-rome-sapienza" type="university">
             <name xml:lang="en">Sapienza University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q209344</idno>
+            <idno type="ror">https://ror.org/02be6w209</idno>
             <place corresp="#roma"/>
           </org>
           <org xml:id="uni-monash" type="university">
             <name xml:lang="en">Monash University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q598841</idno>
+            <idno type="ror">https://ror.org/02bfwt286</idno>
             <place corresp="#melbourne"/>
           </org>
           <org xml:id="uni-george-mason" type="university">
             <name xml:lang="en">George Mason University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1411222</idno>
+            <idno type="ror">https://ror.org/02jqj7156</idno>
             <place corresp="#fairfax"/>
           </org>
           <org xml:id="uni-bergen" type="university">
             <name xml:lang="en">University of Bergen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q204457</idno>
+            <idno type="ror">https://ror.org/03zga2b32</idno>
             <place corresp="#bergen"/>
           </org>
           <org xml:id="uni-york" type="university">
             <name xml:lang="en">University of York</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q967165</idno>
+            <idno type="ror">https://ror.org/04m01e293</idno>
             <place corresp="#york"/>
           </org>
           <org xml:id="uni-duesseldorf" type="university">
             <name xml:lang="de">Universität Düsseldorf</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q317032</idno>
+            <idno type="ror">https://ror.org/024z2rq82</idno>
             <place corresp="#duesseldorf"/>
           </org>
           <org xml:id="uni-erlangen-nuernberg" type="university">
             <name xml:lang="de">Universität Erlangen-Nürnberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q40025</idno>
+            <idno type="ror">https://ror.org/00f7hpc57</idno>
             <place corresp="#erlangen #nuernberg"/>
           </org>
           <org xml:id="uni-grenoble-alpes" type="university">
             <name xml:lang="fr">Université Grenoble Alpes</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q945876</idno>
+            <idno type="ror">https://ror.org/02rx3b187</idno>
             <place corresp="#grenoble"/>
           </org>
           <org xml:id="uni-nordwestschweiz" type="university">
             <name xml:lang="de">Fachhochschule Nordwestschweiz (FHNW)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q693069</idno>
+            <idno type="ror">https://ror.org/04mq2g308</idno>
             <place corresp="#windisch #muttenz #muenchenstein #solothurn #olten"/>
           </org>
           <org xml:id="uni-furman" type="university">
             <name xml:lang="en">Furman University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1475020</idno>
+            <idno type="ror">https://ror.org/04ytb9n23</idno>
             <place corresp="#greenville"/>
           </org>
           <org xml:id="uni-passau" type="university">
             <name xml:lang="de">Universität Passau</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q704468</idno>
+            <idno type="ror">https://ror.org/05ydjnb78</idno>
             <place corresp="#passau"/>
           </org>
           <org xml:id="uni-muenster" type="university">
             <name xml:lang="de">Universität Münster</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q168426</idno>
+            <idno type="ror">https://ror.org/00pd74e08</idno>
             <place corresp="#muenster"/>
           </org>
           <org xml:id="uni-florida" type="university">
             <name xml:lang="en">Florida International University, Miami</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1065809</idno>
+            <idno type="ror">https://ror.org/02gz6gg07</idno>
             <place corresp="#miami"/>
           </org>
           <org xml:id="uni-sofia" type="university">
             <name xml:lang="en">St. Kliment Ohridski University of Sofia</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q841581</idno>
+            <idno type="ror">https://ror.org/02jv3k292</idno>
             <place corresp="#sofia"/>
           </org>
           <org xml:id="uni-sao-paolo" type="university">
             <name xml:lang="pt">Universidade de São Paulo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q835960</idno>
+            <idno type="ror">https://ror.org/036rp1748</idno>
             <place corresp="#sao-paolo"/>
           </org>
           <org xml:id="uni-turku" type="university">
             <name xml:lang="en">University of Turku</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q501841</idno>
+            <idno type="ror">https://ror.org/05vghhr25</idno>
             <place corresp="#turku"/>
           </org>
           <org xml:id="uni-lancaster" type="university">
             <name xml:lang="en">Lancaster University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q262854</idno>
+            <idno type="ror">https://ror.org/04f2nsd36</idno>
             <place corresp="#lancaster"/>
           </org>
           <org xml:id="uni-jerusalem" type="university">
             <name xml:lang="en">Hebrew University of Jerusalem</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q174158</idno>
+            <idno type="ror">https://ror.org/03qxff017</idno>
             <place corresp="#jerusalem"/>
           </org>
           <org xml:id="uni-aachen" type="university">
             <name xml:lang="de">Rheinisch-Westfälische Technische Hochschule Aachen (RWTH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q273263</idno>
+            <idno type="ror">https://ror.org/04xfq0f34</idno>
             <place corresp="#aachen"/>
           </org>
           <org xml:id="htw-dresden" type="university">
             <name xml:lang="de">Hochschule für Technik und Wirtschaft Dresden (HTW)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622222</idno>
+            <idno type="ror">https://ror.org/05q5pk319</idno>
             <place corresp="#dresden"/>
           </org>
           <org xml:id="uni-southern-denmark" type="university">
             <name xml:lang="en">The University of Southern Denmark</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2166335</idno>
+            <idno type="ror">https://ror.org/03yrrjy16</idno>
             <place corresp="#denmark"/>
           </org>
           <org xml:id="uni-warwick" type="university">
             <name xml:lang="en">University of Warwick</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q865528</idno>
+            <idno type="ror">https://ror.org/01a77tt86</idno>
             <place corresp="#coventry"/>
           </org>
           <org xml:id="uni-denver" type="university">
             <name xml:lang="en">University of Denver</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q519427</idno>
+            <idno type="ror">https://ror.org/04w7skc03</idno>
             <place corresp="#denver"/>
           </org>
           <org xml:id="uni-maastricht" type="university">
             <name xml:lang="en">Maastricht University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1137652</idno>
+            <idno type="ror">https://ror.org/02jz4aj89</idno>
             <place corresp="#maastrich"/>
           </org>
           <org xml:id="uni-konstanz" type="university">
             <name xml:lang="de">Universität Konstanz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q835440</idno>
+            <idno type="ror">https://ror.org/0546hnb39</idno>
             <place corresp="#konstanz"/>
           </org>
           <org xml:id="uni-perm" type="university">
             <name xml:lang="en">Perm State University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2031051</idno>
+            <idno type="ror">https://ror.org/029njb796</idno>
             <place corresp="#perm"/>
           </org>
           <org xml:id="uni-reims" type="university">
             <name xml:lang="fr">Université de Reims</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496149</idno>
+            <idno type="ror">https://ror.org/03hypw319</idno>
             <place corresp="#reims"/>
           </org>
           <org xml:id="uni-gothenburg" type="university">
             <name xml:lang="sv">Göteborgs Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q371522</idno>
+            <idno type="ror">https://ror.org/01tm6cn81</idno>
             <place corresp="#gothenburg"/>
           </org>
           <org xml:id="uni-porto" type="university">
             <name xml:lang="pt">Universidade do Porto</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1422903</idno>
+            <idno type="ror">https://ror.org/043pwc612</idno>
             <place corresp="#porto"/>
           </org>
           <org xml:id="uni-waterloo" type="university">
             <name xml:lang="en">University of Waterloo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1049470</idno>
+            <idno type="ror">https://ror.org/01aff2v68</idno>
             <place corresp="#waterloo"/>
           </org>
           <org xml:id="uni-sussex" type="university">
             <name xml:lang="en">University of Sussex</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1161297</idno>
+            <idno type="ror">https://ror.org/00ayhx656</idno>
             <place corresp="#brighton-and-hove"/>
           </org>
           <org xml:id="uni-boras" type="university">
             <name xml:lang="sv">Högskolan i Borås</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1622088</idno>
+            <idno type="ror">https://ror.org/01fdxwh83</idno>
             <place corresp="#boras"/>
           </org>
           <org xml:id="uni-buffalo" type="university">
             <name xml:lang="en">University of Buffalo</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q681025</idno>
+            <idno type="ror">https://ror.org/01y64my43</idno>
             <place corresp="#buffalo #amherst"/>
           </org>
           <org xml:id="city-uni-new-york" type="university">
             <name xml:lang="en">City University of New York</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q762266</idno>
+            <idno type="ror">https://ror.org/00453a208</idno>
             <place corresp="#new-york-city"/>
           </org>
           <org xml:id="uni-north-carolina" type="university">
             <name xml:lang="en">North Carolina State University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1132346</idno>
+            <idno type="ror">https://ror.org/04tj63d06</idno>
             <place corresp="#raleigh"/>
           </org>
           <org xml:id="uni-illinois" type="university">
             <name xml:lang="en">University of Illinois Urbana-Champaign</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q457281</idno>
+            <idno type="ror">https://ror.org/047426m28</idno>
             <place corresp="#urbana #champaign"/>
           </org>
           <org xml:id="uni-plymouth" type="university">
             <name xml:lang="en">University of Plymouth</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1711558</idno>
+            <idno type="ror">https://ror.org/008n7pv89</idno>
             <place corresp="#plymouth"/>
           </org>
           <org xml:id="uni-canberra" type="university">
             <name xml:lang="en">Australian National University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q127990</idno>
+            <idno type="ror">https://ror.org/019wvm592</idno>
             <place corresp="#canberra"/>
           </org>
           <org xml:id="uni-syddansk" type="university">
             <name xml:lang="da">Syddansk Universitet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131899513</idno>
+            <idno type="ror">https://ror.org/03yrrjy16</idno>
             <place corresp="#aarhus"/>
           </org>
           <org xml:id="uni-padua" type="university">
             <name xml:lang="it">Università degli Studi di Padova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q193510</idno>
+            <idno type="ror">https://ror.org/00240q980</idno>
             <place corresp="#padova"/>
           </org>
           <org xml:id="uni-paul-sabatier" type="university">
             <name xml:lang="fr">Université Paul Sabatier</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1273188</idno>
+            <idno type="ror">https://ror.org/02v6kpv12</idno>
             <place corresp="#toulouse"/>
           </org>
           <org xml:id="uni-koblenz" type="university">
             <name xml:lang="de">Universität Koblenz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113633597</idno>
+            <idno type="ror">https://ror.org/0433e6t24</idno>
             <place corresp="#koblenz"/>
           </org>
           <org xml:id="uni-genf" type="university">
@@ -1759,334 +2046,399 @@
           <org xml:id="c2dh" type="research_institution">
             <name xml:lang="de">Luxembourg Centre for Contemporary and Digital History (C2DH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q74434404</idno>
+            <idno type="ror">https://ror.org/054b6pr16</idno>
             <place corresp="#luxembourg"/>
           </org>
           <org xml:id="dair" type="research_institution">
             <name xml:lang="de">Distributed Artificial Intelligence Research Institute (DAIR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q110231228</idno>
+            <idno type="ror">https://ror.org/02efj9m29</idno>
             <place corresp="#usa"/>
           </org>
           <org xml:id="cas" type="research_institution">
             <name xml:lang="cs">Akademie věd České republiky</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q97040206</idno>
+            <idno type="ror">https://ror.org/02mkz3e80</idno>
             <place corresp="#prague"/>
           </org>
           <org xml:id="audiolabs" type="research_institution">
             <name xml:lang="en">International Audio Laboratories Erlangen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q97040206</idno>
+            <idno type="ror">https://ror.org/02mkz3e80</idno>
             <place corresp="#erlangen"/>
           </org>
           <org xml:id="observatoire-de-paris" type="research_institution">
             <name xml:lang="fr">Observatoire de Paris</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q461340</idno>
+            <idno type="ror">https://ror.org/029nkcm90</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="ronin-institute" type="research_institution">
             <name xml:lang="en">Ronin Institute</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q27207785</idno>
+            <idno type="ror">https://ror.org/04awze035</idno>
             <place corresp="#montclair"/>
           </org>
           <org xml:id="gesis" type="research_institution">
             <name xml:lang="en">GESIS – Leibniz Institute for the Social Sciences</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1485220</idno>
+            <idno type="ror">https://ror.org/018afyw53</idno>
             <place corresp="#mannheim"/>
           </org>
           <org xml:id="diw" type="research_institution">
             <name xml:lang="de">Deutsches Institut für Wirtschaftsforschung</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q155228</idno>
+            <idno type="ror">https://ror.org/0050vmv35</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="anr" type="research_institution">
             <name xml:lang="fr">Agence nationale de la recherche (ANR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q392500</idno>
+            <idno type="ror">https://ror.org/00rbzpz17</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="mpi-wg" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für Wissenschaftsgeschichte (MPI-WG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q318118</idno>
+            <idno type="ror">https://ror.org/0492sjc74</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="mpi-inf" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für Informatik (MPI-INF)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q565400</idno>
+            <idno type="ror">https://ror.org/01w19ak89</idno>
             <place corresp="#saarbruecken"/>
           </org>
           <org xml:id="mpi-lhlt" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie
               (MPI-LHLT)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1912108</idno>
+            <idno type="ror">https://ror.org/00jpzvz45</idno>
             <place corresp="#frankfurt-am-main"/>
           </org>
           <org xml:id="mpi-eva" type="research_institution">
             <name xml:lang="de">Max-Planck-Institut für evolutionäre Anthropologie (MPI-EVA)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q682926</idno>
+            <idno type="ror">https://ror.org/02a33b393</idno>
             <place corresp="#leipzig"/>
           </org>
           <org xml:id="liceo-classico-galileo-galilei" type="research_institution">
             <name xml:lang="it">Liceo Classico Galileo Galilei</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q48810529</idno>
+            <!-- No ROR ID found -->
             <place corresp="#pisa"/>
           </org>
           <org xml:id="eui" type="research_institution">
             <name xml:lang="it">Istituto universitario europeo (EUI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1378099</idno>
+            <idno type="ror">https://ror.org/0031wrj91</idno>
             <place corresp="#fiesole"/>
           </org>
           <org xml:id="iuf" type="research_institution">
             <name xml:lang="fr">Institut universitaire de France (IUF)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1665127</idno>
+            <idno type="ror">https://ror.org/055khg266</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="conicet" type="research_institution">
             <name xml:lang="es">Consejo Nacional de Investigaciones Científicas y Técnicas
               (CONICET)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q6978293</idno>
+            <idno type="ror">https://ror.org/03cqe8w59</idno>
             <place corresp="#buenos-aires"/>
           </org>
           <org xml:id="hiig" type="research_institution">
             <name xml:lang="de">Alexander von Humboldt Institut für Internet und Gesellschaft
               (HIIG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q30261359</idno>
+            <idno type="ror">https://ror.org/02h1qnm70</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="ssrq" type="research_institution">
             <name xml:lang="de">Sammlung Schweizerischer Rechtsquellen (SSRQ)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q682515</idno>
+            <!-- No ROR ID found -->
             <place corresp="#zuerich #st-gallen"/>
           </org>
           <org xml:id="cnr" type="research_institution">
             <name xml:lang="it">Consiglio Nazionale delle Ricerche (CNR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q902464</idno>
+            <idno type="ror">https://ror.org/04zaypm56</idno>
             <place corresp="#roma"/>
           </org>
           <org xml:id="ids" type="research_institution">
             <name xml:lang="de">Leibniz-Institut für Deutsche Sprache (IDS)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1664834</idno>
+            <idno type="ror">https://ror.org/00hvwkt50</idno>
             <place corresp="#mannheim"/>
           </org>
           <org xml:id="adw-mainz" type="research_institution">
             <name xml:lang="de">Akademie der Wissenschaften und der Literatur Mainz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q414163</idno>
+            <idno type="ror">https://ror.org/01kdxra28</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="adw-hamburg" type="research_institution">
             <name xml:lang="de">Akademie der Wissenschaften in Hamburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q414150</idno>
+            <idno type="ror">https://ror.org/01rd01t06</idno>
             <place corresp="#hamburg"/>
           </org>
           <org xml:id="adw-goettingen" type="research_institution">
             <name xml:lang="de">Niedersächsische Akademie der Wissenschaften zu Göttingen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q414188</idno>
+            <idno type="ror">https://ror.org/04hsa7a08</idno>
             <place corresp="#goettingen"/>
           </org>
           <org xml:id="adw-leipzig" type="research_institution">
             <name xml:lang="de">Sächsische Akademie der Wissenschaften zu Leipzig</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q451079</idno>
+            <idno type="ror">https://ror.org/03zxjdk07</idno>
             <place corresp="#leipzig"/>
           </org>
           <org xml:id="bbaw" type="research_institution">
             <name xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q219989</idno>
+            <idno type="ror">https://ror.org/05jgq9443</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="zih" type="research_institution">
             <name xml:lang="de">Zentrum für Informationsdienste und Hochleistungsrechnen
               (ZIH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q19965421</idno>
+            <!-- No ROR ID found -->
             <place corresp="#dresden"/>
           </org>
           <org xml:id="scadsai" type="research_institution">
             <name xml:lang="en">Center for Scalable Data Analytics and Artificial Intelligence
               (ScaDS.AI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q129571902</idno>
+            <idno type="ror">https://ror.org/01t4ttr56</idno>
             <place corresp="#dresden #leipzig"/>
           </org>
           <org xml:id="uab-network" type="research_institution">
             <name xml:lang="en">UAB Network of Digital Humanities</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131378003</idno>
+            <!-- No ROR ID found -->
             <place corresp="#barcelona"/>
           </org>
           <org xml:id="dariah" type="research_institution">
             <name xml:lang="en">Digital Research Infrastructure for the Arts and Humanities
               (DARIAH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q49103279</idno>
+            <idno type="ror">https://ror.org/05n09v162</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="inria" type="research_institution">
             <name xml:lang="fr">Institut Français de Recherche en Informatique (INRIA)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1146208</idno>
+            <idno type="ror">https://ror.org/02kvxyf05</idno>
             <place corresp="#le-chesnay"/>
           </org>
           <org xml:id="knaw" type="research_institution">
             <name xml:lang="nl">Koninklijke Nederlandse Akademie van Wetenschappen (KNAW)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q253439</idno>
+            <idno type="ror">https://ror.org/043c0p156</idno>
             <place corresp="#amsterdam"/>
           </org>
           <org xml:id="ria" type="research_institution">
             <name xml:lang="en">Royal Irish Academy (RIA)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q110587</idno>
+            <idno type="ror">https://ror.org/019tbdj08</idno>
             <place corresp="#dublin"/>
           </org>
           <org xml:id="dri" type="research_institution">
             <name xml:lang="en">Digital Repository of Ireland (DRI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q47461569</idno>
+            <idno type="ror">https://ror.org/034d7ma87</idno>
             <place corresp="#dublin"/>
           </org>
           <org xml:id="usb" type="research_institution">
             <name xml:lang="de">Universitätsspital Basel (USB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1689257</idno>
+            <idno type="ror">https://ror.org/04k51q396</idno>
             <place corresp="#basel"/>
           </org>
           <org xml:id="idh" type="research_institution">
             <name xml:lang="de">Institut für Digital Humanities (IDH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131183836</idno>
+            <!-- No ROR ID found -->
             <place corresp="#koeln"/>
           </org>
           <org xml:id="i4dh" type="research_institution">
             <name xml:lang="en">Institute for Digital Heritage (IDH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131341743</idno>
+            <!-- No ROR ID found -->
             <!-- No physical location determinable. -->
           </org>
           <org xml:id="cceh" type="research_institution">
             <name xml:lang="en">Cologne Center for eHumanities</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q123516748</idno>
+            <!-- No ROR ID found -->
             <place corresp="#koeln"/>
           </org>
           <org xml:id="fbn" type="research_institution">
             <name xml:lang="de">Forschungsinstitut für Nutztierbiologie</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q115645154</idno>
+            <idno type="ror">https://ror.org/02n5r1g44</idno>
             <place corresp="#dummerstorf"/>
           </org>
           <org xml:id="iuk" type="research_institution">
             <name xml:lang="de">IuK-Wissenschaftsverbund</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131013219</idno>
+            <!-- No ROR ID found -->
             <place corresp="#rostock"/>
           </org>
           <org xml:id="rosdh" type="research_institution">
             <name xml:lang="de">Rostocker Arbeitskreis Digital Humanities (RosDH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131012163</idno>
+            <!-- No ROR ID found -->
             <place corresp="#rostock"/>
           </org>
           <org xml:id="vedph" type="research_institution">
             <name xml:lang="en">Venice Centre for Digital and Public Humanities (VeDPH)</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q131013219</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112577990</idno>
+            <!-- No ROR ID found -->
             <place corresp="#venezia"/>
           </org>
           <org xml:id="dfki" type="research_institution">
             <name xml:lang="de">Deutsches Forschungszentrum für Künstliche Intelligenz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q896469</idno>
+            <idno type="ror">https://ror.org/01ayc5b57</idno>
             <place corresp="#kaiserslautern"/>
           </org>
           <org xml:id="oeaw" type="research_institution">
             <name xml:lang="de">Österreichische Akademie der Wissenschaften</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q299015</idno>
+            <idno type="ror">https://ror.org/03anc3s24</idno>
             <place corresp="#wien"/>
           </org>
           <org xml:id="cvce" type="research_institution">
             <name xml:lang="fr">Centre Virtuel de la Connaissance sur l’Europe</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2946113</idno>
+            <!-- No ROR ID found -->
             <place corresp="#luxembourg-city"/>
           </org>
           <org xml:id="acdh-ch" type="research_institution">
             <name xml:lang="en">Austrian Centre for Digital Humanities and Cultural Heritage
               (ACDH-CH)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q30268470</idno>
+            <idno type="ror">https://ror.org/028bsh698</idno>
             <place corresp="#wien"/>
           </org>
           <org xml:id="huygens-ing" type="research_institution">
             <name xml:lang="nl">Huygens Instituut voor Nederlandse Geschiedenis</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2257204</idno>
+            <idno type="ror">https://ror.org/04x6kq749</idno>
             <place corresp="#amsterdam"/>
           </org>
           <org xml:id="csic" type="research_institution">
             <name xml:lang="es">Consejo Superior de Investigaciones Científicas</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1024362</idno>
+            <idno type="ror">https://ror.org/02gfc7t72</idno>
             <place corresp="#madrid"/>
           </org>
           <org xml:id="isgv" type="research_institution">
             <name xml:lang="de">Institut für Sächsische Geschichte und Volkskunde</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1665000</idno>
+            <idno type="ror">https://ror.org/023vb4t46</idno>
             <place corresp="#dresden"/>
           </org>
           <org xml:id="hait" type="research_institution">
             <name xml:lang="de">Hannah-Arendt-Institut für Totalitarismusforschung (HAIT)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1575772</idno>
+            <idno type="ror">https://ror.org/042wjdg05</idno>
             <place corresp="#dresden"/>
           </org>
           <org xml:id="ilc" type="research_institution">
             <name xml:lang="it">Istituto di Linguica Computazionale “A. Zampolli”</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q61932915</idno>
+            <idno type="ror">https://ror.org/028g3pe33</idno>
             <place corresp="#pisa"/>
           </org>
           <org xml:id="bj-institute" type="research_institution">
             <name xml:lang="en">bj institute</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131745403</idno>
+            <!-- No ROR ID found -->
             <place corresp="#gontenschwil"/>
           </org>
           <org xml:id="dh.arc" type="research_institution">
             <name xml:lang="en">Digital Humanities Advanced Research Centre (/DH.arc)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132225438</idno>
+            <!-- No ROR ID found -->
             <place corresp="#bologna"/>
           </org>
           <org xml:id="fbk" type="research_institution">
             <name xml:lang="it">Fondazione Bruno Kessler</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3747148</idno>
+            <idno type="ror">https://ror.org/01j33xk10</idno>
             <place corresp="#trento"/>
           </org>
           <org xml:id="dfk-paris" type="research_institution">
             <name xml:lang="de">Deutsches Forum für Kunstgeschichte (DFK Paris)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q253771</idno>
+            <idno type="ror">https://ror.org/01zsnaa93</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="dhi-paris" type="research_institution">
             <name xml:lang="de">Deutsches Historisches Institut Paris (DHI Paris)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q836312</idno>
+            <idno type="ror">https://ror.org/02f1mqt91</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="ghi-washington" type="research_institution">
             <name xml:lang="de">German Historical Institute Washington DC (GHI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1205702</idno>
+            <idno type="ror">https://ror.org/02g01cb27</idno>
             <place corresp="washington"/>
           </org>
           <org xml:id="fiz-karlsruhe" type="research_institution">
             <name xml:lang="de">Leibniz-Institut für Informationsinfrastruktur (FIZ
               Karlsruhe)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1388737</idno>
+            <idno type="ror">https://ror.org/0387prb75</idno>
             <place corresp="#karlsruhe"/>
           </org>
           <org xml:id="bibb" type="research_institution">
             <name xml:lang="de">Bundesinstitut für Berufsbildung (BIBB Bonn)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1006222</idno>
+            <idno type="ror">https://ror.org/0420tmj11</idno>
             <place corresp="#bonn"/>
           </org>
           <org xml:id="ieg-mainz" type="research_institution">
             <name xml:lang="de">Leibniz Institut für Europäische Geschichte Mainz</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q327772</idno>
+            <idno type="ror">https://ror.org/059dyrr28</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="fraunhofer-igd" type="research_institution">
             <name xml:lang="de">Fraunhofer-Institut für Graphische Datenverarbeitung (IGD)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1452008</idno>
+            <idno type="ror">https://ror.org/04gmsar03</idno>
             <place corresp="#darmstadt"/>
           </org>
           <org xml:id="fraunhofer-idmt" type="research_institution">
             <name xml:lang="de">Fraunhofer-Institut für Digitale Medientechnologie (IDMT)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1451997</idno>
+            <idno type="ror">https://ror.org/04gp0yb49</idno>
             <place corresp="#ilmenau"/>
           </org>
           <org xml:id="fraunhofer-iis" type="research_institution">
             <name xml:lang="de">Fraunhofer-Institut für Integrierte Schaltungen (IIS)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q835535</idno>
+            <idno type="ror">https://ror.org/024ape423</idno>
             <place corresp="#erlangen"/>
           </org>
           <org xml:id="zi-muenchen" type="research_institution">
             <name xml:lang="de">Zentralinstitut für Kunstgeschichte (ZI München)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q190617</idno>
+            <idno type="ror">https://ror.org/05sqrfr79</idno>
             <place corresp="#muenchen"/>
           </org>
           <org xml:id="sazu" type="research_institution">
             <name xml:lang="sl">Slovenska akademija znanosti in umetnosti (SAZU)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q266063</idno>
+            <idno type="ror">https://ror.org/04evj0n95</idno>
             <place corresp="#ljubljana"/>
           </org>
           <org xml:id="mmz" type="research_institution">
@@ -2099,31 +2451,37 @@
           <org xml:id="dai" type="research_institution">
             <name xml:lang="de">Deutsches Archäologisches Institut (DAI)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q695302</idno>
+            <idno type="ror">https://ror.org/041qv0h25</idno>
             <place corresp="#bonn"/>
           </org>
           <org xml:id="frobenius-institut" type="research_institution">
             <name xml:lang="de">Frobenius Institute</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1469408</idno>
+            <idno type="ror">https://ror.org/035f23321</idno>
             <place corresp="#frankfurt-am-main"/>
           </org>
           <org xml:id="conicet-santa-fe" type="research_institution">
             <name xml:lang="es">Centro Científico Tecnológico</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q77084621</idno>
+            <idno type="ror">https://ror.org/003vet424</idno>
             <place corresp="#santa-fe"/>
           </org>
           <org xml:id="pan" type="research_institution">
             <name xml:lang="en">Polish Academy of Sciences (PAN)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q651690</idno>
+            <idno type="ror">https://ror.org/01dr6c206</idno>
             <place corresp="#krakow"/>
           </org>
           <org xml:id="cnrs" type="research_institution">
             <name xml:lang="fr">Centre national de la recherche scientifique (CNRS)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q280413</idno>
+            <idno type="ror">https://ror.org/02feahw73</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="centre-marc-bloch" type="research_institution">
             <name xml:lang="fr">Centre Marc Bloch</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q18816785</idno>
+            <idno type="ror">https://ror.org/043bqfp86</idno>
             <place corresp="#berlin"/>
           </org>
           <!-- ##### GLAMs ##### -->
@@ -2131,6 +2489,7 @@
           <org xml:id="gallery-Kunsttempel" type="glam">
             <name xml:lang="de">Kunsttempel</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q30093262</idno>
+            <!-- No ROR ID found -->
             <place corresp="#kassel"/>
           </org>
           <!-- ####### L ####### -->
@@ -2143,404 +2502,487 @@
           <org xml:id="library-bdcv" type="glam">
             <name xml:lang="es">Biblioteca Daniel Cosío Villegas</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q42865647</idno>
+            <!-- No ROR ID found -->
             <place corresp="#mexico-city"/>
           </org>
           <org xml:id="library-uni-goettingen" type="glam">
             <name xml:lang="de">Staats- und Universitätsbibliothek Göttingen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q564783</idno>
+            <idno type="ror">https://ror.org/05745n787</idno>
             <place corresp="#goettingen"/>
           </org>
           <org xml:id="library-uni-tuebingen" type="glam">
             <name xml:lang="de">Universitätsbibliothek Tübingen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496347</idno>
+            <!-- No ROR ID found -->
             <place corresp="#tuebingen"/>
           </org>
           <org xml:id="library-uni-bielefeld" type="glam">
             <name xml:lang="de">Universitätsbibliothek Bielefeld</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1770764</idno>
+            <!-- No ROR ID found -->
             <place corresp="#bielefeld"/>
           </org>
           <org xml:id="library-uni-cambridge" type="glam">
             <name xml:lang="en">Cambridge University Library</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1028334</idno>
+            <!-- No ROR ID found -->
             <place corresp="#cambridge-uk"/>
           </org>
           <org xml:id="library-beic" type="glam">
             <name xml:lang="it">Fondazione Biblioteca Europea di Informazione e Cultura
               (BEIC)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3639582</idno>
+            <!-- No ROR ID found -->
             <place corresp="#milan"/>
           </org>
           <org xml:id="library-uni-harvard" type="glam">
             <name xml:lang="en">Harvard University Library</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3232931</idno>
+            <!-- No ROR ID found -->
             <place corresp="#cambridge-us"/>
           </org>
           <org xml:id="library-tommaso-trela" type="glam">
             <name xml:lang="fr">Bibliothèque Tommaso Prelà</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q684773</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134083339</idno>
+            <!-- No ROR ID found -->
             <place corresp="#bastia"/>
           </org>
           <org xml:id="library-eth" type="glam">
             <name xml:lang="de">ETH-Bibliothek</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q684773</idno>
+            <!-- No ROR ID found -->
             <place corresp="#zuerich"/>
           </org>
           <org xml:id="library-uni-corse" type="glam">
             <name xml:lang="fr">Bibliothèque de l'Université de Corse</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q74732996</idno>
+            <!-- No ROR ID found -->
             <place corresp="#corte"/>
           </org>
           <org xml:id="library-bsb" type="glam">
             <name xml:lang="de">Bayerische Staatsbibliothek (BSB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q256507</idno>
+            <idno type="ror">https://ror.org/031h71w90</idno>
             <place corresp="#muenchen"/>
           </org>
           <org xml:id="library-uni-rostock" type="glam">
             <name xml:lang="de">Universitätsbibliothek Rostock</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1504057</idno>
+            <!-- No ROR ID found -->
             <place corresp="#rostock"/>
           </org>
           <org xml:id="library-uni-kiel" type="glam">
             <name xml:lang="de">Universitätsbibliothek Kiel</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496307</idno>
+            <!-- No ROR ID found -->
             <place corresp="#kiel"/>
           </org>
           <org xml:id="library-uni-berlin-fu" type="glam">
             <name xml:lang="de">Universitätsbibliothek der Freien Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2496344</idno>
+            <!-- No ROR ID found -->
             <place corresp="#berlin"/>
           </org>
           <org xml:id="library-uni-heidelberg" type="glam">
             <name xml:lang="de">Universitätsbibliothek Heidelberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q880794</idno>
+            <!-- No ROR ID found -->
             <place corresp="#heidelberg"/>
           </org>
           <org xml:id="library-uni-gent" type="glam">
             <name xml:lang="nl">Universiteitsbibliotheek Gent</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q611001</idno>
+            <!-- No ROR ID found -->
             <place corresp="#gent"/>
           </org>
           <org xml:id="library-slub" type="glam">
             <name xml:lang="de">Staats- und Universitätsbibliothek Dresden (SLUB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q323270</idno>
+            <idno type="ror">https://ror.org/03wf51b65</idno>
             <place corresp="#dresden"/>
           </org>
           <org xml:id="library-bne" type="glam">
             <name xml:lang="es">Biblioteca Nacional de España (BNE)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q750403</idno>
+            <idno type="ror">https://ror.org/02cr20t12</idno>
             <place corresp="#madrid"/>
           </org>
           <org xml:id="library-hab" type="glam">
             <name xml:lang="de">Herzog-August-Bibliothek (HAB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q663820</idno>
+            <idno type="ror">https://ror.org/02y5mkh60</idno>
             <place corresp="#wolfenbuettel"/>
           </org>
           <org xml:id="library-hbz-nrw" type="glam">
             <name xml:lang="de">Hochschulbibliothekszentrum NRW</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q18085187</idno>
+            <idno type="ror">https://ror.org/00n3mcd10</idno>
             <place corresp="#koeln"/>
           </org>
           <org xml:id="library-bnf" type="glam">
             <name xml:lang="fr">Bibliothèque nationale de France</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q193563</idno>
+            <idno type="ror">https://ror.org/04v1bf639</idno>
             <place corresp="#paris"/>
           </org>
           <org xml:id="library-lbz" type="glam">
             <name xml:lang="de">Landesbibliothekszentrum Rheinland-Pfalz (LBZ)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1802141</idno>
+            <!-- No ROR ID found -->
             <place corresp="#koblenz"/>
           </org>
           <!-- ####### A ####### -->
           <org xml:id="archive-salzburg" type="glam">
             <name xml:lang="de">Stadtarchiv Salzburg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133065174</idno>
+            <!-- No ROR ID found -->
             <place corresp="#salzburg"/>
           </org>
           <org xml:id="archive-barch-berlin" type="glam">
             <name xml:lang="de">Bundesarchiv Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q66735830</idno>
+            <idno type="ror">https://ror.org/02wbjm117</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="archive-dla-marbach" type="glam">
             <name xml:lang="de">Deutsches Literaturarchiv Marbach (DLA Marbach)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1205813</idno>
+            <idno type="ror">https://ror.org/05x75gh12</idno>
             <place corresp="#marbach"/>
           </org>
           <org xml:id="archive-fu-berlin" type="glam">
             <name xml:lang="de">Universitätsarchiv der Freien Universität Berlin</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q28735050</idno>
+            <!-- No ROR ID found -->
             <place corresp="#berlin"/>
           </org>
           <org xml:id="ans" type="glam">
             <name xml:lang="de">American Numismatic Society (ANS)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1256518</idno>
+            <idno type="ror">https://ror.org/05pv2w409</idno>
             <place corresp="#new-york-city"/>
           </org>
           <!-- ####### M ####### -->
           <org xml:id="museum-nms" type="glam">
             <name xml:lang="en">National Museums Scotland (NMS)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1967502</idno>
+            <idno type="ror">https://ror.org/00pxfwe85</idno>
             <place corresp="#edinburgh"/>
           </org>
           <org xml:id="museum-uni-padova" type="glam">
             <name xml:lang="it">Museo di geografia dell'Università di Padova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q97148112</idno>
+            <!-- No ROR ID found -->
             <place corresp="#padova"/>
           </org>
           <org xml:id="museum-snm" type="glam">
             <name xml:lang="de">Schweizerisches Nationalmuseum (SNM)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2256718</idno>
+            <idno type="ror">https://ror.org/0187t3494</idno>
             <place corresp="#zuerich"/>
           </org>
           <org xml:id="museum-rijks" type="glam">
             <name xml:lang="nl">Rijksmuseum</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q190804</idno>
+            <idno type="ror">https://ror.org/006wjwp03</idno>
             <place corresp="#amsterdam"/>
           </org>
           <org xml:id="museum-lmw" type="glam">
             <name xml:lang="de">Landesmuseum Württemberg</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1332706</idno>
+            <idno type="ror">https://ror.org/040yf2s15</idno>
             <place corresp="#stuttgart"/>
           </org>
           <org xml:id="museum-hmb" type="glam">
             <name xml:lang="it">Historisches Museum Basel (HMB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q386286</idno>
+            <!-- No ROR ID found -->
             <place corresp="#basel"/>
           </org>
           <org xml:id="museum-icg" type="glam">
             <name xml:lang="it">Istituto Centrale per la Grafica (ICR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q24941453</idno>
+            <!-- No ROR ID found -->
             <place corresp="#roma"/>
           </org>
           <org xml:id="museum-rabasf" type="glam">
             <name xml:lang="es">Museo de la Real Academia de Bellas Artes de San Fernando
               (RABASF)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q96658155</idno>
+            <!-- No ROR ID found -->
             <place corresp="#madrid"/>
           </org>
           <org xml:id="museum-hek" type="glam">
             <name xml:lang="de">Haus der Elektronischen Künste (HEK)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1112536</idno>
+            <!-- No ROR ID found -->
             <place corresp="#muenchenstein"/>
           </org>
           <org xml:id="stadsmuseum-gothenburg" type="glam">
             <name xml:lang="sv">Göteborgs Stadsmuseum</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3107846</idno>
+            <!-- No ROR ID found -->
             <place corresp="#gothenburg"/>
           </org>
           <!-- ####### Other ####### -->
           <org xml:id="zfdg" type="other">
             <name xml:lang="de">Zeitschrift für digitale Geisteswissenschaften (ZfdG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q50817854</idno>
+            <!-- No ROR ID found -->
             <place corresp="#wolfenbuettel"/>
           </org>
           <org xml:id="nfdi4culture" type="other">
             <name xml:lang="en">NFDI4Culture</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q98276929</idno>
+            <idno type="ror">https://ror.org/001jhv750</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="nfdi4memory" type="other">
             <name xml:lang="en">NFDI4Memory</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q98231721</idno>
+            <idno type="ror">https://ror.org/0310v3480</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="nfdi4objects" type="other">
             <name xml:lang="en">NFDI4Objects</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q98229157</idno>
+            <idno type="ror">https://ror.org/01xptp363</idno>
             <place corresp="#mainz"/>
           </org>
           <org xml:id="textplus" type="other">
             <name xml:lang="en">Text+</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q98271443</idno>
+            <idno type="ror">https://ror.org/04dy2xw62</idno>
             <place corresp="#mannheim"/>
           </org>
           <org xml:id="beethovenhaus-bonn" type="other">
             <name xml:lang="de">Beethoven-Haus Bonn</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q318084</idno>
+            <idno type="ror">https://ror.org/05mhxe367</idno>
             <place corresp="#bonn"/>
           </org>
           <org xml:id="koninklijk-conservatorium-antwerpen" type="other">
             <name xml:lang="nl">Koninklijk Conservatorium Antwerpen</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2665388</idno>
+            <!-- No ROR ID found -->
             <place corresp="#antwerpen"/>
           </org>
           <org xml:id="vlaamse-erfgoedbibliotheken" type="other">
             <name xml:lang="nl">Vlaamse Erfgoedbibliotheken</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2469116</idno>
+            <!-- No ROR ID found -->
             <place corresp="#berchem"/>
           </org>
           <org xml:id="history-lab-magazine" type="other">
             <name xml:lang="en">History Lab Magazine</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134348007</idno>
+            <!-- No ROR ID found -->
             <place corresp="#trento"/>
           </org>
           <org xml:id="abr" type="other">
             <name xml:lang="de">LVR-Amt für Bodendenkmalpflege im Rheinland (ABR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1699513</idno>
+            <!-- No ROR ID found -->
             <place corresp="#bonn"/>
           </org>
           <org xml:id="skkg" type="other">
             <name xml:lang="de">Stiftung für Kunst, Kultur und Geschichte (SKKG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q73668947</idno>
+            <!-- No ROR ID found -->
             <place corresp="#winterthur"/>
           </org>
           <org xml:id="spk" type="other">
             <name xml:lang="de">Stiftung Preußischer Kulturbesitz (SPK)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q685171</idno>
+            <idno type="ror">https://ror.org/01y6swy44</idno>
             <place corresp="#berlin"/>
           </org>
           <org xml:id="mws" type="other">
             <name xml:lang="de">Max Weber Stiftung (MWS)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1913589</idno>
+            <idno type="ror">https://ror.org/02esxtn62</idno>
             <place corresp="#bonn"/>
           </org>
           <org xml:id="ntm-mannheim" type="other">
             <name xml:lang="de">Nationaltheater Mannheim (NTM Mannheim)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113044305</idno>
+            <!-- No ROR ID found -->
             <place corresp="#mannheim"/>
           </org>
           <org xml:id="tib" type="other">
             <name xml:lang="de">Technische Informationsbibliothek (TIB)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2399120</idno>
+            <idno type="ror">https://ror.org/04aj4c181</idno>
             <place corresp="#hannover"/>
           </org>
           <org xml:id="sydsvenskan" type="other">
             <name xml:lang="sv">Sydsvenskan</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1371686</idno>
+            <!-- No ROR ID found -->
             <place corresp="#malmö #lund"/>
           </org>
           <org xml:id="riksantikvarieambetet" type="other">
             <name xml:lang="sv">Riksantikvarieämbetet</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q631844</idno>
+            <idno type="ror">https://ror.org/041pfpb15</idno>
             <place corresp="#stockholm"/>
           </org>
           <org xml:id="litteraturbanken" type="other">
             <name xml:lang="sv">Litteraturbanken</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10567910</idno>
+            <!-- No ROR ID found -->
             <place corresp="#stockholm #gothenburg"/>
           </org>
           <!-- ##### Companies ##### -->
           <org xml:id="parsqube" type="company">
             <name xml:lang="en">parsQube GmbH</name>
             <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
             <place corresp="#karlsruhe"/>
           </org>
           <org xml:id="deepl" type="company">
             <name xml:lang="en">DeepL SE</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131894787</idno>
+            <!-- No ROR ID found -->
             <place corresp="#koeln"/>
           </org>
           <org xml:id="ibm" type="company">
             <name xml:lang="en">International Business Machines Corporation (IBM)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q37156</idno>
+            <idno type="ror">https://ror.org/05hh8d621</idno>
             <place corresp="#armonk"/>
           </org>
           <org xml:id="black-mesa-technologies" type="company">
             <name xml:lang="en">Black Mesa Technologies LLC</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134353536</idno>
+            <!-- No ROR ID found -->
             <place corresp="#espanola"/>
           </org>
           <org xml:id="radio-24" type="company">
             <name xml:lang="en">Radio 24</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3416540</idno>
+            <!-- No ROR ID found -->
             <place corresp="#milan"/>
           </org>
           <org xml:id="rcs-media-group" type="company">
             <name xml:lang="en">RCS MediaGroup</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1327389</idno>
+            <!-- No ROR ID found -->
             <place corresp="#milan"/>
           </org>
           <org xml:id="the-visual-agency" type="company">
             <name xml:lang="en">The Visual Agency</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133970210</idno>
+            <!-- No ROR ID found -->
             <place corresp="#milan"/>
           </org>
           <org xml:id="netseven" type="company">
             <name xml:lang="en">Net7</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q30285093</idno>
+            <idno type="ror">https://ror.org/012pxe355</idno>
             <place corresp="#pisa"/>
           </org>
           <org xml:id="de-vulgare" type="company">
             <name xml:lang="en">DeVulgare</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133969262</idno>
+            <!-- No ROR ID found -->
             <place corresp="#milan"/>
           </org>
           <org xml:id="sirius-game" type="company">
             <name xml:lang="en">SiriugsGame</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133968844</idno>
+            <!-- No ROR ID found -->
             <place corresp="#verona"/>
           </org>
           <org xml:id="tourism-world-summit" type="company">
             <name xml:lang="en">Tourism World Summit</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132857939</idno>
+            <!-- No ROR ID found -->
             <place corresp="#london"/>
           </org>
           <org xml:id="pandoracampus" type="company">
             <name xml:lang="en">Pandoracampus</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132722957</idno>
+            <!-- No ROR ID found -->
             <place corresp="#bologna"/>
           </org>
           <org xml:id="websoup" type="company">
             <name xml:lang="en">WebSoup - Web &amp; Seo Agency</name>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
             <place corresp="#lucca"/>
           </org>
           <org xml:id="eve-museos" type="company">
             <name xml:lang="es">EVE Museos+Innova</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132471228</idno>
+            <!-- No ROR ID found -->
             <place corresp="#madrid"/>
           </org>
           <org xml:id="arkikus" type="company">
             <name xml:lang="es">Arkikus</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132471199</idno>
+            <!-- No ROR ID found -->
             <place corresp="#vitoria-gasteiz"/>
           </org>
           <org xml:id="la-tempesta" type="company">
             <name xml:lang="es">La Tempesta</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132462626</idno>
+            <!-- No ROR ID found -->
             <place corresp="#barcelona"/>
           </org>
           <org xml:id="wordpress" type="company">
             <name xml:lang="en">WordPress Foundation</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q56787199</idno>
+            <!-- No ROR ID found -->
             <place corresp="#san-francisco"/>
           </org>
           <org xml:id="legacy-page" type="company">
             <name xml:lang="de">Legacy Page Ltd.</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q131604814</idno>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
             <!-- No physical location determinable. -->
           </org>
           <org xml:id="pagina" type="company">
             <name xml:lang="de">pagina Publikationstechnologien</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131538003</idno>
+            <!-- No ROR ID found -->
             <place corresp="#weil-der-stadt"/>
           </org>
           <org xml:id="psycle" type="company">
             <name xml:lang="en">Psycle Interactive</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131537679</idno>
+            <!-- No ROR ID found -->
             <place corresp="#london #barcelona"/>
           </org>
           <org xml:id="rbtoth" type="company">
             <name xml:lang="en">R.B. Toth Associates</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q117405643</idno>
+            <idno type="ror">https://ror.org/0349vgr77</idno>
             <place corresp="#oakton"/>
           </org>
           <org xml:id="tulp" type="company">
             <name xml:lang="en">TULP Interactive</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131315989</idno>
+            <!-- No ROR ID found -->
             <place corresp="#rijswijk"/>
           </org>
           <org xml:id="lvr-infokom" type="company">
             <name xml:lang="de">LVR-Infokom Köln</name>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
             <place corresp="#koeln"/>
           </org>
           <org xml:id="paveprime-ltd" type="company">
             <name xml:lang="de">Paveprime Ltd.</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q111431908</idno>
+            <idno type="ror">https://ror.org/05bgydj64</idno>
             <place corresp="#london"/>
           </org>
           <org xml:id="archai-ltd" type="company">
             <name xml:lang="en">ArchAI Ltd.</name>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
             <place corresp="#london"/>
           </org>
         </listOrg>
@@ -15009,9 +15451,8 @@
         <change who="#uhk #erre" when="2025-09-27">Prepares version 0.6 of the dataset for a
           contribution to the upcoming DHd 2026 conference in Wien. This version contains 44 lecture
           series.</change>
-        <change who="#uhk #erre" when="2025-11-15">Prepare version 0.7 of the dataset for an article
-          in the upcoming issue of the Journal of Open Humanities Data. This version contains XX
-          lecture series.</change>
+        <change who="#uhk #erre" when="2025-11-15">Prepare version 0.7 of the dataset. This version
+          contains XX lecture series.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
