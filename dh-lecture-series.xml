@@ -21,9 +21,10 @@
           <forename>Erik</forename>
           <idno type="orcid">https://orcid.org/0009-0005-8288-7470</idno>
         </editor>
-        <respStmt>
+        <respStmt xml:id="cg">
           <resp>Contributor</resp>
           <name>Charlotte Grünig</name>
+          <idno type="orcid">https://orcid.org/0009-0008-3829-0548</idno>
         </respStmt>
         <respStmt>
           <resp>Contributor</resp>
