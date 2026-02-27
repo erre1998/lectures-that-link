@@ -13950,376 +13950,447 @@
             <bloc type="continent" corresp="#south-america"/>
             <name>Brazil</name>
           </place>
-          <!-- #### Cities #### -->
+<!-- #### Cities #### -->
           <!-- ###### Continent: Europe ###### -->
           <!-- ######## German cities ######## -->
           <place type="city" xml:id="tuebingen">
             <country corresp="#germany"/>
             <name>Tübingen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3806</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004426</idno>
             <idno type="gnd">https://d-nb.info/gnd/4061147-4</idno>
           </place>
           <place type="city" xml:id="koeln">
             <country corresp="#germany"/>
             <name>Cologne</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q365</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004446</idno>
             <idno type="gnd">https://d-nb.info/gnd/4031483-2</idno>
           </place>
           <place type="city" xml:id="berlin">
             <country corresp="#germany"/>
             <name>Berlin</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/</idno>
             <idno type="gnd">https://d-nb.info/gnd/4005728-8</idno>
           </place>
           <place type="city" xml:id="siegen">
             <country corresp="#germany"/>
             <name>Siegen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3167</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012712</idno>
             <idno type="gnd">https://d-nb.info/gnd/4054883-1</idno>
           </place>
           <place type="city" xml:id="ilmenau">
             <country corresp="#germany"/>
             <name>Ilmenau</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q205929</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012825</idno>
             <idno type="gnd">https://d-nb.info/gnd/4026566-3</idno>
           </place>
           <place type="city" xml:id="pforzheim">
             <country corresp="#germany"/>
             <name>Pforzheim</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3046</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012653</idno>
             <idno type="gnd">https://d-nb.info/gnd/4045637-7</idno>
           </place>
           <place type="city" xml:id="detmold">
             <country corresp="#germany"/>
             <name>Detmold</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3922</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1002333</idno>
             <idno type="gnd">https://d-nb.info/gnd/4011555-0</idno>
           </place>
           <place type="city" xml:id="dortmund">
             <country corresp="#germany"/>
             <name>Dortmund</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1295</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004982</idno>
             <idno type="gnd">https://d-nb.info/gnd/4012814-3</idno>
           </place>
           <place type="city" xml:id="trier">
             <country corresp="#germany"/>
             <name>Trier</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3138</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004447</idno>
             <idno type="gnd">https://d-nb.info/gnd/4060877-3</idno>
           </place>
           <place type="city" xml:id="chemnitz">
             <country corresp="#germany"/>
             <name>Chemnitz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2795</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005951</idno>
             <idno type="gnd">https://d-nb.info/gnd/4029702-0</idno>
           </place>
           <place type="city" xml:id="kassel">
             <country corresp="#germany"/>
             <name>Kassel</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2865</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004431</idno>
             <idno type="gnd">https://d-nb.info/gnd/4029869-3</idno>
           </place>
           <place type="city" xml:id="vechta">
             <country corresp="#germany"/>
             <name>Vechta</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16096</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1041525</idno>
             <idno type="gnd">https://d-nb.info/gnd/4062421-3</idno>
           </place>
           <place type="city" xml:id="wuppertal">
             <country corresp="#germany"/>
             <name>Wuppertal</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2107</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004943</idno>
             <idno type="gnd">https://d-nb.info/gnd/4067084-3</idno>
           </place>
           <place type="city" xml:id="karlsruhe">
             <country corresp="#germany"/>
             <name>Karlsruhe</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1040</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004424</idno>
             <idno type="gnd">https://d-nb.info/gnd/4029713-5</idno>
           </place>
           <place type="city" xml:id="weil-der-stadt">
             <country corresp="#germany"/>
             <name>Weil der Stadt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q505147</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1041707</idno>
             <idno type="gnd">https://d-nb.info/gnd/4065086-8</idno>
           </place>
           <place type="city" xml:id="dummerstorf">
             <country corresp="#germany"/>
             <name>Dummerstorf</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q560191</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7197606</idno>
             <idno type="gnd">https://d-nb.info/gnd/4389418-5</idno>
           </place>
           <place type="city" xml:id="erlangen">
             <country corresp="#germany"/>
             <name>Erlangen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3126</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004332</idno>
             <idno type="gnd">https://d-nb.info/gnd/4015299-6</idno>
           </place>
           <place type="city" xml:id="nuernberg">
             <country corresp="#germany"/>
             <name>Nuremberg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2090</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004334</idno>
             <idno type="gnd">https://d-nb.info/gnd/4042742-0</idno>
           </place>
           <place type="city" xml:id="muenster">
             <country corresp="#germany"/>
             <name>Münster</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2742</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004445</idno>
             <idno type="gnd">https://d-nb.info/gnd/4040608-8</idno>
           </place>
           <place type="city" xml:id="passau">
             <country corresp="#germany"/>
             <name>Passau</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4190</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004407</idno>
             <idno type="gnd">https://d-nb.info/gnd/4044828-9</idno>
           </place>
           <place type="city" xml:id="duesseldorf">
             <country corresp="#germany"/>
             <name>Düsseldorf</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1718</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004443</idno>
             <idno type="gnd">https://d-nb.info/gnd/4013255-9</idno>
           </place>
           <place type="city" xml:id="dresden">
             <country corresp="#germany"/>
             <name>Dresden</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1731</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004455</idno>
             <idno type="gnd">https://d-nb.info/gnd/4012995-0</idno>
           </place>
           <place type="city" xml:id="rostock">
             <country corresp="#germany"/>
             <name>Rostock</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2861</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7100449</idno>
             <idno type="gnd">https://d-nb.info/gnd/4050610-1</idno>
           </place>
           <place type="city" xml:id="darmstadt">
             <country corresp="#germany"/>
             <name>Darmstadt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2973</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7077069</idno>
             <idno type="gnd">https://d-nb.info/gnd/4011077-1</idno>
           </place>
           <place type="city" xml:id="duisburg">
             <country corresp="#germany"/>
             <name>Duisburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2100</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7077749</idno>
             <idno type="gnd">https://d-nb.info/gnd/4013284-5</idno>
           </place>
           <place type="city" xml:id="erfurt">
             <country corresp="#germany"/>
             <name>Erfurt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1729</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7024031</idno>
             <idno type="gnd">https://d-nb.info/gnd/4015240-6</idno>
           </place>
           <place type="city" xml:id="essen">
             <country corresp="#germany"/>
             <name>Essen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2066</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004905</idno>
             <idno type="gnd">https://d-nb.info/gnd/4015557-2</idno>
           </place>
           <place type="city" xml:id="augsburg">
             <country corresp="#germany"/>
             <name>Augsburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2749</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004324</idno>
             <idno type="gnd">https://d-nb.info/gnd/4003614-5</idno>
           </place>
           <place type="city" xml:id="bielefeld">
             <country corresp="#germany"/>
             <name>Bielefeld</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2112</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005978</idno>
             <idno type="gnd">https://d-nb.info/gnd/4006510-8</idno>
           </place>
           <place type="city" xml:id="bochum">
             <country corresp="#germany"/>
             <name>Bochum</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2103</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004904</idno>
             <idno type="gnd">https://d-nb.info/gnd/4007328-2</idno>
           </place>
           <place type="city" xml:id="bonn">
             <country corresp="#germany"/>
             <name>Bonn</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q586</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005090</idno>
             <idno type="gnd">https://d-nb.info/gnd/4007666-0</idno>
           </place>
           <place type="city" xml:id="goettingen">
             <country corresp="#germany"/>
             <name>Göttingen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3033</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005246</idno>
             <idno type="gnd">https://d-nb.info/gnd/4021477-1</idno>
           </place>
           <place type="city" xml:id="greifswald">
             <country corresp="#germany"/>
             <name>Greifswald</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4098</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004725</idno>
             <idno type="gnd">https://d-nb.info/gnd/4021965-3</idno>
           </place>
           <place type="city" xml:id="halle">
             <country corresp="#germany"/>
             <name>Halle (Saale)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2814</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1036898</idno>
             <idno type="gnd">https://d-nb.info/gnd/4023025-9</idno>
           </place>
           <place type="city" xml:id="hamburg">
             <country corresp="#germany"/>
             <name>Hamburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1055</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7179584</idno>
             <idno type="gnd">https://d-nb.info/gnd/4023118-5</idno>
           </place>
           <place type="city" xml:id="heidelberg">
             <country corresp="#germany"/>
             <name>Heidelberg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2966</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005177</idno>
             <idno type="gnd">https://d-nb.info/gnd/4023996-2</idno>
           </place>
           <place type="city" xml:id="kiel">
             <country corresp="#germany"/>
             <name>Kiel</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1707</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004457</idno>
             <idno type="gnd">https://d-nb.info/gnd/4030481-4</idno>
           </place>
           <place type="city" xml:id="leipzig">
             <country corresp="#germany"/>
             <name>Leipzig</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2079</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012329</idno>
             <idno type="gnd">https://d-nb.info/gnd/4035206-7</idno>
           </place>
           <place type="city" xml:id="marburg">
             <country corresp="#germany"/>
             <name>Marburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3869</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012330</idno>
             <idno type="gnd">https://d-nb.info/gnd/4037446-4</idno>
           </place>
           <place type="city" xml:id="frankfurt-am-main">
             <country corresp="#germany"/>
             <name>Frankfurt am Main</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1794</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005293</idno>
             <idno type="gnd">https://d-nb.info/gnd/4037446-4</idno>
           </place>
           <place type="city" xml:id="frankfurt-an-der-oder">
             <country corresp="#germany"/>
             <name>Frankfurt an der Oder</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4024</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005972</idno>
             <idno type="gnd">https://d-nb.info/gnd/4018122-4</idno>
           </place>
           <place type="city" xml:id="saarbruecken">
             <country corresp="#germany"/>
             <name>Saarbrücken</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1724</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004454</idno>
             <idno type="gnd">https://d-nb.info/gnd/4076912-4</idno>
           </place>
           <place type="city" xml:id="mannheim">
             <country corresp="#germany"/>
             <name>Mannheim</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2119</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005179</idno>
             <idno type="gnd">https://d-nb.info/gnd/4037372-1</idno>
           </place>
           <place type="city" xml:id="marbach">
             <country corresp="#germany"/>
             <name>Marbach am Neckar</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q61890</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012592</idno>
             <idno type="gnd">https://d-nb.info/gnd/4037443-9</idno>
           </place>
           <place type="city" xml:id="muenchen">
             <country corresp="#germany"/>
             <name>Munich</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1726</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004333</idno>
             <idno type="gnd">https://d-nb.info/gnd/4127793-4</idno>
           </place>
           <place type="city" xml:id="paderborn">
             <country corresp="#germany"/>
             <name>Paderborn</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2971</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005101</idno>
             <idno type="gnd">https://d-nb.info/gnd/4044283-4</idno>
           </place>
           <place type="city" xml:id="wismar">
             <country corresp="#germany"/>
             <name>Wismar</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q7030</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7078999</idno>
             <idno type="gnd">https://d-nb.info/gnd/4201278-8</idno>
           </place>
           <place type="city" xml:id="wuerzburg">
             <country corresp="#germany"/>
             <name>Würzburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2999</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004335</idno>
             <idno type="gnd">https://d-nb.info/gnd/4067037-5</idno>
           </place>
           <place type="city" xml:id="bamberg">
             <country corresp="#germany"/>
             <name>Bamberg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3936</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004325</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4004391-5</idno>
           </place>
           <place type="city" xml:id="jena">
             <country corresp="#germany"/>
             <name>Jena</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3150</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005973</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4028557-1</idno>
           </place>
           <place type="city" xml:id="wolfenbuettel">
             <country corresp="#germany"/>
             <name>Wolfenbüttel</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4122</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005253</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4066832-0</idno>
           </place>
           <place type="city" xml:id="stuttgart">
             <country corresp="#germany"/>
             <name>Stuttgart</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1022</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004425</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4058282-6</idno>
           </place>
           <place type="city" xml:id="giessen">
             <country corresp="#germany"/>
             <name>Giessen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3874</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004429</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4020989-1</idno>
           </place>
           <place type="city" xml:id="potsdam">
             <country corresp="#germany"/>
             <name>Potsdam</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1711</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004463</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4046948-7</idno>
           </place>
           <place type="city" xml:id="mainz">
             <country corresp="#germany"/>
             <name>Mainz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1720</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004449</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4037124-4</idno>
           </place>
           <place type="city" xml:id="regensburg">
             <country corresp="#germany"/>
             <name>Regensburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2978</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013496</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4048989-9</idno>
           </place>
           <place type="city" xml:id="freiburg">
             <country corresp="#germany"/>
             <name>Freiburg im Breisgau</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2833</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004423</idno>
             <idno type="gnd">https://d-nb.info/gnd/4018272-1</idno>
           </place>
           <place type="city" xml:id="bremen">
             <country corresp="#germany"/>
             <name>Bremen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q24879</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005286</idno>
             <idno type="gnd">https://d-nb.info/gnd/4008135-7</idno>
           </place>
           <place type="city" xml:id="kaiserslautern">
             <country corresp="#germany"/>
             <name>Kaiserslautern</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3758</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012955</idno>
             <idno type="gnd">https://d-nb.info/gnd/4029261-7</idno>
           </place>
           <place type="city" xml:id="hannover">
             <country corresp="#germany"/>
             <name>Hannover</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1715</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013260</idno>
             <idno type="gnd">https://d-nb.info/gnd/4023349-2</idno>
           </place>
           <place type="city" xml:id="aachen">
             <country corresp="#germany"/>
             <name>Aachen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1017</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004799</idno>
             <idno type="gnd">https://d-nb.info/gnd/4000003-5</idno>
           </place>
           <place type="city" xml:id="konstanz">
             <country corresp="#germany"/>
             <name>Konstanz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3834</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005174</idno>
             <idno type="gnd">https://d-nb.info/gnd/4032215-4</idno>
           </place>
           <place type="city" xml:id="koblenz">
             <country corresp="#germany"/>
             <name>Koblenz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3104</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004448</idno>
             <idno type="gnd">https://d-nb.info/gnd/4031410-8</idno>
           </place>
@@ -14327,6 +14398,7 @@
           <place type="city" xml:id="krakow">
             <country corresp="#poland"/>
             <name>Kraków</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q31487</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007652</idno>
             <idno type="gnd">https://d-nb.info/gnd/4073760-3</idno>
           </place>
@@ -14334,510 +14406,693 @@
           <place type="city" xml:id="salerno">
             <country corresp="#italy"/>
             <name>Salerno</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1083</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003015</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4051362-2</idno>
           </place>
           <place type="city" xml:id="novedrate">
             <country corresp="#italy"/>
             <name>Novedrate</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q47638</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/8722893</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4339219-2</idno>
           </place>
           <place type="city" xml:id="perugia">
             <country corresp="#italy"/>
             <name>Perugia</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3437</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7000526</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4045314-5</idno>
           </place>
           <place type="city" xml:id="bergamo">
             <country corresp="#italy"/>
             <name>Bergamo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q628</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005025</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4005611-9</idno>
           </place>
           <place type="city" xml:id="cosenza">
             <country corresp="#italy"/>
             <name>Cosenza</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13619</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004274</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085343-3</idno>
           </place>
           <place type="city" xml:id="rende">
             <country corresp="#italy"/>
             <name>Rende</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q53946</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1046260</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4228152-0</idno>
           </place>
           <place type="city" xml:id="macerata">
             <country corresp="#italy"/>
             <name>Macerata</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13135</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004018</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4114892-7</idno>
           </place>
           <place type="city" xml:id="fiesole">
             <country corresp="#italy"/>
             <name>Fiesole</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q82670</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006141</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4086480-7</idno>
           </place>
           <place type="city" xml:id="msida">
             <country corresp="#italy"/>
             <name>Msida</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q585187</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/4007594</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4402269-4</idno>
           </place>
           <place type="city" xml:id="viterbo">
             <country corresp="#italy"/>
             <name>Viterbo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13395</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7000875</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4119454-8</idno>
           </place>
           <place type="city" xml:id="pavia">
             <country corresp="#italy"/>
             <name>Pavia</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6259</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006026</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044970-1</idno>
           </place>
           <place type="city" xml:id="lucca">
             <country corresp="#italy"/>
             <name>Lucca</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13373</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006076</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4074354-8</idno>
           </place>
           <place type="city" xml:id="trento">
             <country corresp="#italy"/>
             <name>Trento</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3376</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005128</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4078405-8</idno>
           </place>
           <place type="city" xml:id="roma">
             <country corresp="#italy"/>
             <name>Rome</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q220</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7000874</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4050471-2</idno>
           </place>
           <place type="city" xml:id="ferrara">
             <country corresp="#italy"/>
             <name>Ferrara</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13362</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004264</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4092153-0</idno>
           </place>
           <place type="city" xml:id="alessandria">
             <country corresp="#italy"/>
             <name>Alessandria</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6088</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005125</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4207729-1</idno>
           </place>
           <place type="city" xml:id="vercelli">
             <country corresp="#italy"/>
             <name>Vercelli</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q5990</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005662</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4119399-4</idno>
           </place>
           <place type="city" xml:id="novara">
             <country corresp="#italy"/>
             <name>Novara</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6046</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005652</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4117934-1</idno>
           </place>
           <place type="city" xml:id="bologna">
             <country corresp="#italy"/>
             <name>Bologna</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1891</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004847</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4007616-7</idno>
           </place>
           <place type="city" xml:id="torino">
             <country corresp="#italy"/>
             <name>Turin</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q495</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005688</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4061245-4</idno>
           </place>
           <place type="city" xml:id="siena">
             <country corresp="#italy"/>
             <name>Siena</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2751</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011179</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4054903-3</idno>
           </place>
           <place type="city" xml:id="padova">
             <country corresp="#italy"/>
             <name>Padova</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q617</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003085</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044295-0</idno>
           </place>
           <place type="city" xml:id="pisa">
             <country corresp="#italy"/>
             <name>Pisa</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13375</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006082</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4046151-8</idno>
           </place>
           <place type="city" xml:id="palermo">
             <country corresp="#italy"/>
             <name>Palermo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2656</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003928</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044402-8</idno>
           </place>
           <place type="city" xml:id="venezia">
             <country corresp="#italy"/>
             <name>Venice</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q641</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7018159</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4062501-1</idno>
           </place>
           <place type="city" xml:id="catania">
             <country corresp="#italy"/>
             <name>Catania</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1903</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003947</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085181-3</idno>
           </place>
           <place type="city" xml:id="parma">
             <country corresp="#italy"/>
             <name>Parma</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2683</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004942</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4115856-8</idno>
           </place>
           <place type="city" xml:id="milan">
             <country corresp="#italy"/>
             <name>Milan</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q490</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005903</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4037100-1</idno>
           </place>
           <place type="city" xml:id="verona">
             <country corresp="#italy"/>
             <name>Verona</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2028</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003262</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4063110-2</idno>
           </place>
           <!-- ######## Irish Cities #### -->
           <place type="city" xml:id="maynooth">
             <country corresp="#ireland"/>
             <name>Maynooth</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q750265</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1042924</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4038135-3</idno>
           </place>
           <place type="city" xml:id="dublin">
             <country corresp="#ireland"/>
             <name>Dublin</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1761</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001306</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4013170-1</idno>
           </place>
           <place type="city" xml:id="cork">
             <country corresp="#ireland"/>
             <name>Cork</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q36647</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007168</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4090557-3</idno>
           </place>
           <!-- ######## UK cities ######## -->
           <place type="city" xml:id="leeds">
             <country corresp="#uk"/>
             <name>Leeds</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q39121</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010442</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4111234-9</idno>
           </place>
           <place type="city" xml:id="nottingham">
             <country corresp="#uk"/>
             <name>Nottingham</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q41262</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012006</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4117929-8</idno>
           </place>
           <place type="city" xml:id="edinburgh">
             <country corresp="#uk"/>
             <name>Edinburgh</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23436</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009546</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4013557-3</idno>
           </place>
           <place type="city" xml:id="glasgow">
             <country corresp="#uk"/>
             <name>Glasgow</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4093</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017283</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021159-9</idno>
           </place>
           <place type="city" xml:id="loughborough">
             <country corresp="#uk"/>
             <name>Loughborough</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q537323</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010949</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4357776-3</idno>
           </place>
           <place type="city" xml:id="birmingham">
             <country corresp="#uk"/>
             <name>Birmingham</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2256</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7019028</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4006934-5</idno>
           </place>
           <place type="city" xml:id="exeter">
             <country corresp="#uk"/>
             <name>Exeter</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134672</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011953</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085644-6</idno>
           </place>
           <place type="city" xml:id="sheffield">
             <country corresp="#uk"/>
             <name>Sheffield</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q42448</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010692</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4118617-5</idno>
           </place>
           <place type="city" xml:id="swansea">
             <country corresp="#uk"/>
             <name>Swansea</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23051</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008407</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4201241-7</idno>
           </place>
           <place type="city" xml:id="york">
             <country corresp="#uk"/>
             <name>York</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q42462</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011995</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4067205-0</idno>
           </place>
           <place type="city" xml:id="london">
             <country corresp="#uk"/>
             <name>London</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q84</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011781</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4074335-4</idno>
           </place>
           <place type="city" xml:id="milton-keynes">
             <country corresp="#uk"/>
             <name>Milton Keynes</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q204234</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7026232</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4114603-7</idno>
           </place>
           <place type="city" xml:id="cambridge-uk">
             <country corresp="#uk"/>
             <name>Cambridge</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q350</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010874</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4009351-7</idno>
           </place>
           <place type="city" xml:id="oxford">
             <country corresp="#uk"/>
             <name>Oxford</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q34217</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011931</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044234-2</idno>
           </place>
           <place type="city" xml:id="lancaster">
             <country corresp="#uk"/>
             <name>Lancaster</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q168052</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010393</idno>
+            <idno type="gnd">https://d-nb.info/gnd/1028419-9</idno>
           </place>
           <place type="city" xml:id="coventry">
             <country corresp="#uk"/>
             <name>Coventry</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6225</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011012</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4010659-7</idno>
           </place>
           <place type="city" xml:id="brighton-and-hove">
             <country corresp="#uk"/>
             <name>Brighton and Hove</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1022488</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7026513</idno>
+            <!-- No GND ID found -->
           </place>
           <place type="city" xml:id="plymouth">
             <country corresp="#uk"/>
             <name>Plymouth</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q43382</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011301</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4255050-6</idno>
           </place>
           <!-- ######## Hungarian cities ######## -->
           <place type="city" xml:id="budapest">
             <country corresp="#hungary"/>
             <name>Budapest</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006280</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4008684-7</idno>
           </place>
           <!-- ######## Spanish cities ######## -->
           <place type="city" xml:id="elche">
             <country corresp="#spain"/>
             <name>Elche</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10509</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007663</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4197923-0</idno>
           </place>
           <place type="city" xml:id="santiago-de-compostela">
             <country corresp="#spain"/>
             <name>Santiago de Compostela</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q14314</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008643</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4051658-1</idno>
           </place>
           <place type="city" xml:id="vitoria-gasteiz">
             <country corresp="#spain"/>
             <name>Vitoria-Gasteiz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q14318</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008811</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4127131-2</idno>
           </place>
           <place type="city" xml:id="ciudad-real">
             <country corresp="#spain"/>
             <name>Ciudad Real</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q15093</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1061958</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085281-7</idno>
           </place>
           <place type="city" xml:id="girona">
             <country corresp="#spain"/>
             <name>Girona</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q7038</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007697</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4071756-2</idno>
           </place>
           <place type="city" xml:id="granada">
             <country corresp="#spain"/>
             <name>Granada</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8810</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007703</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021815-6</idno>
           </place>
           <place type="city" xml:id="valencia">
             <country corresp="#spain"/>
             <name>Valencia</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8818</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008769</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4062284-8</idno>
           </place>
           <place type="city" xml:id="barcelona">
             <country corresp="#spain"/>
             <name>Barcelona</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1492</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007426</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4004503-1</idno>
           </place>
           <place type="city" xml:id="lejona">
             <country corresp="#spain"/>
             <name>Leioa</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q530302</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7304621</idno>
+            <idno type="gnd">https://d-nb.info/gnd/1215226-2</idno>
           </place>
           <place type="city" xml:id="madrid">
             <country corresp="#spain"/>
             <name>Madrid</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2807</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010413</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4036862-2</idno>
           </place>
           <place type="city" xml:id="valladolid">
             <country corresp="#spain"/>
             <name>Valladolid</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8356</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008771</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4119355-6</idno>
           </place>
           <place type="city" xml:id="sabadell">
             <country corresp="#spain"/>
             <name>Sabadell</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q12258</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1062424</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4391705-7</idno>
           </place>
           <place type="city" xml:id="malaga">
             <country corresp="#spain"/>
             <name>Málaga</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8851</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007942</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4100040-7</idno>
           </place>
           <!-- ######## French cities ######## -->
           <place type="city" xml:id="aubervilliers">
             <country corresp="#france"/>
             <name>Aubervilliers</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q205632</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7008670</idno>
             <idno type="gnd">https://d-nb.info/gnd/4232057-4</idno>
           </place>
           <place type="city" xml:id="nantes">
             <country corresp="#france"/>
             <name>Nantes</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q12191</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008482</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4041204-0</idno>
           </place>
           <place type="city" xml:id="la-rochelle">
             <country corresp="#france"/>
             <name>La Rochelle</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q82185</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7638074</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4111169-2</idno>
           </place>
           <place type="city" xml:id="champs-sur-marne">
             <country corresp="#france"/>
             <name>Champs-sur-Marne</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q242536</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017210</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4673615-3</idno>
           </place>
           <place type="city" xml:id="bastia">
             <country corresp="#france"/>
             <name>Bastia</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q134698</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008352</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4080283-8</idno>
           </place>
           <place type="city" xml:id="colmar">
             <country corresp="#france"/>
             <name>Colmar</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130994</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008119</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4010401-1</idno>
           </place>
           <place type="city" xml:id="mulhouse">
             <country corresp="#france"/>
             <name>Mulhouse</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q79815</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7619745</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4040474-2</idno>
           </place>
           <place type="city" xml:id="reims">
             <country corresp="#france"/>
             <name>Reims</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q41876</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011060</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4103640-2</idno>
           </place>
           <place type="city" xml:id="corte">
             <country corresp="#france"/>
             <name>Corte</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q213555</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1032773</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4301051-9</idno>
           </place>
           <place type="city" xml:id="strasbourg">
             <country corresp="#france"/>
             <name>Strasbourg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6602</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012346</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4057878-1</idno>
           </place>
           <place type="city" xml:id="rouen">
             <country corresp="#france"/>
             <name>Rouen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30974</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008929</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4050751-8</idno>
           </place>
           <place type="city" xml:id="le-chesnay">
             <country corresp="#france"/>
             <name>Le Chesnay</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q237281</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1033852</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4502266-5</idno>
           </place>
           <place type="city" xml:id="paris">
             <country corresp="#france"/>
             <name>Paris</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q90</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008038</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4044660-8</idno>
           </place>
           <place type="city" xml:id="grenoble">
             <country corresp="#france"/>
             <name>Grenoble</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1289</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008759</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021985-9</idno>
           </place>
           <place type="city" xml:id="le-mans">
             <country corresp="#france"/>
             <name>Le Mans</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1476</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008494</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4035301-1</idno>
           </place>
           <place type="city" xml:id="lille">
             <country corresp="#france"/>
             <name>Lille</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q648</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008461</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4114418-1</idno>
           </place>
           <place type="city" xml:id="toulouse">
             <country corresp="#france"/>
             <name>Toulouse</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7008441</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4060518-8</idno>
           </place>
           <!-- ######## Danish cities ######## -->
           <place type="city" xml:id="copenhagen">
             <country corresp="#denmark"/>
             <name>Copenhagen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1748</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003474</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4032399-7</idno>
           </place>
           <place type="city" xml:id="aarhus">
             <country corresp="#denmark"/>
             <name>Aarhus</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q25319</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003442</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4068838-0</idno>
           </place>
           <!-- ######## Swiss cities ######## -->
           <place type="city" xml:id="chur">
             <country corresp="#switzerland"/>
             <name>Chur</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q69007</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007276</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4010189-7</idno>
           </place>
           <place type="city" xml:id="winterthur">
             <country corresp="#switzerland"/>
             <name>Winterthur</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9125</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007301</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4066337-1</idno>
           </place>
           <place type="city" xml:id="st-gallen">
             <country corresp="#switzerland"/>
             <name>St. Gallen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q25607</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007460</idno>
             <idno type="gnd">https://d-nb.info/gnd/4051594-1</idno>
           </place>
           <place type="city" xml:id="windisch">
             <country corresp="#switzerland"/>
             <name>Windisch</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q69208</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017421</idno>
             <idno type="gnd">https://d-nb.info/gnd/4066271-8</idno>
           </place>
           <place type="city" xml:id="muttenz">
             <country corresp="#switzerland"/>
             <name>Muttenz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q66191</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007424</idno>
             <idno type="gnd">https://d-nb.info/gnd/4256381-1</idno>
           </place>
           <place type="city" xml:id="muenchenstein">
             <country corresp="#switzerland"/>
             <name>Münchenstein</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q69030</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1064213</idno>
             <idno type="gnd">https://d-nb.info/gnd/4375605-0</idno>
           </place>
           <place type="city" xml:id="solothurn">
             <country corresp="#switzerland"/>
             <name>Solothurn</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q68965</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007295</idno>
             <idno type="gnd">https://d-nb.info/gnd/4055458-2</idno>
           </place>
           <place type="city" xml:id="olten">
             <country corresp="#switzerland"/>
             <name>Olten</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q68129</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007436</idno>
             <idno type="gnd">https://d-nb.info/gnd/4043506-4</idno>
           </place>
           <place type="city" xml:id="lausanne">
             <country corresp="#switzerland"/>
             <name>Lausanne</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q807</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007299</idno>
             <idno type="gnd">https://d-nb.info/gnd/4034750-3</idno>
           </place>
           <place type="city" xml:id="gontenschwil">
             <country corresp="#switzerland"/>
             <name>Gontenschwil</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q65333</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7023950</idno>
             <idno type="gnd">https://d-nb.info/gnd/4469771-5</idno>
           </place>
           <place type="city" xml:id="basel">
             <country corresp="#switzerland"/>
             <name>Basel</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q78</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007269</idno>
             <idno type="gnd">https://d-nb.info/gnd/4004617-5</idno>
           </place>
           <place type="city" xml:id="geneve">
             <country corresp="#switzerland"/>
             <name>Geneva</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q71</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007279</idno>
             <idno type="gnd">https://d-nb.info/gnd/4020137-5</idno>
           </place>
           <place type="city" xml:id="neuchatel">
             <country corresp="#switzerland"/>
             <name>Neuchâtel</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q69345</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007292</idno>
             <idno type="gnd">https://d-nb.info/gnd/4075303-7</idno>
           </place>
           <place type="city" xml:id="zuerich">
             <country corresp="#switzerland"/>
             <name>Zurich</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q72</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007302</idno>
             <idno type="gnd">https://d-nb.info/gnd/4068038-1</idno>
           </place>
           <place type="city" xml:id="bern">
             <country corresp="#switzerland"/>
             <name>Bern</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q70</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007557</idno>
             <idno type="gnd">https://d-nb.info/gnd/4005762-8</idno>
           </place>
@@ -14845,24 +15100,28 @@
           <place type="city" xml:id="krems">
             <country corresp="#germany"/>
             <name>Krems an der Donau</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q131266</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003173</idno>
             <idno type="gnd">https://d-nb.info/gnd/4033043-6</idno>
           </place>
           <place type="city" xml:id="salzburg">
             <country corresp="#austria"/>
             <name>Salzburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q34713</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003256</idno>
             <idno type="gnd">https://d-nb.info/gnd/4076982-3</idno>
           </place>
           <place type="city" xml:id="wien">
             <country corresp="#austria"/>
             <name>Vienna</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1741</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003321</idno>
             <idno type="gnd">https://d-nb.info/gnd/4066009-6</idno>
           </place>
           <place type="city" xml:id="graz">
             <country corresp="#austria"/>
             <name>Graz</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13298</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7003097</idno>
             <idno type="gnd">https://d-nb.info/gnd/4021912-4</idno>
           </place>
@@ -14870,12 +15129,14 @@
           <place type="city" xml:id="lisboa">
             <country corresp="#portugal"/>
             <name>Lisbon</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q597</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010978</idno>
             <idno type="gnd">https://d-nb.info/gnd/4035919-0</idno>
           </place>
           <place type="city" xml:id="porto">
             <country corresp="#portugal"/>
             <name>Porto</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q36433</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010979</idno>
             <idno type="gnd">https://d-nb.info/gnd/4046838-0</idno>
           </place>
@@ -14883,18 +15144,21 @@
           <place type="city" xml:id="pilsen">
             <country corresp="#czech-republic"/>
             <name>Pilsen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q43453</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011723</idno>
             <idno type="gnd">https://d-nb.info/gnd/4076145-9</idno>
           </place>
           <place type="city" xml:id="prague">
             <country corresp="#czech-republic"/>
             <name>Prague</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1085</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006464</idno>
             <idno type="gnd">https://d-nb.info/gnd/4076310-9</idno>
           </place>
           <place type="city" xml:id="hradec-kralove">
             <country corresp="#czech-republic"/>
             <name>Hradec Králové</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q180139</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012051</idno>
             <idno type="gnd">https://d-nb.info/gnd/1106410947</idno>
           </place>
@@ -14902,545 +15166,745 @@
           <place type="city" xml:id="brussels">
             <country corresp="#brussels"/>
             <name>Brussels</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q239</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007868</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4008460-7</idno>
           </place>
           <place type="city" xml:id="berchem">
             <country corresp="#belgium"/>
             <name>Berchem</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q818804</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1136644</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4707383-4</idno>
           </place>
           <place type="city" xml:id="antwerpen">
             <country corresp="#belgium"/>
             <name>Antwerp</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q12892</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007856</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4002364-3</idno>
           </place>
           <place type="city" xml:id="gent">
             <country corresp="#belgium"/>
             <name>Gent</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1296</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1047785</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4020176-4</idno>
           </place>
           <!-- ######## Dutch cities ######## -->
           <place type="city" xml:id="rotterdam">
             <country corresp="#netherlands"/>
             <name>Rotterdam</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q34370</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006792</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4050739-7</idno>
           </place>
           <place type="city" xml:id="nijmegen">
             <country corresp="#netherlands"/>
             <name>Nijmegen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q47887</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7031832</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4075410-8</idno>
           </place>
           <place type="city" xml:id="tilburg">
             <country corresp="#netherlands"/>
             <name>Tilburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q26430</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006831</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4106485-9</idno>
           </place>
           <place type="city" xml:id="leiden">
             <country corresp="#netherlands"/>
             <name>Leiden</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q43631</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006809</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4074118-7</idno>
           </place>
           <place type="city" xml:id="groningen">
             <country corresp="#netherlands"/>
             <name>Groningen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q749</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006984</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4094052-4</idno>
           </place>
           <place type="city" xml:id="rijswijk">
             <country corresp="#netherlands"/>
             <name>Rijswijk</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q506745</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1048066</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4117019-2</idno>
           </place>
           <place type="city" xml:id="utrecht">
             <country corresp="#netherlands"/>
             <name>Utrecht</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q803</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006926</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4062222-8</idno>
           </place>
           <place type="city" xml:id="amsterdam">
             <country corresp="#netherlands"/>
             <name>Amsterdam</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q727</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006952</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4001783-7</idno>
           </place>
           <place type="city" xml:id="maastrich">
             <country corresp="#netherlands"/>
-            <name>Maastrich</name>
+            <name>Maastricht</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1309</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006862</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4036784-8</idno>
           </place>
           <!-- ######## Croatian cities ######## -->
           <place type="city" xml:id="zadar">
             <country corresp="#croatia"/>
             <name>Zadar</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3370</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7015549</idno>
+            <idno type="gnd">https://d-nb.info/gnd/1222247-1</idno>
           </place>
           <!-- ######## Luxembourg cities ######## -->
           <place type="city" xml:id="luxembourg-city">
             <country corresp="#luxembourg"/>
             <name>Luxembourg City</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1842</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006254</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4036729-0</idno>
           </place>
           <!-- ######## Norwegian cities ######## -->
           <place type="city" xml:id="oslo">
             <country corresp="#norway"/>
             <name>Oslo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q585</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009573</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4043968-9</idno>
           </place>
           <place type="city" xml:id="trondheim">
             <country corresp="#norway"/>
             <name>Trondheim</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q25804</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009596</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4070588-2</idno>
           </place>
           <place type="city" xml:id="bergen">
             <country corresp="#norway"/>
             <name>Bergen</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q26793</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007059</idno>
+            <idno type="gnd">https://d-nb.info/gnd/1027742-0</idno>
           </place>
           <!-- ######## Swedish cities ######## -->
           <place type="city" xml:id="uppsala">
             <country corresp="#sweden"/>
             <name>Uppsala</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q25286</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009867</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4078659-6</idno>
           </place>
           <place type="city" xml:id="stockholm">
             <country corresp="#sweden"/>
             <name>Stockholm</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1754</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009861</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4057648-6</idno>
           </place>
           <place type="city" xml:id="lund">
             <country corresp="#sweden"/>
             <name>Lund</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2167</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009837</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4036646-7</idno>
           </place>
           <place type="city" xml:id="gothenburg">
             <country corresp="#sweden"/>
             <name>Gothenburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q25287</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009954</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4021453-9</idno>
           </place>
           <place type="city" xml:id="malmö">
             <country corresp="#sweden"/>
             <name>Malmö</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2211</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009839</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4114951-8</idno>
           </place>
           <place type="city" xml:id="kalmar">
             <country corresp="#sweden"/>
             <name>Kalmar</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q26345</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009826</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4109969-2</idno>
           </place>
           <place type="city" xml:id="vaxjo">
             <country corresp="#sweden"/>
             <name>Växjö</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q26152</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7009874</idno>
             <idno type="gnd">https://d-nb.info/gnd/4218546-4</idno>
           </place>
           <place type="city" xml:id="boras">
             <country corresp="#sweden"/>
             <name>Borås</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q26040</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7009772</idno>
             <idno type="gnd">https://d-nb.info/gnd/4088066-7</idno>
           </place>
           <!-- ######## Estonian cities ######## -->
           <place type="city" xml:id="tallinn">
             <country corresp="#estonia"/>
             <name>Tallinn</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1770</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006629</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4076684-6</idno>
           </place>
           <!-- ######## Slovenian cities ######## -->
           <place type="city" xml:id="ljubljana">
             <country corresp="#slovenia"/>
             <name>Ljubljana</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q437</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012986</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4073953-3</idno>
           </place>
           <place type="city" xml:id="nova-gorica">
             <country corresp="#slovenia"/>
             <name>Nova Gorica</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1018</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012979</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4306185-0</idno>
           </place>
           <!-- ######## Bulgarian cities ######## -->
           <place type="city" xml:id="sofia">
             <country corresp="#bulgaria"/>
             <name>Sofia</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q472</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009977</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4077502-1</idno>
           </place>
           <!-- ######## Finnish cities ######## -->
           <place type="city" xml:id="turku">
             <country corresp="#finland"/>
             <name>Turku</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q38511</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009962</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4061256-9</idno>
           </place>
           <!-- ###### Continent: Asia ###### -->
           <!-- ######## United Arab Emirates cities ######## -->
           <place type="city" xml:id="abu-dhabi">
             <country corresp="#united-arab-emirates"/>
             <name>Abu Dhabi</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1519</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7002913</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4250193-3</idno>
           </place>
           <!-- ######## Turkish cities ######## -->
           <place type="city" xml:id="konya">
-            <country corresp="#russia"/>
+            <country corresp="#turkey"/>
             <name>Konya</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q79857</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7002539</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4110361-0</idno>
           </place>
           <!-- ######## Russian cities ######## -->
           <place type="city" xml:id="moskau">
             <country corresp="#russia"/>
             <name>Moscow</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q649</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7012974</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4074987-3</idno>
           </place>
           <place type="city" xml:id="perm">
             <country corresp="#russia"/>
             <name>Perm</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q915</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7010249</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4216585-4</idno>
           </place>
           <!-- ######## Israeli cities ######## -->
           <place type="city" xml:id="jerusalem">
             <country corresp="#israel"/>
             <name>Jerusalem</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1218</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001371</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4028586-8</idno>
           </place>
           <!-- ######## Sri Lanka cities ######## -->
           <place type="city" xml:id="colombo">
             <country corresp="#sri-lanka"/>
             <name>Colombo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q35381</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7002533</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4010404-7</idno>
           </place>
           <!-- ######## Japanese cities ######## -->
           <place type="city" xml:id="bunkyo">
             <country corresp="#japan"/>
             <name>Bunkyo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q212713</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1004192</idno>
+            <!-- No GND ID found -->
           </place>
           <place type="city" xml:id="tokyo">
             <country corresp="#japan"/>
             <name>Tokyo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1490</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/1001032</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4078337-6</idno>
           </place>
           <!-- ######## South Korean cities ######## -->
           <place type="city" xml:id="daejeon">
             <country corresp="#south-korea"/>
             <name>Daejeon</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q20921</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7002222</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4413933-0</idno>
           </place>
           <!-- ######## Chinese cities ######## -->
           <place type="city" xml:id="guangzhou">
             <country corresp="#china"/>
             <name>Guangzhou</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16572</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/8208558</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4073204-6</idno>
           </place>
           <place type="city" xml:id="hong-kong">
             <country corresp="#china"/>
             <name>Hong Kong</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8646</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004542</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4025822-1</idno>
           </place>
           <!-- ######## City-states #### -->
           <place type="city" xml:id="singapore-city">
             <country corresp="#singapore"/>
             <name>Singapore</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q334</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001488</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4055089-8</idno>
           </place>
           <!-- ###### Continent: Australia ###### -->
           <!-- ######## Australian cities ######## -->
           <place type="city" xml:id="sydney">
             <country corresp="#australia"/>
             <name>Sydney</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3130</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001923</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4058708-3</idno>
           </place>
           <place type="city" xml:id="melbourne">
             <country corresp="#australia"/>
             <name>Melbourne</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3141</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001933</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4038526-7</idno>
           </place>
           <place type="city" xml:id="canberra">
             <country corresp="#australia"/>
             <name>Canberra</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3114</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001867</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085133-3</idno>
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
           <place type="city" xml:id="washington">
             <country corresp="#usa"/>
             <name>Washington, D.C.</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q61</idno>
             <idno type="tgn">https://vocab.getty.edu/page/tgn/7013962</idno>
             <idno type="gnd">https://d-nb.info/gnd/4064682-8</idno>
           </place>
           <place type="city" xml:id="williamsburg">
             <country corresp="#usa"/>
             <name>Williamsburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q492346</idno>
             <idno type="tgn">https://vocab.getty.edu/page/tgn/7022220</idno>
             <idno type="gnd">https://d-nb.info/gnd/4203189-8</idno>
           </place>
           <place type="city" xml:id="denver">
             <country corresp="#usa"/>
             <name>Denver</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16554</idno>
             <idno type="tgn">https://vocab.getty.edu/page/tgn/7013545</idno>
             <idno type="gnd">https://d-nb.info/gnd/4085412-7</idno>
           </place>
           <place type="city" xml:id="berkeley">
             <country corresp="#usa"/>
             <name>Berkeley</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q484678</idno>
             <idno type="tgn">https://vocab.getty.edu/page/tgn/7013386</idno>
             <idno type="gnd">https://d-nb.info/gnd/4005720-3</idno>
           </place>
           <place type="city" xml:id="dallas">
             <country corresp="#usa"/>
             <name>Dallas</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16557</idno>
             <idno type="tgn">https://vocab.getty.edu/page/tgn/7013503</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085382-2</idno>
           </place>
           <place type="city" xml:id="boulder">
             <country corresp="#usa"/>
             <name>Boulder</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q192517</idno>
+            <idno type="tgn">https://vocab.getty.edu/page/tgn/7013446</idno>
             <idno type="gnd">https://d-nb.info/gnd/4126960-3</idno>
           </place>
           <place type="city" xml:id="columbus">
             <country corresp="#usa"/>
             <name>Columbus</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16567</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013645</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085305-6</idno>
           </place>
           <place type="city" xml:id="portland">
             <country corresp="#usa"/>
             <name>Portland</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6106</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014273</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4226095-4</idno>
           </place>
           <place type="city" xml:id="boston">
             <country corresp="#usa"/>
             <name>Boston</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q100</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013445</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4007840-1</idno>
           </place>
           <place type="city" xml:id="new-jersey">
             <country corresp="#usa"/>
             <name>New Jersey</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1408</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007565</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4042004-8</idno>
           </place>
           <place type="city" xml:id="ann-arbor">
             <country corresp="#usa"/>
             <name>Ann Arbor</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q485172</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013304</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4079792-2</idno>
           </place>
           <place type="city" xml:id="bloomington">
             <country corresp="#usa"/>
             <name>Bloomington</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q490385</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013437</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4007198-4</idno>
           </place>
           <place type="city" xml:id="montclair">
             <country corresp="#usa"/>
             <name>Montclair</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q678437</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/Q678437</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4442936-8</idno>
           </place>
           <place type="city" xml:id="madison">
             <country corresp="#usa"/>
             <name>Madison</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q43788</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013966</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4114900-2</idno>
           </place>
           <place type="city" xml:id="armonk">
             <country corresp="#usa"/>
             <name>Armonk</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q688830</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/2067847</idno>
+            <idno type="gnd">https://d-nb.info/gnd/110618-1</idno>
           </place>
           <place type="city" xml:id="espanola">
             <country corresp="#usa"/>
             <name>Española</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1018839</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/2066938</idno>
+            <idno type="gnd">https://d-nb.info/gnd/5193752-9</idno>
           </place>
           <place type="city" xml:id="philadelphia">
             <country corresp="#usa"/>
             <name>Philadelphia</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1345</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014406</idno>
+            <idno type="gnd">https://d-nb.info/gnd/</idno>
           </place>
           <place type="city" xml:id="richmond">
             <country corresp="#usa"/>
             <name>Richmond</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/4103331-0</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013964</idno>
+            <idno type="gnd">https://d-nb.info/gnd/</idno>
           </place>
           <place type="city" xml:id="lewisburg">
             <country corresp="#usa"/>
             <name>Lewisburg</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1185021</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013880</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4571156-2</idno>
           </place>
           <place type="city" xml:id="roseville">
             <country corresp="#usa"/>
             <name>Roseville</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q983979</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/2055369</idno>
+            <idno type="gnd">https://d-nb.info/gnd/1070410004</idno>
           </place>
           <place type="city" xml:id="new-haven">
             <country corresp="#usa"/>
             <name>New Haven</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49145</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014210</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4117854-3</idno>
           </place>
           <place type="city" xml:id="oakton">
             <country corresp="#usa"/>
             <name>Oakton</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1376287</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/2113469</idno>
+            <!-- No GND ID found -->
           </place>
           <place type="city" xml:id="san-francisco">
             <country corresp="#usa"/>
             <name>San Francisco</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q62</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014456</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4051520-5</idno>
           </place>
           <place type="city" xml:id="durham">
             <country corresp="#usa"/>
             <name>Durham</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49229</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013625</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4199417-6</idno>
           </place>
           <place type="city" xml:id="fairfax">
             <country corresp="#usa"/>
             <name>Fairfax</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q501785</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014159</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4205134-4</idno>
           </place>
           <place type="city" xml:id="norman">
             <country corresp="#usa"/>
             <name>Norman</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q40347</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014233</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4281402-9</idno>
           </place>
           <place type="city" xml:id="salt-lake-city">
             <country corresp="#usa"/>
             <name>Salt Lake City</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23337</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013960</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4118295-9</idno>
           </place>
           <place type="city" xml:id="cambridge-us">
             <country corresp="#usa"/>
             <name>Cambridge</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49111</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013527</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4009352-9</idno>
           </place>
           <place type="city" xml:id="medford">
             <country corresp="#usa"/>
             <name>Medford</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q54145</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014023</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4114542-2</idno>
           </place>
           <place type="city" xml:id="new-york-city">
             <country corresp="#usa"/>
             <name>New York City</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q60</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007567</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4042011-5</idno>
           </place>
           <place type="city" xml:id="miami">
             <country corresp="#usa"/>
             <name>Miami</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8652</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014044</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4039108-5</idno>
           </place>
           <place type="city" xml:id="greenville">
             <country corresp="#usa"/>
             <name>Greenville</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q574192</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7014143</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4363237-3</idno>
           </place>
           <place type="city" xml:id="stanford">
             <country corresp="#usa"/>
             <name>Stanford</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q173813</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7031481</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4056932-9</idno>
           </place>
           <place type="city" xml:id="somerville">
             <country corresp="#usa"/>
             <name>Somerville</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49199</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/2050602</idno>
+            <idno type="gnd">https://d-nb.info/gnd/5060628-1</idno>
           </place>
           <place type="city" xml:id="los-angeles">
             <country corresp="#usa"/>
             <name>Los Angeles</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q65</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7023900</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4036361-2</idno>
           </place>
           <place type="city" xml:id="davis">
             <country corresp="#usa"/>
             <name>Davis</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q668546</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013509</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4377783-1</idno>
           </place>
           <place type="city" xml:id="santa-barbara">
             <country corresp="#usa"/>
             <name>Santa Barbara</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q159288</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017752</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4118400-2</idno>
           </place>
           <place type="city" xml:id="buffalo">
             <country corresp="#usa"/>
             <name>Buffalo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q40435</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013463</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4080569-4</idno>
           </place>
           <place type="city" xml:id="amherst">
             <country corresp="#usa"/>
             <name>Amherst</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q470592</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/2067801</idno>
             <idno type="gnd">https://d-nb.info/gnd/4537072-2</idno>
           </place>
           <place type="city" xml:id="raleigh">
             <country corresp="#usa"/>
             <name>Raleigh</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q41087</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013949</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4224750-0</idno>
           </place>
           <place type="city" xml:id="urbana">
             <country corresp="#usa"/>
             <name>Urbana</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q462184</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7014675</idno>
             <idno type="gnd">https://d-nb.info/gnd/4107469-5</idno>
           </place>
           <place type="city" xml:id="champaign">
             <country corresp="#usa"/>
             <name>Champaign</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q577964</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013576</idno>
             <idno type="gnd">https://d-nb.info/gnd/4009730-4</idno>
           </place>
           <place type="city" xml:id="college-park">
             <country corresp="#usa"/>
             <name>College Park</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q668676</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013633</idno>
             <idno type="gnd">https://d-nb.info/gnd/4219690-5</idno>
           </place>
           <!-- ######## Canadian cities ######## -->
           <place type="city" xml:id="toronto">
             <country corresp="#canada"/>
             <name>Toronto</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q172</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013284</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4060459-7</idno>
           </place>
           <place type="city" xml:id="edmonton">
             <country corresp="#canada"/>
             <name>Edmonton</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2096</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013032</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4085533-8</idno>
           </place>
           <place type="city" xml:id="victoria">
             <country corresp="#canada"/>
             <name>Victoria</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2132</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013136</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4195223-6</idno>
           </place>
           <place type="city" xml:id="saskatoon">
             <country corresp="#canada"/>
             <name>Saskatoon</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10566</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013118</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4259002-4</idno>
           </place>
           <place type="city" xml:id="guelph">
             <country corresp="#canada"/>
             <name>Guelph</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q504114</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013045</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4229666-3</idno>
           </place>
           <place type="city" xml:id="waterloo">
             <country corresp="#canada"/>
             <name>Waterloo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q639408</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013137</idno>
             <idno type="gnd">https://d-nb.info/gnd/4140559-6</idno>
           </place>
           <!-- ######## Mexican cities ######## -->
           <place type="city" xml:id="mexico-city">
             <country corresp="#mexico-city"/>
             <name>Mexico City</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1489</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7007227</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4039060-3</idno>
           </place>
           <!-- ###### Continent: South America ###### -->
           <!-- ######## Argentinian cities ######## -->
           <place type="city" xml:id="buenos-aires">
             <country corresp="#argentina"/>
             <name>Buenos Aires</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1486</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006287</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4008756-6</idno>
           </place>
           <place type="city" xml:id="santa-fe">
             <country corresp="#argentina"/>
             <name>Santa Fe</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q44244</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013950</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4051649-0</idno>
           </place>
           <!-- ######## Brazilian cities ######## -->
           <place type="city" xml:id="brasilia">
             <country corresp="#brazil"/>
             <name>Brasília</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2844</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005845</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4080517-7</idno>
           </place>
           <place type="city" xml:id="sao-paolo">
             <country corresp="#brazil"/>
             <name>São Paulo</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q174</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017121</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4051667-2</idno>
           </place>
           <!-- ######## Colombian cities ######## -->
           <place type="city" xml:id="bogota">
             <country corresp="#colombia"/>
             <name>Bogotá</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2841</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005070</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4007557-6</idno>
           </place>
           <place type="city" xml:id="medellin">
             <country corresp="#colombia"/>
             <name>Medellín</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q48278</idno>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7005073</idno>
+            <idno type="gnd">https://d-nb.info/gnd/4115061-2</idno>
           </place>
         </listPlace>
       </settingDesc>
