@@ -13950,7 +13950,7 @@
             <bloc type="continent" corresp="#south-america"/>
             <name>Brazil</name>
           </place>
-<!-- #### Cities #### -->
+          <!-- #### Cities #### -->
           <!-- ###### Continent: Europe ###### -->
           <!-- ######## German cities ######## -->
           <place type="city" xml:id="tuebingen">
@@ -15916,8 +15916,8 @@
         <change who="#uhk #erre" when="2025-09-27">Prepares version 0.6 of the dataset for a
           contribution to the upcoming DHd 2026 conference in Wien. This version contains 44 lecture
           series.</change>
-        <change who="#uhk #erre" when="2025-11-15">Prepare version 0.7 of the dataset. This version
-          contains XX lecture series.</change>
+        <change who="#uhk #erre #cg" when="2026-02-27">Prepare version 0.7 of the dataset. This
+          version contains XX lecture series.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
