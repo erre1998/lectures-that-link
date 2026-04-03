@@ -3049,6 +3049,7 @@
               <surname>Block</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q26255697</idno>
           </person>
           <person xml:id="vierthaler_paul">
@@ -3058,6 +3059,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2135-9499</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="organisciak_peter">
             <name>
@@ -3066,6 +3068,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-9058-2280</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="lehmkuhl_ursula">
             <name>
@@ -3091,6 +3094,7 @@
               <surname>Maisak</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q6516783</idno>
           </person>
           <person xml:id="baresch_ariadne">
@@ -3135,6 +3139,8 @@
               <surname>Bessonova</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kim_byungjun">
             <name>
@@ -3143,6 +3149,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-9925-9343</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="traurig_anna">
             <name>
@@ -3150,6 +3157,8 @@
               <surname>Traurig</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="wolter_vivien">
             <name>
@@ -3159,6 +3168,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-9982-9382</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gittel_benjamin">
             <name>
@@ -3175,6 +3185,8 @@
               <surname>Wagner</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="spielberg_marina">
             <name>
@@ -3201,6 +3213,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0009-8435-1185</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="cetinkaya_ali">
             <name>
@@ -3209,6 +3222,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4535-3953</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="austin_robert">
             <name>
@@ -3217,6 +3231,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0009-8355-9881</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bremm_matthias">
             <name>
@@ -3224,6 +3239,8 @@
               <surname>Bremm</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="browne_cameron">
             <name>
@@ -3241,6 +3258,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4900-2923</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="papadopoulou_maria">
             <name>
@@ -3249,6 +3267,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6451-8712</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kocula_martin">
             <name>
@@ -3256,6 +3275,8 @@
               <surname>Kocula</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="montfort_nick">
             <name>
@@ -3302,6 +3323,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0008-0591-5783</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kalb_florian">
             <name>
@@ -3309,6 +3331,8 @@
               <surname>Kalb</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="geissel_pia">
             <name>
@@ -3316,6 +3340,7 @@
               <surname>Geißel</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126692132</idno>
           </person>
           <person xml:id="moeller_katrin">
@@ -3370,6 +3395,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-9960-3327</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="khvedelidze_irakli">
             <name>
@@ -3377,6 +3403,8 @@
               <surname>Khvedelidze</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="niedermeier_michael">
             <name>
@@ -3384,6 +3412,7 @@
               <surname>Niedermeier</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q23059930</idno>
           </person>
           <person xml:id="mueller_michael">
@@ -3410,6 +3439,8 @@
               <surname>Geib</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="klee_anne">
             <name>
@@ -3417,6 +3448,7 @@
               <surname>Klee</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126597955</idno>
           </person>
           <person xml:id="roettgermann_julia">
@@ -3434,6 +3466,8 @@
               <surname>Dötsch</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="simons_olaf">
             <name>
@@ -3450,6 +3484,7 @@
               <surname>Burckhardt</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113647991</idno>
           </person>
           <person xml:id="geraerts_jaap">
@@ -3485,6 +3520,8 @@
               <surname>Schlüter</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="buedenbender_stefan">
             <name>
@@ -3530,6 +3567,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1346-8449</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="richter_daniel">
             <name>
@@ -3538,6 +3576,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0009-8118-9493</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="lemaire_marina">
             <name>
@@ -3590,6 +3629,7 @@
               <surname>Herr</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q95651443</idno>
           </person>
           <person xml:id="friesenhausen_moritz">
@@ -3599,6 +3639,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0006-1821-5597</idno>
+            <!-- No Wikidata ID found -->
           </person>
 
 
@@ -3637,6 +3678,7 @@
               <surname>Mercer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q135955893</idno>
           </person>
           <person xml:id="kamencek_teresa">
@@ -3646,6 +3688,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0003-8096-8133</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="klinger_roman">
             <name>
@@ -3662,6 +3705,7 @@
               <surname>Boizou</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q135955779</idno>
           </person>
           <person xml:id="berger_daniel">
@@ -3670,6 +3714,7 @@
               <surname>Berger</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q102428224</idno>
           </person>
           <person xml:id="wagner_andreas">
@@ -3688,6 +3733,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0003-2635-3904</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="moss_fabian">
             <name>
@@ -3705,6 +3751,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4525-6977</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bajohr_hannes">
             <name>
@@ -3740,6 +3787,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0002-2743-2455</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pagenstecher_cord">
             <name>
@@ -3802,6 +3850,7 @@
               <surname>Al Badr</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q64589500</idno>
           </person>
           <person xml:id="rochel_johan">
@@ -3874,6 +3923,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-6353-7708</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="roig-sanz_diana">
             <name>
@@ -3900,6 +3950,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2820-9151</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="garcia_david">
             <name>
@@ -3916,6 +3967,7 @@
               <surname>Weiß</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q135581178</idno>
           </person>
           <person xml:id="kuntz_pascale">
@@ -3933,6 +3985,8 @@
               <surname>Smith</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kaplan_frederic">
             <name>
@@ -3977,6 +4031,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-9949-0681</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="burie_jean-christophe">
             <name>
@@ -3985,6 +4040,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7323-2855</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="brandes_ulrik">
             <name>
@@ -3993,6 +4049,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1520-0430</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kapossy_bela">
             <name>
@@ -4001,6 +4058,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0009-2265-587X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="snook_kelly">
             <name>
@@ -4009,6 +4067,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0143-5949</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="auer_anita">
             <name>
@@ -4017,6 +4076,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0007-6302-5810</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="trottier_daniel">
             <name>
@@ -4025,6 +4085,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8476-673X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="martin_henry">
             <name>
@@ -4032,6 +4093,8 @@
               <surname>Martin</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="martin_nathan">
             <name>
@@ -4039,6 +4102,7 @@
               <surname>Martin</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q135554492</idno>
           </person>
           <person xml:id="hengchen_simon">
@@ -4201,6 +4265,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0946-412X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ceron_tanise">
             <name>
@@ -4209,6 +4274,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0002-4845-2789</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="papakyriakopoulos_orestis">
             <name>
@@ -4262,6 +4328,7 @@
               <surname>Braun</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113450832</idno>
           </person>
           <person xml:id="weber_ingmar">
@@ -4307,6 +4374,7 @@
             </name>
             <gender>non-binary</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7263-8578</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="aubry_mathieu">
             <name>
@@ -4316,6 +4384,7 @@
             <gender>male</gender>
             <gender>non-binary</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3804-0193</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="tang_kevin">
             <name>
@@ -4332,6 +4401,7 @@
               <surname>Steinicke</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q57942123</idno>
           </person>
           <person xml:id="roth_kerstin">
@@ -4341,6 +4411,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8528-4193</idno>
+            <!-- No ORCID found -->
           </person>
           <person xml:id="popple_simon">
             <name>
@@ -4394,6 +4465,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3912-4524</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="weitin_thomas">
             <name>
@@ -4419,6 +4491,7 @@
               <surname>Fischer</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q67611457</idno>
           </person>
           <person xml:id="storrer_angelika">
@@ -4455,6 +4528,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0004-3672-4251</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schreibman_susan">
             <name>
@@ -4489,6 +4563,7 @@
               <surname>Hespers</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113822133</idno>
           </person>
           <person xml:id="piquette_kathryn">
@@ -4515,6 +4590,7 @@
               <surname>Kwastek</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q107300472</idno>
           </person>
           <person xml:id="scharnhorst_andrea">
@@ -4533,6 +4609,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0003-2395-5002</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="duval_erik">
             <name>
@@ -4540,6 +4617,7 @@
               <surname>Duval</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q23057930</idno>
           </person>
           <person xml:id="kitchin_rob">
@@ -4585,6 +4663,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0970-973X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="hajic-jr_jan">
             <name>
@@ -4593,6 +4672,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-9207-567X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="vlhova-woerner_hana">
             <name>
@@ -4619,6 +4699,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2143-4679</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="siegert_christine">
             <name>
@@ -4645,6 +4726,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-4635-7684</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="mueller_meinard">
             <name>
@@ -4689,6 +4771,7 @@
               <surname>Hensel</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q95339608</idno>
           </person>
           <person xml:id="pittroff_sarah">
@@ -4742,6 +4825,7 @@
               <surname>Hillgärtner</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133517824</idno>
           </person>
           <person xml:id="remmes_undine">
@@ -4786,6 +4870,7 @@
               <surname>Voigt</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q95230833</idno>
           </person>
           <person xml:id="hartelt_alexander">
@@ -4803,6 +4888,7 @@
               <surname>Haug</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q62728982</idno>
           </person>
           <person xml:id="hust_christoph">
@@ -4866,6 +4952,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-9722-0653</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="imeri_aylin">
             <name>
@@ -4873,6 +4960,8 @@
               <surname>Imeri</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="sauzet_odile">
             <name>
@@ -4899,6 +4988,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0004-1391-3420</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="moitinho-de-almeida_vera">
             <name>
@@ -4933,6 +5023,8 @@
               <surname>Brentjes</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pham_kim">
             <name>
@@ -4941,6 +5033,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-9115-4739</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="willaime_pierre">
             <name>
@@ -4948,6 +5041,7 @@
               <surname>Willaime</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q94106728</idno>
           </person>
           <person xml:id="akazawa_mari">
@@ -4993,6 +5087,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2881-0972</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="zedlacher_stefan">
             <name>
@@ -5001,6 +5096,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0063-3345</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="fleischer_dirk">
             <name>
@@ -5063,6 +5159,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-6706-4450</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bosi_carlo">
             <name>
@@ -5071,6 +5168,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-8414-4321</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="uhl_andreas">
             <name>
@@ -5151,6 +5249,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0008-8333-3658</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="nicka_isabella">
             <name>
@@ -5177,6 +5276,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0001-1074-1588</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dorsch_isabelle">
             <name>
@@ -5220,6 +5320,7 @@
               <surname>Olliges-Wieczorek</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q95202447</idno>
           </person>
           <person xml:id="fuchs_christiane">
@@ -5229,6 +5330,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-3565-8315</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="brinkhoff_stefan">
             <name>
@@ -5236,6 +5338,8 @@
               <surname>Brinkhoff</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="goebel_jan">
             <name>
@@ -5244,6 +5348,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3243-1935</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="weihs_claus">
             <name>
@@ -5252,6 +5357,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0005-2495-8314</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bauer_dietmar">
             <name>
@@ -5260,6 +5366,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2920-7032</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="henrich_andreas">
             <name>
@@ -5268,6 +5375,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5074-3254</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schaefers_tobias">
             <name>
@@ -5275,6 +5383,8 @@
               <surname>Schäfers</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ballhausen_hendrik">
             <name>
@@ -5292,6 +5402,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0001-8085-3489</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gruber-tokic_elisabeth">
             <name>
@@ -5300,6 +5411,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-3387-3097</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="faerberboeck_peter">
             <name>
@@ -5308,6 +5420,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-8701-8259</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bloemer_johannes">
             <name>
@@ -5316,6 +5429,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-6065-3535</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="luebke_karsten">
             <name>
@@ -5324,6 +5438,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0004-5129-4886</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="rammos_yannis">
             <name>
@@ -5332,6 +5447,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1455-5990</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dillen_wout">
             <name>
@@ -5340,6 +5456,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7862-2403</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bekius_lamyk">
             <name>
@@ -5348,6 +5465,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-4533-2880</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="de-roest_aafje">
             <name>
@@ -5356,6 +5474,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8653-8378</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="di-gangi_mattia">
             <name>
@@ -5364,6 +5483,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4491-0025</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ares-oliveira_sofia">
             <name>
@@ -5371,6 +5491,7 @@
               <surname>Ares Oliveira</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126594126</idno>
           </person>
           <person xml:id="de-gussem_jeroen">
@@ -5380,6 +5501,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1811-4973</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="manjavacas-arevalo_enrique">
             <name>
@@ -5388,6 +5510,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3942-7680</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="romero-gomez_veronica">
             <name>
@@ -5396,6 +5519,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1721-5732</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="collins_kathleen">
             <name>
@@ -5403,6 +5527,7 @@
               <surname>Collins</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q135092726</idno>
           </person>
           <person xml:id="koolen_corina">
@@ -5411,6 +5536,8 @@
               <surname>Koolen</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="parigini_margherita">
             <name>
@@ -5419,6 +5546,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0832-2202</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="fierens_sarah">
             <name>
@@ -5426,6 +5554,8 @@
               <surname>Fierens</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="blake_julie">
             <name>
@@ -5434,6 +5564,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-8062-4029</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="turska_magdalena">
             <name>
@@ -5442,6 +5573,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7060-3531</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bruening_gerrit">
             <name>
@@ -5477,6 +5609,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6779-2944</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ries_thorsten">
             <name>
@@ -5485,6 +5618,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6084-9776</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="wyns_roxanne">
             <name>
@@ -5493,6 +5627,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7146-8239</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="jannidis_fotis">
             <name>
@@ -5510,6 +5645,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1114-6710</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gooch_megan">
             <name>
@@ -5518,6 +5654,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3190-0509</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="stokes_peter">
             <name>
@@ -5525,6 +5662,7 @@
               <surname>Stokes</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q99708913</idno>
           </person>
           <person xml:id="bluijs_siebe">
@@ -5533,6 +5671,7 @@
               <surname>Bluijs</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133805170</idno>
           </person>
           <person xml:id="burke_lois">
@@ -5569,6 +5708,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1376-4555</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schuerewegen_franc">
             <name>
@@ -5614,6 +5754,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3142-5752</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kwakkel_erik">
             <name>
@@ -5639,6 +5780,8 @@
               <surname>Vernackt</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="wynants_nele">
             <name>
@@ -5701,6 +5844,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6854-5646</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="lang_sabine">
             <name>
@@ -5709,6 +5853,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2543-0085</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kremer_dominik">
             <name>
@@ -5717,6 +5862,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1244-7363</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dykes_nathan">
             <name>
@@ -5725,6 +5871,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-4650-1455</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="blombach_andreas">
             <name>
@@ -5733,6 +5880,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7369-3774</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="graesborg-aarhus_mathies">
             <name>
@@ -5975,6 +6123,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0002-6138-7846</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="buzzoni_marina">
             <name>
@@ -6054,6 +6203,7 @@
               <surname>Kramer</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134609190</idno>
           </person>
           <person xml:id="da-costa_georges">
@@ -6099,6 +6249,7 @@
               <surname>Theise</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q104445825</idno>
           </person>
           <person xml:id="krueger_frank">
@@ -6197,6 +6348,7 @@
               <surname>Sperberg-McQueen</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q6834532</idno>
           </person>
           <person xml:id="bloomfield_camille">
@@ -6214,6 +6366,7 @@
               <surname>Tadier</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q125457553</idno>
           </person>
           <person xml:id="ysebaert_ronan">
@@ -6223,6 +6376,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7344-5911</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="flipo_fabrice">
             <name>
@@ -6230,6 +6384,7 @@
               <surname>Flipo</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q47093271</idno>
           </person>
           <person xml:id="ritz_olivier">
@@ -6247,6 +6402,7 @@
               <surname>Stœhr</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3524531</idno>
           </person>
           <person xml:id="poulain_pierre">
@@ -6264,6 +6420,7 @@
               <surname>Görres</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134314556</idno>
           </person>
           <person xml:id="klusik-eckert_jacqueline">
@@ -6273,6 +6430,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0969-2520</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="timpf_sabine">
             <name>
@@ -6281,6 +6439,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7964-4110</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pfeifer_michelle">
             <name>
@@ -6289,6 +6448,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0317-2492</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ehrl_franziska">
             <name>
@@ -6377,6 +6537,7 @@
               <surname>Lubian</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113846977</idno>
           </person>
           <person xml:id="rabbiosi_chiara">
@@ -6386,6 +6547,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2470-7962</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="biasiori_lucio">
             <name>
@@ -6403,6 +6565,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0929-5103</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="fortun_mike">
             <name>
@@ -6411,6 +6574,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3177-2121</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dzakula_jelena">
             <name>
@@ -6428,6 +6592,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0268-6849</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="niklas-jedrzej">
             <name>
@@ -6436,6 +6601,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2878-3134</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="moreno-almeida_cristina">
             <name>
@@ -6444,6 +6610,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4996-0590</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="vrikki_photini">
             <name>
@@ -6452,6 +6619,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1007-3292</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="porter_james-david">
             <name>
@@ -6459,6 +6627,7 @@
               <surname>Porter</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134312939</idno>
           </person>
           <person xml:id="konle_leonard">
@@ -6485,6 +6654,7 @@
               <surname>Mathew</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134312892</idno>
           </person>
           <person xml:id="zaborowski_rafal">
@@ -6494,6 +6664,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8499-0002</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="cheong_niki">
             <name>
@@ -6502,6 +6673,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-4402-0738</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gibson_laura">
             <name>
@@ -6510,6 +6682,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-9981-7704</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="oreglia_elisa">
             <name>
@@ -6518,6 +6691,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0368-5768</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="brenner_leon">
             <name>
@@ -6526,6 +6700,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-3028-5011</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="everitt_katherine">
             <name>
@@ -6534,6 +6709,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0003-6198-6619</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dawson_john">
             <name>
@@ -6541,6 +6717,7 @@
               <surname>Dawson</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q102353832</idno>
           </person>
           <person xml:id="holobut_agata">
@@ -6586,6 +6763,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0793-4944</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="jacqueline_anne">
             <name>
@@ -6593,6 +6771,7 @@
               <surname>Jacqueline</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134267825</idno>
           </person>
           <person xml:id="bocciolesi_enrico">
@@ -6619,6 +6798,7 @@
               <surname>Lamé</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134235582</idno>
           </person>
           <person xml:id="caputo_marina">
@@ -6636,6 +6816,7 @@
               <surname>Stella</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q62729151</idno>
           </person>
           <person xml:id="bianchi_alessandra">
@@ -6644,6 +6825,7 @@
               <surname>Bianchi</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q102342734</idno>
           </person>
           <person xml:id="cei_enzo">
@@ -6652,6 +6834,7 @@
               <surname>Cei</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132641437</idno>
           </person>
           <person xml:id="guarasci_roberto">
@@ -6678,6 +6861,7 @@
               <surname>D’Ambra</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134234491</idno>
           </person>
           <person xml:id="feliciati_pierluigi">
@@ -6695,6 +6879,7 @@
               <surname>Pagliarini</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134232075</idno>
           </person>
           <person xml:id="pinna_gabriela-maria">
@@ -6703,6 +6888,7 @@
               <surname>Pinna</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134230057</idno>
           </person>
           <person xml:id="frontini_francesca">
@@ -6729,6 +6915,7 @@
               <surname>Testa</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134218199</idno>
           </person>
           <person xml:id="de-santis_dario">
@@ -6738,6 +6925,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8349-359X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="potenziani_marco">
             <name>
@@ -6772,6 +6960,7 @@
               <surname>Traverso</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134174991</idno>
           </person>
           <person xml:id="viazzi_federica">
@@ -6826,6 +7015,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0540-3872</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="arnold_denis">
             <name>
@@ -6834,6 +7024,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0540-3872</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="fisseni_bernhard">
             <name>
@@ -6958,6 +7149,7 @@
               <surname>Piazza</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134083466</idno>
           </person>
           <person xml:id="gherardi_eugene">
@@ -6976,6 +7168,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0005-5469-4751</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="linser_nora">
             <name>
@@ -6983,6 +7176,7 @@
               <surname>Linser</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134076633</idno>
           </person>
           <person xml:id="ensslin_astrid">
@@ -7036,6 +7230,7 @@
               <surname>Fritz</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131844644</idno>
           </person>
           <person xml:id="afanador_maria-jose">
@@ -7062,6 +7257,7 @@
               <surname>Lehmann</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134075110</idno>
           </person>
           <person xml:id="braun_manuel">
@@ -7079,6 +7275,7 @@
               <surname>Kuhn</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126595810</idno>
           </person>
           <person xml:id="holtz_sabine">
@@ -7087,6 +7284,7 @@
               <surname>Holtz</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1769175</idno>
           </person>
           <person xml:id="haka_andreas">
@@ -7140,6 +7338,7 @@
               <surname>Krüger</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q94914638</idno>
           </person>
           <person xml:id="nickel_beatrice">
@@ -7166,6 +7365,7 @@
               <surname>Trips</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q50821535</idno>
           </person>
           <person xml:id="priewe_marc">
@@ -7183,6 +7383,7 @@
               <surname>Wendel</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q102582056</idno>
           </person>
           <person xml:id="pado_sebastian">
@@ -7200,6 +7401,7 @@
               <surname>Falk</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134073408</idno>
           </person>
           <person xml:id="bogdanovic_arsenije">
@@ -7208,6 +7410,7 @@
               <surname>Bogdanović</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134073217</idno>
           </person>
           <person xml:id="pichler_axel">
@@ -7225,6 +7428,7 @@
               <surname>Scholz</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1356863</idno>
           </person>
           <person xml:id="koch_steffen">
@@ -7261,6 +7465,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-3843-356</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="mersiowsky_mark">
             <name>
@@ -7268,6 +7473,7 @@
               <surname>Gerstorfer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1385943</idno>
           </person>
           <person xml:id="gerstorfer_dominik">
@@ -7277,6 +7483,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2592-0084</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="rainsford_thomas">
             <name>
@@ -7302,6 +7509,7 @@
               <surname>Echelmeyer</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126691821</idno>
           </person>
           <person xml:id="pernes_stefan">
@@ -7310,6 +7518,7 @@
               <surname>Pernes</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126598036</idno>
           </person>
           <person xml:id="knopp_hartmut">
@@ -7318,6 +7527,7 @@
               <surname>Knopp</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133335938</idno>
           </person>
           <person xml:id="rapp_andrea">
@@ -7407,6 +7617,7 @@
               <surname>Tumanov</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113846895</idno>
           </person>
           <person xml:id="calvo-tello_jose">
@@ -7442,6 +7653,7 @@
               <surname>Hadersbeck</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126595807</idno>
           </person>
           <person xml:id="ostberg_jan-peter">
@@ -7496,6 +7708,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3470-7712</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kopp_oliver">
             <name>
@@ -7521,6 +7734,7 @@
               <surname>Palumbo</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133971796</idno>
           </person>
           <person xml:id="caselli_stefano">
@@ -7529,6 +7743,7 @@
               <surname>Caselli</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133971083</idno>
           </person>
           <person xml:id="bonera_matteo">
@@ -7546,6 +7761,7 @@
               <surname>Diamante</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133969149</idno>
           </person>
           <person xml:id="fantini_niccolo">
@@ -7554,6 +7770,7 @@
               <surname>Fantini</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133968991</idno>
           </person>
           <person xml:id="cesaro_laura">
@@ -7562,6 +7779,7 @@
               <surname>Cesaro</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133968773</idno>
           </person>
           <person xml:id="tavosanis_mirko">
@@ -7597,6 +7815,7 @@
               <surname>Mastandrea</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q55949940</idno>
           </person>
           <person xml:id="marzi_claudia">
@@ -7624,6 +7843,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5581-7451</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="banterle_francesco">
             <name>
@@ -7640,6 +7860,7 @@
               <surname>Brunelli</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q104803996</idno>
           </person>
           <person xml:id="brigati_roberto">
@@ -7658,6 +7879,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7028-4238</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="meschini_federico">
             <name>
@@ -7692,6 +7914,8 @@
               <surname>Stead</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="grana-behrens_daniel">
             <name>
@@ -7717,6 +7941,7 @@
               <surname>Wickeroth</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133720323</idno>
           </person>
           <person xml:id="tambs_lena">
@@ -7770,6 +7995,7 @@
               <surname>Keith</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133933068</idno>
           </person>
           <person xml:id="scholger_martina">
@@ -7824,6 +8050,7 @@
               <surname>Greinert</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133932793</idno>
           </person>
           <person xml:id="giovannini_luca">
@@ -7886,6 +8113,8 @@
               <surname>Gargano</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="tambassi_timothy">
             <name>
@@ -7902,6 +8131,8 @@
               <surname>Salerno</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="d-urso_raffaella">
             <name>
@@ -7909,6 +8140,7 @@
               <surname>D'Urso</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132857292</idno>
           </person>
           <person xml:id="bisogno_gianmarco">
@@ -7917,6 +8149,8 @@
               <surname>Bisogno</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="longo_alessandro">
             <name>
@@ -7924,6 +8158,7 @@
               <surname>Longo</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q30611691</idno>
           </person>
           <person xml:id="hageneuer_sebastian">
@@ -7942,6 +8177,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0606-7217</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bruni_sara">
             <name>
@@ -7950,6 +8186,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0597-7104</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gioli_antonella">
             <name>
@@ -7993,6 +8230,8 @@
               <surname>Genovese</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="cignoni_giovanni">
             <name>
@@ -8009,6 +8248,7 @@
               <surname>Garzella</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q13460062</idno>
           </person>
           <person xml:id="salvatori_nicoletta">
@@ -8017,6 +8257,7 @@
               <surname>Salvatori</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q109354625</idno>
           </person>
           <person xml:id="angiolini_andrea">
@@ -8025,6 +8266,7 @@
               <surname>Angiolini</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q108653520</idno>
           </person>
           <person xml:id="bartalesi_valentina">
@@ -8088,6 +8330,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-9708-0606</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="collell_xevi">
             <name>
@@ -8127,8 +8370,8 @@
           </person>
           <person xml:id="lemke_karoline">
             <name>
-              <forename>Sebastian</forename>
-              <surname>Göttel</surname>
+              <forename>Karoline</forename>
+              <surname>Lemke</surname>
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1604-672X</idno>
@@ -8177,6 +8420,8 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2915-5888</idno>
+            <!-- No Wikidata ID found -->
+            
           </person>
           <person xml:id="brenner_simon">
             <name>
@@ -8185,6 +8430,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6909-7099</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="fruehwirth_timo">
             <name>
@@ -8201,6 +8447,7 @@
               <surname>Mörth</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126691775</idno>
           </person>
           <person xml:id="trinks_immo">
@@ -8218,6 +8465,7 @@
               <surname>Köntges</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132420770</idno>
           </person>
           <person xml:id="zuanni_chiara">
@@ -8298,6 +8546,7 @@
               <surname>Walter</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132410428</idno>
           </person>
           <person xml:id="stular_benjamin">
@@ -8307,6 +8556,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1474-7183</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="romanov_maxim">
             <name>
@@ -8315,6 +8565,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7331-3858</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="cole_nicholas">
             <name>
@@ -8323,6 +8574,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-6676-5343</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="hannesschlaeger_vanessa">
             <name>
@@ -8385,6 +8637,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1180-8852</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kurz_susanne">
             <name>
@@ -8393,6 +8646,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2824-1485</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ruiz-fabo_pablo">
             <name>
@@ -8427,6 +8681,7 @@
               <surname>Weilinghof</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132371683</idno>
           </person>
           <person xml:id="beisbart_claus">
@@ -8687,6 +8942,7 @@
               <surname>Woldrich</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132292564</idno>
           </person>
           <person xml:id="wiencek_florian">
@@ -8695,6 +8951,7 @@
               <surname>Wiencek</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132292327</idno>
           </person>
           <person xml:id="wissik_tanja">
@@ -8712,6 +8969,7 @@
               <surname>Wiederänders</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132292129</idno>
           </person>
           <person xml:id="resch_claudia">
@@ -8738,6 +8996,7 @@
               <surname>Stagg</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132291161</idno>
           </person>
           <person xml:id="fornaro_peter">
@@ -8809,6 +9068,7 @@
               <surname>Metz</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130785626</idno>
           </person>
           <person xml:id="stuber_martin">
@@ -8962,6 +9222,7 @@
               <surname>Feiner</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132245039</idno>
           </person>
           <person xml:id="mcdonald_daniel">
@@ -8970,6 +9231,7 @@
               <surname>McDonald</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132225690</idno>
           </person>
           <person xml:id="dusinberre_martin">
@@ -8987,6 +9249,7 @@
               <surname>Leveghi</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132070645</idno>
           </person>
           <person xml:id="manfredi_alice">
@@ -8995,6 +9258,7 @@
               <surname>Manfredi</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132070163</idno>
           </person>
           <person xml:id="varanini_francesco">
@@ -9030,6 +9294,7 @@
               <surname>Sebastiani</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132060070</idno>
           </person>
           <person xml:id="aiola_chiara">
@@ -9101,6 +9366,7 @@
               <surname>Eufe</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131994515</idno>
           </person>
           <person xml:id="achimova_asya">
@@ -9163,6 +9429,7 @@
               <surname>Patzold</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1296245</idno>
           </person>
           <person xml:id="zirker_angelika">
@@ -9198,6 +9465,7 @@
               <surname>Desmet</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131983640</idno>
           </person>
           <person xml:id="ondraszek_sarah-rebecca">
@@ -9224,6 +9492,7 @@
               <surname>Rehse</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131430135</idno>
           </person>
           <person xml:id="hercher_johannes">
@@ -9286,6 +9555,7 @@
               <surname>Wolle</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131947383</idno>
           </person>
           <person xml:id="hiergeist_annalena">
@@ -9294,6 +9564,7 @@
               <surname>Hiergeist</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131947213</idno>
           </person>
           <person xml:id="gruenler_johanna">
@@ -9302,6 +9573,7 @@
               <surname>Grünler</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131946197</idno>
           </person>
           <person xml:id="murath_antonia">
@@ -9310,6 +9582,7 @@
               <surname>Murath</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131946197</idno>
           </person>
           <person xml:id="panuskova_charlotte">
@@ -9372,6 +9645,7 @@
               <surname>Bernardi</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q114724367</idno>
           </person>
           <person xml:id="elice_martina">
@@ -9425,6 +9699,7 @@
               <surname>D’Altan</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130769535</idno>
           </person>
           <person xml:id="d-angelo_fabrizio">
@@ -9469,6 +9744,7 @@
               <surname>Venerandi</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3738129</idno>
           </person>
           <person xml:id="zanzotto_fabio-massimo">
@@ -9504,6 +9780,7 @@
               <surname>Chen</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131917127</idno>
           </person>
           <person xml:id="poggel_lisa">
@@ -9539,6 +9816,7 @@
               <surname>Parisi</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131915967</idno>
           </person>
           <person xml:id="sprugnoli_rachele">
@@ -9574,6 +9852,7 @@
               <surname>Wontorra</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131873304</idno>
           </person>
           <person xml:id="duan_tinghui">
@@ -9591,6 +9870,7 @@
               <surname>Herbst</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q133328300</idno>
           </person>
           <person xml:id="gutierrez_silvia">
@@ -9653,6 +9933,7 @@
               <surname>Strasser</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131746997</idno>
           </person>
           <person xml:id="akarcay_guenhan">
@@ -9661,6 +9942,7 @@
               <surname>Akarçay</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131746868</idno>
           </person>
           <person xml:id="maget-dominice_antoinette">
@@ -9687,6 +9969,7 @@
               <surname>Himmelsbach</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q108945090</idno>
           </person>
           <person xml:id="jaquet_daniel">
@@ -9713,6 +9996,7 @@
               <surname>Jehle</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131745536</idno>
           </person>
           <person xml:id="zimmermann_dorothea">
@@ -9739,6 +10023,7 @@
               <surname>Stoffel</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1673650</idno>
           </person>
           <person xml:id="taes_sofie">
@@ -9855,6 +10140,7 @@
               <surname>Hockey</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q20653606</idno>
           </person>
           <person xml:id="luis-bueren_jose">
@@ -9863,6 +10149,7 @@
               <surname>Luis Bueren</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131619991</idno>
           </person>
           <person xml:id="fontal-merillas_olaia">
@@ -9880,6 +10167,7 @@
               <surname>Corff</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q22937373</idno>
           </person>
           <person xml:id="lehmberg_timm">
@@ -9915,6 +10203,7 @@
               <surname>Gloning</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1665290</idno>
           </person>
           <person xml:id="lemnitzer_lothar">
@@ -9923,6 +10212,7 @@
               <surname>Lemnitzer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q112436934</idno>
           </person>
           <person xml:id="barbaresi_adrien">
@@ -9985,6 +10275,7 @@
               <surname>Mederake</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126594966</idno>
           </person>
           <person xml:id="harm_volker">
@@ -9993,6 +10284,7 @@
               <surname>Harm</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q112504010</idno>
           </person>
           <person xml:id="dorn_nico">
@@ -10001,6 +10293,7 @@
               <surname>Dorn</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131611406</idno>
           </person>
           <person xml:id="hug_marius">
@@ -10027,6 +10320,7 @@
               <surname>Vogeler</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130785186</idno>
           </person>
           <person xml:id="helbig_holger">
@@ -10035,6 +10329,7 @@
               <surname>Helbig</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q95330018</idno>
           </person>
           <person xml:id="hamster_ulf">
@@ -10142,6 +10437,7 @@
               <surname>Georgi</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126691971</idno>
           </person>
           <person xml:id="kirsten_linda">
@@ -10150,6 +10446,7 @@
               <surname>Kirsten</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131577882</idno>
           </person>
           <person xml:id="thielert_frauke">
@@ -10158,6 +10455,7 @@
               <surname>Thielert</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126595948</idno>
           </person>
           <person xml:id="klappenbach_lou">
@@ -10184,6 +10482,7 @@
               <surname>Wilk</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q112453984</idno>
           </person>
           <person xml:id="schulz_daniela">
@@ -10256,6 +10555,7 @@
               <surname>Naji</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131541513</idno>
           </person>
           <person xml:id="geyken_alexander">
@@ -10390,6 +10690,7 @@
               <surname>Middell</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131537999</idno>
           </person>
           <person xml:id="tuerkoglu_enes">
@@ -10434,6 +10735,7 @@
               <surname>Gardner</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131537827</idno>
           </person>
           <person xml:id="fry_alex">
@@ -10442,6 +10744,7 @@
               <surname>Fry</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131537676</idno>
           </person>
           <person xml:id="simon_tobias">
@@ -10450,6 +10753,7 @@
               <surname>Simon</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131522397</idno>
           </person>
           <person xml:id="bleeker_elli">
@@ -10503,6 +10807,7 @@
               <surname>Czmiel</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126595870</idno>
           </person>
           <person xml:id="hussein_hussein">
@@ -10511,6 +10816,7 @@
               <surname>Hussein</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131521004</idno>
           </person>
           <person xml:id="meyer-sickendiek_burkhard">
@@ -10564,6 +10870,7 @@
               <surname>Schaarschmidt</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131519519</idno>
           </person>
           <person xml:id="koehler_thomas">
@@ -10653,6 +10960,7 @@
               <surname>Reimer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131505655</idno>
           </person>
           <person xml:id="herrmann_mathias">
@@ -10661,6 +10969,7 @@
               <surname>Herrmann</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131505146</idno>
           </person>
           <person xml:id="zloch_stephanie">
@@ -10723,6 +11032,7 @@
               <surname>Bartels</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q56822974</idno>
           </person>
           <person xml:id="straub_verena">
@@ -10920,6 +11230,7 @@
               <surname>Baker</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q11738655</idno>
           </person>
           <person xml:id="schnapp_jeffrey">
@@ -11045,6 +11356,7 @@
               <surname>Reichelt</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131920751</idno>
           </person>
           <person xml:id="eggert_anja">
@@ -11125,6 +11437,7 @@
               <surname>Himstedt-Vaid</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q113828808</idno>
           </person>
           <person xml:id="jettka_daniel">
@@ -11430,6 +11743,7 @@
               <surname>Backes</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131312015</idno>
           </person>
           <person xml:id="arthur_paul">
@@ -11447,6 +11761,7 @@
               <surname>Huang</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131312138</idno>
           </person>
           <person xml:id="angeletaki_alexandra">
@@ -11500,6 +11815,7 @@
               <surname>Tulp</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131315949</idno>
           </person>
           <person xml:id="meyer_miriah">
@@ -11617,6 +11933,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5455-3343</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="malaspina_matilde">
             <name>
@@ -11625,6 +11942,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5732-6795</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schich_maximilian">
             <name>
@@ -11705,6 +12023,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3414-9503</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="nevola_fabrizio">
             <name>
@@ -11731,6 +12050,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-6072-6458</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="mancinelli_tiziana">
             <name>
@@ -11739,6 +12059,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0318-0698</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kiss_daniel">
             <name>
@@ -11783,6 +12104,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0009-4264-6292</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="luzon_jose-maria">
             <name>
@@ -11800,6 +12122,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://www.wikidata.org/wiki/Q70202745</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="daquino_marilena">
             <name>
@@ -11817,6 +12140,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-4712-9536</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pavlopoulos_ioannis">
             <name>
@@ -11861,6 +12185,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5283-3229</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="macchiarelli_agnese">
             <name>
@@ -11877,6 +12202,8 @@
               <surname>Danelon</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="williams_sean">
             <name>
@@ -11884,6 +12211,8 @@
               <surname>Williams</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dolcetti_francesca">
             <name>
@@ -11910,6 +12239,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-8076-0020</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="carbe_emmanuela">
             <name>
@@ -12035,6 +12365,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0282-7661</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="redmond_marie">
             <name>
@@ -12042,6 +12373,8 @@
               <surname>Redmond</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="tramelli_barbara">
             <name>
@@ -12050,6 +12383,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3785-7273</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="campus_leonardo">
             <name>
@@ -12057,6 +12391,8 @@
               <surname>Campus</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="robinson_peter">
             <name>
@@ -12065,6 +12401,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4050-779X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="caloi_ilaria">
             <name>
@@ -12127,6 +12464,7 @@
               <surname>Madden</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q130622306</idno>
           </person>
           <person xml:id="rettberg_scott">
@@ -12180,6 +12518,7 @@
               <surname>Schulz</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126691823</idno>
           </person>
           <person xml:id="reiter_nils">
@@ -12197,6 +12536,8 @@
               <surname>Kirschbaum</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="paliou_eleftheria">
             <name>
@@ -12213,6 +12554,8 @@
               <surname>Wikman</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="mondaca_francisco">
             <name>
@@ -12229,6 +12572,7 @@
               <surname>Zimmer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131425894</idno>
           </person>
           <person xml:id="koenig_mareike">
@@ -12264,6 +12608,7 @@
               <surname>Saef</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126595944</idno>
           </person>
           <person xml:id="blumtritt_jonathan">
@@ -12318,6 +12663,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1356-3884</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="huitfeldt_claus">
             <name>
@@ -12325,6 +12671,7 @@
               <surname>Huitfeldt</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q129260246</idno>
           </person>
           <person xml:id="klein_bjoern">
@@ -12334,6 +12681,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5303-3282</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="demmer_dennis">
             <name>
@@ -12341,6 +12689,8 @@
               <surname>Demmer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="hermes_juergen">
             <name>
@@ -12366,6 +12716,7 @@
               <surname>Karimi</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q131915532</idno>
           </person>
           <person xml:id="oberste-hetbleck_nadine">
@@ -12437,6 +12788,8 @@
               <surname>Peters</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="guenther_sabine-de">
             <name>
@@ -12508,6 +12861,7 @@
               <surname>Perathoner</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132426758</idno>
           </person>
           <person xml:id="heftberger_adelheid">
@@ -12552,6 +12906,7 @@
               <surname>Lorenz</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126692019</idno>
           </person>
           <person xml:id="berg_mia">
@@ -12606,6 +12961,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1813-1714</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="grund_vera">
             <name>
@@ -12622,6 +12978,7 @@
               <surname>Drewes</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126692007</idno>
           </person>
           <person xml:id="muenzmay_andreas">
@@ -12676,6 +13033,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1900-4231</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="sopracasa_alessio">
             <name>
@@ -12693,6 +13051,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0910-8566</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="horstmann_jan">
             <name>
@@ -12728,6 +13087,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0098-0400</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="wutte_anja">
             <name>
@@ -12736,6 +13096,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-6659-1267</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schaeben_marcel">
             <name>
@@ -12762,6 +13123,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5231-818X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ferraz-gerardi_fabricio">
             <name>
@@ -12769,6 +13131,8 @@
               <surname>Ferraz Gerardi</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="barreto_bruno">
             <name>
@@ -12777,6 +13141,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-3611-0538</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schubert_lutz">
             <name>
@@ -12794,6 +13159,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7324-5186</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pruemers_heiko">
             <name>
@@ -12820,6 +13186,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0002-3310-7763</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="downs-tepper_liam">
             <name>
@@ -12828,6 +13195,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2271-8948</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="tharandt_louise">
             <name>
@@ -12836,6 +13204,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0009-5967-2809</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="landeschi_giacomo">
             <name>
@@ -12844,6 +13213,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7463-1935</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="oiva_mila">
             <name>
@@ -12861,6 +13231,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5708-4271</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="hameeuw_hendrik">
             <name>
@@ -12869,6 +13240,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5406-5323</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schubert_zoe">
             <name>
@@ -12913,6 +13285,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8214-0952</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gestrich_nicholas">
             <name>
@@ -12921,6 +13294,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6376-1972</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="lang_ulrich">
             <name>
@@ -12929,6 +13303,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7166-0805</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="rossberger_elisa">
             <name>
@@ -12982,6 +13357,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-8071-3275</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="lang_matthias">
             <name>
@@ -12989,6 +13365,7 @@
               <surname>Lang</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126593378</idno>
           </person>
           <person xml:id="olteanu_alin">
@@ -13007,6 +13384,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0007-3112-4996</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="erdbeer_robert-matthias">
             <name>
@@ -13014,6 +13392,7 @@
               <surname>Erdbeer</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q112822588</idno>
           </person>
           <person xml:id="block-berlitz_marco">
@@ -13041,6 +13420,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0856-5631</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="christensen_inger-marie-falgren">
             <name>
@@ -13049,6 +13429,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-8091-3579</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="vanautgaerden_alexandre">
             <name>
@@ -13066,6 +13447,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1072-5198</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="barker_elton">
             <name>
@@ -13100,6 +13482,8 @@
               <surname>Bieber</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bruschke_jonas">
             <name>
@@ -13125,6 +13509,8 @@
               <surname>Roche</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="feuser_stefan">
             <name>
@@ -13150,6 +13536,7 @@
               <surname>Assmann</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q61247</idno>
           </person>
           <person xml:id="kenter_jan">
@@ -13158,6 +13545,8 @@
               <surname>Kenter</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="laepke_stefanie">
             <name>
@@ -13165,6 +13554,8 @@
               <surname>Läpke</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kreppner_florian-janoscha">
             <name>
@@ -13172,6 +13563,7 @@
               <surname>Kreppner</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q38589125</idno>
           </person>
           <person xml:id="povroznik_nadezhda">
@@ -13181,6 +13573,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2044-8147</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="gomez_veronica-paula">
             <name>
@@ -13189,6 +13582,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7347-3683</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="mara_hubert">
             <name>
@@ -13206,6 +13600,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2121-8327</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="hiseni_valentina">
             <name>
@@ -13214,6 +13609,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1357-6127</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kruhl_dominik">
             <name>
@@ -13221,6 +13617,7 @@
               <surname>Kruhl</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126598213</idno>
           </person>
           <person xml:id="theisen_christian">
@@ -13239,6 +13636,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-2850-2996</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="giordano_andrea">
             <name>
@@ -13255,6 +13653,7 @@
               <surname>Ekström</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q5707482</idno>
           </person>
           <person xml:id="ingvarsson_jonas">
@@ -13281,6 +13680,7 @@
               <surname>Sayeed</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q94262422</idno>
           </person>
           <person xml:id="granström_helena">
@@ -13289,6 +13689,7 @@
               <surname>Granström</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16594922</idno>
           </person>
           <person xml:id="helden_johannes">
@@ -13297,6 +13698,7 @@
               <surname>Heldén</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q5798471</idno>
           </person>
           <person xml:id="borin_lars">
@@ -13323,6 +13725,7 @@
               <surname>Lindhé</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q128792899</idno>
           </person>
           <person xml:id="björkin_mats">
@@ -13332,6 +13735,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5035-9324</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="lamberti_elena">
             <name>
@@ -13340,6 +13744,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0445-7118</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="liu_ying-hsang">
             <name>
@@ -13384,6 +13789,7 @@
             </name>
             <gender/>
             <idno type="orcid">https://orcid.org/0000-0002-6276-7018</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="polo_luis-alberto">
             <name>
@@ -13391,6 +13797,7 @@
               <surname>Polo</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q134587535</idno>
           </person>
           <person xml:id="bermejo_jesus">
@@ -13462,6 +13869,8 @@
               <surname>Andersson</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="alvarez-diaz_maria-guadalupe">
             <name>
@@ -13469,6 +13878,8 @@
               <surname>Alvarez Diaz</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="o-gorman_marcel">
             <name>
@@ -13476,6 +13887,8 @@
               <surname>O’Gorman</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="berry_david">
             <name>
@@ -13484,6 +13897,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-7737-5586</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="fagerjord_anders">
             <name>
@@ -13492,6 +13906,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-5391-0292</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="linderoth_jonas">
             <name>
@@ -13500,6 +13915,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-5316-379X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="kilic_onur">
             <name>
@@ -13508,6 +13924,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6274-2761</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="liinason_mia">
             <name>
@@ -13525,6 +13942,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0003-4338-3382</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="selander_lisen">
             <name>
@@ -13533,6 +13951,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-9603-2899</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pierce_rachel">
             <name>
@@ -13549,6 +13968,8 @@
               <surname>Lison</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bollmer_grant">
             <name>
@@ -13565,6 +13986,7 @@
               <surname>Underwood</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q112537563</idno>
           </person>
           <person xml:id="wagner_karin">
@@ -13591,6 +14013,8 @@
               <surname>Martin</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="leonard_peter">
             <name>
@@ -13599,6 +14023,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-3168-7100</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="pennlert_julia">
             <name>
@@ -13606,6 +14031,8 @@
               <surname>Pennlert</surname>
             </name>
             <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="summanen_henrik">
             <name>
@@ -13613,6 +14040,7 @@
               <surname>Summanen</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q108295333</idno>
           </person>
           <person xml:id="mehrstam_christian">
@@ -13621,6 +14049,8 @@
               <surname>Mehrstam</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="bode_katherine">
             <name>
@@ -13637,6 +14067,8 @@
               <surname>Lundberg</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="rogstrom_lena">
             <name>
@@ -13654,6 +14086,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2980-4016</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="claesson_dick">
             <name>
@@ -13661,6 +14094,7 @@
               <surname>Claésson</surname>
             </name>
             <gender>male</gender>
+            <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q105730984</idno>
           </person>
           <person xml:id="westin_jonathan">
@@ -13688,6 +14122,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-7451-7596</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="raffini_daniel">
             <name>
@@ -13696,6 +14131,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-1117-8811</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="krmnicek_stefan">
             <name>
@@ -13704,6 +14140,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-0593-2539</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="ehrlicher_hanno">
             <name>
@@ -13721,6 +14158,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-3576-0507</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="dusil_stephan">
             <name>
@@ -13729,6 +14167,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0003-1406-813X</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="schnell_corwin">
             <name>
@@ -13737,6 +14176,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0009-0000-7995-4840</idno>
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="mahlberg_michaela">
             <name>
@@ -13772,6 +14212,7 @@
             </name>
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0001-5999-6947</idno>
+            <!-- No Wikidata ID found -->
           </person>
         </listPerson>
       </particDesc>
