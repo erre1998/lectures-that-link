@@ -21,6 +21,11 @@
           <forename>Erik</forename>
           <idno type="orcid">https://orcid.org/0009-0005-8288-7470</idno>
         </editor>
+        <respStmt xml:id="mvb">
+          <resp>Contributor</resp>
+          <name>Magdalena Victoria Basedow</name>
+          <idno type="orcid">https://orcid.org/0009-0004-5854-8869</idno>
+        </respStmt>
         <respStmt xml:id="cg">
           <resp>Contributor</resp>
           <name>Charlotte Grünig</name>
@@ -343,7 +348,6 @@
             <idno type="ror">https://ror.org/02zx40v98</idno>
             <place corresp="#wien"/>
           </org>
-          <!-- HIER -->
           <org xml:id="uni-colorado" type="university">
             <name xml:lang="en">University of Colorado Boulder</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q736674</idno>
@@ -1581,6 +1585,12 @@
             <idno type="ror">https://ror.org/052gg0110</idno>
             <place corresp="#oxford"/>
           </org>
+          <org xml:id="uni-london" type="university">
+            <name xml:lang="en">University of London</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q170027</idno>
+            <idno type="ror">https://ror.org/04cw6st05</idno>
+            <place corresp="#london"/>
+          </org>
           <org xml:id="uni-london-city" type="university">
             <name xml:lang="en">City, University of London</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1094046</idno>
@@ -1591,6 +1601,12 @@
             <name xml:lang="en">University College London</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q193196</idno>
             <idno type="ror">https://ror.org/02jx3x895</idno>
+            <place corresp="#london"/>
+          </org>
+          <org xml:id="uni-london-birkbeck" type="university">
+            <name xml:lang="en">Birkbeck, University of London</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q375606</idno>
+            <idno type="ror">https://ror.org/02mb95055</idno>
             <place corresp="#london"/>
           </org>
           <org xml:id="uni-london-kcl" type="university">
@@ -2014,10 +2030,58 @@
             <place corresp="#geneve"/>
           </org>
           <org xml:id="uni-kaist" type="university">
-            <name xml:lang="de">Korea Advanced Institute of Science &amp; Technology (KAIST)</name>
+            <name xml:lang="en">Korea Advanced Institute of Science &amp; Technology (KAIST)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q39949</idno>
             <idno type="ror">https://ror.org/05apxxy63</idno>
             <place corresp="#daejeon"/>
+          </org>
+          <org xml:id="uni-upv" type="university">
+            <name xml:lang="it">Universitat Politècnica de València (UPV)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2003976</idno>
+            <idno type="ror">https://ror.org/01460j859</idno>
+            <place corresp="#valencia"/>
+          </org>
+          <org xml:id="uni-unam" type="university">
+            <name xml:lang="es">Universidad Nacional Autónoma de México</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q222738</idno>
+            <idno type="ror">https://ror.org/01tmp8f25</idno>
+            <place corresp="#mexico-city"/>
+          </org>
+          <org xml:id="uni-princeton" type="university">
+            <name xml:lang="en">Princeton University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q21578</idno>
+            <idno type="ror">https://ror.org/00hx57361</idno>
+            <place corresp="#princeton"/>
+          </org>
+          <org xml:id="uni-curtin" type="university">
+            <name xml:lang="en">Curtin University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1145497</idno>
+            <idno type="ror">https://ror.org/02n415q13</idno>
+            <place corresp="#perth"/>
+          </org>
+          <org xml:id="uni-paris-ens-psl" type="university">
+            <name xml:lang="fr">École Normale Supérieure - PSL</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q83259</idno>
+            <idno type="ror">https://ror.org/05a0dhs15</idno>
+            <place corresp="#paris"/>
+          </org>
+          <org xml:id="uni-pisa-sns" type="university">
+            <name xml:lang="it">Scuola Normale Superiore</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q672416</idno>
+            <idno type="ror">https://ror.org/03aydme10</idno>
+            <place corresp="#pisa"/>
+          </org>
+          <org xml:id="uni-rio" type="university">
+            <name xml:lang="br">Universidade Federal do Rio de Janeiro</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q586904</idno>
+            <idno type="ror">https://ror.org/03490as77</idno>
+            <place corresp="#rio-de-janeiro"/>
+          </org>
+          <org xml:id="uni-johns-hopkins" type="university">
+            <name xml:lang="en">Johns Hopkins University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q193727</idno>
+            <idno type="ror">https://ror.org/00za53h95</idno>
+            <place corresp="#baltimore"/>
           </org>
           <!-- ##### Research Institutions ##### -->
           <org xml:id="brg" type="research_institution">
@@ -2485,6 +2549,17 @@
             <idno type="ror">https://ror.org/043bqfp86</idno>
             <place corresp="#berlin"/>
           </org>
+          <org xml:id="institute-historical-research" type="research_institution">
+            <name xml:lang="en">Institute of Historical Research</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6040373</idno>
+            <idno type="ror">https://ror.org/04e8nyq62</idno>
+            <place corresp="#london"/>
+          </org>
+          <org xml:id="ucldh" type="research_institution">
+            <name xml:lang="en">UCL Centre for Digital Humanities (UCLDH)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q7864060</idno>
+            <place corresp="#london"/>
+          </org>
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <org xml:id="gallery-Kunsttempel" type="glam">
@@ -2633,6 +2708,18 @@
             <!-- No ROR ID found -->
             <place corresp="#koblenz"/>
           </org>
+          <org xml:id="library-bav" type="glam">
+            <name xml:lang="de">Biblioteca Apostolica Vaticana</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q213678</idno>
+            <idno type="ror">https://ror.org/03ze4yx94</idno>
+            <place corresp="#vatican_city"/>
+          </org>
+          <org xml:id="library-uni-miami" type="glam">
+            <name xml:lang="en">University of Miami Libraries</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q65558413</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#miami"/>
+          </org>
           <!-- ####### A ####### -->
           <org xml:id="archive-salzburg" type="glam">
             <name xml:lang="de">Stadtarchiv Salzburg</name>
@@ -2725,6 +2812,18 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3107846</idno>
             <!-- No ROR ID found -->
             <place corresp="#gothenburg"/>
+          </org>
+          <org xml:id="british-museum" type="glam">
+            <name xml:lang="en">British Museum</name>
+            <idno type="ror">https://ror.org/00pbh0a34</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6373</idno>
+            <place corresp="#london"/>
+          </org>
+          <org xml:id="imperial-war-museum" type="glam">
+            <name xml:lang="en">Imperial War Museum</name>
+            <idno type="ror">https://ror.org/02tm9s162</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q749808</idno>
+            <place corresp="#london"/>
           </org>
           <!-- ####### Other ####### -->
           <org xml:id="zfdg" type="other">
@@ -2834,6 +2933,12 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10567910</idno>
             <!-- No ROR ID found -->
             <place corresp="#stockholm #gothenburg"/>
+          </org>
+          <org xml:id="programming-historian" type="other">
+            <name xml:lang="en">Programming Historian</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q50817399</idno>
+            <idno type="ror">https://ror.org/03snzfy68</idno>
+            <place corresp="#brighton"/>
           </org>
           <!-- ##### Companies ##### -->
           <org xml:id="parsqube" type="company">
@@ -2985,6 +3090,25 @@
             <!-- No Wikidata ID found -->
             <!-- No ROR ID found -->
             <place corresp="#london"/>
+          </org>
+          <org xml:id="good-form-spectacle-ltd" type="company">
+            <name xml:lang="en">Good, Form &amp; Spectacle Limited</name>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
+            <!-- Aber Gov UK hat der Firma eine eindeutige Company Number zugeordnet, siehe https://find-and-update.company-information.service.gov.uk/company/09431632/officers -->
+            <place corresp="#penryn"/>
+          </org>
+          <org xml:id="digirati" type="company">
+            <name xml:lang="en">Digirati</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q88757743</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#london"/>
+          </org>
+          <org xml:id="gale-cengage" type="company">
+            <name xml:lang="de">Gale, Cengage Learning</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2944238>
+            <idno type="ror">https://ror.org/0576yhz46</idno>
+            <place corresp="#andover"/>
           </org>
         </listOrg>
         <listPerson>
@@ -11847,8 +11971,8 @@
           </person>
           <person xml:id="van-hyning_victoria">
             <name>
-              <forename>Marieke</forename>
-              <surname>van Erp</surname>
+              <forename>Victoria</forename>
+              <surname>Van Hyning</surname>
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0001-6775-2870</idno>
@@ -14214,6 +14338,554 @@
             <idno type="orcid">https://orcid.org/0000-0001-5999-6947</idno>
             <!-- No Wikidata ID found -->
           </person>
+          <person xml:id="amati_cristina">
+            <name>
+              <forename>Cristina</forename>
+              <surname>Amati</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="winters_jane">
+            <name>
+              <forename>Jane</forename>
+              <surname>Winters</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5502-5887</idno>
+          </person>
+          <person xml:id="macdonald_lindsay">
+            <name>
+              <forename>Lindsay</forename>
+              <surname>MacDonald</surname>
+            </name>
+            <gender>not found</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3009-1188</idno>
+          </person>
+          <person xml:id="freeth_tony">
+            <name>
+              <forename>Tony</forename>
+              <surname>Freeth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9375-4247</idno>
+          </person>
+          <person xml:id="hotson_howard">
+            <name>
+              <forename>Howard</forename>
+              <surname>Hotson</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="gnd">https://d-nb.info/gnd/1207106518</idno>
+            <idno type="lccn">https://id.loc.gov/authorities/names/no99069925.html</idno>
+          </person>
+          <person xml:id="ramos_regner">
+            <name>
+              <forename>Regner</forename>
+              <surname>Ramos</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3529-6780</idno>
+          </person>
+          <person xml:id="sánchez_joan">
+            <name>
+              <forename>Joan Andreu</forename>
+              <surname>Sánchez</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0423-2020</idno>
+          </person>
+          <person xml:id="galina_russell_isabel">
+            <name>
+              <forename>Isabel</forename>
+              <surname>Galina Russell</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5286-5733</idno>
+          </person>
+          <person xml:id="toth_mike">
+            <name>
+              <forename>Mike</forename>
+              <surname>Toth</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="oates_george">
+            <name>
+              <forename>George</forename>
+              <surname>Oates</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23415483</idno>
+          </person>
+          <person xml:id="dillon_chris">
+            <name>
+              <forename>Chris</forename>
+              <surname>Dillon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9418-3885</idno>
+          </person>
+          <person xml:id="baker_james">
+            <name>
+              <forename>James</forename>
+              <surname>Baker</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2682-6922</idno>
+          </person>
+          <person xml:id="pett_daniel">
+            <name>
+              <forename>Daniel</forename>
+              <surname>Pett</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0246-2335</idno>
+          </person>
+          <person xml:id="martin_ursula">
+            <name>
+              <forename>Ursula</forename>
+              <surname>Martin</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1908-5927</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q14010</idno>
+          </person>
+          <person xml:id="robson_eleanor">
+            <name>
+              <forename>Eleanor</forename>
+              <surname>Robson</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9060-3985</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q434563</idno>
+          </person>
+          <person xml:id="duffy_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Duffy</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="cordell_ryan">
+            <name>
+              <forename>Ryan</forename>
+              <surname>Cordell</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4345-0533</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q115921308</idno>
+          </person>
+          <person xml:id="bauer_jean">
+            <name>
+              <forename>Jean</forename>
+              <surname>Bauer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4026-740X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57432620</idno>
+          </person>
+          <person xml:id="cummings_james">
+            <name>
+              <forename>James</forename>
+              <surname>Cummings</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6686-3728</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126085674</idno>
+          </person>
+          <person xml:id="vlachidis_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Vlachidis</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0986-4430</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q120834728</idno>
+          </person>
+          <person xml:id="guillery_peter">
+            <name>
+              <forename>Peter</forename>
+              <surname>Guillery</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8324-6027</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q99583388</idno>
+          </person>
+          <person xml:id="zaltz_austwick_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Zaltz Austwick</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2351-519X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59690470</idno>
+          </person>
+          <person xml:id="muenster_sander">
+            <name>
+              <forename>Sander</forename>
+              <surname>Münster</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9344-912X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q105640834</idno>
+          </person>
+          <person xml:id="neylon_cameron">
+            <name>
+              <forename>Cameron</forename>
+              <surname>Neylon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0068-716X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q15285878</idno>
+          </person>
+          <person xml:id="morgan_paige">
+            <name>
+              <forename>Paige</forename>
+              <surname>Morgan</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8076-7356</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q88100582</idno>
+          </person>
+          <person xml:id="ruiz_pablo">
+            <name>
+              <forename>Pablo</forename>
+              <surname>Ruiz Fabo</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4349-4835</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598183</idno>
+          </person>
+          <person xml:id="kesse_erich">
+            <name>
+              <forename>Erich</forename>
+              <surname>Kesse</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3009-4023</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q5388043</idno>
+          </person>
+          <person xml:id="oldman_dominic">
+            <name>
+              <forename>Dominic</forename>
+              <surname>Oldman</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5539-3126</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q30112522</idno>
+          </person>
+          <person xml:id="long_catherine">
+            <name>
+              <forename>Catherine</forename>
+              <surname>Long</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="weber_andreas">
+            <name>
+              <forename>Andreas</forename>
+              <surname>Weber</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5624-3368</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q47479573</idno>
+          </person>
+          <person xml:id="franzini_emily">
+            <name>
+              <forename>Emily</forename>
+              <surname>Franzini</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="taylor_laurie">
+            <name>
+              <forename>Laurie</forename>
+              <surname>Taylor</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9553-3659</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59417980</idno>
+          </person>
+          <person xml:id="litta_eleonora">
+            <name>
+              <forename>Eleonora</forename>
+              <surname>Litta</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0499-997X</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="mendias_claudia">
+            <name>
+              <forename>Claudia</forename>
+              <surname>Mendias</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="de-felice_rachele">
+            <name>
+              <forename>Rachele</forename>
+              <surname>De Felice</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0622-8711</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="knox_hannah">
+            <name>
+              <forename>Hannah</forename>
+              <surname>Knox</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2294-0258</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112503485</idno>
+          </person>
+          <person xml:id="ketzan_erik">
+            <name>
+              <forename>Erik</forename>
+              <surname>Ketzan</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0264-2157</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126597584</idno>
+          </person>
+          <person xml:id="crane_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Crane</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1881-243X</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="murray_hannah-rose">
+            <name>
+              <forename>Hannah-Rose</forename>
+              <surname>Murray</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5870-210X</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="wallis_sean">
+            <name>
+              <forename>Sean</forename>
+              <surname>Wallis</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-3625-6265</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="mcclelland_keith">
+            <name>
+              <forename>Keith</forename>
+              <surname>McClelland</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64628461</idno>
+          </person>
+          <person xml:id="bergel_giles">
+            <name>
+              <forename>Giles</forename>
+              <surname>Bergel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1701-3054</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="bonacchi_chiara">
+            <name>
+              <forename>Chiara</forename>
+              <surname>Bonacchi</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0872-0614</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q56761846</idno>
+          </person>
+          <person xml:id="jewitt_carey">
+            <name>
+              <forename>Carey</forename>
+              <surname>Jewitt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2971-984X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q79914983</idno>
+          </person>
+          <person xml:id="vitale_valeria">
+            <name>
+              <forename>Valeria</forename>
+              <surname>Vitale</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9695-0240</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q99591237</idno>
+          </person>
+          <person xml:id="ohge_christopher">
+            <name>
+              <forename>Christopher</forename>
+              <surname>Ohge</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6410-8692</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130855295</idno>
+          </person>
+          <person xml:id="cayley_seth">
+            <name>
+              <forename>Seth</forename>
+              <surname>Cayley</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata found -->
+          </person>
+          <person xml:id="gen-schieck_ava_fatah">
+            <name>
+              <forename>Ava Fatah</forename>
+              <surname>gen. Schieck</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6693-5592</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130938915</idno>
+          </person>
+          <person xml:id="rodriguez_echavarria_karina">
+            <name>
+              <forename>Karina</forename>
+              <surname>Rodriguez Echavarria</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8679-1602</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130851537</idno>
+          </person>
+          <person xml:id="van-vugt_ingeborg">
+            <name>
+              <forename>Ingeborg</forename>
+              <surname>van Vugt</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7703-1791</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q114724640</idno>
+          </person>
+          <person xml:id="serejo_cristiana">
+            <name>
+              <forename>Cristiana</forename>
+              <surname>Serejo</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9132-5537</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q21391994</idno>
+          </person>
+          <person xml:id="pereira_edmundo">
+            <name>
+              <forename>Edmundo</forename>
+              <surname>Pereira</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9219-3537</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="medeiros-e-sa_asla">
+            <name>
+              <forename>Asla</forename>
+              <surname>Medeiros e Sá</surname>
+            </name>
+            <gender>female</gender>
+              <idno type="orcid">https://orcid.org/0000-0002-3705-9095</idno>
+              <idno type="wikidata">https://www.wikidata.org/wiki/Q57305630</idno>
+          </person>
+          <person xml:id="siemens_lynne">
+            <name>
+              <forename>Lynne</forename>
+              <surname>Siemens</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5799-534X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126537748</idno>
+          </person>
+          <person xml:id="khan_nathan">
+            <name>
+              <forename>Nathan</forename>
+              <surname>Khan</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="psarra_sophia">
+            <name>
+              <forename>Sophia</forename>
+              <surname>Psarra</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6674-7735</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="williams_tim">
+            <name>
+              <forename>Tim</forename>
+              <surname>Williams</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8503-5920</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q60503868</idno>
+          </person>
+          <person xml:id="jorayev_gaygysyz">
+            <name>
+              <forename>Gaygysyz</forename>
+              <surname>Jorayev</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8038-3886</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="milligan_ian">
+            <name>
+              <forename>Ian</forename>
+              <surname>Milligan</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1470-7723</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57416604</idno>
+          </person>
+          <person xml:id="johnson_jessica-marie">
+            <name>
+              <forename>Jessica Marie</forename>
+              <surname>Johnson</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q114036406</idno>
+          </person>
+          <person xml:id="frank_zephyr">
+            <name>
+              <forename>Zephyr</forename>
+              <surname>Frank</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0691-9299</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q70493788</idno>
+          </person>
+          <person xml:id="quiroga_riva">
+            <name>
+              <forename>Riva</forename>
+              <surname>Quiroga</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1147-4135</idno>
+            <!-- No Wikidata ID found -->
+          </person>
         </listPerson>
       </particDesc>
       <settingDesc>
@@ -15024,6 +15696,21 @@
             <name>Plymouth</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7011301</idno>
           </place>
+          <place type="city" xml:id="penryn">
+            <country corresp="#uk"/>
+            <name>Penryn</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/1030302</idno>
+          </place>
+          <place type="city" xml:id="andover">
+            <country corresp="#uk"/>
+            <name>Andover</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7011400</idno>
+          </place>
+          <place type="city" xml:id="brighton">
+            <country corresp="#uk"/>
+            <name>Brighton</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7011483</idno>
+          </place>
           <!-- ######## Hungarian cities ######## -->
           <place type="city" xml:id="budapest">
             <country corresp="#hungary"/>
@@ -15504,6 +16191,12 @@
             <name>Turku</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7009962</idno>
           </place>
+          <!-- ######## City-states ######## -->
+          <place type="city" xml:id="vatican_city">
+            <country corresp="#vatican_city"/>
+            <name>Vatican City</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7001168</idno>
+          </place>
           <!-- ###### Continent: Asia ###### -->
           <!-- ######## United Arab Emirates cities ######## -->
           <place type="city" xml:id="abu-dhabi">
@@ -15590,6 +16283,11 @@
             <country corresp="#australia"/>
             <name>Canberra</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7001867</idno>
+          </place>
+          <place type="city" xml:id="perth">
+            <country corresp="#australia"/>
+            <name>Perth</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7001977</idno>
           </place>
           <!-- ###### Continent: North America ###### -->
           <!-- ######## US cities ######## -->
@@ -15812,6 +16510,16 @@
             <name>College Park</name>
             <idno type="gnd">https://d-nb.info/gnd/4219690-5</idno>
           </place>
+          <place type="city" xml:id="princeton">
+            <country corresp="#usa"/>
+            <name>Princeton</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7016190</idno>
+          </place>
+          <place type="city" xml:id="baltimore">
+            <country corresp="#usa"/>
+            <name>Balimore</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013352</idno>
+          </place>
           <!-- ######## Canadian cities ######## -->
           <place type="city" xml:id="toronto">
             <country corresp="#canada"/>
@@ -15871,6 +16579,11 @@
             <country corresp="#brazil"/>
             <name>São Paulo</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7017121</idno>
+          </place>
+          <place type="city" xml:id="rio-de-janeiro">
+            <country corresp="#brazil"/>
+            <name>Rio de Janeiro</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7017095</idno>
           </place>
           <!-- ######## Colombian cities ######## -->
           <place type="city" xml:id="bogota">
@@ -60538,6 +61251,1883 @@
             </event>
             <org role="organizer"
               corresp="#edmond_jennifer #mitchell_rebecca #abbott_helen #ward_aengus"/>
+          </event>
+        </event>
+        <event xml:id="ls54" type="lecture-series" where="#london">
+          <eventName xml:lang="en">UCLDH Seminar Series</eventName>
+          
+          
+          <event type="lecture-series-term" from="2014-11" to="2015-06" xml:id="ls54_t1">
+            <eventName/>
+            <!-- 
+              
+              Beschreibung für das letzte/neuste Semester, also 2024-25. muss verschoben werden.
+            
+            <ptr type="programme"
+              target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar"/>
+            <note type="description" xml:lang="en">
+              <p>Voices unbound? Exploring new and/or possible directions in digital and experimental oral history</p>
+              <p>A lecture series co-organised by TU Darmstadt, UCL Centre for Digital Humanities, 
+                Luxembourg Centre for Contemporary and Digital History (C²DH) and the Max-Planck-Institut
+                für Wissenschaftsgeschichte. The series is convened by Julianne Nyhan (TU Darmstadt), 
+                Andrew Flinn, Andreas Vlachidis, and Marco Humbel (UCL), Shih-Pei Chen
+                (Max Planck Institute), and Gerben Zaagsma (C²DH), offering an important way of
+                keeping up to date with the methodological and theoretical state of the art in digital
+                oral history. We invited speakers to present work on recent technological developments
+                that may hold promise for digital oral history. In this way, the seminar series appeals
+                to (digital) oral historians, digital humanists and scholars of the history of information,
+                memory and knowledge systems.</p>
+            </note>
+            -->
+            
+            <event type="lecture" when="2014-11-20" xml:id="ls54_t1_l1">
+              <eventName xml:lang="en">Scalpels and magic wands. From the physical world of book conservation
+                to the magic of Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarcampagnolo"/>
+              <note type="abstract" xml:lang="en">
+                <p>Books are objects in primis. They do contain important written information, but their
+                  physicality is also a silent witness that needs to be read, and preserved. Traditionally,
+                  for museum objects, the balance between their meaning and their usefulness tends heavily 
+                  towards the former. When it comes to books, things get more complicated, as these artefacts
+                  are both regarded as meaningful per se, and useful (for one needs to access and preserve the
+                  text they contain). Often in the past, the usefulness of the artefact book outvalued its
+                  own meaning as artefact. Modern book conservation strives to keep the balance as even as
+                  possible, but this means that there is - and there should be - a limit to what book conservators 
+                  can do, scalpel at hand, physically on books. These physical limits can be overcome with the 
+                  collaboration between conservation and Digital Humanities, and this is where the magic happens: 
+                  the artefact can be saved for its own meaning, and its usefulness can be enhanced through
+                  digital means.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#campagnolo_alberto">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-bav"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2014-11-26" xml:id="ls54_t1_l2">
+              <eventName xml:lang="en">Image Aesthetics: From Philosophical to Computational Exploration</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminaramati"/>
+              <note type="abstract" xml:lang="en">
+                <p>Seeking beauty in images has always preoccupied the human mind. Today, the amount of imagery 
+                  available online, in museums or personal photo collections is incredibly vast and varied. By 
+                  harnessing these data, together with insights from Philosophy, Art, Colour Theory, Psychology 
+                  and Neurology, computer scientists are striving to explore the concept of beauty using algorithms 
+                  and numbers. In this talk I will give an overview of the multidisciplinary knowledge on aesthetics 
+                  and visual perception and show how Computer Science is contributing to further our understanding 
+                  of these fields.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#amati_cristina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2014-12-03" xml:id="ls54_t1_l3">
+              <eventName xml:lang="en">Illuminating the Herculaneum Papyri with New Digital Imaging Techniques</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarpiquette"/>
+              <note type="abstract" xml:lang="en">
+                <p>The advanced computational photographic method, Reflectance Transformation Imaging, is a powerful 
+                  visualisation tool that is increasingly being applied to a range of archaeological materials. 
+                  Documentary evidence, particularly damaged or other types of difficult-to-read texts, present 
+                  rich areas for new insight and discovery. RTI is relatively unique among digital imaging 
+                  technologies in providing ultra high resolution visualisations with virtual relighting and 
+                  artificial enhancement capabilities. These tools can vastly improve legibility as well as support 
+                  exploration of the entangled relationships between ancient writings and their material supports. 
+                  Dissecting these relationships is particularly vital for reading and reconstructing one of the 
+                  largest surviving ancient libraries in the world, namely the Herculaneum papyri. More than 2000 
+                  rolls, mostly written in Greek, were preserved through carbonisation when Mount Vesuvius erupted 
+                  in 79 CE. Over the past two centuries scholars have sought to unroll and read these fragile 
+                  documents. Multispectral images taken more than a decade ago greatly improved their legibility but 
+                  much remains to be revealed. In this lecture I will report on the outcomes of a recent Universität 
+                  zu Köln pilot project involving the application of RTI to these blackened papyrus fragments. An 
+                  innovation trialled during this work was the combination of RTI with infrared illumination. I will 
+                  present key results and discuss their implications for improved readings and the associated task of 
+                  scroll reconstruction. A key theoretical issue underpinning my discussion will be the contrasting 
+                  notions of the digital image as a resource for interpreting past written meaning, and the more 
+                  active concept of the digital image as constitutive of the interpretive process.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#piquette_kathryn">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#cceh"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-01-28" xml:id="ls54_t1_l4">
+              <eventName xml:lang="en">Big data for humanities research: from digging into the parliamentary record to exploring the UK Web Archive</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/janewinters"/>
+              <note type="abstract" xml:lang="en">
+                <p>There is increasing interest among arts and humanities researchers in working with big data, as 
+                  evidenced by the Arts and Humanities Research Council's recent big data funding call and the 
+                  Digging into Data programme. However, working with data at this scale presents unique theoretical 
+                  and methodological challenges which we are only now beginning to explore. This paper will present 
+                  a number of approaches to big data research, focusing on the archive of UK web space for the period
+                  1996-2013; 200 years' worth of parliamentary proceedings for the UK, the Netherlands and Canada; 
+                  and a corpus of historical material digitised by The National Archives spanning the middle ages 
+                  to the twentieth century. It will consider prosopography, linked data, semantic mark-up and natural 
+                  language processing, as well as the ethics of big data research. Finally, it will highlight some of 
+                  the benefits of adopting a genuinely collaborative and interdisciplinary way of working when dealing
+                  with big data.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#winters_jane">
+                  <name>
+                    <roleName type="title">Prof. PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-city"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-03-11" xml:id="ls54_t1_l5">
+              <eventName xml:lang="en">Image Sets under Directional Lighting: A Richer Representation of Cultural Heritage Objects</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarmacdonald"/>
+              <note type="abstract" xml:lang="en">
+                <p>With a camera on a copystand one obtains a single image of an object with a fixed (usually diffuse) 
+                  lighting geometry. In a dome illumination system, however, the same camera can be used to capture 
+                  many different images in pixel register, each illuminated from a different direction. This turns 
+                  out to be a much richer representation than a single image, and has many applications in cultural 
+                  heritage for the digitising and display of objects that are flattish with surface relief, such as 
+                  coins, medals, fossils, rock art, incised tablets, bas reliefs, engravings, canvas paintings, etc. 
+                  This talk will describe the UCL Dome system and show how the image sets can be used in three ways: 
+                  (1) visualisation by interactive movement of a virtual light source over the enclosing hemisphere; 
+                  (2) 3D reconstruction of the object surface; (3) modelling of the specular highlights from the 
+                  surface and hence realistic rendering.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#macdonald_lindsay">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-03-25" xml:id="ls54_t1_l6">
+              <eventName xml:lang="en">The Antikythera Mechanism: A Personal Journey of Discovery</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarfreeth"/>
+              <note type="abstract" xml:lang="en">
+                <p>The Antikythera Mechanism is an ancient Greek astronomical calculating machine of remarkable 
+                  sophistication. As part of an international team of scientists, I have been a central part 
+                  of research on the Antikythera Mechanism over the last fifteen years. It has been an 
+                  extraordinary journey of discovery, which has led to a revolution in our understanding of 
+                  the device. It is a landmark in the history of science and technology and one of the true 
+                  wonders of the ancient world.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#freeth_tony">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-05-06" xml:id="ls54_t1_l7">
+              <eventName xml:lang="en">Networking to the fourth power: Reassembling the Republic of Letters, 1500-1800</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">not found</term>
+                <term type="audience">not found</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hotson_howard">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-05-20" xml:id="ls54_t1_l8">
+              <eventName xml:lang="en">Embodiments, Subjectivities and Reconfigurations of Urban Spaces via GPS Mobile Applications: Driving/Guiding</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">not found</term>
+                <term type="audience">not found</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ramos_regner">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-06-01" xml:id="ls54_t1_l9">
+              <eventName xml:lang="en">Interactive Handwritten Text Recognition and Indexing of Historical Documents: the tranScriptorium project</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">not found</term>
+                <term type="audience">not found</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vidal_enrique">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-upv"/>
+                </person>
+                <person role="speaker" corresp="#sánchez_joan">
+                  <name>
+                    <roleName type="title">Associate Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-upv"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+          <event type="lecture-series-term" from="2015-10" to="2016-07" xml:id="ls54_t2">
+              <eventName/>
+            <event type="lecture" when="2015-10-09" xml:id="ls54_t2_l1">
+              <eventName xml:lang="en">Geopolitical diversity in Digital Humanities: how do we make it happen?</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminargalinarussell"/>
+              <note type="abstract" xml:lang="en">
+                <p>In this talk Isabel Galina Russell will outline the main challenges involved 
+                  in creating a truly global Digital Humanities community with active 
+                  participation from a broad range of countries and languages. Drawing on her 
+                  experience in establishing the Red de Humanidades Digitales (RedHD), she will 
+                  discuss the importance of geopolitics in Digital Humanities and the way in 
+                  which the Digital Humanities are particularly equipped to address issues such 
+                  multilingualism, multiculturalism, publishing models and dissemination, 
+                  validation and knowledge construction, community building and collaborative 
+                  projects.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#galina_russell_isabel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-unam"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-10-28" xml:id="ls54_t2_l2">
+              <eventName xml:lang="en">More than the Eye Can See: Digital Humanities Spectral Imaging</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminartoth"/>
+              <note type="abstract" xml:lang="en">
+                <p>Building on advances in imaging technology, teams of specialists have refined spectral 
+                  imaging capabilities and adapted them to meet the needs of cultural heritage and digital 
+                  humanities (DH) research. Proven advanced spectral imaging equipment, techniques and work 
+                  processes have become standardized tools to support cultural heritage studies of 
+                  manuscripts, materials and objects. The University College London and other institutions 
+                  are advancing spectral imaging and digitization capabilities for cultural heritage studies.
+                  Advanced imaging systems allow studies of the overall object, as well as specific key 
+                  areas of interest, with transfer of digital data to DH scholars, curators and conservators
+                  for further evaluation and study.</p>
+                <p>Spectral imaging and digitization now provides important data for study in institutions 
+                  ranging from the ancient library of St. Catherine's Monastery of the Sinai and the Vatican
+                  Apostolic Library to the Petrie Museum, Library of Congress and private collections. 
+                  Wherever they are located and whatever culture they represent, each institution is 
+                  grappling with the challenges of preserving digital information for future generations and 
+                  making it available for free access.</p>
+                <p>Effective spectral imaging requires not just collection of quality images, but the ability 
+                  to manage and exploit large amounts of integrated data and metadata for cultural heritage 
+                  studies. A medium-format monochrome camera takes a series of high-quality digital images, 
+                  each illuminated by a specific wavelength of light from low-heat LED light sources. Digitally
+                  processing and combining the resulting image set can reveal important features on the objects
+                  that are not visible to the eye in natural light. Data management, operation, training, 
+                  information storage and access are required for the collaborative analysis of the images and 
+                  image products from the spectral imaging system. Data collected in standard formats can be 
+                  made available for access and sharing for further analysis. With common standards and 
+                  techniques, this can include collaboration with other DH studies and data. Integration is 
+                  also possible with other standard digital images or data collected with other camera systems 
+                  and scientific instruments, as is being done with mummy masks at UCL.</p>
+                <p>Speaker's bio: Mike integrates and manages new technologies for digital study, access and 
+                  preservation of cultural objects, including in the Walters Art Museum, Bibliothèque Nationale 
+                  de France, and British Library. In partnership with DTEK, Phase One and Equipoise Imaging, he 
+                  is supporting the integration of spectral imaging systems into digital humanities studies and 
+                  institutions.</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#toth_mike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#rbtoth"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-11-25" xml:id="ls54_t2_l3">
+              <eventName xml:lang="en">Design and R&amp;D in Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#oates_george">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#good-form-spectacle-ldt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2015-12-02" xml:id="ls54_t2_l4">
+              <eventName xml:lang="en">Digital Humanities and internet policy: the case of the Translation &amp; 
+                Transliteration of Contact Information PDP Working Group</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dillon_chris">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ucldh"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-01-20" xml:id="ls54_t2_l5">
+              <eventName xml:lang="en">Project planning framework for 3D imaging 
+                in cultural heritage, including 3D image quality assessment</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hess_mona">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-02-03" xml:id="ls54_t2_l6">
+              <eventName xml:lang="en">Acts of being in proxies for prints. People in 
+                the Catalogue of Political and Personal Satires in the British
+                Museum, circa 1770-1830</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#baker_james">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-sussex"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-02-24" xml:id="ls54_t2_l7">
+              <eventName xml:lang="en">MicroPasts: Crowd and community fuelled archaeological
+                research</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pett_daniel">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#british-museum"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-03-01" xml:id="ls54_t2_l8">
+              <eventName xml:lang="en">Ada Lovelace, a scientist in the archives</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#martin_ursula">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-04-27" xml:id="ls54_t2_l9">
+              <eventName xml:lang="en">RITS and Oracc: new tools for editing the world's oldest texts</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#robson_eleanor">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-05-11" xml:id="ls54_t2_l10">
+              <eventName xml:lang="en">From Visualisation to Analysis: Exploring an integrated approach to digital heritage imaging</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#duffy_sarah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-05-18" xml:id="ls54_t2_l11">
+              <eventName xml:lang="en">Scale as Deformance: The Particulars of 'Big Data' in the Humanities Research</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cordell_ryan">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-northeastern"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-07-05" xml:id="ls54_t2_l12">
+              <eventName xml:lang="en">If you give a historian code: Adventures in the Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bauer_jean">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-princeton"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+          </event>
+          <event type="lecture-series-term" from="2016-10" to="2017-05" xml:id="ls54_t3">
+              <eventName/>
+            <event type="lecture" when="2016-10-12" xml:id="ls54_t3_l1">
+              <eventName xml:lang="en">Freedom to constrain: Introducing TEI customisation</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cummings_james">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-10-19" xml:id="ls54_t3_l2">
+              <eventName xml:lang="en">Information Extraction and Semantic Annotation</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vlachidis_andreas">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-11-02" xml:id="ls54_t3_l3">
+              <eventName xml:lang="en">Survey of London: Histories of Whitechapel</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#guillery_peter">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <listPerson>
+                <person role="speaker" corresp="#zaltz_austwick_martin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-11-09" xml:id="ls54_t3_l4">
+              <eventName xml:lang="en">Images of the past. Using digital 3D reconstruction methods for digital 
+                humanities research and education</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#muenster_sander">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-dresden"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-11-23" xml:id="ls54_t3_l5">
+              <eventName xml:lang="en">'Excellence is Bullshit'</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#neylon_cameron">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-curtin"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-12-01" xml:id="ls54_t3_l6">
+              <eventName xml:lang="en">Field Crystallization: How Digital Humanities Is Evolving</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#morgan_paige">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-miami"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2016-12-06" xml:id="ls54_t3_l7">
+              <eventName xml:lang="en">Visualizing the Transcribe Bentham corpus</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ruiz_pablo">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-paris-ens-psl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-01-18" xml:id="ls54_t3_l8">
+              <eventName xml:lang="en">Ephemeral Cities and the Forgotten Past</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kesse_erich">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-city"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-01-25" xml:id="ls54_t3_l9">
+              <eventName xml:lang="en">Knowledge Representation and Research in the Real World</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#oldman_dominic">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#british-museum"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-02-01" xml:id="ls54_t3_l10">
+              <eventName xml:lang="en">Lives of the First World War: Reflection on IWMs' Permanent Digital Memorial</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#long_catherine">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#imperial-war-museum"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-02-08" xml:id="ls54_t3_l11">
+              <eventName xml:lang="en">Natural Historical Archives as Digital Challenge and Opportunity</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#weber_andreas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bonn"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-02-22" xml:id="ls54_t3_l12">
+              <eventName xml:lang="en">Brothers Grimm, Jane Austen and Paulus Orosius have 
+                one thing in common: the eTRAP research team and its DH projects</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#franzini_greta">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-goettingen"/>
+                </person>
+              </listPerson>
+              <listPerson>
+                <person role="speaker" corresp="#franzini_emily">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-goettingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-03-06" xml:id="ls54_t3_l13">
+              <eventName xml:lang="en">In the Caribbean Sea, Dreaming Futures of the Digital
+                and the Humanities</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#taylor_laurie">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-florida"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-03-08" xml:id="ls54_t3_l14">
+              <eventName xml:lang="en">From Busa to Word Formation. Working on language 
+                resources for Latin in Milan</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#litta_eleonora">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-kcl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-03-22" xml:id="ls54_t3_l15">
+              <eventName xml:lang="en">Managing library collections with friends, favours 
+                and a spoonful of sugar</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mendias_claudia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-city"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-03-28" xml:id="ls54_t3_l16">
+              <eventName xml:lang="en">The Hillary Clinton emails: corpus linguistics meets the real world</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#de-felice_rachele">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-05-03" xml:id="ls54_t3_l17">
+              <eventName xml:lang="en">Humanities Crowdsourcing on the Zooniverse Platform</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#van-hyning_victoria">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-05-24" xml:id="ls54_t3_l18">
+              <eventName xml:lang="en">Baseless Data? Developing an ethnographic approach to big data problems</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#knox_hannah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-05-31" xml:id="ls54_t3_l19">
+              <eventName xml:lang="en">Legal Issues in Digital Humanities: Introduction and Where Things Stand</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ketzan_erik">
+                  <name>
+                    <roleName type="title">PhD</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-birkbeck"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+          </event>
+          <event type="lecture-series-term" from="2017-10" to="2018-05" xml:id="ls54_t4">
+              <eventName/>
+            <event type="lecture" when="2017-10-18" xml:id="ls54_t4_l1">
+              <eventName xml:lang="en">Crowdsourcing and commentary with IIIF and W3C web annotations</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#crane_tom">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#digirati"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-11-01" xml:id="ls54_t4_l2">
+              <eventName xml:lang="en">Black Abolitionists and the Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#murray_hannah-rose">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-nottingham"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-11-15" xml:id="ls54_t4_l3">
+              <eventName xml:lang="en">What might a corpus of spoken data tell us about language?</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#wallis_sean">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2017-11-29" xml:id="ls54_t4_l4">
+              <eventName xml:lang="en">British slave-owners of the Caribbean c.1763-c.1860: building a digital history</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mcclelland_keith">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2018-01-17" xml:id="ls54_t4_l5">
+              <eventName xml:lang="en">Integrating Data Science and Digital Humanities: what can possibly go wrong?</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mcgillivray_barbara">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-cambridge"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2018-01-31" xml:id="ls54_t4_l6">
+              <eventName xml:lang="en">Computer vision as critical practice: how digital humanities can teach computers to say what they see</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bergel_giles">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-oxford"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2018-03-21" xml:id="ls54_t4_l7">
+              <eventName xml:lang="en">The heritage of Brexit: role of the past in political identity construction on social media</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bonacchi_chiara">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2018-05-16" xml:id="ls54_t4_l8">
+              <eventName xml:lang="en">Exploring Remote personal touch communication</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#jewitt_carey">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+          </event>
+          <event type="lecture-series-term" from="2018-10" to="2019-06" xml:id="ls54_t5">
+              <eventName/>
+            <event type="lecture" when="2018-10-17" xml:id="ls54_t5_l1">
+              <eventName xml:lang="en">Annotating text and images with Recogito</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vitale_valeria">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2018-11-14" xml:id="ls54_t5_l2">
+              <eventName xml:lang="en">Encoding and Analysis, and Encoding as Analysis, in Textual Editing</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ohge_christopher">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2018-12-05" xml:id="ls54_t5_l3">
+              <eventName xml:lang="en">The Pleasures and Sorrows of digitising primary source collections: The Case of the Daily Mail Atlantic Edition</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#cayley_seth">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#gale-cengage"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2019-02-06" xml:id="ls54_t5_l4">
+              <eventName xml:lang="en">Re-imagining Human Building Interaction</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gen-schieck_ava_fatah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2019-02-26" xml:id="ls54_t5_l5">
+              <eventName xml:lang="en">Enhancing engagement with cultural heritage collections using 3D digital technologies</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rodriguez_echavarria_karina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-brighton"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2019-03-06" xml:id="ls54_t5_l6">
+              <eventName xml:lang="en">Balancing openness and closure in early modern correspondence networks</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#van-vugt_ingeborg">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-pisa-sns"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2019-05-01" xml:id="ls54_t5_l7">
+              <eventName xml:lang="en">Post-disaster strategies at the National Museum/Federal University of Rio de Janeiro</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#serejo_cristiana">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rio"/>
+                </person>
+              </listPerson>
+              <listPerson>
+                <person role="speaker" corresp="#pereira_edmundo">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rio"/>
+                </person>
+              </listPerson>
+              <listPerson>
+                <person role="speaker" corresp="#medeiros-e-sa_asla">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-rio"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+          </event>
+          <event type="lecture-series-term" from="2019-10" to="2020-02" xml:id="ls54_t6">
+              <eventName/>
+            <event type="lecture" when="2019-10-09" xml:id="ls54_t6_l1">
+              <eventName xml:lang="en">University – Industry Partnerships / Open Scholarship</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#siemens_ray">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-victoria"/>
+                </person>
+              </listPerson>
+              <listPerson>
+                <person role="speaker" corresp="#siemens_lynne">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-victoria"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2019-11-20" xml:id="ls54_t6_l2">
+              <eventName xml:lang="en">Cataloguing and Mapping Cross Border Responses to the West Russian Famine of 1868/9</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#khan_nathan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2020-01-22" xml:id="ls54_t6_l3">
+              <eventName xml:lang="en">Personalised museum experiences driven by date-based association discovery</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vlachidis_andreas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2020-01-29" xml:id="ls54_t6_l4">
+              <eventName xml:lang="en">City-craft and Statecraft: The role of data in spatialising the Myth of Venice and Humanist Urban Culture</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#psarra_sophia">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2020-02-05" xml:id="ls54_t6_l5">
+              <eventName xml:lang="en">Digital geo-spatial inventories along the Silk Roads of Central Asia</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
+              <note type="abstract">
+                <p>not found</p>
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#williams_tim">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <listPerson>
+                <person role="speaker" corresp="#jorayev_gaygysyz">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+          </event>
+          <event type="lecture-series-term" from="2021-01" to="2021-06" xml:id="ls54_t7">
+              <eventName/>
+            <event type="lecture" when="2021-01-27" xml:id="ls54_t7_l1">
+              <eventName xml:lang="en">From Engagement to Retreat? Historians and Digital Preservation 1968-2003</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/jan/ucldh-online-engagement-retreat-historians-and-digital-preservation-1968-2003"/>
+              <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/54356"/>
+              <note type="abstract" xml:lang="en">
+                <p>Ian Milligan (Uni of Waterloo) explores the relationship between historians and 
+                  born-digital primary sources between 1968 and 2003.</p>
+                <p>Despite the professional caricature of historians being uninterested in technology,
+                  historians have had a long track record of engaging with born-digital sources. 
+                  This has necessarily involved critical conversations around digital preservation 
+                  and access. These early encounters were driven by a wave of digitally-aware
+                  historians in the 1960s and 1970s, who were then then relatively central within the 
+                  historical profession. The interdisciplinary journal Computers and the Humanities 
+                  was established in 1966, and indeed, by 1970 the prospects for “computer-assisted 
+                  historical projects” suggested the possibility of a wholescale transformation of the 
+                  discipline. This current peaked in the 1970s and early 1980s.</p>
+                <p>At the same time, archivists and librarians were exploring digital preservation in
+                  earnest. During these first conversations about electronic records, historians
+                  played a prominent role at the table, helping to shape the conversation. This 
+                  interdisciplinary engagement helped to shape early digital preservation efforts. 
+                  Conversations would continue into the web age, with impact on this turn to networked 
+                  information. By the mid-1990s, a small group of economic historians – tracing their 
+                  lineage back to these early encounters – would help underscore the need for digital 
+                  preservation and source stewardship. Their arguments presaged contemporary ones 
+                  around computational history, forming an essential part of the historical context 
+                  for any history of the digital humanities in general and digital history 
+                  specifically. Yet, by the late 1990s (with some exceptions), historians largely 
+                  disappeared from the conversation – unfortunately at a time when they were needed 
+                  more than ever.</p>
+                <p>In this presentation, part of my broader project “Averting the Digital Dark Age,”
+                  I explore the relationship between historians and born-digital primary sources
+                  between 1968 and 2003. Electronic records, to these historians, imperilled society’s 
+                  collective memory. What was to be done?</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+                <person role="speaker" corresp="#milligan_ian">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-waterloo"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+            </event>
+            <event type="lecture" when="2021-02-09" xml:id="ls54_t7_l2">
+              <eventName xml:lang="en">Digital Humanities Against Enclosure</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/feb/ucldh-online-digital-humanities-against-enclosure"/>
+              <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/54356"/>
+              <note type="abstract">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#johnson_jessica-marie">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-johns-hopkins"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
+            </event>
+            <event type="lecture" when="2021-02-23" xml:id="ls54_t7_l3">
+              <eventName xml:lang="en">Digital Humanities &amp; Spatial History: Atlantic World Stories</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/feb/ucldh-online-digital-humanities-spatial-history-atlantic-world-stories"/>
+              <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/57208"/>
+              <note type="abstract" xml:lang="en">
+                <p>Zephyr Frank (Stanford University) describes and discusses a series of DH projects
+                  that have developed at CESTA and have addressed major issues in the history of the
+                  Atlantic World, including slavery and the experience of enslaved and freed persons
+                  in particular.</p>
+                <p>The paper describes and discusses a series of DH projects that have developed at 
+                  CESTA and have addressed major issues in the history of the Atlantic World, 
+                  including slavery and the experience of enslaved and freed persons in particular.</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#frank_zephyr">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-stanford"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
+            </event>
+            <event type="lecture" when="2021-03-10" xml:id="ls54_t7_l4">
+              <eventName xml:lang="en">Multilingual Publishing in Digital Humanities</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/mar/ucldh-online-multilingual-publishing-digital-humanities"/>
+              <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/59506"/>
+              <note type="abstract">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#quiroga_riva">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#programming-historian"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
+            </event>
+            <!-- Hier weiter -->
+            <event type="lecture" when="2021-04-13" xml:id="ls54_t7_l5">
+            </event>
+            <event type="lecture" when="2021-04-27" xml:id="ls54_t7_l6">
+            </event>
+            <event type="lecture" when="2021-05-12" xml:id="ls54_t7_l7">
+            </event>
+            <event type="lecture" when="2021-05-26" xml:id="ls54_t7_l8">
+            </event>
+            <event type="lecture" when="2021-06-09" xml:id="ls54_t7_l9">
+            </event>
+            <event type="lecture" when="2021-06-22" xml:id="ls54_t7_l10">
+            </event>
+          </event>
+          <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls54_t8">
+              <eventName/>
+            <event type="lecture" when="2022-03-10" xml:id="ls54_t8_l1">
+            </event>
+            <event type="lecture" when="2022-04-07" xml:id="ls54_t8_l2">
+            </event>
+            <event type="lecture" when="2022-04-21" xml:id="ls54_t8_l3">
+            </event>
+            <event type="lecture" when="2022-05-05" xml:id="ls54_t8_l4">
+            </event>
+            <event type="lecture" when="2022-05-19" xml:id="ls54_t8_l5">
+            </event>
+            <event type="lecture" when="2022-06-02" xml:id="ls54_t8_l6">
+            </event>
           </event>
         </event>
         <!-- ##### Spain ##### -->
