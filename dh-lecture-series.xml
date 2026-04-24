@@ -50298,6 +50298,251 @@
                 eingeladen.</p>
             </note>
 
+            <event type="lecture" when="2024-04-24" xml:id="ls49_t7_l1">
+              <eventName xml:lang="de">Nicht-Wissen modellieren und visualisieren – interdisziplinäre Perspektiven auf Datenlücken und unsichere Daten</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#barget_monika">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-maastricht #uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-05-15" xml:id="ls49_t7_l2">
+              <eventName xml:lang="en">Doing Collaborative Public Digital History</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kelly_mills">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-fairfax #uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-05-22" xml:id="ls49_t7_l3">
+              <eventName xml:lang="de">Digitale 3D-Rekonstruktionen ostmitteleuropäischer Synagogen in der Lehre: Ein dezentrales und interdisziplinäres Joint Lab im virtuellen Raum</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lutteroth_jan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-05" xml:id="ls49_t7_l4">
+              <eventName xml:lang="de">Zur Sentiment-Analyse mittelhochdeutscher Texte</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dimpel_friedrich_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen #uni-nuernberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-12" xml:id="ls49_t7_l5">
+              <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im digitalen Raum</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klemstein_franziska">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-19" xml:id="ls49_t7_l6">
+              <eventName xml:lang="de">Vom Regenwald auf den Bildschirm: Digitale Ansätze zur Erforschung der antiken Maya-Schrift</eventName>
+              <ptr type="programme" target="https://www.digitale-methodik.uni-mainz.de/wp-content/uploads/sites/522/2025/04/Abstract_CV_Prager.pdf"/>
+              <note type="abstract" xml:lang="de">
+              <p> Die „Textdatenbank und Wörterbuch des Klassischen Maya“ ist eine innovative digitale
+                  Ressource, die ein umfassendes Archiv mit der systematischen Analyse der alten MayaSchrift und der ihr zugrunde liegenden Sprache verbindet. Die Nordrhein-Westfälische
+                  Akademie der Wissenschaften und der Künste hat 2014 die Förderung des langfristig
+                  angelegten Forschungsprojekts beschlossen, das von Nikolai Grube geleitet und von
+                  Projektkoordinator Christian Prager an der Universität Bonn betreut wird. Ziel des Projekts
+                  ist der Aufbau einer Online-Datenbank aller bekannten Hieroglyphentexte, die Bilder von
+                  Originalinschriften mit ihren Transliterationen und Transkriptionen integriert und diese zu
+                  einem umfangreichen korpusbasierten Wörterbuch des Klassischen Maya zusammenstellt.</p>
+              <p> Das Projekt nutzt und entwickelt modernste Technologien und Infrastrukturen aus den
+                  Bereichen Digital Humanities und Epigraphik weiter. Aufgebaut in der virtuellen
+                  Forschungsumgebung TextGrid, werden die Beschreibungen der Textmedien, ihre
+                  Transliterationen, Transkriptionen und Übersetzungen im XML/TEI-Format generiert und
+                  verwaltet. Im Zentrum steht das Maya-Bildarchiv als Repository für Fotografien und
+                  Zeichnungen von Hieroglyphentexten, die in über 150 Jahren Maya-Forschung entstanden
+                  sind. Ein Editor-Tool verknüpft die abgebildeten Glyphen in den Bilddateien mit ihren
+                  Transliterationen, die auf einer aktualisierten und erweiterten Version von Eric Thompsons
+                  Zeichenkatalog der Maya-Hieroglyphen beruhen. Ein weiteres Tool unterstützt die
+                  halbautomatische, phonemische Transkription und linguistische Analyse der numerischen
+                  Transliterationen und bildet die Grundlage für das Wörterbuch. Zudem wird 3DScantechnologie eingesetzt, um ansonsten unlesbare Maya-Inschriften wieder zum Sprechen
+                  zu bringen. Dieser Vortrag gibt einen umfassenden Überblick über das Projekt und zeigt, wie
+                  die angewandten Technologien unser Verständnis der Maya-Schrift wesentlich verbessern.</p> </note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#prager_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bonn"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-26" xml:id="ls49_t7_l7">
+              <eventName xml:lang="de">Musik modellieren: Von der Schwierigkeit, das Unsichtbare sichtbar zu machen</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#richts-matthaei_kristina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-07-03" xml:id="ls49_t7_l8">
+              <eventName xml:lang="de">Herausforderungen der Bildforschung zu Social Media-Bildkulturen </eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pratschke_margarete">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-hu"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-12" xml:id="ls49_t7_l9">
+              <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im digitalen Raum</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klemstein_franziska">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
             <!-- 2024-04-24 -->
 
 
