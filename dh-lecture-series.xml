@@ -49789,7 +49789,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#berlin"/>
+                  <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50070,36 +50070,9 @@
                 corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
             </event>
             
-            <event type="lecture" when="2021-06-02" xml:id="ls49_t4_l4">
-              <eventName xml:lang="de">Originale. Digital Meets Humanities</eventName>
-              <ptr type="programme" target="..."/>
-              <note type="abstract" xml:lang="de">
-                <p>(Vorstellung der Praxisprojekte des Winter 2019/20)</p>
-                  <p>Ausnahmsweise über gather.town und nur für Studierende des Master Digitale Methodik und geladene Gäste.</p>
-              </note>
-              <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="...">
-                  <name>
-                    <roleName type="title">...</roleName>
-                  </name>
-                  <affiliation corresp="..."/>
-                </person>
-              </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
-            </event>
-            <!-- ls49_t4_l4 only for students and invited guests, no speaker -->
-            
-            <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
+            <!-- lecture 2021-06-02 only for students and invited guests, no speaker -->
+           
+              <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
               <eventName xml:lang="de">Digitale Heraldik als transdisziplinäres Experimentierfeld zwischen Kulturgeschichte, Hilfswissenschaften und Digital Humanities</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
@@ -50267,6 +50240,8 @@
                 Gäste, die in Präsenz oder digital teilnehmen möchten um vorherige Anmeldung
                 gebeten.</p>
             </note>
+            
+            <!-- not clear if speech in person or online for each lecture, that's why "in person" was used everytime -->
 
             <!-- 2022-05-04 -->
             <!-- 2022-05-11 -->
