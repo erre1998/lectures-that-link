@@ -2083,6 +2083,24 @@
             <idno type="ror">https://ror.org/00za53h95</idno>
             <place corresp="#baltimore"/>
           </org>
+          <org xml:id="uni-texas-aandm" type="university">
+            <name xml:lang="en">Texas A&amp;M University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q49212</idno>
+            <idno type="ror">https://ror.org/01f5ytq51</idno>
+            <place corresp="#college-station"/>
+          </org>
+          <org xml:id="uni-salem-state" type="university">
+            <name xml:lang="en">Salem State University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3695750</idno>
+            <idno type="ror">https://ror.org/023qmza96</idno>
+            <place corresp="#salem"/>
+          </org>
+          <org xml:id="uni-mount-royal" type="university">
+            <name xml:lang="en">Mount Royal University</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q13650869</idno>
+            <idno type="ror">https://ror.org/04evsam41</idno>
+            <place corresp="#calgary"/>
+          </org>
           <!-- ##### Research Institutions ##### -->
           <org xml:id="brg" type="research_institution">
             <name xml:lang="de">Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)</name>
@@ -2560,6 +2578,12 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q7864060</idno>
             <place corresp="#london"/>
           </org>
+          <org xml:id="iit-indore" type="research_institution">
+            <name xml:lang="en">Indian Institute of Technology Indore</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q6020729</idno>
+            <idno type="ror">https://ror.org/01hhf7w52</idno>
+            <place corresp="#indore"/>
+          </org>
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <org xml:id="gallery-Kunsttempel" type="glam">
@@ -2719,6 +2743,18 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q65558413</idno>
             <!-- No ROR ID found -->
             <place corresp="#miami"/>
+          </org>
+          <org xml:id="library-uni-carnegie-mellon" type="glam">
+            <name xml:lang="en">Carnegie Mellon University Libraries</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q104716530</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#pittsburgh"/>
+          </org>
+          <org xml:id="library-uni-colorado-boulder" type="glam">
+            <name xml:lang="en">University of Colorado Boulder Libraries</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q58036452</idno>
+            <idno type="ror">https://ror.org/02ttsq026</idno>
+            <place corresp="#boulder"/>
           </org>
           <!-- ####### A ####### -->
           <org xml:id="archive-salzburg" type="glam">
@@ -14886,6 +14922,105 @@
             <idno type="orcid">https://orcid.org/0000-0002-1147-4135</idno>
             <!-- No Wikidata ID found -->
           </person>
+          <person xml:id="dombrowski_quinn">
+            <name>
+              <forename>Quinn</forename>
+              <surname>Dombrowski</surname>
+            </name>
+            <gender>non-binary</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5802-6623</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q111994727</idno>
+          </person>
+          <person xml:id="weingart_scott">
+            <name>
+              <forename>Scott</forename>
+              <surname>Weingart</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4802-1364</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57430662</idno>
+          </person>
+          <person xml:id="eichmann-kalwara_nickoal">
+            <name>
+              <forename>Nickoal</forename>
+              <surname>Eichmann-Kalwara</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8851-852X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57434253</idno>
+          </person>
+          <person xml:id="earhart_amy">
+            <name>
+              <forename>Amy E.</forename>
+              <surname>Earhart</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6090-674X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57421819</idno>
+          </person>
+          <person xml:id="schafer_valérie">
+            <name>
+              <forename>Valérie</forename>
+              <surname>Schafer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8204-1265</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q24046107</idno>
+          </person>
+          <person xml:id="pawlicka-deger_urszula">
+            <name>
+              <forename>Urszula</forename>
+              <surname>Pawlicka-Deger</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-2626-4675</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112493315>
+          </person>
+          <person xml:id="menon_nirmala">
+            <name>
+              <forename>Nirmala</forename>
+              <surname>Menon</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0150-5249</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="parker_grant">
+            <name>
+              <forename>Grant</forename>
+              <surname>Parker</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9672-2208</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16197154</idno>
+          </person>
+          <person xml:id="pålsson-ale">
+            <name>
+              <forename>Ale</forename>
+              <surname>Pålsson</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3883-867X</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="risam_roopika">
+            <name>
+              <forename>Roopika</forename>
+              <surname>Risam</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0742-7352</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q59159764</idno>
+          </person>
+          <person xml:id="loyer_jessie">
+            <name>
+              <forename>Jessie</forename>
+              <surname>Loyer</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1172-1458</idno>
+            <!-- No Wikidata ID found -->
+          </person>
         </listPerson>
       </particDesc>
       <settingDesc>
@@ -15027,6 +15162,10 @@
           <place type="country" xml:id="israel">
             <bloc type="continent" corresp="#asia"/>
             <name>Israel</name>
+          </place>
+          <place type="country" xml:id="india">
+            <bloc type="continent" corresp="#asia"/>
+            <name>India</name>
           </place>
           <!-- ###### Continent: Oceania ###### -->
           <place type="country" xml:id="australia">
@@ -16261,6 +16400,12 @@
             <name>Hong Kong</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7004542</idno>
           </place>
+          <!-- ######## Indian cities ######## -->
+          <place type="city" xml:id="indore">
+            <country corresp="#india"/>
+            <name>Indore</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7001543</idno>
+          </place>
           <!-- ######## City-states #### -->
           <place type="city" xml:id="singapore-city">
             <country corresp="#singapore"/>
@@ -16520,6 +16665,26 @@
             <name>Balimore</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013352</idno>
           </place>
+          <place type="city" xml:id="pittsburgh">
+            <country corresp="#usa"/>
+            <name>Pittsburgh</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013927</idno>
+          </place>
+          <place type="city" xml:id="boulder">
+            <country corresp="#usa"/>
+            <name>Boulder</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013446</idno>
+          </place>
+          <place type="city" xml:id="college-station">
+            <country corresp="#usa"/>
+            <name>College Station</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013634</idno>
+          </place>
+          <place type="city" xml:id="salem">
+            <country corresp="#usa"/>
+            <name>Salem</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7014447</idno>
+          </place>
           <!-- ######## Canadian cities ######## -->
           <place type="city" xml:id="toronto">
             <country corresp="#canada"/>
@@ -16550,6 +16715,11 @@
             <country corresp="#canada"/>
             <name>Waterloo</name>
             <idno type="gnd">https://d-nb.info/gnd/4140559-6</idno>
+          </place>
+          <place type="city" xml:id="calgary">
+            <country corresp="#canada"/>
+            <name>Calgary</name>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013012</idno>
           </place>
           <!-- ######## Mexican cities ######## -->
           <place type="city" xml:id="mexico-city">
@@ -64106,31 +64276,419 @@
             </event>
             <!-- Hier weiter -->
             <event type="lecture" when="2021-04-13" xml:id="ls54_t7_l5">
+              <eventName xml:lang="en">Humanités numériques, цифровые гуманитарные науки, デジタル・ヒューマニティーズ: 
+                Histories and Futures of Linguistic Diversity in DH</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-histories-and-futures-linguistic-diversity-dh-rescheduled"/>
+              <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/61740"/>
+              <note type="abstract" xml:lang="en">
+                <p>International, interdisciplinary spaces are inevitably sites of tension,
+                  where differences in linguistic and cultural norms run deeper than 
+                  they initially appear. Establishing and maintaining a set of norms
+                  for a community to operate despite these differences requires 
+                  ongoing dialogue within that community. This talk will reflect on 
+                  language as one longstanding axis of diversity within digital 
+                  humanities as it is carried out at the international level, as well
+                  as within different national contexts. This context will inform a
+                  frank discussion of the ways in which a general obliviousness 
+                  towards languages commonly found in Anglophone countries has 
+                  negatively impacted Anglophone scholars' research, pedagogy, and 
+                  engagement with the broader field of DH. The talk will conclude 
+                  with actionable steps that scholars, particularly in Anglophone 
+                  countries, can take towards embracing language as an important axis
+                  of diversity.</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#dombrowski_quinn">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-stanford"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2021-04-27" xml:id="ls54_t7_l6">
+              <eventName xml:lang="en">A Look Backwards Through the Index of DH Conferences</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-look-backwards-through-index-dh-conferences"/>
+              <ptr type="video" target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-look-backwards-through-index-dh-conferences"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraphs about the speakers? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#weingart_scott">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#library-uni-carnegie-mellon"/>
+              </person>
+              <person role="speaker" corresp="#eichmann-kalwara_nickoal">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="library-uni-colorado-boulder"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2021-05-12" xml:id="ls54_t7_l7">
+              <eventName xml:lang="en">Complicating the whiteness of Digital Humanities: The Deep History of Black DH</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-complicating-whiteness-digital-humanities-deep-history-black-dh"/>
+              <ptr type="video" target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-complicating-whiteness-digital-humanities-deep-history-black-dh"/>
+              <note type="abstract" xml:lang="en">
+                <p>Amy E. Earhart (Texas A&amp;M University) will document a deep dig
+                  into the ecology of digital humanities, centering Black DH work
+                  in the field.</p>
+                <p>While projects focused on Black culture, texts and artifacts are
+                  not as rare as they once were there remains a lack of 
+                  understanding of the rich and deep histories of Black DH and its 
+                  impact on the field. Sharon Leon’s foundation chapter, 
+                  “Complicating a ‘Great Man’ Narrative of Digital History in the 
+                  United States,” serves as a model of the necessary documentation 
+                  that scholars must compile of alternative histories of digital
+                  humanities. Accordingly, this talk will document a deep dig into
+                  the ecology of digital humanities, centering Black DH work in the 
+                  field. Among the scholars’ work discussed will be Abduhl 
+                  Alkalimat, creator of e-black studies, Bryan Carter, Virtual 
+                  Harlem, Marilyn Miller Thomas-Houston, iBlack Studies and
+                  co-editor of the multi-media journal Fire!!, Ronald Bailey, 
+                  who developed www.dignubia.org and www.nubianet.org and Afro 
+                  Publishing without Walls, and Maryemma Graham, History of Black 
+                  writing. An ongoing project, I am conducting interviews with such
+                  foundational Black dh scholars to better understand their 
+                  contributions to the field.</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#earhart_amy">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-texas-aandm"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2021-05-26" xml:id="ls54_t7_l8">
+              <eventName xml:lang="en">The Web Archives Long View</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-web-archives-long-view"/>
+              <ptr type="video" target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-web-archives-long-view"/>
+              <note type="abstract" xml:lang="en">
+                <p>UCLDH are delighted to welcome Valérie Schafer (U. of Luxembourg) 
+                  and Jane Winters (School of Advanced Study, UoL) for their views on
+                  the topic of born-digital heritage and in particular of web archives
+                  in context.</p>
+                <p>This research seminar aims to explicitly consider that research 
+                  happens in context. This presentation proposes to address the 
+                  topic of born-digital heritage and in particular of web archives
+                  in context. It aims to question the past, present and future 
+                  paths of research based on the plethora of born-digital sources 
+                  that developed from the mid-1990s. Analysis of web archives 
+                  requires both taking into account the very shaping of these 
+                  archives - e.g. web archiving in context - and placing research 
+                  on these web archives in context, from the early studies of the
+                  2000s which focused on the nature of web archives themselves 
+                  and the methods for studying them to current research that 
+                  takes them as sources for exploring digital cultures. Thus, 
+                  the first two parts of our presentation, devoted respectively 
+                  to the history of web archiving and of web archives in research,
+                  will explore the multiple contextual elements at work. These
+                  may be related to the Web itself and its evolution, to 
+                  institutional policies, or to crawling and analysis tools, and
+                  understanding them is crucial for addressing the current and 
+                  future challenges that will arise for researchers, whether they 
+                  concern transnational approaches, ethical issues or a claim for
+                  enhanced contextualization. In conclusion we will broaden the 
+                  question to digital humanities, and consider why web archive 
+                  studies have remained relatively marginalised in digital 
+                  humanities discourse.</p>
+                <!-- Include paragraphs about the speakers? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#schafer_valérie">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#c2dh"/>
+              </person>
+              <person role="speaker" corresp="#winters_jane">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-london"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2021-06-09" xml:id="ls54_t7_l9">
+              <eventName xml:lang="en">Uncovering Digital History’s forgotten roots</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/jun/cancelled-uncovering-digital-historys-forgotten-roots"/>
+              <!-- Event got cancelled and could not be rescheduled -->
             </event>
             <event type="lecture" when="2021-06-22" xml:id="ls54_t7_l10">
+              <eventName xml:lang="en">Laboratory Life in the Humanities: Computation, Criticism &amp; Collaboration</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/jun/ucldh-online-laboratory-life-humanities-computation-criticism-collaboration"/>
+              <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/66892"/>
+              <note type="abstract" xml:lang="en">
+                <p>The Digital Humanities have profoundly altered the way that 
+                  humanities scholars work, research, and teach. While the 
+                  introduction of computational methods, from GIS, to Digital 
+                  Archives, to Text Mining, have opened up new fields to 
+                  practitioners, these fields have also changed the social fabric
+                  of the humanities. Although the myth of the lone scholar,
+                  toiling away in their office, or in the archives, remains deeply
+                  embedded in the psyche of the discipline, the growing influence 
+                  of the Digital Humanities has begun to offer scholars other 
+                  opportunities for research work and teaching. Not only are our
+                  new methods collaborative by nature, they are often 
+                  collaborative by necessity, frequently requiring us to work in 
+                  teams that can leverage different experience and skills towards 
+                  a set of research goals.</p>
+                <p>In this talk, I want to explore the ramifications of this shift
+                  in research practice, focusing on the sociology of the 
+                  humanities lab, as distinct from both the science laboratory,
+                  and the traditional practices of History, Classics, Philosophy,
+                  Cultural Studies, and Literary Study. How has the collaborative 
+                  nature of our work altered the kinds of research that we can 
+                  produce? How has interdisciplinary cooperation challenged ideas 
+                  of evidence, method and results in the humanities? How has the
+                  collaborative model of research changed our pedagogy? What new 
+                  kinds of equality, and inequality, between faculty, staff and 
+                  students, has this change enabled? And what does it mean to work
+                  collaborative in fields whose institutional structures persist 
+                  in disincentivizing collaboration? Drawing on my own experience
+                  working at, and directing, the Stanford Literary Lab, an ongoing
+                  collaborative research group that is celebrating its 10th 
+                  anniversary this year, I want to focus on the outstanding
+                  questions that we are only now beginning to address around this
+                  radical shift in the humanities.</p>
+                <!-- Include paragraphs about the speakers? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#algee-hewitt_mark">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-stanford"/>
+              </person>
+              <person role="speaker" corresp="#pawlicka-deger_urszula">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-london-kcl"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
           </event>
           <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls54_t8">
               <eventName/>
             <event type="lecture" when="2022-03-10" xml:id="ls54_t8_l1">
+              <eventName xml:lang="en">Decolonizing Knowledge Infrastructures: Open Access &amp; Multilingual Scholarly Publishing</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2022/mar/ucldh-online-decolonizing-knowledge-infrastructures-open-access-multilingual"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#menon_nirmala">
+                <name>
+                  <roleName type="title">Prof. Dr.</roleName>
+                </name>
+                <affiliation corresp="#iit-indore"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-uppsala"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-04-07" xml:id="ls54_t8_l2">
+              <eventName xml:lang="en">Curating enslaved pasts of the Cape of Good Hope</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2022/apr/ucldh-online-curating-enslaved-pasts-cape-good-hope"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#parker_grant">
+                <name>
+                  <roleName type="title">Prof. Dr.</roleName>
+                </name>
+                <affiliation corresp="#uni-stanford"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-uppsala"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-04-21" xml:id="ls54_t8_l3">
+              <eventName xml:lang="en">SWECARCOL. Swedish Caribbean Colonialism 1784–1878: Caribbean Digital History</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2022/apr/ucldh-online-swecarcol-swedish-caribbean-colonialism-1784-1878-caribbean-digital"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#pålsson-ale">
+                <name>
+                  <roleName type="title">Dr.</roleName>
+                </name>
+                <affiliation corresp="#uni-uppsala"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-uppsala"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-05-05" xml:id="ls54_t8_l4">
+              <eventName xml:lang="en">Transnational Digital Humanities in the Digital Black Atlantic</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2022/may/ucldh-online-transnational-digital-humanities-digital-black-atlantic"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#risam_roopika">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-salem-state"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-uppsala"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-05-19" xml:id="ls54_t8_l5">
+              <eventName xml:lang="en">Central Asia and the role of digital heritage inventories</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2022/may/ucldh-online-central-asia-and-role-digital-heritage-inventories"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#williams_tim">
+                <name>
+                  <roleName type="title">Prof.</roleName>
+                </name>
+                <affiliation corresp="#uni-london-ucl"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-uppsala"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-06-02" xml:id="ls54_t8_l6">
+              <eventName xml:lang="en">Indigenous relationality in digital spaces</eventName>
+              <ptr type="programme"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2022/jun/ucldh-online-indigenous-relationality-digital-spaces"/>
+              <note type="abstract" xml:lang="en">
+                <p>not found</p>
+                <!-- Include paragraph about the speaker? -->
+              </note>
+              <note type="keywords">
+                <term type="discipline" corresp="..."/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <person role="speaker" corresp="#loyer_jessie">
+                <name>
+                  <roleName type="title">not found</roleName>
+                </name>
+                <affiliation corresp="#uni-mount-royal"/>
+              </person>
+              </listPerson>
+              <org role="host-institution" corresp="#uni-london-ucl"/>
+              <org role="host-institution" corresp="#uni-uppsala"/>
+              <org role="host-institution" corresp="#uni-stanford"/>
             </event>
           </event>
         </event>
