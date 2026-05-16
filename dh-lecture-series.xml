@@ -1913,7 +1913,7 @@
             <name xml:lang="en">Maastricht University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1137652</idno>
             <idno type="ror">https://ror.org/02jz4aj89</idno>
-            <place corresp="#maastrich"/>
+            <place corresp="#maastricht"/>
           </org>
           <org xml:id="uni-konstanz" type="university">
             <name xml:lang="de">Universität Konstanz</name>
@@ -16088,9 +16088,9 @@
             <name>Amsterdam</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006952</idno>
           </place>
-          <place type="city" xml:id="maastrich">
+          <place type="city" xml:id="maastricht">
             <country corresp="#netherlands"/>
-            <name>Maastrich</name>
+            <name>Maastricht</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006862</idno>
           </place>
           <!-- ######## Croatian cities ######## -->
@@ -50341,7 +50341,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-fairfax #uni-mainz"/>
+                  <affiliation corresp="#uni-george-mason #uni-mainz"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50366,7 +50366,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-mainz"/>
+                  <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50391,7 +50391,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-erlangen #uni-nuernberg"/>
+                  <affiliation corresp="#uni-erlangen-nuernberg"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50416,7 +50416,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-mainz"/>
+                  <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50487,7 +50487,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-mainz"/>
+                  <affiliation corresp="#adw-mainz"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50519,8 +50519,8 @@
                 corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
             </event>
 
-            <event type="lecture" when="2024-06-12" xml:id="ls49_t7_l9">
-              <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im digitalen Raum</eventName>
+            <event type="lecture" when="2024-07-10" xml:id="ls49_t7_l9">
+              <eventName xml:lang="de">Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50533,28 +50533,16 @@
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#klemstein_franziska">
+                <person role="speaker" corresp="#loist_skadi">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-mainz"/>
+                  <affiliation corresp="#uni-potsdam-babelsberg"/>
                 </person>
               </listPerson>
               <org role="host-institution"
                 corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
             </event>
-            <!-- 2024-04-24 -->
-
-
-            <!-- 2024-05-15 -->
-            <!-- 2024-05-22 -->
-
-            <!-- 2024-06-05 -->
-            <!-- 2024-06-12 -->
-            <!-- 2024-06-19 Vom Regenwald auf den Bildschirm: Digitale Ansätze zur Erforschung der antiken Maya-Schrift -->
-            <!-- 2024-06-26 Musik modellieren: Von der Schwierigkeit, das Unsichtbare sichtbar zu machen -->
-            <!-- 2024-07-03 -->
-            <!-- 2024-07-10 Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“ -->
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
