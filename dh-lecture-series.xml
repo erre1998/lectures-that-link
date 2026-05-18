@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -50243,18 +50242,232 @@
             </note>
             
             <!-- not clear if speech in person or online for each lecture, that's why "in person" was used everytime -->
+            
+            <event type="lecture" when="2022-05-04" xml:id="ls49_t5_l1">
+              <eventName xml:lang="de">Digital Humanities als Synergie: TEI, Bildannotation und IIIF im Graphkontext</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gruentgens_max">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-05-11" xml:id="ls49_t5_l2">
+              <eventName xml:lang="de">Kopie oder Original? Die kulturelle Überlieferung im Zeitalter der digitalen Reproduzierbarkeit</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#staecker_thomas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ulb-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
 
-            <!-- 2022-05-04 -->
-            <!-- 2022-05-11 -->
-            <!-- 2022-05-18 -->
-            <!-- 2022-05-25 -->
-            <!-- 2022-06-08 -->
-            <!-- 2022-06-15 -->
-
-            <!-- 2022-06-29 -->
-            <!-- 2022-07-06 -->
-            <!-- 2022-07-13 -->
-
+            <event type="lecture" when="2022-05-18" xml:id="ls49_t5_l3">
+              <eventName xml:lang="de">Computationelle Literaturwissenschaft: Der hermeneutische Zirkel als Input-Process-Output-System</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gius_evelyn">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-05-25" xml:id="ls49_t5_l4">
+              <eventName xml:lang="de">Modelle zur computergestützen Analyse von Überlieferung der Mensuralmusik</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#plaksin_anna">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-06-08" xml:id="ls49_t5_l5">
+              <eventName xml:lang="de">Gute Freunde kann niemand trennen… Zur Unzertrennlichkeit von Daten und Partnern in der Gemeinsamen Normdatei (GND)</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#koeppl_chantal">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#dnb-ffm"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-06-15" xml:id="ls49_t5_l6">
+              <eventName xml:lang="de">Sprachwandel digital: Möglichkeiten und Herausforderungen historischer Korpora</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zehentner_eva">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-zuerich"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-06-29" xml:id="ls49_t5_l7">
+              <eventName xml:lang="de">Verstehen und Missverstehen mit Modellen der maschinellen Sprachverarbeitung</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roth_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stuttgart"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-07-06" xml:id="ls49_t5_l8">
+              <eventName xml:lang="de">Einführung in das Urheberrecht in der Musik</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#brandhorst_juergen">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#gema"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-07-13" xml:id="ls49_t5_l9">
+              <eventName xml:lang="de">»Werck der Bücher« – Experiment und Mustererkennung als Zugänge zur frühen Druckgeschichte</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#weichselbaumer_nikolaus">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -50273,16 +50486,231 @@
                 eingeladen.</p>
             </note>
 
-            <!-- 2023-04-26 -->
-            <!-- 2023-05-03 -->
-            <!-- 2023-05-10 -->
-            <!-- 2023-05-24 -->
-            <!-- 2023-05-31 -->
-            <!-- 2023-06-14 -->
-            <!-- 2023-06-21 -->
-            <!-- 2023-06-28 -->
-            <!-- 2023-07-05 -->
-
+            <event type="lecture" when="2023-04-26" xml:id="ls49_t6_l1">
+              <eventName xml:lang="de">Poststandardisierung - Orthographien, Encodings und Formate im Wandel der Mediengeschichte</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hoenen_armin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-frankfurt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-03" xml:id="ls49_t6_l2">
+              <eventName xml:lang="de">Zur Geschichte der KI</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vater_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-10" xml:id="ls49_t6_l3">
+              <eventName xml:lang="de">6.000 Jahre Buchführung in 3D: Digitalisierung und Analyse von Schrift- und Bildträgern</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mara_hubert">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-halle-wittenberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-24" xml:id="ls49_t6_l4">
+              <eventName xml:lang="de">Kritische Software bauen: digitale Werkzeuge jenseits statistischer Wahrheit</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roidl_alexander">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz-haw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-31" xml:id="ls49_t6_l5">
+              <eventName xml:lang="de">Forschungsdaten, Visualisierungen und blinde Flecken in der digitalen Filmgeschichtsschreibung</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dang_sarah-mai">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-marburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-06-14" xml:id="ls49_t6_l6">
+              <eventName xml:lang="de">Hackathons, Barcamps, Booksprints und Verwandte - Formate des kollaborativen Lernens und Arbeitens in den digitalen Geistes- und Kulturwissenschaften</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#heller_lambert">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#tib"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-06-21" xml:id="ls49_t6_l7">
+              <eventName xml:lang="en">Data modelling for the Humanities: Uncertainty, ambiguity, conflict, and chaos</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hankinson_andrew">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#rism-bern"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-06-28" xml:id="ls49_t6_l8">
+              <eventName xml:lang="de">Töne zählen: Forschungsfragen und Methoden musikwissenschaftlicher Korpusstudien in historischer und epistemologischer Perspektive</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moss_fabian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-07-05" xml:id="ls49_t6_l9">
+              <eventName xml:lang="de">KI in der Hochschule und die Think Tanks der Hochschulnetzwerk Digitalisierung Baden Württemberg</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klein_alexander">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-konstanz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -50553,15 +50981,237 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
 
-            <!-- 2025-04-23 -->
-            <!-- 2025-05-07 -->
-            <!-- 2025-05-14 -->
-            <!-- 2025-05-21 -->
-            <!-- 2025-06-04 -->
-            <!-- 2025-06-25 -->
-            <!-- 2025-07-02 -->
-            <!-- 2025-07-09 -->
-
+            <event type="lecture" when="2025-04-23" xml:id="ls49_t8_l1">
+              <eventName xml:lang="de">Digitale Kompetenzen und Data Literacy</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bruhn_kai-christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz-haw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-05-07" xml:id="ls49_t8_l2">
+              <eventName xml:lang="de">Was mit Daten, was mit Sinn. Zu computationellen Praktiken der Literaturwissenschaft im 21.Jahrhundert</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#herrmann_berenike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-05-14" xml:id="ls49_t8_l3">
+              <eventName xml:lang="de">Resilient, föderiert, barrierearm: Kulturgutdaten und Web Apps für Menschen und Datenräume</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#steller_jonatan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-05-21" xml:id="ls49_t8_l4">
+              <eventName xml:lang="de">Die UNESCO und KI-Ethik – Politischer Rahmen und digitale Anwendungen im Welterbe</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kolhoff_carolin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#unesco-bonn"/>
+                </person>
+                <person role="speaker" corresp="#muengersdorff_maximilian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#unesco-bonn"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-06-04" xml:id="ls49_t8_l5">
+              <eventName xml:lang="en">Semantic Web for Cultural Heritage. An Introduction</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#baroncini_sofia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ieg-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-06-11" xml:id="ls49_t8_l6">
+              <eventName xml:lang="de">Die Tatsache, dass ich mich in Dich verliebt habe, ist nun wohl kein Geheimnis mehr (…). LB_00017_0001. Das Citizen-Science-Projekt ‚Gruß und Kuss – Bürger*innen erhalten Liebesbriefe‘</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rapp_andrea">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-06-25" xml:id="ls49_t8_l7">
+              <eventName xml:lang="en">Generative AI in the Humanities. Current Landscape and Future Horizons</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#oberbichler_sarah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ieg-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-07-02" xml:id="ls49_t8_l8">
+              <eventName xml:lang="de">Digitale Musikverarbeitung.Vom Scheitern lernen</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mueller_meinard">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen-nuernberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-07-09" xml:id="ls49_t8_l9">
+              <eventName xml:lang="de">Erfassung und Analyse historischer Architektur durch semantische Modellierung. Eine kollaborative und anschlussfähige Methode für die Erschließung und den Erhalt gebauter Sachzeugnisse</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#arera-ruetenik_tobias">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bamberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+        
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
