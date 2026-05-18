@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -3106,7 +3107,7 @@
           </org>
           <org xml:id="gale-cengage" type="company">
             <name xml:lang="de">Gale, Cengage Learning</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q2944238>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2944238</idno>
             <idno type="ror">https://ror.org/0576yhz46</idno>
             <place corresp="#andover"/>
           </org>
@@ -62491,6 +62492,7 @@
                 memory and knowledge systems.</p>
             </note>
             -->
+          </event>
             
             <event type="lecture" when="2014-11-20" xml:id="ls54_t1_l1">
               <eventName xml:lang="en">Scalpels and magic wands. From the physical world of book conservation
@@ -64216,7 +64218,8 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-                <person role="speaker" corresp="#milligan_ian">
+                <listPerson>
+                  <person role="speaker" corresp="#milligan_ian">
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
@@ -64225,6 +64228,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
+              
             <event type="lecture" when="2021-02-09" xml:id="ls54_t7_l2">
               <eventName xml:lang="en">Digital Humanities Against Enclosure</eventName>
               <ptr type="programme"
@@ -64242,6 +64246,7 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
+              <listPerson>
               <person role="speaker" corresp="#johnson_jessica-marie">
                 <name>
                   <roleName type="title">Prof.</roleName>
@@ -64275,6 +64280,7 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
+              <listPerson>
               <person role="speaker" corresp="#frank_zephyr">
                 <name>
                   <roleName type="title">Prof.</roleName>
@@ -64302,6 +64308,7 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
+              <listPerson>
               <person role="speaker" corresp="#quiroga_riva">
                 <name>
                   <roleName type="title">Prof.</roleName>
@@ -64326,6 +64333,7 @@
             <event type="lecture" when="2021-06-22" xml:id="ls54_t7_l10">
             </event>
           </event>
+            
           <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls54_t8">
               <eventName/>
             <event type="lecture" when="2022-03-10" xml:id="ls54_t8_l1">
