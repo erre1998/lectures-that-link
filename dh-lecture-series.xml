@@ -294,6 +294,24 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-haverford" type="university">
+            <name xml:lang="en">Haverford College“</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q579611</idno>
+            <idno type="ror">https://ror.org/04fnrxr62</idno>
+            <place corresp="#haverford"/>
+          </org>
+          <org xml:id="uni-babelsberg" type="university">
+            <name xml:lang="de">Filmuniversität Babelsberg „Konrad Wolf“</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1550192</idno>
+            <idno type="ror">https://ror.org/04qbqv677</idno>
+            <place corresp="#babelsberg"/>
+          </org>
+          <org xml:id="uni-darmstadt-hda" type="university">
+            <name xml:lang="de">Hochschule Darmstadt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q284992</idno>
+            <idno type="ror">https://ror.org/047wbd030</idno>
+            <place corresp="#darmstadt"/>
+          </org>
           <org xml:id="uni-william-and-mary" type="university">
             <name xml:lang="en">College of William &amp; Mary</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q875637</idno>
@@ -2084,6 +2102,24 @@
             <place corresp="#baltimore"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="zem" type="research_institution">
+            <name xml:lang="de">Brandenburgische Zentrum für Medienwissenschaften (ZeM)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107011678</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#potsdam"/>
+          </org>
+          <org xml:id="rism" type="research_institution">
+            <name xml:lang="en">RISM Digital Center</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q33121097</idno>
+            <idno type="ror">https://ror.org/01kk1vy78</idno>
+            <place corresp="#bern"/>
+          </org>
+          <org xml:id="ait" type="research_institution">
+            <name xml:lang="de">Austrian Institute of Technology</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q783627</idno>
+            <idno type="ror">https://ror.org/04knbh022</idno>
+            <place corresp="#vienna"/>
+          </org>
           <org xml:id="brg" type="research_institution">
             <name xml:lang="de">Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005526</idno>
@@ -2569,6 +2605,18 @@
             <place corresp="#kassel"/>
           </org>
           <!-- ####### L ####### -->
+          <org xml:id="library-ulb-darmstadt" type="glam">
+            <name xml:lang="de">Universitäts- und Landesbibliothek Darmstadt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1806348</idno>
+            <idno type="ror">https://ror.org/041ypg504</idno>
+            <place corresp="#darmstadt"/>
+          </org>
+          <org xml:id="library-dnb" type="glam">
+            <name xml:lang="de">Deutsche Nationalbibliothek</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27302</idno>
+            <idno type="ror">https://ror.org/01n7gem85</idno>
+            <place corresp="#frankfurt-am-main"/>
+          </org>
           <org xml:id="library-igdj" type="glam">
             <name xml:lang="de">Institut für die Geschichte der deutschen Juden (IGdJ)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q28738350</idno>
@@ -2826,6 +2874,24 @@
             <place corresp="#london"/>
           </org>
           <!-- ####### Other ####### -->
+          <org xml:id="okf" type="other">
+            <name xml:lang="en">Open Knowledge Foundation Deutschland</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27812362</idno>
+            <idno type="ror">https://ror.org/02cfy3z22</idno>
+            <place corresp="#berlin"/>
+          </org>
+          <org xml:id="wikimedia" type="other">
+            <name xml:lang="de">Wikimedia Deutschland</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8288</idno>
+            <idno type="ror">https://ror.org/03e9gte70</idno>
+            <place corresp="#berlin"/>
+          </org>
+          <org xml:id="unesco" type="other">
+            <name xml:lang="de">Deutsche UNESCO-Kommission</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1204307</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#bonn"/>
+          </org>
           <org xml:id="zfdg" type="other">
             <name xml:lang="de">Zeitschrift für digitale Geisteswissenschaften (ZfdG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q50817854</idno>
@@ -2941,6 +3007,12 @@
             <place corresp="#brighton"/>
           </org>
           <!-- ##### Companies ##### -->
+          <org xml:id="gema" type="company">
+            <name xml:lang="de">Gesellschaft für musikalische Aufführungs- und mechanische Vervielfältigungsrechte</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q481497</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#berlin"/>
+          </org>
           <org xml:id="parsqube" type="company">
             <name xml:lang="en">parsQube GmbH</name>
             <!-- No Wikidata ID found -->
@@ -49177,7 +49249,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#stanford #ccrma"/>
+                  <affiliation corresp="#uni-stanford"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -49687,22 +49759,12 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#wikimedia-e-v"/>
+                  <affiliation corresp="#wikimedia"/>
                 </person>
               </listPerson>
               <org role="host-institution"
                 corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
             </event>
-            <!-- 2018-04-26 -->
-            <!-- 2018-05-02 -->
-            <!-- 2018-05-16 -->
-            <!-- 2018-05-23 -->
-            <!-- 2018-05-30 -->
-            <!-- 2018-06-06 -->
-            <!-- 2018-06-13 -->
-            <!-- 2018-06-20 -->
-            <!-- 2018-06-27 -->
-            <!-- 2018-07-04 -->
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
@@ -50286,7 +50348,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#ulb-darmstadt"/>
+                  <affiliation corresp="#-library-ulb-darmstadt"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50654,7 +50716,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#rism-bern"/>
+                  <affiliation corresp="#rism"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50966,7 +51028,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#uni-potsdam-babelsberg"/>
+                  <affiliation corresp="#uni-babelsberg"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -51074,13 +51136,13 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#unesco-bonn"/>
+                  <affiliation corresp="#unesco"/>
                 </person>
                 <person role="speaker" corresp="#muengersdorff_maximilian">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#unesco-bonn"/>
+                  <affiliation corresp="#unesco"/>
                 </person>
               </listPerson>
               <org role="host-institution"
