@@ -3184,6 +3184,196 @@
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="michon_romain">
+            <name>
+              <forename>Romain</forename>
+              <surname>Michon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4376-7100</idno>
+            <!-- No Wikidata ID found -->
+        </person>
+          <person xml:id="schaeffer_moritz">
+            <name>
+              <forename>Moritz</forename>
+              <forename>Jonas</forename>
+              <surname>Schaeffer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5844-8092</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="freitag_burkhard">
+            <name>
+              <forename>Burkhard</forename>
+              <surname>Freitag</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1016434</idno>
+          </person>
+          <person xml:id="hahn_helene">
+            <name>
+              <forename>Helene</forename>
+              <surname>Hahn</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q67610963</idno>
+          </person>
+          <person xml:id="hilpert_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Hilpert</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6347-5076</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q73630101</idno>
+          </person>
+          <person xml:id="freedman_richard">
+            <name>
+              <forename>Richard</forename>
+              <surname>Freedman</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5550-3674</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93223860</idno>
+          </person>
+          <person xml:id="horster_marietta">
+            <name>
+              <forename>Marietta</forename>
+              <surname>Horster</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1434-224X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1898038</idno>
+          </person>
+          <person xml:id="pagel_sven">
+            <name>
+              <forename>Sven</forename>
+              <surname>Pagel</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q96439823</idno>
+          </person>
+          <person xml:id="heftberger_adelheid">
+            <name>
+              <forename>Adelheid</forename>
+              <surname>Heftberger</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7909-6858</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q42369365</idno>
+          </person>
+          <person xml:id="friedrichs_christina">
+            <name>
+              <forename>Christina</forename>
+              <surname>Friedrichs</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+           <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="raue_benjamin">
+            <name>
+              <forename>Benjamin</forename>
+              <surname>Raue</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4652-7970</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q28023308</idno>
+          </person>
+          <person xml:id="kinder-kurlanda_katharina">
+            <name>
+              <forename>Katharina</forename>
+              <surname>Kinder-Kurlanda</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7749-645X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133412680</idno>
+          </person>
+          <person xml:id="simon_rainer">
+            <name>
+              <forename>Rainer</forename>
+              <surname>Simon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4116-9684</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q105300819</idno>
+          </person>
+          <person xml:id="backhaus_henrike">
+            <name>
+              <forename>Henrike</forename>
+              <surname>Backhaus</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8793-4185</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="klimpel_paul">
+            <name>
+              <forename>Paul</forename>
+              <surname>Klimpel</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1558977</idno>
+          </person>
+          <person xml:id="blaesi_christoph">
+            <name>
+              <forename>Christoph</forename>
+              <surname>Bläsi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9845-9247</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93970396</idno>
+          </person>
+          <person xml:id="culo_oliver">
+            <name>
+              <forename>Oliver</forename>
+              <surname>Čulo</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q139529008</idno>
+          </person>
+          <person xml:id="pugin_laurent">
+            <name>
+              <forename>Laurent</forename>
+              <surname>Pugin</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9525-4331</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130919270</idno>
+          </person>
+          <person xml:id="wolk_christoph">
+            <name>
+              <forename>Christoph</forename>
+              <surname>Wolk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5854-0945</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="zywietz_bernd">
+            <name>
+              <forename>Bernd</forename>
+              <surname>Zywietz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0512-4785</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130786411</idno>
+          </person>
+          <person xml:id="scherf_mirko">
+            <name>
+              <forename>Mirko</forename>
+              <surname>Scherf</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5500-5085</idno>
+            <!-- No Wikidata ID found -->
+          </person>
           <person xml:id="ripoll_elodie">
             <name>
               <forename>Élodie</forename>
@@ -3192,6 +3382,271 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0001-7129-2018</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126692207</idno>
+          </person>
+          <person xml:id="lambers_karsten">
+            <name>
+              <forename>Karsten</forename>
+              <surname>Lambers</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6432-0925</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64504796</idno>
+          </person>
+          <person xml:id="schmunk_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Schmunk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9706-9757</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57913662</idno>
+          </person>
+          <person xml:id="gruentgens_max">
+            <name>
+              <forename>Max</forename>
+              <surname>Grüntgens</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8736-9393</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598162</idno>
+          </person>
+          <person xml:id="staecker_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Stäcker</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1509-6960</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95336577</idno>
+          </person>
+          <person xml:id="plaksin_anna">
+            <name>
+              <forename>Anna</forename>
+              <surname>Plaksin</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9969-0608</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595555</idno>
+          </person>
+          <person xml:id="koeppl_chantal">
+            <name>
+              <forename>Chantal</forename>
+              <forename>Franziska</forename>
+              <surname>Köppl</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5490-840X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q137014934</idno>
+          </person>
+          <person xml:id="zehentner_eva">
+            <name>
+              <forename>Eva</forename>
+              <forename>Maria</forename>
+              <surname>Zehentner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3911-4147</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130835617</idno>
+          </person>
+          <person xml:id="roth_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Roth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-9765-695X</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="brandhorst_juergen">
+            <name>
+              <forename>Jürgen</forename>
+              <surname>Brandhorst</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q137130253</idno>
+          </person>
+          <person xml:id="weichselbaumer_nikolaus">
+            <name>
+              <forename>Nikolaus</forename>
+              <surname>Weichselbaumer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8065-0390</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q116193700</idno>
+          </person>
+          <person xml:id="hoenen_armin">
+            <name>
+              <forename>Armin</forename>
+              <surname>Hoenen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0400-9980</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126593594</idno>
+          </person>
+          <person xml:id="vater_christian">
+            <name>
+              <forename>Christian</forename>
+              <surname>Vater</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598266</idno>
+          </person>
+          <person xml:id="roidl_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Roidl</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0244-6837</idno>
+            <!-- No Wikidata ID found -->
+          </person> 
+          <person xml:id="dang_sarah-mai">
+            <name>
+              <forename>Sarah-Mai</forename>
+              <surname>Dang</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1960-247X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q67594847</idno>
+          </person>
+          <person xml:id="heller_lambert">
+            <name>
+              <forename>Lambert</forename>
+              <surname>Heller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0232-7085</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q56070743</idno>
+          </person>
+          <person xml:id="hankinson_andrew">
+            <name>
+              <forename>Andrew</forename>
+              <surname>Hankinson</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2663-0003</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55096089</idno>
+          </person>
+          <person xml:id="klein_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Klein</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-0814-5302</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="barget_monika">
+            <name>
+              <forename>Monika</forename>
+              <surname>Barget</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7630-3583</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q79004052</idno>
+          </person>
+          <person xml:id="kelly_mills">
+            <name>
+              <forename>Mills</forename>
+              <surname>Kelly</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4891-5464</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="lutteroth_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Lutteroth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4554-0874</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q115644467</idno>
+          </person>
+          <person xml:id="dimpel_friedrich_michael">
+            <name>
+              <forename>Friedrich</forename>
+              <forename>Michael</forename>
+              <surname>Dimpel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4833-4897</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95219358</idno>
+          </person>
+          <person xml:id="richts-matthaei_kristina">
+            <name>
+              <forename>Kristina</forename>
+              <surname>Richts-Matthaei</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8569-1995</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692077</idno>
+          </person>
+          <person xml:id="pratschke_margarete">
+            <name>
+              <forename>Margarete</forename>
+              <surname>Pratschke</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0005-2835-1894</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692076</idno>
+          </person>
+          <person xml:id="loist_skadi">
+            <name>
+              <forename>Skadi</forename>
+              <surname>Loist</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8299-4103</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130812862</idno>
+          </person>
+          <person xml:id="steller_jonatan">
+            <name>
+              <forename>Jonatan</forename>
+              <forename>Jalle</forename>
+              <surname>Steller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5101-5275</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692235</idno>
+          </person>
+          <person xml:id="kolhoff_carolin">
+            <name>
+              <forename>Carolin</forename>
+              <surname>Kolhoff</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="muengersdorff_maximilian">
+            <name>
+              <forename>Maximilian</forename>
+              <surname>Müngersdorff</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136972114</idno>
+          </person>
+          <person xml:id="oberbichler_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Oberbichler</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1031-2759</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q120703374</idno>
+          </person>
+          <person xml:id="arera-ruetenik_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Arera-Rütenik</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4703-9573</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112516427</idno>
           </person>
           <person xml:id="doering_laura">
             <name>
@@ -49605,7 +50060,7 @@
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#hetfberger_adelheid">
+                <person role="speaker" corresp="#heftberger_adelheid">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -50348,7 +50803,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#-library-ulb-darmstadt"/>
+                  <affiliation corresp="#library-ulb-darmstadt"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50423,7 +50878,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#dnb-ffm"/>
+                  <affiliation corresp="#library-dnb"/>
                 </person>
               </listPerson>
               <org role="host-institution"
