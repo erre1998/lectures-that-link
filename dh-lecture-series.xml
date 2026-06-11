@@ -13515,15 +13515,6 @@
             <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132426758</idno>
           </person>
-          <person xml:id="heftberger_adelheid">
-            <name>
-              <forename>Adelheid</forename>
-              <surname>Heftberger</surname>
-            </name>
-            <gender>female</gender>
-            <idno type="orcid">https://orcid.org/0000-0001-7909-6858</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q42369365</idno>
-          </person>
           <person xml:id="binnewitt_johanna">
             <name>
               <forename>Johanna</forename>
