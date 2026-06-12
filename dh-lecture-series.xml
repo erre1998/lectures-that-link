@@ -294,6 +294,24 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005490</idno>
           </org>
           <!-- ##### Universities ##### -->
+          <org xml:id="uni-haverford" type="university">
+            <name xml:lang="en">Haverford College“</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q579611</idno>
+            <idno type="ror">https://ror.org/04fnrxr62</idno>
+            <place corresp="#haverford"/>
+          </org>
+          <org xml:id="uni-babelsberg" type="university">
+            <name xml:lang="de">Filmuniversität Babelsberg „Konrad Wolf“</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1550192</idno>
+            <idno type="ror">https://ror.org/04qbqv677</idno>
+            <place corresp="#babelsberg"/>
+          </org>
+          <org xml:id="uni-darmstadt-hda" type="university">
+            <name xml:lang="de">Hochschule Darmstadt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q284992</idno>
+            <idno type="ror">https://ror.org/047wbd030</idno>
+            <place corresp="#darmstadt"/>
+          </org>
           <org xml:id="uni-william-and-mary" type="university">
             <name xml:lang="en">College of William &amp; Mary</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q875637</idno>
@@ -1913,7 +1931,7 @@
             <name xml:lang="en">Maastricht University</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1137652</idno>
             <idno type="ror">https://ror.org/02jz4aj89</idno>
-            <place corresp="#maastrich"/>
+            <place corresp="#maastricht"/>
           </org>
           <org xml:id="uni-konstanz" type="university">
             <name xml:lang="de">Universität Konstanz</name>
@@ -2084,6 +2102,24 @@
             <place corresp="#baltimore"/>
           </org>
           <!-- ##### Research Institutions ##### -->
+          <org xml:id="zem" type="research_institution">
+            <name xml:lang="de">Brandenburgische Zentrum für Medienwissenschaften (ZeM)</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q107011678</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#potsdam"/>
+          </org>
+          <org xml:id="rism" type="research_institution">
+            <name xml:lang="en">RISM Digital Center</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q33121097</idno>
+            <idno type="ror">https://ror.org/01kk1vy78</idno>
+            <place corresp="#bern"/>
+          </org>
+          <org xml:id="ait" type="research_institution">
+            <name xml:lang="de">Austrian Institute of Technology</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q783627</idno>
+            <idno type="ror">https://ror.org/04knbh022</idno>
+            <place corresp="#vienna"/>
+          </org>
           <org xml:id="brg" type="research_institution">
             <name xml:lang="de">Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1005526</idno>
@@ -2569,6 +2605,18 @@
             <place corresp="#kassel"/>
           </org>
           <!-- ####### L ####### -->
+          <org xml:id="library-ulb-darmstadt" type="glam">
+            <name xml:lang="de">Universitäts- und Landesbibliothek Darmstadt</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1806348</idno>
+            <idno type="ror">https://ror.org/041ypg504</idno>
+            <place corresp="#darmstadt"/>
+          </org>
+          <org xml:id="library-dnb" type="glam">
+            <name xml:lang="de">Deutsche Nationalbibliothek</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27302</idno>
+            <idno type="ror">https://ror.org/01n7gem85</idno>
+            <place corresp="#frankfurt-am-main"/>
+          </org>
           <org xml:id="library-igdj" type="glam">
             <name xml:lang="de">Institut für die Geschichte der deutschen Juden (IGdJ)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q28738350</idno>
@@ -2826,6 +2874,24 @@
             <place corresp="#london"/>
           </org>
           <!-- ####### Other ####### -->
+          <org xml:id="okf" type="other">
+            <name xml:lang="en">Open Knowledge Foundation Deutschland</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q27812362</idno>
+            <idno type="ror">https://ror.org/02cfy3z22</idno>
+            <place corresp="#berlin"/>
+          </org>
+          <org xml:id="wikimedia" type="other">
+            <name xml:lang="de">Wikimedia Deutschland</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8288</idno>
+            <idno type="ror">https://ror.org/03e9gte70</idno>
+            <place corresp="#berlin"/>
+          </org>
+          <org xml:id="unesco" type="other">
+            <name xml:lang="de">Deutsche UNESCO-Kommission</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1204307</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#bonn"/>
+          </org>
           <org xml:id="zfdg" type="other">
             <name xml:lang="de">Zeitschrift für digitale Geisteswissenschaften (ZfdG)</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q50817854</idno>
@@ -2941,6 +3007,12 @@
             <place corresp="#brighton"/>
           </org>
           <!-- ##### Companies ##### -->
+          <org xml:id="gema" type="company">
+            <name xml:lang="de">Gesellschaft für musikalische Aufführungs- und mechanische Vervielfältigungsrechte</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q481497</idno>
+            <!-- No ROR ID found -->
+            <place corresp="#berlin"/>
+          </org>
           <org xml:id="parsqube" type="company">
             <name xml:lang="en">parsQube GmbH</name>
             <!-- No Wikidata ID found -->
@@ -3106,12 +3178,202 @@
           </org>
           <org xml:id="gale-cengage" type="company">
             <name xml:lang="de">Gale, Cengage Learning</name>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q2944238>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2944238</idno>
             <idno type="ror">https://ror.org/0576yhz46</idno>
             <place corresp="#andover"/>
           </org>
         </listOrg>
         <listPerson>
+          <person xml:id="michon_romain">
+            <name>
+              <forename>Romain</forename>
+              <surname>Michon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4376-7100</idno>
+            <!-- No Wikidata ID found -->
+        </person>
+          <person xml:id="schaeffer_moritz">
+            <name>
+              <forename>Moritz</forename>
+              <forename>Jonas</forename>
+              <surname>Schaeffer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5844-8092</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="freitag_burkhard">
+            <name>
+              <forename>Burkhard</forename>
+              <surname>Freitag</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1016434</idno>
+          </person>
+          <person xml:id="hahn_helene">
+            <name>
+              <forename>Helene</forename>
+              <surname>Hahn</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q67610963</idno>
+          </person>
+          <person xml:id="hilpert_martin">
+            <name>
+              <forename>Martin</forename>
+              <surname>Hilpert</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-6347-5076</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q73630101</idno>
+          </person>
+          <person xml:id="freedman_richard">
+            <name>
+              <forename>Richard</forename>
+              <surname>Freedman</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5550-3674</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93223860</idno>
+          </person>
+          <person xml:id="horster_marietta">
+            <name>
+              <forename>Marietta</forename>
+              <surname>Horster</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-1434-224X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1898038</idno>
+          </person>
+          <person xml:id="pagel_sven">
+            <name>
+              <forename>Sven</forename>
+              <surname>Pagel</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q96439823</idno>
+          </person>
+          <person xml:id="heftberger_adelheid">
+            <name>
+              <forename>Adelheid</forename>
+              <surname>Heftberger</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7909-6858</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q42369365</idno>
+          </person>
+          <person xml:id="friedrichs_christina">
+            <name>
+              <forename>Christina</forename>
+              <surname>Friedrichs</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+           <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="raue_benjamin">
+            <name>
+              <forename>Benjamin</forename>
+              <surname>Raue</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4652-7970</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q28023308</idno>
+          </person>
+          <person xml:id="kinder-kurlanda_katharina">
+            <name>
+              <forename>Katharina</forename>
+              <surname>Kinder-Kurlanda</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7749-645X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q133412680</idno>
+          </person>
+          <person xml:id="simon_rainer">
+            <name>
+              <forename>Rainer</forename>
+              <surname>Simon</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4116-9684</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q105300819</idno>
+          </person>
+          <person xml:id="backhaus_henrike">
+            <name>
+              <forename>Henrike</forename>
+              <surname>Backhaus</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8793-4185</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="klimpel_paul">
+            <name>
+              <forename>Paul</forename>
+              <surname>Klimpel</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1558977</idno>
+          </person>
+          <person xml:id="blaesi_christoph">
+            <name>
+              <forename>Christoph</forename>
+              <surname>Bläsi</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9845-9247</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q93970396</idno>
+          </person>
+          <person xml:id="culo_oliver">
+            <name>
+              <forename>Oliver</forename>
+              <surname>Čulo</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q139529008</idno>
+          </person>
+          <person xml:id="pugin_laurent">
+            <name>
+              <forename>Laurent</forename>
+              <surname>Pugin</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9525-4331</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130919270</idno>
+          </person>
+          <person xml:id="wolk_christoph">
+            <name>
+              <forename>Christoph</forename>
+              <surname>Wolk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5854-0945</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="zywietz_bernd">
+            <name>
+              <forename>Bernd</forename>
+              <surname>Zywietz</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0512-4785</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130786411</idno>
+          </person>
+          <person xml:id="scherf_mirko">
+            <name>
+              <forename>Mirko</forename>
+              <surname>Scherf</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5500-5085</idno>
+            <!-- No Wikidata ID found -->
+          </person>
           <person xml:id="ripoll_elodie">
             <name>
               <forename>Élodie</forename>
@@ -3120,6 +3382,271 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0009-0001-7129-2018</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q126692207</idno>
+          </person>
+          <person xml:id="lambers_karsten">
+            <name>
+              <forename>Karsten</forename>
+              <surname>Lambers</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-6432-0925</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q64504796</idno>
+          </person>
+          <person xml:id="schmunk_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Schmunk</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-9706-9757</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57913662</idno>
+          </person>
+          <person xml:id="gruentgens_max">
+            <name>
+              <forename>Max</forename>
+              <surname>Grüntgens</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8736-9393</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598162</idno>
+          </person>
+          <person xml:id="staecker_thomas">
+            <name>
+              <forename>Thomas</forename>
+              <surname>Stäcker</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1509-6960</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95336577</idno>
+          </person>
+          <person xml:id="plaksin_anna">
+            <name>
+              <forename>Anna</forename>
+              <surname>Plaksin</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-9969-0608</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126595555</idno>
+          </person>
+          <person xml:id="koeppl_chantal">
+            <name>
+              <forename>Chantal</forename>
+              <forename>Franziska</forename>
+              <surname>Köppl</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5490-840X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q137014934</idno>
+          </person>
+          <person xml:id="zehentner_eva">
+            <name>
+              <forename>Eva</forename>
+              <forename>Maria</forename>
+              <surname>Zehentner</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-3911-4147</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130835617</idno>
+          </person>
+          <person xml:id="roth_michael">
+            <name>
+              <forename>Michael</forename>
+              <surname>Roth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-9765-695X</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="brandhorst_juergen">
+            <name>
+              <forename>Jürgen</forename>
+              <surname>Brandhorst</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q137130253</idno>
+          </person>
+          <person xml:id="weichselbaumer_nikolaus">
+            <name>
+              <forename>Nikolaus</forename>
+              <surname>Weichselbaumer</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8065-0390</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q116193700</idno>
+          </person>
+          <person xml:id="hoenen_armin">
+            <name>
+              <forename>Armin</forename>
+              <surname>Hoenen</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0400-9980</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126593594</idno>
+          </person>
+          <person xml:id="vater_christian">
+            <name>
+              <forename>Christian</forename>
+              <surname>Vater</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126598266</idno>
+          </person>
+          <person xml:id="roidl_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Roidl</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-0244-6837</idno>
+            <!-- No Wikidata ID found -->
+          </person> 
+          <person xml:id="dang_sarah-mai">
+            <name>
+              <forename>Sarah-Mai</forename>
+              <surname>Dang</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1960-247X</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q67594847</idno>
+          </person>
+          <person xml:id="heller_lambert">
+            <name>
+              <forename>Lambert</forename>
+              <surname>Heller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-0232-7085</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q56070743</idno>
+          </person>
+          <person xml:id="hankinson_andrew">
+            <name>
+              <forename>Andrew</forename>
+              <surname>Hankinson</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-2663-0003</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q55096089</idno>
+          </person>
+          <person xml:id="klein_alexander">
+            <name>
+              <forename>Alexander</forename>
+              <surname>Klein</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0006-0814-5302</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="barget_monika">
+            <name>
+              <forename>Monika</forename>
+              <surname>Barget</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-7630-3583</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q79004052</idno>
+          </person>
+          <person xml:id="kelly_mills">
+            <name>
+              <forename>Mills</forename>
+              <surname>Kelly</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4891-5464</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="lutteroth_jan">
+            <name>
+              <forename>Jan</forename>
+              <surname>Lutteroth</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4554-0874</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q115644467</idno>
+          </person>
+          <person xml:id="dimpel_friedrich_michael">
+            <name>
+              <forename>Friedrich</forename>
+              <forename>Michael</forename>
+              <surname>Dimpel</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0003-4833-4897</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q95219358</idno>
+          </person>
+          <person xml:id="richts-matthaei_kristina">
+            <name>
+              <forename>Kristina</forename>
+              <surname>Richts-Matthaei</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-8569-1995</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692077</idno>
+          </person>
+          <person xml:id="pratschke_margarete">
+            <name>
+              <forename>Margarete</forename>
+              <surname>Pratschke</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0009-0005-2835-1894</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692076</idno>
+          </person>
+          <person xml:id="loist_skadi">
+            <name>
+              <forename>Skadi</forename>
+              <surname>Loist</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8299-4103</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q130812862</idno>
+          </person>
+          <person xml:id="steller_jonatan">
+            <name>
+              <forename>Jonatan</forename>
+              <forename>Jalle</forename>
+              <surname>Steller</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-5101-5275</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692235</idno>
+          </person>
+          <person xml:id="kolhoff_carolin">
+            <name>
+              <forename>Carolin</forename>
+              <surname>Kolhoff</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="muengersdorff_maximilian">
+            <name>
+              <forename>Maximilian</forename>
+              <surname>Müngersdorff</surname>
+            </name>
+            <gender>male</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136972114</idno>
+          </person>
+          <person xml:id="oberbichler_sarah">
+            <name>
+              <forename>Sarah</forename>
+              <surname>Oberbichler</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-1031-2759</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q120703374</idno>
+          </person>
+          <person xml:id="arera-ruetenik_tobias">
+            <name>
+              <forename>Tobias</forename>
+              <surname>Arera-Rütenik</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-4703-9573</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112516427</idno>
           </person>
           <person xml:id="doering_laura">
             <name>
@@ -12988,15 +13515,6 @@
             <!-- No ORCID found -->
             <idno type="wikidata">https://www.wikidata.org/wiki/Q132426758</idno>
           </person>
-          <person xml:id="heftberger_adelheid">
-            <name>
-              <forename>Adelheid</forename>
-              <surname>Heftberger</surname>
-            </name>
-            <gender>female</gender>
-            <idno type="orcid">https://orcid.org/0000-0001-7909-6858</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q42369365</idno>
-          </person>
           <person xml:id="binnewitt_johanna">
             <name>
               <forename>Johanna</forename>
@@ -16088,9 +16606,9 @@
             <name>Amsterdam</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006952</idno>
           </place>
-          <place type="city" xml:id="maastrich">
+          <place type="city" xml:id="maastricht">
             <country corresp="#netherlands"/>
-            <name>Maastrich</name>
+            <name>Maastricht</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7006862</idno>
           </place>
           <!-- ######## Croatian cities ######## -->
@@ -49177,7 +49695,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#stanford #ccrma"/>
+                  <affiliation corresp="#uni-stanford"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -49533,7 +50051,7 @@
                 <term type="audience">in person</term>
               </note>
               <listPerson>
-                <person role="speaker" corresp="#hetfberger_adelheid">
+                <person role="speaker" corresp="#heftberger_adelheid">
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
@@ -49687,22 +50205,12 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#wikimedia-e-v"/>
+                  <affiliation corresp="#wikimedia"/>
                 </person>
               </listPerson>
               <org role="host-institution"
                 corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
             </event>
-            <!-- 2018-04-26 -->
-            <!-- 2018-05-02 -->
-            <!-- 2018-05-16 -->
-            <!-- 2018-05-23 -->
-            <!-- 2018-05-30 -->
-            <!-- 2018-06-06 -->
-            <!-- 2018-06-13 -->
-            <!-- 2018-06-20 -->
-            <!-- 2018-06-27 -->
-            <!-- 2018-07-04 -->
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
@@ -49789,7 +50297,7 @@
                   <name>
                     <roleName type="title">not found</roleName>
                   </name>
-                  <affiliation corresp="#berlin"/>
+                  <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
               <org role="host-institution"
@@ -50070,36 +50578,9 @@
                 corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
             </event>
             
-            <event type="lecture" when="2021-06-02" xml:id="ls49_t4_l4">
-              <eventName xml:lang="de">Originale. Digital Meets Humanities</eventName>
-              <ptr type="programme" target="..."/>
-              <note type="abstract" xml:lang="de">
-                <p>(Vorstellung der Praxisprojekte des Winter 2019/20)</p>
-                  <p>Ausnahmsweise über gather.town und nur für Studierende des Master Digitale Methodik und geladene Gäste.</p>
-              </note>
-              <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
-              </note>
-              <note type="realization">
-                <term type="speech">online</term>
-                <term type="audience">online</term>
-              </note>
-              <listPerson>
-                <person role="speaker" corresp="...">
-                  <name>
-                    <roleName type="title">...</roleName>
-                  </name>
-                  <affiliation corresp="..."/>
-                </person>
-              </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
-            </event>
-            <!-- ls49_t4_l4 only for students and invited guests, no speaker -->
-            
-            <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
+            <!-- lecture 2021-06-02 only for students and invited guests, no speaker -->
+           
+              <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
               <eventName xml:lang="de">Digitale Heraldik als transdisziplinäres Experimentierfeld zwischen Kulturgeschichte, Hilfswissenschaften und Digital Humanities</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
@@ -50267,18 +50748,234 @@
                 Gäste, die in Präsenz oder digital teilnehmen möchten um vorherige Anmeldung
                 gebeten.</p>
             </note>
+            
+            <!-- not clear if speech in person or online for each lecture, that's why "in person" was used everytime -->
+            
+            <event type="lecture" when="2022-05-04" xml:id="ls49_t5_l1">
+              <eventName xml:lang="de">Digital Humanities als Synergie: TEI, Bildannotation und IIIF im Graphkontext</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gruentgens_max">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-05-11" xml:id="ls49_t5_l2">
+              <eventName xml:lang="de">Kopie oder Original? Die kulturelle Überlieferung im Zeitalter der digitalen Reproduzierbarkeit</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#staecker_thomas">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-ulb-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
 
-            <!-- 2022-05-04 -->
-            <!-- 2022-05-11 -->
-            <!-- 2022-05-18 -->
-            <!-- 2022-05-25 -->
-            <!-- 2022-06-08 -->
-            <!-- 2022-06-15 -->
-
-            <!-- 2022-06-29 -->
-            <!-- 2022-07-06 -->
-            <!-- 2022-07-13 -->
-
+            <event type="lecture" when="2022-05-18" xml:id="ls49_t5_l3">
+              <eventName xml:lang="de">Computationelle Literaturwissenschaft: Der hermeneutische Zirkel als Input-Process-Output-System</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#gius_evelyn">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-05-25" xml:id="ls49_t5_l4">
+              <eventName xml:lang="de">Modelle zur computergestützen Analyse von Überlieferung der Mensuralmusik</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#plaksin_anna">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-06-08" xml:id="ls49_t5_l5">
+              <eventName xml:lang="de">Gute Freunde kann niemand trennen… Zur Unzertrennlichkeit von Daten und Partnern in der Gemeinsamen Normdatei (GND)</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#koeppl_chantal">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-dnb"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-06-15" xml:id="ls49_t5_l6">
+              <eventName xml:lang="de">Sprachwandel digital: Möglichkeiten und Herausforderungen historischer Korpora</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#zehentner_eva">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-zuerich"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-06-29" xml:id="ls49_t5_l7">
+              <eventName xml:lang="de">Verstehen und Missverstehen mit Modellen der maschinellen Sprachverarbeitung</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roth_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stuttgart"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-07-06" xml:id="ls49_t5_l8">
+              <eventName xml:lang="de">Einführung in das Urheberrecht in der Musik</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#brandhorst_juergen">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#gema"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2022-07-13" xml:id="ls49_t5_l9">
+              <eventName xml:lang="de">»Werck der Bücher« – Experiment und Mustererkennung als Zugänge zur frühen Druckgeschichte</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#weichselbaumer_nikolaus">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -50297,16 +50994,231 @@
                 eingeladen.</p>
             </note>
 
-            <!-- 2023-04-26 -->
-            <!-- 2023-05-03 -->
-            <!-- 2023-05-10 -->
-            <!-- 2023-05-24 -->
-            <!-- 2023-05-31 -->
-            <!-- 2023-06-14 -->
-            <!-- 2023-06-21 -->
-            <!-- 2023-06-28 -->
-            <!-- 2023-07-05 -->
-
+            <event type="lecture" when="2023-04-26" xml:id="ls49_t6_l1">
+              <eventName xml:lang="de">Poststandardisierung - Orthographien, Encodings und Formate im Wandel der Mediengeschichte</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hoenen_armin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-frankfurt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-03" xml:id="ls49_t6_l2">
+              <eventName xml:lang="de">Zur Geschichte der KI</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#vater_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-10" xml:id="ls49_t6_l3">
+              <eventName xml:lang="de">6.000 Jahre Buchführung in 3D: Digitalisierung und Analyse von Schrift- und Bildträgern</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mara_hubert">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-halle-wittenberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-24" xml:id="ls49_t6_l4">
+              <eventName xml:lang="de">Kritische Software bauen: digitale Werkzeuge jenseits statistischer Wahrheit</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#roidl_alexander">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz-haw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-05-31" xml:id="ls49_t6_l5">
+              <eventName xml:lang="de">Forschungsdaten, Visualisierungen und blinde Flecken in der digitalen Filmgeschichtsschreibung</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dang_sarah-mai">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-marburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-06-14" xml:id="ls49_t6_l6">
+              <eventName xml:lang="de">Hackathons, Barcamps, Booksprints und Verwandte - Formate des kollaborativen Lernens und Arbeitens in den digitalen Geistes- und Kulturwissenschaften</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#heller_lambert">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#tib"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-06-21" xml:id="ls49_t6_l7">
+              <eventName xml:lang="en">Data modelling for the Humanities: Uncertainty, ambiguity, conflict, and chaos</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#hankinson_andrew">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#rism"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-06-28" xml:id="ls49_t6_l8">
+              <eventName xml:lang="de">Töne zählen: Forschungsfragen und Methoden musikwissenschaftlicher Korpusstudien in historischer und epistemologischer Perspektive</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#moss_fabian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-wuerzburg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2023-07-05" xml:id="ls49_t6_l9">
+              <eventName xml:lang="de">KI in der Hochschule und die Think Tanks der Hochschulnetzwerk Digitalisierung Baden Württemberg</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klein_alexander">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-konstanz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -50323,18 +51235,251 @@
                 eingeladen.</p>
             </note>
 
-            <!-- 2024-04-24 -->
+            <event type="lecture" when="2024-04-24" xml:id="ls49_t7_l1">
+              <eventName xml:lang="de">Nicht-Wissen modellieren und visualisieren – interdisziplinäre Perspektiven auf Datenlücken und unsichere Daten</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#barget_monika">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-maastricht #uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
 
+            <event type="lecture" when="2024-05-15" xml:id="ls49_t7_l2">
+              <eventName xml:lang="en">Doing Collaborative Public Digital History</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kelly_mills">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-george-mason #uni-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
 
-            <!-- 2024-05-15 -->
-            <!-- 2024-05-22 -->
+            <event type="lecture" when="2024-05-22" xml:id="ls49_t7_l3">
+              <eventName xml:lang="de">Digitale 3D-Rekonstruktionen ostmitteleuropäischer Synagogen in der Lehre: Ein dezentrales und interdisziplinäres Joint Lab im virtuellen Raum</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#lutteroth_jan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz-haw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
 
-            <!-- 2024-06-05 -->
-            <!-- 2024-06-12 -->
-            <!-- 2024-06-19 Vom Regenwald auf den Bildschirm: Digitale Ansätze zur Erforschung der antiken Maya-Schrift -->
-            <!-- 2024-06-26 Musik modellieren: Von der Schwierigkeit, das Unsichtbare sichtbar zu machen -->
-            <!-- 2024-07-03 -->
-            <!-- 2024-07-10 Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“ -->
+            <event type="lecture" when="2024-06-05" xml:id="ls49_t7_l4">
+              <eventName xml:lang="de">Zur Sentiment-Analyse mittelhochdeutscher Texte</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">hybrid</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#dimpel_friedrich_michael">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen-nuernberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-12" xml:id="ls49_t7_l5">
+              <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im digitalen Raum</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#klemstein_franziska">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz-haw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-19" xml:id="ls49_t7_l6">
+              <eventName xml:lang="de">Vom Regenwald auf den Bildschirm: Digitale Ansätze zur Erforschung der antiken Maya-Schrift</eventName>
+              <ptr type="programme" target="https://www.digitale-methodik.uni-mainz.de/wp-content/uploads/sites/522/2025/04/Abstract_CV_Prager.pdf"/>
+              <note type="abstract" xml:lang="de">
+              <p> Die „Textdatenbank und Wörterbuch des Klassischen Maya“ ist eine innovative digitale
+                  Ressource, die ein umfassendes Archiv mit der systematischen Analyse der alten MayaSchrift und der ihr zugrunde liegenden Sprache verbindet. Die Nordrhein-Westfälische
+                  Akademie der Wissenschaften und der Künste hat 2014 die Förderung des langfristig
+                  angelegten Forschungsprojekts beschlossen, das von Nikolai Grube geleitet und von
+                  Projektkoordinator Christian Prager an der Universität Bonn betreut wird. Ziel des Projekts
+                  ist der Aufbau einer Online-Datenbank aller bekannten Hieroglyphentexte, die Bilder von
+                  Originalinschriften mit ihren Transliterationen und Transkriptionen integriert und diese zu
+                  einem umfangreichen korpusbasierten Wörterbuch des Klassischen Maya zusammenstellt.</p>
+              <p> Das Projekt nutzt und entwickelt modernste Technologien und Infrastrukturen aus den
+                  Bereichen Digital Humanities und Epigraphik weiter. Aufgebaut in der virtuellen
+                  Forschungsumgebung TextGrid, werden die Beschreibungen der Textmedien, ihre
+                  Transliterationen, Transkriptionen und Übersetzungen im XML/TEI-Format generiert und
+                  verwaltet. Im Zentrum steht das Maya-Bildarchiv als Repository für Fotografien und
+                  Zeichnungen von Hieroglyphentexten, die in über 150 Jahren Maya-Forschung entstanden
+                  sind. Ein Editor-Tool verknüpft die abgebildeten Glyphen in den Bilddateien mit ihren
+                  Transliterationen, die auf einer aktualisierten und erweiterten Version von Eric Thompsons
+                  Zeichenkatalog der Maya-Hieroglyphen beruhen. Ein weiteres Tool unterstützt die
+                  halbautomatische, phonemische Transkription und linguistische Analyse der numerischen
+                  Transliterationen und bildet die Grundlage für das Wörterbuch. Zudem wird 3DScantechnologie eingesetzt, um ansonsten unlesbare Maya-Inschriften wieder zum Sprechen
+                  zu bringen. Dieser Vortrag gibt einen umfassenden Überblick über das Projekt und zeigt, wie
+                  die angewandten Technologien unser Verständnis der Maya-Schrift wesentlich verbessern.</p> </note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#prager_christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bonn"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-06-26" xml:id="ls49_t7_l7">
+              <eventName xml:lang="de">Musik modellieren: Von der Schwierigkeit, das Unsichtbare sichtbar zu machen</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#richts-matthaei_kristina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-07-03" xml:id="ls49_t7_l8">
+              <eventName xml:lang="de">Herausforderungen der Bildforschung zu Social Media-Bildkulturen </eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#pratschke_margarete">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-berlin-hu"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+
+            <event type="lecture" when="2024-07-10" xml:id="ls49_t7_l9">
+              <eventName xml:lang="de">Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#loist_skadi">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-babelsberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
@@ -50344,15 +51489,237 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
 
-            <!-- 2025-04-23 -->
-            <!-- 2025-05-07 -->
-            <!-- 2025-05-14 -->
-            <!-- 2025-05-21 -->
-            <!-- 2025-06-04 -->
-            <!-- 2025-06-25 -->
-            <!-- 2025-07-02 -->
-            <!-- 2025-07-09 -->
-
+            <event type="lecture" when="2025-04-23" xml:id="ls49_t8_l1">
+              <eventName xml:lang="de">Digitale Kompetenzen und Data Literacy</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#bruhn_kai-christian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mainz-haw"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-05-07" xml:id="ls49_t8_l2">
+              <eventName xml:lang="de">Was mit Daten, was mit Sinn. Zu computationellen Praktiken der Literaturwissenschaft im 21.Jahrhundert</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#herrmann_berenike">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bielefeld"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-05-14" xml:id="ls49_t8_l3">
+              <eventName xml:lang="de">Resilient, föderiert, barrierearm: Kulturgutdaten und Web Apps für Menschen und Datenräume</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#steller_jonatan">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#adw-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-05-21" xml:id="ls49_t8_l4">
+              <eventName xml:lang="de">Die UNESCO und KI-Ethik – Politischer Rahmen und digitale Anwendungen im Welterbe</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kolhoff_carolin">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#unesco"/>
+                </person>
+                <person role="speaker" corresp="#muengersdorff_maximilian">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#unesco"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-06-04" xml:id="ls49_t8_l5">
+              <eventName xml:lang="en">Semantic Web for Cultural Heritage. An Introduction</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#baroncini_sofia">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ieg-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-06-11" xml:id="ls49_t8_l6">
+              <eventName xml:lang="de">Die Tatsache, dass ich mich in Dich verliebt habe, ist nun wohl kein Geheimnis mehr (…). LB_00017_0001. Das Citizen-Science-Projekt ‚Gruß und Kuss – Bürger*innen erhalten Liebesbriefe‘</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#rapp_andrea">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-darmstadt"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-06-25" xml:id="ls49_t8_l7">
+              <eventName xml:lang="en">Generative AI in the Humanities. Current Landscape and Future Horizons</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="en">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#oberbichler_sarah">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#ieg-mainz"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-07-02" xml:id="ls49_t8_l8">
+              <eventName xml:lang="de">Digitale Musikverarbeitung.Vom Scheitern lernen</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#mueller_meinard">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-erlangen-nuernberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+            
+            <event type="lecture" when="2025-07-09" xml:id="ls49_t8_l9">
+              <eventName xml:lang="de">Erfassung und Analyse historischer Architektur durch semantische Modellierung. Eine kollaborative und anschlussfähige Methode für die Erschließung und den Erhalt gebauter Sachzeugnisse</eventName>
+              <ptr type="programme" target="..."/>
+              <note type="abstract" xml:lang="de">not found</note>
+              <note type="keywords">
+                <term>
+                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
+                </term>
+              </note>
+              <note type="realization">
+                <term type="speech">in person</term>
+                <term type="audience">in person</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#arera-ruetenik_tobias">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-bamberg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution"
+                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+            </event>
+        
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -62283,6 +63650,7 @@
                 memory and knowledge systems.</p>
             </note>
             -->
+          </event>
             
             <event type="lecture" when="2014-11-20" xml:id="ls54_t1_l1">
               <eventName xml:lang="en">Scalpels and magic wands. From the physical world of book conservation
@@ -64008,7 +65376,8 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-                <person role="speaker" corresp="#milligan_ian">
+                <listPerson>
+                  <person role="speaker" corresp="#milligan_ian">
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
@@ -64017,6 +65386,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
+              
             <event type="lecture" when="2021-02-09" xml:id="ls54_t7_l2">
               <eventName xml:lang="en">Digital Humanities Against Enclosure</eventName>
               <ptr type="programme"
@@ -64034,6 +65404,7 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
+              <listPerson>
               <person role="speaker" corresp="#johnson_jessica-marie">
                 <name>
                   <roleName type="title">Prof.</roleName>
@@ -64067,6 +65438,7 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
+              <listPerson>
               <person role="speaker" corresp="#frank_zephyr">
                 <name>
                   <roleName type="title">Prof.</roleName>
@@ -64094,6 +65466,7 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
+              <listPerson>
               <person role="speaker" corresp="#quiroga_riva">
                 <name>
                   <roleName type="title">Prof.</roleName>
@@ -64118,6 +65491,7 @@
             <event type="lecture" when="2021-06-22" xml:id="ls54_t7_l10">
             </event>
           </event>
+            
           <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls54_t8">
               <eventName/>
             <event type="lecture" when="2022-03-10" xml:id="ls54_t8_l1">
