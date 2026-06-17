@@ -282,6 +282,12 @@
               <idno type="wikidata">https://www.wikidata.org/wiki/Q11190</idno>
             </catDesc>
           </category>
+          <category xml:id="jurisprudence">
+            <catDesc>
+              <name>jurisprudence</name>
+              <idno type="wikidata">https://www.wikidata.org/wiki/Q4932206</idno>
+            </catDesc>
+          </category>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -49593,9 +49599,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#german-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49646,9 +49650,7 @@
                   analysis.</p>
               </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49673,9 +49675,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computational-linguistics #german-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49699,9 +49699,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#archaeology #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49725,9 +49723,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49751,9 +49747,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#political-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49778,9 +49772,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#linguistics"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49803,9 +49795,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49835,9 +49825,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49857,13 +49845,11 @@
             
             <event type="lecture" when="2017-07-05" xml:id="ls49_t1_l10">
               <eventName xml:lang="de">Automatische Textklassifikation und ihre
-                Anwendungen zur Metaphern- und Argumentationsanalyse </eventName>
+                Anwendungen zur Metaphern- und Argumentationsanalyse</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49923,9 +49909,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49949,9 +49933,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -49981,9 +49963,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                  <term type="discipline" corresp="#german-studies #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50006,9 +49986,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#media-studies #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50031,9 +50009,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#art-history"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50056,9 +50032,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50081,9 +50055,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50106,9 +50078,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50131,9 +50101,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#art-history #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50156,9 +50124,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#political-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50198,9 +50164,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50223,9 +50187,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#archaeology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50248,9 +50210,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#jurisprudence"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50273,9 +50233,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#german-studies #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50298,9 +50256,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50323,9 +50279,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50348,9 +50302,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50373,9 +50325,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50398,9 +50348,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#classics"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50423,9 +50371,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#political-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50472,9 +50418,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#archaeology #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50497,9 +50441,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#art-history"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50522,9 +50464,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#museology"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50549,9 +50489,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50574,9 +50512,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50599,9 +50535,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50624,9 +50558,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50649,9 +50581,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50674,9 +50604,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -50720,9 +50648,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50745,9 +50671,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50770,9 +50694,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50795,9 +50717,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50820,9 +50740,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50845,9 +50763,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies #linguistics"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50870,9 +50786,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50895,9 +50809,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#jurisprudence #musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50920,9 +50832,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history #literary-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50963,9 +50873,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#media-studies #history"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -50988,9 +50896,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51013,9 +50919,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #archaeology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51038,9 +50942,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51063,9 +50965,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#media-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51088,9 +50988,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51113,9 +51011,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51138,9 +51034,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51163,9 +51057,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51204,9 +51096,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#data-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51229,9 +51119,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51254,9 +51142,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #archaeology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51279,9 +51165,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51304,9 +51188,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51350,9 +51232,7 @@
                   zu bringen. Dieser Vortrag gibt einen umfassenden Überblick über das Projekt und zeigt, wie
                   die angewandten Technologien unser Verständnis der Maya-Schrift wesentlich verbessern.</p> </note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#linguistics #history #archaeology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51375,9 +51255,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51400,9 +51278,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#media-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51425,9 +51301,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#media-studies #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51458,9 +51332,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51483,9 +51355,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51508,9 +51378,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51533,9 +51401,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #political-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51564,9 +51430,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history #archaeology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51589,9 +51453,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#literary-studies"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51614,9 +51476,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#computer-science #digital-humanities"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51639,9 +51499,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#musicology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
@@ -51664,9 +51522,7 @@
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
-                <term>
-                  <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
-                </term>
+                <term type="discipline" corresp="#history #archaeology"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
