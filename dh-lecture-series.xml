@@ -56848,7 +56848,7 @@
                   for digital humanities research on non-Western historical corpora.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#literary-studies #history #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -56889,7 +56889,7 @@
                   Balkans.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#history #political-science"/>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -56934,7 +56934,7 @@
                   Gequ.</p>
               </note>
               <note type="keywords">
-                <term><!-- some type of keyword, e.g. tadirah for classifying this lecture --></term>
+                <term type="discipline" corresp="#musicology #chinese-studies #computer-science"/>
               </note>
               <note type="realization">
                 <term type="speech">in person</term>
