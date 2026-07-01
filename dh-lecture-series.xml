@@ -23,21 +23,34 @@
         </editor>
         <respStmt xml:id="mvb">
           <resp>Contributor</resp>
-          <name>Magdalena Victoria Basedow</name>
-          <idno type="orcid">https://orcid.org/0009-0004-5854-8869</idno>
+          <persName>
+            <surname>Basedow</surname>
+            <forename>Magdalena</forename>
+            <forename>Victoria</forename>
+            <idno type="orcid">https://orcid.org/0009-0004-5854-8869</idno>
+          </persName>
         </respStmt>
         <respStmt xml:id="cg">
           <resp>Contributor</resp>
-          <name>Charlotte Grünig</name>
-          <idno type="orcid">https://orcid.org/0009-0008-3829-0548</idno>
+          <persName>
+            <surname>Grünig</surname>
+            <forename>Charlotte</forename>
+            <idno type="orcid">https://orcid.org/0009-0008-3829-0548</idno>
+          </persName>
         </respStmt>
         <respStmt>
           <resp>Contributor</resp>
-          <name>Helene Henriette Kamrath</name>
+          <persName>
+            <surname>Kamrath</surname>
+            <forename>Helene Henriette</forename>
+          </persName>
         </respStmt>
         <respStmt>
           <resp>Contributor</resp>
-          <name>Victoria Khalzova-Murken</name>
+          <persName>
+            <surname>Khalzova-Murken</surname>
+            <forename>Victoria</forename>
+          </persName>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -3044,7 +3057,8 @@
           </org>
           <!-- ##### Companies ##### -->
           <org xml:id="gema" type="company">
-            <name xml:lang="de">Gesellschaft für musikalische Aufführungs- und mechanische Vervielfältigungsrechte</name>
+            <name xml:lang="de">Gesellschaft für musikalische Aufführungs- und mechanische
+              Vervielfältigungsrechte</name>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q481497</idno>
             <!-- No ROR ID found -->
             <place corresp="#berlin"/>
@@ -3228,7 +3242,7 @@
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-4376-7100</idno>
             <!-- No Wikidata ID found -->
-        </person>
+          </person>
           <person xml:id="schaeffer_moritz">
             <name>
               <forename>Moritz</forename>
@@ -3309,7 +3323,7 @@
             </name>
             <gender>female</gender>
             <!-- No ORCID found -->
-           <!-- No Wikidata ID found -->
+            <!-- No Wikidata ID found -->
           </person>
           <person xml:id="raue_benjamin">
             <name>
@@ -3537,7 +3551,7 @@
             <gender>male</gender>
             <idno type="orcid">https://orcid.org/0000-0002-0244-6837</idno>
             <!-- No Wikidata ID found -->
-          </person> 
+          </person>
           <person xml:id="dang_sarah-mai">
             <name>
               <forename>Sarah-Mai</forename>
@@ -9108,7 +9122,7 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2915-5888</idno>
             <!-- No Wikidata ID found -->
-            
+
           </person>
           <person xml:id="brenner_simon">
             <name>
@@ -15356,8 +15370,8 @@
               <surname>Medeiros e Sá</surname>
             </name>
             <gender>female</gender>
-              <idno type="orcid">https://orcid.org/0000-0002-3705-9095</idno>
-              <idno type="wikidata">https://www.wikidata.org/wiki/Q57305630</idno>
+            <idno type="orcid">https://orcid.org/0000-0002-3705-9095</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q57305630</idno>
           </person>
           <person xml:id="siemens_lynne">
             <name>
@@ -15492,7 +15506,7 @@
             </name>
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2626-4675</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q112493315>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q112493315</idno>
           </person>
           <person xml:id="menon_nirmala">
             <name>
@@ -16987,6 +17001,7 @@
             <country corresp="#usa"/>
             <name>Boulder</name>
             <idno type="gnd">https://d-nb.info/gnd/4126960-3</idno>
+            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013446</idno>
           </place>
           <place type="city" xml:id="columbus">
             <country corresp="#usa"/>
@@ -17187,11 +17202,6 @@
             <country corresp="#usa"/>
             <name>Pittsburgh</name>
             <idno type="tgn">http://vocab.getty.edu/page/tgn/7013927</idno>
-          </place>
-          <place type="city" xml:id="boulder">
-            <country corresp="#usa"/>
-            <name>Boulder</name>
-            <idno type="tgn">http://vocab.getty.edu/page/tgn/7013446</idno>
           </place>
           <place type="city" xml:id="college-station">
             <country corresp="#usa"/>
@@ -49818,38 +49828,32 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-            
+
             <event type="lecture" when="2017-05-10" xml:id="ls49_t1_l2">
-              <eventName xml:lang="en">New Tools for Mobile Development and Physical
-                Modeling of Musical Instruments in the Faust Programming
-                Language</eventName>
+              <eventName xml:lang="en">New Tools for Mobile Development and Physical Modeling of
+                Musical Instruments in the Faust Programming Language</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20241202085044/https://www.digitale-methodik.uni-mainz.de/files/2017/04/Flyer-A4.pdf"/>
               <note type="abstract" xml:lang="en">
-                <p>During this lecture, we'll present recent developments done in
-                  the Faust programming language at Stanford University's Center
-                  for Computer Research in Music and Acoustics (CCRMA) to
-                  facilitate the development of musical mobile apps and physical
-                  models of musical instruments.</p>
-                <p>faust2api is a tool to generate custom DSP engines for a wide
-                  range of platforms and standards using Faust. Faust DSP objects
-                  can easily be turned into MIDI-controllable polyphonic
-                  synthesizers or audio effects with built-in sensors support,
-                  etc. The various elements of the DSP engine can be accessed
-                  through a high-level API, made uniform across platforms and
-                  languages.</p>
-                <p>faust2smartkeyb is a Faust tool to generate ready-to-use musical
-                  Android and iOS applications with a SmartKeyboard user interface
-                  (UI). The SmartKeyboard UI allows to implement a wide range of
-                  controllers (basic keyboards, isomorphic keyboards, pads, X/Y
-                  controllers, etc.) on a touch-screen and can be configured
-                  directly in the Faust code.</p>
-                <p>The Faust Physical Modeling ToolKit is a collection of tools to
-                  facilitate the design of physical models of musical instruments
-                  with the Faust programming language. Its two main components are
-                  the Faust Physical Modeling Library and mesh2faust: a tool to
-                  turn CAD files into modal physical models using finite element
-                  analysis.</p>
+                <p>During this lecture, we'll present recent developments done in the Faust
+                  programming language at Stanford University's Center for Computer Research in
+                  Music and Acoustics (CCRMA) to facilitate the development of musical mobile apps
+                  and physical models of musical instruments.</p>
+                <p>faust2api is a tool to generate custom DSP engines for a wide range of platforms
+                  and standards using Faust. Faust DSP objects can easily be turned into
+                  MIDI-controllable polyphonic synthesizers or audio effects with built-in sensors
+                  support, etc. The various elements of the DSP engine can be accessed through a
+                  high-level API, made uniform across platforms and languages.</p>
+                <p>faust2smartkeyb is a Faust tool to generate ready-to-use musical Android and iOS
+                  applications with a SmartKeyboard user interface (UI). The SmartKeyboard UI allows
+                  to implement a wide range of controllers (basic keyboards, isomorphic keyboards,
+                  pads, X/Y controllers, etc.) on a touch-screen and can be configured directly in
+                  the Faust code.</p>
+                <p>The Faust Physical Modeling ToolKit is a collection of tools to facilitate the
+                  design of physical models of musical instruments with the Faust programming
+                  language. Its two main components are the Faust Physical Modeling Library and
+                  mesh2faust: a tool to turn CAD files into modal physical models using finite
+                  element analysis.</p>
               </note>
               <note type="keywords">
                 <term>
@@ -49868,13 +49872,13 @@
                   <affiliation corresp="#uni-stanford"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-05-17" xml:id="ls49_t1_l3">
-              <eventName xml:lang="de">Was geht in den Köpfen von Übersetzern vor? An
-                den Schnittstellen zwischen Computerlinguistik, Zweisprachigkeit und
+              <eventName xml:lang="de">Was geht in den Köpfen von Übersetzern vor? An den
+                Schnittstellen zwischen Computerlinguistik, Zweisprachigkeit und
                 Translation</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
@@ -49895,13 +49899,12 @@
                   <affiliation corresp="#uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-05-24" xml:id="ls49_t1_l4">
-              <eventName xml:lang="de">Wie speichert man ein Bauwerk in der
-                Datenbank?</eventName>
+              <eventName xml:lang="de">Wie speichert man ein Bauwerk in der Datenbank?</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -49921,13 +49924,13 @@
                   <affiliation corresp="#uni-passau"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-05-31" xml:id="ls49_t1_l5">
-              <eventName xml:lang="de">Nachhaltige Softwareentwicklung in den Digital
-                Humanities. Konzepte und Methoden</eventName>
+              <eventName xml:lang="de">Nachhaltige Softwareentwicklung in den Digital Humanities.
+                Konzepte und Methoden</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -49947,13 +49950,13 @@
                   <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-06-07" xml:id="ls49_t1_l6">
-              <eventName xml:lang="de">Potenziale von Citizien Sciences für die
-                Erschließung von Kulturgütern</eventName>
+              <eventName xml:lang="de">Potenziale von Citizien Sciences für die Erschließung von
+                Kulturgütern</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -49973,14 +49976,13 @@
                   <affiliation corresp="#okf"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-06-14" xml:id="ls49_t1_l7">
-              <eventName xml:lang="de">Neue digitale Methoden in der
-                Sprachwissenschaft: Distributionelle Semantik und was man damit
-                machen kann </eventName>
+              <eventName xml:lang="de">Neue digitale Methoden in der Sprachwissenschaft:
+                Distributionelle Semantik und was man damit machen kann </eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50000,10 +50002,10 @@
                   <affiliation corresp="#uni-neuchatel"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-06-21" xml:id="ls49_t1_l8">
               <eventName xml:lang="de">Wer? Wie? Was? Edieren im 21. Jahrhundert </eventName>
               <ptr type="programme" target="..."/>
@@ -50031,13 +50033,13 @@
                   <affiliation corresp="#uni-trier"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-06-28" xml:id="ls49_t1_l9">
-              <eventName xml:lang="de">Möglichkeiten und Grenzen der Digitalen
-                Musikedition. Erfahrungen aus Forschung und Lehre</eventName>
+              <eventName xml:lang="de">Möglichkeiten und Grenzen der Digitalen Musikedition.
+                Erfahrungen aus Forschung und Lehre</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50057,13 +50059,13 @@
                   <affiliation corresp="#oeaw"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2017-07-05" xml:id="ls49_t1_l10">
-              <eventName xml:lang="de">Automatische Textklassifikation und ihre
-                Anwendungen zur Metaphern- und Argumentationsanalyse </eventName>
+              <eventName xml:lang="de">Automatische Textklassifikation und ihre Anwendungen zur
+                Metaphern- und Argumentationsanalyse </eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50083,8 +50085,8 @@
                   <affiliation corresp="#uni-darmstadt"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
@@ -50124,8 +50126,8 @@
             </note>
 
             <event type="lecture" when="2018-04-26" xml:id="ls49_t2_l1">
-              <eventName xml:lang="en">Advancing Music Scholarship in a Digital Age: A
-                View from the Renaissance</eventName>
+              <eventName xml:lang="en">Advancing Music Scholarship in a Digital Age: A View from the
+                Renaissance</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -50145,13 +50147,12 @@
                   <affiliation corresp="#uni-haverford"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-05-02" xml:id="ls49_t2_l2">
-              <eventName xml:lang="de">Humanist Computer Interaction auf dem
-                Prüfstand</eventName>
+              <eventName xml:lang="de">Humanist Computer Interaction auf dem Prüfstand</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50178,10 +50179,10 @@
                 </person>
                 <!--  et al. in programme -->
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-05-16" xml:id="ls49_t2_l3">
               <eventName xml:lang="de">Kontrastive Textanalysen mit Burrows' Zeta</eventName>
               <ptr type="programme" target="..."/>
@@ -50203,12 +50204,14 @@
                   <affiliation corresp="#uni-trier"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-05-23" xml:id="ls49_t2_l4">
-              <eventName xml:lang="de">Die zögerliche Annäherung von Filmwissenschaft und Digital Humanities – Stand der Forschung, methodologische Überlegungen und Ausblick</eventName>
+              <eventName xml:lang="de">Die zögerliche Annäherung von Filmwissenschaft und Digital
+                Humanities – Stand der Forschung, methodologische Überlegungen und
+                Ausblick</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50228,12 +50231,13 @@
                   <affiliation corresp="#zem"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-05-30" xml:id="ls49_t2_l5">
-              <eventName xml:lang="de">Erschließung digitaler Bildrepositorien mittels vierdimensionaler Modelle: Projekt und Lösungsansatz</eventName>
+              <eventName xml:lang="de">Erschließung digitaler Bildrepositorien mittels
+                vierdimensionaler Modelle: Projekt und Lösungsansatz</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50253,12 +50257,13 @@
                   <affiliation corresp="#uni-wuerzburg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-06-06" xml:id="ls49_t2_l6">
-              <eventName xml:lang="de">Die urheberrechtlichen Grenzen des Text und Data Minings</eventName>
+              <eventName xml:lang="de">Die urheberrechtlichen Grenzen des Text und Data
+                Minings</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50278,12 +50283,13 @@
                   <affiliation corresp="#uni-trier"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-06-13" xml:id="ls49_t2_l7">
-              <eventName xml:lang="de">Epistemologische, ethische und praktische Aspekte von Big Data sowie Lösungsmöglichkeiten in der Praxis</eventName>
+              <eventName xml:lang="de">Epistemologische, ethische und praktische Aspekte von Big
+                Data sowie Lösungsmöglichkeiten in der Praxis</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50303,12 +50309,13 @@
                   <affiliation corresp="#gesis"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-06-20" xml:id="ls49_t2_l8">
-              <eventName xml:lang="de">URLs, Authority Files und Linked Data - ein Überblick über Pelagios und seine Anwendungen</eventName>
+              <eventName xml:lang="de">URLs, Authority Files und Linked Data - ein Überblick über
+                Pelagios und seine Anwendungen</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50328,12 +50335,13 @@
                   <affiliation corresp="#ait"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-06-27" xml:id="ls49_t2_l9">
-              <eventName xml:lang="de">Von ARCHITRAVE bis Wikidata - DH am Deutschen Forum für Kunstgeschichte Paris</eventName>
+              <eventName xml:lang="de">Von ARCHITRAVE bis Wikidata - DH am Deutschen Forum für
+                Kunstgeschichte Paris</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50353,10 +50361,10 @@
                   <affiliation corresp="#dfk-paris"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2018-07-04" xml:id="ls49_t2_l10">
               <eventName xml:lang="de">Die Bürger kommen!</eventName>
               <ptr type="programme" target="..."/>
@@ -50378,8 +50386,8 @@
                   <affiliation corresp="#wikimedia"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
@@ -50398,7 +50406,7 @@
                 Geschichte und des Mainzer Zentrums für Digitalität in den Geistes- und
                 Kulturwissenschaften (mainzed).</p>
             </note>
-            
+
             <event type="lecture" when="2019-05-08" xml:id="ls49_t3_l1">
               <eventName xml:lang="de">Technologie und Interdisziplinarität</eventName>
               <ptr type="programme" target="..."/>
@@ -50420,12 +50428,13 @@
                   <affiliation corresp="#uni-lausanne"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-05-15" xml:id="ls49_t3_l2">
-              <eventName xml:lang="de">Werkstattbericht - Digitale Methodik bei der Analyse archäologischer Daten</eventName>
+              <eventName xml:lang="de">Werkstattbericht - Digitale Methodik bei der Analyse
+                archäologischer Daten</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50445,12 +50454,13 @@
                   <affiliation corresp="#uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-05-22" xml:id="ls49_t3_l3">
-              <eventName xml:lang="de">Das Urheberrecht und unser Blick auf die Vergangenheit</eventName>
+              <eventName xml:lang="de">Das Urheberrecht und unser Blick auf die
+                Vergangenheit</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50470,12 +50480,14 @@
                   <affiliation corresp="#self-employment"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-05-29" xml:id="ls49_t3_l4">
-              <eventName xml:lang="de">Von Künstlicher Intelligenz und von Kochbüchern: offensichtliche Berührungspunkte zwischen der Digitalisierung der Buch-Wertschöpfung und den Digital Humanities</eventName>
+              <eventName xml:lang="de">Von Künstlicher Intelligenz und von Kochbüchern:
+                offensichtliche Berührungspunkte zwischen der Digitalisierung der Buch-Wertschöpfung
+                und den Digital Humanities</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50495,12 +50507,13 @@
                   <affiliation corresp="#uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-06-05" xml:id="ls49_t3_l5">
-              <eventName xml:lang="de">Das Framevorrangmodell für Human- und Maschinenübersetzung</eventName>
+              <eventName xml:lang="de">Das Framevorrangmodell für Human- und
+                Maschinenübersetzung</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50520,10 +50533,10 @@
                   <affiliation corresp="#uni-leipzig"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-06-12" xml:id="ls49_t3_l6">
               <eventName xml:lang="en">The Music Text in the Digital Domain</eventName>
               <ptr type="programme" target="..."/>
@@ -50545,12 +50558,13 @@
                   <affiliation corresp="#uni-bern"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-06-19" xml:id="ls49_t3_l7">
-              <eventName xml:lang="en">Custom concordancers for research and teaching with ShinyConc</eventName>
+              <eventName xml:lang="en">Custom concordancers for research and teaching with
+                ShinyConc</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -50570,12 +50584,13 @@
                   <affiliation corresp="#uni-giessen"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-06-26" xml:id="ls49_t3_l8">
-              <eventName xml:lang="de">Abgleich zwischen DH-Arbeitsmodellen und offiziell-institutionellen Datenbanken</eventName>
+              <eventName xml:lang="de">Abgleich zwischen DH-Arbeitsmodellen und
+                offiziell-institutionellen Datenbanken</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50595,10 +50610,10 @@
                   <affiliation corresp="#uni-frankfurt"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-07-03" xml:id="ls49_t3_l9">
               <eventName xml:lang="en">Digital Methods in Classical Studies</eventName>
               <ptr type="programme" target="..."/>
@@ -50620,10 +50635,10 @@
                   <affiliation corresp="#uni-leipzig"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2019-07-10" xml:id="ls49_t3_l10">
               <eventName xml:lang="de">Dschihadistische Online-Propaganda</eventName>
               <ptr type="programme" target="..."/>
@@ -50651,8 +50666,8 @@
                   <affiliation corresp="#uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
@@ -50674,7 +50689,8 @@
             </note>
 
             <event type="lecture" when="2021-04-28" xml:id="ls49_t4_l1">
-              <eventName xml:lang="de">Archaeologische Prospektion mit Hilfe von Fernerkundung und Maschinellem Lernen: Neue Forschungen in den Niederlanden</eventName>
+              <eventName xml:lang="de">Archaeologische Prospektion mit Hilfe von Fernerkundung und
+                Maschinellem Lernen: Neue Forschungen in den Niederlanden</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50694,12 +50710,13 @@
                   <affiliation corresp="#uni-leiden"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-05-05" xml:id="ls49_t4_l2">
-              <eventName xml:lang="de">Object Detection zwischen kunsthistorischer Realienkunde und interdisziplinärer Material Studies</eventName>
+              <eventName xml:lang="de">Object Detection zwischen kunsthistorischer Realienkunde und
+                interdisziplinärer Material Studies</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50719,12 +50736,13 @@
                   <affiliation corresp="#uni-erlangen-nuernberg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-05-26" xml:id="ls49_t4_l3">
-              <eventName xml:lang="en">Digital Museology: Digitising Objects, Engaging with Online Audiences, Preparing the Museum of the Future</eventName>
+              <eventName xml:lang="en">Digital Museology: Digitising Objects, Engaging with Online
+                Audiences, Preparing the Museum of the Future</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -50744,14 +50762,15 @@
                   <affiliation corresp="#uni-graz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <!-- lecture 2021-06-02 only for students and invited guests, no speaker -->
-           
-              <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
-              <eventName xml:lang="de">Digitale Heraldik als transdisziplinäres Experimentierfeld zwischen Kulturgeschichte, Hilfswissenschaften und Digital Humanities</eventName>
+
+            <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
+              <eventName xml:lang="de">Digitale Heraldik als transdisziplinäres Experimentierfeld
+                zwischen Kulturgeschichte, Hilfswissenschaften und Digital Humanities</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
@@ -50771,12 +50790,13 @@
                   <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-06-16" xml:id="ls49_t4_l6">
-              <eventName xml:lang="de">Black Box Algorithmen: Kritische Anwendung maschineller Lernverfahren in den Geisteswissenschaften</eventName>
+              <eventName xml:lang="de">Black Box Algorithmen: Kritische Anwendung maschineller
+                Lernverfahren in den Geisteswissenschaften</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
@@ -50796,12 +50816,13 @@
                   <affiliation corresp="#uni-bern"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-06-23" xml:id="ls49_t4_l7">
-              <eventName xml:lang="de">Intermediäre Aspekte der Digital Humanities als Chance und Herausforderung</eventName>
+              <eventName xml:lang="de">Intermediäre Aspekte der Digital Humanities als Chance und
+                Herausforderung</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
@@ -50821,12 +50842,13 @@
                   <affiliation corresp="#uni-potsdam-fhp"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-06-30" xml:id="ls49_t4_l8">
-              <eventName xml:lang="de">Umherreitende Richter in England. Digitale Analysen zu mittelalterlichen Gerichten als Arenen sozialer Interaktion</eventName>
+              <eventName xml:lang="de">Umherreitende Richter in England. Digitale Analysen zu
+                mittelalterlichen Gerichten als Arenen sozialer Interaktion</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
@@ -50846,12 +50868,13 @@
                   <affiliation corresp="#uni-bielefeld"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-07-07" xml:id="ls49_t4_l9">
-              <eventName xml:lang="de">Digitalität in der Geschichtswissenschaft – Quellenkritik und Quelleninterpretation im Digitalen</eventName>
+              <eventName xml:lang="de">Digitalität in der Geschichtswissenschaft – Quellenkritik und
+                Quelleninterpretation im Digitalen</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
@@ -50871,12 +50894,13 @@
                   <affiliation corresp="#uni-darmstadt-hda"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2021-07-14" xml:id="ls49_t4_l10">
-              <eventName xml:lang="de">Aspekte digitaler Forschungsmethoden in der Musik vor 1600: Herausforderung und Chance</eventName>
+              <eventName xml:lang="de">Aspekte digitaler Forschungsmethoden in der Musik vor 1600:
+                Herausforderung und Chance</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords">
@@ -50896,8 +50920,8 @@
                   <affiliation corresp="#uni-tuebingen"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
@@ -50918,11 +50942,12 @@
                 Gäste, die in Präsenz oder digital teilnehmen möchten um vorherige Anmeldung
                 gebeten.</p>
             </note>
-            
+
             <!-- not clear if speech in person or online for each lecture, that's why "in person" was used everytime -->
-            
+
             <event type="lecture" when="2022-05-04" xml:id="ls49_t5_l1">
-              <eventName xml:lang="de">Digital Humanities als Synergie: TEI, Bildannotation und IIIF im Graphkontext</eventName>
+              <eventName xml:lang="de">Digital Humanities als Synergie: TEI, Bildannotation und IIIF
+                im Graphkontext</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50942,12 +50967,13 @@
                   <affiliation corresp="#adw-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-05-11" xml:id="ls49_t5_l2">
-              <eventName xml:lang="de">Kopie oder Original? Die kulturelle Überlieferung im Zeitalter der digitalen Reproduzierbarkeit</eventName>
+              <eventName xml:lang="de">Kopie oder Original? Die kulturelle Überlieferung im
+                Zeitalter der digitalen Reproduzierbarkeit</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50967,12 +50993,13 @@
                   <affiliation corresp="#library-ulb-darmstadt"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2022-05-18" xml:id="ls49_t5_l3">
-              <eventName xml:lang="de">Computationelle Literaturwissenschaft: Der hermeneutische Zirkel als Input-Process-Output-System</eventName>
+              <eventName xml:lang="de">Computationelle Literaturwissenschaft: Der hermeneutische
+                Zirkel als Input-Process-Output-System</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -50992,12 +51019,13 @@
                   <affiliation corresp="#uni-darmstadt"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-05-25" xml:id="ls49_t5_l4">
-              <eventName xml:lang="de">Modelle zur computergestützen Analyse von Überlieferung der Mensuralmusik</eventName>
+              <eventName xml:lang="de">Modelle zur computergestützen Analyse von Überlieferung der
+                Mensuralmusik</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51017,12 +51045,13 @@
                   <affiliation corresp="#uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-06-08" xml:id="ls49_t5_l5">
-              <eventName xml:lang="de">Gute Freunde kann niemand trennen… Zur Unzertrennlichkeit von Daten und Partnern in der Gemeinsamen Normdatei (GND)</eventName>
+              <eventName xml:lang="de">Gute Freunde kann niemand trennen… Zur Unzertrennlichkeit von
+                Daten und Partnern in der Gemeinsamen Normdatei (GND)</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51042,12 +51071,13 @@
                   <affiliation corresp="#library-dnb"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-06-15" xml:id="ls49_t5_l6">
-              <eventName xml:lang="de">Sprachwandel digital: Möglichkeiten und Herausforderungen historischer Korpora</eventName>
+              <eventName xml:lang="de">Sprachwandel digital: Möglichkeiten und Herausforderungen
+                historischer Korpora</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51067,12 +51097,13 @@
                   <affiliation corresp="#uni-zuerich"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-06-29" xml:id="ls49_t5_l7">
-              <eventName xml:lang="de">Verstehen und Missverstehen mit Modellen der maschinellen Sprachverarbeitung</eventName>
+              <eventName xml:lang="de">Verstehen und Missverstehen mit Modellen der maschinellen
+                Sprachverarbeitung</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51092,10 +51123,10 @@
                   <affiliation corresp="#uni-stuttgart"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-07-06" xml:id="ls49_t5_l8">
               <eventName xml:lang="de">Einführung in das Urheberrecht in der Musik</eventName>
               <ptr type="programme" target="..."/>
@@ -51117,12 +51148,13 @@
                   <affiliation corresp="#gema"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2022-07-13" xml:id="ls49_t5_l9">
-              <eventName xml:lang="de">»Werck der Bücher« – Experiment und Mustererkennung als Zugänge zur frühen Druckgeschichte</eventName>
+              <eventName xml:lang="de">»Werck der Bücher« – Experiment und Mustererkennung als
+                Zugänge zur frühen Druckgeschichte</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51142,10 +51174,10 @@
                   <affiliation corresp="#uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -51165,7 +51197,8 @@
             </note>
 
             <event type="lecture" when="2023-04-26" xml:id="ls49_t6_l1">
-              <eventName xml:lang="de">Poststandardisierung - Orthographien, Encodings und Formate im Wandel der Mediengeschichte</eventName>
+              <eventName xml:lang="de">Poststandardisierung - Orthographien, Encodings und Formate
+                im Wandel der Mediengeschichte</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51185,10 +51218,10 @@
                   <affiliation corresp="#uni-frankfurt"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-05-03" xml:id="ls49_t6_l2">
               <eventName xml:lang="de">Zur Geschichte der KI</eventName>
               <ptr type="programme" target="..."/>
@@ -51210,12 +51243,13 @@
                   <affiliation corresp="#adw-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-05-10" xml:id="ls49_t6_l3">
-              <eventName xml:lang="de">6.000 Jahre Buchführung in 3D: Digitalisierung und Analyse von Schrift- und Bildträgern</eventName>
+              <eventName xml:lang="de">6.000 Jahre Buchführung in 3D: Digitalisierung und Analyse
+                von Schrift- und Bildträgern</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51235,12 +51269,13 @@
                   <affiliation corresp="#uni-halle-wittenberg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-05-24" xml:id="ls49_t6_l4">
-              <eventName xml:lang="de">Kritische Software bauen: digitale Werkzeuge jenseits statistischer Wahrheit</eventName>
+              <eventName xml:lang="de">Kritische Software bauen: digitale Werkzeuge jenseits
+                statistischer Wahrheit</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51260,12 +51295,13 @@
                   <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-05-31" xml:id="ls49_t6_l5">
-              <eventName xml:lang="de">Forschungsdaten, Visualisierungen und blinde Flecken in der digitalen Filmgeschichtsschreibung</eventName>
+              <eventName xml:lang="de">Forschungsdaten, Visualisierungen und blinde Flecken in der
+                digitalen Filmgeschichtsschreibung</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51285,12 +51321,14 @@
                   <affiliation corresp="#uni-marburg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-06-14" xml:id="ls49_t6_l6">
-              <eventName xml:lang="de">Hackathons, Barcamps, Booksprints und Verwandte - Formate des kollaborativen Lernens und Arbeitens in den digitalen Geistes- und Kulturwissenschaften</eventName>
+              <eventName xml:lang="de">Hackathons, Barcamps, Booksprints und Verwandte - Formate des
+                kollaborativen Lernens und Arbeitens in den digitalen Geistes- und
+                Kulturwissenschaften</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51310,12 +51348,13 @@
                   <affiliation corresp="#tib"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-06-21" xml:id="ls49_t6_l7">
-              <eventName xml:lang="en">Data modelling for the Humanities: Uncertainty, ambiguity, conflict, and chaos</eventName>
+              <eventName xml:lang="en">Data modelling for the Humanities: Uncertainty, ambiguity,
+                conflict, and chaos</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -51335,12 +51374,14 @@
                   <affiliation corresp="#rism"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-06-28" xml:id="ls49_t6_l8">
-              <eventName xml:lang="de">Töne zählen: Forschungsfragen und Methoden musikwissenschaftlicher Korpusstudien in historischer und epistemologischer Perspektive</eventName>
+              <eventName xml:lang="de">Töne zählen: Forschungsfragen und Methoden
+                musikwissenschaftlicher Korpusstudien in historischer und epistemologischer
+                Perspektive</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51360,12 +51401,13 @@
                   <affiliation corresp="#uni-wuerzburg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2023-07-05" xml:id="ls49_t6_l9">
-              <eventName xml:lang="de">KI in der Hochschule und die Think Tanks der Hochschulnetzwerk Digitalisierung Baden Württemberg</eventName>
+              <eventName xml:lang="de">KI in der Hochschule und die Think Tanks der
+                Hochschulnetzwerk Digitalisierung Baden Württemberg</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51385,10 +51427,10 @@
                   <affiliation corresp="#uni-konstanz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -51406,7 +51448,8 @@
             </note>
 
             <event type="lecture" when="2024-04-24" xml:id="ls49_t7_l1">
-              <eventName xml:lang="de">Nicht-Wissen modellieren und visualisieren – interdisziplinäre Perspektiven auf Datenlücken und unsichere Daten</eventName>
+              <eventName xml:lang="de">Nicht-Wissen modellieren und visualisieren –
+                interdisziplinäre Perspektiven auf Datenlücken und unsichere Daten</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51426,8 +51469,8 @@
                   <affiliation corresp="#uni-maastricht #uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-05-15" xml:id="ls49_t7_l2">
@@ -51451,12 +51494,14 @@
                   <affiliation corresp="#uni-george-mason #uni-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-05-22" xml:id="ls49_t7_l3">
-              <eventName xml:lang="de">Digitale 3D-Rekonstruktionen ostmitteleuropäischer Synagogen in der Lehre: Ein dezentrales und interdisziplinäres Joint Lab im virtuellen Raum</eventName>
+              <eventName xml:lang="de">Digitale 3D-Rekonstruktionen ostmitteleuropäischer Synagogen
+                in der Lehre: Ein dezentrales und interdisziplinäres Joint Lab im virtuellen
+                Raum</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51476,8 +51521,8 @@
                   <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-06-05" xml:id="ls49_t7_l4">
@@ -51501,12 +51546,14 @@
                   <affiliation corresp="#uni-erlangen-nuernberg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-06-12" xml:id="ls49_t7_l5">
-              <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im digitalen Raum</eventName>
+              <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von
+                Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im
+                digitalen Raum</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51526,35 +51573,44 @@
                   <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-06-19" xml:id="ls49_t7_l6">
-              <eventName xml:lang="de">Vom Regenwald auf den Bildschirm: Digitale Ansätze zur Erforschung der antiken Maya-Schrift</eventName>
-              <ptr type="programme" target="https://www.digitale-methodik.uni-mainz.de/wp-content/uploads/sites/522/2025/04/Abstract_CV_Prager.pdf"/>
+              <eventName xml:lang="de">Vom Regenwald auf den Bildschirm: Digitale Ansätze zur
+                Erforschung der antiken Maya-Schrift</eventName>
+              <ptr type="programme"
+                target="https://www.digitale-methodik.uni-mainz.de/wp-content/uploads/sites/522/2025/04/Abstract_CV_Prager.pdf"/>
               <note type="abstract" xml:lang="de">
-              <p> Die „Textdatenbank und Wörterbuch des Klassischen Maya“ ist eine innovative digitale
-                  Ressource, die ein umfassendes Archiv mit der systematischen Analyse der alten MayaSchrift und der ihr zugrunde liegenden Sprache verbindet. Die Nordrhein-Westfälische
-                  Akademie der Wissenschaften und der Künste hat 2014 die Förderung des langfristig
-                  angelegten Forschungsprojekts beschlossen, das von Nikolai Grube geleitet und von
-                  Projektkoordinator Christian Prager an der Universität Bonn betreut wird. Ziel des Projekts
-                  ist der Aufbau einer Online-Datenbank aller bekannten Hieroglyphentexte, die Bilder von
-                  Originalinschriften mit ihren Transliterationen und Transkriptionen integriert und diese zu
-                  einem umfangreichen korpusbasierten Wörterbuch des Klassischen Maya zusammenstellt.</p>
-              <p> Das Projekt nutzt und entwickelt modernste Technologien und Infrastrukturen aus den
-                  Bereichen Digital Humanities und Epigraphik weiter. Aufgebaut in der virtuellen
-                  Forschungsumgebung TextGrid, werden die Beschreibungen der Textmedien, ihre
-                  Transliterationen, Transkriptionen und Übersetzungen im XML/TEI-Format generiert und
-                  verwaltet. Im Zentrum steht das Maya-Bildarchiv als Repository für Fotografien und
-                  Zeichnungen von Hieroglyphentexten, die in über 150 Jahren Maya-Forschung entstanden
-                  sind. Ein Editor-Tool verknüpft die abgebildeten Glyphen in den Bilddateien mit ihren
-                  Transliterationen, die auf einer aktualisierten und erweiterten Version von Eric Thompsons
-                  Zeichenkatalog der Maya-Hieroglyphen beruhen. Ein weiteres Tool unterstützt die
-                  halbautomatische, phonemische Transkription und linguistische Analyse der numerischen
-                  Transliterationen und bildet die Grundlage für das Wörterbuch. Zudem wird 3DScantechnologie eingesetzt, um ansonsten unlesbare Maya-Inschriften wieder zum Sprechen
-                  zu bringen. Dieser Vortrag gibt einen umfassenden Überblick über das Projekt und zeigt, wie
-                  die angewandten Technologien unser Verständnis der Maya-Schrift wesentlich verbessern.</p> </note>
+                <p> Die „Textdatenbank und Wörterbuch des Klassischen Maya“ ist eine innovative
+                  digitale Ressource, die ein umfassendes Archiv mit der systematischen Analyse der
+                  alten MayaSchrift und der ihr zugrunde liegenden Sprache verbindet. Die
+                  Nordrhein-Westfälische Akademie der Wissenschaften und der Künste hat 2014 die
+                  Förderung des langfristig angelegten Forschungsprojekts beschlossen, das von
+                  Nikolai Grube geleitet und von Projektkoordinator Christian Prager an der
+                  Universität Bonn betreut wird. Ziel des Projekts ist der Aufbau einer
+                  Online-Datenbank aller bekannten Hieroglyphentexte, die Bilder von
+                  Originalinschriften mit ihren Transliterationen und Transkriptionen integriert und
+                  diese zu einem umfangreichen korpusbasierten Wörterbuch des Klassischen Maya
+                  zusammenstellt.</p>
+                <p> Das Projekt nutzt und entwickelt modernste Technologien und Infrastrukturen aus
+                  den Bereichen Digital Humanities und Epigraphik weiter. Aufgebaut in der
+                  virtuellen Forschungsumgebung TextGrid, werden die Beschreibungen der Textmedien,
+                  ihre Transliterationen, Transkriptionen und Übersetzungen im XML/TEI-Format
+                  generiert und verwaltet. Im Zentrum steht das Maya-Bildarchiv als Repository für
+                  Fotografien und Zeichnungen von Hieroglyphentexten, die in über 150 Jahren
+                  Maya-Forschung entstanden sind. Ein Editor-Tool verknüpft die abgebildeten Glyphen
+                  in den Bilddateien mit ihren Transliterationen, die auf einer aktualisierten und
+                  erweiterten Version von Eric Thompsons Zeichenkatalog der Maya-Hieroglyphen
+                  beruhen. Ein weiteres Tool unterstützt die halbautomatische, phonemische
+                  Transkription und linguistische Analyse der numerischen Transliterationen und
+                  bildet die Grundlage für das Wörterbuch. Zudem wird 3DScantechnologie eingesetzt,
+                  um ansonsten unlesbare Maya-Inschriften wieder zum Sprechen zu bringen. Dieser
+                  Vortrag gibt einen umfassenden Überblick über das Projekt und zeigt, wie die
+                  angewandten Technologien unser Verständnis der Maya-Schrift wesentlich
+                  verbessern.</p>
+              </note>
               <note type="keywords">
                 <term>
                   <!--  some type of keyword, e.g. tadirah for classifying this lecture  -->
@@ -51572,12 +51628,13 @@
                   <affiliation corresp="#uni-bonn"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-06-26" xml:id="ls49_t7_l7">
-              <eventName xml:lang="de">Musik modellieren: Von der Schwierigkeit, das Unsichtbare sichtbar zu machen</eventName>
+              <eventName xml:lang="de">Musik modellieren: Von der Schwierigkeit, das Unsichtbare
+                sichtbar zu machen</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51597,12 +51654,13 @@
                   <affiliation corresp="#adw-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-07-03" xml:id="ls49_t7_l8">
-              <eventName xml:lang="de">Herausforderungen der Bildforschung zu Social Media-Bildkulturen </eventName>
+              <eventName xml:lang="de">Herausforderungen der Bildforschung zu Social
+                Media-Bildkulturen </eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51622,12 +51680,13 @@
                   <affiliation corresp="#uni-berlin-hu"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <event type="lecture" when="2024-07-10" xml:id="ls49_t7_l9">
-              <eventName xml:lang="de">Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze im Projekt „Filmzirkulation“</eventName>
+              <eventName xml:lang="de">Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze
+                im Projekt „Filmzirkulation“</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51647,8 +51706,8 @@
                   <affiliation corresp="#uni-babelsberg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
 
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
@@ -51680,12 +51739,13 @@
                   <affiliation corresp="#uni-mainz-haw"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-05-07" xml:id="ls49_t8_l2">
-              <eventName xml:lang="de">Was mit Daten, was mit Sinn. Zu computationellen Praktiken der Literaturwissenschaft im 21.Jahrhundert</eventName>
+              <eventName xml:lang="de">Was mit Daten, was mit Sinn. Zu computationellen Praktiken
+                der Literaturwissenschaft im 21.Jahrhundert</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51705,12 +51765,13 @@
                   <affiliation corresp="#uni-bielefeld"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-05-14" xml:id="ls49_t8_l3">
-              <eventName xml:lang="de">Resilient, föderiert, barrierearm: Kulturgutdaten und Web Apps für Menschen und Datenräume</eventName>
+              <eventName xml:lang="de">Resilient, föderiert, barrierearm: Kulturgutdaten und Web
+                Apps für Menschen und Datenräume</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51730,12 +51791,13 @@
                   <affiliation corresp="#adw-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-05-21" xml:id="ls49_t8_l4">
-              <eventName xml:lang="de">Die UNESCO und KI-Ethik – Politischer Rahmen und digitale Anwendungen im Welterbe</eventName>
+              <eventName xml:lang="de">Die UNESCO und KI-Ethik – Politischer Rahmen und digitale
+                Anwendungen im Welterbe</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51761,12 +51823,13 @@
                   <affiliation corresp="#unesco"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-06-04" xml:id="ls49_t8_l5">
-              <eventName xml:lang="en">Semantic Web for Cultural Heritage. An Introduction</eventName>
+              <eventName xml:lang="en">Semantic Web for Cultural Heritage. An
+                Introduction</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -51786,12 +51849,14 @@
                   <affiliation corresp="#ieg-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-06-11" xml:id="ls49_t8_l6">
-              <eventName xml:lang="de">Die Tatsache, dass ich mich in Dich verliebt habe, ist nun wohl kein Geheimnis mehr (…). LB_00017_0001. Das Citizen-Science-Projekt ‚Gruß und Kuss – Bürger*innen erhalten Liebesbriefe‘</eventName>
+              <eventName xml:lang="de">Die Tatsache, dass ich mich in Dich verliebt habe, ist nun
+                wohl kein Geheimnis mehr (…). LB_00017_0001. Das Citizen-Science-Projekt ‚Gruß und
+                Kuss – Bürger*innen erhalten Liebesbriefe‘</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51811,12 +51876,13 @@
                   <affiliation corresp="#uni-darmstadt"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-06-25" xml:id="ls49_t8_l7">
-              <eventName xml:lang="en">Generative AI in the Humanities. Current Landscape and Future Horizons</eventName>
+              <eventName xml:lang="en">Generative AI in the Humanities. Current Landscape and Future
+                Horizons</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
@@ -51836,10 +51902,10 @@
                   <affiliation corresp="#ieg-mainz"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-07-02" xml:id="ls49_t8_l8">
               <eventName xml:lang="de">Digitale Musikverarbeitung.Vom Scheitern lernen</eventName>
               <ptr type="programme" target="..."/>
@@ -51861,12 +51927,14 @@
                   <affiliation corresp="#uni-erlangen-nuernberg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-            
+
             <event type="lecture" when="2025-07-09" xml:id="ls49_t8_l9">
-              <eventName xml:lang="de">Erfassung und Analyse historischer Architektur durch semantische Modellierung. Eine kollaborative und anschlussfähige Methode für die Erschließung und den Erhalt gebauter Sachzeugnisse</eventName>
+              <eventName xml:lang="de">Erfassung und Analyse historischer Architektur durch
+                semantische Modellierung. Eine kollaborative und anschlussfähige Methode für die
+                Erschließung und den Erhalt gebauter Sachzeugnisse</eventName>
               <ptr type="programme" target="..."/>
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords">
@@ -51886,10 +51954,10 @@
                   <affiliation corresp="#uni-bamberg"/>
                 </person>
               </listPerson>
-              <org role="host-institution"
-                corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"/>
+              <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
+              />
             </event>
-        
+
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
 
@@ -63796,8 +63864,6 @@
         </event>
         <event xml:id="ls54" type="lecture-series" where="#london">
           <eventName xml:lang="en">UCLDH Seminar Series</eventName>
-          
-          
           <event type="lecture-series-term" from="2014-11" to="2015-06" xml:id="ls54_t1">
             <eventName/>
             <!-- 
@@ -63820,26 +63886,25 @@
                 memory and knowledge systems.</p>
             </note>
             -->
-          </event>
-            
             <event type="lecture" when="2014-11-20" xml:id="ls54_t1_l1">
-              <eventName xml:lang="en">Scalpels and magic wands. From the physical world of book conservation
-                to the magic of Digital Humanities</eventName>
+              <eventName xml:lang="en">Scalpels and magic wands. From the physical world of book
+                conservation to the magic of Digital Humanities</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarcampagnolo"/>
               <note type="abstract" xml:lang="en">
-                <p>Books are objects in primis. They do contain important written information, but their
-                  physicality is also a silent witness that needs to be read, and preserved. Traditionally,
-                  for museum objects, the balance between their meaning and their usefulness tends heavily 
-                  towards the former. When it comes to books, things get more complicated, as these artefacts
-                  are both regarded as meaningful per se, and useful (for one needs to access and preserve the
-                  text they contain). Often in the past, the usefulness of the artefact book outvalued its
-                  own meaning as artefact. Modern book conservation strives to keep the balance as even as
-                  possible, but this means that there is - and there should be - a limit to what book conservators 
-                  can do, scalpel at hand, physically on books. These physical limits can be overcome with the 
-                  collaboration between conservation and Digital Humanities, and this is where the magic happens: 
-                  the artefact can be saved for its own meaning, and its usefulness can be enhanced through
-                  digital means.</p>
+                <p>Books are objects in primis. They do contain important written information, but
+                  their physicality is also a silent witness that needs to be read, and preserved.
+                  Traditionally, for museum objects, the balance between their meaning and their
+                  usefulness tends heavily towards the former. When it comes to books, things get
+                  more complicated, as these artefacts are both regarded as meaningful per se, and
+                  useful (for one needs to access and preserve the text they contain). Often in the
+                  past, the usefulness of the artefact book outvalued its own meaning as artefact.
+                  Modern book conservation strives to keep the balance as even as possible, but this
+                  means that there is - and there should be - a limit to what book conservators can
+                  do, scalpel at hand, physically on books. These physical limits can be overcome
+                  with the collaboration between conservation and Digital Humanities, and this is
+                  where the magic happens: the artefact can be saved for its own meaning, and its
+                  usefulness can be enhanced through digital means.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -63860,17 +63925,19 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2014-11-26" xml:id="ls54_t1_l2">
-              <eventName xml:lang="en">Image Aesthetics: From Philosophical to Computational Exploration</eventName>
+              <eventName xml:lang="en">Image Aesthetics: From Philosophical to Computational
+                Exploration</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminaramati"/>
               <note type="abstract" xml:lang="en">
-                <p>Seeking beauty in images has always preoccupied the human mind. Today, the amount of imagery 
-                  available online, in museums or personal photo collections is incredibly vast and varied. By 
-                  harnessing these data, together with insights from Philosophy, Art, Colour Theory, Psychology 
-                  and Neurology, computer scientists are striving to explore the concept of beauty using algorithms 
-                  and numbers. In this talk I will give an overview of the multidisciplinary knowledge on aesthetics 
-                  and visual perception and show how Computer Science is contributing to further our understanding 
-                  of these fields.</p>
+                <p>Seeking beauty in images has always preoccupied the human mind. Today, the amount
+                  of imagery available online, in museums or personal photo collections is
+                  incredibly vast and varied. By harnessing these data, together with insights from
+                  Philosophy, Art, Colour Theory, Psychology and Neurology, computer scientists are
+                  striving to explore the concept of beauty using algorithms and numbers. In this
+                  talk I will give an overview of the multidisciplinary knowledge on aesthetics and
+                  visual perception and show how Computer Science is contributing to further our
+                  understanding of these fields.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -63891,29 +63958,35 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2014-12-03" xml:id="ls54_t1_l3">
-              <eventName xml:lang="en">Illuminating the Herculaneum Papyri with New Digital Imaging Techniques</eventName>
+              <eventName xml:lang="en">Illuminating the Herculaneum Papyri with New Digital Imaging
+                Techniques</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarpiquette"/>
               <note type="abstract" xml:lang="en">
-                <p>The advanced computational photographic method, Reflectance Transformation Imaging, is a powerful 
-                  visualisation tool that is increasingly being applied to a range of archaeological materials. 
-                  Documentary evidence, particularly damaged or other types of difficult-to-read texts, present 
-                  rich areas for new insight and discovery. RTI is relatively unique among digital imaging 
-                  technologies in providing ultra high resolution visualisations with virtual relighting and 
-                  artificial enhancement capabilities. These tools can vastly improve legibility as well as support 
-                  exploration of the entangled relationships between ancient writings and their material supports. 
-                  Dissecting these relationships is particularly vital for reading and reconstructing one of the 
-                  largest surviving ancient libraries in the world, namely the Herculaneum papyri. More than 2000 
-                  rolls, mostly written in Greek, were preserved through carbonisation when Mount Vesuvius erupted 
-                  in 79 CE. Over the past two centuries scholars have sought to unroll and read these fragile 
-                  documents. Multispectral images taken more than a decade ago greatly improved their legibility but 
-                  much remains to be revealed. In this lecture I will report on the outcomes of a recent Universität 
-                  zu Köln pilot project involving the application of RTI to these blackened papyrus fragments. An 
-                  innovation trialled during this work was the combination of RTI with infrared illumination. I will 
-                  present key results and discuss their implications for improved readings and the associated task of 
-                  scroll reconstruction. A key theoretical issue underpinning my discussion will be the contrasting 
-                  notions of the digital image as a resource for interpreting past written meaning, and the more 
-                  active concept of the digital image as constitutive of the interpretive process.</p>
+                <p>The advanced computational photographic method, Reflectance Transformation
+                  Imaging, is a powerful visualisation tool that is increasingly being applied to a
+                  range of archaeological materials. Documentary evidence, particularly damaged or
+                  other types of difficult-to-read texts, present rich areas for new insight and
+                  discovery. RTI is relatively unique among digital imaging technologies in
+                  providing ultra high resolution visualisations with virtual relighting and
+                  artificial enhancement capabilities. These tools can vastly improve legibility as
+                  well as support exploration of the entangled relationships between ancient
+                  writings and their material supports. Dissecting these relationships is
+                  particularly vital for reading and reconstructing one of the largest surviving
+                  ancient libraries in the world, namely the Herculaneum papyri. More than 2000
+                  rolls, mostly written in Greek, were preserved through carbonisation when Mount
+                  Vesuvius erupted in 79 CE. Over the past two centuries scholars have sought to
+                  unroll and read these fragile documents. Multispectral images taken more than a
+                  decade ago greatly improved their legibility but much remains to be revealed. In
+                  this lecture I will report on the outcomes of a recent Universität zu Köln pilot
+                  project involving the application of RTI to these blackened papyrus fragments. An
+                  innovation trialled during this work was the combination of RTI with infrared
+                  illumination. I will present key results and discuss their implications for
+                  improved readings and the associated task of scroll reconstruction. A key
+                  theoretical issue underpinning my discussion will be the contrasting notions of
+                  the digital image as a resource for interpreting past written meaning, and the
+                  more active concept of the digital image as constitutive of the interpretive
+                  process.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -63934,21 +64007,24 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-01-28" xml:id="ls54_t1_l4">
-              <eventName xml:lang="en">Big data for humanities research: from digging into the parliamentary record to exploring the UK Web Archive</eventName>
+              <eventName xml:lang="en">Big data for humanities research: from digging into the
+                parliamentary record to exploring the UK Web Archive</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/janewinters"/>
               <note type="abstract" xml:lang="en">
-                <p>There is increasing interest among arts and humanities researchers in working with big data, as 
-                  evidenced by the Arts and Humanities Research Council's recent big data funding call and the 
-                  Digging into Data programme. However, working with data at this scale presents unique theoretical 
-                  and methodological challenges which we are only now beginning to explore. This paper will present 
-                  a number of approaches to big data research, focusing on the archive of UK web space for the period
-                  1996-2013; 200 years' worth of parliamentary proceedings for the UK, the Netherlands and Canada; 
-                  and a corpus of historical material digitised by The National Archives spanning the middle ages 
-                  to the twentieth century. It will consider prosopography, linked data, semantic mark-up and natural 
-                  language processing, as well as the ethics of big data research. Finally, it will highlight some of 
-                  the benefits of adopting a genuinely collaborative and interdisciplinary way of working when dealing
-                  with big data.</p>
+                <p>There is increasing interest among arts and humanities researchers in working
+                  with big data, as evidenced by the Arts and Humanities Research Council's recent
+                  big data funding call and the Digging into Data programme. However, working with
+                  data at this scale presents unique theoretical and methodological challenges which
+                  we are only now beginning to explore. This paper will present a number of
+                  approaches to big data research, focusing on the archive of UK web space for the
+                  period 1996-2013; 200 years' worth of parliamentary proceedings for the UK, the
+                  Netherlands and Canada; and a corpus of historical material digitised by The
+                  National Archives spanning the middle ages to the twentieth century. It will
+                  consider prosopography, linked data, semantic mark-up and natural language
+                  processing, as well as the ethics of big data research. Finally, it will highlight
+                  some of the benefits of adopting a genuinely collaborative and interdisciplinary
+                  way of working when dealing with big data.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -63969,20 +64045,23 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-03-11" xml:id="ls54_t1_l5">
-              <eventName xml:lang="en">Image Sets under Directional Lighting: A Richer Representation of Cultural Heritage Objects</eventName>
+              <eventName xml:lang="en">Image Sets under Directional Lighting: A Richer
+                Representation of Cultural Heritage Objects</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarmacdonald"/>
               <note type="abstract" xml:lang="en">
-                <p>With a camera on a copystand one obtains a single image of an object with a fixed (usually diffuse) 
-                  lighting geometry. In a dome illumination system, however, the same camera can be used to capture 
-                  many different images in pixel register, each illuminated from a different direction. This turns 
-                  out to be a much richer representation than a single image, and has many applications in cultural 
-                  heritage for the digitising and display of objects that are flattish with surface relief, such as 
-                  coins, medals, fossils, rock art, incised tablets, bas reliefs, engravings, canvas paintings, etc. 
-                  This talk will describe the UCL Dome system and show how the image sets can be used in three ways: 
-                  (1) visualisation by interactive movement of a virtual light source over the enclosing hemisphere; 
-                  (2) 3D reconstruction of the object surface; (3) modelling of the specular highlights from the 
-                  surface and hence realistic rendering.</p>
+                <p>With a camera on a copystand one obtains a single image of an object with a fixed
+                  (usually diffuse) lighting geometry. In a dome illumination system, however, the
+                  same camera can be used to capture many different images in pixel register, each
+                  illuminated from a different direction. This turns out to be a much richer
+                  representation than a single image, and has many applications in cultural heritage
+                  for the digitising and display of objects that are flattish with surface relief,
+                  such as coins, medals, fossils, rock art, incised tablets, bas reliefs,
+                  engravings, canvas paintings, etc. This talk will describe the UCL Dome system and
+                  show how the image sets can be used in three ways: (1) visualisation by
+                  interactive movement of a virtual light source over the enclosing hemisphere; (2)
+                  3D reconstruction of the object surface; (3) modelling of the specular highlights
+                  from the surface and hence realistic rendering.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -64003,16 +64082,17 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-03-25" xml:id="ls54_t1_l6">
-              <eventName xml:lang="en">The Antikythera Mechanism: A Personal Journey of Discovery</eventName>
+              <eventName xml:lang="en">The Antikythera Mechanism: A Personal Journey of
+                Discovery</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarfreeth"/>
               <note type="abstract" xml:lang="en">
-                <p>The Antikythera Mechanism is an ancient Greek astronomical calculating machine of remarkable 
-                  sophistication. As part of an international team of scientists, I have been a central part 
-                  of research on the Antikythera Mechanism over the last fifteen years. It has been an 
-                  extraordinary journey of discovery, which has led to a revolution in our understanding of 
-                  the device. It is a landmark in the history of science and technology and one of the true 
-                  wonders of the ancient world.</p>
+                <p>The Antikythera Mechanism is an ancient Greek astronomical calculating machine of
+                  remarkable sophistication. As part of an international team of scientists, I have
+                  been a central part of research on the Antikythera Mechanism over the last fifteen
+                  years. It has been an extraordinary journey of discovery, which has led to a
+                  revolution in our understanding of the device. It is a landmark in the history of
+                  science and technology and one of the true wonders of the ancient world.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -64033,7 +64113,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-05-06" xml:id="ls54_t1_l7">
-              <eventName xml:lang="en">Networking to the fourth power: Reassembling the Republic of Letters, 1500-1800</eventName>
+              <eventName xml:lang="en">Networking to the fourth power: Reassembling the Republic of
+                Letters, 1500-1800</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
               <note type="abstract">
@@ -64058,7 +64139,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-05-20" xml:id="ls54_t1_l8">
-              <eventName xml:lang="en">Embodiments, Subjectivities and Reconfigurations of Urban Spaces via GPS Mobile Applications: Driving/Guiding</eventName>
+              <eventName xml:lang="en">Embodiments, Subjectivities and Reconfigurations of Urban
+                Spaces via GPS Mobile Applications: Driving/Guiding</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
               <note type="abstract">
@@ -64083,7 +64165,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-06-01" xml:id="ls54_t1_l9">
-              <eventName xml:lang="en">Interactive Handwritten Text Recognition and Indexing of Historical Documents: the tranScriptorium project</eventName>
+              <eventName xml:lang="en">Interactive Handwritten Text Recognition and Indexing of
+                Historical Documents: the tranScriptorium project</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
               <note type="abstract">
@@ -64113,22 +64196,23 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
+          </event>
           <event type="lecture-series-term" from="2015-10" to="2016-07" xml:id="ls54_t2">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2015-10-09" xml:id="ls54_t2_l1">
-              <eventName xml:lang="en">Geopolitical diversity in Digital Humanities: how do we make it happen?</eventName>
+              <eventName xml:lang="en">Geopolitical diversity in Digital Humanities: how do we make
+                it happen?</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminargalinarussell"/>
               <note type="abstract" xml:lang="en">
-                <p>In this talk Isabel Galina Russell will outline the main challenges involved 
-                  in creating a truly global Digital Humanities community with active 
-                  participation from a broad range of countries and languages. Drawing on her 
-                  experience in establishing the Red de Humanidades Digitales (RedHD), she will 
-                  discuss the importance of geopolitics in Digital Humanities and the way in 
-                  which the Digital Humanities are particularly equipped to address issues such 
-                  multilingualism, multiculturalism, publishing models and dissemination, 
-                  validation and knowledge construction, community building and collaborative 
-                  projects.</p>
+                <p>In this talk Isabel Galina Russell will outline the main challenges involved in
+                  creating a truly global Digital Humanities community with active participation
+                  from a broad range of countries and languages. Drawing on her experience in
+                  establishing the Red de Humanidades Digitales (RedHD), she will discuss the
+                  importance of geopolitics in Digital Humanities and the way in which the Digital
+                  Humanities are particularly equipped to address issues such multilingualism,
+                  multiculturalism, publishing models and dissemination, validation and knowledge
+                  construction, community building and collaborative projects.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -64149,42 +64233,46 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-10-28" xml:id="ls54_t2_l2">
-              <eventName xml:lang="en">More than the Eye Can See: Digital Humanities Spectral Imaging</eventName>
+              <eventName xml:lang="en">More than the Eye Can See: Digital Humanities Spectral
+                Imaging</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminartoth"/>
               <note type="abstract" xml:lang="en">
-                <p>Building on advances in imaging technology, teams of specialists have refined spectral 
-                  imaging capabilities and adapted them to meet the needs of cultural heritage and digital 
-                  humanities (DH) research. Proven advanced spectral imaging equipment, techniques and work 
-                  processes have become standardized tools to support cultural heritage studies of 
-                  manuscripts, materials and objects. The University College London and other institutions 
-                  are advancing spectral imaging and digitization capabilities for cultural heritage studies.
-                  Advanced imaging systems allow studies of the overall object, as well as specific key 
-                  areas of interest, with transfer of digital data to DH scholars, curators and conservators
-                  for further evaluation and study.</p>
-                <p>Spectral imaging and digitization now provides important data for study in institutions 
-                  ranging from the ancient library of St. Catherine's Monastery of the Sinai and the Vatican
-                  Apostolic Library to the Petrie Museum, Library of Congress and private collections. 
-                  Wherever they are located and whatever culture they represent, each institution is 
-                  grappling with the challenges of preserving digital information for future generations and 
-                  making it available for free access.</p>
-                <p>Effective spectral imaging requires not just collection of quality images, but the ability 
-                  to manage and exploit large amounts of integrated data and metadata for cultural heritage 
-                  studies. A medium-format monochrome camera takes a series of high-quality digital images, 
-                  each illuminated by a specific wavelength of light from low-heat LED light sources. Digitally
-                  processing and combining the resulting image set can reveal important features on the objects
-                  that are not visible to the eye in natural light. Data management, operation, training, 
-                  information storage and access are required for the collaborative analysis of the images and 
-                  image products from the spectral imaging system. Data collected in standard formats can be 
-                  made available for access and sharing for further analysis. With common standards and 
-                  techniques, this can include collaboration with other DH studies and data. Integration is 
-                  also possible with other standard digital images or data collected with other camera systems 
-                  and scientific instruments, as is being done with mummy masks at UCL.</p>
-                <p>Speaker's bio: Mike integrates and manages new technologies for digital study, access and 
-                  preservation of cultural objects, including in the Walters Art Museum, Bibliothèque Nationale 
-                  de France, and British Library. In partnership with DTEK, Phase One and Equipoise Imaging, he 
-                  is supporting the integration of spectral imaging systems into digital humanities studies and 
-                  institutions.</p>
+                <p>Building on advances in imaging technology, teams of specialists have refined
+                  spectral imaging capabilities and adapted them to meet the needs of cultural
+                  heritage and digital humanities (DH) research. Proven advanced spectral imaging
+                  equipment, techniques and work processes have become standardized tools to support
+                  cultural heritage studies of manuscripts, materials and objects. The University
+                  College London and other institutions are advancing spectral imaging and
+                  digitization capabilities for cultural heritage studies. Advanced imaging systems
+                  allow studies of the overall object, as well as specific key areas of interest,
+                  with transfer of digital data to DH scholars, curators and conservators for
+                  further evaluation and study.</p>
+                <p>Spectral imaging and digitization now provides important data for study in
+                  institutions ranging from the ancient library of St. Catherine's Monastery of the
+                  Sinai and the Vatican Apostolic Library to the Petrie Museum, Library of Congress
+                  and private collections. Wherever they are located and whatever culture they
+                  represent, each institution is grappling with the challenges of preserving digital
+                  information for future generations and making it available for free access.</p>
+                <p>Effective spectral imaging requires not just collection of quality images, but
+                  the ability to manage and exploit large amounts of integrated data and metadata
+                  for cultural heritage studies. A medium-format monochrome camera takes a series of
+                  high-quality digital images, each illuminated by a specific wavelength of light
+                  from low-heat LED light sources. Digitally processing and combining the resulting
+                  image set can reveal important features on the objects that are not visible to the
+                  eye in natural light. Data management, operation, training, information storage
+                  and access are required for the collaborative analysis of the images and image
+                  products from the spectral imaging system. Data collected in standard formats can
+                  be made available for access and sharing for further analysis. With common
+                  standards and techniques, this can include collaboration with other DH studies and
+                  data. Integration is also possible with other standard digital images or data
+                  collected with other camera systems and scientific instruments, as is being done
+                  with mummy masks at UCL.</p>
+                <p>Speaker's bio: Mike integrates and manages new technologies for digital study,
+                  access and preservation of cultural objects, including in the Walters Art Museum,
+                  Bibliothèque Nationale de France, and British Library. In partnership with DTEK,
+                  Phase One and Equipoise Imaging, he is supporting the integration of spectral
+                  imaging systems into digital humanities studies and institutions.</p>
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="..."/>
@@ -64230,8 +64318,9 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2015-12-02" xml:id="ls54_t2_l4">
-              <eventName xml:lang="en">Digital Humanities and internet policy: the case of the Translation &amp; 
-                Transliteration of Contact Information PDP Working Group</eventName>
+              <eventName xml:lang="en">Digital Humanities and internet policy: the case of the
+                Translation &amp; Transliteration of Contact Information PDP Working
+                Group</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64256,8 +64345,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-01-20" xml:id="ls54_t2_l5">
-              <eventName xml:lang="en">Project planning framework for 3D imaging 
-                in cultural heritage, including 3D image quality assessment</eventName>
+              <eventName xml:lang="en">Project planning framework for 3D imaging in cultural
+                heritage, including 3D image quality assessment</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64282,9 +64371,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-02-03" xml:id="ls54_t2_l6">
-              <eventName xml:lang="en">Acts of being in proxies for prints. People in 
-                the Catalogue of Political and Personal Satires in the British
-                Museum, circa 1770-1830</eventName>
+              <eventName xml:lang="en">Acts of being in proxies for prints. People in the Catalogue
+                of Political and Personal Satires in the British Museum, circa 1770-1830</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64360,7 +64448,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-04-27" xml:id="ls54_t2_l9">
-              <eventName xml:lang="en">RITS and Oracc: new tools for editing the world's oldest texts</eventName>
+              <eventName xml:lang="en">RITS and Oracc: new tools for editing the world's oldest
+                texts</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64385,7 +64474,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-05-11" xml:id="ls54_t2_l10">
-              <eventName xml:lang="en">From Visualisation to Analysis: Exploring an integrated approach to digital heritage imaging</eventName>
+              <eventName xml:lang="en">From Visualisation to Analysis: Exploring an integrated
+                approach to digital heritage imaging</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64410,7 +64500,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-05-18" xml:id="ls54_t2_l11">
-              <eventName xml:lang="en">Scale as Deformance: The Particulars of 'Big Data' in the Humanities Research</eventName>
+              <eventName xml:lang="en">Scale as Deformance: The Particulars of 'Big Data' in the
+                Humanities Research</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64435,7 +64526,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-07-05" xml:id="ls54_t2_l12">
-              <eventName xml:lang="en">If you give a historian code: Adventures in the Digital Humanities</eventName>
+              <eventName xml:lang="en">If you give a historian code: Adventures in the Digital
+                Humanities</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
               <note type="abstract">
@@ -64461,9 +64553,10 @@
             </event>
           </event>
           <event type="lecture-series-term" from="2016-10" to="2017-05" xml:id="ls54_t3">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2016-10-12" xml:id="ls54_t3_l1">
-              <eventName xml:lang="en">Freedom to constrain: Introducing TEI customisation</eventName>
+              <eventName xml:lang="en">Freedom to constrain: Introducing TEI
+                customisation</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64546,8 +64639,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-11-09" xml:id="ls54_t3_l4">
-              <eventName xml:lang="en">Images of the past. Using digital 3D reconstruction methods for digital 
-                humanities research and education</eventName>
+              <eventName xml:lang="en">Images of the past. Using digital 3D reconstruction methods
+                for digital humanities research and education</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64597,7 +64690,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2016-12-01" xml:id="ls54_t3_l6">
-              <eventName xml:lang="en">Field Crystallization: How Digital Humanities Is Evolving</eventName>
+              <eventName xml:lang="en">Field Crystallization: How Digital Humanities Is
+                Evolving</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64672,7 +64766,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-01-25" xml:id="ls54_t3_l9">
-              <eventName xml:lang="en">Knowledge Representation and Research in the Real World</eventName>
+              <eventName xml:lang="en">Knowledge Representation and Research in the Real
+                World</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64697,7 +64792,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-02-01" xml:id="ls54_t3_l10">
-              <eventName xml:lang="en">Lives of the First World War: Reflection on IWMs' Permanent Digital Memorial</eventName>
+              <eventName xml:lang="en">Lives of the First World War: Reflection on IWMs' Permanent
+                Digital Memorial</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64722,7 +64818,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-02-08" xml:id="ls54_t3_l11">
-              <eventName xml:lang="en">Natural Historical Archives as Digital Challenge and Opportunity</eventName>
+              <eventName xml:lang="en">Natural Historical Archives as Digital Challenge and
+                Opportunity</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64747,8 +64844,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-02-22" xml:id="ls54_t3_l12">
-              <eventName xml:lang="en">Brothers Grimm, Jane Austen and Paulus Orosius have 
-                one thing in common: the eTRAP research team and its DH projects</eventName>
+              <eventName xml:lang="en">Brothers Grimm, Jane Austen and Paulus Orosius have one thing
+                in common: the eTRAP research team and its DH projects</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64781,8 +64878,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-03-06" xml:id="ls54_t3_l13">
-              <eventName xml:lang="en">In the Caribbean Sea, Dreaming Futures of the Digital
-                and the Humanities</eventName>
+              <eventName xml:lang="en">In the Caribbean Sea, Dreaming Futures of the Digital and the
+                Humanities</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64807,8 +64904,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-03-08" xml:id="ls54_t3_l14">
-              <eventName xml:lang="en">From Busa to Word Formation. Working on language 
-                resources for Latin in Milan</eventName>
+              <eventName xml:lang="en">From Busa to Word Formation. Working on language resources
+                for Latin in Milan</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64833,8 +64930,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-03-22" xml:id="ls54_t3_l15">
-              <eventName xml:lang="en">Managing library collections with friends, favours 
-                and a spoonful of sugar</eventName>
+              <eventName xml:lang="en">Managing library collections with friends, favours and a
+                spoonful of sugar</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64859,7 +64956,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-03-28" xml:id="ls54_t3_l16">
-              <eventName xml:lang="en">The Hillary Clinton emails: corpus linguistics meets the real world</eventName>
+              <eventName xml:lang="en">The Hillary Clinton emails: corpus linguistics meets the real
+                world</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64884,7 +64982,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-05-03" xml:id="ls54_t3_l17">
-              <eventName xml:lang="en">Humanities Crowdsourcing on the Zooniverse Platform</eventName>
+              <eventName xml:lang="en">Humanities Crowdsourcing on the Zooniverse
+                Platform</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64909,7 +65008,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-05-24" xml:id="ls54_t3_l18">
-              <eventName xml:lang="en">Baseless Data? Developing an ethnographic approach to big data problems</eventName>
+              <eventName xml:lang="en">Baseless Data? Developing an ethnographic approach to big
+                data problems</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64934,7 +65034,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-05-31" xml:id="ls54_t3_l19">
-              <eventName xml:lang="en">Legal Issues in Digital Humanities: Introduction and Where Things Stand</eventName>
+              <eventName xml:lang="en">Legal Issues in Digital Humanities: Introduction and Where
+                Things Stand</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
               <note type="abstract">
@@ -64960,9 +65061,10 @@
             </event>
           </event>
           <event type="lecture-series-term" from="2017-10" to="2018-05" xml:id="ls54_t4">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2017-10-18" xml:id="ls54_t4_l1">
-              <eventName xml:lang="en">Crowdsourcing and commentary with IIIF and W3C web annotations</eventName>
+              <eventName xml:lang="en">Crowdsourcing and commentary with IIIF and W3C web
+                annotations</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
               <note type="abstract">
@@ -65012,7 +65114,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-11-15" xml:id="ls54_t4_l3">
-              <eventName xml:lang="en">What might a corpus of spoken data tell us about language?</eventName>
+              <eventName xml:lang="en">What might a corpus of spoken data tell us about
+                language?</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
               <note type="abstract">
@@ -65037,7 +65140,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2017-11-29" xml:id="ls54_t4_l4">
-              <eventName xml:lang="en">British slave-owners of the Caribbean c.1763-c.1860: building a digital history</eventName>
+              <eventName xml:lang="en">British slave-owners of the Caribbean c.1763-c.1860: building
+                a digital history</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
               <note type="abstract">
@@ -65062,7 +65166,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2018-01-17" xml:id="ls54_t4_l5">
-              <eventName xml:lang="en">Integrating Data Science and Digital Humanities: what can possibly go wrong?</eventName>
+              <eventName xml:lang="en">Integrating Data Science and Digital Humanities: what can
+                possibly go wrong?</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
               <note type="abstract">
@@ -65087,7 +65192,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2018-01-31" xml:id="ls54_t4_l6">
-              <eventName xml:lang="en">Computer vision as critical practice: how digital humanities can teach computers to say what they see</eventName>
+              <eventName xml:lang="en">Computer vision as critical practice: how digital humanities
+                can teach computers to say what they see</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
               <note type="abstract">
@@ -65112,7 +65218,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2018-03-21" xml:id="ls54_t4_l7">
-              <eventName xml:lang="en">The heritage of Brexit: role of the past in political identity construction on social media</eventName>
+              <eventName xml:lang="en">The heritage of Brexit: role of the past in political
+                identity construction on social media</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
               <note type="abstract">
@@ -65163,7 +65270,7 @@
             </event>
           </event>
           <event type="lecture-series-term" from="2018-10" to="2019-06" xml:id="ls54_t5">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2018-10-17" xml:id="ls54_t5_l1">
               <eventName xml:lang="en">Annotating text and images with Recogito</eventName>
               <ptr type="programme"
@@ -65190,7 +65297,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2018-11-14" xml:id="ls54_t5_l2">
-              <eventName xml:lang="en">Encoding and Analysis, and Encoding as Analysis, in Textual Editing</eventName>
+              <eventName xml:lang="en">Encoding and Analysis, and Encoding as Analysis, in Textual
+                Editing</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
               <note type="abstract">
@@ -65215,7 +65323,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2018-12-05" xml:id="ls54_t5_l3">
-              <eventName xml:lang="en">The Pleasures and Sorrows of digitising primary source collections: The Case of the Daily Mail Atlantic Edition</eventName>
+              <eventName xml:lang="en">The Pleasures and Sorrows of digitising primary source
+                collections: The Case of the Daily Mail Atlantic Edition</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
               <note type="abstract">
@@ -65265,7 +65374,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2019-02-26" xml:id="ls54_t5_l5">
-              <eventName xml:lang="en">Enhancing engagement with cultural heritage collections using 3D digital technologies</eventName>
+              <eventName xml:lang="en">Enhancing engagement with cultural heritage collections using
+                3D digital technologies</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
               <note type="abstract">
@@ -65290,7 +65400,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2019-03-06" xml:id="ls54_t5_l6">
-              <eventName xml:lang="en">Balancing openness and closure in early modern correspondence networks</eventName>
+              <eventName xml:lang="en">Balancing openness and closure in early modern correspondence
+                networks</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
               <note type="abstract">
@@ -65315,7 +65426,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2019-05-01" xml:id="ls54_t5_l7">
-              <eventName xml:lang="en">Post-disaster strategies at the National Museum/Federal University of Rio de Janeiro</eventName>
+              <eventName xml:lang="en">Post-disaster strategies at the National Museum/Federal
+                University of Rio de Janeiro</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
               <note type="abstract">
@@ -65357,9 +65469,10 @@
             </event>
           </event>
           <event type="lecture-series-term" from="2019-10" to="2020-02" xml:id="ls54_t6">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2019-10-09" xml:id="ls54_t6_l1">
-              <eventName xml:lang="en">University – Industry Partnerships / Open Scholarship</eventName>
+              <eventName xml:lang="en">University – Industry Partnerships / Open
+                Scholarship</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
               <note type="abstract">
@@ -65392,7 +65505,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2019-11-20" xml:id="ls54_t6_l2">
-              <eventName xml:lang="en">Cataloguing and Mapping Cross Border Responses to the West Russian Famine of 1868/9</eventName>
+              <eventName xml:lang="en">Cataloguing and Mapping Cross Border Responses to the West
+                Russian Famine of 1868/9</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
               <note type="abstract">
@@ -65417,7 +65531,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2020-01-22" xml:id="ls54_t6_l3">
-              <eventName xml:lang="en">Personalised museum experiences driven by date-based association discovery</eventName>
+              <eventName xml:lang="en">Personalised museum experiences driven by date-based
+                association discovery</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
               <note type="abstract">
@@ -65442,7 +65557,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2020-01-29" xml:id="ls54_t6_l4">
-              <eventName xml:lang="en">City-craft and Statecraft: The role of data in spatialising the Myth of Venice and Humanist Urban Culture</eventName>
+              <eventName xml:lang="en">City-craft and Statecraft: The role of data in spatialising
+                the Myth of Venice and Humanist Urban Culture</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
               <note type="abstract">
@@ -65467,7 +65583,8 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
             <event type="lecture" when="2020-02-05" xml:id="ls54_t6_l5">
-              <eventName xml:lang="en">Digital geo-spatial inventories along the Silk Roads of Central Asia</eventName>
+              <eventName xml:lang="en">Digital geo-spatial inventories along the Silk Roads of
+                Central Asia</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
               <note type="abstract">
@@ -65501,41 +65618,43 @@
             </event>
           </event>
           <event type="lecture-series-term" from="2021-01" to="2021-06" xml:id="ls54_t7">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2021-01-27" xml:id="ls54_t7_l1">
-              <eventName xml:lang="en">From Engagement to Retreat? Historians and Digital Preservation 1968-2003</eventName>
+              <eventName xml:lang="en">From Engagement to Retreat? Historians and Digital
+                Preservation 1968-2003</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/jan/ucldh-online-engagement-retreat-historians-and-digital-preservation-1968-2003"/>
               <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/54356"/>
               <note type="abstract" xml:lang="en">
-                <p>Ian Milligan (Uni of Waterloo) explores the relationship between historians and 
+                <p>Ian Milligan (Uni of Waterloo) explores the relationship between historians and
                   born-digital primary sources between 1968 and 2003.</p>
-                <p>Despite the professional caricature of historians being uninterested in technology,
-                  historians have had a long track record of engaging with born-digital sources. 
-                  This has necessarily involved critical conversations around digital preservation 
-                  and access. These early encounters were driven by a wave of digitally-aware
-                  historians in the 1960s and 1970s, who were then then relatively central within the 
-                  historical profession. The interdisciplinary journal Computers and the Humanities 
-                  was established in 1966, and indeed, by 1970 the prospects for “computer-assisted 
-                  historical projects” suggested the possibility of a wholescale transformation of the 
-                  discipline. This current peaked in the 1970s and early 1980s.</p>
-                <p>At the same time, archivists and librarians were exploring digital preservation in
-                  earnest. During these first conversations about electronic records, historians
-                  played a prominent role at the table, helping to shape the conversation. This 
-                  interdisciplinary engagement helped to shape early digital preservation efforts. 
-                  Conversations would continue into the web age, with impact on this turn to networked 
-                  information. By the mid-1990s, a small group of economic historians – tracing their 
-                  lineage back to these early encounters – would help underscore the need for digital 
-                  preservation and source stewardship. Their arguments presaged contemporary ones 
-                  around computational history, forming an essential part of the historical context 
-                  for any history of the digital humanities in general and digital history 
-                  specifically. Yet, by the late 1990s (with some exceptions), historians largely 
-                  disappeared from the conversation – unfortunately at a time when they were needed 
-                  more than ever.</p>
+                <p>Despite the professional caricature of historians being uninterested in
+                  technology, historians have had a long track record of engaging with born-digital
+                  sources. This has necessarily involved critical conversations around digital
+                  preservation and access. These early encounters were driven by a wave of
+                  digitally-aware historians in the 1960s and 1970s, who were then then relatively
+                  central within the historical profession. The interdisciplinary journal Computers
+                  and the Humanities was established in 1966, and indeed, by 1970 the prospects for
+                  “computer-assisted historical projects” suggested the possibility of a wholescale
+                  transformation of the discipline. This current peaked in the 1970s and early
+                  1980s.</p>
+                <p>At the same time, archivists and librarians were exploring digital preservation
+                  in earnest. During these first conversations about electronic records, historians
+                  played a prominent role at the table, helping to shape the conversation. This
+                  interdisciplinary engagement helped to shape early digital preservation efforts.
+                  Conversations would continue into the web age, with impact on this turn to
+                  networked information. By the mid-1990s, a small group of economic historians –
+                  tracing their lineage back to these early encounters – would help underscore the
+                  need for digital preservation and source stewardship. Their arguments presaged
+                  contemporary ones around computational history, forming an essential part of the
+                  historical context for any history of the digital humanities in general and
+                  digital history specifically. Yet, by the late 1990s (with some exceptions),
+                  historians largely disappeared from the conversation – unfortunately at a time
+                  when they were needed more than ever.</p>
                 <p>In this presentation, part of my broader project “Averting the Digital Dark Age,”
                   I explore the relationship between historians and born-digital primary sources
-                  between 1968 and 2003. Electronic records, to these historians, imperilled society’s 
-                  collective memory. What was to be done?</p>
+                  between 1968 and 2003. Electronic records, to these historians, imperilled
+                  society’s collective memory. What was to be done?</p>
                 <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
@@ -65546,8 +65665,8 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-                <listPerson>
-                  <person role="speaker" corresp="#milligan_ian">
+              <listPerson>
+                <person role="speaker" corresp="#milligan_ian">
                   <name>
                     <roleName type="title">Prof.</roleName>
                   </name>
@@ -65556,7 +65675,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-              
+
             <event type="lecture" when="2021-02-09" xml:id="ls54_t7_l2">
               <eventName xml:lang="en">Digital Humanities Against Enclosure</eventName>
               <ptr type="programme"
@@ -65575,29 +65694,31 @@
                 <term type="audience">online</term>
               </note>
               <listPerson>
-              <person role="speaker" corresp="#johnson_jessica-marie">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-johns-hopkins"/>
-              </person>
+                <person role="speaker" corresp="#johnson_jessica-marie">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-johns-hopkins"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2021-02-23" xml:id="ls54_t7_l3">
-              <eventName xml:lang="en">Digital Humanities &amp; Spatial History: Atlantic World Stories</eventName>
+              <eventName xml:lang="en">Digital Humanities &amp; Spatial History: Atlantic World
+                Stories</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/feb/ucldh-online-digital-humanities-spatial-history-atlantic-world-stories"/>
               <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/57208"/>
               <note type="abstract" xml:lang="en">
-                <p>Zephyr Frank (Stanford University) describes and discusses a series of DH projects
-                  that have developed at CESTA and have addressed major issues in the history of the
-                  Atlantic World, including slavery and the experience of enslaved and freed persons
-                  in particular.</p>
-                <p>The paper describes and discusses a series of DH projects that have developed at 
-                  CESTA and have addressed major issues in the history of the Atlantic World, 
-                  including slavery and the experience of enslaved and freed persons in particular.</p>
+                <p>Zephyr Frank (Stanford University) describes and discusses a series of DH
+                  projects that have developed at CESTA and have addressed major issues in the
+                  history of the Atlantic World, including slavery and the experience of enslaved
+                  and freed persons in particular.</p>
+                <p>The paper describes and discusses a series of DH projects that have developed at
+                  CESTA and have addressed major issues in the history of the Atlantic World,
+                  including slavery and the experience of enslaved and freed persons in
+                  particular.</p>
                 <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
@@ -65609,12 +65730,12 @@
                 <term type="audience">online</term>
               </note>
               <listPerson>
-              <person role="speaker" corresp="#frank_zephyr">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-stanford"/>
-              </person>
+                <person role="speaker" corresp="#frank_zephyr">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
@@ -65637,39 +65758,36 @@
                 <term type="audience">online</term>
               </note>
               <listPerson>
-              <person role="speaker" corresp="#quiroga_riva">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#programming-historian"/>
-              </person>
+                <person role="speaker" corresp="#quiroga_riva">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#programming-historian"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <!-- Hier weiter -->
             <event type="lecture" when="2021-04-13" xml:id="ls54_t7_l5">
-              <eventName xml:lang="en">Humanités numériques, цифровые гуманитарные науки, デジタル・ヒューマニティーズ: 
-                Histories and Futures of Linguistic Diversity in DH</eventName>
+              <eventName xml:lang="en">Humanités numériques, цифровые гуманитарные науки,
+                デジタル・ヒューマニティーズ: Histories and Futures of Linguistic Diversity in DH</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-histories-and-futures-linguistic-diversity-dh-rescheduled"/>
               <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/61740"/>
               <note type="abstract" xml:lang="en">
-                <p>International, interdisciplinary spaces are inevitably sites of tension,
-                  where differences in linguistic and cultural norms run deeper than 
-                  they initially appear. Establishing and maintaining a set of norms
-                  for a community to operate despite these differences requires 
-                  ongoing dialogue within that community. This talk will reflect on 
-                  language as one longstanding axis of diversity within digital 
-                  humanities as it is carried out at the international level, as well
-                  as within different national contexts. This context will inform a
-                  frank discussion of the ways in which a general obliviousness 
-                  towards languages commonly found in Anglophone countries has 
-                  negatively impacted Anglophone scholars' research, pedagogy, and 
-                  engagement with the broader field of DH. The talk will conclude 
-                  with actionable steps that scholars, particularly in Anglophone 
-                  countries, can take towards embracing language as an important axis
-                  of diversity.</p>
+                <p>International, interdisciplinary spaces are inevitably sites of tension, where
+                  differences in linguistic and cultural norms run deeper than they initially
+                  appear. Establishing and maintaining a set of norms for a community to operate
+                  despite these differences requires ongoing dialogue within that community. This
+                  talk will reflect on language as one longstanding axis of diversity within digital
+                  humanities as it is carried out at the international level, as well as within
+                  different national contexts. This context will inform a frank discussion of the
+                  ways in which a general obliviousness towards languages commonly found in
+                  Anglophone countries has negatively impacted Anglophone scholars' research,
+                  pedagogy, and engagement with the broader field of DH. The talk will conclude with
+                  actionable steps that scholars, particularly in Anglophone countries, can take
+                  towards embracing language as an important axis of diversity.</p>
                 <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
@@ -65680,21 +65798,24 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#dombrowski_quinn">
-                <name>
-                  <roleName type="title">not found</roleName>
-                </name>
-                <affiliation corresp="#uni-stanford"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#dombrowski_quinn">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2021-04-27" xml:id="ls54_t7_l6">
-              <eventName xml:lang="en">A Look Backwards Through the Index of DH Conferences</eventName>
+              <eventName xml:lang="en">A Look Backwards Through the Index of DH
+                Conferences</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-look-backwards-through-index-dh-conferences"/>
-              <ptr type="video" target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-look-backwards-through-index-dh-conferences"/>
+              <ptr type="video"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-look-backwards-through-index-dh-conferences"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
                 <!-- Include paragraphs about the speakers? -->
@@ -65707,49 +65828,47 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#weingart_scott">
-                <name>
-                  <roleName type="title">not found</roleName>
-                </name>
-                <affiliation corresp="#library-uni-carnegie-mellon"/>
-              </person>
-              <person role="speaker" corresp="#eichmann-kalwara_nickoal">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="library-uni-colorado-boulder"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#weingart_scott">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#library-uni-carnegie-mellon"/>
+                </person>
+                <person role="speaker" corresp="#eichmann-kalwara_nickoal">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="library-uni-colorado-boulder"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2021-05-12" xml:id="ls54_t7_l7">
-              <eventName xml:lang="en">Complicating the whiteness of Digital Humanities: The Deep History of Black DH</eventName>
+              <eventName xml:lang="en">Complicating the whiteness of Digital Humanities: The Deep
+                History of Black DH</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-complicating-whiteness-digital-humanities-deep-history-black-dh"/>
-              <ptr type="video" target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-complicating-whiteness-digital-humanities-deep-history-black-dh"/>
+              <ptr type="video"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-complicating-whiteness-digital-humanities-deep-history-black-dh"/>
               <note type="abstract" xml:lang="en">
-                <p>Amy E. Earhart (Texas A&amp;M University) will document a deep dig
-                  into the ecology of digital humanities, centering Black DH work
-                  in the field.</p>
-                <p>While projects focused on Black culture, texts and artifacts are
-                  not as rare as they once were there remains a lack of 
-                  understanding of the rich and deep histories of Black DH and its 
-                  impact on the field. Sharon Leon’s foundation chapter, 
-                  “Complicating a ‘Great Man’ Narrative of Digital History in the 
-                  United States,” serves as a model of the necessary documentation 
-                  that scholars must compile of alternative histories of digital
-                  humanities. Accordingly, this talk will document a deep dig into
-                  the ecology of digital humanities, centering Black DH work in the 
-                  field. Among the scholars’ work discussed will be Abduhl 
-                  Alkalimat, creator of e-black studies, Bryan Carter, Virtual 
-                  Harlem, Marilyn Miller Thomas-Houston, iBlack Studies and
-                  co-editor of the multi-media journal Fire!!, Ronald Bailey, 
-                  who developed www.dignubia.org and www.nubianet.org and Afro 
-                  Publishing without Walls, and Maryemma Graham, History of Black 
-                  writing. An ongoing project, I am conducting interviews with such
-                  foundational Black dh scholars to better understand their 
-                  contributions to the field.</p>
+                <p>Amy E. Earhart (Texas A&amp;M University) will document a deep dig into the
+                  ecology of digital humanities, centering Black DH work in the field.</p>
+                <p>While projects focused on Black culture, texts and artifacts are not as rare as
+                  they once were there remains a lack of understanding of the rich and deep
+                  histories of Black DH and its impact on the field. Sharon Leon’s foundation
+                  chapter, “Complicating a ‘Great Man’ Narrative of Digital History in the United
+                  States,” serves as a model of the necessary documentation that scholars must
+                  compile of alternative histories of digital humanities. Accordingly, this talk
+                  will document a deep dig into the ecology of digital humanities, centering Black
+                  DH work in the field. Among the scholars’ work discussed will be Abduhl Alkalimat,
+                  creator of e-black studies, Bryan Carter, Virtual Harlem, Marilyn Miller
+                  Thomas-Houston, iBlack Studies and co-editor of the multi-media journal Fire!!,
+                  Ronald Bailey, who developed www.dignubia.org and www.nubianet.org and Afro
+                  Publishing without Walls, and Maryemma Graham, History of Black writing. An
+                  ongoing project, I am conducting interviews with such foundational Black dh
+                  scholars to better understand their contributions to the field.</p>
                 <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
@@ -65760,12 +65879,13 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#earhart_amy">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-texas-aandm"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#earhart_amy">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-texas-aandm"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
@@ -65773,36 +65893,31 @@
               <eventName xml:lang="en">The Web Archives Long View</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-web-archives-long-view"/>
-              <ptr type="video" target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-web-archives-long-view"/>
+              <ptr type="video"
+                target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-web-archives-long-view"/>
               <note type="abstract" xml:lang="en">
-                <p>UCLDH are delighted to welcome Valérie Schafer (U. of Luxembourg) 
-                  and Jane Winters (School of Advanced Study, UoL) for their views on
-                  the topic of born-digital heritage and in particular of web archives
-                  in context.</p>
-                <p>This research seminar aims to explicitly consider that research 
-                  happens in context. This presentation proposes to address the 
-                  topic of born-digital heritage and in particular of web archives
-                  in context. It aims to question the past, present and future 
-                  paths of research based on the plethora of born-digital sources 
-                  that developed from the mid-1990s. Analysis of web archives 
-                  requires both taking into account the very shaping of these 
-                  archives - e.g. web archiving in context - and placing research 
-                  on these web archives in context, from the early studies of the
-                  2000s which focused on the nature of web archives themselves 
-                  and the methods for studying them to current research that 
-                  takes them as sources for exploring digital cultures. Thus, 
-                  the first two parts of our presentation, devoted respectively 
-                  to the history of web archiving and of web archives in research,
-                  will explore the multiple contextual elements at work. These
-                  may be related to the Web itself and its evolution, to 
-                  institutional policies, or to crawling and analysis tools, and
-                  understanding them is crucial for addressing the current and 
-                  future challenges that will arise for researchers, whether they 
-                  concern transnational approaches, ethical issues or a claim for
-                  enhanced contextualization. In conclusion we will broaden the 
-                  question to digital humanities, and consider why web archive 
-                  studies have remained relatively marginalised in digital 
-                  humanities discourse.</p>
+                <p>UCLDH are delighted to welcome Valérie Schafer (U. of Luxembourg) and Jane
+                  Winters (School of Advanced Study, UoL) for their views on the topic of
+                  born-digital heritage and in particular of web archives in context.</p>
+                <p>This research seminar aims to explicitly consider that research happens in
+                  context. This presentation proposes to address the topic of born-digital heritage
+                  and in particular of web archives in context. It aims to question the past,
+                  present and future paths of research based on the plethora of born-digital sources
+                  that developed from the mid-1990s. Analysis of web archives requires both taking
+                  into account the very shaping of these archives - e.g. web archiving in context -
+                  and placing research on these web archives in context, from the early studies of
+                  the 2000s which focused on the nature of web archives themselves and the methods
+                  for studying them to current research that takes them as sources for exploring
+                  digital cultures. Thus, the first two parts of our presentation, devoted
+                  respectively to the history of web archiving and of web archives in research, will
+                  explore the multiple contextual elements at work. These may be related to the Web
+                  itself and its evolution, to institutional policies, or to crawling and analysis
+                  tools, and understanding them is crucial for addressing the current and future
+                  challenges that will arise for researchers, whether they concern transnational
+                  approaches, ethical issues or a claim for enhanced contextualization. In
+                  conclusion we will broaden the question to digital humanities, and consider why
+                  web archive studies have remained relatively marginalised in digital humanities
+                  discourse.</p>
                 <!-- Include paragraphs about the speakers? -->
               </note>
               <note type="keywords">
@@ -65813,18 +65928,19 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#schafer_valérie">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#c2dh"/>
-              </person>
-              <person role="speaker" corresp="#winters_jane">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-london"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#schafer_valérie">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#c2dh"/>
+                </person>
+                <person role="speaker" corresp="#winters_jane">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
@@ -65835,43 +65951,37 @@
               <!-- Event got cancelled and could not be rescheduled -->
             </event>
             <event type="lecture" when="2021-06-22" xml:id="ls54_t7_l10">
-              <eventName xml:lang="en">Laboratory Life in the Humanities: Computation, Criticism &amp; Collaboration</eventName>
+              <eventName xml:lang="en">Laboratory Life in the Humanities: Computation, Criticism
+                &amp; Collaboration</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/jun/ucldh-online-laboratory-life-humanities-computation-criticism-collaboration"/>
               <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/66892"/>
               <note type="abstract" xml:lang="en">
-                <p>The Digital Humanities have profoundly altered the way that 
-                  humanities scholars work, research, and teach. While the 
-                  introduction of computational methods, from GIS, to Digital 
-                  Archives, to Text Mining, have opened up new fields to 
-                  practitioners, these fields have also changed the social fabric
-                  of the humanities. Although the myth of the lone scholar,
-                  toiling away in their office, or in the archives, remains deeply
-                  embedded in the psyche of the discipline, the growing influence 
-                  of the Digital Humanities has begun to offer scholars other 
-                  opportunities for research work and teaching. Not only are our
-                  new methods collaborative by nature, they are often 
-                  collaborative by necessity, frequently requiring us to work in 
-                  teams that can leverage different experience and skills towards 
-                  a set of research goals.</p>
-                <p>In this talk, I want to explore the ramifications of this shift
-                  in research practice, focusing on the sociology of the 
-                  humanities lab, as distinct from both the science laboratory,
-                  and the traditional practices of History, Classics, Philosophy,
-                  Cultural Studies, and Literary Study. How has the collaborative 
-                  nature of our work altered the kinds of research that we can 
-                  produce? How has interdisciplinary cooperation challenged ideas 
-                  of evidence, method and results in the humanities? How has the
-                  collaborative model of research changed our pedagogy? What new 
-                  kinds of equality, and inequality, between faculty, staff and 
-                  students, has this change enabled? And what does it mean to work
-                  collaborative in fields whose institutional structures persist 
-                  in disincentivizing collaboration? Drawing on my own experience
-                  working at, and directing, the Stanford Literary Lab, an ongoing
-                  collaborative research group that is celebrating its 10th 
-                  anniversary this year, I want to focus on the outstanding
-                  questions that we are only now beginning to address around this
-                  radical shift in the humanities.</p>
+                <p>The Digital Humanities have profoundly altered the way that humanities scholars
+                  work, research, and teach. While the introduction of computational methods, from
+                  GIS, to Digital Archives, to Text Mining, have opened up new fields to
+                  practitioners, these fields have also changed the social fabric of the humanities.
+                  Although the myth of the lone scholar, toiling away in their office, or in the
+                  archives, remains deeply embedded in the psyche of the discipline, the growing
+                  influence of the Digital Humanities has begun to offer scholars other
+                  opportunities for research work and teaching. Not only are our new methods
+                  collaborative by nature, they are often collaborative by necessity, frequently
+                  requiring us to work in teams that can leverage different experience and skills
+                  towards a set of research goals.</p>
+                <p>In this talk, I want to explore the ramifications of this shift in research
+                  practice, focusing on the sociology of the humanities lab, as distinct from both
+                  the science laboratory, and the traditional practices of History, Classics,
+                  Philosophy, Cultural Studies, and Literary Study. How has the collaborative nature
+                  of our work altered the kinds of research that we can produce? How has
+                  interdisciplinary cooperation challenged ideas of evidence, method and results in
+                  the humanities? How has the collaborative model of research changed our pedagogy?
+                  What new kinds of equality, and inequality, between faculty, staff and students,
+                  has this change enabled? And what does it mean to work collaborative in fields
+                  whose institutional structures persist in disincentivizing collaboration? Drawing
+                  on my own experience working at, and directing, the Stanford Literary Lab, an
+                  ongoing collaborative research group that is celebrating its 10th anniversary this
+                  year, I want to focus on the outstanding questions that we are only now beginning
+                  to address around this radical shift in the humanities.</p>
                 <!-- Include paragraphs about the speakers? -->
               </note>
               <note type="keywords">
@@ -65882,28 +65992,30 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#algee-hewitt_mark">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-stanford"/>
-              </person>
-              <person role="speaker" corresp="#pawlicka-deger_urszula">
-                <name>
-                  <roleName type="title">not found</roleName>
-                </name>
-                <affiliation corresp="#uni-london-kcl"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#algee-hewitt_mark">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
+                <person role="speaker" corresp="#pawlicka-deger_urszula">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-kcl"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
           </event>
-            
+
           <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls54_t8">
-              <eventName/>
+            <eventName/>
             <event type="lecture" when="2022-03-10" xml:id="ls54_t8_l1">
-              <eventName xml:lang="en">Decolonizing Knowledge Infrastructures: Open Access &amp; Multilingual Scholarly Publishing</eventName>
+              <eventName xml:lang="en">Decolonizing Knowledge Infrastructures: Open Access &amp;
+                Multilingual Scholarly Publishing</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/mar/ucldh-online-decolonizing-knowledge-infrastructures-open-access-multilingual"/>
               <note type="abstract" xml:lang="en">
@@ -65918,12 +66030,13 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#menon_nirmala">
-                <name>
-                  <roleName type="title">Prof. Dr.</roleName>
-                </name>
-                <affiliation corresp="#iit-indore"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#menon_nirmala">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#iit-indore"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-uppsala"/>
@@ -65945,19 +66058,21 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#parker_grant">
-                <name>
-                  <roleName type="title">Prof. Dr.</roleName>
-                </name>
-                <affiliation corresp="#uni-stanford"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#parker_grant">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stanford"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-04-21" xml:id="ls54_t8_l3">
-              <eventName xml:lang="en">SWECARCOL. Swedish Caribbean Colonialism 1784–1878: Caribbean Digital History</eventName>
+              <eventName xml:lang="en">SWECARCOL. Swedish Caribbean Colonialism 1784–1878: Caribbean
+                Digital History</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/apr/ucldh-online-swecarcol-swedish-caribbean-colonialism-1784-1878-caribbean-digital"/>
               <note type="abstract" xml:lang="en">
@@ -65972,19 +66087,21 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#pålsson-ale">
-                <name>
-                  <roleName type="title">Dr.</roleName>
-                </name>
-                <affiliation corresp="#uni-uppsala"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#pålsson-ale">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-uppsala"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-05-05" xml:id="ls54_t8_l4">
-              <eventName xml:lang="en">Transnational Digital Humanities in the Digital Black Atlantic</eventName>
+              <eventName xml:lang="en">Transnational Digital Humanities in the Digital Black
+                Atlantic</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/may/ucldh-online-transnational-digital-humanities-digital-black-atlantic"/>
               <note type="abstract" xml:lang="en">
@@ -65999,19 +66116,21 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#risam_roopika">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-salem-state"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#risam_roopika">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-salem-state"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
             <event type="lecture" when="2022-05-19" xml:id="ls54_t8_l5">
-              <eventName xml:lang="en">Central Asia and the role of digital heritage inventories</eventName>
+              <eventName xml:lang="en">Central Asia and the role of digital heritage
+                inventories</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/may/ucldh-online-central-asia-and-role-digital-heritage-inventories"/>
               <note type="abstract" xml:lang="en">
@@ -66026,12 +66145,13 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#williams_tim">
-                <name>
-                  <roleName type="title">Prof.</roleName>
-                </name>
-                <affiliation corresp="#uni-london-ucl"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#williams_tim">
+                  <name>
+                    <roleName type="title">Prof.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-london-ucl"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-uppsala"/>
@@ -66053,12 +66173,13 @@
                 <term type="speech">online</term>
                 <term type="audience">online</term>
               </note>
-              <person role="speaker" corresp="#loyer_jessie">
-                <name>
-                  <roleName type="title">not found</roleName>
-                </name>
-                <affiliation corresp="#uni-mount-royal"/>
-              </person>
+              <listPerson>
+                <person role="speaker" corresp="#loyer_jessie">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-mount-royal"/>
+                </person>
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-uppsala"/>
