@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-""" fetches keywords for talks produced by a LLM based on the talks' titles and abstracts """
+""" fetches keywords for talks produced by an LLM based on the talks' titles and abstracts """
 
 __author__ = "Ulrike Henny-Krahmer"
 __license__ = "GPL"
