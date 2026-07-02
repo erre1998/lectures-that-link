@@ -20783,6 +20783,3501 @@
             </listPerson>
           </event>
         </event>
+        <event type="conference" where="#passau" when="2024">
+          <eventName>DHd2024</eventName>
+          <event type="contribution">
+            <eventName>Partizipation, Co-Kreation und Citizen Science – Zwischen Grundlagenforschung
+              und digitaler Kulturvermittlung</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698197</idno>
+            <listPerson>
+              <person>
+                <name>Brinkmann, Hanna</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Grebe, Anja</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Lopin, Melanie</name>
+                <affiliation>Stadtmuseum Korneuburg, Kulturvermittlung, Österreich</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Towards a Method for Automatic Detection of Textual Comparisons. A DH-Case
+              Study on the Construction of "Swissness"</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698199</idno>
+            <listPerson>
+              <person>
+                <name>Aust, Robin-M.</name>
+                <affiliation>Universität Bielefeld, Germany</affiliation>
+                <idno type="orcid">0009-0002-2245-281X</idno>
+              </person>
+              <person>
+                <name>Kababgi, Daniel</name>
+                <affiliation>Universität Bielefeld, Germany</affiliation>
+                <idno type="orcid">0009-0002-0990-6418</idno>
+              </person>
+              <person>
+                <name>Herrmann, Berenike</name>
+                <affiliation>Universität Bielefeld, Germany</affiliation>
+                <idno type="orcid">0000-0002-5256-0566</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>War das nicht schon immer ein Denkmal? Herausforderungen des Sammelns und
+              Visualisierens von Denkmallisten in Zeit und Raum</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698201</idno>
+            <listPerson>
+              <person>
+                <name>Klemstein, Franziska</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur, Mainz / Hochschule
+                  Mainz, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3137-6732</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>TEI2CEI2TEI oder Sapere Aude: habe Mut, dich deines eigenen Schemas zu
+              bedienen!</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698203</idno>
+            <listPerson>
+              <person>
+                <name>Atzenhofer-Baumgartner, Florian</name>
+                <affiliation>University of Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0001-8157-8629</idno>
+              </person>
+              <person>
+                <name>Lamminger, Florian</name>
+                <affiliation>University of Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1310-6352</idno>
+              </person>
+              <person>
+                <name>Tscherne, Niklas</name>
+                <affiliation>University of Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7211-7393</idno>
+              </person>
+              <person>
+                <name>Vogeler, Georg</name>
+                <affiliation>University of Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1726-1712</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Kompetenzprofile und Qualifikationsziele des Weiterbildenden Studiengangs
+              Digitales Datenmanagement (DDM) an der Schnittstelle zwischen Digital Humanities,
+              Informationswissenschaft und Data Science</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698205</idno>
+            <listPerson>
+              <person>
+                <name>Wuttke, Ulrike</name>
+                <affiliation>Fachhochschule Potsdam, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8217-4025</idno>
+              </person>
+              <person>
+                <name>Alrez, Wassim</name>
+                <affiliation>DAI, Zentrale Wissenschaftliche Dienste, Deutschland</affiliation>
+                <idno type="orcid">0009-0001-2105-082X</idno>
+              </person>
+              <person>
+                <name>Neuroth, Heike</name>
+                <affiliation>Fachhochschule Potsdam, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3637-3154</idno>
+              </person>
+              <person>
+                <name>Petras, Vivien</name>
+                <affiliation>Institut für Bibliotheks- und Informationswissenschaft,
+                  Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8113-1509</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Computerspiele als Darstellungsmedium für immaterielles Kulturerbe:
+              Theoretische Überlegungen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698207</idno>
+            <listPerson>
+              <person>
+                <name>Piontkowitz, Vera</name>
+                <affiliation>Universität Leipzig, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3605-3609</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Generative KI, LLMs und GPT bei digitalen Editionen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698209</idno>
+            <listPerson>
+              <person>
+                <name>Czmiel, Alexander</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Dumont, Stefan</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6923-0950</idno>
+              </person>
+              <person>
+                <name>Fischer, Franz</name>
+                <affiliation>Venice Centre for Digital and Public Humanities, Ca' Foscari Università
+                  Venezia, Italien</affiliation>
+              </person>
+              <person>
+                <name>Pollin, Christopher</name>
+                <affiliation>Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0002-4879-129X</idno>
+              </person>
+              <person>
+                <name>Sahle, Patrick</name>
+                <affiliation>Lehrstuhl für Digital Humanities, Bergische Universität Wuppertal,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8648-2033</idno>
+              </person>
+              <person>
+                <name>Schaßan, Torsten</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8902-4775</idno>
+              </person>
+              <person>
+                <name>Scholger, Martina</name>
+                <affiliation>Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0003-1438-3236</idno>
+              </person>
+              <person>
+                <name>Vogeler, Georg</name>
+                <affiliation>Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0002-1726-1712</idno>
+              </person>
+              <person>
+                <name>Roeder, Torsten</name>
+                <affiliation>Zentrum für Philologie und Digitalität, Universität Würzburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7043-7820</idno>
+              </person>
+              <person>
+                <name>Fritze, Christiane</name>
+                <affiliation>Wienbibliothek, Österreich</affiliation>
+                <idno type="orcid">0000-0001-5099-8970</idno>
+              </person>
+              <person>
+                <name>Henny-Krahmer, Ulrike</name>
+                <affiliation>Institut für Germanistik, Universität Rostock,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2852-065X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Explorationen unbekannter Korpora mit Topic Modeling und manueller
+              Annotation. Zusammenarbeiten von Mensch und Maschine revisited</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698211</idno>
+            <listPerson>
+              <person>
+                <name>Franken, Lina</name>
+                <affiliation>Universität Vechta, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2587-4068</idno>
+              </person>
+              <person>
+                <name>Dennis, Möbus</name>
+                <affiliation>FernUniversität Hagen, Deutschland</affiliation>
+                <idno type="orcid">0009-0008-9064-7460</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>DH – Cui bono? Zielgruppenerschließung für Digital Humanities und Cultural
+              Heritage</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698213</idno>
+            <listPerson>
+              <person>
+                <name>Mayer, Simon</name>
+                <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Janjuš, Olja</name>
+                <affiliation>Ludwigs-Maximilian-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0009-0004-1498-495X</idno>
+              </person>
+              <person>
+                <name>Ďurčo, Matej</name>
+                <affiliation>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH),
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0002-5274-8278</idno>
+              </person>
+              <person>
+                <name>Hammer, Sophie</name>
+                <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Windhager, Florian</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+                <idno type="orcid">0000-0002-5170-2243</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>The Future of Philosophy In the Digital Humanities</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698215</idno>
+            <listPerson>
+              <person>
+                <name>Heßbrüggen-Walter, Stefan</name>
+                <affiliation>Universitäten Tours / Orléans, Frankreich</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Uncovering the Forgotten Bits: Perspektiven von Retrocomputing und Emulation
+              für die DH</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698217</idno>
+            <listPerson>
+              <person>
+                <name>Roeder, Torsten</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7043-7820</idno>
+              </person>
+              <person>
+                <name>Leitgeb, Johannes</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0006-2058-9133</idno>
+              </person>
+              <person>
+                <name>Marenec, Madlin</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0003-7434-827X</idno>
+              </person>
+              <person>
+                <name>Shtohryn, Tomash</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0000-4597-603X</idno>
+              </person>
+              <person>
+                <name>Herbst, Yannik</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6547-9599</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Disambiguierung von Wortbedeutungen aus dem Thesaurus Linguae Latinae mittels
+              Fine-tuning von Latin BERT</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698219</idno>
+            <listPerson>
+              <person>
+                <name>Lendvai, Piroska</name>
+                <affiliation>BAdW, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Wick, Claudia</name>
+                <affiliation>BAdW, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Zusammenführung audiovisueller Ressourcen für tanz- und
+              theaterwissenschaftliche Forschung Mediatheken der Darstellenden Kunst digital
+              vernetzen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698221</idno>
+            <listPerson>
+              <person>
+                <name>Beck, Julia</name>
+                <affiliation>Universitätsbibliothek Johann Christian Senckenberg,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Henniger, Christine</name>
+                <affiliation>Internationales Theaterinstitut Deutschland / Mediathek für Tanz und
+                  Theater, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Illmayer, Klaus</name>
+                <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                <idno type="orcid">0000-0001-7253-996X</idno>
+              </person>
+              <person>
+                <name>Tiefenbacher, Sara</name>
+                <affiliation>Universitätsbibliothek Johann Christian Senckenberg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6300-4805</idno>
+              </person>
+              <person>
+                <name>Voß, Franziska</name>
+                <affiliation>Universitätsbibliothek Johann Christian Senckenberg,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Wittenbecher, Maxim</name>
+                <affiliation>Internationales Theaterinstitut Deutschland / Mediathek für Tanz und
+                  Theater, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Figurenbeschreibungen in deutschsprachigen Romanen (1789–1914)</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698223</idno>
+            <listPerson>
+              <person>
+                <name>Hilger, Agnes</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Glockengussdaten als Indikator für die regionale Wirtschaftsentwicklung seit
+              dem Spätmittelalter? Eine explorative Analyse</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698225</idno>
+            <listPerson>
+              <person>
+                <name>Spoerer, Mark</name>
+                <affiliation>Universität Regensburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5549-6512</idno>
+              </person>
+              <person>
+                <name>Pößniker, Sebastian</name>
+                <affiliation>Universität Regensburg, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Die Memoiren der Gräfin Schwerin (1684-1732). Zur digitalen Edition eines
+              einzigartigen Selbstzeugnisses.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698227</idno>
+            <listPerson>
+              <person>
+                <name>Weis, Joëlle</name>
+                <affiliation>Universität Trier, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0080-4362</idno>
+              </person>
+              <person>
+                <name>Galka, Selina</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0003-4476-315X</idno>
+              </person>
+              <person>
+                <name>Peper, Ines</name>
+                <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                <idno type="orcid">0000-0002-8676-3935</idno>
+              </person>
+              <person>
+                <name>Pölzl, Michael</name>
+                <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1291-9220</idno>
+              </person>
+              <person>
+                <name>Petrolini, Chiara</name>
+                <affiliation>Universität Bologna, Italien</affiliation>
+                <idno type="orcid">0000-0003-3355-6067</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digitale Begriffsgeschichte: Zur historischen Semantik des Naturbegriffs in
+              Spanien und Lateinamerika (18. Jh.)</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698229</idno>
+            <listPerson>
+              <person>
+                <name>Hillebrand, Philip</name>
+                <affiliation>Universität Osnabrück, Deutschland</affiliation>
+                <idno type="orcid">0009-0003-7195-2682</idno>
+              </person>
+              <person>
+                <name>Schlünder, Susanne</name>
+                <affiliation>Universität Osnabrück, Deutschland</affiliation>
+                <idno type="orcid">0009-0004-4914-1864</idno>
+              </person>
+              <person>
+                <name>Garita Figueiredo, Renato</name>
+                <affiliation>Universität Osnabrück, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Rißler-Pipka, Nanette</name>
+                <affiliation>Max Weber Stiftung, Bonn, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0719-9003</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>"Finde den … in buddhistischen Höhlenmalereien!" - Ein digitales Suchspiel
+              Ein Fallbeispiel, wie Spiele dazu dienen können, die Reichweite wissenschaftlicher
+              Projekte zu erhöhen.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698231</idno>
+            <listPerson>
+              <person>
+                <name>Radisch, Erik</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0089-9082</idno>
+              </person>
+              <person>
+                <name>Konczak-Nagel, Ines</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Erstellung von DH Workflows im SSH Open Marketplace</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698233</idno>
+            <listPerson>
+              <person>
+                <name>Barbot, Laure</name>
+                <affiliation>DARIAH</affiliation>
+                <idno type="orcid">0000-0002-6008-7959</idno>
+              </person>
+              <person>
+                <name>Illmayer, Klaus</name>
+                <affiliation>Österreichische Akademie der Wissenschaften - ACDH-CH,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0001-7253-996X</idno>
+              </person>
+              <person>
+                <name>König, Alexander</name>
+                <affiliation>CLARIN</affiliation>
+                <idno type="orcid">0000-0002-8540-2396</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Diagramme repräsentieren: Zu einer neuen Editionspraxis</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698235</idno>
+            <listPerson>
+              <person>
+                <name>Sutor, Nadine</name>
+                <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0577-4470</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Towards Linked Stage Graph 2.0 - a Knowledge Graph based Research Resource
+              for the Performing Arts</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698237</idno>
+            <listPerson>
+              <person>
+                <name>Tietz, Tabea</name>
+                <affiliation>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1648-1684</idno>
+              </person>
+              <person>
+                <name>Sack, Harald</name>
+                <affiliation>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7069-9804</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Project Overhaul und Refactoring der digitalen Edition der 'Urfehdebücher der
+              Stadt Basel' mithilfe von GPT-4 und LLM</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698239</idno>
+            <listPerson>
+              <person>
+                <name>Pollin, Christopher</name>
+                <affiliation>Institut Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0002-4879-129X</idno>
+              </person>
+              <person>
+                <name>Scholger, Martina</name>
+                <affiliation>Institut Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0003-1438-3236</idno>
+              </person>
+              <person>
+                <name>Steiner, Elisabeth</name>
+                <affiliation>Institut Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0001-9116-0402</idno>
+              </person>
+              <person>
+                <name>Lang, Sarah</name>
+                <affiliation>Institut Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+              </person>
+              <person>
+                <name>Galka, Selina</name>
+                <affiliation>Institut Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0003-4476-315X</idno>
+              </person>
+              <person>
+                <name>Schiller-Stoff, Sebastian</name>
+                <affiliation>Institut Zentrum für Informationsmodellierung, Universität Graz,
+                  Österreich</affiliation>
+                <idno type="orcid">0000-0001-6941-113X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Nutzergruppenspezifische Zugänge zu mündlichen Korpora aus dem Archiv für
+              Gesprochenes Deutsch: neue Tools, neue Forschungsperspektiven</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698241</idno>
+            <listPerson>
+              <person>
+                <name>Frick, Elena</name>
+                <affiliation>Leibniz-Institut für Deutsche Sprache (IDS), Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Helmer, Henrike</name>
+                <affiliation>Leibniz-Institut für Deutsche Sprache (IDS), Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Musikhistorische Daten, Netzwerkanalyse und Migration</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698243</idno>
+            <listPerson>
+              <person>
+                <name>Stadler, Peter</name>
+                <affiliation>Universität Paderborn, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2544-1481</idno>
+              </person>
+              <person>
+                <name>Grund, Vera</name>
+                <affiliation>Universität Paderborn, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>The Art of Relations</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698245</idno>
+            <listPerson>
+              <person>
+                <name>Santini, Cristian</name>
+                <affiliation>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur,
+                  Germany; Institute for Applied Informatics and Formal Description Methods (AIFB),
+                  Karlsruhe Institute of Technology, Germany</affiliation>
+              </person>
+              <person>
+                <name>Garay, Nele</name>
+                <affiliation>Karlsruhe Institute of Technology, Germany</affiliation>
+              </person>
+              <person>
+                <name>Posthumus, Etienne</name>
+                <affiliation>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur,
+                  Germany</affiliation>
+                <idno type="orcid">0000-0002-0006-7542</idno>
+              </person>
+              <person>
+                <name>Sack, Harald</name>
+                <affiliation>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur,
+                  Germany; Institute for Applied Informatics and Formal Description Methods (AIFB),
+                  Karlsruhe Institute of Technology, Germany</affiliation>
+                <idno type="orcid">0000-0001-7069-9804</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>EU-CONEXUS Joint Master in Digital Humanities</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698249</idno>
+            <listPerson>
+              <person>
+                <name>Alvares Freire, Fernanda</name>
+                <affiliation>Universität Rostock, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6414-5212</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Ob Werkzeugkoffer, Werkstatt oder Baumarkt: offene, community-kuratierte Tool
+              Registries mit Wikidata</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698251</idno>
+            <listPerson>
+              <person>
+                <name>Grallert, Till</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5739-8094</idno>
+              </person>
+              <person>
+                <name>Eckenstaler, Sophie</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Tirtohusodo, Samantha</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Schlesinger, Claus-Michael</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6718-5773</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Wer mit wem … und wo? Eine szientometrische Analyse der DHd-Abstracts 2014 -
+              2022</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698253</idno>
+            <listPerson>
+              <person>
+                <name>Borst, Janos</name>
+                <affiliation>Computational Humanities, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9166-4069</idno>
+              </person>
+              <person>
+                <name>Burghardt, Manuel</name>
+                <affiliation>Computational Humanities, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1354-9089</idno>
+              </person>
+              <person>
+                <name>Piontkowitz, Vera</name>
+                <affiliation>Computational Humanities, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3605-3609</idno>
+              </person>
+              <person>
+                <name>Klähn, Jannis</name>
+                <affiliation>Computational Humanities, Universität Leipzig,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Quo vadis digitised newspapers and radio? Next steps for the integration of
+              western European collections via impresso II.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698255</idno>
+            <listPerson>
+              <person>
+                <name>Bunout, Estelle</name>
+                <affiliation>Universität Luxemburg, Luxemburg, UL</affiliation>
+              </person>
+              <person>
+                <name>Düring, Marten</name>
+                <affiliation>Universität Luxemburg, Luxemburg, UL</affiliation>
+              </person>
+              <person>
+                <name>Clematide, Simon</name>
+                <affiliation>Universität Zürich, UZH, Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Ehrmann, Maud</name>
+                <affiliation>Ecole Polytechnique Fédérale de Lausanne, EPFL, Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Guido, Daniele</name>
+                <affiliation>Universität Luxemburg, Luxemburg, UL</affiliation>
+              </person>
+              <person>
+                <name>Ruppen Coutaz, Rapahëlle</name>
+                <affiliation>Universität Lausanne, UNIL, Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Beelen, Kaspar</name>
+                <affiliation>The Alan Turing Institute, Großbritannien</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Compiling Controlled Vocabularies of Contributor and User Roles for a
+              Platform of Open Educational Resources</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698257</idno>
+            <listPerson>
+              <person>
+                <name>Steiner, Petra</name>
+                <affiliation>TU Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8997-2620</idno>
+              </person>
+              <person>
+                <name>Hastik, Canan</name>
+                <affiliation>TU Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1729-4642</idno>
+              </person>
+              <person>
+                <name>Fuhrmans, Marc</name>
+                <affiliation>TU Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9826-018X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Detection and Classification of Historic Watermarks using neural networks and
+              nearest neighbor search</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698259</idno>
+            <listPerson>
+              <person>
+                <name>Pfaff, Sebastian</name>
+                <affiliation>Technische Universität München, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Beriozchin, Evghenii</name>
+                <affiliation>Technische Universität München, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Weyh, Paulina</name>
+                <affiliation>Technische Universität München, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>"Digital Humanities interessieren uns nicht, das haben wir schon
+              ausgeforscht" - Resonanz der DH am Beispiel der Theologie</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698263</idno>
+            <listPerson>
+              <person>
+                <name>Nunn, Christopher</name>
+                <affiliation>Universität Heidelberg, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7208-8636</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Quantitative Ansätze zur Untersuchung der frühneuzeitlichen
+              Dramengeschichte</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698265</idno>
+            <listPerson>
+              <person>
+                <name>Giovannini, Luca</name>
+                <affiliation>Universität Potsdam, Deutschland / Universität Padua,
+                  Italien</affiliation>
+                <idno type="orcid">0000-0003-2444-7192</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Verbrechen, Daten und Strafen. Digitales "Upcycling" des Archivinventars zum
+              NS-Sondergericht München</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698269</idno>
+            <listPerson>
+              <person>
+                <name>Gerstmeier, Markus</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Ernst, Marlene</name>
+                <affiliation>Stadtarchiv Salzburg, Historisches Archiv, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Gassner, Sebastian</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Synergieeffekte zwischen Henze-Digital und der Carl Maria von
+              Weber-Gesamtausgabe durch die bilaterale Weiterentwicklung der WeGA-WebApp</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698271</idno>
+            <listPerson>
+              <person>
+                <name>Ried, Dennis</name>
+                <affiliation>Universität Paderborn, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Visuelle Textanalyse vom Distant zum Close Reading mit THeMSE</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698273</idno>
+            <listPerson>
+              <person>
+                <name>Lehmann, Marina</name>
+                <affiliation>Johannes Gutenberg-Universität Mainz, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6818-6169</idno>
+              </person>
+              <person>
+                <name>John, Markus</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Kuczera, Andreas</name>
+                <affiliation>Technische Hochschule Mittelhessen, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1020-507X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Annotieren, Visualisieren, Explorieren – ein integrativer Ansatz zur
+              Erschließung von Lyrik in Text und Rezitation</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698277</idno>
+            <listPerson>
+              <person>
+                <name>Ketschik, Nora</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Schauffler, Nadja</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Blessing, André</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7573-578X</idno>
+              </person>
+              <person>
+                <name>Gärtner, Markus</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Jung, Kerstin</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9548-8461</idno>
+              </person>
+              <person>
+                <name>Rheinwald, Florin</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Bernhart, Toni</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Kinder, Anna</name>
+                <affiliation>Deutsches Literatur Archiv Marbach, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Koch, Julia</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Richter, Sandra</name>
+                <affiliation>Uni Stuttgart, Deutschland; Deutsches Literatur Archiv Marbach,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Sturm, Rebecca</name>
+                <affiliation>Deutsches Literatur Archiv Marbach, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Viehhauser, Gabriel</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Vu, Thang</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Kuhn, Jonas</name>
+                <affiliation>Uni Stuttgart, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Der Modelle Tugend 3.0 – Digitale 3D-Rekonstruktion als Forschungsraum und
+              Transfermedium</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698279</idno>
+            <listPerson>
+              <person>
+                <name>Kuroczyński, Piotr</name>
+                <affiliation>Hochschule Mainz, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-9847-8368</idno>
+              </person>
+              <person>
+                <name>Münster, Sander</name>
+                <affiliation>Friedrich-Schiller-Universität Jena, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-9344-912X</idno>
+              </person>
+              <person>
+                <name>Blümel, Ina</name>
+                <affiliation>Hochschule Hannover, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3075-7640</idno>
+              </person>
+              <person>
+                <name>Hoppe, Stephan</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8444-624X</idno>
+              </person>
+              <person>
+                <name>Grellert, Marc</name>
+                <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5587-902X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Der radioaktive Spiegel</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698282</idno>
+            <listPerson>
+              <person>
+                <name>Schmitz, Jascha Merijn</name>
+                <affiliation>Humboldt-Universität Berlin, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Schumacher, Mareike</name>
+                <affiliation>Universität Regensburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Geiger, Jonathan D.</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0452-7075</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Fanfictions – Literatur von Frauen über Männer? Korpusbasierte Analyse der
+              Geschlechterrollen bei Texten und Autor*innen deutschsprachiger
+              Fanfictions</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698284</idno>
+            <listPerson>
+              <person>
+                <name>Schmidt, Thomas</name>
+                <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7171-8106</idno>
+              </person>
+              <person>
+                <name>Sasse, Jonathan</name>
+                <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Wolff, Christian</name>
+                <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7278-8595</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digitalisierung von Sammlungssystematiken und Sammlungskatalogen am Beispiel
+              der geowissenschaftlichen Systematiken von Abraham Gottlob Werner
+              (1749–1817)</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698286</idno>
+            <listPerson>
+              <person>
+                <name>Rietdorf, Clemens</name>
+                <affiliation>Universität Leipzig, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Niekler, Andreas</name>
+                <affiliation>Universität Leipzig, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3036-3318</idno>
+              </person>
+              <person>
+                <name>Heide, Gerhard</name>
+                <affiliation>Technische Universität Bergakademie Freiberg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Burghardt, Manuel</name>
+                <affiliation>Universität Leipzig, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1354-9089</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Machine Learning to Read Yesterday's News. How semantic enrichments enhance
+              the study of digitised historical newspapers</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698290</idno>
+            <listPerson>
+              <person>
+                <name>Bunout, Estelle</name>
+                <affiliation>Universität Luxemburg, Luxemburg</affiliation>
+              </person>
+              <person>
+                <name>Düring, Marten</name>
+                <affiliation>Universität Luxemburg, Luxemburg</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>"Roads? Where we're going, we don't need roads." Die Zukunft des
+              Publizierens</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698292</idno>
+            <listPerson>
+              <person>
+                <name>Dinger, Patrick</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2649-4737</idno>
+              </person>
+              <person>
+                <name>Horstmann, Jan</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8047-2232</idno>
+              </person>
+              <person>
+                <name>Jansky, Caroline</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-7071-1022</idno>
+              </person>
+              <person>
+                <name>Jurczyk, Thomas</name>
+                <affiliation>Universität Tübingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5943-2305</idno>
+              </person>
+              <person>
+                <name>Steyer, Timo</name>
+                <affiliation>Technische Universität Braunschweig, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0218-2269</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Search, Link, Integrate: The User-Centered Approach in Developing
+              NFDI4Culture's Antelope (Annotation &amp; Terminology) Service</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698294</idno>
+            <listPerson>
+              <person>
+                <name>Rossenova, Lozana</name>
+                <affiliation>TIB – Leibniz Information Centre for Science and Technology,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5190-1867</idno>
+              </person>
+              <person>
+                <name>Bailly, Kolja</name>
+                <affiliation>TIB – Leibniz Information Centre for Science and Technology,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Blümel, Ina</name>
+                <affiliation>TIB – Leibniz Information Centre for Science and Technology,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3075-7640</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digital Humanities in Discuss Data: Aufbau eines Community Spaces</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698296</idno>
+            <listPerson>
+              <person>
+                <name>Kahlert, Torsten</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Kurzawe, Daniel</name>
+                <affiliation>Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-5027-7313</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Daidalos: Wie viel Methodenkompetenz braucht ein User?</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698298</idno>
+            <listPerson>
+              <person>
+                <name>Beyer, Andrea</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8468-6411</idno>
+              </person>
+              <person>
+                <name>Schulz, Konstantin</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3261-9735</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Communities, Harvesting, and CGIF: Building the Research Data Graph at
+              NFDI4Culture</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698300</idno>
+            <listPerson>
+              <person>
+                <name>Steller, Jonatan Jalle</name>
+                <affiliation>Academy of Sciences and Literature Mainz, Germany</affiliation>
+                <idno type="orcid">0000-0002-5101-5275</idno>
+              </person>
+              <person>
+                <name>Söhn, Linnaea Charlotte</name>
+                <affiliation>Academy of Sciences and Literature Mainz, Germany</affiliation>
+                <idno type="orcid">0000-0001-8341-1187</idno>
+              </person>
+              <person>
+                <name>Tolksdorf, Julia</name>
+                <affiliation>Academy of Sciences and Literature Mainz, Germany</affiliation>
+                <idno type="orcid">0000-0002-0495-5897</idno>
+              </person>
+              <person>
+                <name>Bruns, Oleksandra</name>
+                <affiliation>FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,
+                  Germany; Karlsruhe Institute of Technology (AIFB), Germany</affiliation>
+                <idno type="orcid">0000-0002-8501-6700</idno>
+              </person>
+              <person>
+                <name>Tietz, Tabea</name>
+                <affiliation>FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,
+                  Germany; Karlsruhe Institute of Technology (AIFB), Germany</affiliation>
+                <idno type="orcid">0000-0002-1648-1684</idno>
+              </person>
+              <person>
+                <name>Posthumus, Etienne</name>
+                <affiliation>FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,
+                  Germany</affiliation>
+                <idno type="orcid">0000-0002-0006-7542</idno>
+              </person>
+              <person>
+                <name>Fliegl, Heike</name>
+                <affiliation>FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,
+                  Germany</affiliation>
+                <idno type="orcid">0000-0002-7541-115X</idno>
+              </person>
+              <person>
+                <name>Pittroff, Sarah</name>
+                <affiliation>Academy of Sciences and Literature Mainz, Germany</affiliation>
+                <idno type="orcid">0000-0001-5134-1081</idno>
+              </person>
+              <person>
+                <name>Sack, Harald</name>
+                <affiliation>FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,
+                  Germany; Karlsruhe Institute of Technology (AIFB), Germany</affiliation>
+                <idno type="orcid">0000-0001-7069-9804</idno>
+              </person>
+              <person>
+                <name>Schrade, Torsten</name>
+                <affiliation>Academy of Sciences and Literature Mainz, Germany</affiliation>
+                <idno type="orcid">0000-0002-0953-2818</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Vernetzte Forschungsdaten - wer kennt wen im Mittelalter?</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698302</idno>
+            <listPerson>
+              <person>
+                <name>Pultar, Yannick</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0009-0002-0819-958X</idno>
+              </person>
+              <person>
+                <name>Abel, Christina</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz, Deutschland;
+                  Universität des Saarlandes, Deutschland</affiliation>
+                <idno type="orcid">0009-0001-5858-7698</idno>
+              </person>
+              <person>
+                <name>Weber, Matthias</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz, Deutschland;
+                  Ruhr-Universität-Bochum</affiliation>
+                <idno type="orcid">0000-0003-2198-8989</idno>
+              </person>
+              <person>
+                <name>Kasper, Dominik</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6587-381X</idno>
+              </person>
+              <person>
+                <name>Kuczera, Andreas</name>
+                <affiliation>Technische Hochschule Mittelhessen, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1020-507X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Deep Mapping der 'Merkwürdigkeiten' – Sightseeing im frühneuzeitlichen
+              Wien</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698304</idno>
+            <listPerson>
+              <person>
+                <name>Rastinger, Nina C.</name>
+                <affiliation>Austrian Centre for Digital Humanities and Cultural Heritage
+                  (Österreichische Akademie der Wissenschaften), Österreich</affiliation>
+              </person>
+              <person>
+                <name>Salzburger, Stefanie</name>
+                <affiliation>Austrian Centre for Digital Humanities and Cultural Heritage
+                  (Österreichische Akademie der Wissenschaften), Österreich</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Bedeutung in Zeiten großer Sprachmodelle</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698308</idno>
+            <listPerson>
+              <person>
+                <name>Gengnagel, Tessa</name>
+                <affiliation>Cologne Center for eHumanities (CCeH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8820-5112</idno>
+              </person>
+              <person>
+                <name>Jannidis, Fotis</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg</affiliation>
+                <idno type="orcid">0000-0001-6944-6113</idno>
+              </person>
+              <person>
+                <name>Kleymann, Rabea</name>
+                <affiliation>Technische Universität Chemnitz, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3856-2685</idno>
+              </person>
+              <person>
+                <name>Schröter, Julian</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0168-2608</idno>
+              </person>
+              <person>
+                <name>Zinsmeister, Heike</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0006-0505-7606</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Ökonomien des Raums: Ein historisches Findmittel digital denken</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698310</idno>
+            <listPerson>
+              <person>
+                <name>Hodel, Tobias</name>
+                <affiliation>Universität Bern, Walter Benjamin Kolleg, Schweiz</affiliation>
+                <idno type="orcid">0000-0002-2071-6407</idno>
+              </person>
+              <person>
+                <name>Burkart, Lucas</name>
+                <affiliation>Universität Basel, Departement Geschichte, Schweiz</affiliation>
+                <idno type="orcid">0000-0002-9011-5113</idno>
+              </person>
+              <person>
+                <name>Hitz, Benjamin</name>
+                <affiliation>Universität Basel, Departement Geschichte, Schweiz</affiliation>
+                <idno type="orcid">0000-0002-3208-4881</idno>
+              </person>
+              <person>
+                <name>Aeby, Jonas</name>
+                <affiliation>Universität Basel, Departement Geschichte, Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Prada Ziegler, Ismail</name>
+                <affiliation>Universität Bern, Walter Benjamin Kolleg, Schweiz; Universität Basel,
+                  Departement Geschichte, Schweiz</affiliation>
+                <idno type="orcid">0000-0003-4229-8688</idno>
+              </person>
+              <person>
+                <name>Vonwiller, Aline</name>
+                <affiliation>Universität Basel, Departement Geschichte, Schweiz</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Verknüpfungen und Kontextualisierung durch Annotationen - Forschen mit
+              multimodalen Daten.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698314</idno>
+            <listPerson>
+              <person>
+                <name>Kröber, Cindy</name>
+                <affiliation>FSU Jena, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Bruschke, Jonas</name>
+                <affiliation>Uni Würzburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Utescher, Ronja</name>
+                <affiliation>FSU Jena, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Maiwald, Ferdinand</name>
+                <affiliation>FSU Jena, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Pattee, Aaron</name>
+                <affiliation>LMU München, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Automatische Erkennung von Bezügen zwischen Epistolographie und
+              Literatur</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698316</idno>
+            <listPerson>
+              <person>
+                <name>Göggelmann, Michael</name>
+                <affiliation>Universität zu Köln / Universität Tübingen, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Edierst Du noch oder trainierst Du schon? Forschungsdaten als Grundlage von
+              Trainingsdaten für die automatische Texterkennung</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698318</idno>
+            <listPerson>
+              <person>
+                <name>Boenig, Matthias</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4615-4753</idno>
+              </person>
+              <person>
+                <name>Baierer, Konstantin</name>
+                <affiliation>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2397-242X</idno>
+              </person>
+              <person>
+                <name>Hinrichsen, Lena</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9286-2390</idno>
+              </person>
+              <person>
+                <name>Würzner, Kay-Michael</name>
+                <affiliation>Sächsische Landesbibliothek — Staats- und Universitätsbibliothek
+                  Dresden (SLUB), Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9039-4124</idno>
+              </person>
+              <person>
+                <name>Reul, Christian</name>
+                <affiliation>Zentrum für Philologie und Digitalität (ZPD) der Universität Würzburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1776-1469</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>BEACONe unde venis et quo vadis?</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698320</idno>
+            <listPerson>
+              <person>
+                <name>Al-Eryani, Susanne</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1741-1645</idno>
+              </person>
+              <person>
+                <name>Gerstner, Eva-Maria</name>
+                <affiliation>Max Weber Stiftung, Bonn, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-9920-4238</idno>
+              </person>
+              <person>
+                <name>Hegel, Philipp</name>
+                <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6867-1511</idno>
+              </person>
+              <person>
+                <name>Lordick, Harald</name>
+                <affiliation>Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte,
+                  Essen, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5070-4263</idno>
+              </person>
+              <person>
+                <name>Schnöpf, Markus</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2529-8248</idno>
+              </person>
+              <person>
+                <name>Schulz, Daniela</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3167-5089</idno>
+              </person>
+              <person>
+                <name>Sikora, Uwe</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Applied Text as Graph (ATAG)</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698322</idno>
+            <listPerson>
+              <person>
+                <name>Kuczera, Andreas</name>
+                <affiliation>Technische Hochschule Mittelhessen, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1020-507X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Cross-Linguistic Data Formats (CLDF): D'où Venons Nous? Que Sommes Nous? Où
+              Allons Nous?</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698324</idno>
+            <listPerson>
+              <person>
+                <name>Forkel, Robert</name>
+                <affiliation>Max-Planck-Institut für Evolutionäre Anthropologie,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>List, Johann-Mattis</name>
+                <affiliation>Universität Passau; Max-Planck-Institut für Evolutionäre Anthropologie,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Erkennen historischer Datierungen in den Reichstagsakten</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698326</idno>
+            <listPerson>
+              <person>
+                <name>Reinert, Matthias</name>
+                <affiliation>Historische Kommission München, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Über die Ordnung von materiellen und digitalen Dingen: Zur
+              multi-klassifikatorischen Visualisierung der Bibliotheca Eugeniana</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698328</idno>
+            <listPerson>
+              <person>
+                <name>Windhager, Florian</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+                <idno type="orcid">0000-0002-5170-2243</idno>
+              </person>
+              <person>
+                <name>Tartler, Annerose</name>
+                <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Mayer, Simon</name>
+                <affiliation>Österreichische Nationalbibliothek, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Liem, Johannes</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Mayr, Eva</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Ansätze und Tools für Historische Text Reuse Detection Fragmentierter Text
+              Reuse am Beispiel ripuarischer Inkunabeln des 15. Jahrhunderts</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698331</idno>
+            <listPerson>
+              <person>
+                <name>Ostrowski, Alina</name>
+                <affiliation>Universität Passau, Deutschland; Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0910-8566</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Quo Vadis kulturwissenschaftliche Digital Humanities?</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698333</idno>
+            <listPerson>
+              <person>
+                <name>Dietzsch, Ina</name>
+                <affiliation>Universität Marburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Franken, Lina</name>
+                <affiliation>Universität Vechta, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2587-4068</idno>
+              </person>
+              <person>
+                <name>Imeri, Sabine</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8844-4014</idno>
+              </person>
+              <person>
+                <name>Kinder-Kurlanda, Katharina</name>
+                <affiliation>Universität Klagenfurt, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7749-645X</idno>
+              </person>
+              <person>
+                <name>Sørensen, Estrid</name>
+                <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3131-9415</idno>
+              </person>
+              <person>
+                <name>Vepřek, Libuše Hannah</name>
+                <affiliation>Universität Tübingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0672-6633</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Modellierung von Gattungsunterschieden. Emotionen in Lyrik, Prosa und
+              Drama</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698335</idno>
+            <listPerson>
+              <person>
+                <name>Kröncke, Merten</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Konle, Leonard</name>
+                <affiliation>Universität Göttingen, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Winko, Simone</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Jannidis, Fotis</name>
+                <affiliation>Universität Göttingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6944-6113</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Distant Reading Textual AI Art Prompts</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698339</idno>
+            <listPerson>
+              <person>
+                <name>Efer, Thomas</name>
+                <affiliation>Computational Humanities Group, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8376-3884</idno>
+              </person>
+              <person>
+                <name>Niekler, Andreas</name>
+                <affiliation>Computational Humanities Group, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3036-3318</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digitale Erschließung der Rechnungsbücher des Klosters Aldersbach Sozial- und
+              wirtschaftshistorische Analyse eines prototypischen Großbetriebs mit digitalen
+              Methoden</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698341</idno>
+            <listPerson>
+              <person>
+                <name>Klugseder, Robert</name>
+                <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                <idno type="orcid">0000-0002-0484-832X</idno>
+              </person>
+              <person>
+                <name>Vogeler, Georg</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1726-1712</idno>
+              </person>
+              <person>
+                <name>Spoerer, Mark</name>
+                <affiliation>Universität Regensburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5549-6512</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Zur Perspektive in Erzähltexten. Ein Ansatz der Computational Literary
+              Studies.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698343</idno>
+            <listPerson>
+              <person>
+                <name>Sluyter-Gäthje, Henny</name>
+                <affiliation>Universität Potsdam, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2969-3237</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Tracing the Transformation of the Labour Market through Historical Job
+              Advertisements</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698345</idno>
+            <listPerson>
+              <person>
+                <name>Venglarova, Klara</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0009-0007-6441-7795</idno>
+              </person>
+              <person>
+                <name>Adam, Raven</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0001-7841-2601</idno>
+              </person>
+              <person>
+                <name>Mölzer, Wiltrud</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0009-0002-9517-4531</idno>
+              </person>
+              <person>
+                <name>Balasubramanian, Saranya</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Füllsack, Manfred</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7772-4061</idno>
+              </person>
+              <person>
+                <name>Kleinert, Jörn</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1167-9245</idno>
+              </person>
+              <person>
+                <name>Vogeler, Georg</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1726-1712</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Transparenz im Fokus: Die Publikationspraxis der Zeitschrift für digitale
+              Geisteswissenschaften</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698347</idno>
+            <listPerson>
+              <person>
+                <name>Baumgarten, Marcus</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0801-9462</idno>
+              </person>
+              <person>
+                <name>Fricke-Steyer, Henrike</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-9677-3566</idno>
+              </person>
+              <person>
+                <name>de la Iglesia, Martin</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9319-4793</idno>
+              </person>
+              <person>
+                <name>Jansky, Caroline</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-7071-1022</idno>
+              </person>
+              <person>
+                <name>Schimpf, Jonathan</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Wiegand, Martin</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2151-5823</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Producing &amp; sparqling Open and FAIR data with the Geovistory
+              environment</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698349</idno>
+            <listPerson>
+              <person>
+                <name>Hart, Stephen</name>
+                <affiliation>Universität Bern, Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Knecht, David</name>
+                <affiliation>KleioLab GmbH, Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Beretta, Francesco</name>
+                <affiliation>LARHRA–CNRS/Université de Lyon/ENS, Frankreich</affiliation>
+              </person>
+              <person>
+                <name>Schneider, Jonas</name>
+                <affiliation>KleioLab GmbH, Schweiz</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Co-Kreativität digital erschließen: Über die Annotation komplexer
+              ästhetischer Phänomene</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698351</idno>
+            <listPerson>
+              <person>
+                <name>Bauer, Matthias</name>
+                <affiliation>Universität Tübingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0395-0629</idno>
+              </person>
+              <person>
+                <name>Göggelmann, Michael</name>
+                <affiliation>Universität Tübingen; Universität zu Köln, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Rogalski, Sara</name>
+                <affiliation>Universität Tübingen, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Wetzel, Sandra</name>
+                <affiliation>Universität Tübingen, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Zirker, Angelika</name>
+                <affiliation>Universität Tübingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6819-3871</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>DHd Chronicles - Anreicherung und Analyse der Beiträge zu den Jahrestagungen
+              der Digital Humanities im deutschsprachigen Raum 2014-2023</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698355</idno>
+            <listPerson>
+              <person>
+                <name>Cremer, Fabian</name>
+                <affiliation>Leibniz-Institut für Europäische Geschichte (IEG), Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8251-9727</idno>
+              </person>
+              <person>
+                <name>Blessing, André</name>
+                <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7573-578X</idno>
+              </person>
+              <person>
+                <name>Helling, Patrick</name>
+                <affiliation>Data Center for the Humanities (DCH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4043-165X</idno>
+              </person>
+              <person>
+                <name>Henny-Krahmer, Ulrike</name>
+                <affiliation>Institut für Germanistik, Universität Rostock,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2852-065X</idno>
+              </person>
+              <person>
+                <name>Jung, Kerstin</name>
+                <affiliation>Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9548-8461</idno>
+              </person>
+              <person>
+                <name>Reiter, Nils</name>
+                <affiliation>Institut für Digital Humanities, Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3193-6170</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>A Low-Cost Reflectance Transformation Imaging Dome</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698357</idno>
+            <listPerson>
+              <person>
+                <name>Winslow, Sean</name>
+                <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-5114-0594</idno>
+              </person>
+              <person>
+                <name>Krottmaier, Sina</name>
+                <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7966-7996</idno>
+              </person>
+              <person>
+                <name>Tosques, Fabio</name>
+                <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Zuanni, Chiara</name>
+                <affiliation>Karl-Franzens-Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0003-4027-0278</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Edition historischer Patiententexte mit Präsenz im Deutschen Textarchiv und
+              DWDS</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698359</idno>
+            <listPerson>
+              <person>
+                <name>Brolich, Nina</name>
+                <affiliation>Friedrich-Alexander Universität Erlangen-Nürnberg,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Schiegg, Markus</name>
+                <affiliation>Friedrich-Alexander Universität Erlangen-Nürnberg, Deutschland;
+                  Universität Leipzig, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0357-3421</idno>
+              </person>
+              <person>
+                <name>Wiegand, Frank</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1096-3957</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digitale Editionen und ihre (potenziellen) Nutzer*innen. Konzeptionelle
+              Überlegungen für ein Editions-Registers</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698361</idno>
+            <listPerson>
+              <person>
+                <name>Esch, Claudia</name>
+                <affiliation>Universität Bamberg, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Das richtige Tool für die Volltextdigitalisierung</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698363</idno>
+            <listPerson>
+              <person>
+                <name>Baierer, Konstantin</name>
+                <affiliation>Staatsbibliothek zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2397-242X</idno>
+              </person>
+              <person>
+                <name>Hinrichsen, Lena</name>
+                <affiliation>Herzog August Bibliothek, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9286-2390</idno>
+              </person>
+              <person>
+                <name>Boenig, Matthias</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4615-4753</idno>
+              </person>
+              <person>
+                <name>Reul, Christian</name>
+                <affiliation>Julius-Maximilians-Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1776-1469</idno>
+              </person>
+              <person>
+                <name>Sautter, Lilja</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Mustafa, Mehmed</name>
+                <affiliation>Gesellschaft für wissenschaftliche Datenverarbeitung Göttingen,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Will, Larissa</name>
+                <affiliation>Universität Mannheim, Deutschland</affiliation>
+                <idno type="orcid">0009-0004-6220-8939</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Erfahrungen aus dem Citizen Science-Projekt Itinera Nova als Taktgeber für
+              Digital Humanities-Projekte</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698367</idno>
+            <listPerson>
+              <person>
+                <name>Bigalke, Jan</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0721-9980</idno>
+              </person>
+              <person>
+                <name>Blumtritt, Jonathan</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1438-379X</idno>
+              </person>
+              <person>
+                <name>Drach, Sviatoslav</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3324-1655</idno>
+              </person>
+              <person>
+                <name>Löbbert, Benedikte</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0009-0002-6670-3692</idno>
+              </person>
+              <person>
+                <name>Neuefeind, Claes</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9377-9492</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Agreement und Kookkurrenz bei unzuverlässigem Erzählen. Ziele,
+              Herausforderungen und erste Ergebnisse aus dem Projekt CAUTION</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698369</idno>
+            <listPerson>
+              <person>
+                <name>Blessing, André</name>
+                <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7573-578X</idno>
+              </person>
+              <person>
+                <name>Jacke, Janina</name>
+                <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7217-3136</idno>
+              </person>
+              <person>
+                <name>Kuhn, Jonas</name>
+                <affiliation>Universität Stuttgart, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Geosemantische Kontextualisierung im Spannungsfeld domänenspezifischer
+              Anforderungen – Methoden(kritik) der Integration von GIS und Semantic
+              Web-Technologien</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698371</idno>
+            <listPerson>
+              <person>
+                <name>Schumacher, Anna-Lena</name>
+                <affiliation>Institut für vergleichende Städtegeschichte, Münster,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Runkel, Tobias</name>
+                <affiliation>Institut für vergleichende Städtegeschichte, Münster,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Normann, Immanuel</name>
+                <affiliation>Service Center for Digital Humanities, Universität Münster,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4702-1282</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Mentions technique, future re-invented? Eine quantitative Analyse
+              literarischer Referenzen im niederländischen, deutschen und britischen
+              Parlament.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698373</idno>
+            <listPerson>
+              <person>
+                <name>Blank, Lina Lucy</name>
+                <affiliation>Carl von Ossietzky Universität Oldenburg, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Vertrauen in die Wirklichkeit - AI, Trust und Reliability in den Digital
+              Humanities</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698375</idno>
+            <listPerson>
+              <person>
+                <name>Kurz, Susanne</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2824-1485</idno>
+              </person>
+              <person>
+                <name>Eide, Øyvind</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-7766-6287</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Vom Zettel zum TEI annotierten Beleg - Die Verknüpfung von lexikografischen
+              Daten mit ihren Quellentexten im Projekt DEMel</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698377</idno>
+            <listPerson>
+              <person>
+                <name>Müller, Caroline</name>
+                <affiliation>Institut für Romanistik, Universität Rostock, Deutschland;
+                  Juniorprofessur für Digital Humanities, Universität Rostock,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8591-7859</idno>
+              </person>
+              <person>
+                <name>Stephan, Robert</name>
+                <affiliation>Universitätsbibliothek Rostock, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7605-7415</idno>
+              </person>
+              <person>
+                <name>Labahn, Karsten</name>
+                <affiliation>Universitätsbibliothek Rostock, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8482-807X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Status Quo der Entwicklungen von Ontologien Rhetorischer Figuren in Englisch,
+              Deutsch und Serbisch</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698379</idno>
+            <listPerson>
+              <person>
+                <name>Kühn, Ramona</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Mitrović, Jelena</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Cultura Ibi Vadis! Zur Rekontextualisierung und Visualisierung kultureller
+              Informationen in InTaVia</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698381</idno>
+            <listPerson>
+              <person>
+                <name>Mayr, Eva</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Schlögl, Matthias</name>
+                <affiliation>ACDH-CH, Österreichische Akademie der Wissenschaften,
+                  Österreich</affiliation>
+              </person>
+              <person>
+                <name>Windhager, Florian</name>
+                <affiliation>Universität für Weiterbildung Krems, Österreich</affiliation>
+                <idno type="orcid">0000-0002-5170-2243</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Paradigmen einer digitalen Rezeptionswissenschaft Produktiv-literarische
+              Rezeptionsphänomene als Linked Data am Beispiel der deutschsprachigen literarischen
+              Sappho-Rezeption</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698385</idno>
+            <listPerson>
+              <person>
+                <name>Untner, Laura</name>
+                <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                <idno type="orcid">0000-0002-9649-0870</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>DigEdTnT - Digital Edition Creation Pipelines: Tools and Transitions
+              Optimierung digitaler Editionsworkflows: Erfahrungen und Herausforderungen im Projekt
+              DigEdTnT</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698387</idno>
+            <listPerson>
+              <person>
+                <name>Steiner, Christian</name>
+                <affiliation>Digital Humanities Craft OG, Österreich</affiliation>
+                <idno type="orcid">0000-0002-6658-4622</idno>
+              </person>
+              <person>
+                <name>Pollin, Christopher</name>
+                <affiliation>Digital Humanities Craft OG; Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-4879-129X</idno>
+              </person>
+              <person>
+                <name>Strutz, Sabrina</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7745-0558</idno>
+              </person>
+              <person>
+                <name>Reiter, Georg</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Klug, Helmut</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7461-5820</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Der Weg zum grünen Forschungsdatenmanagementplan</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698391</idno>
+            <listPerson>
+              <person>
+                <name>Gerber, Anja</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2576-1511</idno>
+              </person>
+              <person>
+                <name>Rosendahl, Lisa</name>
+                <affiliation>Beethovens Werkstatt/Beethoven-Haus Bonn, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4826-4553</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Das kleine Wörterbuch der Redeeinleiter</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698393</idno>
+            <listPerson>
+              <person>
+                <name>Brunner, Annelen</name>
+                <affiliation>Leibniz-Institut für Deutsche Sprache, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Tu, Ngoc Duyen Tanja</name>
+                <affiliation>Leibniz-Institut für Deutsche Sprache, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Weimer, Lukas</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6919-3646</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Hands-on-Workshop DNBLab</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698395</idno>
+            <listPerson>
+              <person>
+                <name>Taube, Anke</name>
+                <affiliation>Deutsche Nationalbibliothek, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4178-086X</idno>
+              </person>
+              <person>
+                <name>Palek, Stephanie</name>
+                <affiliation>Deutsche Nationalbibliothek, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1624-896X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Epigraf – eine Plattform zur dokumenten- und datenorientierten Erfassung,
+              Annotation, Vernetzung und Publikation von Textdaten</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698399</idno>
+            <listPerson>
+              <person>
+                <name>Jünger, Jakob</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1860-6695</idno>
+              </person>
+              <person>
+                <name>Gärtner, Chantal</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Herold, Jürgen</name>
+                <affiliation>Niedersächsische Akademie der Wissenschaften zu Göttingen,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Michel, Maximilian</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Syring, Wolf-Dieter</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Computational Game Studies? Drei Annäherungsperspektiven</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698401</idno>
+            <listPerson>
+              <person>
+                <name>Burghardt, Manuel</name>
+                <affiliation>Computational Humanities, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1354-9089</idno>
+              </person>
+              <person>
+                <name>Piontkowitz, Vera</name>
+                <affiliation>Computational Humanities, Universität Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3605-3609</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>PUDEL: Paving the Way for Pawsome Data Models and Vocabularies in the
+              Academic Community</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698403</idno>
+            <listPerson>
+              <person>
+                <name>Goldhahn, Dirk</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1681-567X</idno>
+              </person>
+              <person>
+                <name>Kretschmer, Uwe</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3685-6519</idno>
+              </person>
+              <person>
+                <name>Muehleder, Peter</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6593-5673</idno>
+              </person>
+              <person>
+                <name>Naether, Franziska</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4652-6836</idno>
+              </person>
+              <person>
+                <name>Becker, Anja</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4202-1566</idno>
+              </person>
+              <person>
+                <name>Graiff, Cecilia</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2226-7174</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Automatisierung und CI/CD in digitalen Editionen am Beispiel des
+              Conciliator</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698405</idno>
+            <listPerson>
+              <person>
+                <name>Schrader, Oliver</name>
+                <affiliation>Cologne Center for eHumanities (CCeH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0481-395X</idno>
+              </person>
+              <person>
+                <name>Gassmann, Sebastian</name>
+                <affiliation>Institute for Medical Humanities, Rheinische
+                  Friedrich-Wilhelms-Universität Bonn, Deutschland</affiliation>
+                <idno type="orcid">0009-0001-9396-8824</idno>
+              </person>
+              <person>
+                <name>Gengnagel, Tessa</name>
+                <affiliation>Cologne Center for eHumanities (CCeH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8820-5112</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>KI und Musik in der Lehre - Ein musikwissenschaftliches Projekt der
+              Universität des Saarlandes (UdS)</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698409</idno>
+            <listPerson>
+              <person>
+                <name>Schmolenzky, Pascal</name>
+                <affiliation>Universität des Saarlandes, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Klauk, Stephanie</name>
+                <affiliation>Universität des Saarlandes, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>PhiWiki: ein semantisches Wiki für die Digitalphilosophie</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698411</idno>
+            <listPerson>
+              <person>
+                <name>Bailly, Kolja</name>
+                <affiliation>Technische Informationsbibliothek Hannover, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Geiger, Jonathan D.</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0452-7075</idno>
+              </person>
+              <person>
+                <name>Podschwadek, Frodo</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1248-4228</idno>
+              </person>
+              <person>
+                <name>Vater, Christian</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1367-8489</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digitaler Zugang zu vormodernen slavischen Handschriften</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698413</idno>
+            <listPerson>
+              <person>
+                <name>Renje, Elena</name>
+                <affiliation>Universität Freiburg, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Frauen im frühromantischen Briefnetzwerk Quantitative Einblicke in weibliche
+              Lebenswelten des Bildungsbürgertums um 1800</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698415</idno>
+            <listPerson>
+              <person>
+                <name>Suárez Cronauer, Elena</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur | Mainz,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Software und Zeitungen - Evaluierung einer Software zur Segmentierung von
+              Überschriften in der NS-Zeitung "Freiheitskampf"</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698417</idno>
+            <listPerson>
+              <person>
+                <name>Henning, Tim</name>
+                <affiliation>Hannah-Arendt-Institut für Totalitarismusforschung, Dresden,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Community Building auf Citizen Science-Projektplattformen: Ja, nein,
+              vielleicht?</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698421</idno>
+            <listPerson>
+              <person>
+                <name>Heinisch, Barbara</name>
+                <affiliation>Universität Wien, Österreich</affiliation>
+                <idno type="orcid">0000-0002-1362-4088</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Curation and Analysis of 'XVIIIe siècle: Bibliographie'</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698423</idno>
+            <listPerson>
+              <person>
+                <name>Schöch, Christof</name>
+                <affiliation>Trier Center for Digital Humanities, Universität Trier,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4557-2753</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Literatur im Wikiversum – Eine praktische Annäherung über API-Abfragen und
+              Wikipedia-Metriken</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698425</idno>
+            <listPerson>
+              <person>
+                <name>Illmer, Viktor J.</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-7334-781X</idno>
+              </person>
+              <person>
+                <name>Soethaert, Bart</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3845-605X</idno>
+              </person>
+              <person>
+                <name>Welz, Lilly</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Fischer, Frank</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2419-6629</idno>
+              </person>
+              <person>
+                <name>Jäschke, Robert</name>
+                <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3271-9653</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Katalog und Textkorpus zu Diskettenmagazinen der 1980er und 1990er
+              (Re-)Digitalisierung frühen digitalen Kulturerbes</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698427</idno>
+            <listPerson>
+              <person>
+                <name>Roeder, Torsten</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7043-7820</idno>
+              </person>
+              <person>
+                <name>Yannik, Herbst</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6547-9599</idno>
+              </person>
+              <person>
+                <name>Johannes, Leitgeb</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0006-2058-9133</idno>
+              </person>
+              <person>
+                <name>Madlin, Marenec</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0003-7434-827X</idno>
+              </person>
+              <person>
+                <name>Tomash, Shtohryn</name>
+                <affiliation>Universität Würzburg, Deutschland</affiliation>
+                <idno type="orcid">0009-0000-4597-603X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Still alive?! - Vom Umgang mit lebenden Systemen in den Digital
+              Humanities</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698429</idno>
+            <listPerson>
+              <person>
+                <name>Helling, Patrick</name>
+                <affiliation>Data Center for the Humanities (DCH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4043-165X</idno>
+              </person>
+              <person>
+                <name>Rau, Felix</name>
+                <affiliation>Data Center for the Humanities (DCH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4167-0601</idno>
+              </person>
+              <person>
+                <name>Schildkamp, Philip</name>
+                <affiliation>Cologne Center for eHumanities (CCeH), Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0209-2837</idno>
+              </person>
+              <person>
+                <name>Dieckmann, Lisa</name>
+                <affiliation>Universität zu Köln, NFDI4Culture, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1708-7371</idno>
+              </person>
+              <person>
+                <name>Puhl, Johanna</name>
+                <affiliation>Deutschen Zentrum für Luft- und Raumfahrt (DLR), Köln,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Henny-Krahmer, Ulrike</name>
+                <affiliation>Universität Rostock, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2852-065X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Quo tendimus? Visualisierungen in digitalen Editionen am Beispiel der
+              "Hybridedition der deutschsprachigen Werke des Martin Opitz"</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698433</idno>
+            <listPerson>
+              <person>
+                <name>Schwaß, Susann</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Schulz, Daniela</name>
+                <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3167-5089</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Vom DMP zum DDP – Erstellen fachspezifischer Datenmanagementpläne für die
+              Computational Literary Studies im Research Data Management Organizer
+              (RDMO)</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698435</idno>
+            <listPerson>
+              <person>
+                <name>Jung, Kerstin</name>
+                <affiliation>Institut für Deutsche Philologie, Lehrstuhl für Computerphilologie und
+                  Neuere Deutsche Literaturgeschichte, Universität Würzburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9548-8461</idno>
+              </person>
+              <person>
+                <name>Helling, Patrick</name>
+                <affiliation>Institut für Deutsche Philologie, Lehrstuhl für Computerphilologie und
+                  Neuere Deutsche Literaturgeschichte, Universität Würzburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4043-165X</idno>
+              </person>
+              <person>
+                <name>Pielström, Steffen</name>
+                <affiliation>Institut für Deutsche Philologie, Lehrstuhl für Computerphilologie und
+                  Neuere Deutsche Literaturgeschichte, Universität Würzburg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1016-2911</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Processing Qualitative Interview Data - Development of a Software Platform to
+              Support Open Data in the Humanities</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698437</idno>
+            <listPerson>
+              <person>
+                <name>Mollenhauer, Sabina</name>
+                <affiliation>Universität Vechta, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>The Epistemological Value of the Computational Turn in Scholarly
+              Editing</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698439</idno>
+            <listPerson>
+              <person>
+                <name>Cugliana, Elisa</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6460-2954</idno>
+              </person>
+              <person>
+                <name>Kuczera, Andreas</name>
+                <affiliation>Technische Hochschule Mittelhessen, Gießen Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1020-507X</idno>
+              </person>
+              <person>
+                <name>Grüntgens, Max</name>
+                <affiliation>Deutsches Dokumentationszentrum für Kunstgeschichte, Bildarchiv Foto
+                  Marburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Ward, Aengus</name>
+                <affiliation>University of Birmingham, Großbritannien</affiliation>
+                <idno type="orcid">0000-0001-9526-0718</idno>
+              </person>
+              <person>
+                <name>van Zundert, Joris J.</name>
+                <affiliation>Huygens Institute, Amsterdam, Niederlande</affiliation>
+                <idno type="orcid">0000-0003-3862-7602</idno>
+              </person>
+              <person>
+                <name>Andrews, Tara</name>
+                <affiliation>Universität Wien, Österreich</affiliation>
+                <idno type="orcid">0000-0001-6930-3470</idno>
+              </person>
+              <person>
+                <name>Dekker, Ronald Haentjens</name>
+                <affiliation>DHLab / Huygens Institute, Amsterdam, Niederlande</affiliation>
+                <idno type="orcid">0000-0001-6737-7986</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Konzepträume: Ein Vorschlag zur besseren Abstimmung von Theoriehintergrund
+              und digitalen Datenanalysen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698441</idno>
+            <listPerson>
+              <person>
+                <name>Kremer, Dominik</name>
+                <affiliation>Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Lang, Sabine</name>
+                <affiliation>Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg,
+                  Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Wer sind die Herausgeber:innen Digitaler Editionen? Eine Untersuchung zur
+              Repräsentation von Digital Humanities-Wissenschaftler:innen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698445</idno>
+            <listPerson>
+              <person>
+                <name>Gödel, Martina</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Klappenbach, Lou</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6587-3353</idno>
+              </person>
+              <person>
+                <name>Sander, Ruth</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0009-0008-3678-9070</idno>
+              </person>
+              <person>
+                <name>Schnöpf, Markus</name>
+                <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2529-8248</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Das »ureigenste theatralische Element« – Automatische Extraktion von
+              Requisiten aus deutschsprachigen Dramentexten</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698447</idno>
+            <listPerson>
+              <person>
+                <name>Lubin, Jonah</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0009-0000-7900-1994</idno>
+              </person>
+              <person>
+                <name>Detken, Anke</name>
+                <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Fischer, Frank</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2419-6629</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>How to do Theory: Reflexive Praktiken in der DH Lehre</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698449</idno>
+            <listPerson>
+              <person>
+                <name>Geiger, Jonathan D.</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0452-7075</idno>
+              </person>
+              <person>
+                <name>Horstmann, Jan</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8047-2232</idno>
+              </person>
+              <person>
+                <name>Kleymann, Rabea</name>
+                <affiliation>Technische Universität Chemnitz, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3856-2685</idno>
+              </person>
+              <person>
+                <name>Schröter, Julian</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0168-2608</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>FAIR/CARE Principles as Normative Ethics in Digital Musicology MEI, Metadata,
+              and Minimising Invisible Labour</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698451</idno>
+            <listPerson>
+              <person>
+                <name>Neumann, Joshua</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7970-5553</idno>
+              </person>
+              <person>
+                <name>Richts-Matthaei, Kristina</name>
+                <affiliation>Akademie der Wissenschaften und der Literatur Mainz,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8569-1995</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>HermeneuTopic. Ein Workflow zur interaktiven mixed-methods Exploration
+              (philosophie-)historischer Textkorpora.</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698453</idno>
+            <listPerson>
+              <person>
+                <name>Reiners-Selbach, Stefan</name>
+                <affiliation>Heinrich-Heine-Universität Düsseldorf, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4763-4348</idno>
+              </person>
+              <person>
+                <name>Baedke, Jan</name>
+                <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2138-785X</idno>
+              </person>
+              <person>
+                <name>Böhm, Alexander</name>
+                <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Fábregas-Tejeda, Alejandro</name>
+                <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1797-5467</idno>
+              </person>
+              <person>
+                <name>Straetmanns, Vera</name>
+                <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Evaluating Digital Humanities Methods and Tools for the OpenMethods Metablog:
+              An OpenMethods Edit-a-thon</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698455</idno>
+            <listPerson>
+              <person>
+                <name>Nunn, Christopher</name>
+                <affiliation>Universität Heidelberg, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7208-8636</idno>
+              </person>
+              <person>
+                <name>Horváth, Alíz</name>
+                <affiliation>Eötvös Loránd University, Ungarn</affiliation>
+                <idno type="orcid">0000-0002-9131-5504</idno>
+              </person>
+              <person>
+                <name>Wuttke, Ulrike</name>
+                <affiliation>Fachhochschule Potsdam, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8217-4025</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Microblogging mit Mastodon: Fediverse, Fedihum und Co. in den Digital
+              Humanities – ein Praxisworkshop</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698457</idno>
+            <listPerson>
+              <person>
+                <name>König, Mareike</name>
+                <affiliation>Deutsches Historisches Institut Paris, Frankreich</affiliation>
+                <idno type="orcid">0000-0002-8189-8574</idno>
+              </person>
+              <person>
+                <name>Hermes, Jürgen</name>
+                <affiliation>Institut für Digital Humanities, Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8367-8073</idno>
+              </person>
+              <person>
+                <name>Schildkamp, Philip</name>
+                <affiliation>Institut für Digital Humanities, Universität zu Köln,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0209-2837</idno>
+              </person>
+              <person>
+                <name>Wolter, Vivien</name>
+                <affiliation>Universität Trier, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9982-9382</idno>
+              </person>
+              <person>
+                <name>Wuttke, Ulrike</name>
+                <affiliation>Fachhochschule Potsdam, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8217-4025</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>ReflectAI: Reflexionsbasierte künstliche Intelligenz in der
+              Kunstgeschichte</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698459</idno>
+            <listPerson>
+              <person>
+                <name>Stalter, Julian</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1149-1688</idno>
+              </person>
+              <person>
+                <name>Springstein, Matthias</name>
+                <affiliation>L3S Research Center, Leibniz Universität Hannover, Deutschland; TIB –
+                  Leibniz-Informationszentrum Technik und Naturwissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6509-8534</idno>
+              </person>
+              <person>
+                <name>Kristen, Maximilian</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Schneider, Stefanie</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4915-6949</idno>
+              </person>
+              <person>
+                <name>Müller-Budack, Eric</name>
+                <affiliation>L3S Research Center, Leibniz Universität Hannover, Deutschland; TIB –
+                  Leibniz-Informationszentrum Technik und Naturwissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6802-1241</idno>
+              </person>
+              <person>
+                <name>Ewerth, Ralph</name>
+                <affiliation>L3S Research Center, Leibniz Universität Hannover, Deutschland; TIB –
+                  Leibniz-Informationszentrum Technik und Naturwissenschaften,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0918-6297</idno>
+              </person>
+              <person>
+                <name>Kohle, Hubertus</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3162-1304</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Normdaten Quo Vadis</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698461</idno>
+            <listPerson>
+              <person>
+                <name>Rettinghaus, Klaus</name>
+                <affiliation>Enote GmbH, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1898-2543</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Kompetenzzentrum OCR – Automatische Texterkennung als
+              Serviceangebot</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698463</idno>
+            <listPerson>
+              <person>
+                <name>Will, Larissa</name>
+                <affiliation>Universitätsbibliothek Mannheim, Deutschland</affiliation>
+                <idno type="orcid">0009-0004-6220-8939</idno>
+              </person>
+              <person>
+                <name>Huff, Dorothee</name>
+                <affiliation>Universitätsbibliothek Tübingen, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0866-9967</idno>
+              </person>
+              <person>
+                <name>Weil, Stefan</name>
+                <affiliation>Universitätsbibliothek Mannheim, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0524-9898</idno>
+              </person>
+              <person>
+                <name>Kamlah, Jan</name>
+                <affiliation>Universitätsbibliothek Mannheim, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0417-7562</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Digitalität in der germanistischen Literaturwissenschaft, quo vadis? Ein
+              Bericht aus der Praxis</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698465</idno>
+            <listPerson>
+              <person>
+                <name>Boucher, Marie-Christine</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2475-3184</idno>
+              </person>
+              <person>
+                <name>Gold, Julia</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Menke, Fabian</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Preis, Matthias</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Benz, Maximilian</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7262-7679</idno>
+              </person>
+              <person>
+                <name>Buschmeier, Matthias</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5264-2545</idno>
+              </person>
+              <person>
+                <name>Kababgi, Daniel</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0009-0002-0990-6418</idno>
+              </person>
+              <person>
+                <name>Kauffmann, Kai</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3029-3097</idno>
+              </person>
+              <person>
+                <name>Erhart, Walter</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Herrmann, Berenike</name>
+                <affiliation>Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5256-0566</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Auffinden und Analysieren komplexer Textvarianten in Hannah Arendts Denk- und
+              Schreibwerkstatt mit LERA</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698468</idno>
+            <listPerson>
+              <person>
+                <name>Etling, Fabian</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Pöckelmann, Marcus</name>
+                <affiliation>Martin-Luther-Universität Halle-Wittenberg, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8718-1198</idno>
+              </person>
+              <person>
+                <name>Grote, Brigitte</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Lautstärke und Konflikt in Realismus und Naturalismus</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698470</idno>
+            <listPerson>
+              <person>
+                <name>Häußler, Julian</name>
+                <affiliation>Technische Universität Darmstadt, fortext lab,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7490-8570</idno>
+              </person>
+              <person>
+                <name>Guhr, Svenja</name>
+                <affiliation>Technische Universität Darmstadt, fortext lab,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-7686-3609</idno>
+              </person>
+              <person>
+                <name>Gius, Evelyn</name>
+                <affiliation>Technische Universität Darmstadt, fortext lab,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8888-8419</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Quantifying trust towards LLM-based chatbots: A mixed-method
+              approach</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698472</idno>
+            <listPerson>
+              <person>
+                <name>Belosevic, Milena</name>
+                <affiliation>Bielefeld University, German Linguistics/Digital Linguistics Lab,
+                  Faculty of Linguistics and Literary Studies, Bielefeld University,
+                  Germany</affiliation>
+              </person>
+              <person>
+                <name>Buschmeier, Hendrik</name>
+                <affiliation>Bielefeld University, German Linguistics/Digital Linguistics Lab,
+                  Faculty of Linguistics and Literary Studies, Bielefeld University,
+                  Germany</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>"Mutter, Vater, Kind". Ressourcenarme automatische Metaphernverarbeitung für
+              religionswissenschaftliche Fragestellungen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698474</idno>
+            <listPerson>
+              <person>
+                <name>Rodenhausen, Lina</name>
+                <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4709-082X</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>TextGrid Python Clients: Making the Repository Programmable</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698476</idno>
+            <listPerson>
+              <person>
+                <name>Hynek, Stefan</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3485-0746</idno>
+              </person>
+              <person>
+                <name>Veentjer, Ubbo</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9726-3135</idno>
+              </person>
+              <person>
+                <name>Calvo Tello, José</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1129-5604</idno>
+              </person>
+              <person>
+                <name>Barth, Florian</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3408-7311</idno>
+              </person>
+              <person>
+                <name>Funk, Stefan</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1259-2288</idno>
+              </person>
+              <person>
+                <name>Goebel, Mathias</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-1102-5284</idno>
+              </person>
+              <person>
+                <name>Kurzawe, Daniel</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-5027-7313</idno>
+              </person>
+              <person>
+                <name>Weimer, Lukas</name>
+                <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6919-3646</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Mehrsprachige Digital Literacy und Digital Humanities in der
+              Lehre</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698478</idno>
+            <listPerson>
+              <person>
+                <name>Beers, Theodore</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5129-5748</idno>
+              </person>
+              <person>
+                <name>Kraneiß, Natalie</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3584-285X</idno>
+              </person>
+              <person>
+                <name>Müller-Laackman, Jonas</name>
+                <affiliation>Staats- und Universitätsbibliothek Hamburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2279-6751</idno>
+              </person>
+              <person>
+                <name>Thies, Antonia</name>
+                <affiliation>Friedrich-Alexander-Universität Erlangen-Nürnberg,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0001-6153-7109</idno>
+              </person>
+              <person>
+                <name>Wagner, Cosima</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4957-3478</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Offen – frei zugänglich – für alle? Partizipative Ansätze zum barrierefreien
+              Umgang mit Forschungsdaten</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698480</idno>
+            <listPerson>
+              <person>
+                <name>Wunsch, Samuel</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Lehnen, Katrin Anna</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Henzel, Katrin</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8260-223X</idno>
+              </person>
+              <person>
+                <name>Christ, Andreas</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3591-2355</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>"Da schunklet älli mit" – Sammlung und Erforschung dezentraler Kulturdaten
+              der schwäbisch-alemannischen Kneipenfastnacht</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698482</idno>
+            <listPerson>
+              <person>
+                <name>Hein, Pascal</name>
+                <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2138-3069</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Von Menschen und Maschinen: Transdisziplinäre Workflows im Münsteraner
+              Editionsprojekt Heinrich Scholz</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698485</idno>
+            <listPerson>
+              <person>
+                <name>Dietz, Katharina</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7405-3656</idno>
+              </person>
+              <person>
+                <name>Dinger, Patrick</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-2649-4737</idno>
+              </person>
+              <person>
+                <name>Horstmann, Jan</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8047-2232</idno>
+              </person>
+              <person>
+                <name>Normann, Immanuel</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4702-1282</idno>
+              </person>
+              <person>
+                <name>Schäfftlein, Vitus</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0009-0003-3620-5884</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>μEdition – Niedrigschwellige Digitale Editionen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698487</idno>
+            <listPerson>
+              <person>
+                <name>Hall, Mark</name>
+                <affiliation>The Open University, Vereinigtes Königreich</affiliation>
+                <idno type="orcid">0000-0003-0081-4277</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>My Body is a Cage: Human Pose Estimation und Retrieval in kunsthistorischen
+              Inventaren</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698489</idno>
+            <listPerson>
+              <person>
+                <name>Schneider, Stefanie</name>
+                <affiliation>Ludwig-Maximilians-Universität München, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4915-6949</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Über den Text hinaus: Die Edition eines Historiogramms</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698491</idno>
+            <listPerson>
+              <person>
+                <name>Cugliana, Elisa</name>
+                <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6460-2954</idno>
+              </person>
+              <person>
+                <name>Krottmaier, Sina</name>
+                <affiliation>Universität Graz, Österreich</affiliation>
+                <idno type="orcid">0000-0002-7966-7996</idno>
+              </person>
+              <person>
+                <name>Rouxel, Lennart</name>
+                <affiliation>Bergische Universität Wuppertal, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Vernetzte Finanzen – Historische Finanzdokumente und aktuelle
+              Herausforderungen der computergestützten Erschließung</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698493</idno>
+            <listPerson>
+              <person>
+                <name>Mischka, Bernadette</name>
+                <affiliation>Universität Regensburg, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>InterAnnotator: Interfaces für die Annotation intertextueller
+              Relationen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698495</idno>
+            <listPerson>
+              <person>
+                <name>Horstmann, Jan</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8047-2232</idno>
+              </person>
+              <person>
+                <name>Lück, Christian</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0009-0008-0649-5127</idno>
+              </person>
+              <person>
+                <name>Normann, Immanuel</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-4702-1282</idno>
+              </person>
+              <person>
+                <name>Stange, Jan-Erik</name>
+                <affiliation>Universität Münster, Deutschland</affiliation>
+                <idno type="orcid">0009-0004-7264-2843</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Open Public Peer Review auf dem Prüfstand: Community-Einfluss auf den
+              Referenzrahmen für eigenständige digitale Wissenschaftskommunikation durch
+              Forschende</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698497</idno>
+            <listPerson>
+              <person>
+                <name>Seltmann, Melanie Elisabeth-H.</name>
+                <affiliation>Universitäts- und Landesbibliothek Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-7588-4395</idno>
+              </person>
+              <person>
+                <name>Frick, Claudia</name>
+                <affiliation>Technische Hochschule Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5291-4301</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Quo Vadis Fachbereiche und Schulen der DHd: Netzwerkanalyse der DHd Abstracts
+              2014-2023</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698499</idno>
+            <listPerson>
+              <person>
+                <name>Haider, Thomas Nikolaus</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-1522-4026</idno>
+              </person>
+              <person>
+                <name>Gassner, Sebastian</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Rehbein, Malte</name>
+                <affiliation>Universität Passau, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3252-0604</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>forTEXT-Hefte: Eine Open-Access-Plattform für den Wissensaustausch in den
+              digitalen Literaturwissenschaften</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698501</idno>
+            <listPerson>
+              <person>
+                <name>Gerstorfer, Dominik</name>
+                <affiliation>TU-Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8095-2540</idno>
+              </person>
+              <person>
+                <name>Akazawa, Mari</name>
+                <affiliation>TU-Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0009-0007-2653-6275</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Closing the Gap in Non-Latin-Script Data: Pragmatic Approaches for Increasing
+              Awareness</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698503</idno>
+            <listPerson>
+              <person>
+                <name>Beers, Theodore</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5129-5748</idno>
+              </person>
+              <person>
+                <name>Kudela, Xenia Monika</name>
+                <affiliation>Freie Universität Berlin, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4582-0542</idno>
+              </person>
+              <person>
+                <name>Müller-Laackman, Jonas</name>
+                <affiliation>Staats- und Universitätsbibliothek Hamburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2279-6751</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Narrativität visualisieren - Eine Rezeptionsstudie zur Evaluation der
+              heuristischen Qualität von Narrativitätsgraphen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698505</idno>
+            <listPerson>
+              <person>
+                <name>Hatzel, Hans Ole</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4586-7260</idno>
+              </person>
+              <person>
+                <name>Stiemer, Haimo</name>
+                <affiliation>Technische Unversität Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-4407-2415</idno>
+              </person>
+              <person>
+                <name>Biemann, Chris</name>
+                <affiliation>Universität Hamburg, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-8449-9624</idno>
+              </person>
+              <person>
+                <name>Gius, Evelyn</name>
+                <affiliation>Technische Unversität Darmstadt, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8888-8419</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>GND4C@ThULB – Möglichkeiten und Grenzen der Normverdatung in Thüringer
+              Kultureinrichtungen</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698507</idno>
+            <listPerson>
+              <person>
+                <name>Markert, Michael</name>
+                <affiliation>Thüringer Universitäts- und Landesbibliothek, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>»LLMs for everything?« Potentiale und Probleme der Anwendung von
+              In-Context-Learning für die Computational Literary Studies</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698509</idno>
+            <listPerson>
+              <person>
+                <name>Pichler, Axel</name>
+                <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-9177-7645</idno>
+              </person>
+              <person>
+                <name>Reiter, Nils</name>
+                <affiliation>Universität zu Köln, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-3193-6170</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>not opaque flow – Workflows zur Aufbereitung und Auswertung historischer
+              Dokumente</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698511</idno>
+            <listPerson>
+              <person>
+                <name>Weber, Dominic</name>
+                <affiliation>Digital Humanities, Walter Benjamin Kolleg, Universität Bern,
+                  Schweiz</affiliation>
+                <idno type="orcid">0000-0002-9265-3388</idno>
+              </person>
+              <person>
+                <name>Schwandt, Silke</name>
+                <affiliation>Digital History, Universität Bielefeld, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-8303-4668</idno>
+              </person>
+              <person>
+                <name>Huang, Angela</name>
+                <affiliation>Forschungsstelle für die Geschichte der Hanse und des Ostseeraums,
+                  Europäisches Hansemuseum Lübeck, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-5321-9888</idno>
+              </person>
+              <person>
+                <name>Hodel, Tobias</name>
+                <affiliation>Digital Humanities, Walter Benjamin Kolleg, Universität Bern,
+                  Schweiz</affiliation>
+                <idno type="orcid">0000-0002-2071-6407</idno>
+              </person>
+              <person>
+                <name>Tolino, Serena</name>
+                <affiliation>Institut für Studien zum Nahen Osten und zu muslimischen
+                  Gesellschaften, Universität Bern, Schweiz</affiliation>
+                <idno type="orcid">0000-0001-7740-5805</idno>
+              </person>
+              <person>
+                <name>Kuhlmann, Christopher</name>
+                <affiliation>Digital History, Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Meyer, Dana</name>
+                <affiliation>Digital History, Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Wilde, Melvin</name>
+                <affiliation>Digital History, Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Kirschnick, Inga</name>
+                <affiliation>Digital History, Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Jentsch, Patrick</name>
+                <affiliation>Digital History, Universität Bielefeld, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Hostettler, Myrjam</name>
+                <affiliation>Digital Humanities, Walter Benjamin Kolleg, Universität Bern,
+                  Schweiz</affiliation>
+                <idno type="orcid">0000-0001-9316-6330</idno>
+              </person>
+              <person>
+                <name>Widmer, Jonas</name>
+                <affiliation>Digital Humanities, Walter Benjamin Kolleg, Universität Bern,
+                  Schweiz</affiliation>
+              </person>
+              <person>
+                <name>Lange, Inga</name>
+                <affiliation>Forschungsstelle für die Geschichte der Hanse und des Ostseeraums,
+                  Europäisches Hansemuseum Lübeck, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Popken, Vivien</name>
+                <affiliation>Forschungsstelle für die Geschichte der Hanse und des Ostseeraums,
+                  Europäisches Hansemuseum Lübeck, Deutschland</affiliation>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Kolophone digital - Digital Humanities Tools in der Anwendung</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698513</idno>
+            <listPerson>
+              <person>
+                <name>Berns, Nils</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Christ, Andreas</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3591-2355</idno>
+              </person>
+              <person>
+                <name>Dahm, Margit</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Diebel, Richard</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                <idno type="orcid">0000-0001-7525-7175</idno>
+              </person>
+              <person>
+                <name>Klemenz, Arne</name>
+                <affiliation>Christian-Albrechts-Universität zu Kiel, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-3450-8748</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>#arthistoCast – der Podcast zur Digitalen Kunstgeschichte Wissenschaft auf
+              die Ohren</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698515</idno>
+            <listPerson>
+              <person>
+                <name>Klusik-Eckert, Jacqueline</name>
+                <affiliation>HHU Düsseldorf, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0969-2520</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>Videoanalyse mit der Plattform TIB-AV-A. Grundlagen, Schnittstellen,
+              Zukunftsperspektiven</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698517</idno>
+            <listPerson>
+              <person>
+                <name>Baresch, Ariadne</name>
+                <affiliation>Universität Trier, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Diecke, Josephine</name>
+                <affiliation>Philipps-Universität Marburg, Deutschland</affiliation>
+              </person>
+              <person>
+                <name>Ewerth, Ralph</name>
+                <affiliation>TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften
+                  Hannover, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-0918-6297</idno>
+              </person>
+              <person>
+                <name>Howanitz, Gernot</name>
+                <affiliation>Universität Innsbruck, Österreich</affiliation>
+              </person>
+              <person>
+                <name>Müller-Budack, Eric</name>
+                <affiliation>TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften
+                  Hannover, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6802-1241</idno>
+              </person>
+              <person>
+                <name>Radisch, Erik</name>
+                <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig,
+                  Deutschland</affiliation>
+                <idno type="orcid">0000-0002-0089-9082</idno>
+              </person>
+              <person>
+                <name>Springstein, Matthias</name>
+                <affiliation>TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften
+                  Hannover, Deutschland</affiliation>
+                <idno type="orcid">0000-0002-6509-8534</idno>
+              </person>
+            </listPerson>
+          </event>
+          <event type="contribution">
+            <eventName>CANSpiN: Zur computergestützten Analyse narrativen Raums im Roman des 19. und
+              20. Jahrhunderts</eventName>
+            <idno type="abstract-doi">10.5281/zenodo.10698288</idno>
+            <listPerson>
+              <person>
+                <name>Lemke, Marc</name>
+                <affiliation>Universität Rostock, Deutschland</affiliation>
+                <idno type="orcid">0009-0004-8065-8191</idno>
+              </person>
+              <person>
+                <name>Henny-Krahmer, Ulrike</name>
+                <affiliation>Universität Rostock, Deutschland</affiliation>
+                <idno type="orcid">0000-0003-2852-065X</idno>
+              </person>
+              <person>
+                <name>Kellner, Nils</name>
+                <affiliation>Universität Rostock, Deutschland</affiliation>
+                <idno type="orcid">0009-0002-3966-5635</idno>
+              </person>
+            </listPerson>
+          </event>
+        </event>
         <event type="conference" where="#bielefeld" when="2025">
           <eventName>DHd2025</eventName>
           <event type="contribution">

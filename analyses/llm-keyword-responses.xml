@@ -1,20 +1,5 @@
 <responses xmlns="local">
-  <response id="ls53_t1_l1">historical research, data management, research data, data collection, data analysis</response>
-  <response id="ls53_t1_l2">data visualization, public engagement, research communication, digital storytelling, interactive presentation</response>
-  <response id="ls53_t1_l3">qualitative data analysis, maxqda software, generational conflict, 1960s history, interview coding</response>
-  <response id="ls53_t1_l4">digital editions, open access, ocr, text encoding, public domain</response>
-  <response id="ls53_t1_l5">network analysis, visualization, gephi, historical networks, graph theory</response>
-  <response id="ls53_t1_l6">historical research, data modeling, research design, methodology, data management</response>
-  <response id="ls53_t1_l7">zotero, research data management, bibliographic software, open-source tools, data organization</response>
-  <response id="ls53_t1_l8">data modeling, historical research, network analysis, geospatial visualization, open-source tools</response>
-  <response id="ls53_t1_l9">xml annotation, text encoding, authority files, linked data, web-based editing</response>
-  <response id="ls53_t2_l1">historical data, wikibase, collaborative research, graph database, data management</response>
-  <response id="ls53_t2_l2">handwritten text recognition, historical documents, transcription platforms, optical character recognition, machine learning models</response>
-  <response id="ls53_t2_l3">data visualization, historical research, epistemology, qualitative methods, data physicalization</response>
-  <response id="ls53_t2_l4">artificial intelligence, chatbots, historical research, data analysis, ethics</response>
-  <response id="ls53_t2_l5">research data management, collaborative workflows, software tools, qualitative research, data visualization</response>
-  <response id="ls53_t2_l6">research data management, zotero, bibliography software, open-source tools, data organization</response>
-  <response id="ls53_t2_l7">historical semantics, controlled vocabularies, metadata standards, linked data, terminology management</response>
-  <response id="ls53_t2_l8">literature search, historical research tools, bibliographic databases, research data discovery, information retrieval</response>
-  <response id="ls53_t2_l9">statistical analysis, data management, spss, witch trials, regression analysis</response>
+  <response id="ls51_t1_l1">ottoman legal history, machine learning, text classification, natural language processing, historical documents</response>
+  <response id="ls51_t1_l2">kosovo, memory politics, nationalism, post-nationalism, balkan narratives</response>
+  <response id="ls51_t1_l3">medieval chinese music, symbolic notation, corpus creation, optical music recognition, generative modeling</response>
 </responses>

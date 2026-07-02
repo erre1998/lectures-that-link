@@ -7,28 +7,32 @@
   version="3.0">
   
   <!-- This file serves to compare the authors of DHd conference abstracts
-  with the speakers in DH lecture series.
+  with the speakers in DH lecture series;
+  this is the second script to call for the analysis
   
   @author: Ulrike Henny-Krahmer -->
   
   <xsl:output indent="yes"/>
   
   <xsl:variable name="lectures-file" select="document('../dh-lecture-series.xml')"/>
-  <xsl:variable name="dhd-abstracts-file" select="document('../analyses/contribution-dhd2026/dhd-conference-data.xml')"/>
+  <xsl:variable name="dhd-abstracts-file" select="document('../analyses/contribution-eadh2026/dhd-conference-data.xml')"/>
   
   <xsl:variable name="selection-ls" select="('ls22', 'ls23', 'ls42', 'ls10', 'ls11',
     'ls12', 'ls13', 'ls14', 'ls15', 'ls16', 'ls17', 'ls18', 'ls19', 'ls20', 'ls21', 'ls8', 'ls9',
-    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45')"/>
-  <xsl:variable name="selection-years" select="('2016','2017','2018','2019','2020','2022','2023','2025')"/>
+    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45', 'ls49', 'ls51', 'ls53')"/>
+  <xsl:variable name="selection-years" select="('2016','2017','2018','2019','2020','2022','2023','2024','2025')"/>
   
   <xsl:variable name="relevant-lectures" select="$lectures-file//event[@type='lecture'][./ancestor::event[@type='lecture-series']/@xml:id = $selection-ls][substring(@when,1,4)=$selection-years]"/>
-  <xsl:variable name="intersections-contributors-dhd" select="document('../analyses/contribution-dhd2026/intersections-contributors-dhd.xml')"/>
+  
+  <xsl:variable name="intersections-contributors-dhd" select="document('../analyses/contribution-eadh2026/intersections-contributors-dhd.xml')"/>
   <xsl:variable name="speakers-both" select="$intersections-contributors-dhd//person[note[@type='lecture-series']='yes']"/>
-  <xsl:variable name="intersections-speakers-lecture-series" select="document('../analyses/contribution-dhd2026/intersections-speakers-lecture-series.xml')"/>
+  <xsl:variable name="intersections-speakers-lecture-series" select="document('../analyses/contribution-eadh2026/intersections-speakers-lecture-series.xml')"/>
+  
   
   <xsl:template match="/">
-    <!--<xsl:call-template name="intersections-contributors-dhd"/>-->
-    <!--<xsl:call-template name="intersections-speakers-lecture-series"/>-->
+    <!--<xsl:call-template name="intersections-contributors-dhd"/>
+    <xsl:call-template name="intersections-speakers-lecture-series"/>-->
+    
     <xsl:call-template name="intersections-both"/>
   </xsl:template>
   
@@ -47,11 +51,10 @@
   </xsl:function>
   
   <xsl:template name="intersections-both">
-    
-    <xsl:result-document href="../analyses/contribution-dhd2026/intersection-score.html">
+    <xsl:result-document href="../analyses/contribution-eadh2026/linkage-score.html" method="xhtml">
       <html>
         <head>
-          <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
+          <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
         </head>
         <body>
           <table>
@@ -82,7 +85,7 @@
             
             var data = [trace1];
             var layout = {
-            yaxis: {title: {text: "intersection score"}}
+            yaxis: {title: {text: "linkage score"}}
             };
             
             Plotly.newPlot('myDiv1', data, layout);
@@ -97,6 +100,8 @@
   </xsl:template>
   
   <xsl:template name="intersections-speakers-lecture-series">
+    <!-- these results should be stored as:
+    ../analyses/contribution-eadh2026/intersections-speakers-lecture-series.xml -->
     <listPerson>
       <xsl:for-each-group select="$relevant-lectures//person[@role='speaker']" group-by="@corresp">
         <xsl:variable name="speaker-id" select="substring-after(current-grouping-key(),'#')"/>
@@ -117,6 +122,8 @@
   </xsl:template>
   
   <xsl:template name="intersections-contributors-dhd">
+    <!-- these results should be stored as:
+    ../analyses/contribution-eadh2026/intersections-contributors-dhd.xml -->
     <listPerson>
       <xsl:for-each-group select="$dhd-abstracts-file//person" group-by="name">
         <xsl:sort select="current-grouping-key()"/>
