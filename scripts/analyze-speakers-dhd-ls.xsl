@@ -6,18 +6,19 @@
   version="3.0">
   
   <!-- script to analyze speakers of DHd contributions and DH lecture series
-  in conjunction
+  in conjunction;
+  this is the first script to call for the analysis
   
   @author: Ulrike Henny-Krahmer
   -->
   
   <xsl:variable name="lectures-file" select="document('../dh-lecture-series.xml')"/>
-  <xsl:variable name="dhd-abstracts-file" select="document('../analyses/contribution-dhd2026/dhd-conference-data.xml')"/>
+  <xsl:variable name="dhd-abstracts-file" select="document('../analyses/contribution-eadh2026/dhd-conference-data.xml')"/>
   
   <xsl:variable name="selection-ls" select="('ls22', 'ls23', 'ls42', 'ls10', 'ls11',
     'ls12', 'ls13', 'ls14', 'ls15', 'ls16', 'ls17', 'ls18', 'ls19', 'ls20', 'ls21', 'ls8', 'ls9',
-    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45')"/>
-  <xsl:variable name="selection-years" select="('2016','2017','2018','2019','2020','2022','2023','2025')"/>
+    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45', 'ls49', 'ls51', 'ls53')"/>
+  <xsl:variable name="selection-years" select="('2016','2017','2018','2019','2020','2022','2023','2024','2025')"/>
   
   <xsl:variable name="relevant-lectures" select="$lectures-file//event[@type='lecture'][./ancestor::event[@type='lecture-series']/@xml:id = $selection-ls][substring(@when,1,4)=$selection-years]"/>
   
@@ -36,7 +37,7 @@
   </xsl:template>
   
   <xsl:template name="contributions-per-person">
-    <xsl:result-document href="../analyses/contribution-dhd2026/contributions-per-person.csv" method="text" encoding="UTF-8">
+    <xsl:result-document href="../analyses/contribution-eadh2026/contributions-per-person.csv" method="text" encoding="UTF-8">
       <xsl:text>speaker-name,number-of-lectures</xsl:text>
       <xsl:text>
 </xsl:text>
@@ -49,7 +50,7 @@
 </xsl:text>
       </xsl:for-each-group>
     </xsl:result-document>
-    <xsl:result-document href="../analyses/contribution-dhd2026/contributions-per-person-plot.html">
+    <xsl:result-document href="../analyses/contribution-eadh2026/contributions-per-person-plot.html">
       <html>
         <head>
           <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>
@@ -85,7 +86,7 @@
   </xsl:template>
   
   <xsl:template name="lectures-per-speaker">
-    <xsl:result-document href="../analyses/contribution-dhd2026/lectures-per-speaker.csv" method="text" encoding="UTF-8">
+    <xsl:result-document href="../analyses/contribution-eadh2026/lectures-per-speaker.csv" method="text" encoding="UTF-8">
       <xsl:text>speaker-name,number-of-lectures</xsl:text>
       <xsl:text>
 </xsl:text>
@@ -100,7 +101,7 @@
 </xsl:text>
       </xsl:for-each-group>
     </xsl:result-document>
-    <xsl:result-document href="../analyses/contribution-dhd2026/lectures-per-speaker-plot.html">
+    <xsl:result-document href="../analyses/contribution-eadh2026/lectures-per-speaker-plot.html">
       <html>
         <head>
           <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"/>

@@ -1,8 +1,12 @@
 [![DOI](https://zenodo.org/badge/972028047.svg)](https://zenodo.org/badge/latestdoi/972028047)
 
 # Lectures that Link
-This repository contains the data and scripts for the project **"Lectures that Link"**, which analyzes European lecture series as nodes of interaction within the Digital Humanities (DH) community.
+
+This repository contains the data and scripts for the project **“Lectures that Link”**, which analyzes European lecture series as nodes of interaction within the Digital Humanities (DH) community.
+
 Over the past decade, numerous DH lecture series have been organized by institutions across Europe. Our project systematically analyzes these series to better understand how DH has developed as a field of research. By examining both their structure and content, we aim to identify key topics, institutional and personal networks, and broader thematic trends.
+
+More information about the project, as well as a full acknowledgement of all persons who contributed to the dataset, can be found on the [project website](https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/research/lectures-that-link/).
 
 ## License
 This repository uses two different licenses:
@@ -13,7 +17,7 @@ This repository uses two different licenses:
 ## Citation
 If you use the materials from this repository, please refer to the citation suggestion in the sidebar or cite it as follows:
 
-> Henny-Krahmer, Ulrike, Fernanda Alvares Freire, and Erik Renz. 2025. *Lectures that Link*. Version 0.6. https://github.com/erre1998/lectures-that-link.
+> Henny-Krahmer, Ulrike, Fernanda Alvares Freire, and Erik Renz. 2025–. *Lectures that Link*. Version 0.7. https://github.com/erre1998/lectures-that-link.
 
 ## Project Status
 

@@ -15,9 +15,9 @@ from lxml import etree
 import ast
 from xml.sax.saxutils import unescape
 
-input_dir = "/home/ulrike/Git/lectures-that-link/analyses/contribution-dhd2026"
-input_file = "package_DHd2020.csv"
-input_csv = pd.read_csv(join(input_dir, input_file), sep=",", header=0)
+input_dir = "/home/ulrike/Git/lectures-that-link/analyses/contribution-eadh2026"
+input_file = "package_DHd2014.csv"
+input_csv = pd.read_csv(join(input_dir, input_file), sep=";", header=0, dtype=str)
 
 
 root = etree.Element("events")
@@ -28,7 +28,7 @@ for index, row in input_csv.iterrows():
 	title = etree.SubElement(event, "eventName")
 	title.text = row["title"]
 	abstract_doi = etree.SubElement(event, "idno", type="abstract-doi")
-	abstract_doi.text = row["conceptdoi"]
+	abstract_doi.text = str(row["conceptdoi"])
 	persList = etree.SubElement(event, "listPerson")
 	persons = ast.literal_eval(row["creators"])
 	
@@ -46,6 +46,6 @@ for index, row in input_csv.iterrows():
 	
 	
 et = etree.ElementTree(root)
-et.write('output.xml', pretty_print=True, encoding="unicode")
+et.write('output.xml', pretty_print=True, encoding="UTF-8")
 
 print("done")
