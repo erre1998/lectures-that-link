@@ -52,12 +52,12 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>Version 0.7</edition>
+        <edition>Version 0.7.1</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>University of Rostock</publisher>
         <pubPlace>Rostock</pubPlace>
-        <date>2025</date>
+        <date>2026</date>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
         </availability>
@@ -17517,8 +17517,11 @@
         <change who="#uhk #erre" when="2025-09-27">Prepares version 0.6 of the dataset for a
           contribution to the upcoming DHd 2026 conference in Wien. This version contains 44 lecture
           series.</change>
-        <change who="#uhk #erre" when="2025-11-15">Prepare version 0.7 of the dataset. This version
-          contains XX lecture series.</change>
+        <change who="#uhk #erre #mvb #cg" when="2026-07-02">Prepare version 0.7 of the dataset for a
+          contribution to the upcoming EADH 2026 conference in Kraków. This version contains 56 lecture
+          series.</change>
+        <change who="#uhk #erre #mvb #cg" when="2026-09-15">Prepare version 0.7.1 of the dataset.
+          This version contains XX lecture series.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -65658,7 +65661,7 @@
         </event>
         <!-- UCLDH Seminar Series ends here, because it evolved into 
           The Digital Humanities Longview (ls56) and continues
-            under this new titel with different hosts-->
+            under this new titel with different hosts -->
         <event xml:id="ls56" type="lecture-series" where="#london #stanford">
           <eventName xml:lang="en">The Digital Humanities Longview</eventName>
           <event type="lecture-series-term" from="2021-01" to="2021-06" xml:id="ls56_t1">
