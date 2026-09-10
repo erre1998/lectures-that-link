@@ -52,12 +52,12 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>Version 0.7</edition>
+        <edition>Version 0.7.1</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>University of Rostock</publisher>
         <pubPlace>Rostock</pubPlace>
-        <date>2025</date>
+        <date>2026</date>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
         </availability>
@@ -2669,6 +2669,12 @@
             <idno type="ror">https://ror.org/05rnwy495</idno>
             <place corresp="#paris"/>
           </org>
+          <org xml:id="dfg" type="research_institution">
+            <name xml:lang="de">Deutsche Forschungsgemeinschaft</name>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q707283</idno>
+            <idno type="ror">https://ror.org/018mejw64</idno>
+            <place corresp="#bonn"/>
+          </org>
           <!-- ##### GLAMs ##### -->
           <!-- ####### G ####### -->
           <org xml:id="gallery-Kunsttempel" type="glam">
@@ -3091,6 +3097,12 @@
             <idno type="ror">https://ror.org/03snzfy68</idno>
             <place corresp="#brighton"/>
           </org>
+          <org xml:id="dhd-ag_wisskomm" type="other">
+            <name xml:lang="de">AG Digitale Wissenschaftskommunikation und Public Humanities (AG-WissKomm)</name>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
+            <place corresp="#regensburg #berlin"/>
+          </org>
           <!-- ##### Companies ##### -->
           <org xml:id="gema" type="company">
             <name xml:lang="de">Gesellschaft für musikalische Aufführungs- und mechanische
@@ -3267,6 +3279,12 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q2944238</idno>
             <idno type="ror">https://ror.org/0576yhz46</idno>
             <place corresp="#andover"/>
+          </org>
+          <org xml:id="zum-staunen" type="company">
+            <name xml:lang="de">Zum Staunen*</name>
+            <!-- No Wikidata ID found -->
+            <!-- No ROR ID found -->
+            <place corresp="#hannover"/>
           </org>
         </listOrg>
         <listPerson>
@@ -15751,6 +15769,52 @@
             <idno type="orcid">https://orcid.org/0000-0002-9233-0407</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q125958801</idno>
           </person>
+          <person xml:id="karcher_stefan">
+            <name>
+              <forename>Stefan</forename>
+              <surname>Karcher</surname>
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0000-0001-5215-7980</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q126692232</idno>
+          </person>
+          <person xml:id="kem_marina">
+            <name>
+              <forename>Marina</forename>
+              <surname>Kem</surname>
+            </name>
+            <gender>female</gender>
+            <!-- No ORCID found -->
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q23782052</idno>
+          </person>
+          <person xml:id="seltmann_melanie">
+            <name>
+              <forename>Melanie</forename>
+              <surname>Seltmann</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-7588-4395</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q109288493</idno>
+          </person>
+          <person xml:id="kirk_jan-thore">
+            <name>
+              <forename>Jan Thore</forename>
+              <surname>Kirk</surname>
+              <!-- Now his surname is Kahle -->
+            </name>
+            <gender>male</gender>
+            <idno type="orcid">https://orcid.org/0009-0008-6318-0922</idno>
+            <!-- No Wikidata ID found -->
+          </person>
+          <person xml:id="ackermann_lena">
+            <name>
+              <forename>Lena</forename>
+              <surname>Ackermann</surname>
+            </name>
+            <gender>female</gender>
+            <idno type="orcid">https://orcid.org/0000-0002-8249-5961</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q90747176</idno>
+          </person>
         </listPerson>
       </particDesc>
       <settingDesc>
@@ -17517,8 +17581,11 @@
         <change who="#uhk #erre" when="2025-09-27">Prepares version 0.6 of the dataset for a
           contribution to the upcoming DHd 2026 conference in Wien. This version contains 44 lecture
           series.</change>
-        <change who="#uhk #erre" when="2025-11-15">Prepare version 0.7 of the dataset. This version
-          contains XX lecture series.</change>
+        <change who="#uhk #erre #mvb #cg" when="2026-07-02">Prepare version 0.7 of the dataset for a
+          contribution to the upcoming EADH 2026 conference in Kraków. This version contains 56 lecture
+          series.</change>
+        <change who="#uhk #erre #mvb #cg" when="2026-09-15">Prepare version 0.7.1 of the dataset.
+          This version contains XX lecture series.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -54181,6 +54248,183 @@
           </event>
 
         </event>
+        
+        <event xml:id="ls67" type="lecture-series" where="#online">
+          <!-- lecture series was held online only, no specific place can be determined -->
+          <eventName xml:lang="de">Wissen, worauf es ankommt</eventName>
+          <ptr type="programme"
+            target="https://events.gwdg.de/event/974/overview"/>
+          <ptr type="programme"
+            target="https://events.gwdg.de/event/1135/"/>
+          
+          <event type="lecture-series-term" from="2024-11" to="2025-01" xml:id="ls67_t1">
+            <eventName>Eine Coffee-Lecture-Serie im Wintersemester 2024</eventName>
+            <ptr type="programme"
+              target="https://events.gwdg.de/event/974/overview"/>
+            <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
+              verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
+              Im Wintersemester 2024/25 widmen wir uns dabei den Bereichen KI in der 
+              Wissenschaftskommunikation, Fördermöglichkeiten sowie Wissenschaftskommunikation im 
+              Videoformat. Dabei wird es jeweils einen Vortrag von 20–30 Minuten geben, an den sich
+              eine rege Diskussion anschließt. Willkommen sind nicht nur AG-Mitglieder oder Digital
+              Humanists, sondern alle Interessierten!</note>
+            
+            <event type="lecture" when="2024-11-25" xml:id="ls67_t1_l1">
+              <eventName xml:lang="de">Darf's ein bisschen KI sein?</eventName>
+              <note type="abstract" xml:lang="de">Regelmäßig posten, Persönlichkeit zeigen, 
+                im Gesprach bleiben - strategische Wissenschaftskommunikation und deren 
+                „Schlüssel" zur Sichtbarkeit werden in den Digital Humanities bereits häufig
+                eingesetzt. Mit der zunehmenden Verbreitung von generativen KI-Tools wie 
+                ChatGPT ergeben sich allerdings neue Fragen. In dieser Coffee Lecture zeigen
+                wir euch einige Tools und deren Möglichkeiten und möchten dann mit euch 
+                diskutieren, inwietern dieso Anwendungen sinnvoll eingesetzt werden können.</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#schumacher_mareike">
+                  <name>
+                    <roleName type="title">Prof. Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#uni-stuttgart"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
+            </event>
+            <event type="lecture" when="2024-12-16" xml:id="ls67_t1_l2">
+              <eventName xml:lang="de">Digital Humanities...? Erzähl mir mehr davon! - Wie die
+              DFG Wissenschaftskommunikation fördern kann</eventName>
+              <note type="abstract" xml:lang="de">"Wir beantragen die Erstellung einer Webseite." 
+                Aber ist es damit getan? Gerade die Digital Humanities bergen ein Potenzial, das über Blogs, Podcasts und Co 
+                hinausgeht. Eine Coffee Lecture über Öffentlichkeitsarbeit, Kreativität, Aufwand, Kosten und Nutzen.</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication"/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#karcher_stefan">
+                  <name>
+                    <roleName type="title">Dr.</roleName>
+                  </name>
+                  <affiliation corresp="#dfg"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
+            </event>
+            <event type="lecture" when="2025-01-13" xml:id="ls67_t1_l3">
+              <eventName xml:lang="de">Professionelle WissKomm im Videoformat</eventName>
+              <note type="abstract" xml:lang="de">In dieser Coffee Lecture taucht Filmproduzentin und
+                -regisseurin Marina Kem ein in die verschiedenen Möglichkeiten Filme für Digital Humanities
+                zu produzieren; sie betrachtet Kriterien für gute Erzählweisen, Visualisierungsarten und 
+                Filmtechniken, nennt Tipps für gute Workflows und integrierte Teamarbeit und gibt Einblicke
+                in die Mechanismen, die Filme teurer oder preiswerter machen.</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication #media-studies"/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kem_marina">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#self-employment"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
+            </event>
+            
+            <org role="organizer" cert="low" corresp="#schumacher_mareike #seltmann_melanie"/>
+          </event>
+          
+          <event type="lecture-series-term" from="2025-05" to="2025-07" xml:id="ls67_t2">
+            <eventName>Eine Coffee-Lecture-Serie im Sommersemester 2025</eventName>
+            <ptr type="programme"
+              target="https://events.gwdg.de/event/1135/"/>
+            <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam verschiedene
+              Themen rund um digitale Wissenschaftskommunikation und Public Humanities. Im Sommersemester 
+              2025 widmen wir uns dabei dem Thema Contenterstellung für verschiedene Medien und aus 
+              unterschiedlichen Blickwinkeln.
+              Dabei wird es jeweils einen Vortrag von 20–30 Minuten geben, an den sich eine rege Diskussion
+              anschließt. Willkommen sind nicht nur AG-Mitglieder oder Digital Humanists, sondern alle
+              Interessierten!</note>
+            
+            <event type="lecture" when="2025-05-05" xml:id="ls67_t2_l1">
+              <eventName xml:lang="de">Studentische Wissenschaftskommunikation und GenZ-Marketing auf TikTok
+                – Ein Praxisbericht</eventName>
+              <note type="abstract" xml:lang="de">In meinem Vortrag gebe ich einen Einblick in die Produktion 
+                von Videos für den TikTok-Account @glima.tuebingen, die im Rahmen des Formats #LinguisTikTok
+                zugleich sprachwissenschaftliche Inhalte vermitteln und Werbung für ein Germanistikstudium in 
+                Tübingen machen sollen. Ich beschreibe meine Arbeitsweise und meine Erfahrungen mit TikTok als 
+                Medium, dessen multimodale Affordanzen ein breites Spektrum an Möglichkeiten für die Verbindung 
+                von Wissenschaftskommunikation und Unterhaltungscontent bieten.</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication #media-studies"/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#kirk_jan-thore">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#uni-tuebingen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
+            </event>
+            <event type="lecture" when="2025-07-07" xml:id="ls67_t2_l2">
+              <eventName xml:lang="de">Vom Forschen zum Staunen – Formatentwicklung in der 
+                Wissenschaftskommunikation</eventName>
+              <note type="abstract" xml:lang="de">Wissenschaftskommunikation kennt eine Vielzahl 
+                von Formaten – von der Printpublikation bis zum Podcast. Daher nimmt die gezielte
+                Konzeption von Formaten eine Schlüsselrolle bei der Planung von WissKomm-Projekten
+                ein: Mit der Formatentwicklung stellen wir sicher, dass wissenschaftliche Inhalte 
+                verständlich und zugänglich aufbereitet werden. Dabei steht das Format in einem 
+                Zusammenspiel mit anderen Dimensionen der Wissenschaftskommunikation wie Ziel, 
+                Zielgruppe, Thema und Stil. Als Kreativstudio für Wissenschaftskommunikation entwickeln wir bei »Zum Staunen*«
+                gemeinsam mit Forschenden innovative und zielgruppengerechte WissKomm-Formate. 
+                Wie diese Zusammenarbeit von Wissenschaftler:innen und Kommunikationsexpert:innen 
+                in der Praxis aussieht und warum sie so lohnenswert ist, zeige ich in der Coffee
+                Lecture anhand konkreter Fallbeispiele.</note>
+              <note type="keywords">
+                <term type="discipline" corresp="#science-communication #media-studies"/>
+                <term type="topics-llm">...</term>
+              </note>
+              <note type="realization">
+                <term type="speech">online</term>
+                <term type="audience">online</term>
+              </note>
+              <listPerson>
+                <person role="speaker" corresp="#ackermann_lena">
+                  <name>
+                    <roleName type="title">not found</roleName>
+                  </name>
+                  <affiliation corresp="#zum-staunen"/>
+                </person>
+              </listPerson>
+              <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
+            </event>
+            
+            <org role="organizer" cert="low" corresp="#schumacher_mareike #seltmann_melanie"/>
+          </event>
+          
+        </event>
 
         <!-- ##### Austria ##### -->
         <event xml:id="ls22" type="lecture-series" where="#wien">
@@ -65658,7 +65902,7 @@
         </event>
         <!-- UCLDH Seminar Series ends here, because it evolved into 
           The Digital Humanities Longview (ls56) and continues
-            under this new titel with different hosts-->
+            under this new titel with different hosts -->
         <event xml:id="ls56" type="lecture-series" where="#london #stanford">
           <eventName xml:lang="en">The Digital Humanities Longview</eventName>
           <event type="lecture-series-term" from="2021-01" to="2021-06" xml:id="ls56_t1">
