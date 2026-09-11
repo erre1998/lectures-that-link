@@ -1,0 +1,1005 @@
+/* ================================================================
+   DH AS LINKED COMMUNITIES
+   EADH 2026
+
+   University of Rostock / RosDH
+   ================================================================ */
+
+
+/* ================================================================
+   COLORS
+   ================================================================ */
+
+:root {
+
+	--uni-blue: #004a99;
+	--rosdh-purple: #572d81;
+
+	--eadh-purple: #54235f;
+	--eadh-coral: #f56646;
+	--eadh-pink: #c91470;
+	--eadh-turquoise: #35b1b2;
+	--eadh-cyan: #08b3dc;
+	--eadh-orange: #ed9c00;
+
+	--paper: #ffffff;
+	--ink: #27222b;
+	--muted: #67616b;
+	--light-grey: #dedbe0;
+
+}
+
+
+/* ================================================================
+   DOCUMENT
+   ================================================================ */
+
+html,
+body {
+
+	background: var(--paper);
+
+}
+
+
+/* ================================================================
+   REVEAL BASE
+   ================================================================ */
+
+.reveal {
+
+	background: var(--paper);
+
+	color: var(--ink);
+
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif;
+
+}
+
+
+.reveal .slides {
+
+	text-align: left;
+
+}
+
+
+.reveal section {
+
+	box-sizing: border-box;
+
+}
+
+
+/* ================================================================
+   TYPOGRAPHY
+   ================================================================ */
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif;
+
+	text-transform: none;
+
+	color: var(--eadh-purple);
+
+	text-shadow: none;
+
+	letter-spacing: -0.035em;
+
+}
+
+
+.reveal h1 {
+
+	font-size: 2.25em;
+
+	font-weight: 720;
+
+	line-height: 1;
+
+}
+
+
+.reveal h2 {
+
+	font-size: 1.72em;
+
+	font-weight: 700;
+
+	line-height: 1.08;
+
+}
+
+
+.reveal h3 {
+
+	font-size: 1.15em;
+
+	font-weight: 680;
+
+}
+
+
+.reveal p,
+.reveal li {
+
+	line-height: 1.45;
+
+}
+
+
+/* ================================================================
+   LINKS
+   ================================================================ */
+
+.reveal a {
+
+	color: var(--uni-blue);
+
+	text-decoration-thickness: 0.07em;
+
+	text-underline-offset: 0.14em;
+
+}
+
+
+.reveal a:hover {
+
+	color: var(--eadh-coral);
+
+}
+
+
+/* ================================================================
+   TITLE SLIDE
+   ================================================================ */
+
+.title-slide {
+
+	position: relative;
+
+	height: 100%;
+
+	display: block !important;
+
+	overflow: hidden;
+
+	padding: 0 !important;
+
+	background: #ffffff;
+
+}
+
+
+/* ================================================================
+   COMPLETE EADH 2026 KEY VISUAL — LEFT
+   ================================================================ */
+
+/*
+	Back to the earlier design logic:
+
+	the conference artwork behaves almost like a large
+	background illustration on the left.
+
+	The COMPLETE source image is always visible.
+	Nothing is cropped.
+*/
+
+.conference-hero {
+
+	position: absolute;
+
+	top: 50%;
+	left: 0;
+
+	width: 43%;
+	height: 88%;
+
+	transform:
+		translateY(-50%);
+
+	z-index: 1;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: flex-start;
+
+	pointer-events: none;
+
+	opacity: 0;
+
+	transition:
+		opacity 650ms ease,
+		transform 650ms ease;
+
+}
+
+
+/*
+	When the title slide is active, the artwork fades in.
+*/
+
+.title-slide.present .conference-hero {
+
+	opacity: 0.96;
+
+	transform:
+		translateY(-50%)
+		translateX(0);
+
+}
+
+
+/*
+	The complete image is preserved.
+
+	object-fit: contain is crucial:
+	no clipping, no zooming, no artificial crop.
+*/
+
+.conference-hero img {
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	max-width: 100%;
+	max-height: 100%;
+
+	margin: 0;
+
+	object-fit: contain;
+
+	object-position:
+		left
+		center;
+
+	border: 0;
+
+	box-shadow: none;
+
+	background: transparent;
+
+}
+
+
+/* ================================================================
+   SOFT TRANSITION INTO THE WHITE SLIDE
+   ================================================================ */
+
+/*
+	Only the RIGHT EDGE of the artwork is softened.
+
+	The logo itself remains visible and recognizable.
+*/
+
+.conference-hero::after {
+
+	content: "";
+
+	position: absolute;
+
+	top: 0;
+	right: -1px;
+
+	width: 32%;
+	height: 100%;
+
+	z-index: 2;
+
+	pointer-events: none;
+
+	background:
+		linear-gradient(
+			90deg,
+
+			rgba(255, 255, 255, 0) 0%,
+
+			rgba(255, 255, 255, 0.04) 20%,
+
+			rgba(255, 255, 255, 0.16) 42%,
+
+			rgba(255, 255, 255, 0.45) 67%,
+
+			rgba(255, 255, 255, 0.78) 84%,
+
+			#ffffff 100%
+		);
+
+}
+
+
+/* ================================================================
+   TITLE CONTENT
+   ================================================================ */
+
+/*
+	The text starts around the middle of the slide,
+	but remains completely LEFT aligned.
+
+	This restores the layout logic of the earlier versions.
+*/
+
+.title-content {
+
+	position: absolute;
+
+	top: 50%;
+	left: 44%;
+
+	transform:
+		translateY(-50%);
+
+	z-index: 5;
+
+	width: 48%;
+
+	max-width: 620px;
+
+	text-align: left;
+
+}
+
+
+/* ================================================================
+   CONFERENCE INFORMATION
+   ================================================================ */
+
+.title-slide .conference {
+
+	margin:
+		0
+		0
+		1.15rem
+		0;
+
+	color: var(--eadh-coral);
+
+	font-size: 0.4em;
+
+	font-weight: 760;
+
+	line-height: 1;
+
+	letter-spacing: 0.12em;
+
+	text-transform: uppercase;
+
+	text-align: left;
+
+}
+
+
+/* ================================================================
+   MAIN TITLE
+   ================================================================ */
+
+.title-slide h1 {
+
+	max-width: 620px;
+
+	margin:
+		0
+		0
+		1.05rem
+		0;
+
+	font-size: 2.15em;
+
+	font-weight: 730;
+
+	line-height: 0.98;
+
+	letter-spacing: -0.045em;
+
+	text-align: left;
+
+}
+
+
+.title-slide h1 .linked {
+
+	color: var(--rosdh-purple);
+
+}
+
+
+/* ================================================================
+   SUBTITLE
+   ================================================================ */
+
+.title-slide .subtitle {
+
+	max-width: 590px;
+
+	margin: 0;
+
+	color: var(--muted);
+
+	font-size: 0.55em;
+
+	font-weight: 420;
+
+	line-height: 1.43;
+
+	letter-spacing: -0.012em;
+
+	text-align: left;
+
+}
+
+
+/* ================================================================
+   COLOR ACCENT
+   ================================================================ */
+
+.title-slide .accent {
+
+	width: 155px;
+
+	height: 4px;
+
+	margin:
+		1.45rem
+		0
+		1.3rem
+		0;
+
+	border-radius: 2px;
+
+	background:
+		linear-gradient(
+			90deg,
+
+			var(--eadh-purple) 0%,
+			var(--eadh-purple) 20%,
+
+			var(--eadh-orange) 20%,
+			var(--eadh-orange) 40%,
+
+			var(--eadh-pink) 40%,
+			var(--eadh-pink) 60%,
+
+			var(--eadh-turquoise) 60%,
+			var(--eadh-turquoise) 80%,
+
+			var(--eadh-cyan) 80%,
+			var(--eadh-cyan) 100%
+		);
+
+}
+
+
+/* ================================================================
+   AUTHORS
+   ================================================================ */
+
+.title-slide .meta {
+
+	max-width: 610px;
+
+	margin: 0;
+
+	color: var(--muted);
+
+	font-size: 0.4em;
+
+	font-weight: 430;
+
+	line-height: 1.55;
+
+	text-align: left;
+
+}
+
+
+.authors {
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: flex-start;
+
+	flex-wrap: wrap;
+
+	gap:
+		0.25em
+		0.5em;
+
+	margin-bottom: 0.15em;
+
+}
+
+
+.author {
+
+	display: inline-flex;
+
+	align-items: center;
+
+	gap: 0.25em;
+
+	color: var(--ink);
+
+	font-weight: 680;
+
+	white-space: nowrap;
+
+}
+
+
+.author-separator {
+
+	color: var(--muted);
+
+	font-weight: 430;
+
+}
+
+
+.affiliation {
+
+	color: var(--muted);
+
+	font-weight: 430;
+
+	text-align: left;
+
+}
+
+
+/* ================================================================
+   ORCID
+   ================================================================ */
+
+.reveal .orcid-link {
+
+	display: inline-flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	margin: 0;
+
+	padding: 0;
+
+	color: inherit;
+
+	text-decoration: none;
+
+	line-height: 1;
+
+	border-radius: 50%;
+
+	transition:
+		transform 150ms ease,
+		opacity 150ms ease;
+
+}
+
+
+.reveal .orcid-link:hover {
+
+	transform:
+		scale(1.12);
+
+	opacity: 0.82;
+
+}
+
+
+.reveal .orcid-link:focus-visible {
+
+	outline:
+		2px
+		solid
+		var(--uni-blue);
+
+	outline-offset: 3px;
+
+}
+
+
+.reveal .orcid-icon {
+
+	display: block;
+
+	width: 1.15em;
+	height: 1.15em;
+
+	max-width: none;
+	max-height: none;
+
+	margin: 0;
+	padding: 0;
+
+	border: 0;
+
+	box-shadow: none;
+
+	object-fit: contain;
+
+}
+
+
+/* ================================================================
+   UNIVERSITY OF ROSTOCK + RosDH
+   ================================================================ */
+
+/*
+	The institutional logos follow the same left edge
+	as the text block.
+
+	No separator.
+
+	They are slightly larger than in the original version.
+*/
+
+.logo-row {
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: flex-start;
+
+	gap: 46px;
+
+	width: 100%;
+
+	height: 64px;
+
+	margin-top: 1.55rem;
+
+}
+
+
+.logo-row img {
+
+	display: block;
+
+	margin: 0;
+
+	object-fit: contain;
+
+	border: 0;
+
+	box-shadow: none;
+
+	background: transparent;
+
+}
+
+
+.logo-row .uni {
+
+	width: 245px;
+
+	max-height: 58px;
+
+}
+
+
+.logo-row .rosdh {
+
+	width: 150px;
+
+	max-height: 52px;
+
+}
+
+
+/* ================================================================
+   SECTION DIVIDERS
+   ================================================================ */
+
+.section-slide {
+
+	height: 100%;
+
+	display: flex !important;
+
+	flex-direction: column;
+
+	justify-content: center;
+
+	padding:
+		1rem
+		4rem
+		1rem
+		5rem
+		!important;
+
+	text-align: left;
+
+}
+
+
+.section-number {
+
+	margin:
+		0
+		0
+		0.15em
+		0;
+
+	color: var(--eadh-coral);
+
+	font-size: 0.48em;
+
+	font-weight: 800;
+
+	letter-spacing: 0.14em;
+
+	text-align: left;
+
+}
+
+
+.section-slide h2 {
+
+	max-width: 880px;
+
+	margin: 0;
+
+	font-size: 1.85em;
+
+	line-height: 1.08;
+
+	letter-spacing: -0.04em;
+
+	text-align: left;
+
+}
+
+
+.section-line {
+
+	width: 105px;
+
+	height: 5px;
+
+	margin-top: 1.35rem;
+
+	border-radius: 3px;
+
+	background:
+		linear-gradient(
+			90deg,
+			var(--eadh-turquoise),
+			var(--eadh-cyan)
+		);
+
+}
+
+
+/* ================================================================
+   CONTENT SLIDES
+   ================================================================ */
+
+.content-slide {
+
+	padding:
+		1.4rem
+		3.7rem
+		1.4rem
+		4.7rem
+		!important;
+
+}
+
+
+.content-slide h2 {
+
+	margin:
+		0
+		0
+		0.7em
+		0;
+
+}
+
+
+.slide-kicker {
+
+	margin-bottom: 0.6em;
+
+	color: var(--eadh-coral);
+
+	font-size: 0.39em;
+
+	font-weight: 760;
+
+	letter-spacing: 0.12em;
+
+	text-transform: uppercase;
+
+}
+
+
+/* ================================================================
+   LISTS
+   ================================================================ */
+
+.reveal ul,
+.reveal ol {
+
+	margin-left: 1.15em;
+
+}
+
+
+.reveal li {
+
+	margin-bottom: 0.32em;
+
+}
+
+
+.reveal li::marker {
+
+	color: var(--eadh-coral);
+
+}
+
+
+/* ================================================================
+   TABLES
+   ================================================================ */
+
+.reveal table {
+
+	width: 100%;
+
+	border-collapse: collapse;
+
+	font-size: 0.55em;
+
+}
+
+
+.reveal table th {
+
+	color: var(--eadh-purple);
+
+	font-weight: 700;
+
+	border-bottom:
+		2px
+		solid
+		var(--eadh-purple);
+
+}
+
+
+.reveal table td {
+
+	border-bottom:
+		1px
+		solid
+		var(--light-grey);
+
+}
+
+
+.reveal table th,
+.reveal table td {
+
+	padding:
+		0.45em
+		0.55em;
+
+}
+
+
+/* ================================================================
+   FIGURES / IMAGES
+   ================================================================ */
+
+.reveal figure {
+
+	margin: 0;
+
+}
+
+
+.reveal img {
+
+	max-width: 100%;
+
+	max-height: 100%;
+
+	box-shadow: none;
+
+}
+
+
+/* ================================================================
+   REVEAL UI
+   ================================================================ */
+
+.reveal .controls {
+
+	color: var(--eadh-purple);
+
+}
+
+
+.reveal .progress {
+
+	color: var(--eadh-coral);
+
+	height: 3px;
+
+}
+
+
+.reveal .slide-number {
+
+	background: transparent;
+
+	color: var(--muted);
+
+	font-size: 14px;
+
+}
+
+
+/* ================================================================
+   REDUCED MOTION
+   ================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+	.conference-hero {
+
+		transition: none;
+
+	}
+
+}
+
+
+/* ================================================================
+   PRINT / PDF
+   ================================================================ */
+
+@media print {
+
+	.conference-hero {
+
+		opacity: 1 !important;
+
+		transform:
+			translateY(-50%) !important;
+
+		transition: none !important;
+
+	}
+
+}
