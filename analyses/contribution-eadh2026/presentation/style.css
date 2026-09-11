@@ -2,15 +2,26 @@
    DH AS LINKED COMMUNITIES
    EADH 2026
 
+   Reveal.js / simple theme customization
    University of Rostock / RosDH
    ================================================================ */
 
 
 /* ================================================================
-   COLORS
+   REVEAL VARIABLES + COLORS
    ================================================================ */
 
 :root {
+
+	--r-background-color: #ffffff;
+	--r-main-color: #27222b;
+
+	--r-heading-color: #54235f;
+	--r-heading-text-transform: none;
+	--r-heading-text-shadow: none;
+
+	--r-link-color: #004a99;
+	--r-link-color-hover: #f56646;
 
 	--uni-blue: #004a99;
 	--rosdh-purple: #572d81;
@@ -35,9 +46,12 @@
    ================================================================ */
 
 html,
-body {
+body,
+.reveal {
 
 	background: var(--paper);
+
+	color: var(--ink);
 
 }
 
@@ -47,10 +61,6 @@ body {
    ================================================================ */
 
 .reveal {
-
-	background: var(--paper);
-
-	color: var(--ink);
 
 	font-family:
 		system-ui,
@@ -98,9 +108,9 @@ body {
 		Arial,
 		sans-serif;
 
-	text-transform: none;
-
 	color: var(--eadh-purple);
+
+	text-transform: none;
 
 	text-shadow: none;
 
@@ -111,20 +121,20 @@ body {
 
 .reveal h1 {
 
-	font-size: 2.25em;
+	font-size: 2.18em;
 
-	font-weight: 720;
+	font-weight: 730;
 
-	line-height: 1;
+	line-height: 0.99;
 
 }
 
 
 .reveal h2 {
 
-	font-size: 1.72em;
+	font-size: 1.75em;
 
-	font-weight: 700;
+	font-weight: 720;
 
 	line-height: 1.08;
 
@@ -178,188 +188,204 @@ body {
 
 	position: relative;
 
+	/*
+		This creates a self-contained stacking context.
+
+		The EADH fragment can safely sit at z-index: -1
+		without disappearing behind Reveal itself.
+	*/
+	isolation: isolate;
+
+	z-index: 0;
+
 	height: 100%;
 
-	display: block !important;
+	display: flex !important;
 
-	overflow: hidden;
+	flex-direction: column;
 
-	padding: 0 !important;
+	justify-content: center;
+
+	align-items: flex-start;
+
+	padding:
+		1.5rem
+		4.5rem
+		1rem
+		4.5rem
+		!important;
+
+	text-align: left;
 
 	background: #ffffff;
 
-}
-
-
-/* ================================================================
-   COMPLETE EADH 2026 KEY VISUAL — LEFT
-   ================================================================ */
-
-/*
-	Back to the earlier design logic:
-
-	the conference artwork behaves almost like a large
-	background illustration on the left.
-
-	The COMPLETE source image is always visible.
-	Nothing is cropped.
-*/
-
-.conference-hero {
-
-	position: absolute;
-
-	top: 50%;
-	left: 0;
-
-	width: 43%;
-	height: 88%;
-
-	transform:
-		translateY(-50%);
-
-	z-index: 1;
-
-	display: flex;
-
-	align-items: center;
-
-	justify-content: flex-start;
-
-	pointer-events: none;
-
-	opacity: 0;
-
-	transition:
-		opacity 650ms ease,
-		transform 650ms ease;
-
-}
-
-
-/*
-	When the title slide is active, the artwork fades in.
-*/
-
-.title-slide.present .conference-hero {
-
-	opacity: 0.96;
-
-	transform:
-		translateY(-50%)
-		translateX(0);
-
-}
-
-
-/*
-	The complete image is preserved.
-
-	object-fit: contain is crucial:
-	no clipping, no zooming, no artificial crop.
-*/
-
-.conference-hero img {
-
-	display: block;
-
-	width: 100%;
-	height: 100%;
-
-	max-width: 100%;
-	max-height: 100%;
-
-	margin: 0;
-
-	object-fit: contain;
-
-	object-position:
-		left
-		center;
-
-	border: 0;
-
-	box-shadow: none;
-
-	background: transparent;
+	overflow: hidden;
 
 }
 
 
 /* ================================================================
-   SOFT TRANSITION INTO THE WHITE SLIDE
+   EADH GRAPHIC — BACKMOST LAYER
    ================================================================ */
 
 /*
-	Only the RIGHT EDGE of the artwork is softened.
+	This element is completely independent of the layout.
 
-	The logo itself remains visible and recognizable.
+	It does not move:
+	- conference line
+	- title
+	- subtitle
+	- authors
+	- affiliation
+	- institutional logos
+
+	It is explicitly positioned behind all of them.
 */
 
-.conference-hero::after {
-
-	content: "";
+.eadh-fragment {
 
 	position: absolute;
 
 	top: 0;
-	right: -1px;
+	left: 0;
 
-	width: 32%;
+	width: 285px;
 	height: 100%;
 
-	z-index: 2;
+	z-index: -1;
+
+	overflow: hidden;
 
 	pointer-events: none;
 
-	background:
+	user-select: none;
+
+
+	/*
+		The graphic remains visible at the left edge
+		and fades toward the text area.
+	*/
+
+	-webkit-mask-image:
 		linear-gradient(
-			90deg,
+			to right,
 
-			rgba(255, 255, 255, 0) 0%,
+			#000000 0%,
+			#000000 48%,
 
-			rgba(255, 255, 255, 0.04) 20%,
+			rgba(0, 0, 0, 0.92) 58%,
+			rgba(0, 0, 0, 0.68) 70%,
+			rgba(0, 0, 0, 0.38) 82%,
+			rgba(0, 0, 0, 0.12) 93%,
 
-			rgba(255, 255, 255, 0.16) 42%,
+			transparent 100%
+		);
 
-			rgba(255, 255, 255, 0.45) 67%,
 
-			rgba(255, 255, 255, 0.78) 84%,
+	mask-image:
+		linear-gradient(
+			to right,
 
-			#ffffff 100%
+			#000000 0%,
+			#000000 48%,
+
+			rgba(0, 0, 0, 0.92) 58%,
+			rgba(0, 0, 0, 0.68) 70%,
+			rgba(0, 0, 0, 0.38) 82%,
+			rgba(0, 0, 0, 0.12) 93%,
+
+			transparent 100%
 		);
 
 }
 
 
 /* ================================================================
-   TITLE CONTENT
+   EADH IMAGE
    ================================================================ */
 
 /*
-	The text starts around the middle of the slide,
-	but remains completely LEFT aligned.
-
-	This restores the layout logic of the earlier versions.
+	The file is already cropped to the desired graphical
+	fragment, so there is no artificial background-position
+	cropping here anymore.
 */
 
-.title-content {
+.eadh-fragment img {
 
 	position: absolute;
 
 	top: 50%;
-	left: 44%;
+	left: 0;
+
+	display: block;
+
+	width: auto;
+
+	height: 94%;
+
+	max-width: none;
+	max-height: none;
+
+	margin: 0;
 
 	transform:
 		translateY(-50%);
 
-	z-index: 5;
+	object-fit: contain;
 
-	width: 48%;
+	border: 0;
 
-	max-width: 620px;
+	box-shadow: none;
+
+	/*
+		Subordinate decorative layer.
+	*/
+	opacity: 0.18;
+
+}
+
+
+/* ================================================================
+   TITLE CONTENT — FOREGROUND
+   ================================================================ */
+
+/*
+	Normal Reveal layout.
+
+	The text position is not altered by the decorative image.
+*/
+
+.title-content {
+
+	position: relative;
+
+	z-index: 2;
+
+	width: 100%;
+
+	max-width: 980px;
+
+	margin: 0;
 
 	text-align: left;
+
+}
+
+
+/*
+	Explicit foreground protection for all relevant title elements.
+*/
+
+.title-slide .conference,
+.title-slide h1,
+.title-slide .subtitle,
+.title-slide .accent,
+.title-slide .meta,
+.title-slide .logo-row {
+
+	position: relative;
+
+	z-index: 2;
 
 }
 
@@ -373,33 +399,31 @@ body {
 	margin:
 		0
 		0
-		1.15rem
+		1.25rem
 		0;
 
 	color: var(--eadh-coral);
 
-	font-size: 0.4em;
+	font-size: 0.42em;
 
 	font-weight: 760;
 
 	line-height: 1;
 
-	letter-spacing: 0.12em;
+	letter-spacing: 0.115em;
 
 	text-transform: uppercase;
-
-	text-align: left;
 
 }
 
 
 /* ================================================================
-   MAIN TITLE
+   TITLE
    ================================================================ */
 
 .title-slide h1 {
 
-	max-width: 620px;
+	max-width: 940px;
 
 	margin:
 		0
@@ -407,15 +431,13 @@ body {
 		1.05rem
 		0;
 
-	font-size: 2.15em;
+	font-size: 2.18em;
 
 	font-weight: 730;
 
 	line-height: 0.98;
 
 	letter-spacing: -0.045em;
-
-	text-align: left;
 
 }
 
@@ -433,21 +455,19 @@ body {
 
 .title-slide .subtitle {
 
-	max-width: 590px;
+	max-width: 850px;
 
 	margin: 0;
 
 	color: var(--muted);
 
-	font-size: 0.55em;
+	font-size: 0.58em;
 
 	font-weight: 420;
 
 	line-height: 1.43;
 
 	letter-spacing: -0.012em;
-
-	text-align: left;
 
 }
 
@@ -456,16 +476,16 @@ body {
    COLOR ACCENT
    ================================================================ */
 
-.title-slide .accent {
+.accent {
 
-	width: 155px;
+	width: 160px;
 
 	height: 4px;
 
 	margin:
-		1.45rem
+		1.5rem
 		0
-		1.3rem
+		1.35rem
 		0;
 
 	border-radius: 2px;
@@ -499,7 +519,7 @@ body {
 
 .title-slide .meta {
 
-	max-width: 610px;
+	max-width: 850px;
 
 	margin: 0;
 
@@ -510,8 +530,6 @@ body {
 	font-weight: 430;
 
 	line-height: 1.55;
-
-	text-align: left;
 
 }
 
@@ -552,22 +570,12 @@ body {
 }
 
 
-.author-separator {
-
-	color: var(--muted);
-
-	font-weight: 430;
-
-}
-
-
+.author-separator,
 .affiliation {
 
 	color: var(--muted);
 
 	font-weight: 430;
-
-	text-align: left;
 
 }
 
@@ -630,12 +638,15 @@ body {
 	display: block;
 
 	width: 1.15em;
+
 	height: 1.15em;
 
 	max-width: none;
+
 	max-height: none;
 
 	margin: 0;
+
 	padding: 0;
 
 	border: 0;
@@ -651,15 +662,6 @@ body {
    UNIVERSITY OF ROSTOCK + RosDH
    ================================================================ */
 
-/*
-	The institutional logos follow the same left edge
-	as the text block.
-
-	No separator.
-
-	They are slightly larger than in the original version.
-*/
-
 .logo-row {
 
 	display: flex;
@@ -668,11 +670,11 @@ body {
 
 	justify-content: flex-start;
 
-	gap: 46px;
+	gap: 52px;
 
 	width: 100%;
 
-	height: 64px;
+	height: 68px;
 
 	margin-top: 1.55rem;
 
@@ -698,24 +700,24 @@ body {
 
 .logo-row .uni {
 
-	width: 245px;
+	width: 265px;
 
-	max-height: 58px;
+	max-height: 63px;
 
 }
 
 
 .logo-row .rosdh {
 
-	width: 150px;
+	width: 165px;
 
-	max-height: 52px;
+	max-height: 56px;
 
 }
 
 
 /* ================================================================
-   SECTION DIVIDERS
+   SECTION SLIDES
    ================================================================ */
 
 .section-slide {
@@ -728,11 +730,13 @@ body {
 
 	justify-content: center;
 
+	align-items: flex-start;
+
 	padding:
+		1.5rem
+		4.5rem
 		1rem
-		4rem
-		1rem
-		5rem
+		4.5rem
 		!important;
 
 	text-align: left;
@@ -756,14 +760,12 @@ body {
 
 	letter-spacing: 0.14em;
 
-	text-align: left;
-
 }
 
 
 .section-slide h2 {
 
-	max-width: 880px;
+	max-width: 900px;
 
 	margin: 0;
 
@@ -772,8 +774,6 @@ body {
 	line-height: 1.08;
 
 	letter-spacing: -0.04em;
-
-	text-align: left;
 
 }
 
@@ -799,16 +799,211 @@ body {
 
 
 /* ================================================================
-   CONTENT SLIDES
+   REFERENCES
+   ================================================================ */
+
+.references-slide {
+
+	height: 100%;
+
+	padding:
+		1.15rem
+		4.5rem
+		1rem
+		4.5rem
+		!important;
+
+	background: #ffffff;
+
+}
+
+
+.references-slide h2 {
+
+	margin: 0;
+
+	font-size: 1.35em;
+
+	line-height: 1.05;
+
+}
+
+
+.references-slide .section-line {
+
+	margin-top: 0.7rem;
+
+	margin-bottom: 0.85rem;
+
+}
+
+
+.references-list {
+
+	display: grid;
+
+	grid-template-columns:
+		1fr
+		1fr;
+
+	gap:
+		0.55rem
+		1.25rem;
+
+	max-width: 1120px;
+
+}
+
+
+.reference-entry {
+
+	padding:
+		0.55rem
+		0.7rem
+		0.55rem
+		0.85rem;
+
+	border-left:
+		4px
+		solid
+		rgba(245, 102, 70, 0.72);
+
+	border-radius:
+		0
+		9px
+		9px
+		0;
+
+	background:
+		linear-gradient(
+			90deg,
+
+			rgba(84, 35, 95, 0.055) 0%,
+
+			rgba(84, 35, 95, 0.022) 60%,
+
+			rgba(255, 255, 255, 0) 100%
+		);
+
+	color: var(--ink);
+
+	font-size: 0.27em;
+
+	line-height: 1.29;
+
+}
+
+
+.reference-entry em {
+
+	color: var(--eadh-purple);
+
+	font-style: italic;
+
+}
+
+
+/* ================================================================
+   REFERENCE LINKS
+   ================================================================ */
+
+.reference-entry a {
+
+	color: var(--uni-blue);
+
+	text-decoration: none;
+
+	border-bottom:
+		1px
+		solid
+		rgba(0, 74, 153, 0.3);
+
+	overflow-wrap: anywhere;
+
+	transition:
+		color 150ms ease,
+		border-color 150ms ease;
+
+}
+
+
+.reference-entry a:hover {
+
+	color: var(--eadh-coral);
+
+	border-bottom-color: var(--eadh-coral);
+
+}
+
+
+.reference-entry a:focus-visible {
+
+	outline:
+		2px
+		solid
+		var(--uni-blue);
+
+	outline-offset: 2px;
+
+}
+
+
+/* ================================================================
+   CLOSING SLIDE
+   ================================================================ */
+
+.closing-slide {
+
+	height: 100%;
+
+	display: flex !important;
+
+	flex-direction: column;
+
+	justify-content: center;
+
+	align-items: flex-start;
+
+	padding:
+		1.5rem
+		4.5rem
+		1rem
+		4.5rem
+		!important;
+
+	text-align: left;
+
+	background: #ffffff;
+
+}
+
+
+.closing-slide h2 {
+
+	max-width: 850px;
+
+	margin: 0;
+
+	font-size: 2em;
+
+	font-weight: 730;
+
+	line-height: 1.05;
+
+	letter-spacing: -0.045em;
+
+}
+
+
+/* ================================================================
+   STANDARD CONTENT SLIDES
    ================================================================ */
 
 .content-slide {
 
 	padding:
 		1.4rem
-		3.7rem
-		1.4rem
-		4.7rem
+		4.5rem
 		!important;
 
 }
@@ -959,26 +1154,19 @@ body {
 }
 
 
-.reveal .slide-number {
-
-	background: transparent;
-
-	color: var(--muted);
-
-	font-size: 14px;
-
-}
-
-
 /* ================================================================
    REDUCED MOTION
    ================================================================ */
 
 @media (prefers-reduced-motion: reduce) {
 
-	.conference-hero {
+	.reveal *,
+	.reveal *::before,
+	.reveal *::after {
 
-		transition: none;
+		transition-duration:
+			0.001ms
+			!important;
 
 	}
 
@@ -991,14 +1179,9 @@ body {
 
 @media print {
 
-	.conference-hero {
+	.eadh-fragment img {
 
-		opacity: 1 !important;
-
-		transform:
-			translateY(-50%) !important;
-
-		transition: none !important;
+		opacity: 0.68;
 
 	}
 
