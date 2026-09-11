@@ -10,32 +10,1303 @@
 
 		<title>DH as Linked Communities — EADH 2026</title>
 
-		<!-- Reveal.js -->
-		<link
-			rel="stylesheet"
-			href="../../../lib/reveal.js-master/dist/reset.css"
-		/>
+		<link rel="stylesheet" href="../../../lib/reveal.js-master/dist/reset.css" />
+		<link rel="stylesheet" href="../../../lib/reveal.js-master/dist/reveal.css" />
+		<link rel="stylesheet" href="../../../lib/reveal.js-master/dist/theme/simple.css" />
+		<link rel="stylesheet" href="../../../lib/reveal.js-master/dist/plugin/highlight/monokai.css" />
 
-		<link
-			rel="stylesheet"
-			href="../../../lib/reveal.js-master/dist/reveal.css"
-		/>
+		<style>
+			:root {
+				--r-background-color: #ffffff;
+				--r-main-color: #27222b;
+				--r-heading-color: #54235f;
+				--r-heading-text-transform: none;
+				--r-heading-text-shadow: none;
+				--r-link-color: #004a99;
+				--r-link-color-hover: #f56646;
 
-		<link
-			rel="stylesheet"
-			href="../../../lib/reveal.js-master/dist/theme/simple.css"
-		/>
+				--uni-blue: #004a99;
+				--rosdh-purple: #572d81;
 
-		<link
-			rel="stylesheet"
-			href="../../../lib/reveal.js-master/dist/plugin/highlight/monokai.css"
-		/>
+				--eadh-purple: #54235f;
+				--eadh-coral: #f56646;
+				--eadh-pink: #c91470;
+				--eadh-turquoise: #35b1b2;
+				--eadh-cyan: #08b3dc;
+				--eadh-orange: #ed9c00;
 
-		<!-- Custom presentation theme -->
-		<link
-			rel="stylesheet"
-			href="style.css"
-		/>
+				--paper: #ffffff;
+				--ink: #27222b;
+				--muted: #67616b;
+				--light-grey: #dedbe0;
+			}
+
+			html,
+			body,
+			.reveal {
+				background: var(--paper);
+				color: var(--ink);
+			}
+
+			.reveal {
+				font-family:
+					system-ui,
+					-apple-system,
+					BlinkMacSystemFont,
+					"Segoe UI",
+					Roboto,
+					Helvetica,
+					Arial,
+					sans-serif;
+			}
+
+			.reveal .slides {
+				text-align: left;
+			}
+
+			.reveal section {
+				box-sizing: border-box;
+			}
+
+			.reveal h1,
+			.reveal h2,
+			.reveal h3,
+			.reveal h4 {
+				font-family:
+					system-ui,
+					-apple-system,
+					BlinkMacSystemFont,
+					"Segoe UI",
+					Roboto,
+					Helvetica,
+					Arial,
+					sans-serif;
+
+				color: var(--eadh-purple);
+				text-transform: none;
+				text-shadow: none;
+				letter-spacing: -0.035em;
+			}
+
+			.reveal h1 {
+				font-size: 2.18em;
+				font-weight: 730;
+				line-height: 0.99;
+			}
+
+			.reveal h2 {
+				font-size: 1.65em;
+				font-weight: 720;
+				line-height: 1.08;
+			}
+
+			.reveal h3 {
+				margin: 0 0 0.35rem 0;
+
+				font-size: 0.8em;
+				font-weight: 720;
+
+				color: var(--rosdh-purple);
+			}
+
+			.reveal p,
+			.reveal li {
+				line-height: 1.45;
+			}
+
+			.reveal a {
+				color: var(--uni-blue);
+
+				text-decoration-thickness: 0.07em;
+				text-underline-offset: 0.14em;
+			}
+
+			.reveal a:hover {
+				color: var(--eadh-coral);
+			}
+
+
+			/* ========================================================
+			   TITLE SLIDE
+			   ======================================================== */
+
+			.title-slide {
+				position: relative;
+
+				isolation: isolate;
+				z-index: 0;
+
+				height: 100%;
+
+				display: flex !important;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-start;
+
+				padding:
+					1.5rem
+					4.5rem
+					1rem
+					4.5rem
+					!important;
+
+				text-align: left;
+
+				background: #ffffff;
+
+				overflow: hidden;
+			}
+
+			.eadh-fragment {
+				position: absolute;
+
+				top: 0;
+				left: -14px;
+
+				width: 285px;
+				height: 100%;
+
+				z-index: -1;
+
+				overflow: hidden;
+
+				pointer-events: none;
+				user-select: none;
+
+				-webkit-mask-image:
+					linear-gradient(
+						to right,
+						#000000 0%,
+						#000000 48%,
+						rgba(0, 0, 0, 0.92) 58%,
+						rgba(0, 0, 0, 0.68) 70%,
+						rgba(0, 0, 0, 0.38) 82%,
+						rgba(0, 0, 0, 0.12) 93%,
+						transparent 100%
+					);
+
+				mask-image:
+					linear-gradient(
+						to right,
+						#000000 0%,
+						#000000 48%,
+						rgba(0, 0, 0, 0.92) 58%,
+						rgba(0, 0, 0, 0.68) 70%,
+						rgba(0, 0, 0, 0.38) 82%,
+						rgba(0, 0, 0, 0.12) 93%,
+						transparent 100%
+					);
+			}
+
+			.eadh-fragment img {
+				position: absolute;
+
+				top: 50%;
+				left: 0;
+
+				display: block;
+
+				width: auto;
+				height: 94%;
+
+				max-width: none;
+				max-height: none;
+
+				margin: 0;
+
+				transform: translateY(-50%);
+
+				object-fit: contain;
+
+				border: 0;
+				box-shadow: none;
+
+				opacity: 0.4;
+
+				filter:
+					saturate(0.8)
+					brightness(1.08)
+					contrast(0.92);
+			}
+
+			.title-content {
+				position: relative;
+
+				z-index: 2;
+
+				width: 100%;
+				max-width: 980px;
+
+				margin: 0;
+
+				text-align: left;
+			}
+
+			.title-slide .conference,
+			.title-slide h1,
+			.title-slide .subtitle,
+			.title-slide .accent,
+			.title-slide .meta,
+			.title-slide .logo-row {
+				position: relative;
+				z-index: 2;
+			}
+
+			.title-slide .conference {
+				margin: 0 0 1.25rem 0;
+
+				color: var(--eadh-coral);
+
+				font-size: 0.42em;
+				font-weight: 760;
+				line-height: 1;
+
+				letter-spacing: 0.115em;
+
+				text-transform: uppercase;
+			}
+
+			.title-slide h1 {
+				max-width: 940px;
+
+				margin: 0 0 1.05rem 0;
+
+				font-size: 2.18em;
+				font-weight: 730;
+				line-height: 0.98;
+
+				letter-spacing: -0.045em;
+			}
+
+			.title-slide h1 .linked {
+				color: var(--rosdh-purple);
+			}
+
+			.title-slide .subtitle {
+				max-width: 850px;
+
+				margin: 0;
+
+				color: var(--muted);
+
+				font-size: 0.58em;
+				font-weight: 420;
+				line-height: 1.43;
+
+				letter-spacing: -0.012em;
+			}
+
+			.accent {
+				width: 160px;
+				height: 4px;
+
+				margin: 1.5rem 0 1.35rem 0;
+
+				border-radius: 2px;
+
+				background:
+					linear-gradient(
+						90deg,
+
+						var(--eadh-purple) 0%,
+						var(--eadh-purple) 20%,
+
+						var(--eadh-orange) 20%,
+						var(--eadh-orange) 40%,
+
+						var(--eadh-pink) 40%,
+						var(--eadh-pink) 60%,
+
+						var(--eadh-turquoise) 60%,
+						var(--eadh-turquoise) 80%,
+
+						var(--eadh-cyan) 80%,
+						var(--eadh-cyan) 100%
+					);
+			}
+
+			.title-slide .meta {
+				max-width: 850px;
+
+				margin: 0;
+
+				color: var(--muted);
+
+				font-size: 0.4em;
+				font-weight: 430;
+				line-height: 1.55;
+			}
+
+			.authors {
+				display: flex;
+
+				align-items: center;
+				justify-content: flex-start;
+
+				flex-wrap: wrap;
+
+				gap: 0.25em 0.5em;
+
+				margin-bottom: 0.15em;
+			}
+
+			.author {
+				display: inline-flex;
+
+				align-items: center;
+
+				gap: 0.25em;
+
+				color: var(--ink);
+
+				font-weight: 680;
+
+				white-space: nowrap;
+			}
+
+			.author-separator,
+			.affiliation {
+				color: var(--muted);
+
+				font-weight: 430;
+			}
+
+			.reveal .orcid-link {
+				display: inline-flex;
+
+				align-items: center;
+				justify-content: center;
+
+				margin: 0;
+				padding: 0;
+
+				color: inherit;
+
+				text-decoration: none;
+
+				line-height: 1;
+
+				border-radius: 50%;
+
+				transition:
+					transform 150ms ease,
+					opacity 150ms ease;
+			}
+
+			.reveal .orcid-link:hover {
+				transform: scale(1.12);
+
+				opacity: 0.82;
+			}
+
+			.reveal .orcid-link:focus-visible {
+				outline: 2px solid var(--uni-blue);
+				outline-offset: 3px;
+			}
+
+			.reveal .orcid-icon {
+				display: block;
+
+				width: 1.15em;
+				height: 1.15em;
+
+				max-width: none;
+				max-height: none;
+
+				margin: 0;
+				padding: 0;
+
+				border: 0;
+
+				box-shadow: none;
+
+				object-fit: contain;
+			}
+
+			.logo-row {
+				display: flex;
+
+				align-items: center;
+				justify-content: flex-start;
+
+				gap: 52px;
+
+				width: 100%;
+				height: 68px;
+
+				margin-top: 1.55rem;
+			}
+
+			.logo-row img {
+				display: block;
+
+				margin: 0;
+
+				object-fit: contain;
+
+				border: 0;
+
+				box-shadow: none;
+
+				background: transparent;
+			}
+
+			.logo-row .uni {
+				width: 265px;
+
+				max-height: 63px;
+			}
+
+			.logo-row .rosdh {
+				width: 165px;
+
+				max-height: 56px;
+			}
+
+
+			/* ========================================================
+			   PDF BUTTON
+			   ======================================================== */
+
+			.pdf-button {
+				position: absolute;
+
+				right: 1.15rem;
+				bottom: 1rem;
+
+				z-index: 20;
+
+				padding: 0.5rem 0.8rem;
+
+				border:
+					1px
+					solid
+					rgba(84, 35, 95, 0.22);
+
+				border-radius: 999px;
+
+				background:
+					rgba(255, 255, 255, 0.9);
+
+				color: var(--eadh-purple);
+
+				font:
+					650
+					13px/1
+					system-ui,
+					-apple-system,
+					BlinkMacSystemFont,
+					"Segoe UI",
+					Roboto,
+					Helvetica,
+					Arial,
+					sans-serif;
+
+				letter-spacing: 0.02em;
+
+				cursor: pointer;
+
+				box-shadow:
+					0
+					2px
+					9px
+					rgba(39, 34, 43, 0.07);
+
+				transition:
+					color 150ms ease,
+					border-color 150ms ease,
+					background 150ms ease,
+					transform 150ms ease;
+			}
+
+			.pdf-button:hover {
+				color: var(--eadh-coral);
+
+				border-color:
+					rgba(245, 102, 70, 0.7);
+
+				background: #ffffff;
+
+				transform: translateY(-1px);
+			}
+
+
+			/* ========================================================
+			   GENERIC SLIDES
+			   ======================================================== */
+
+			.section-slide,
+			.content-slide,
+			.closing-slide {
+				height: 100%;
+
+				display: flex !important;
+
+				flex-direction: column;
+
+				justify-content: center;
+				align-items: flex-start;
+
+				padding:
+					1.5rem
+					4.5rem
+					1rem
+					4.5rem
+					!important;
+
+				text-align: left;
+
+				background: #ffffff;
+			}
+
+			.section-number {
+				margin: 0 0 0.15em 0;
+
+				color: var(--eadh-coral);
+
+				font-size: 0.48em;
+				font-weight: 800;
+
+				letter-spacing: 0.14em;
+			}
+
+			.section-slide h2 {
+				max-width: 980px;
+
+				margin: 0;
+
+				font-size: 1.85em;
+				line-height: 1.08;
+
+				letter-spacing: -0.04em;
+			}
+
+			.section-line {
+				width: 105px;
+				height: 5px;
+
+				margin-top: 1.35rem;
+
+				border-radius: 3px;
+
+				background:
+					linear-gradient(
+						90deg,
+						var(--eadh-turquoise),
+						var(--eadh-cyan)
+					);
+			}
+
+			.slide-kicker {
+				margin-bottom: 0.7rem;
+
+				color: var(--eadh-coral);
+
+				font-size: 0.39em;
+				font-weight: 760;
+
+				letter-spacing: 0.12em;
+
+				text-transform: uppercase;
+			}
+
+			.content-slide h2 {
+				max-width: 980px;
+
+				margin: 0 0 0.75rem 0;
+
+				font-size: 1.45em;
+				line-height: 1.08;
+			}
+
+			.lead {
+				max-width: 720px;
+
+				margin: 0;
+
+				color: var(--ink);
+
+				font-size: 0.56em;
+				font-weight: 430;
+				line-height: 1.43;
+			}
+
+			.lead.narrow {
+				max-width: 780px;
+
+				margin-top: 1.2rem;
+			}
+
+			.lead.wide {
+				max-width: 980px;
+
+				font-size: 0.62em;
+			}
+
+			.two-column {
+				display: grid;
+
+				grid-template-columns:
+					1.1fr
+					0.9fr;
+
+				gap: 2.2rem;
+
+				width: 100%;
+				max-width: 1080px;
+
+				align-items: center;
+			}
+
+			.reveal ul.large-list,
+			.reveal .two-column ul {
+				margin-top: 1rem;
+				margin-left: 1.05em;
+
+				font-size: 0.54em;
+
+				color: var(--ink);
+			}
+
+			.reveal li {
+				margin-bottom: 0.32em;
+			}
+
+			.reveal li::marker {
+				color: var(--eadh-coral);
+			}
+
+			.callout {
+				padding: 1.2rem 1.35rem;
+
+				border-left:
+					6px
+					solid
+					var(--eadh-coral);
+
+				border-radius:
+					0
+					18px
+					18px
+					0;
+
+				background:
+					linear-gradient(
+						90deg,
+						rgba(245, 102, 70, 0.08) 0%,
+						rgba(84, 35, 95, 0.045) 100%
+					);
+			}
+
+			.callout-label {
+				margin-bottom: 0.45rem;
+
+				color: var(--eadh-coral);
+
+				font-size: 0.36em;
+				font-weight: 780;
+
+				letter-spacing: 0.11em;
+
+				text-transform: uppercase;
+			}
+
+			.callout p {
+				margin: 0;
+
+				color: var(--ink);
+
+				font-size: 0.54em;
+				line-height: 1.42;
+			}
+
+			.comparison-band {
+				display: grid;
+
+				grid-template-columns:
+					1fr
+					1fr;
+
+				gap: 1.5rem;
+
+				width: 100%;
+				max-width: 1050px;
+
+				margin-top: 0.4rem;
+			}
+
+			.comparison-band > div {
+				padding: 1.1rem 1.2rem;
+
+				border-top:
+					5px
+					solid
+					var(--eadh-turquoise);
+
+				border-radius:
+					0
+					0
+					16px
+					16px;
+
+				background:
+					linear-gradient(
+						180deg,
+						rgba(53, 177, 178, 0.10) 0%,
+						rgba(53, 177, 178, 0.025) 100%
+					);
+			}
+
+			.comparison-band.small > div {
+				border-top-color: var(--eadh-coral);
+
+				background:
+					linear-gradient(
+						180deg,
+						rgba(245, 102, 70, 0.10) 0%,
+						rgba(245, 102, 70, 0.025) 100%
+					);
+			}
+
+			.comparison-band p {
+				margin: 0;
+
+				color: var(--ink);
+
+				font-size: 0.48em;
+				line-height: 1.38;
+			}
+
+
+			/* ========================================================
+			   STATISTICS
+			   ======================================================== */
+
+			.stat-grid {
+				display: grid;
+
+				grid-template-columns:
+					repeat(4, 1fr);
+
+				gap: 1rem;
+
+				width: 100%;
+				max-width: 1100px;
+
+				margin-top: 0.7rem;
+			}
+
+			.stat-card {
+				padding: 1.15rem 1rem;
+
+				border-top:
+					5px
+					solid
+					var(--eadh-coral);
+
+				border-radius:
+					0
+					0
+					18px
+					18px;
+
+				background:
+					linear-gradient(
+						180deg,
+						rgba(84, 35, 95, 0.06) 0%,
+						rgba(84, 35, 95, 0.018) 100%
+					);
+			}
+
+			.stat-number {
+				color: var(--eadh-purple);
+
+				font-size: 0.98em;
+				font-weight: 780;
+				line-height: 1.05;
+			}
+
+			.stat-label {
+				margin-top: 0.45rem;
+
+				color: var(--muted);
+
+				font-size: 0.36em;
+				font-weight: 520;
+				line-height: 1.25;
+			}
+
+
+			/* ========================================================
+			   SPHERE MODEL
+			   ======================================================== */
+
+			.sphere-model {
+				position: relative;
+
+				display: flex;
+				align-items: center;
+
+				width: 100%;
+				max-width: 1040px;
+				height: 235px;
+
+				margin: 0.4rem 0 1rem 0;
+			}
+
+			.sphere {
+				display: flex;
+
+				align-items: center;
+				justify-content: center;
+
+				width: 255px;
+				height: 255px;
+
+				border-radius: 50%;
+
+				color: #ffffff;
+
+				font-size: 0.45em;
+				font-weight: 720;
+				line-height: 1.25;
+
+				text-align: center;
+
+				mix-blend-mode: multiply;
+			}
+
+			.conference-sphere {
+				background:
+					rgba(84, 35, 95, 0.86);
+			}
+
+			.bridge-sphere {
+				margin-left: -72px;
+
+				background:
+					rgba(245, 102, 70, 0.78);
+			}
+
+			.lecture-sphere {
+				margin-left: -72px;
+
+				background:
+					rgba(53, 177, 178, 0.82);
+			}
+
+
+			/* ========================================================
+			   PROCESS
+			   ======================================================== */
+
+			.process {
+				display: flex;
+
+				align-items: center;
+
+				gap: 1rem;
+
+				width: 100%;
+				max-width: 1050px;
+
+				margin-top: 0.9rem;
+			}
+
+			.process-step {
+				min-width: 230px;
+
+				padding: 1rem 1.15rem;
+
+				border-left:
+					5px
+					solid
+					var(--eadh-purple);
+
+				border-radius:
+					0
+					14px
+					14px
+					0;
+
+				background:
+					rgba(84, 35, 95, 0.055);
+
+				color: var(--eadh-purple);
+
+				font-size: 0.52em;
+				font-weight: 720;
+				line-height: 1.25;
+			}
+
+			.process-step span {
+				color: var(--muted);
+
+				font-size: 0.78em;
+				font-weight: 460;
+			}
+
+			.process-arrow {
+				color: var(--eadh-coral);
+
+				font-size: 0.9em;
+				font-weight: 760;
+			}
+
+
+			/* ========================================================
+			   OVERLAP
+			   ======================================================== */
+
+			.overlap-layout {
+				display: grid;
+
+				grid-template-columns:
+					1fr
+					0.9fr
+					1fr;
+
+				gap: 1.1rem;
+
+				width: 100%;
+				max-width: 1080px;
+
+				margin-top: 0.8rem;
+			}
+
+			.overlap-card {
+				padding: 1.2rem 1.15rem;
+
+				border-top:
+					5px
+					solid
+					var(--eadh-purple);
+
+				border-radius:
+					0
+					0
+					18px
+					18px;
+
+				background:
+					linear-gradient(
+						180deg,
+						rgba(84, 35, 95, 0.065) 0%,
+						rgba(84, 35, 95, 0.02) 100%
+					);
+			}
+
+			.overlap-card.accent-card {
+				border-top-color: var(--eadh-coral);
+
+				background:
+					linear-gradient(
+						180deg,
+						rgba(245, 102, 70, 0.10) 0%,
+						rgba(245, 102, 70, 0.025) 100%
+					);
+			}
+
+			.big-percent {
+				color: var(--eadh-purple);
+
+				font-size: 1.35em;
+				font-weight: 800;
+				line-height: 1;
+			}
+
+			.overlap-card p {
+				margin: 0.65rem 0 0 0;
+
+				color: var(--ink);
+
+				font-size: 0.47em;
+				line-height: 1.35;
+			}
+
+
+			/* ========================================================
+			   FORMULA
+			   ======================================================== */
+
+			.formula {
+				width: fit-content;
+				max-width: 100%;
+
+				margin: 0.4rem 0 1.2rem 0;
+
+				padding: 1rem 1.25rem;
+
+				border-left:
+					5px
+					solid
+					var(--eadh-coral);
+
+				border-radius:
+					0
+					14px
+					14px
+					0;
+
+				background:
+					rgba(245, 102, 70, 0.08);
+
+				color: var(--eadh-purple);
+
+				font-size: 0.58em;
+				font-weight: 720;
+
+				letter-spacing: -0.015em;
+			}
+
+
+			/* ========================================================
+			   THREE PART MODEL
+			   ======================================================== */
+
+			.three-part {
+				display: flex;
+
+				gap: 1rem;
+
+				margin-top: 1.4rem;
+			}
+
+			.three-part div {
+				padding: 0.85rem 1.2rem;
+
+				border-radius: 999px;
+
+				background:
+					rgba(84, 35, 95, 0.07);
+
+				color: var(--eadh-purple);
+
+				font-size: 0.48em;
+				font-weight: 720;
+			}
+
+
+			/* ========================================================
+			   REFERENCES — ALL ON ONE SLIDE
+			   ======================================================== */
+
+			.references-slide {
+				height: 100%;
+
+				padding:
+					0.8rem
+					3.7rem
+					0.65rem
+					3.7rem
+					!important;
+
+				background: #ffffff;
+			}
+
+			.references-slide h2 {
+				margin: 0;
+
+				font-size: 1.16em;
+				line-height: 1.05;
+			}
+
+			.references-slide .section-line {
+				width: 90px;
+				height: 4px;
+
+				margin-top: 0.42rem;
+				margin-bottom: 0.62rem;
+			}
+
+			.references-list {
+				display: grid;
+
+				grid-template-columns:
+					repeat(3, minmax(0, 1fr));
+
+				gap:
+					0.34rem
+					0.8rem;
+
+				width: 100%;
+				max-width: none;
+
+				align-items: start;
+			}
+
+			.reference-entry {
+				padding:
+					0.34rem
+					0.42rem
+					0.34rem
+					0.58rem;
+
+				border-left:
+					3px
+					solid
+					rgba(245, 102, 70, 0.72);
+
+				border-radius:
+					0
+					7px
+					7px
+					0;
+
+				background:
+					linear-gradient(
+						90deg,
+						rgba(84, 35, 95, 0.05) 0%,
+						rgba(84, 35, 95, 0.018) 65%,
+						rgba(255, 255, 255, 0) 100%
+					);
+
+				color: var(--ink);
+
+				font-size: 0.30em;
+				line-height: 1.23;
+
+				overflow-wrap: anywhere;
+			}
+
+			.reference-entry em {
+				color: var(--eadh-purple);
+
+				font-style: italic;
+			}
+
+			.reference-entry a {
+				color: var(--uni-blue);
+
+				text-decoration: none;
+
+				border-bottom:
+					1px
+					solid
+					rgba(0, 74, 153, 0.28);
+
+				overflow-wrap: anywhere;
+			}
+
+			.reference-entry a:hover {
+				color: var(--eadh-coral);
+
+				border-bottom-color:
+					var(--eadh-coral);
+			}
+
+
+			/* ========================================================
+			   CLOSING SLIDE
+			   ======================================================== */
+
+			.closing-slide h2 {
+				max-width: 850px;
+
+				margin: 0;
+
+				font-size: 2em;
+				font-weight: 730;
+				line-height: 1.05;
+
+				letter-spacing: -0.045em;
+			}
+
+
+			/* ========================================================
+			   GENERIC
+			   ======================================================== */
+
+			.reveal ul,
+			.reveal ol {
+				margin-left: 1.15em;
+			}
+
+			.reveal table {
+				width: 100%;
+
+				border-collapse: collapse;
+
+				font-size: 0.55em;
+			}
+
+			.reveal table th {
+				color: var(--eadh-purple);
+
+				font-weight: 700;
+
+				border-bottom:
+					2px
+					solid
+					var(--eadh-purple);
+			}
+
+			.reveal table td {
+				border-bottom:
+					1px
+					solid
+					var(--light-grey);
+			}
+
+			.reveal table th,
+			.reveal table td {
+				padding: 0.45em 0.55em;
+			}
+
+			.reveal figure {
+				margin: 0;
+			}
+
+			.reveal img {
+				max-width: 100%;
+				max-height: 100%;
+
+				box-shadow: none;
+			}
+
+			.reveal .controls {
+				color: var(--eadh-purple);
+			}
+
+			.reveal .progress {
+				height: 3px;
+
+				color: var(--eadh-coral);
+			}
+
+			.reveal .slide-number {
+				background: transparent;
+
+				color: var(--muted);
+
+				font-size: 14px;
+			}
+
+
+			/* ========================================================
+			   PRINT / PDF
+			   ======================================================== */
+
+			@media print {
+				.pdf-button {
+					display: none !important;
+				}
+
+				.eadh-fragment img {
+					opacity: 0.4;
+				}
+			}
+
+			@media (prefers-reduced-motion: reduce) {
+				.reveal *,
+				.reveal *::before,
+				.reveal *::after {
+					transition-duration:
+						0.001ms
+						!important;
+				}
+			}
+		</style>
 	</head>
 
 	<body>
@@ -45,19 +1316,7 @@
 			<div class="slides">
 
 
-				<!-- ==================================================
-				     TITLE
-				     ================================================== -->
-
 				<section class="title-slide">
-
-
-					<!--
-						Cropped EADH graphic fragment.
-
-						This is purely decorative and sits on the
-						backmost layer of the title slide.
-					-->
 
 					<div
 						class="eadh-fragment"
@@ -70,15 +1329,11 @@
 					</div>
 
 
-					<!-- Main title content -->
-
 					<div class="title-content">
-
 
 						<div class="conference">
 							EADH 2026 · Kraków · September 15–19, 2026
 						</div>
-
 
 						<h1>
 							DH as
@@ -87,28 +1342,22 @@
 							</span>
 						</h1>
 
-
 						<p class="subtitle">
 							A Comparison of Participants at Annual Conferences
 							<br />
 							and in Lecture Series in Germany, Austria, and Switzerland
 						</p>
 
-
 						<div
 							class="accent"
 							aria-hidden="true"
 						></div>
 
-
 						<div class="meta">
-
 
 							<div class="authors">
 
-
 								<span class="author">
-
 									Ulrike Henny-Krahmer
 
 									<a
@@ -124,17 +1373,13 @@
 											alt="ORCID"
 										/>
 									</a>
-
 								</span>
-
 
 								<span class="author-separator">
 									and
 								</span>
 
-
 								<span class="author">
-
 									Erik Renz
 
 									<a
@@ -150,26 +1395,18 @@
 											alt="ORCID"
 										/>
 									</a>
-
 								</span>
 
-
 							</div>
-
 
 							<div class="affiliation">
 								University of Rostock ·
 								Rostock Working Group Digital Humanities (RosDH)
 							</div>
 
-
 						</div>
 
-
-						<!-- Institutional logos -->
-
 						<div class="logo-row">
-
 
 							<img
 								class="uni"
@@ -177,128 +1414,626 @@
 								alt="University of Rostock"
 							/>
 
-
 							<img
 								class="rosdh"
 								src="img/logo_rosdh.png"
 								alt="Rostock Working Group Digital Humanities"
 							/>
 
+						</div>
+
+					</div>
+
+					<button
+						class="pdf-button"
+						type="button"
+						onclick="openPdfMode()"
+						aria-label="Open presentation in PDF export mode"
+						title="Open PDF export mode"
+					>
+						PDF
+					</button>
+
+				</section>
+
+
+
+				<section>
+
+					<section class="section-slide">
+
+						<div class="section-number">
+							01
+						</div>
+
+						<h2>
+							Introduction
+						</h2>
+
+						<div
+							class="section-line"
+							aria-hidden="true"
+						></div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Introduction
+						</div>
+
+						<h2>
+							DH communities can be studied through presentation activity
+						</h2>
+
+						<div class="two-column">
+
+							<div>
+
+								<p class="lead">
+									Analyses of DH conference abstracts have become an
+									established way of observing the field.
+								</p>
+
+								<ul>
+									<li>actors and institutions</li>
+									<li>thematic orientations</li>
+									<li>structural trends</li>
+									<li>citation and bibliometric networks</li>
+								</ul>
+
+							</div>
+
+							<div class="callout">
+
+								<div class="callout-label">
+									Problem
+								</div>
+
+								<p>
+									Each of these approaches captures only one segment
+									of DH as an interdisciplinary research field.
+								</p>
+
+							</div>
 
 						</div>
 
-
-					</div>
-
-
-				</section>
+					</section>
 
 
+					<section class="content-slide">
 
-				<!-- ==================================================
-				     01 INTRODUCTION
-				     ================================================== -->
+						<div class="slide-kicker">
+							Introduction
+						</div>
 
-				<section class="section-slide">
+						<h2>
+							Lecture series add another perspective
+						</h2>
 
-					<div class="section-number">
-						01
-					</div>
+						<div class="comparison-band">
 
-					<h2>
-						Introduction
-					</h2>
+							<div>
+								<h3>Conference data</h3>
+								<p>
+									Public, contribution-based, often collaborative.
+								</p>
+							</div>
 
-					<div
-						class="section-line"
-						aria-hidden="true"
-					></div>
+							<div>
+								<h3>Lecture series data</h3>
+								<p>
+									Invitational, often local, connected to institutional contexts.
+								</p>
+							</div>
 
-				</section>
+						</div>
 
+						<p class="lead narrow">
+							Our contribution combines DHd conference data with data
+							on DH lecture series in Germany, Austria, and Switzerland.
+						</p>
 
-
-				<!-- ==================================================
-				     02 DATA
-				     ================================================== -->
-
-				<section class="section-slide">
-
-					<div class="section-number">
-						02
-					</div>
-
-					<h2>
-						Data
-					</h2>
-
-					<div
-						class="section-line"
-						aria-hidden="true"
-					></div>
-
-				</section>
+					</section>
 
 
+					<section class="content-slide">
 
-				<!-- ==================================================
-				     03 ANALYSIS
-				     ================================================== -->
+						<div class="slide-kicker">
+							Introduction
+						</div>
 
-				<section class="section-slide">
+						<h2>
+							How are DH communities linked through people?
+						</h2>
 
-					<div class="section-number">
-						03
-					</div>
+						<div class="sphere-model">
 
-					<h2>
-						Analysis of Contributions to DH Conferences
-						and Lecture Series
-					</h2>
+							<div class="sphere conference-sphere">
+								Conference
+								<br />
+								community
+							</div>
 
-					<div
-						class="section-line"
-						aria-hidden="true"
-					></div>
+							<div class="sphere bridge-sphere">
+								Overlap
+								<br />
+								bridge
+							</div>
 
-				</section>
+							<div class="sphere lecture-sphere">
+								Lecture-series
+								<br />
+								community
+							</div>
 
+						</div>
 
+						<p class="lead narrow">
+							The central aim is to define the overlap between conference
+							contributors and lecture-series speakers, drawing on Sahle’s
+							model of overlap, bridge, and independent area.
+						</p>
 
-				<!-- ==================================================
-				     04 OUTLOOK
-				     ================================================== -->
-
-				<section class="section-slide">
-
-					<div class="section-number">
-						04
-					</div>
-
-					<h2>
-						Outlook
-					</h2>
-
-					<div
-						class="section-line"
-						aria-hidden="true"
-					></div>
+					</section>
 
 				</section>
 
 
 
-				<!-- ==================================================
-				     REFERENCES
-				     ================================================== -->
+				<section>
+
+					<section class="section-slide">
+
+						<div class="section-number">
+							02
+						</div>
+
+						<h2>
+							Data
+						</h2>
+
+						<div
+							class="section-line"
+							aria-hidden="true"
+						></div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Data
+						</div>
+
+						<h2>
+							Two datasets, one comparative perspective
+						</h2>
+
+						<div class="stat-grid">
+
+							<div class="stat-card">
+								<div class="stat-number">DHd</div>
+								<div class="stat-label">
+									annual conference contributions
+								</div>
+							</div>
+
+							<div class="stat-card">
+								<div class="stat-number">46</div>
+								<div class="stat-label">
+									identified DH lecture series
+								</div>
+							</div>
+
+							<div class="stat-card">
+								<div class="stat-number">33</div>
+								<div class="stat-label">
+									fully documented lecture series
+								</div>
+							</div>
+
+							<div class="stat-card">
+								<div class="stat-number">2016–2025</div>
+								<div class="stat-label">
+									analysis period
+								</div>
+							</div>
+
+						</div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Data
+						</div>
+
+						<h2>
+							DHd conference data had to be recompiled for comparison
+						</h2>
+
+						<ul class="large-list">
+							<li>Data were retrieved from DHd’s GitHub organization.</li>
+							<li>Authors were extracted per individual contribution.</li>
+							<li>Included years: 2016–2020 and 2024–2025.</li>
+							<li>No data are available for 2021.</li>
+							<li>Metadata were extracted from CSV and XML files.</li>
+						</ul>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Data
+						</div>
+
+						<h2>
+							Matching people is the central data problem
+						</h2>
+
+						<div class="process">
+
+							<div class="process-step">
+								ORCID IDs
+								<br />
+								<span>where available</span>
+							</div>
+
+							<div class="process-arrow">→</div>
+
+							<div class="process-step">
+								Name matching
+								<br />
+								<span>last name, first name</span>
+							</div>
+
+							<div class="process-arrow">→</div>
+
+							<div class="process-step">
+								Manual checks
+								<br />
+								<span>variants and changes</span>
+							</div>
+
+						</div>
+
+						<p class="lead narrow">
+							Conference contributors have only been identified via ORCID
+							IDs since 2022, and only when researchers provided this
+							information in ConfTool.
+						</p>
+
+					</section>
+
+				</section>
+
+
+
+				<section>
+
+					<section class="section-slide">
+
+						<div class="section-number">
+							03
+						</div>
+
+						<h2>
+							Analysis of Contributions to DH Conferences
+							and Lecture Series
+						</h2>
+
+						<div
+							class="section-line"
+							aria-hidden="true"
+						></div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Analysis
+						</div>
+
+						<h2>
+							The two formats differ strongly in scale
+						</h2>
+
+						<div class="stat-grid">
+
+							<div class="stat-card">
+								<div class="stat-number">1,263</div>
+								<div class="stat-label">
+									conference contributions
+								</div>
+							</div>
+
+							<div class="stat-card">
+								<div class="stat-number">778</div>
+								<div class="stat-label">
+									lecture-series presentations
+								</div>
+							</div>
+
+							<div class="stat-card">
+								<div class="stat-number">2,059</div>
+								<div class="stat-label">
+									distinct DHd contributors
+								</div>
+							</div>
+
+							<div class="stat-card">
+								<div class="stat-number">718</div>
+								<div class="stat-label">
+									distinct lecture-series speakers
+								</div>
+							</div>
+
+						</div>
+
+						<p class="lead narrow">
+							Multiple authorship is common at conferences, while
+							lecture-series events are usually delivered by a single speaker.
+						</p>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Analysis
+						</div>
+
+						<h2>
+							Most people appear only once
+						</h2>
+
+						<div class="comparison-band">
+
+							<div>
+								<h3>Lecture series</h3>
+								<p>
+									12% of speakers deliver two lectures.
+									The observed maximum is ten lectures by one person.
+								</p>
+							</div>
+
+							<div>
+								<h3>DHd conferences</h3>
+								<p>
+									18% of contributors are involved in two contributions.
+									The observed maximum is 27 contributions by one person.
+								</p>
+							</div>
+
+						</div>
+
+						<p class="lead narrow">
+							Multiple participation is somewhat more pronounced in the
+							conference context, but the overall distribution patterns
+							are broadly comparable.
+						</p>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Analysis
+						</div>
+
+						<h2>
+							How strongly are the two communities linked?
+						</h2>
+
+						<div class="overlap-layout">
+
+							<div class="overlap-card">
+								<div class="big-percent">86%</div>
+								<p>
+									of DHd contributors do not appear as speakers
+									in the lecture-series dataset.
+								</p>
+							</div>
+
+							<div class="overlap-card accent-card">
+								<div class="big-percent">257</div>
+								<p>
+									people are visible in both contexts.
+								</p>
+							</div>
+
+							<div class="overlap-card">
+								<div class="big-percent">64%</div>
+								<p>
+									of lecture-series speakers have not contributed
+									to a DHd conference.
+								</p>
+							</div>
+
+						</div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Analysis
+						</div>
+
+						<h2>
+							Lecture series reveal parts of DH beyond conferences
+						</h2>
+
+						<div class="two-column">
+
+							<div>
+
+								<p class="lead">
+									The findings reflect the different social forms
+									of the two formats.
+								</p>
+
+								<ul>
+									<li>conference contributions are self-submitted</li>
+									<li>lecture-series talks are usually invited</li>
+									<li>doctoral researchers are especially visible at conferences</li>
+									<li>lecture series often activate local actors</li>
+								</ul>
+
+							</div>
+
+							<div class="callout">
+
+								<div class="callout-label">
+									Interpretation
+								</div>
+
+								<p>
+									Lecture series function as points of connection
+									between DH and other humanities communities at
+									local institutions.
+								</p>
+
+							</div>
+
+						</div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Analysis
+						</div>
+
+						<h2>
+							A linkage score describes relative emphasis
+						</h2>
+
+						<div class="formula">
+							linkage score = conference proportion / lecture-series proportion
+						</div>
+
+						<div class="comparison-band small">
+
+							<div>
+								<h3>Values above 1</h3>
+								<p>
+									stronger relative focus on conference contributions
+								</p>
+							</div>
+
+							<div>
+								<h3>Values approaching 0</h3>
+								<p>
+									stronger relative emphasis on lecture-series presentations
+								</p>
+							</div>
+
+						</div>
+
+						<p class="lead narrow">
+							For the 257 people represented in both datasets,
+							the median linkage score is 2.4.
+						</p>
+
+					</section>
+
+				</section>
+
+
+
+				<section>
+
+					<section class="section-slide">
+
+						<div class="section-number">
+							04
+						</div>
+
+						<h2>
+							Outlook
+						</h2>
+
+						<div
+							class="section-line"
+							aria-hidden="true"
+						></div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Outlook
+						</div>
+
+						<h2>
+							DH appears as both linked and autonomous
+						</h2>
+
+						<p class="lead wide">
+							By consolidating conference and lecture-series data,
+							we can observe actors who are active in both settings,
+							while also seeing separate groups that currently appear
+							only in one context.
+						</p>
+
+						<div class="three-part">
+							<div>overlap</div>
+							<div>bridges</div>
+							<div>independent areas</div>
+						</div>
+
+					</section>
+
+
+					<section class="content-slide">
+
+						<div class="slide-kicker">
+							Outlook
+						</div>
+
+						<h2>
+							Further work requires richer and cleaner metadata
+						</h2>
+
+						<ul class="large-list">
+							<li>diachronic analysis of changing participation patterns</li>
+							<li>integration of institutional affiliations and locations</li>
+							<li>analysis of collaborative constellations</li>
+							<li>gender-related analysis of speakers and contributors</li>
+							<li>further authority-data enrichment</li>
+							<li>continued documentation of lecture series</li>
+						</ul>
+
+					</section>
+
+				</section>
+
+
 
 				<section class="references-slide">
-
 
 					<h2>
 						References
 					</h2>
-
 
 					<div
 						class="section-line"
@@ -310,16 +2045,13 @@
 
 
 						<div class="reference-entry">
-
 							Cremer, Fabian, André Blessing, Patrick Helling,
 							Ulrike Henny-Krahmer, Kerstin Jung, and Nils Reiter
 							(2024). “DHd Chronicles – Anreicherung und Analyse der
 							Beiträge zu den Jahrestagungen der Digital Humanities im
-							deutschsprachigen Raum 2014–2023.” In:
-							<em>Book of Abstracts – DHd2024</em>, edited by Joëlle Weis,
-							Thomas Haider, and Estelle Bunout, pp. 154–160.
-							Passau: Zenodo. DOI:
-
+							deutschsprachigen Raum 2014–2023.”
+							In: <em>Book of Abstracts – DHd2024</em>, pp. 154–160.
+							DOI:
 							<a
 								href="https://doi.org/10.5281/zenodo.10698356"
 								target="_blank"
@@ -327,16 +2059,15 @@
 							>
 								10.5281/zenodo.10698356
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Guhr, Svenja (2025). “Trends in den Computational Literary
-							Studies bei den DHd-Jahrestagungen.” In:
-							<em>DHd-Blog</em>. Accessed July 1, 2026. URL:
-
+							Guhr, Svenja (2025).
+							“Trends in den Computational Literary Studies bei den
+							DHd-Jahrestagungen.”
+							In: <em>DHd-Blog</em>.
+							URL:
 							<a
 								href="https://dhd-blog.org/?p=22316"
 								target="_blank"
@@ -344,19 +2075,15 @@
 							>
 								https://dhd-blog.org/?p=22316
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
 							Haider, Thomas Nikolaus, Sebastian Gassner, and Malte
-							Rehbein (2024). “Quo Vadis Fachbereiche und Schulen der
-							DHd: Netzwerkanalyse der DHd Abstracts 2014–2023.”
-							In: <em>Book of Abstracts – DHd2024</em>, edited by Joëlle
-							Weis, Thomas Haider, and Estelle Bunout, pp. 411–414.
-							Passau: Zenodo. DOI:
-
+							Rehbein (2024).
+							“Quo Vadis Fachbereiche und Schulen der DHd.”
+							In: <em>Book of Abstracts – DHd2024</em>, pp. 411–414.
+							DOI:
 							<a
 								href="https://doi.org/10.5281/zenodo.10698500"
 								target="_blank"
@@ -364,16 +2091,15 @@
 							>
 								10.5281/zenodo.10698500
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Henny-Krahmer, Ulrike, Fernanda Alvares Freire, and
-							Erik Renz (2025a). <em>Lectures That Link</em>.
-							Software and data. Rostock: Zenodo. DOI:
-
+							Henny-Krahmer, Ulrike, Fernanda Alvares Freire,
+							and Erik Renz (2025a).
+							<em>Lectures That Link</em>.
+							Software and data.
+							DOI:
 							<a
 								href="https://doi.org/10.5281/zenodo.15769950"
 								target="_blank"
@@ -381,22 +2107,15 @@
 							>
 								10.5281/zenodo.15769950
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Henny-Krahmer, Ulrike, Fernanda Alvares Freire, and Erik
-							Renz (2025b). “Lectures that Link: Analyzing European
-							Lecture Series as Nodes of Interaction in the Digital
-							Humanities.” In:
-							<em>
-								magazén: International Journal for Digital and Public
-								Humanities
-							</em>
-							6 (2), pp. 127–148. DOI:
-
+							Henny-Krahmer, Ulrike, Fernanda Alvares Freire,
+							and Erik Renz (2025b).
+							“Lectures that Link.”
+							In: <em>magazén</em> 6 (2), pp. 127–148.
+							DOI:
 							<a
 								href="https://doi.org/10.30687/mag/2724-3923/2025/02/001"
 								target="_blank"
@@ -404,16 +2123,14 @@
 							>
 								10.30687/mag/2724-3923/2025/02/001
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
 							Henny-Krahmer, Ulrike, and Patrick Sahle (2018).
-							“Einreichungen zur DHd 2018.” In:
-							<em>DHd-Blog</em>. Accessed July 1, 2026. URL:
-
+							“Einreichungen zur DHd 2018.”
+							In: <em>DHd-Blog</em>.
+							URL:
 							<a
 								href="https://dhd-blog.org/?p=9001"
 								target="_blank"
@@ -421,17 +2138,15 @@
 							>
 								https://dhd-blog.org/?p=9001
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Kirtania, Deep Kumar (2021). “Bibliometric Analysis of
-							Open Access Digital Humanities Publications.” In:
-							<em>Library Philosophy and Practice</em> (e-journal).
-							Accessed July 1, 2026. URL:
-
+							Kirtania, Deep Kumar (2021).
+							“Bibliometric Analysis of Open Access Digital Humanities
+							Publications.”
+							In: <em>Library Philosophy and Practice</em>.
+							URL:
 							<a
 								href="https://digitalcommons.unl.edu/libphilprac/6667/"
 								target="_blank"
@@ -439,18 +2154,15 @@
 							>
 								https://digitalcommons.unl.edu/libphilprac/6667/
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Renz, Erik (2025). “Aus dem Off: Ringvorlesungen und ihr
-							Nutzen als Forschungsdatenquelle in den Digital Humanities.”
-							In: <em>FORGE 2025: Daten neu denken. Book of Abstracts</em>,
-							edited by Ulrike Henny-Krahmer, Antje Theise, and Patrick
-							Helling, pp. 254–264. Rostock: Zenodo. DOI:
-
+							Renz, Erik (2025).
+							“Aus dem Off: Ringvorlesungen und ihr Nutzen als
+							Forschungsdatenquelle in den Digital Humanities.”
+							In: <em>FORGE 2025</em>, pp. 254–264.
+							DOI:
 							<a
 								href="https://doi.org/10.5281/zenodo.17178246"
 								target="_blank"
@@ -458,20 +2170,15 @@
 							>
 								10.5281/zenodo.17178246
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Sahle, Patrick (2015). “Digital Humanities? Gibt’s doch gar
-							nicht!” In:
-							<em>Grenzen und Möglichkeiten der Digital Humanities</em>,
-							edited by Constanze Baum and Thomas Stäcker.
-							Sonderband der
-							<em>Zeitschrift für digitale Geisteswissenschaften</em> 1.
+							Sahle, Patrick (2015).
+							“Digital Humanities? Gibt’s doch gar nicht!”
+							In:
+							<em>Grenzen und Möglichkeiten der Digital Humanities</em>.
 							DOI:
-
 							<a
 								href="https://doi.org/10.17175/sb001_004"
 								target="_blank"
@@ -479,18 +2186,18 @@
 							>
 								10.17175/sb001_004
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
-							Spinaci, Gianmarco, Giovanni Colavizza, and Silvio Peroni
-							(2022). “A Map of Digital Humanities Research across
-							Bibliographic Data Sources.” In:
-							<em>Digital Scholarship in the Humanities</em> 37 (4),
-							pp. 1254–1268. DOI:
-
+							Spinaci, Gianmarco, Giovanni Colavizza, and Silvio
+							Peroni (2022).
+							“A Map of Digital Humanities Research across Bibliographic
+							Data Sources.”
+							In:
+							<em>Digital Scholarship in the Humanities</em>
+							37 (4), pp. 1254–1268.
+							DOI:
 							<a
 								href="https://doi.org/10.1093/llc/fqac016"
 								target="_blank"
@@ -498,18 +2205,16 @@
 							>
 								10.1093/llc/fqac016
 							</a>.
-
 						</div>
 
 
 						<div class="reference-entry">
-
 							Weingart, Scott B., and Nickoal Eichmann-Kalwara (2017).
 							“What’s Under the Big Tent?: A Study of ADHO Conference
-							Abstracts.” In:
+							Abstracts.”
+							In:
 							<em>About Digital Studies / Le champ numérique</em> 7 (1).
 							DOI:
-
 							<a
 								href="https://doi.org/10.16995/dscn.284"
 								target="_blank"
@@ -517,20 +2222,14 @@
 							>
 								10.16995/dscn.284
 							</a>.
-
 						</div>
 
 
 					</div>
 
-
 				</section>
 
 
-
-				<!-- ==================================================
-				     CLOSING
-				     ================================================== -->
 
 				<section class="closing-slide">
 
@@ -551,10 +2250,6 @@
 		</div>
 
 
-		<!-- ==========================================================
-		     REVEAL.JS
-		     ========================================================== -->
-
 		<script src="../../../lib/reveal.js-master/dist/reveal.js"></script>
 		<script src="../../../lib/reveal.js-master/dist/plugin/notes.js"></script>
 		<script src="../../../lib/reveal.js-master/dist/plugin/markdown.js"></script>
@@ -562,9 +2257,20 @@
 
 
 		<script>
+			function openPdfMode() {
+				const url = new URL(window.location.href);
+
+				url.searchParams.set("print-pdf", "");
+
+				window.open(
+					url.toString(),
+					"_blank",
+					"noopener,noreferrer"
+				);
+			}
+
 
 			Reveal.initialize({
-
 				hash: true,
 
 				width: 1280,
@@ -577,17 +2283,19 @@
 				controls: true,
 				progress: true,
 
+				slideNumber: "c/t",
+
 				transition: "fade",
 				backgroundTransition: "fade",
+
+				navigationMode: "default",
 
 				plugins: [
 					RevealMarkdown,
 					RevealHighlight,
 					RevealNotes
 				]
-
 			});
-
 		</script>
 
 	</body>

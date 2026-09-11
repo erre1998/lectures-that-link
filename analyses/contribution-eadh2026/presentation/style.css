@@ -1,31 +1,14 @@
-/* ================================================================
-   DH AS LINKED COMMUNITIES
-   EADH 2026
-
-   Reveal.js / simple theme customization
-   University of Rostock / RosDH
-   ================================================================ */
-
-
-/* ================================================================
-   REVEAL VARIABLES + COLORS
-   ================================================================ */
-
 :root {
-
 	--r-background-color: #ffffff;
 	--r-main-color: #27222b;
-
 	--r-heading-color: #54235f;
 	--r-heading-text-transform: none;
 	--r-heading-text-shadow: none;
-
 	--r-link-color: #004a99;
 	--r-link-color-hover: #f56646;
 
 	--uni-blue: #004a99;
 	--rosdh-purple: #572d81;
-
 	--eadh-purple: #54235f;
 	--eadh-coral: #f56646;
 	--eadh-pink: #c91470;
@@ -37,31 +20,21 @@
 	--ink: #27222b;
 	--muted: #67616b;
 	--light-grey: #dedbe0;
-
 }
 
 
 /* ================================================================
-   DOCUMENT
+   BASE
    ================================================================ */
 
 html,
 body,
 .reveal {
-
 	background: var(--paper);
-
 	color: var(--ink);
-
 }
 
-
-/* ================================================================
-   REVEAL BASE
-   ================================================================ */
-
 .reveal {
-
 	font-family:
 		system-ui,
 		-apple-system,
@@ -71,21 +44,14 @@ body,
 		Helvetica,
 		Arial,
 		sans-serif;
-
 }
-
 
 .reveal .slides {
-
 	text-align: left;
-
 }
 
-
 .reveal section {
-
 	box-sizing: border-box;
-
 }
 
 
@@ -97,7 +63,6 @@ body,
 .reveal h2,
 .reveal h3,
 .reveal h4 {
-
 	font-family:
 		system-ui,
 		-apple-system,
@@ -109,52 +74,35 @@ body,
 		sans-serif;
 
 	color: var(--eadh-purple);
-
 	text-transform: none;
-
 	text-shadow: none;
-
 	letter-spacing: -0.035em;
-
 }
-
 
 .reveal h1 {
-
 	font-size: 2.18em;
-
 	font-weight: 730;
-
 	line-height: 0.99;
-
 }
-
 
 .reveal h2 {
-
-	font-size: 1.75em;
-
+	font-size: 1.65em;
 	font-weight: 720;
-
 	line-height: 1.08;
-
 }
-
 
 .reveal h3 {
+	margin: 0 0 0.35rem 0;
 
-	font-size: 1.15em;
+	font-size: 0.8em;
+	font-weight: 720;
 
-	font-weight: 680;
-
+	color: var(--rosdh-purple);
 }
-
 
 .reveal p,
 .reveal li {
-
 	line-height: 1.45;
-
 }
 
 
@@ -163,20 +111,57 @@ body,
    ================================================================ */
 
 .reveal a {
-
 	color: var(--uni-blue);
 
 	text-decoration-thickness: 0.07em;
-
 	text-underline-offset: 0.14em;
+}
 
+.reveal a:hover {
+	color: var(--eadh-coral);
 }
 
 
-.reveal a:hover {
+/* ================================================================
+   EXPORT TOOLS
+   ================================================================ */
 
+.export-tools {
+	position: fixed;
+
+	right: 16px;
+	bottom: 16px;
+
+	z-index: 1000;
+
+	display: flex;
+	gap: 8px;
+}
+
+.export-tools button {
+	padding: 0.45rem 0.75rem;
+
+	border: 1px solid rgba(84, 35, 95, 0.25);
+	border-radius: 999px;
+
+	background: rgba(255, 255, 255, 0.88);
+	color: var(--eadh-purple);
+
+	font:
+		600 13px/1
+		system-ui,
+		sans-serif;
+
+	cursor: pointer;
+}
+
+.export-tools button:hover {
+	border-color: var(--eadh-coral);
 	color: var(--eadh-coral);
+}
 
+.hide-export-tools .export-tools {
+	display: none;
 }
 
 
@@ -185,27 +170,16 @@ body,
    ================================================================ */
 
 .title-slide {
-
 	position: relative;
 
-	/*
-		This creates a self-contained stacking context.
-
-		The EADH fragment can safely sit at z-index: -1
-		without disappearing behind Reveal itself.
-	*/
 	isolation: isolate;
-
 	z-index: 0;
 
 	height: 100%;
 
 	display: flex !important;
-
 	flex-direction: column;
-
 	justify-content: center;
-
 	align-items: flex-start;
 
 	padding:
@@ -220,34 +194,18 @@ body,
 	background: #ffffff;
 
 	overflow: hidden;
-
 }
 
 
 /* ================================================================
-   EADH GRAPHIC — BACKMOST LAYER
+   EADH BACKGROUND FRAGMENT
    ================================================================ */
 
-/*
-	This element is completely independent of the layout.
-
-	It does not move:
-	- conference line
-	- title
-	- subtitle
-	- authors
-	- affiliation
-	- institutional logos
-
-	It is explicitly positioned behind all of them.
-*/
-
 .eadh-fragment {
-
 	position: absolute;
 
 	top: 0;
-	left: 0;
+	left: -14px;
 
 	width: 285px;
 	height: 100%;
@@ -257,61 +215,34 @@ body,
 	overflow: hidden;
 
 	pointer-events: none;
-
 	user-select: none;
-
-
-	/*
-		The graphic remains visible at the left edge
-		and fades toward the text area.
-	*/
 
 	-webkit-mask-image:
 		linear-gradient(
 			to right,
-
 			#000000 0%,
 			#000000 48%,
-
 			rgba(0, 0, 0, 0.92) 58%,
 			rgba(0, 0, 0, 0.68) 70%,
 			rgba(0, 0, 0, 0.38) 82%,
 			rgba(0, 0, 0, 0.12) 93%,
-
 			transparent 100%
 		);
-
 
 	mask-image:
 		linear-gradient(
 			to right,
-
 			#000000 0%,
 			#000000 48%,
-
 			rgba(0, 0, 0, 0.92) 58%,
 			rgba(0, 0, 0, 0.68) 70%,
 			rgba(0, 0, 0, 0.38) 82%,
 			rgba(0, 0, 0, 0.12) 93%,
-
 			transparent 100%
 		);
-
 }
 
-
-/* ================================================================
-   EADH IMAGE
-   ================================================================ */
-
-/*
-	The file is already cropped to the desired graphical
-	fragment, so there is no artificial background-position
-	cropping here anymore.
-*/
-
 .eadh-fragment img {
-
 	position: absolute;
 
 	top: 50%;
@@ -320,7 +251,6 @@ body,
 	display: block;
 
 	width: auto;
-
 	height: 94%;
 
 	max-width: none;
@@ -328,53 +258,38 @@ body,
 
 	margin: 0;
 
-	transform:
-		translateY(-50%);
+	transform: translateY(-50%);
 
 	object-fit: contain;
 
 	border: 0;
-
 	box-shadow: none;
 
-	/*
-		Subordinate decorative layer.
-	*/
-	opacity: 0.18;
+	opacity: 0.4;
 
+	filter:
+		saturate(0.8)
+		brightness(1.08)
+		contrast(0.92);
 }
 
 
 /* ================================================================
-   TITLE CONTENT — FOREGROUND
+   TITLE CONTENT
    ================================================================ */
 
-/*
-	Normal Reveal layout.
-
-	The text position is not altered by the decorative image.
-*/
-
 .title-content {
-
 	position: relative;
 
 	z-index: 2;
 
 	width: 100%;
-
 	max-width: 980px;
 
 	margin: 0;
 
 	text-align: left;
-
 }
-
-
-/*
-	Explicit foreground protection for all relevant title elements.
-*/
 
 .title-slide .conference,
 .title-slide h1,
@@ -382,20 +297,16 @@ body,
 .title-slide .accent,
 .title-slide .meta,
 .title-slide .logo-row {
-
 	position: relative;
-
 	z-index: 2;
-
 }
 
 
 /* ================================================================
-   CONFERENCE INFORMATION
+   CONFERENCE INFO
    ================================================================ */
 
 .title-slide .conference {
-
 	margin:
 		0
 		0
@@ -405,15 +316,12 @@ body,
 	color: var(--eadh-coral);
 
 	font-size: 0.42em;
-
 	font-weight: 760;
-
 	line-height: 1;
 
 	letter-spacing: 0.115em;
 
 	text-transform: uppercase;
-
 }
 
 
@@ -422,7 +330,6 @@ body,
    ================================================================ */
 
 .title-slide h1 {
-
 	max-width: 940px;
 
 	margin:
@@ -432,20 +339,14 @@ body,
 		0;
 
 	font-size: 2.18em;
-
 	font-weight: 730;
-
 	line-height: 0.98;
 
 	letter-spacing: -0.045em;
-
 }
 
-
 .title-slide h1 .linked {
-
 	color: var(--rosdh-purple);
-
 }
 
 
@@ -454,7 +355,6 @@ body,
    ================================================================ */
 
 .title-slide .subtitle {
-
 	max-width: 850px;
 
 	margin: 0;
@@ -462,24 +362,19 @@ body,
 	color: var(--muted);
 
 	font-size: 0.58em;
-
 	font-weight: 420;
-
 	line-height: 1.43;
 
 	letter-spacing: -0.012em;
-
 }
 
 
 /* ================================================================
-   COLOR ACCENT
+   MULTICOLOR ACCENT
    ================================================================ */
 
 .accent {
-
 	width: 160px;
-
 	height: 4px;
 
 	margin:
@@ -509,16 +404,14 @@ body,
 			var(--eadh-cyan) 80%,
 			var(--eadh-cyan) 100%
 		);
-
 }
 
 
 /* ================================================================
-   AUTHORS
+   AUTHORS / AFFILIATION
    ================================================================ */
 
 .title-slide .meta {
-
 	max-width: 850px;
 
 	margin: 0;
@@ -526,20 +419,14 @@ body,
 	color: var(--muted);
 
 	font-size: 0.4em;
-
 	font-weight: 430;
-
 	line-height: 1.55;
-
 }
 
-
 .authors {
-
 	display: flex;
 
 	align-items: center;
-
 	justify-content: flex-start;
 
 	flex-wrap: wrap;
@@ -549,12 +436,9 @@ body,
 		0.5em;
 
 	margin-bottom: 0.15em;
-
 }
 
-
 .author {
-
 	display: inline-flex;
 
 	align-items: center;
@@ -566,17 +450,13 @@ body,
 	font-weight: 680;
 
 	white-space: nowrap;
-
 }
-
 
 .author-separator,
 .affiliation {
-
 	color: var(--muted);
 
 	font-weight: 430;
-
 }
 
 
@@ -585,15 +465,12 @@ body,
    ================================================================ */
 
 .reveal .orcid-link {
-
 	display: inline-flex;
 
 	align-items: center;
-
 	justify-content: center;
 
 	margin: 0;
-
 	padding: 0;
 
 	color: inherit;
@@ -607,46 +484,33 @@ body,
 	transition:
 		transform 150ms ease,
 		opacity 150ms ease;
-
 }
-
 
 .reveal .orcid-link:hover {
-
-	transform:
-		scale(1.12);
+	transform: scale(1.12);
 
 	opacity: 0.82;
-
 }
 
-
 .reveal .orcid-link:focus-visible {
-
 	outline:
 		2px
 		solid
 		var(--uni-blue);
 
 	outline-offset: 3px;
-
 }
 
-
 .reveal .orcid-icon {
-
 	display: block;
 
 	width: 1.15em;
-
 	height: 1.15em;
 
 	max-width: none;
-
 	max-height: none;
 
 	margin: 0;
-
 	padding: 0;
 
 	border: 0;
@@ -654,35 +518,28 @@ body,
 	box-shadow: none;
 
 	object-fit: contain;
-
 }
 
 
 /* ================================================================
-   UNIVERSITY OF ROSTOCK + RosDH
+   INSTITUTIONAL LOGOS
    ================================================================ */
 
 .logo-row {
-
 	display: flex;
 
 	align-items: center;
-
 	justify-content: flex-start;
 
 	gap: 52px;
 
 	width: 100%;
-
 	height: 68px;
 
 	margin-top: 1.55rem;
-
 }
 
-
 .logo-row img {
-
 	display: block;
 
 	margin: 0;
@@ -694,34 +551,28 @@ body,
 	box-shadow: none;
 
 	background: transparent;
-
 }
 
-
 .logo-row .uni {
-
 	width: 265px;
 
 	max-height: 63px;
-
 }
 
-
 .logo-row .rosdh {
-
 	width: 165px;
 
 	max-height: 56px;
-
 }
 
 
 /* ================================================================
-   SECTION SLIDES
+   GENERIC SECTION / CONTENT / CLOSING SLIDES
    ================================================================ */
 
-.section-slide {
-
+.section-slide,
+.content-slide,
+.closing-slide {
 	height: 100%;
 
 	display: flex !important;
@@ -729,7 +580,6 @@ body,
 	flex-direction: column;
 
 	justify-content: center;
-
 	align-items: flex-start;
 
 	padding:
@@ -741,11 +591,15 @@ body,
 
 	text-align: left;
 
+	background: #ffffff;
 }
 
 
-.section-number {
+/* ================================================================
+   SECTION SLIDES
+   ================================================================ */
 
+.section-number {
 	margin:
 		0
 		0
@@ -755,33 +609,24 @@ body,
 	color: var(--eadh-coral);
 
 	font-size: 0.48em;
-
 	font-weight: 800;
 
 	letter-spacing: 0.14em;
-
 }
 
-
 .section-slide h2 {
-
-	max-width: 900px;
+	max-width: 980px;
 
 	margin: 0;
 
 	font-size: 1.85em;
-
 	line-height: 1.08;
 
 	letter-spacing: -0.04em;
-
 }
 
-
 .section-line {
-
 	width: 105px;
-
 	height: 5px;
 
 	margin-top: 1.35rem;
@@ -794,112 +639,658 @@ body,
 			var(--eadh-turquoise),
 			var(--eadh-cyan)
 		);
-
 }
 
 
 /* ================================================================
-   REFERENCES
+   CONTENT SLIDES
    ================================================================ */
 
-.references-slide {
+.slide-kicker {
+	margin-bottom: 0.7rem;
 
-	height: 100%;
+	color: var(--eadh-coral);
 
-	padding:
-		1.15rem
-		4.5rem
-		1rem
-		4.5rem
-		!important;
+	font-size: 0.39em;
+	font-weight: 760;
 
-	background: #ffffff;
+	letter-spacing: 0.12em;
 
+	text-transform: uppercase;
+}
+
+.content-slide h2 {
+	max-width: 980px;
+
+	margin:
+		0
+		0
+		0.75rem
+		0;
+
+	font-size: 1.45em;
+	line-height: 1.08;
 }
 
 
-.references-slide h2 {
+/* ================================================================
+   LEAD TEXT
+   ================================================================ */
+
+.lead {
+	max-width: 720px;
 
 	margin: 0;
 
-	font-size: 1.35em;
+	color: var(--ink);
 
-	line-height: 1.05;
+	font-size: 0.56em;
+	font-weight: 430;
+	line-height: 1.43;
+}
 
+.lead.narrow {
+	max-width: 780px;
+
+	margin-top: 1.2rem;
+}
+
+.lead.wide {
+	max-width: 980px;
+
+	font-size: 0.62em;
 }
 
 
-.references-slide .section-line {
+/* ================================================================
+   TWO-COLUMN LAYOUT
+   ================================================================ */
 
-	margin-top: 0.7rem;
+.two-column {
+	display: grid;
 
-	margin-bottom: 0.85rem;
+	grid-template-columns:
+		1.1fr
+		0.9fr;
 
+	gap: 2.2rem;
+
+	width: 100%;
+	max-width: 1080px;
+
+	align-items: center;
 }
 
 
-.references-list {
+/* ================================================================
+   LARGE LISTS
+   ================================================================ */
 
+.reveal ul.large-list,
+.reveal .two-column ul {
+	margin-top: 1rem;
+	margin-left: 1.05em;
+
+	font-size: 0.54em;
+
+	color: var(--ink);
+}
+
+.reveal li {
+	margin-bottom: 0.32em;
+}
+
+.reveal li::marker {
+	color: var(--eadh-coral);
+}
+
+
+/* ================================================================
+   CALLOUT
+   ================================================================ */
+
+.callout {
+	padding:
+		1.2rem
+		1.35rem;
+
+	border-left:
+		6px
+		solid
+		var(--eadh-coral);
+
+	border-radius:
+		0
+		18px
+		18px
+		0;
+
+	background:
+		linear-gradient(
+			90deg,
+			rgba(245, 102, 70, 0.08) 0%,
+			rgba(84, 35, 95, 0.045) 100%
+		);
+}
+
+.callout-label {
+	margin-bottom: 0.45rem;
+
+	color: var(--eadh-coral);
+
+	font-size: 0.36em;
+	font-weight: 780;
+
+	letter-spacing: 0.11em;
+
+	text-transform: uppercase;
+}
+
+.callout p {
+	margin: 0;
+
+	color: var(--ink);
+
+	font-size: 0.54em;
+	line-height: 1.42;
+}
+
+
+/* ================================================================
+   COMPARISON BAND
+   ================================================================ */
+
+.comparison-band {
 	display: grid;
 
 	grid-template-columns:
 		1fr
 		1fr;
 
-	gap:
-		0.55rem
-		1.25rem;
+	gap: 1.5rem;
 
-	max-width: 1120px;
+	width: 100%;
+	max-width: 1050px;
 
+	margin-top: 0.4rem;
+}
+
+.comparison-band > div {
+	padding:
+		1.1rem
+		1.2rem;
+
+	border-top:
+		5px
+		solid
+		var(--eadh-turquoise);
+
+	border-radius:
+		0
+		0
+		16px
+		16px;
+
+	background:
+		linear-gradient(
+			180deg,
+			rgba(53, 177, 178, 0.10) 0%,
+			rgba(53, 177, 178, 0.025) 100%
+		);
+}
+
+.comparison-band.small > div {
+	border-top-color: var(--eadh-coral);
+
+	background:
+		linear-gradient(
+			180deg,
+			rgba(245, 102, 70, 0.10) 0%,
+			rgba(245, 102, 70, 0.025) 100%
+		);
+}
+
+.comparison-band p {
+	margin: 0;
+
+	color: var(--ink);
+
+	font-size: 0.48em;
+	line-height: 1.38;
 }
 
 
-.reference-entry {
+/* ================================================================
+   STAT CARDS
+   ================================================================ */
+
+.stat-grid {
+	display: grid;
+
+	grid-template-columns:
+		repeat(4, 1fr);
+
+	gap: 1rem;
+
+	width: 100%;
+	max-width: 1100px;
+
+	margin-top: 0.7rem;
+}
+
+.stat-card {
+	padding:
+		1.15rem
+		1rem;
+
+	border-top:
+		5px
+		solid
+		var(--eadh-coral);
+
+	border-radius:
+		0
+		0
+		18px
+		18px;
+
+	background:
+		linear-gradient(
+			180deg,
+			rgba(84, 35, 95, 0.06) 0%,
+			rgba(84, 35, 95, 0.018) 100%
+		);
+}
+
+.stat-number {
+	color: var(--eadh-purple);
+
+	font-size: 0.98em;
+	font-weight: 780;
+	line-height: 1.05;
+}
+
+.stat-label {
+	margin-top: 0.45rem;
+
+	color: var(--muted);
+
+	font-size: 0.36em;
+	font-weight: 520;
+	line-height: 1.25;
+}
+
+
+/* ================================================================
+   SPHERE MODEL
+   ================================================================ */
+
+.sphere-model {
+	position: relative;
+
+	display: flex;
+
+	align-items: center;
+
+	width: 100%;
+	max-width: 1040px;
+
+	height: 235px;
+
+	margin:
+		0.4rem
+		0
+		1rem
+		0;
+}
+
+.sphere {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 255px;
+	height: 255px;
+
+	border-radius: 50%;
+
+	color: #ffffff;
+
+	font-size: 0.45em;
+	font-weight: 720;
+	line-height: 1.25;
+
+	text-align: center;
+
+	mix-blend-mode: multiply;
+}
+
+.conference-sphere {
+	background:
+		rgba(84, 35, 95, 0.86);
+}
+
+.bridge-sphere {
+	margin-left: -72px;
+
+	background:
+		rgba(245, 102, 70, 0.78);
+}
+
+.lecture-sphere {
+	margin-left: -72px;
+
+	background:
+		rgba(53, 177, 178, 0.82);
+}
+
+
+/* ================================================================
+   PROCESS
+   ================================================================ */
+
+.process {
+	display: flex;
+
+	align-items: center;
+
+	gap: 1rem;
+
+	width: 100%;
+	max-width: 1050px;
+
+	margin-top: 0.9rem;
+}
+
+.process-step {
+	min-width: 230px;
 
 	padding:
-		0.55rem
-		0.7rem
-		0.55rem
-		0.85rem;
+		1rem
+		1.15rem;
 
 	border-left:
-		4px
+		5px
+		solid
+		var(--eadh-purple);
+
+	border-radius:
+		0
+		14px
+		14px
+		0;
+
+	background:
+		rgba(84, 35, 95, 0.055);
+
+	color: var(--eadh-purple);
+
+	font-size: 0.52em;
+	font-weight: 720;
+	line-height: 1.25;
+}
+
+.process-step span {
+	color: var(--muted);
+
+	font-size: 0.78em;
+	font-weight: 460;
+}
+
+.process-arrow {
+	color: var(--eadh-coral);
+
+	font-size: 0.9em;
+	font-weight: 760;
+}
+
+
+/* ================================================================
+   OVERLAP
+   ================================================================ */
+
+.overlap-layout {
+	display: grid;
+
+	grid-template-columns:
+		1fr
+		0.9fr
+		1fr;
+
+	gap: 1.1rem;
+
+	width: 100%;
+	max-width: 1080px;
+
+	margin-top: 0.8rem;
+}
+
+.overlap-card {
+	padding:
+		1.2rem
+		1.15rem;
+
+	border-top:
+		5px
+		solid
+		var(--eadh-purple);
+
+	border-radius:
+		0
+		0
+		18px
+		18px;
+
+	background:
+		linear-gradient(
+			180deg,
+			rgba(84, 35, 95, 0.065) 0%,
+			rgba(84, 35, 95, 0.02) 100%
+		);
+}
+
+.overlap-card.accent-card {
+	border-top-color: var(--eadh-coral);
+
+	background:
+		linear-gradient(
+			180deg,
+			rgba(245, 102, 70, 0.10) 0%,
+			rgba(245, 102, 70, 0.025) 100%
+		);
+}
+
+.big-percent {
+	color: var(--eadh-purple);
+
+	font-size: 1.35em;
+	font-weight: 800;
+	line-height: 1;
+}
+
+.overlap-card p {
+	margin:
+		0.65rem
+		0
+		0
+		0;
+
+	color: var(--ink);
+
+	font-size: 0.47em;
+	line-height: 1.35;
+}
+
+
+/* ================================================================
+   FORMULA
+   ================================================================ */
+
+.formula {
+	width: fit-content;
+	max-width: 100%;
+
+	margin:
+		0.4rem
+		0
+		1.2rem
+		0;
+
+	padding:
+		1rem
+		1.25rem;
+
+	border-left:
+		5px
+		solid
+		var(--eadh-coral);
+
+	border-radius:
+		0
+		14px
+		14px
+		0;
+
+	background:
+		rgba(245, 102, 70, 0.08);
+
+	color: var(--eadh-purple);
+
+	font-size: 0.58em;
+	font-weight: 720;
+
+	letter-spacing: -0.015em;
+}
+
+
+/* ================================================================
+   THREE-PART MODEL
+   ================================================================ */
+
+.three-part {
+	display: flex;
+
+	gap: 1rem;
+
+	margin-top: 1.4rem;
+}
+
+.three-part div {
+	padding:
+		0.85rem
+		1.2rem;
+
+	border-radius: 999px;
+
+	background:
+		rgba(84, 35, 95, 0.07);
+
+	color: var(--eadh-purple);
+
+	font-size: 0.48em;
+	font-weight: 720;
+}
+
+
+/* ================================================================
+   REFERENCES — ONE SINGLE SLIDE
+   ================================================================ */
+
+.references-slide {
+	height: 100%;
+
+	padding:
+		0.85rem
+		4.5rem
+		0.7rem
+		4.5rem
+		!important;
+
+	background: #ffffff;
+}
+
+.references-slide h2 {
+	margin: 0;
+
+	font-size: 1.18em;
+	line-height: 1.05;
+}
+
+.references-slide .section-line {
+	width: 90px;
+	height: 4px;
+
+	margin-top: 0.45rem;
+	margin-bottom: 0.6rem;
+}
+
+
+/* ================================================================
+   REFERENCES GRID
+   ================================================================ */
+
+.references-list {
+	display: grid;
+
+	grid-template-columns:
+		repeat(2, minmax(0, 1fr));
+
+	grid-auto-flow: row;
+
+	gap:
+		0.27rem
+		1.1rem;
+
+	width: 100%;
+	max-width: 1120px;
+
+	align-items: start;
+}
+
+
+/* ================================================================
+   REFERENCE ENTRY
+   ================================================================ */
+
+.reference-entry {
+	padding:
+		0.3rem
+		0.5rem
+		0.3rem
+		0.65rem;
+
+	border-left:
+		3px
 		solid
 		rgba(245, 102, 70, 0.72);
 
 	border-radius:
 		0
-		9px
-		9px
+		7px
+		7px
 		0;
 
 	background:
 		linear-gradient(
 			90deg,
-
-			rgba(84, 35, 95, 0.055) 0%,
-
-			rgba(84, 35, 95, 0.022) 60%,
-
+			rgba(84, 35, 95, 0.05) 0%,
+			rgba(84, 35, 95, 0.018) 65%,
 			rgba(255, 255, 255, 0) 100%
 		);
 
 	color: var(--ink);
 
-	font-size: 0.27em;
+	font-size: 0.22em;
+	line-height: 1.2;
 
-	line-height: 1.29;
-
+	overflow-wrap: anywhere;
 }
 
-
 .reference-entry em {
-
 	color: var(--eadh-purple);
 
 	font-style: italic;
-
 }
 
 
@@ -908,7 +1299,6 @@ body,
    ================================================================ */
 
 .reference-entry a {
-
 	color: var(--uni-blue);
 
 	text-decoration: none;
@@ -916,35 +1306,29 @@ body,
 	border-bottom:
 		1px
 		solid
-		rgba(0, 74, 153, 0.3);
+		rgba(0, 74, 153, 0.28);
 
 	overflow-wrap: anywhere;
 
 	transition:
 		color 150ms ease,
 		border-color 150ms ease;
-
 }
-
 
 .reference-entry a:hover {
-
 	color: var(--eadh-coral);
 
-	border-bottom-color: var(--eadh-coral);
-
+	border-bottom-color:
+		var(--eadh-coral);
 }
 
-
 .reference-entry a:focus-visible {
-
 	outline:
 		2px
 		solid
 		var(--uni-blue);
 
 	outline-offset: 2px;
-
 }
 
 
@@ -952,114 +1336,26 @@ body,
    CLOSING SLIDE
    ================================================================ */
 
-.closing-slide {
-
-	height: 100%;
-
-	display: flex !important;
-
-	flex-direction: column;
-
-	justify-content: center;
-
-	align-items: flex-start;
-
-	padding:
-		1.5rem
-		4.5rem
-		1rem
-		4.5rem
-		!important;
-
-	text-align: left;
-
-	background: #ffffff;
-
-}
-
-
 .closing-slide h2 {
-
 	max-width: 850px;
 
 	margin: 0;
 
 	font-size: 2em;
-
 	font-weight: 730;
-
 	line-height: 1.05;
 
 	letter-spacing: -0.045em;
-
 }
 
 
 /* ================================================================
-   STANDARD CONTENT SLIDES
-   ================================================================ */
-
-.content-slide {
-
-	padding:
-		1.4rem
-		4.5rem
-		!important;
-
-}
-
-
-.content-slide h2 {
-
-	margin:
-		0
-		0
-		0.7em
-		0;
-
-}
-
-
-.slide-kicker {
-
-	margin-bottom: 0.6em;
-
-	color: var(--eadh-coral);
-
-	font-size: 0.39em;
-
-	font-weight: 760;
-
-	letter-spacing: 0.12em;
-
-	text-transform: uppercase;
-
-}
-
-
-/* ================================================================
-   LISTS
+   STANDARD LISTS
    ================================================================ */
 
 .reveal ul,
 .reveal ol {
-
 	margin-left: 1.15em;
-
-}
-
-
-.reveal li {
-
-	margin-bottom: 0.32em;
-
-}
-
-
-.reveal li::marker {
-
-	color: var(--eadh-coral);
-
 }
 
 
@@ -1068,18 +1364,14 @@ body,
    ================================================================ */
 
 .reveal table {
-
 	width: 100%;
 
 	border-collapse: collapse;
 
 	font-size: 0.55em;
-
 }
 
-
 .reveal table th {
-
 	color: var(--eadh-purple);
 
 	font-weight: 700;
@@ -1088,27 +1380,20 @@ body,
 		2px
 		solid
 		var(--eadh-purple);
-
 }
 
-
 .reveal table td {
-
 	border-bottom:
 		1px
 		solid
 		var(--light-grey);
-
 }
-
 
 .reveal table th,
 .reveal table td {
-
 	padding:
 		0.45em
 		0.55em;
-
 }
 
 
@@ -1117,39 +1402,53 @@ body,
    ================================================================ */
 
 .reveal figure {
-
 	margin: 0;
-
 }
 
-
 .reveal img {
-
 	max-width: 100%;
-
 	max-height: 100%;
 
 	box-shadow: none;
-
 }
 
 
 /* ================================================================
-   REVEAL UI
+   REVEAL CONTROLS
    ================================================================ */
 
 .reveal .controls {
-
 	color: var(--eadh-purple);
+}
 
+.reveal .progress {
+	height: 3px;
+
+	color: var(--eadh-coral);
+}
+
+.reveal .slide-number {
+	background: transparent;
+
+	color: var(--muted);
+
+	font-size: 14px;
 }
 
 
-.reveal .progress {
+/* ================================================================
+   PRINT / PDF
+   ================================================================ */
 
-	color: var(--eadh-coral);
+@media print {
 
-	height: 3px;
+	.export-tools {
+		display: none !important;
+	}
+
+	.eadh-fragment img {
+		opacity: 0.4;
+	}
 
 }
 
@@ -1163,26 +1462,9 @@ body,
 	.reveal *,
 	.reveal *::before,
 	.reveal *::after {
-
 		transition-duration:
 			0.001ms
 			!important;
-
-	}
-
-}
-
-
-/* ================================================================
-   PRINT / PDF
-   ================================================================ */
-
-@media print {
-
-	.eadh-fragment img {
-
-		opacity: 0.68;
-
 	}
 
 }
