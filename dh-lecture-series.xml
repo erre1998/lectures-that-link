@@ -3098,7 +3098,8 @@
             <place corresp="#brighton"/>
           </org>
           <org xml:id="dhd-ag_wisskomm" type="other">
-            <name xml:lang="de">AG Digitale Wissenschaftskommunikation und Public Humanities (AG-WissKomm)</name>
+            <name xml:lang="de">AG Digitale Wissenschaftskommunikation und Public Humanities
+              (AG-WissKomm)</name>
             <!-- No Wikidata ID found -->
             <!-- No ROR ID found -->
             <place corresp="#regensburg #berlin"/>
@@ -17582,8 +17583,8 @@
           contribution to the upcoming DHd 2026 conference in Wien. This version contains 44 lecture
           series.</change>
         <change who="#uhk #erre #mvb #cg" when="2026-07-02">Prepare version 0.7 of the dataset for a
-          contribution to the upcoming EADH 2026 conference in Kraków. This version contains 56 lecture
-          series.</change>
+          contribution to the upcoming EADH 2026 conference in Kraków. This version contains 56
+          lecture series.</change>
         <change who="#uhk #erre #mvb #cg" when="2026-09-15">Prepare version 0.7.1 of the dataset.
           This version contains XX lecture series.</change>
       </listChange>
@@ -54248,36 +54249,33 @@
           </event>
 
         </event>
-        
+
         <event xml:id="ls67" type="lecture-series" where="#online">
           <!-- lecture series was held online only, no specific place can be determined -->
           <eventName xml:lang="de">Wissen, worauf es ankommt</eventName>
-          <ptr type="programme"
-            target="https://events.gwdg.de/event/974/overview"/>
-          <ptr type="programme"
-            target="https://events.gwdg.de/event/1135/"/>
-          
+          <ptr type="programme" target="https://events.gwdg.de/event/974/overview"/>
+          <ptr type="programme" target="https://events.gwdg.de/event/1135/"/>
+
           <event type="lecture-series-term" from="2024-11" to="2025-01" xml:id="ls67_t1">
             <eventName>Eine Coffee-Lecture-Serie im Wintersemester 2024</eventName>
-            <ptr type="programme"
-              target="https://events.gwdg.de/event/974/overview"/>
+            <ptr type="programme" target="https://events.gwdg.de/event/974/overview"/>
             <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
               verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
-              Im Wintersemester 2024/25 widmen wir uns dabei den Bereichen KI in der 
-              Wissenschaftskommunikation, Fördermöglichkeiten sowie Wissenschaftskommunikation im 
+              Im Wintersemester 2024/25 widmen wir uns dabei den Bereichen KI in der
+              Wissenschaftskommunikation, Fördermöglichkeiten sowie Wissenschaftskommunikation im
               Videoformat. Dabei wird es jeweils einen Vortrag von 20–30 Minuten geben, an den sich
               eine rege Diskussion anschließt. Willkommen sind nicht nur AG-Mitglieder oder Digital
               Humanists, sondern alle Interessierten!</note>
-            
+
             <event type="lecture" when="2024-11-25" xml:id="ls67_t1_l1">
               <eventName xml:lang="de">Darf's ein bisschen KI sein?</eventName>
-              <note type="abstract" xml:lang="de">Regelmäßig posten, Persönlichkeit zeigen, 
-                im Gesprach bleiben - strategische Wissenschaftskommunikation und deren 
-                „Schlüssel" zur Sichtbarkeit werden in den Digital Humanities bereits häufig
-                eingesetzt. Mit der zunehmenden Verbreitung von generativen KI-Tools wie 
-                ChatGPT ergeben sich allerdings neue Fragen. In dieser Coffee Lecture zeigen
-                wir euch einige Tools und deren Möglichkeiten und möchten dann mit euch 
-                diskutieren, inwietern dieso Anwendungen sinnvoll eingesetzt werden können.</note>
+              <note type="abstract" xml:lang="de">Regelmäßig posten, Persönlichkeit zeigen, im
+                Gesprach bleiben - strategische Wissenschaftskommunikation und deren „Schlüssel" zur
+                Sichtbarkeit werden in den Digital Humanities bereits häufig eingesetzt. Mit der
+                zunehmenden Verbreitung von generativen KI-Tools wie ChatGPT ergeben sich allerdings
+                neue Fragen. In dieser Coffee Lecture zeigen wir euch einige Tools und deren
+                Möglichkeiten und möchten dann mit euch diskutieren, inwietern dieso Anwendungen
+                sinnvoll eingesetzt werden können.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
                 <term type="topics-llm">...</term>
@@ -54297,11 +54295,12 @@
               <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
             </event>
             <event type="lecture" when="2024-12-16" xml:id="ls67_t1_l2">
-              <eventName xml:lang="de">Digital Humanities...? Erzähl mir mehr davon! - Wie die
-              DFG Wissenschaftskommunikation fördern kann</eventName>
-              <note type="abstract" xml:lang="de">"Wir beantragen die Erstellung einer Webseite." 
-                Aber ist es damit getan? Gerade die Digital Humanities bergen ein Potenzial, das über Blogs, Podcasts und Co 
-                hinausgeht. Eine Coffee Lecture über Öffentlichkeitsarbeit, Kreativität, Aufwand, Kosten und Nutzen.</note>
+              <eventName xml:lang="de">Digital Humanities...? Erzähl mir mehr davon! - Wie die DFG
+                Wissenschaftskommunikation fördern kann</eventName>
+              <note type="abstract" xml:lang="de">"Wir beantragen die Erstellung einer Webseite."
+                Aber ist es damit getan? Gerade die Digital Humanities bergen ein Potenzial, das
+                über Blogs, Podcasts und Co hinausgeht. Eine Coffee Lecture über
+                Öffentlichkeitsarbeit, Kreativität, Aufwand, Kosten und Nutzen.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
                 <term type="topics-llm">...</term>
@@ -54322,11 +54321,12 @@
             </event>
             <event type="lecture" when="2025-01-13" xml:id="ls67_t1_l3">
               <eventName xml:lang="de">Professionelle WissKomm im Videoformat</eventName>
-              <note type="abstract" xml:lang="de">In dieser Coffee Lecture taucht Filmproduzentin und
-                -regisseurin Marina Kem ein in die verschiedenen Möglichkeiten Filme für Digital Humanities
-                zu produzieren; sie betrachtet Kriterien für gute Erzählweisen, Visualisierungsarten und 
-                Filmtechniken, nennt Tipps für gute Workflows und integrierte Teamarbeit und gibt Einblicke
-                in die Mechanismen, die Filme teurer oder preiswerter machen.</note>
+              <note type="abstract" xml:lang="de">In dieser Coffee Lecture taucht Filmproduzentin
+                und -regisseurin Marina Kem ein in die verschiedenen Möglichkeiten Filme für Digital
+                Humanities zu produzieren; sie betrachtet Kriterien für gute Erzählweisen,
+                Visualisierungsarten und Filmtechniken, nennt Tipps für gute Workflows und
+                integrierte Teamarbeit und gibt Einblicke in die Mechanismen, die Filme teurer oder
+                preiswerter machen.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
                 <term type="topics-llm">...</term>
@@ -54345,31 +54345,31 @@
               </listPerson>
               <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
             </event>
-            
+
             <org role="organizer" cert="low" corresp="#schumacher_mareike #seltmann_melanie"/>
           </event>
-          
+
           <event type="lecture-series-term" from="2025-05" to="2025-07" xml:id="ls67_t2">
             <eventName>Eine Coffee-Lecture-Serie im Sommersemester 2025</eventName>
-            <ptr type="programme"
-              target="https://events.gwdg.de/event/1135/"/>
-            <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam verschiedene
-              Themen rund um digitale Wissenschaftskommunikation und Public Humanities. Im Sommersemester 
-              2025 widmen wir uns dabei dem Thema Contenterstellung für verschiedene Medien und aus 
-              unterschiedlichen Blickwinkeln.
-              Dabei wird es jeweils einen Vortrag von 20–30 Minuten geben, an den sich eine rege Diskussion
-              anschließt. Willkommen sind nicht nur AG-Mitglieder oder Digital Humanists, sondern alle
+            <ptr type="programme" target="https://events.gwdg.de/event/1135/"/>
+            <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
+              verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
+              Im Sommersemester 2025 widmen wir uns dabei dem Thema Contenterstellung für
+              verschiedene Medien und aus unterschiedlichen Blickwinkeln. Dabei wird es jeweils
+              einen Vortrag von 20–30 Minuten geben, an den sich eine rege Diskussion anschließt.
+              Willkommen sind nicht nur AG-Mitglieder oder Digital Humanists, sondern alle
               Interessierten!</note>
-            
+
             <event type="lecture" when="2025-05-05" xml:id="ls67_t2_l1">
-              <eventName xml:lang="de">Studentische Wissenschaftskommunikation und GenZ-Marketing auf TikTok
-                – Ein Praxisbericht</eventName>
-              <note type="abstract" xml:lang="de">In meinem Vortrag gebe ich einen Einblick in die Produktion 
-                von Videos für den TikTok-Account @glima.tuebingen, die im Rahmen des Formats #LinguisTikTok
-                zugleich sprachwissenschaftliche Inhalte vermitteln und Werbung für ein Germanistikstudium in 
-                Tübingen machen sollen. Ich beschreibe meine Arbeitsweise und meine Erfahrungen mit TikTok als 
-                Medium, dessen multimodale Affordanzen ein breites Spektrum an Möglichkeiten für die Verbindung 
-                von Wissenschaftskommunikation und Unterhaltungscontent bieten.</note>
+              <eventName xml:lang="de">Studentische Wissenschaftskommunikation und GenZ-Marketing
+                auf TikTok – Ein Praxisbericht</eventName>
+              <note type="abstract" xml:lang="de">In meinem Vortrag gebe ich einen Einblick in die
+                Produktion von Videos für den TikTok-Account @glima.tuebingen, die im Rahmen des
+                Formats #LinguisTikTok zugleich sprachwissenschaftliche Inhalte vermitteln und
+                Werbung für ein Germanistikstudium in Tübingen machen sollen. Ich beschreibe meine
+                Arbeitsweise und meine Erfahrungen mit TikTok als Medium, dessen multimodale
+                Affordanzen ein breites Spektrum an Möglichkeiten für die Verbindung von
+                Wissenschaftskommunikation und Unterhaltungscontent bieten.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
                 <term type="topics-llm">...</term>
@@ -54389,19 +54389,20 @@
               <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
             </event>
             <event type="lecture" when="2025-07-07" xml:id="ls67_t2_l2">
-              <eventName xml:lang="de">Vom Forschen zum Staunen – Formatentwicklung in der 
+              <eventName xml:lang="de">Vom Forschen zum Staunen – Formatentwicklung in der
                 Wissenschaftskommunikation</eventName>
-              <note type="abstract" xml:lang="de">Wissenschaftskommunikation kennt eine Vielzahl 
-                von Formaten – von der Printpublikation bis zum Podcast. Daher nimmt die gezielte
+              <note type="abstract" xml:lang="de">Wissenschaftskommunikation kennt eine Vielzahl von
+                Formaten – von der Printpublikation bis zum Podcast. Daher nimmt die gezielte
                 Konzeption von Formaten eine Schlüsselrolle bei der Planung von WissKomm-Projekten
-                ein: Mit der Formatentwicklung stellen wir sicher, dass wissenschaftliche Inhalte 
-                verständlich und zugänglich aufbereitet werden. Dabei steht das Format in einem 
-                Zusammenspiel mit anderen Dimensionen der Wissenschaftskommunikation wie Ziel, 
-                Zielgruppe, Thema und Stil. Als Kreativstudio für Wissenschaftskommunikation entwickeln wir bei »Zum Staunen*«
-                gemeinsam mit Forschenden innovative und zielgruppengerechte WissKomm-Formate. 
-                Wie diese Zusammenarbeit von Wissenschaftler:innen und Kommunikationsexpert:innen 
-                in der Praxis aussieht und warum sie so lohnenswert ist, zeige ich in der Coffee
-                Lecture anhand konkreter Fallbeispiele.</note>
+                ein: Mit der Formatentwicklung stellen wir sicher, dass wissenschaftliche Inhalte
+                verständlich und zugänglich aufbereitet werden. Dabei steht das Format in einem
+                Zusammenspiel mit anderen Dimensionen der Wissenschaftskommunikation wie Ziel,
+                Zielgruppe, Thema und Stil. Als Kreativstudio für Wissenschaftskommunikation
+                entwickeln wir bei »Zum Staunen*« gemeinsam mit Forschenden innovative und
+                zielgruppengerechte WissKomm-Formate. Wie diese Zusammenarbeit von
+                Wissenschaftler:innen und Kommunikationsexpert:innen in der Praxis aussieht und
+                warum sie so lohnenswert ist, zeige ich in der Coffee Lecture anhand konkreter
+                Fallbeispiele.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
                 <term type="topics-llm">...</term>
@@ -54420,10 +54421,10 @@
               </listPerson>
               <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
             </event>
-            
+
             <org role="organizer" cert="low" corresp="#schumacher_mareike #seltmann_melanie"/>
           </event>
-          
+
         </event>
 
         <!-- ##### Austria ##### -->
@@ -59724,7 +59725,7 @@
         </event>
         <event xml:id="ls43" type="lecture-series" where="#lausanne">
           <eventName xml:lang="fr">Séminaires DH</eventName>
-          <eventName xml:lang="en">DH Lecture Series</eventName>
+          <eventName xml:lang="en">DH Seminars</eventName>
           <event type="lecture-series-term" from="2015-06" to="2015-12" xml:id="ls43_t1">
             <eventName>2015</eventName>
             <ptr type="programme"
@@ -64149,15 +64150,23 @@
               corresp="#edmond_jennifer #mitchell_rebecca #abbott_helen #ward_aengus"/>
           </event>
         </event>
+        <!-- to do: many links still need to be archived for ls54; there are some
+        slides available for which links can be collected in addition -->
         <event xml:id="ls54" type="lecture-series" where="#london">
           <eventName xml:lang="en">UCLDH Seminar Series</eventName>
           <event type="lecture-series-term" from="2014-11" to="2015-06" xml:id="ls54_t1">
-            <eventName/>
+            <eventName xml:lang="en">UCLDH Seminar 2014-15</eventName>
+            <!-- the website lists three individual "terms" between 2014-15. Shouldn't they 
+            be encoded as individual terms, here, as well? -->
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250215035457/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2014-15"/>
             <event type="lecture" when="2014-11-20" xml:id="ls54_t1_l1">
               <eventName xml:lang="en">Scalpels and magic wands. From the physical world of book
                 conservation to the magic of Digital Humanities</eventName>
               <ptr type="programme"
-                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarcampagnolo"/>
+                target="https://web.archive.org/web/20251010154400/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminarcampagnolo"/>
+              <ptr type="slides"
+                target="https://web.archive.org/web/20260913133131/https://www.slideshare.net/slideshow/alberto-campagnolo-41969208/41969208"/>
               <note type="abstract" xml:lang="en">
                 <p>Books are objects in primis. They do contain important written information, but
                   their physicality is also a silent witness that needs to be read, and preserved.
@@ -64195,7 +64204,7 @@
               <eventName xml:lang="en">Image Aesthetics: From Philosophical to Computational
                 Exploration</eventName>
               <ptr type="programme"
-                target="https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminaramati"/>
+                target="https://web.archive.org/web/20260315202146/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/ucldhseminaramati"/>
               <note type="abstract" xml:lang="en">
                 <p>Seeking beauty in images has always preoccupied the human mind. Today, the amount
                   of imagery available online, in museums or personal photo collections is
@@ -64465,10 +64474,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <org role="organizer" corresp="not found"/>
+            <!-- question: is this how we would like to encode organizers that are not found? -->
+            <org role="organizer">
+              <note>not found</note>
+            </org>
           </event>
           <event type="lecture-series-term" from="2015-10" to="2016-07" xml:id="ls54_t2">
-            <eventName/>
+            <eventName xml:lang="en">UCLDH Seminar 2015-16</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250810070348/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2015-16"/>
             <event type="lecture" when="2015-10-09" xml:id="ls54_t2_l1">
               <eventName xml:lang="en">Geopolitical diversity in Digital Humanities: how do we make
                 it happen?</eventName>
@@ -64823,10 +64837,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <org role="organizer" corresp="not found"/>
+            <org role="organizer">
+              <note>not found</note>
+            </org>
           </event>
           <event type="lecture-series-term" from="2016-10" to="2017-05" xml:id="ls54_t3">
-            <eventName/>
+            <eventName xml:lang="en">UCLDH Seminar 2016-17</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20260206214641/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2016-17"/>
             <event type="lecture" when="2016-10-12" xml:id="ls54_t3_l1">
               <eventName xml:lang="en">Freedom to constrain: Introducing TEI
                 customisation</eventName>
@@ -65335,10 +65353,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <org role="organizer" corresp="not found"/>
+            <org role="organizer">
+              <note>not found</note>
+            </org>
           </event>
           <event type="lecture-series-term" from="2017-10" to="2018-05" xml:id="ls54_t4">
-            <eventName/>
+            <eventName xml:lang="en">UCLDH Seminar 2017-18</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250512070121/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2017-18"/>
             <event type="lecture" when="2017-10-18" xml:id="ls54_t4_l1">
               <eventName xml:lang="en">Crowdsourcing and commentary with IIIF and W3C web
                 annotations</eventName>
@@ -65546,10 +65568,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <org role="organizer" corresp="not found"/>
+            <org role="organizer">
+              <note>not found</note>
+            </org>
           </event>
           <event type="lecture-series-term" from="2018-10" to="2019-06" xml:id="ls54_t5">
-            <eventName/>
+            <eventName xml:lang="en">UCLDH Seminar 2018-19</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250519095141/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar/2018-19"/>
             <event type="lecture" when="2018-10-17" xml:id="ls54_t5_l1">
               <eventName xml:lang="en">Annotating text and images with Recogito</eventName>
               <ptr type="programme"
@@ -65747,10 +65773,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <org role="organizer" corresp="not found"/>
+            <org role="organizer">
+              <note>not found</note>
+            </org>
           </event>
           <event type="lecture-series-term" from="2019-10" to="2020-02" xml:id="ls54_t6">
-            <eventName/>
+            <eventName xml:lang="en">UCLDH Seminar 2019-20</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250428003715/https://www.ucl.ac.uk/digital-humanities/events/ucldh-seminar-series/ucldh-seminar-2019-20"/>
             <event type="lecture" when="2019-10-09" xml:id="ls54_t6_l1">
               <eventName xml:lang="en">University – Industry Partnerships / Open
                 Scholarship</eventName>
@@ -65897,19 +65927,17 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <org role="organizer" corresp="not found"/>
+            <org role="organizer">
+              <note>not found</note>
+            </org>
           </event>
-        </event>
-        <!-- UCLDH Seminar Series ends here, because it evolved into 
-          The Digital Humanities Longview (ls56) and continues
-            under this new titel with different hosts -->
-        <event xml:id="ls56" type="lecture-series" where="#london #stanford">
-          <eventName xml:lang="en">The Digital Humanities Longview</eventName>
-          <event type="lecture-series-term" from="2021-01" to="2021-06" xml:id="ls56_t1">
+          <event type="lecture-series-term" from="2021-01" to="2021-06" xml:id="ls54_t7"
+            where="#london #stanford">
+            <eventName xml:lang="en">UCLDH/CESTA Seminar 2020/21</eventName>
             <eventName xml:lang="en">The Digital Humanities Longview</eventName>
             <ptr type="programme"
-              target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/ucldhcesta-seminar-202021"/>
-            <note type="abstract" xml:lang="en">
+              target="https://web.archive.org/web/20250806095446/https://www.ucl.ac.uk/digital-humanities/events/ucldh-seminar-series/ucldhcesta-seminar-202021"/>
+            <note type="description" xml:lang="en">
               <p>Research happens in context. But, how did Digital Humanities (DH) get here? This
                 seminar series explores the socio-historical, -political and -cultural contexts of
                 DH research as a means of building understanding of how we all ended up here and
@@ -65927,7 +65955,7 @@
                 digital humanities centres who are committed to rich international discussions from
                 a range of perspectives, with an emphasis on reflective practice.</p>
             </note>
-            <event type="lecture" when="2021-01-27" xml:id="ls56_t1_l1">
+            <event type="lecture" when="2021-01-27" xml:id="ls54_t7_l1">
               <eventName xml:lang="en">From Engagement to Retreat? Historians and Digital
                 Preservation 1968-2003</eventName>
               <ptr type="programme"
@@ -65963,7 +65991,6 @@
                   I explore the relationship between historians and born-digital primary sources
                   between 1968 and 2003. Electronic records, to these historians, imperilled
                   society’s collective memory. What was to be done?</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#history #digital-humanities #library-information"/>
@@ -65983,14 +66010,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <event type="lecture" when="2021-02-09" xml:id="ls56_t1_l2">
+            <event type="lecture" when="2021-02-09" xml:id="ls54_t7_l2">
               <eventName xml:lang="en">Digital Humanities Against Enclosure</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/feb/ucldh-online-digital-humanities-against-enclosure"/>
               <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/54356"/>
               <note type="abstract">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
@@ -66011,7 +66037,7 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2021-02-23" xml:id="ls56_t1_l3">
+            <event type="lecture" when="2021-02-23" xml:id="ls54_t7_l3">
               <eventName xml:lang="en">Digital Humanities &amp; Spatial History: Atlantic World
                 Stories</eventName>
               <ptr type="programme"
@@ -66026,7 +66052,6 @@
                   CESTA and have addressed major issues in the history of the Atlantic World,
                   including slavery and the experience of enslaved and freed persons in
                   particular.</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#geography #history"/>
@@ -66047,14 +66072,13 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2021-03-10" xml:id="ls56_t1_l4">
+            <event type="lecture" when="2021-03-10" xml:id="ls54_t7_l4">
               <eventName xml:lang="en">Multilingual Publishing in Digital Humanities</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/mar/ucldh-online-multilingual-publishing-digital-humanities"/>
               <ptr type="video" target="https://mediacentral.ucl.ac.uk/Play/59506"/>
               <note type="abstract">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
@@ -66075,7 +66099,7 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2021-04-13" xml:id="ls56_t1_l5">
+            <event type="lecture" when="2021-04-13" xml:id="ls54_t7_l5">
               <eventName xml:lang="en">Humanités numériques, цифровые гуманитарные науки,
                 デジタル・ヒューマニティーズ: Histories and Futures of Linguistic Diversity in DH</eventName>
               <ptr type="programme"
@@ -66094,7 +66118,6 @@
                   pedagogy, and engagement with the broader field of DH. The talk will conclude with
                   actionable steps that scholars, particularly in Anglophone countries, can take
                   towards embracing language as an important axis of diversity.</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline"
@@ -66116,7 +66139,7 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2021-04-27" xml:id="ls56_t1_l6">
+            <event type="lecture" when="2021-04-27" xml:id="ls54_t7_l6">
               <eventName xml:lang="en">A Look Backwards Through the Index of DH
                 Conferences</eventName>
               <ptr type="programme"
@@ -66125,7 +66148,6 @@
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/apr/ucldh-online-look-backwards-through-index-dh-conferences"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
-                <!-- Include paragraphs about the speakers? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
@@ -66152,7 +66174,7 @@
               <org role="host-institution" corresp="#uni-london-ucl"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2021-05-12" xml:id="ls56_t1_l7">
+            <event type="lecture" when="2021-05-12" xml:id="ls54_t7_l7">
               <eventName xml:lang="en">Complicating the whiteness of Digital Humanities: The Deep
                 History of Black DH</eventName>
               <ptr type="programme"
@@ -66176,7 +66198,6 @@
                   Publishing without Walls, and Maryemma Graham, History of Black writing. An
                   ongoing project, I am conducting interviews with such foundational Black dh
                   scholars to better understand their contributions to the field.</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities #social-science"/>
@@ -66196,7 +66217,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <event type="lecture" when="2021-05-26" xml:id="ls56_t1_l8">
+            <event type="lecture" when="2021-05-26" xml:id="ls54_t7_l8">
               <eventName xml:lang="en">The Web Archives Long View</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/may/ucldh-online-web-archives-long-view"/>
@@ -66225,7 +66246,6 @@
                   conclusion we will broaden the question to digital humanities, and consider why
                   web archive studies have remained relatively marginalised in digital humanities
                   discourse.</p>
-                <!-- Include paragraphs about the speakers? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#cultural-studies #library-information"/>
@@ -66251,13 +66271,14 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-london-ucl"/>
             </event>
-            <event type="lecture" when="2021-06-09" xml:id="ls56_t1_l9">
+            <event type="lecture" when="2021-06-09" xml:id="ls54_t7_l9">
               <eventName xml:lang="en">Uncovering Digital History’s forgotten roots</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2021/jun/cancelled-uncovering-digital-historys-forgotten-roots"/>
-              <!-- Event got cancelled and could not be rescheduled -->
+              <!-- Event got cancelled and could not be rescheduled
+              @maggi: please add the missing data here -->
             </event>
-            <event type="lecture" when="2021-06-22" xml:id="ls56_t1_l10">
+            <event type="lecture" when="2021-06-22" xml:id="ls54_t7_l10">
               <eventName xml:lang="en">Laboratory Life in the Humanities: Computation, Criticism
                 &amp; Collaboration</eventName>
               <ptr type="programme"
@@ -66289,7 +66310,6 @@
                   ongoing collaborative research group that is celebrating its 10th anniversary this
                   year, I want to focus on the outstanding questions that we are only now beginning
                   to address around this radical shift in the humanities.</p>
-                <!-- Include paragraphs about the speakers? -->
               </note>
               <note type="keywords">
                 <term type="discipline"
@@ -66321,17 +66341,39 @@
               corresp="#cesarani_giovanna #crymble_adam #nyhan_julianne #stokes_laura #backman_agnieszka"
             />
           </event>
-          <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls56_t2"
+          <event type="lecture-series-term" from="2022-03" to="2022-06" xml:id="ls54_t8"
             where="#london #stanford #uppsala">
-            <eventName/>
-            <event type="lecture" when="2022-03-10" xml:id="ls56_t2_l1">
+            <eventName xml:lang="en">UCLDH / CESTA / Uppsala Series 2021/22</eventName>
+            <eventName xml:lang="en">The Digital Humanities Longview</eventName>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20250624071516/https://www.ucl.ac.uk/digital-humanities/events/ucldh-seminar-series/ucldh-cesta-uppsala-series-202122"/>
+            <note type="description" xml:lang="en">
+              <p>Technology is global, but where we live affects how we apply digital solutions to
+                humanities work. We all have what Roopika Risam described as a digital humanities
+                (DH) “accent”. This seminar series explores those accents by looking at DH research
+                here, and there, and over there too. This is a chance to build greater global
+                awareness and empathy about regional and local approaches to digital humanities in
+                the twenty-first century.</p>
+              <p>It’s an opportunity for newcomers to understand how the field has developed
+                differently around the globe, and for established practitioners to consider their
+                work as part of a larger movement with competing influences, ambitions, and
+                blindspots.</p>
+              <p>This seminar series is co-hosted by scholars living in three countries, nine time
+                zones apart. Building upon our successful “Digital Humanities Longview” series
+                (2021), this is a further bridging of trans-Atlantic digital humanities centres to
+                promote a global conversation. We are committed to fostering rich international
+                discussions from a diverse range of perspectives, with an emphasis on reflective
+                practice.</p>
+              <p>Co-hosted by UCL Centre for Digital Humanities, the Centre for Digital Humanities,
+                Uppsala, &amp; the Center for Spatial and Textual Analysis, Stanford.</p>
+            </note>
+            <event type="lecture" when="2022-03-10" xml:id="ls54_t8_l1">
               <eventName xml:lang="en">Decolonizing Knowledge Infrastructures: Open Access &amp;
                 Multilingual Scholarly Publishing</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/mar/ucldh-online-decolonizing-knowledge-infrastructures-open-access-multilingual"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline"
@@ -66354,13 +66396,12 @@
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2022-04-07" xml:id="ls56_t2_l2">
+            <event type="lecture" when="2022-04-07" xml:id="ls54_t8_l2">
               <eventName xml:lang="en">Curating enslaved pasts of the Cape of Good Hope</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/apr/ucldh-online-curating-enslaved-pasts-cape-good-hope"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#african-studies #history"/>
@@ -66382,14 +66423,13 @@
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2022-04-21" xml:id="ls56_t2_l3">
+            <event type="lecture" when="2022-04-21" xml:id="ls54_t8_l3">
               <eventName xml:lang="en">SWECARCOL. Swedish Caribbean Colonialism 1784–1878: Caribbean
                 Digital History</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/apr/ucldh-online-swecarcol-swedish-caribbean-colonialism-1784-1878-caribbean-digital"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#history #geography"/>
@@ -66411,14 +66451,13 @@
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2022-05-05" xml:id="ls56_t2_l4">
+            <event type="lecture" when="2022-05-05" xml:id="ls54_t8_l4">
               <eventName xml:lang="en">Transnational Digital Humanities in the Digital Black
                 Atlantic</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/may/ucldh-online-transnational-digital-humanities-digital-black-atlantic"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline" corresp="#african-studies #geography #digital-humanities"/>
@@ -66440,14 +66479,13 @@
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2022-05-19" xml:id="ls56_t2_l5">
+            <event type="lecture" when="2022-05-19" xml:id="ls54_t8_l5">
               <eventName xml:lang="en">Central Asia and the role of digital heritage
                 inventories</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/may/ucldh-online-central-asia-and-role-digital-heritage-inventories"/>
               <note type="abstract" xml:lang="en">
                 <p>not found</p>
-                <!-- Include paragraph about the speaker? -->
               </note>
               <note type="keywords">
                 <term type="discipline"
@@ -66470,7 +66508,7 @@
               <org role="host-institution" corresp="#uni-uppsala"/>
               <org role="host-institution" corresp="#uni-stanford"/>
             </event>
-            <event type="lecture" when="2022-06-02" xml:id="ls56_t2_l6">
+            <event type="lecture" when="2022-06-02" xml:id="ls54_t8_l6">
               <eventName xml:lang="en">Indigenous relationality in digital spaces</eventName>
               <ptr type="programme"
                 target="https://www.ucl.ac.uk/digital-humanities/events/2022/jun/ucldh-online-indigenous-relationality-digital-spaces"/>
@@ -66500,29 +66538,11 @@
             </event>
             <org role="organizer" corresp="#crymble_adam"/>
           </event>
-        </event>
-        <event xml:id="ls68" type="lecture-series" where="#darmstadt #berlin #london #luxembourg">
-          <eventName xml:lang="en">Voices unbound? Exploring new and/or possible directions in
-            digital and experimental oral history</eventName>
-          <ptr type="programme"
-            target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/seminar-series-2024-25"/>
-          <note type="abstract" xml:lang="en">
-            <p>A lecture series co-organised by TU Darmstadt, UCL Centre for Digital Humanities,
-              Luxembourg Centre for Contemporary and Digital History (C²DH) and the
-              Max-Planck-Institut für Wissenschaftsgeschichte. The series is convened by Julianne
-              Nyhan (TU Darmstadt), Andrew Flinn, Andreas Vlachidis, and Marco Humbel (UCL),
-              Shih-Pei Chen (Max Planck Institute), and Gerben Zaagsma (C²DH), offering an important
-              way of keeping up to date with the methodological and theoretical state of the art in
-              digital oral history. We invited speakers to present work on recent technological
-              developments that may hold promise for digital oral history. In this way, the seminar
-              series appeals to (digital) oral historians, digital humanists and scholars of the
-              history of information, memory and knowledge systems.</p>
-          </note>
-          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls68_t1">
+          <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls54_t9" where="#darmstadt #berlin #london #luxembourg">
             <eventName xml:lang="en">Voices unbound? Exploring new and/or possible directions in
               digital and experimental oral history</eventName>
             <ptr type="programme"
-              target="https://www.ucl.ac.uk/digital-humanities/ucldh-events/ucldh-seminar-series/seminar-series-2024-25"/>
+              target="https://web.archive.org/web/20250710133419/https://www.ucl.ac.uk/digital-humanities/events/UCLDHseminar"/>
             <note type="description" xml:lang="en">
               <p>A lecture series co-organised by TU Darmstadt, UCL Centre for Digital Humanities,
                 Luxembourg Centre for Contemporary and Digital History (C²DH) and the
@@ -66535,7 +66555,7 @@
                 way, the seminar series appeals to (digital) oral historians, digital humanists and
                 scholars of the history of information, memory and knowledge systems.</p>
             </note>
-            <event type="lecture" when="2024-10-21" xml:id="ls68_t1_l1">
+            <event type="lecture" when="2024-10-21" xml:id="ls54_t9_l1">
               <eventName xml:lang="en">Anthracite Oral Histories and Text Mining</eventName>
               <note type="abstract" xml:lang="en">
                 <p>This research covers novel approaches to analyzing existing public oral history
@@ -66572,7 +66592,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-11-04" xml:id="ls68_t1_l2">
+            <event type="lecture" when="2024-11-04" xml:id="ls54_t9_l2">
               <eventName xml:lang="en">Oral Histories metadata: Usability, accessibility and
                 interoperability of OH interviews in the digital realm </eventName>
               <note type="abstract" xml:lang="en">
@@ -66605,7 +66625,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-11-18" xml:id="ls68_t1_l3">
+            <event type="lecture" when="2024-11-18" xml:id="ls54_t9_l3">
               <eventName xml:lang="en">Applying Digital Linguistics Techniques to Oral History
                 Collections</eventName>
               <note type="abstract" xml:lang="en">
@@ -66639,7 +66659,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-11-25" xml:id="ls68_t1_l4">
+            <event type="lecture" when="2024-11-25" xml:id="ls54_t9_l4">
               <eventName xml:lang="en">AI and Oral History: Applications in Holocaust
                 Testimonies</eventName>
               <note type="abstract" xml:lang="en">
@@ -66677,7 +66697,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-12-02" xml:id="ls68_t1_l5">
+            <event type="lecture" when="2024-12-02" xml:id="ls54_t9_l5">
               <eventName xml:lang="en">Lessons learnt from building a digital infrastructure for
                 oral history in the Netherlands</eventName>
               <note type="abstract" xml:lang="en">
@@ -66717,7 +66737,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2024-12-16" xml:id="ls68_t1_l6">
+            <event type="lecture" when="2024-12-16" xml:id="ls54_t9_l6">
               <eventName xml:lang="en">Breathing Emotions &amp; Stories: A different way of
                 navigating Oral History</eventName>
               <note type="abstract" xml:lang="en">
@@ -66753,7 +66773,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2025-01-13" xml:id="ls68_t1_l7">
+            <event type="lecture" when="2025-01-13" xml:id="ls54_t9_l7">
               <eventName xml:lang="en">Using Machine Learning and AI to Analyze Interviewer
                 Questions in Holocaust Oral Histories</eventName>
               <note type="abstract" xml:lang="en">
@@ -66787,7 +66807,7 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-darmstadt #uni-london-ucl #c2dh #mpi-wg"/>
             </event>
-            <event type="lecture" when="2025-01-20" xml:id="ls68_t1_l8">
+            <event type="lecture" when="2025-01-20" xml:id="ls54_t9_l8">
               <eventName xml:lang="en">Curating large oral history archives with artificial
                 intelligence</eventName>
               <note type="abstract" xml:lang="en">
