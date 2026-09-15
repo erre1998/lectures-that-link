@@ -33,5 +33,10 @@
       <!-- check place ids: -->
       <sch:assert test=".[tokenize(translate(@where,'#',''),'\s') = //tei:settingDesc//tei:listPlace/tei:place/@xml:id]"><sch:value-of select="$event-id"/>: Error: the lecture series location ID was not found in the list of places.</sch:assert>
     </sch:rule>
+    
+    <!-- general checks of individual elements or attributes -->
+    <sch:rule context="tei:ptr">
+      <sch:assert test="starts-with(@target,'http')">Error: the target of a pointer should contain a URL.</sch:assert>
+    </sch:rule>
   </sch:pattern>
 </sch:schema>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model hcorresp="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model hcorresp="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_lectures.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schema/lectures.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -4397,17 +4399,6 @@
             <idno type="orcid">https://orcid.org/0009-0006-1821-5597</idno>
             <!-- No Wikidata ID found -->
           </person>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -9177,7 +9168,6 @@
             <gender>female</gender>
             <idno type="orcid">https://orcid.org/0000-0002-2915-5888</idno>
             <!-- No Wikidata ID found -->
-
           </person>
           <person xml:id="brenner_simon">
             <name>
@@ -15820,6 +15810,10 @@
       </particDesc>
       <settingDesc>
         <listPlace xml:lang="en">
+          <!-- #### online #### -->
+          <place type="virtual" xml:id="online">
+            <name>online</name>
+          </place>
           <!-- #### Continents #### -->
           <place type="continent" xml:id="europe">
             <name>Europe</name>
@@ -41150,7 +41144,6 @@
               grundsätzlich interdisziplinär angewendet werden. Es werden keine Vorkenntnisse der
               digitalen Methoden vorausgesetzt.</p>
           </note>
-
           <event type="lecture-series-term" from="2024-10" to="2025-01" xml:id="ls36_t1">
             <eventName xml:lang="de">Wintersemester 2024-25</eventName>
             <ptr type="programme"
@@ -41490,7 +41483,6 @@
           </note>
           <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls37_t1">
             <eventName/>
-
             <event type="lecture" when="2022-05-06" xml:id="ls37_t1_l1">
               <eventName xml:lang="en">Social Media based Measurements of Psychosocial Phenomena:
                 Potentials and Pitfalls</eventName>
@@ -41523,7 +41515,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
-
             <event type="lecture" when="2022-05-20" xml:id="ls37_t1_l2">
               <eventName xml:lang="en">Open Data</eventName>
               <note type="abstract" xml:lang="en">not found</note>
@@ -41545,7 +41536,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
-
             <event type="lecture" when="2022-06-03" xml:id="ls37_t1_l3">
               <eventName xml:lang="en">Reanimating African American Oral Histories of the Gulf
                 South</eventName>
@@ -41577,7 +41567,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
-
             <event type="lecture" when="2022-06-24" xml:id="ls37_t1_l4">
               <eventName xml:lang="de">Bibliotheken als Datengeber – Digitale Sammlungen als Basis
                 für Forschungs- und Citizen-Science-Projekte</eventName>
@@ -41614,7 +41603,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
-
             <event type="lecture" when="2022-07-01" xml:id="ls37_t1_l5">
               <eventName xml:lang="de">Das algorithmische Selbst - mediale Konfigurationen und
                 narrative Perspektiven</eventName>
@@ -41647,7 +41635,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-duesseldorf"/>
             </event>
-
             <org role="organizer" corresp="#imeri_aylin #reiners-selbach_stefan #dorsch_isabelle"/>
           </event>
         </event>
@@ -45022,7 +45009,6 @@
             <org role="organizer" corresp="#nantke_julia #roy_dibyadyuti"/>
           </event>
         </event>
-
         <event xml:id="ls53" type="lecture-series" where="#mainz">
           <eventName xml:lang="de">Von Büchern zu Bytes: Die digitale Transformation in der
             Geschichtswissenschaft</eventName>
@@ -45041,13 +45027,11 @@
               Inhalten auseinanderzusetzen und die Ergebnisse innerhalb der Fachcommunity
               ausführlich zu diskutieren.</p>
           </note>
-
           <event type="lecture-series-term" from="2023-10" to="2024-06" xml:id="ls53_t1">
             <eventName>Staffel 1</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250924095900/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes/staffel-1/"/>
             <ptr type="blogpost" target="https://doi.org/10.58079/13jkc"/>
-
             <event type="lecture" when="2023-10-27" xml:id="ls53_t1_l1">
               <eventName xml:lang="de">Daten im Dienste der Geschichte. Was bedeutet
                 Forschungsdatenmanagement in historisch arbeitenden Disziplinen?</eventName>
@@ -45095,7 +45079,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2023-11-24" xml:id="ls53_t1_l2">
               <eventName xml:lang="de">Forschungsdaten präsentieren - aber wie? Erfahrungsbericht
                 und Beratungsangebot</eventName>
@@ -45147,14 +45130,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2023-12-10" xml:id="ls53_t1_l3">
               <eventName xml:lang="de">Generationsgegensätze? Ein digitaler Blick über die Schulter
                 zur Analyse qualitativer Daten mit MAXQDA</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250925103852/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes/staffel-1/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=YGwl3f7o9h8"/>
-              <ptr type="slides" target=" https://doi.org/10.5281/zenodo.10781223"/>
+              <ptr type="slides" target="https://doi.org/10.5281/zenodo.10781223"/>
               <note type="abstract" xml:lang="de">
                 <p>Der digitale Workshop bietet eine umfassende Einführung in die Analyse
                   qualitativer Interviews mit MAXQDA, einer leistungsstarken Software für die
@@ -45202,7 +45184,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-01-26" xml:id="ls53_t1_l4">
               <eventName xml:lang="de">Die digitale Re-Edition gemeinfreier Bücher</eventName>
               <ptr type="programme"
@@ -45241,7 +45222,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-02-23" xml:id="ls53_t1_l5">
               <eventName xml:lang="de">Analyse und Visualisierung von Netzwerken mit
                 Gephi</eventName>
@@ -45286,7 +45266,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-03-22" xml:id="ls53_t1_l6">
               <eventName xml:lang="en">Data modelling and processing for historical Scholarship: How
                 Research Design and Methodology affect Data Management</eventName>
@@ -45337,14 +45316,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-03-21" xml:id="ls53_t1_l7">
               <eventName xml:lang="de">Zotero als Werkzeug zum persönlichen
                 Forschungsdatenmanagement</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/"/>
-              <ptr type="video" target="..."/>
-              <ptr type="slides" target="..."/>
+              
+              
               <note type="abstract" xml:lang="de">
                 <p>Zotero ist als kostenlose, open-source Software zur Verwaltung bibliografischer
                   Daten und damit verknüpfter Forschungsliteratur nicht nur in den USA, sondern auch
@@ -45376,7 +45354,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-05-24" xml:id="ls53_t1_l8">
               <eventName xml:lang="de">Nodegoat als Tool für die historisch arbeitenden
                 Wissenschaften</eventName>
@@ -45423,7 +45400,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-06-28" xml:id="ls53_t1_l9">
               <eventName xml:lang="de">LEAF-Writer: Ein online-Editor zum Annotieren von XML-Dateien
                 und Einbinden von Normdaten</eventName>
@@ -45472,7 +45448,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <org role="organizer" cert="low"
               corresp="#doering_laura #buedenbender_stefan #lemaire_marina"/>
           </event>
@@ -45481,14 +45456,13 @@
             <ptr type="programme"
               target="https://web.archive.org/web/20250924095926/https://4memory.de/aktivitaeten/veranstaltungsreihen/von-buechern-zu-bytes/staffel-2/"/>
             <ptr type="blogpost" target="https://doi.org/10.58079/14o4k"/>
-
             <event type="lecture" when="2024-10-25" xml:id="ls53_t2_l1">
               <eventName xml:lang="de">FactGrid: Eine Wikibase-Instanz für historische
                 Daten</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810174727/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/factgrid-eine-wikibase-instanz-fuer-historische-daten/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=znuP1Rp_YZc"/>
-              <ptr type="slides" target="..."/>
+              
               <note type="abstract" xml:lang="de">
                 <p>FactGrid ist eine Wikibase-Instanz für historische Daten - ein Wagnis, denn die
                   Software macht Forschungsprojekten das Angebot, noch mitten in laufenden
@@ -45519,14 +45493,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-11-22" xml:id="ls53_t2_l2">
               <eventName xml:lang="de">Transkribus &amp; eScriptorium: Zwei Plattformen zur
                 Transkription und automatisierten Erkennung von historischen Textquellen</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810174524/https://www.uni-konstanz.de/international-participation-und-erasmus-humanities/aktuelles/kalender-detail/termin/transkribus-escriptorium-zwei-plattformen-zur-transkription-und-automatisierten-erkennung-von-historischen-textquellen/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=3j1dHcwZS7I"/>
-              <ptr type="slides" target="..."/>
+              
               <note type="abstract" xml:lang="de">
                 <p>Die (Volltext-)Digitalisierung relevanter Textquellen gewährt den historisch
                   arbeitenden Wissenschaften dramatisch erweiterte Zugriffs- und
@@ -45575,14 +45548,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2024-12-13" xml:id="ls53_t2_l3">
               <eventName xml:lang="en">Visualising historical data across epistemological
                 practices</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175219/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/visualising-historical-data-across-epistemological-practices/"/>
-              <ptr type="video" target="..."/>
-              <ptr type="slides" target="..."/>
+              
+              
               <note type="abstract" xml:lang="en">
                 <p>During this training session, we will guide participants through some of the
                   possibilities to represent data across the epistemological axis, ranging from
@@ -45618,14 +45590,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-01-24" xml:id="ls53_t2_l4">
               <eventName xml:lang="de">“Die Zukunft der Vergangenheit”: Eine Einführung in die
                 Arbeit mit ChatGPT &amp; Co. in den Geschichtswissenschaften</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175257/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/die-zukunft-der-vergangenheit-eine-einfuehrung-in-die-arbeit-mit-chatgpt-co-in-den-geschichtswissenschaften/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=g8ThVmhOdtg"/>
-              <ptr type="slides" target="..."/>
+              
               <note type="abstract" xml:lang="de">
                 <p>KI-Chatbots wie ChatGPT besitzen das Potenzial, riesige Mengen an Textdaten zu
                   analysieren, „zu verstehen“ und zu generieren. Als multimodale Tools können sie
@@ -45663,14 +45634,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-02-21" xml:id="ls53_t2_l5">
               <eventName xml:lang="de">Forschungsdaten digital managen mit FuD. Ein vielseitiges
                 Tool für die Geistes- und Sozialwissenschaften</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175601/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/forschungsdaten-digital-managen-mit-fud-ein-vielseitiges-tool-fuer-die-geistes-und-sozialwissenschaften/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=HOuaWZ3f8Do"/>
-              <ptr type="slides" target="..."/>
+              
               <note type="abstract" xml:lang="de">
                 <p>Das Softwaresystem FuD wird eingesetzt, um qualitativ arbeitenden
                   Forschungsprojekten in den Geistes- und Sozialwissenschaften eine Plattform zur
@@ -45714,14 +45684,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-03-21" xml:id="ls53_t2_l6">
               <eventName xml:lang="de">Zotero als Werkzeug zum persönlichen
                 Forschungsdatenmanagement</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=U0etiDhv_FY"/>
-              <ptr type="slides" target="..."/>
+              
               <note type="abstract" xml:lang="de">
                 <p>Zotero ist als kostenlose, open-source Software zur Verwaltung bibliografischer
                   Daten und damit verknüpfter Forschungsliteratur nicht nur in den USA, sondern auch
@@ -45756,14 +45725,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-04-25" xml:id="ls53_t2_l7">
               <eventName xml:lang="de">Die Begriffe der Geschichte: Kontrollierte Vokabulare und
                 Sachbegriffsressourcen für die digitale historische Arbeit</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810180045/https://www.literature.uni-konstanz.de/gebert/aktuelles/veranstaltungen/detailed-event-calender/termin/die-begriffe-der-geschichte-kontrollierte-vokabulare-und-sachbegriffsressourcen-fuer-die-digitale-historische-arbeit/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=D4WP2A_AaP0"/>
-              <ptr type="slides" target="..."/>
+              
               <note type="abstract" xml:lang="de">
                 <p>Die Nutzung von Normdaten und kontrollierten Vokabularen ist längst ein zentrales
                   Kriterium für die Qualität geisteswissenschaftlicher Forschungsdaten und eine
@@ -45811,7 +45779,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-05-23" xml:id="ls53_t2_l8">
               <eventName xml:lang="de">Kompetent Recherchieren nach Literatur und mehr: zentrale
                 Tools des Fachinformationsdienstes Geschichtswissenschaft</eventName>
@@ -45861,14 +45828,13 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <event type="lecture" when="2025-06-27" xml:id="ls53_t2_l9">
               <eventName xml:lang="de">Statistische Analysen und Datenmanagement mit SPSS am
                 Beispiel der Analyse von Hexenprozessen</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810180226/https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/"/>
-              <ptr type="video" target="..."/>
-              <ptr type="slides" target="..."/>
+              
+              
               <note type="abstract" xml:lang="de">
                 <p>Statistische Analysen haben heute den Forschungsalltag durchdrungen. Jede KI,
                   jede digitale Arbeitsmethode und viele traditionelle Forschungsansätze beruhen im
@@ -45904,20 +45870,15 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-trier #uni-darmstadt #nfdi4memory"/>
             </event>
-
             <org role="organizer" cert="low"
               corresp="#doering_laura #buedenbender_stefan #lemaire_marina"/>
           </event>
-
         </event>
 
-
-        
 
         <event xml:id="ls49" type="lecture-series" where="#mainz">
           <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
             Kulturwissenschaften</eventName>
-
           <event type="lecture-series-term" from="2017-05" to="2017-07" xml:id="ls49_t1">
             <eventName>Sommersemester 2017</eventName>
             <ptr type="programme"
@@ -45949,10 +45910,9 @@
                 Hochschule Mainz, des Leibniz-Institutes für Europäische Geschichte und des Mainzer
                 Zentrums für Digitalität in den Geistes- und Kulturwissenschaften (mainzed).</p>
             </note>
-
             <event type="lecture" when="2017-05-03" xml:id="ls49_t1_l1">
               <eventName xml:lang="de">Digitale Briefeditionen und ihre Vernetzung</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#german-studies"/><term
                   type="topics-llm">historical correspondence, text encoding, scholarly editions,
@@ -45972,7 +45932,6 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-05-10" xml:id="ls49_t1_l2">
               <eventName xml:lang="en">New Tools for Mobile Development and Physical Modeling of
                 Musical Instruments in the Faust Programming Language</eventName>
@@ -46017,12 +45976,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-05-17" xml:id="ls49_t1_l3">
               <eventName xml:lang="de">Was geht in den Köpfen von Übersetzern vor? An den
                 Schnittstellen zwischen Computerlinguistik, Zweisprachigkeit und
                 Translation</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computational-linguistics #german-studies"/><term type="topics-llm"
@@ -46043,10 +46001,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-05-24" xml:id="ls49_t1_l4">
               <eventName xml:lang="de">Wie speichert man ein Bauwerk in der Datenbank?</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#archaeology #computer-science"
                   /><term type="topics-llm">architecture, data modeling, databases, cultural
@@ -46066,11 +46023,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-05-31" xml:id="ls49_t1_l5">
               <eventName xml:lang="de">Nachhaltige Softwareentwicklung in den Digital Humanities.
                 Konzepte und Methoden</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">sustainable software development, research software, best
@@ -46090,11 +46046,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-06-07" xml:id="ls49_t1_l6">
               <eventName xml:lang="de">Potenziale von Citizien Sciences für die Erschließung von
                 Kulturgütern</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#political-science"/><term
                   type="topics-llm">citizen science, cultural heritage, data collection, public
@@ -46114,11 +46069,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-06-14" xml:id="ls49_t1_l7">
               <eventName xml:lang="de">Neue digitale Methoden in der Sprachwissenschaft:
                 Distributionelle Semantik und was man damit machen kann </eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#linguistics"/><term
                   type="topics-llm">text analysis, computational linguistics, distributional
@@ -46138,10 +46092,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-06-21" xml:id="ls49_t1_l8">
               <eventName xml:lang="de">Wer? Wie? Was? Edieren im 21. Jahrhundert </eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">editing, textual scholarship, modern methods, scholarly
@@ -46167,11 +46120,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-06-28" xml:id="ls49_t1_l9">
               <eventName xml:lang="de">Möglichkeiten und Grenzen der Digitalen Musikedition.
                 Erfahrungen aus Forschung und Lehre</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">music editing, scholarly editions, computational methods,
@@ -46191,11 +46143,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2017-07-05" xml:id="ls49_t1_l10">
               <eventName xml:lang="de">Automatische Textklassifikation und ihre Anwendungen zur
                 Metaphern- und Argumentationsanalyse</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#literary-studies #computer-science"/><term type="topics-llm">automatic
@@ -46216,10 +46167,8 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <event type="lecture-series-term" from="2018-04" to="2018-07" xml:id="ls49_t2">
             <eventName>Sommersemester 2018</eventName>
             <ptr type="programme"
@@ -46252,11 +46201,10 @@
                 Geschichte und des Mainzer Zentrums für Digitalität in den Geistes- und
                 Kulturwissenschaften (mainzed).</p>
             </note>
-
             <event type="lecture" when="2018-04-26" xml:id="ls49_t2_l1">
               <eventName xml:lang="en">Advancing Music Scholarship in a Digital Age: A View from the
                 Renaissance</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">musicology, renaissance, historical analysis, computational
@@ -46276,10 +46224,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-05-02" xml:id="ls49_t2_l2">
               <eventName xml:lang="de">Humanist Computer Interaction auf dem Prüfstand</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">human-computer interaction, humanities computing, interface
@@ -46306,10 +46253,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-05-16" xml:id="ls49_t2_l3">
               <eventName xml:lang="de">Kontrastive Textanalysen mit Burrows' Zeta</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#german-studies #computer-science"/><term type="topics-llm">corpus
@@ -46330,12 +46276,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-05-23" xml:id="ls49_t2_l4">
               <eventName xml:lang="de">Die zögerliche Annäherung von Filmwissenschaft und Digital
                 Humanities – Stand der Forschung, methodologische Überlegungen und
                 Ausblick</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#media-studies #digital-humanities"/><term type="topics-llm">film
@@ -46356,11 +46301,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-05-30" xml:id="ls49_t2_l5">
               <eventName xml:lang="de">Erschließung digitaler Bildrepositorien mittels
                 vierdimensionaler Modelle: Projekt und Lösungsansatz</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#art-history"/><term
                   type="topics-llm">image repositories, 3d modeling, data visualization, metadata
@@ -46380,11 +46324,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-06-06" xml:id="ls49_t2_l6">
               <eventName xml:lang="de">Die urheberrechtlichen Grenzen des Text und Data
                 Minings</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">copyright law, text mining, data mining, legal restrictions,
@@ -46404,11 +46347,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-06-13" xml:id="ls49_t2_l7">
               <eventName xml:lang="de">Epistemologische, ethische und praktische Aspekte von Big
                 Data sowie Lösungsmöglichkeiten in der Praxis</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">big data, epistemology, ethics, data practices,
@@ -46428,11 +46370,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-06-20" xml:id="ls49_t2_l8">
               <eventName xml:lang="de">URLs, Authority Files und Linked Data - ein Überblick über
                 Pelagios und seine Anwendungen</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">linked data, authority files, semantic web, historical data,
@@ -46452,11 +46393,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-06-27" xml:id="ls49_t2_l9">
               <eventName xml:lang="de">Von ARCHITRAVE bis Wikidata - DH am Deutschen Forum für
                 Kunstgeschichte Paris</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#art-history #digital-humanities"/><term type="topics-llm">archival
@@ -46476,10 +46416,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2018-07-04" xml:id="ls49_t2_l10">
               <eventName xml:lang="de">Die Bürger kommen!</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#political-science"/><term
                   type="topics-llm">citizen participation, civic engagement, public involvement,
@@ -46499,10 +46438,8 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <event type="lecture-series-term" from="2019-05" to="2019-07" xml:id="ls49_t3">
             <eventName>Sommersemester 2019</eventName>
             <ptr type="programme"
@@ -46516,10 +46453,9 @@
                 Geschichte und des Mainzer Zentrums für Digitalität in den Geistes- und
                 Kulturwissenschaften (mainzed).</p>
             </note>
-
             <event type="lecture" when="2019-05-08" xml:id="ls49_t3_l1">
               <eventName xml:lang="de">Technologie und Interdisziplinarität</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm"
@@ -46540,11 +46476,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-05-15" xml:id="ls49_t3_l2">
               <eventName xml:lang="de">Werkstattbericht - Digitale Methodik bei der Analyse
                 archäologischer Daten</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#archaeology"/><term
                   type="topics-llm">archaeology, data analysis, digital methods, research workflows,
@@ -46564,11 +46499,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-05-22" xml:id="ls49_t3_l3">
               <eventName xml:lang="de">Das Urheberrecht und unser Blick auf die
                 Vergangenheit</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#jurisprudence"/><term
                   type="topics-llm">copyright, intellectual property, historical perspectives, legal
@@ -46588,12 +46522,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-05-29" xml:id="ls49_t3_l4">
               <eventName xml:lang="de">Von Künstlicher Intelligenz und von Kochbüchern:
                 offensichtliche Berührungspunkte zwischen der Digitalisierung der Buch-Wertschöpfung
                 und den Digital Humanities</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#german-studies #computer-science"/><term type="topics-llm">artificial
@@ -46614,11 +46547,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-06-05" xml:id="ls49_t3_l5">
               <eventName xml:lang="de">Das Framevorrangmodell für Human- und
                 Maschinenübersetzung</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">frame semantics, machine translation, human translation,
@@ -46638,10 +46570,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-06-12" xml:id="ls49_t3_l6">
               <eventName xml:lang="en">The Music Text in the Digital Domain</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">music analysis, computational musicology, text encoding, digital
@@ -46661,11 +46592,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-06-19" xml:id="ls49_t3_l7">
               <eventName xml:lang="en">Custom concordancers for research and teaching with
                 ShinyConc</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">shiny, text analysis, concordancer, data visualization, language
@@ -46685,11 +46615,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-06-26" xml:id="ls49_t3_l8">
               <eventName xml:lang="de">Abgleich zwischen DH-Arbeitsmodellen und
                 offiziell-institutionellen Datenbanken</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">data integration, institutional databases, workflow models,
@@ -46709,10 +46638,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-07-03" xml:id="ls49_t3_l9">
               <eventName xml:lang="en">Digital Methods in Classical Studies</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#classics"/><term
                   type="topics-llm">classical studies, ancient history, computational methods, text
@@ -46732,10 +46660,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2019-07-10" xml:id="ls49_t3_l10">
               <eventName xml:lang="de">Dschihadistische Online-Propaganda</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#political-science"/><term
                   type="topics-llm">jihadism, online propaganda, extremism, radicalization, media
@@ -46761,12 +46688,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <!-- It seems that there was no edition of the lecture series in 2020 -->
-
           <event type="lecture-series-term" from="2021-04" to="2021-07" xml:id="ls49_t4">
             <eventName>Sommersemester 2021</eventName>
             <ptr type="programme"
@@ -46779,11 +46703,10 @@
                 jedoch entschieden, diese Video-Konferenzen nicht gänzlich öffentlich machen,
                 sondern auf den Kreis der Studierenden und einiger weniger Gäste zu beschränken.</p>
             </note>
-
             <event type="lecture" when="2021-04-28" xml:id="ls49_t4_l1">
               <eventName xml:lang="de">Archaeologische Prospektion mit Hilfe von Fernerkundung und
                 Maschinellem Lernen: Neue Forschungen in den Niederlanden</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#archaeology #computer-science"
                   /><term type="topics-llm">archaeology, remote sensing, machine learning,
@@ -46803,11 +46726,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-05-05" xml:id="ls49_t4_l2">
               <eventName xml:lang="de">Object Detection zwischen kunsthistorischer Realienkunde und
                 interdisziplinärer Material Studies</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#art-history"/><term
                   type="topics-llm">object detection, art history, material studies,
@@ -46827,11 +46749,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-05-26" xml:id="ls49_t4_l3">
               <eventName xml:lang="en">Digital Museology: Digitising Objects, Engaging with Online
                 Audiences, Preparing the Museum of the Future</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#museology"/><term
                   type="topics-llm">digital museology, museum digitization, online audience
@@ -46851,13 +46772,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <!-- lecture 2021-06-02 only for students and invited guests, no speaker -->
-
             <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
               <eventName xml:lang="de">Digitale Heraldik als transdisziplinäres Experimentierfeld
                 zwischen Kulturgeschichte, Hilfswissenschaften und Digital Humanities</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#history #digital-humanities"
                   /><term type="topics-llm">heraldry, cultural history, auxiliary sciences,
@@ -46877,11 +46796,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-06-16" xml:id="ls49_t4_l6">
               <eventName xml:lang="de">Black Box Algorithmen: Kritische Anwendung maschineller
                 Lernverfahren in den Geisteswissenschaften</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">algorithms, machine learning, critical analysis, black box
@@ -46901,11 +46819,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-06-23" xml:id="ls49_t4_l7">
               <eventName xml:lang="de">Intermediäre Aspekte der Digital Humanities als Chance und
                 Herausforderung</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">intermediary approaches, interdisciplinary collaboration,
@@ -46926,11 +46843,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-06-30" xml:id="ls49_t4_l8">
               <eventName xml:lang="de">Umherreitende Richter in England. Digitale Analysen zu
                 mittelalterlichen Gerichten als Arenen sozialer Interaktion</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">itinerant judges, medieval courts, social interaction, legal
@@ -46950,11 +46866,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-07-07" xml:id="ls49_t4_l9">
               <eventName xml:lang="de">Digitalität in der Geschichtswissenschaft – Quellenkritik und
                 Quelleninterpretation im Digitalen</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">historical sources, digital methods, source criticism,
@@ -46974,11 +46889,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2021-07-14" xml:id="ls49_t4_l10">
               <eventName xml:lang="de">Aspekte digitaler Forschungsmethoden in der Musik vor 1600:
                 Herausforderung und Chance</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">historical musicology, early music, computational methods,
@@ -46998,10 +46912,8 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <event type="lecture-series-term" from="2022-05" to="2022-07" xml:id="ls49_t5">
             <eventName>Sommersemester 2022</eventName>
             <ptr type="programme"
@@ -47017,13 +46929,11 @@
                 Gäste, die in Präsenz oder digital teilnehmen möchten um vorherige Anmeldung
                 gebeten.</p>
             </note>
-
             <!-- not clear if speech in person or online for each lecture, that's why "in person" was used everytime -->
-
             <event type="lecture" when="2022-05-04" xml:id="ls49_t5_l1">
               <eventName xml:lang="de">Digital Humanities als Synergie: TEI, Bildannotation und IIIF
                 im Graphkontext</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">text encoding, image annotation, interoperability frameworks,
@@ -47043,11 +46953,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-05-11" xml:id="ls49_t5_l2">
               <eventName xml:lang="de">Kopie oder Original? Die kulturelle Überlieferung im
                 Zeitalter der digitalen Reproduzierbarkeit</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">copy, reproduction, cultural heritage, authenticity,
@@ -47067,11 +46976,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-05-18" xml:id="ls49_t5_l3">
               <eventName xml:lang="de">Computationelle Literaturwissenschaft: Der hermeneutische
                 Zirkel als Input-Process-Output-System</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">computational analysis, literary studies, hermeneutic circle,
@@ -47091,11 +46999,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-05-25" xml:id="ls49_t5_l4">
               <eventName xml:lang="de">Modelle zur computergestützen Analyse von Überlieferung der
                 Mensuralmusik</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science #musicology"
                   /><term type="topics-llm">historical music analysis, computational musicology,
@@ -47115,11 +47022,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-06-08" xml:id="ls49_t5_l5">
               <eventName xml:lang="de">Gute Freunde kann niemand trennen… Zur Unzertrennlichkeit von
                 Daten und Partnern in der Gemeinsamen Normdatei (GND)</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm">data
@@ -47140,11 +47046,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-06-15" xml:id="ls49_t5_l6">
               <eventName xml:lang="de">Sprachwandel digital: Möglichkeiten und Herausforderungen
                 historischer Korpora</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies #linguistics"
                   /><term type="topics-llm">language change, historical corpora, computational
@@ -47164,11 +47069,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-06-29" xml:id="ls49_t5_l7">
               <eventName xml:lang="de">Verstehen und Missverstehen mit Modellen der maschinellen
                 Sprachverarbeitung</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">modeling, natural language processing, interpretation,
@@ -47188,10 +47092,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-07-06" xml:id="ls49_t5_l8">
               <eventName xml:lang="de">Einführung in das Urheberrecht in der Musik</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#jurisprudence #musicology"
                   /><term type="topics-llm">copyright law, music, intellectual property, licensing,
@@ -47211,11 +47114,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2022-07-13" xml:id="ls49_t5_l9">
               <eventName xml:lang="de">»Werck der Bücher« – Experiment und Mustererkennung als
                 Zugänge zur frühen Druckgeschichte</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history #literary-studies"
                   /><term type="topics-llm">printing history, early modern period, book production,
@@ -47235,10 +47137,8 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <event type="lecture-series-term" from="2023-04" to="2023-07" xml:id="ls49_t6">
             <eventName>Sommersemester 2023</eventName>
             <ptr type="programme"
@@ -47253,11 +47153,10 @@
                 Mainz). Alle Interessierten sind zu den öffentlichen Vorträgen herzlich
                 eingeladen.</p>
             </note>
-
             <event type="lecture" when="2023-04-26" xml:id="ls49_t6_l1">
               <eventName xml:lang="de">Poststandardisierung - Orthographien, Encodings und Formate
                 im Wandel der Mediengeschichte</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#media-studies #history"/><term
                   type="topics-llm">poststandardization, orthography, encoding, media history,
@@ -47277,10 +47176,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-05-03" xml:id="ls49_t6_l2">
               <eventName xml:lang="de">Zur Geschichte der KI</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">artificial intelligence, history, technology, computation,
@@ -47300,11 +47198,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-05-10" xml:id="ls49_t6_l3">
               <eventName xml:lang="de">6.000 Jahre Buchführung in 3D: Digitalisierung und Analyse
                 von Schrift- und Bildträgern</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science #archaeology"
                   /><term type="topics-llm">archaeology, 3d modeling, historical documents, text
@@ -47324,11 +47221,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-05-24" xml:id="ls49_t6_l4">
               <eventName xml:lang="de">Kritische Software bauen: digitale Werkzeuge jenseits
                 statistischer Wahrheit</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">critical software, tool development, epistemology, data bias,
@@ -47348,11 +47244,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-05-31" xml:id="ls49_t6_l5">
               <eventName xml:lang="de">Forschungsdaten, Visualisierungen und blinde Flecken in der
                 digitalen Filmgeschichtsschreibung</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#media-studies"/><term
                   type="topics-llm">film history, data visualization, research data, blind spots,
@@ -47372,12 +47267,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-06-14" xml:id="ls49_t6_l6">
               <eventName xml:lang="de">Hackathons, Barcamps, Booksprints und Verwandte - Formate des
                 kollaborativen Lernens und Arbeitens in den digitalen Geistes- und
                 Kulturwissenschaften</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">collaborative learning, open workshops, knowledge production,
@@ -47397,11 +47291,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-06-21" xml:id="ls49_t6_l7">
               <eventName xml:lang="en">Data modelling for the Humanities: Uncertainty, ambiguity,
                 conflict, and chaos</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm">data
@@ -47421,12 +47314,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-06-28" xml:id="ls49_t6_l8">
               <eventName xml:lang="de">Töne zählen: Forschungsfragen und Methoden
                 musikwissenschaftlicher Korpusstudien in historischer und epistemologischer
                 Perspektive</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">sound analysis, musicology, corpus studies, historical research,
@@ -47446,11 +47338,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2023-07-05" xml:id="ls49_t6_l9">
               <eventName xml:lang="de">KI in der Hochschule und die Think Tanks der
                 Hochschulnetzwerk Digitalisierung Baden Württemberg</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">artificial intelligence, higher education, policy think tanks,
@@ -47470,10 +47361,8 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls49_t7">
             <eventName>Sommersemester 2024</eventName>
             <ptr type="programme"
@@ -47486,11 +47375,10 @@
                 55116 Mainz) statt (Ausnahme 26.6. siehe unten). Alle Interessierten sind herzlich
                 eingeladen.</p>
             </note>
-
             <event type="lecture" when="2024-04-24" xml:id="ls49_t7_l1">
               <eventName xml:lang="de">Nicht-Wissen modellieren und visualisieren –
                 interdisziplinäre Perspektiven auf Datenlücken und unsichere Daten</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#data-science"/><term
                   type="topics-llm">modeling uncertainty, data gaps, visualization,
@@ -47510,10 +47398,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-05-15" xml:id="ls49_t7_l2">
               <eventName xml:lang="en">Doing Collaborative Public Digital History</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">collaboration, public history, community engagement, digital
@@ -47533,12 +47420,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-05-22" xml:id="ls49_t7_l3">
               <eventName xml:lang="de">Digitale 3D-Rekonstruktionen ostmitteleuropäischer Synagogen
                 in der Lehre: Ein dezentrales und interdisziplinäres Joint Lab im virtuellen
                 Raum</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science #archaeology"
                   /><term type="topics-llm">3d reconstruction, synagogues, central europe,
@@ -47558,10 +47444,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-06-05" xml:id="ls49_t7_l4">
               <eventName xml:lang="de">Zur Sentiment-Analyse mittelhochdeutscher Texte</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">medieval german literature, sentiment analysis, historical
@@ -47581,12 +47466,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-06-12" xml:id="ls49_t7_l5">
               <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von
                 Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im
                 digitalen Raum</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">lists, cultural heritage, documentation, inventories,
@@ -47606,7 +47490,6 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-06-19" xml:id="ls49_t7_l6">
               <eventName xml:lang="de">Vom Regenwald auf den Bildschirm: Digitale Ansätze zur
                 Erforschung der antiken Maya-Schrift</eventName>
@@ -47659,11 +47542,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-06-26" xml:id="ls49_t7_l7">
               <eventName xml:lang="de">Musik modellieren: Von der Schwierigkeit, das Unsichtbare
                 sichtbar zu machen</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">music modeling, computational analysis, visualization, sonic
@@ -47683,11 +47565,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-07-03" xml:id="ls49_t7_l8">
               <eventName xml:lang="de">Herausforderungen der Bildforschung zu Social
                 Media-Bildkulturen </eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#media-studies"/><term
                   type="topics-llm">social media, visual culture, image analysis, research methods,
@@ -47707,11 +47588,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2024-07-10" xml:id="ls49_t7_l9">
               <eventName xml:lang="de">Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze
                 im Projekt „Filmzirkulation“</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#media-studies #digital-humanities"/><term type="topics-llm">festival
@@ -47732,18 +47612,15 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
           <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls49_t8">
             <eventName>Sommersemester 2025</eventName>
             <ptr type="programme"
               target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
-
             <event type="lecture" when="2025-04-23" xml:id="ls49_t8_l1">
               <eventName xml:lang="de">Digitale Kompetenzen und Data Literacy</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">data literacy, digital skills, information management,
@@ -47763,11 +47640,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-05-07" xml:id="ls49_t8_l2">
               <eventName xml:lang="de">Was mit Daten, was mit Sinn. Zu computationellen Praktiken
                 der Literaturwissenschaft im 21.Jahrhundert</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#literary-studies #computer-science"/><term type="topics-llm">data
@@ -47788,11 +47664,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-05-14" xml:id="ls49_t8_l3">
               <eventName xml:lang="de">Resilient, föderiert, barrierearm: Kulturgutdaten und Web
                 Apps für Menschen und Datenräume</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">accessibility, cultural data, web applications, data spaces,
@@ -47812,11 +47687,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-05-21" xml:id="ls49_t8_l4">
               <eventName xml:lang="de">Die UNESCO und KI-Ethik – Politischer Rahmen und digitale
                 Anwendungen im Welterbe</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #political-science"/><term type="topics-llm">unesco,
@@ -47843,11 +47717,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-06-04" xml:id="ls49_t8_l5">
               <eventName xml:lang="en">Semantic Web for Cultural Heritage. An
                 Introduction</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history #archaeology"/><term
                   type="topics-llm">semantic web, cultural heritage, linked data, knowledge
@@ -47867,12 +47740,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-06-11" xml:id="ls49_t8_l6">
               <eventName xml:lang="de">Die Tatsache, dass ich mich in Dich verliebt habe, ist nun
                 wohl kein Geheimnis mehr (…). LB_00017_0001. Das Citizen-Science-Projekt ‚Gruß und
                 Kuss – Bürger*innen erhalten Liebesbriefe‘</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">love letters, citizen science, historical documents, emotional
@@ -47892,11 +47764,10 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-06-25" xml:id="ls49_t8_l7">
               <eventName xml:lang="en">Generative AI in the Humanities. Current Landscape and Future
                 Horizons</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm"
@@ -47917,10 +47788,9 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-07-02" xml:id="ls49_t8_l8">
               <eventName xml:lang="de">Digitale Musikverarbeitung.Vom Scheitern lernen</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">audio processing, music analysis, computational musicology,
@@ -47940,12 +47810,11 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <event type="lecture" when="2025-07-09" xml:id="ls49_t8_l9">
               <eventName xml:lang="de">Erfassung und Analyse historischer Architektur durch
                 semantische Modellierung. Eine kollaborative und anschlussfähige Methode für die
                 Erschließung und den Erhalt gebauter Sachzeugnisse</eventName>
-              <ptr type="programme" target="..."/>
+              
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history #archaeology"/><term
                   type="topics-llm">historical architecture, semantic modeling, collaborative
@@ -47965,22 +47834,21 @@
               <org role="host-institution" corresp="#uni-mainz #adw-mainz #uni-mainz-haw #ieg-mainz"
               />
             </event>
-
             <org role="organizer" cert="low" corresp="#niedermueller_peter"/>
           </event>
-
         </event>
-
-
         <event xml:id="ls67" type="lecture-series" where="#online">
           <eventName xml:lang="de">Wissen, worauf es ankommt</eventName>
           <note type="description" xml:lang="de">
-            <p>Eine Coffee-Lecture-Serie der DHd-AG Digitale Wissenschaftskommunikation und Public Humanitites.</p>
+            <p>Eine Coffee-Lecture-Serie der DHd-AG Digitale Wissenschaftskommunikation und Public
+              Humanitites.</p>
           </note>
-          <ptr type="programme" target="https://web.archive.org/web/20260915141515/https://events.gwdg.de/event/974/overview"/>
+          <ptr type="programme"
+            target="https://web.archive.org/web/20260915141515/https://events.gwdg.de/event/974/overview"/>
           <event type="lecture-series-term" from="2024-11" to="2025-01" xml:id="ls67_t1">
             <eventName>Eine Coffee-Lecture-Serie im Wintersemester 2024</eventName>
-            <ptr type="programme" target="https://web.archive.org/web/20260915141515/https://events.gwdg.de/event/974/overview"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20260915141515/https://events.gwdg.de/event/974/overview"/>
             <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
               verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
               Im Wintersemester 2024/25 widmen wir uns dabei den Bereichen KI in der
@@ -47990,7 +47858,8 @@
               Humanists, sondern alle Interessierten!</note>
             <event type="lecture" when="2024-11-25" xml:id="ls67_t1_l1">
               <eventName xml:lang="de">Darf's ein bisschen KI sein?</eventName>
-              <ptr type="programme" target="https://web.archive.org/web/20260915142410/https://events.gwdg.de/event/974/page/221-25112024-darfs-ein-bisschen-ki-sein"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20260915142410/https://events.gwdg.de/event/974/page/221-25112024-darfs-ein-bisschen-ki-sein"/>
               <note type="abstract" xml:lang="de">Regelmäßig posten, Persönlichkeit zeigen, im
                 Gesprach bleiben - strategische Wissenschaftskommunikation und deren „Schlüssel" zur
                 Sichtbarkeit werden in den Digital Humanities bereits häufig eingesetzt. Mit der
@@ -48000,7 +47869,8 @@
                 sinnvoll eingesetzt werden können.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
-                <term type="topics-llm">artificial intelligence, science communication, social media, visibility, tool applications</term>
+                <term type="topics-llm">artificial intelligence, science communication, social
+                  media, visibility, tool applications</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48019,14 +47889,16 @@
             <event type="lecture" when="2024-12-16" xml:id="ls67_t1_l2">
               <eventName xml:lang="de">Digital Humanities...? Erzähl mir mehr davon! - Wie die DFG
                 Wissenschaftskommunikation fördern kann</eventName>
-              <ptr type="programme" target="https://web.archive.org/web/20260915142615/https://events.gwdg.de/event/974/page/222-16122024-digital-humanities-erzaehl-mir-mehr-davon"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20260915142615/https://events.gwdg.de/event/974/page/222-16122024-digital-humanities-erzaehl-mir-mehr-davon"/>
               <note type="abstract" xml:lang="de">"Wir beantragen die Erstellung einer Webseite."
                 Aber ist es damit getan? Gerade die Digital Humanities bergen ein Potenzial, das
                 über Blogs, Podcasts und Co hinausgeht. Eine Coffee Lecture über
                 Öffentlichkeitsarbeit, Kreativität, Aufwand, Kosten und Nutzen.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
-                <term type="topics-llm">public engagement, science communication, funding opportunities, outreach strategies, creative dissemination</term>
+                <term type="topics-llm">public engagement, science communication, funding
+                  opportunities, outreach strategies, creative dissemination</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48044,7 +47916,8 @@
             </event>
             <event type="lecture" when="2025-01-13" xml:id="ls67_t1_l3">
               <eventName xml:lang="de">Professionelle WissKomm im Videoformat</eventName>
-              <ptr type="programme" target="https://web.archive.org/web/20260915142858/https://events.gwdg.de/event/974/page/223-13012025-professionelle-wisskomm-im-videoformat"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20260915142858/https://events.gwdg.de/event/974/page/223-13012025-professionelle-wisskomm-im-videoformat"/>
               <note type="abstract" xml:lang="de">In dieser Coffee Lecture taucht Filmproduzentin
                 und -regisseurin Marina Kem ein in die verschiedenen Möglichkeiten Filme für Digital
                 Humanities zu produzieren; sie betrachtet Kriterien für gute Erzählweisen,
@@ -48053,7 +47926,8 @@
                 preiswerter machen.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
-                <term type="topics-llm">video production, storytelling techniques, visualization methods, film workflows, cost management</term>
+                <term type="topics-llm">video production, storytelling techniques, visualization
+                  methods, film workflows, cost management</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48073,7 +47947,8 @@
           </event>
           <event type="lecture-series-term" from="2025-05" to="2025-07" xml:id="ls67_t2">
             <eventName>Eine Coffee-Lecture-Serie im Sommersemester 2025</eventName>
-            <ptr type="programme" target="https://web.archive.org/web/20260915141900/https://events.gwdg.de/event/1135/"/>
+            <ptr type="programme"
+              target="https://web.archive.org/web/20260915141900/https://events.gwdg.de/event/1135/"/>
             <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
               verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
               Im Sommersemester 2025 widmen wir uns dabei dem Thema Contenterstellung für
@@ -48084,7 +47959,8 @@
             <event type="lecture" when="2025-05-05" xml:id="ls67_t2_l1">
               <eventName xml:lang="de">Studentische Wissenschaftskommunikation und GenZ-Marketing
                 auf TikTok – Ein Praxisbericht</eventName>
-              <ptr type="programme" target="https://web.archive.org/web/20260915143046/https://events.gwdg.de/event/1135/page/338-05052025-studentische-wisskomm-und-genz-marketing-auf-tiktok"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20260915143046/https://events.gwdg.de/event/1135/page/338-05052025-studentische-wisskomm-und-genz-marketing-auf-tiktok"/>
               <note type="abstract" xml:lang="de">In meinem Vortrag gebe ich einen Einblick in die
                 Produktion von Videos für den TikTok-Account @glima.tuebingen, die im Rahmen des
                 Formats #LinguisTikTok zugleich sprachwissenschaftliche Inhalte vermitteln und
@@ -48094,7 +47970,8 @@
                 Wissenschaftskommunikation und Unterhaltungscontent bieten.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
-                <term type="topics-llm">student engagement, tiktok, science communication, linguistics, higher education marketing</term>
+                <term type="topics-llm">student engagement, tiktok, science communication,
+                  linguistics, higher education marketing</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -48113,7 +47990,8 @@
             <event type="lecture" when="2025-07-07" xml:id="ls67_t2_l2">
               <eventName xml:lang="de">Vom Forschen zum Staunen – Formatentwicklung in der
                 Wissenschaftskommunikation</eventName>
-              <ptr type="programme" target="https://web.archive.org/web/20260915143302/https://events.gwdg.de/event/1135/page/339-07072025-vom-forschen-zum-staunen"/>
+              <ptr type="programme"
+                target="https://web.archive.org/web/20260915143302/https://events.gwdg.de/event/1135/page/339-07072025-vom-forschen-zum-staunen"/>
               <note type="abstract" xml:lang="de">Wissenschaftskommunikation kennt eine Vielzahl von
                 Formaten – von der Printpublikation bis zum Podcast. Daher nimmt die gezielte
                 Konzeption von Formaten eine Schlüsselrolle bei der Planung von WissKomm-Projekten
@@ -48128,7 +48006,8 @@
                 Fallbeispiele.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
-                <term type="topics-llm">science communication, format design, public engagement, interdisciplinary collaboration, storytelling</term>
+                <term type="topics-llm">science communication, format design, public engagement,
+                  interdisciplinary collaboration, storytelling</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -51222,7 +51101,6 @@
               corresp="#nicka_isabella #zeppezauer-wachauer_katharina #faerberboeck_peter"/>
           </event>
         </event>
-
         <event xml:id="ls51" type="lecture-series" where="#graz">
           <eventName xml:lang="en">Breakfast Lecture</eventName>
           <ptr type="programme"
@@ -51235,10 +51113,8 @@
               zwanglosen Ambiente - unter gleichgesinnten Forschenden und Studierenden -
               weiterzubilden, Fachdiskussionen zu führen, Erfahrungen auszutauschen.</p>
           </note>
-
           <event type="lecture-series-term" from="2025-06" to="2025-10" xml:id="ls51_t1">
             <eventName xml:lang="de">2025</eventName>
-
             <event type="lecture" when="2025-06-11" xml:id="ls51_t1_l1">
               <eventName xml:lang="en">Automated Classification of Ottoman Court Records: Machine
                 Learning Approaches to Historical Legal Texts</eventName>
@@ -51246,7 +51122,7 @@
                 target="https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/"/>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf"/>
-              <ptr type="video" target="..."/>
+              
               <note type="abstract" xml:lang="en">
                 <p>This presentation introduces a computational framework for automatically
                   classifying 112,000 Latintranscribed Ottoman court records (kadi sicilleri) into
@@ -51289,7 +51165,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-graz"/>
             </event>
-
             <event type="lecture" when="2025-06-18" xml:id="ls51_t1_l2">
               <eventName xml:lang="en">Post-National and National: Kosovo’s Quest for a Narrative
                 (Digital or Otherwise)</eventName>
@@ -51297,7 +51172,7 @@
                 target="https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/"/>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf"/>
-              <ptr type="video" target="..."/>
+              
               <note type="abstract" xml:lang="en">
                 <p>Kosovo's externally constructed independence in 2008 seemed to offer a new path
                   to historical understanding that might make Kosovo an outlier in the memory
@@ -51330,7 +51205,6 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-graz"/>
             </event>
-
             <event type="lecture" when="2025-10-29" xml:id="ls51_t1_l3">
               <eventName xml:lang="en">KuiSCIMA: How to Create and Use a Digital Symbolic Dataset of
                 Medieval Chinese Music</eventName>
@@ -51338,7 +51212,7 @@
                 target="https://web.archive.org/web/20251105134209/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-29.-october-900-bis-1000-uhr/"/>
               <ptr type="programme"
                 target="https://web.archive.org/web/20251105134039/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Breakfast_lectures_2025_10_29_Repolusk.pdf"/>
-              <ptr type="video" target="..."/>
+              
               <note type="abstract" xml:lang="en">
                 <p>The influential poet and composer Jiang Kui 姜夔 (1155– 1221) authored numerous
                   poems. His renowned poetry collection Baishidaoren Gequ 白石道人歌曲 (Songs of the
@@ -51376,12 +51250,9 @@
               </listPerson>
               <org role="host-institution" corresp="#uni-graz"/>
             </event>
-
             <org role="organizer" corresp="#bauer_bernhard #lang_sarah #ristic_dusan"/>
           </event>
-
         </event>
-
         <!-- ##### Switzerland ##### -->
         <event xml:id="ls24" type="lecture-series" where="#bern">
           <eventName xml:lang="de">Einblicke in die Digital Humanities</eventName>
@@ -53938,7 +53809,7 @@
                 Visualization</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250626094210/https://www.epfl.ch/schools/cdh/hidden-in-plain-sight-unspoken-premises-of-dh-visualization/"/>
-              <ptr type="video" target="2018-10-10 https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
+              <ptr type="video" target="https://mediaspace.epfl.ch/media/0_qa1vbvxx"/>
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords">
                 <term type="discipline" corresp="#digital-humanities"/>
