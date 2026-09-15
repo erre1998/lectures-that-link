@@ -49142,14 +49142,14 @@
           </event>
         </event>
         <event xml:id="ls67" type="lecture-series" where="#online">
-          <!-- lecture series was held online only, no specific place can be determined -->
           <eventName xml:lang="de">Wissen, worauf es ankommt</eventName>
-          <ptr type="programme" target="https://events.gwdg.de/event/974/overview"/>
-          <ptr type="programme" target="https://events.gwdg.de/event/1135/"/>
-
+          <note type="description" xml:lang="de">
+            <p>Eine Coffee-Lecture-Serie der DHd-AG Digitale Wissenschaftskommunikation und Public Humanitites.</p>
+          </note>
+          <ptr type="programme" target="https://web.archive.org/web/20260915141515/https://events.gwdg.de/event/974/overview"/>
           <event type="lecture-series-term" from="2024-11" to="2025-01" xml:id="ls67_t1">
             <eventName>Eine Coffee-Lecture-Serie im Wintersemester 2024</eventName>
-            <ptr type="programme" target="https://events.gwdg.de/event/974/overview"/>
+            <ptr type="programme" target="https://web.archive.org/web/20260915141515/https://events.gwdg.de/event/974/overview"/>
             <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
               verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
               Im Wintersemester 2024/25 widmen wir uns dabei den Bereichen KI in der
@@ -49157,9 +49157,9 @@
               Videoformat. Dabei wird es jeweils einen Vortrag von 20–30 Minuten geben, an den sich
               eine rege Diskussion anschließt. Willkommen sind nicht nur AG-Mitglieder oder Digital
               Humanists, sondern alle Interessierten!</note>
-
             <event type="lecture" when="2024-11-25" xml:id="ls67_t1_l1">
               <eventName xml:lang="de">Darf's ein bisschen KI sein?</eventName>
+              <ptr type="programme" target="https://web.archive.org/web/20260915142410/https://events.gwdg.de/event/974/page/221-25112024-darfs-ein-bisschen-ki-sein"/>
               <note type="abstract" xml:lang="de">Regelmäßig posten, Persönlichkeit zeigen, im
                 Gesprach bleiben - strategische Wissenschaftskommunikation und deren „Schlüssel" zur
                 Sichtbarkeit werden in den Digital Humanities bereits häufig eingesetzt. Mit der
@@ -49169,7 +49169,7 @@
                 sinnvoll eingesetzt werden können.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
-                <term type="topics-llm">...</term>
+                <term type="topics-llm">artificial intelligence, science communication, social media, visibility, tool applications</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -49188,13 +49188,14 @@
             <event type="lecture" when="2024-12-16" xml:id="ls67_t1_l2">
               <eventName xml:lang="de">Digital Humanities...? Erzähl mir mehr davon! - Wie die DFG
                 Wissenschaftskommunikation fördern kann</eventName>
+              <ptr type="programme" target="https://web.archive.org/web/20260915142615/https://events.gwdg.de/event/974/page/222-16122024-digital-humanities-erzaehl-mir-mehr-davon"/>
               <note type="abstract" xml:lang="de">"Wir beantragen die Erstellung einer Webseite."
                 Aber ist es damit getan? Gerade die Digital Humanities bergen ein Potenzial, das
                 über Blogs, Podcasts und Co hinausgeht. Eine Coffee Lecture über
                 Öffentlichkeitsarbeit, Kreativität, Aufwand, Kosten und Nutzen.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication"/>
-                <term type="topics-llm">...</term>
+                <term type="topics-llm">public engagement, science communication, funding opportunities, outreach strategies, creative dissemination</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -49212,6 +49213,7 @@
             </event>
             <event type="lecture" when="2025-01-13" xml:id="ls67_t1_l3">
               <eventName xml:lang="de">Professionelle WissKomm im Videoformat</eventName>
+              <ptr type="programme" target="https://web.archive.org/web/20260915142858/https://events.gwdg.de/event/974/page/223-13012025-professionelle-wisskomm-im-videoformat"/>
               <note type="abstract" xml:lang="de">In dieser Coffee Lecture taucht Filmproduzentin
                 und -regisseurin Marina Kem ein in die verschiedenen Möglichkeiten Filme für Digital
                 Humanities zu produzieren; sie betrachtet Kriterien für gute Erzählweisen,
@@ -49220,7 +49222,7 @@
                 preiswerter machen.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
-                <term type="topics-llm">...</term>
+                <term type="topics-llm">video production, storytelling techniques, visualization methods, film workflows, cost management</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -49236,13 +49238,11 @@
               </listPerson>
               <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
             </event>
-
             <org role="organizer" cert="low" corresp="#schumacher_mareike #seltmann_melanie"/>
           </event>
-
           <event type="lecture-series-term" from="2025-05" to="2025-07" xml:id="ls67_t2">
             <eventName>Eine Coffee-Lecture-Serie im Sommersemester 2025</eventName>
-            <ptr type="programme" target="https://events.gwdg.de/event/1135/"/>
+            <ptr type="programme" target="https://web.archive.org/web/20260915141900/https://events.gwdg.de/event/1135/"/>
             <note type="abstract" xml:lang="de">In der Coffee Lecture beleuchten wir gemeinsam
               verschiedene Themen rund um digitale Wissenschaftskommunikation und Public Humanities.
               Im Sommersemester 2025 widmen wir uns dabei dem Thema Contenterstellung für
@@ -49250,10 +49250,10 @@
               einen Vortrag von 20–30 Minuten geben, an den sich eine rege Diskussion anschließt.
               Willkommen sind nicht nur AG-Mitglieder oder Digital Humanists, sondern alle
               Interessierten!</note>
-
             <event type="lecture" when="2025-05-05" xml:id="ls67_t2_l1">
               <eventName xml:lang="de">Studentische Wissenschaftskommunikation und GenZ-Marketing
                 auf TikTok – Ein Praxisbericht</eventName>
+              <ptr type="programme" target="https://web.archive.org/web/20260915143046/https://events.gwdg.de/event/1135/page/338-05052025-studentische-wisskomm-und-genz-marketing-auf-tiktok"/>
               <note type="abstract" xml:lang="de">In meinem Vortrag gebe ich einen Einblick in die
                 Produktion von Videos für den TikTok-Account @glima.tuebingen, die im Rahmen des
                 Formats #LinguisTikTok zugleich sprachwissenschaftliche Inhalte vermitteln und
@@ -49263,7 +49263,7 @@
                 Wissenschaftskommunikation und Unterhaltungscontent bieten.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
-                <term type="topics-llm">...</term>
+                <term type="topics-llm">student engagement, tiktok, science communication, linguistics, higher education marketing</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -49282,6 +49282,7 @@
             <event type="lecture" when="2025-07-07" xml:id="ls67_t2_l2">
               <eventName xml:lang="de">Vom Forschen zum Staunen – Formatentwicklung in der
                 Wissenschaftskommunikation</eventName>
+              <ptr type="programme" target="https://web.archive.org/web/20260915143302/https://events.gwdg.de/event/1135/page/339-07072025-vom-forschen-zum-staunen"/>
               <note type="abstract" xml:lang="de">Wissenschaftskommunikation kennt eine Vielzahl von
                 Formaten – von der Printpublikation bis zum Podcast. Daher nimmt die gezielte
                 Konzeption von Formaten eine Schlüsselrolle bei der Planung von WissKomm-Projekten
@@ -49296,7 +49297,7 @@
                 Fallbeispiele.</note>
               <note type="keywords">
                 <term type="discipline" corresp="#science-communication #media-studies"/>
-                <term type="topics-llm">...</term>
+                <term type="topics-llm">science communication, format design, public engagement, interdisciplinary collaboration, storytelling</term>
               </note>
               <note type="realization">
                 <term type="speech">online</term>
@@ -49312,12 +49313,9 @@
               </listPerson>
               <org role="host-institution" corresp="#dhd-ag_wisskomm"/>
             </event>
-
             <org role="organizer" cert="low" corresp="#schumacher_mareike #seltmann_melanie"/>
           </event>
-
         </event>
-
         <!-- ##### Austria ##### -->
         <event xml:id="ls22" type="lecture-series" where="#wien">
           <eventName xml:lang="en">The Digital Humanities Guest Lecture Series / Introduction to
