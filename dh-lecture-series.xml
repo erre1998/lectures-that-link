@@ -45912,30 +45912,7 @@
         </event>
 
 
-        <event xml:id="ls52" type="lecture-series" where="#regensburg">
-          <eventName xml:lang="de">Trends der Digital Humanities</eventName>
-
-          <event type="lecture-series-term" from="2024-04" to="2024-07" xml:id="ls52_t1">
-            <eventName>Sommersemester 2024</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250809192526/https://www.uni-regensburg.de/sprache-literatur-kultur/digital-humanities/veranstaltungen/vergangene-semester/index.html"/>
-
-
-
-            <org role="organizer" corresp="#schumacher_mareike #helmig_clara"/>
-          </event>
-
-          <event type="lecture-series-term" from="2025-04" to="2025-07" xml:id="ls52_t2">
-            <eventName>Sommersemester 2025</eventName>
-            <ptr type="programme"
-              target="https://web.archive.org/web/20250809192731/https://www.uni-regensburg.de/sprache-literatur-kultur/digital-humanities/veranstaltungen/ringvorlesung-sommer-2025/index.html"/>
-
-
-
-            <org role="organizer" corresp="#schumacher_mareike #helmig_clara"/>
-          </event>
-
-        </event>
+        
 
         <event xml:id="ls49" type="lecture-series" where="#mainz">
           <eventName xml:lang="de">Transdisziplinäre Aspekte Digitaler Methodik in den Geistes- und
