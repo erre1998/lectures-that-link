@@ -3,9 +3,9 @@ title: "Lectures that Link"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.15769950
-version: "0.6"
+version: "0.8"
 license: "GPL-3.0"
-date-released: 2025-09-27
+date-released: 2026-09-16
 authors: 
   - family-names: Henny-Krahmer
     given-names: Ulrike
