@@ -19,7 +19,7 @@
   
   <xsl:variable name="selection-ls" select="('ls22', 'ls23', 'ls42', 'ls10', 'ls11',
     'ls12', 'ls13', 'ls14', 'ls15', 'ls16', 'ls17', 'ls18', 'ls19', 'ls20', 'ls21', 'ls8', 'ls9',
-    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45', 'ls49', 'ls51', 'ls53')"/>
+    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45', 'ls49', 'ls51', 'ls53', 'ls67')"/>
   <xsl:variable name="selection-years" select="('2016','2017','2018','2019','2020','2022','2023','2024','2025')"/>
   
   <xsl:variable name="relevant-lectures" select="$lectures-file//event[@type='lecture'][./ancestor::event[@type='lecture-series']/@xml:id = $selection-ls][substring(@when,1,4)=$selection-years]"/>
@@ -30,15 +30,15 @@
   
   
   <xsl:template match="/">
-    <!--<xsl:call-template name="intersections-contributors-dhd"/>
-    <xsl:call-template name="intersections-speakers-lecture-series"/>-->
+    <!--<xsl:call-template name="intersections-contributors-dhd"/>-->
+    <!--<xsl:call-template name="intersections-speakers-lecture-series"/>-->
     
     <xsl:call-template name="intersections-both"/>
   </xsl:template>
   
   <xsl:function name="local:get-speaker-id" as="xs:string">
     <xsl:param name="speaker-name"/>
-    <xsl:message><xsl:value-of select="$speaker-name"/></xsl:message>
+    <xsl:message>Speaker name 1: <xsl:value-of select="$speaker-name"/></xsl:message>
     <!--  
     <xsl:variable name="speaker-surname" select="tokenize($speaker-name,',\s')[1]"/>
     <xsl:variable name="speaker-forename" select="tokenize($speaker-name,',\s')[2]"/>
@@ -46,7 +46,7 @@
     <xsl:variable name="speaker-id" select="$speaker-person/@xml:id"/>
     -->
     <xsl:variable name="speaker-id" select="$intersections-contributors-dhd//person[name=$speaker-name]/idno[@type='lecture-series']"/>
-    <xsl:message><xsl:value-of select="$speaker-id"/></xsl:message>
+    <xsl:message>Speaker id 1:<xsl:value-of select="$speaker-id"/></xsl:message>
     <xsl:value-of select="$speaker-id"/>
   </xsl:function>
   
@@ -67,14 +67,15 @@
             y: [<xsl:for-each select="$speakers-both">
               <xsl:variable name="speaker-name" select="name"/>
               <xsl:variable name="speaker-id" select="local:get-speaker-id($speaker-name)"/>
-              <xsl:message><xsl:value-of select="$speaker-name"/></xsl:message>
-              <xsl:variable name="num-contributions-dhd" select="count($dhd-abstracts-file//event[.//person/name=$speaker-name])"/>
+              <xsl:message>Speaker name 2: <xsl:value-of select="$speaker-name"/></xsl:message>
+              <xsl:variable name="num-contributions-dhd" select="count($dhd-abstracts-file//event[.//person/name=$speaker-name or .//person/idno[@type='orcid'] = $speaker-name or .//person/idno[@type='wikidata'] = $speaker-name])"/>
               <xsl:variable name="quote-dhd" select="$num-contributions-dhd div count($dhd-abstracts-file//event)"/>
               <xsl:message>No. contributions DHd: <xsl:value-of select="$num-contributions-dhd"/></xsl:message>
               <xsl:variable name="num-lectures" select="count($relevant-lectures[.//person[@role='speaker']/@corresp = concat('#',local:get-speaker-id($speaker-name))])"/>
               <xsl:message>No. lectures: <xsl:value-of select="$num-lectures"/></xsl:message>
               <xsl:variable name="quote-lectures" select="$num-lectures div count($relevant-lectures)"/>
               <xsl:variable name="intersection-score" select="$quote-dhd div $quote-lectures"/>
+              <xsl:message>Intersection score: <xsl:value-of select="$intersection-score"/></xsl:message>
               <xsl:value-of select="$intersection-score"/>
               <xsl:if test="position()!=last()">,</xsl:if>
             </xsl:for-each>],
@@ -107,11 +108,21 @@
         <xsl:variable name="speaker-id" select="substring-after(current-grouping-key(),'#')"/>
         <xsl:variable name="speaker" select="//teiHeader//person[@xml:id=$speaker-id]"/>
         <xsl:variable name="speaker-name" select="string-join(($speaker//surname, $speaker//forename),', ')"/>
+        <xsl:variable name="orcid" select="$speaker//idno[@type='orcid']/substring-after(.,'https://orcid.org/')"/>
+        <xsl:variable name="wikidata" select="$speaker//idno[@type='wikidata']/substring-after(.,'https://www.wikidata.org/wiki/')"/>
         <person>
           <name><xsl:value-of select="$speaker-name"/></name>
+          <xsl:if test="$orcid">
+            <idno type="orcid"><xsl:value-of select="$orcid"/></idno>
+          </xsl:if>
+          <xsl:if test="$wikidata">
+            <idno type="wikidata"><xsl:value-of select="$wikidata"/></idno>
+          </xsl:if>
           <note type="lecture-series">yes</note>
           <note type="dhd-abstracts">
             <xsl:choose>
+              <xsl:when test="$intersections-contributors-dhd//person[idno[@type='orcid']=$orcid]">yes</xsl:when>
+              <xsl:when test="$intersections-contributors-dhd//person[idno[@type='wikidata']=$wikidata]">yes</xsl:when>
               <xsl:when test="$intersections-contributors-dhd//person[normalize-space(name)=normalize-space($speaker-name)]">yes</xsl:when>
               <xsl:otherwise>no</xsl:otherwise>
             </xsl:choose>
@@ -125,14 +136,19 @@
     <!-- these results should be stored as:
     ../analyses/contribution-eadh2026/intersections-contributors-dhd.xml -->
     <listPerson>
-      <xsl:for-each-group select="$dhd-abstracts-file//person" group-by="name">
+      <xsl:for-each-group select="$dhd-abstracts-file//person" group-by="if (idno[@type='orcid']) then idno[@type='orcid'] else if (idno[@type='wikidata']) then idno[@type='wikidata'] else name">
         <xsl:sort select="current-grouping-key()"/>
-        <xsl:variable name="surname" select="tokenize(current-grouping-key(),',\s')[1]"/>
-        <xsl:variable name="forename" select="tokenize(current-grouping-key(),',\s')[2]"/>
+        <!--<xsl:variable name="surname" select="tokenize(current-grouping-key(),',\s')[1]"/>
+        <xsl:variable name="forename" select="tokenize(current-grouping-key(),',\s')[2]"/>-->
+        <xsl:variable name="surname" select="tokenize(current-group()[1]/name,',\s')[1]"/>
+        <xsl:variable name="forename" select="tokenize(current-group()[1]/name,',\s')[2]"/>
         <person>
           <name><xsl:value-of select="current-grouping-key()"/></name>
           <xsl:if test="current-group()[idno[@type='orcid']]">
             <xsl:copy-of select="current-group()[idno[@type='orcid']][1]/idno[@type='orcid']"/>
+          </xsl:if>
+          <xsl:if test="current-group()[idno[@type='wikidata']]">
+            <xsl:copy-of select="current-group()[idno[@type='wikidata']][1]/idno[@type='wikidata']"/>
           </xsl:if>
           <note type="dhd-abstracts">yes</note>
           <xsl:variable name="idno-ls">
@@ -142,6 +158,30 @@
                 <xsl:choose>
                   <xsl:when test="$lectures-file//particDesc//person[contains(idno[@type='orcid'],$orcid)]">
                     <xsl:value-of select="$lectures-file//particDesc//person[contains(idno[@type='orcid'],$orcid)]/@xml:id"/>
+                  </xsl:when>
+                  <xsl:when test="current-group()[idno[@type='wikidata']]">
+                    <xsl:variable name="wikidata" select="current-group()[idno[@type='wikidata']][1]/idno[@type='wikidata']"/>
+                    <xsl:choose>
+                      <xsl:when test="$lectures-file//particDesc//person[contains(idno[@type='wikidata'],$wikidata)]">
+                        <xsl:value-of select="$lectures-file//particDesc//person[contains(idno[@type='wikidata'],$wikidata)]/@xml:id"/>
+                      </xsl:when>
+                      <xsl:when test="$lectures-file//particDesc//person[name/surname=$surname and name/forename=$forename]">
+                        <xsl:value-of select="$lectures-file//particDesc//person[name/surname=$surname and name/forename=$forename]/@xml:id"/>
+                      </xsl:when>
+                      <xsl:otherwise><xsl:text>not found</xsl:text></xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:when>
+                  <xsl:when test="$lectures-file//particDesc//person[name/surname=$surname and name/forename=$forename]">
+                    <xsl:value-of select="$lectures-file//particDesc//person[name/surname=$surname and name/forename=$forename]/@xml:id"/>
+                  </xsl:when>
+                  <xsl:otherwise><xsl:text>not found</xsl:text></xsl:otherwise>
+                </xsl:choose>
+              </xsl:when>
+              <xsl:when test="current-group()[idno[@type='wikidata']]">
+                <xsl:variable name="wikidata" select="current-group()[idno[@type='wikidata']][1]/idno[@type='wikidata']"/>
+                <xsl:choose>
+                  <xsl:when test="$lectures-file//particDesc//person[contains(idno[@type='wikidata'],$wikidata)]">
+                    <xsl:value-of select="$lectures-file//particDesc//person[contains(idno[@type='wikidata'],$wikidata)]/@xml:id"/>
                   </xsl:when>
                   <xsl:when test="$lectures-file//particDesc//person[name/surname=$surname and name/forename=$forename]">
                     <xsl:value-of select="$lectures-file//particDesc//person[name/surname=$surname and name/forename=$forename]/@xml:id"/>
