@@ -2,4 +2,4818 @@
 <listPerson xmlns="http://www.tei-c.org/ns/1.0" xmlns:local="local">
    <person>
       <name>Sahle, Patrick</name>
+      <idno type="orcid">0000-0002-8648-2033</idno>
+      <idno type="wikidata">Q64930071</idno>
       <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hoffmann, Moritz</name>
+      <idno type="orcid">0000-0002-8427-5380</idno>
+      <idno type="wikidata">Q117789125</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Parina, Elena</name>
+      <idno type="orcid">0000-0003-1095-6279</idno>
+      <idno type="wikidata">Q112439541</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gengnagel, Tessa</name>
+      <idno type="orcid">0000-0001-8820-5112</idno>
+      <idno type="wikidata">Q118437166</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Fischer, Franz</name>
+      <idno type="orcid">0000-0002-1708-7371</idno>
+      <idno type="wikidata">Q126596360</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Elwert, Frederik</name>
+      <idno type="orcid">0000-0001-9149-9377</idno>
+      <idno type="wikidata">Q115647358</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hermes, Jürgen</name>
+      <idno type="orcid">0000-0002-8367-8073</idno>
+      <idno type="wikidata">Q55075809</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dieckmann, Lisa</name>
+      <idno type="orcid">0000-0002-1708-7371</idno>
+      <idno type="wikidata">Q85496105</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Neuefeind, Claes</name>
+      <idno type="orcid">0000-0002-9377-9492</idno>
+      <idno type="wikidata">Q115694659</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Fischer, Frank</name>
+      <idno type="orcid">0000-0003-2419-6629</idno>
+      <idno type="wikidata">Q57697383</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Eide, Øyvind</name>
+      <idno type="orcid">0000-0002-7766-6287</idno>
+      <idno type="wikidata">Q20905067</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Diederichs, Katja</name>
+      <idno type="orcid">0000-0003-3409-9902</idno>
+      <idno type="wikidata">Q126599625</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Prager, Christian</name>
+      <idno type="orcid">0000-0002-7208-9417</idno>
+      <idno type="wikidata">Q56251691</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Geelhaar, Tim</name>
+      <idno type="orcid">0000-0002-7653-5859</idno>
+      <idno type="wikidata">Q126691898</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Declerck, Thierry</name>
+      <idno type="orcid">0000-0002-9450-6648</idno>
+      <idno type="wikidata">Q54803596</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Daxenberger, Johannes</name>
+      <idno type="orcid">0000-0002-7385-5654</idno>
+      <idno type="wikidata">Q67390757</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dängeli, Peter</name>
+      <idno type="orcid">0000-0003-3576-7474</idno>
+      <idno type="wikidata">Q126691831</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Demantowsky, Marko</name>
+      <idno type="orcid">0000-0003-3587-3357</idno>
+      <idno type="wikidata">Q63075306</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hentschel, Frank</name>
+      <idno type="orcid">0000-0002-9441-3396</idno>
+      <idno type="wikidata">Q62559941</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Henny-Krahmer, Ulrike</name>
+      <idno type="orcid">0000-0003-2852-065X</idno>
+      <idno type="wikidata">Q115644151</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hodel, Tobias</name>
+      <idno type="orcid">0000-0002-2071-6407</idno>
+      <idno type="wikidata">Q119441378</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Witt, Andreas</name>
+      <idno type="orcid">0000-0002-0299-5713</idno>
+      <idno type="wikidata">Q71724704</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Wübbena, Thorsten</name>
+      <idno type="orcid">0000-0001-8172-6097</idno>
+      <idno type="wikidata">Q42737846</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Cremer, Fabian</name>
+      <idno type="orcid">0000-0001-8251-9727</idno>
+      <idno type="wikidata">Q45340620</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Siemens, Ray</name>
+      <idno type="orcid">0000-0002-9599-8795</idno>
+      <idno type="wikidata">Q34345361</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pujol, Laia</name>
+      <idno type="orcid">0000-0002-0254-9238</idno>
+      <idno type="wikidata">Q131425029</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>El Khatib, Randa</name>
+      <idno type="orcid">0000-0002-2480-4746</idno>
+      <idno type="wikidata">Q126691934</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schulz, Sarah</name>
+      <idno type="wikidata">Q126691823</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Reiter, Nils</name>
+      <idno type="orcid">0000-0003-3193-6170</idno>
+      <idno type="wikidata">Q80687598</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kirschbaum, Jan</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Paliou, Eleftheria</name>
+      <idno type="orcid">0000-0002-0357-8751</idno>
+      <idno type="wikidata">Q30038767</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schelbert, Georg</name>
+      <idno type="orcid">0000-0002-7314-8589</idno>
+      <idno type="wikidata">Q42738486</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Wikman, Thomas</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rau, Felix</name>
+      <idno type="orcid">0000-0003-4167-0601</idno>
+      <idno type="wikidata">Q96580035</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Mondaca, Francisco</name>
+      <idno type="orcid">0000-0003-1384-7297</idno>
+      <idno type="wikidata">Q96579985</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Zimmer, Sebastian</name>
+      <idno type="wikidata">Q131425894</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>König, Mareike</name>
+      <idno type="orcid">0000-0002-8189-8574</idno>
+      <idno type="wikidata">Q19595449</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Probst, Nora</name>
+      <idno type="orcid">0000-0001-6932-0879</idno>
+      <idno type="wikidata">Q126597973</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Mertgens, Andreas</name>
+      <idno type="orcid">0000-0003-4665-2226</idno>
+      <idno type="wikidata">Q126595955</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Türkoğlu, Enes</name>
+      <idno type="orcid">0000-0002-1591-9453</idno>
+      <idno type="wikidata">Q126691938</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Saef, Nasrin</name>
+      <idno type="wikidata">Q126595944</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Blumtritt, Jonathan</name>
+      <idno type="orcid">0000-0002-1438-379X</idno>
+      <idno type="wikidata">Q115694668</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Helling, Patrick</name>
+      <idno type="orcid">0000-0003-4043-165X</idno>
+      <idno type="wikidata">Q115694676</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Christlein, Vincent</name>
+      <idno type="orcid">0000-0003-0455-3799</idno>
+      <idno type="wikidata">Q91727632</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Glinka, Katrin</name>
+      <idno type="orcid">0000-0002-4232-8907</idno>
+      <idno type="wikidata">Q126592364</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Meier-Vieracker, Simon</name>
+      <idno type="orcid">0000-0002-0141-9327</idno>
+      <idno type="wikidata">Q89592317</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Chiarcos, Christian</name>
+      <idno type="orcid">0000-0002-4428-029X</idno>
+      <idno type="wikidata">Q59505755</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ionov, Maxim</name>
+      <idno type="orcid">0000-0002-5631-1727</idno>
+      <idno type="wikidata">Q126595027</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Czmiel, Alexander</name>
+      <idno type="wikidata">Q126595870</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pierazzo, Elena</name>
+      <idno type="orcid">0000-0003-1356-3884</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Huitfeldt, Claus</name>
+      <idno type="wikidata">Q129260246</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sperberg-McQueen, Michael</name>
+      <idno type="wikidata">Q6834532</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Klein, Björn</name>
+      <idno type="orcid">0000-0002-5303-3282</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Demmer, Dennis</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Cugliana, Elisa</name>
+      <idno type="orcid">0000-0002-6460-2954</idno>
+      <idno type="wikidata">Q126594682</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Palladino, Chiara</name>
+      <idno type="orcid">0000-0002-1811-5602</idno>
+      <idno type="wikidata">Q126916322</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Karimi, Farimah</name>
+      <idno type="wikidata">Q131915532</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Oberste-Hetbleck, Nadine</name>
+      <idno type="orcid">0000-0002-1446-1057</idno>
+      <idno type="wikidata">Q95201381</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bigalke, Jan</name>
+      <idno type="orcid">0000-0003-0721-9980</idno>
+      <idno type="wikidata">Q126596359</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Drach, Sviatoslav</name>
+      <idno type="orcid">0000-0003-3324-1655</idno>
+      <idno type="wikidata">Q126598039</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pohl, Adrian</name>
+      <idno type="orcid">0000-0001-9083-7442</idno>
+      <idno type="wikidata">Q56883916</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Christoph, Pascal</name>
+      <idno type="orcid">0000-0001-9758-2577</idno>
+      <idno type="wikidata">Q63381053</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Steeg, Fabian</name>
+      <idno type="orcid">0000-0001-8829-1989</idno>
+      <idno type="wikidata">Q63381002</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kuroczynski, Piotr</name>
+      <idno type="orcid">0000-0001-9847-8368</idno>
+      <idno type="wikidata">Q105517697</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Peters, Jens</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Offert, Fabian</name>
+      <idno type="orcid">0000-0002-4757-8147</idno>
+      <idno type="wikidata">Q107176176</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pagel, Janis</name>
+      <idno type="orcid">0000-0003-4370-1483</idno>
+      <idno type="wikidata">Q126596267</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lorenz, Andrea</name>
+      <idno type="wikidata">Q126692019</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Berg, Mia</name>
+      <idno type="orcid">0000-0003-3511-385X</idno>
+      <idno type="wikidata">Q130797771</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schrade, Torsten</name>
+      <idno type="orcid">0000-0002-0953-2818</idno>
+      <idno type="wikidata">Q57948193</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Popović, Mihailo</name>
+      <idno type="orcid">0000-0002-3128-2210</idno>
+      <idno type="wikidata">Q115963597</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Koschiček-Krombholz, Bernhard</name>
+      <idno type="orcid">0000-0001-7608-7446</idno>
+      <idno type="wikidata">Q132426342</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Stede, Manfred</name>
+      <idno type="orcid">0000-0001-6819-2043</idno>
+      <idno type="wikidata">Q102670265</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Santos, Pedro</name>
+      <idno type="orcid">0000-0003-1813-1714</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Heßbrüggen-Walter, Stefan</name>
+      <idno type="orcid">0000-0002-9383-026X</idno>
+      <idno type="wikidata">Q87719913</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Grund, Vera</name>
+      <idno type="orcid">0000-0003-2453-9388</idno>
+      <idno type="wikidata">Q126692006</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Drewes, Henner</name>
+      <idno type="wikidata">Q126692007</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Münzmay, Andreas</name>
+      <idno type="orcid">0000-0002-8373-4055</idno>
+      <idno type="wikidata">Q126599593</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Messemer, Heike</name>
+      <idno type="orcid">0000-0003-4411-7035</idno>
+      <idno type="wikidata">Q130828500</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schrader, Oliver</name>
+      <idno type="orcid">0000-0003-0481-395X</idno>
+      <idno type="wikidata">Q113753839</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Gassmann, Sebastian</name>
+      <idno type="orcid">0009-0001-9396-8824</idno>
+      <idno type="wikidata">Q132427282</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Sode, Claudia</name>
+      <idno type="orcid">0000-0003-4183-0767</idno>
+      <idno type="wikidata">Q1097803</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Filosa, Martina</name>
+      <idno type="orcid">0000-0003-1900-4231</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sopracasa, Alessio</name>
+      <idno type="orcid">0000-0001-7973-7301</idno>
+      <idno type="wikidata">Q114444226</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ostrowski, Alina</name>
+      <idno type="orcid">0000-0002-0910-8566</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Horstmann, Jan</name>
+      <idno type="orcid">0000-0001-8047-2232</idno>
+      <idno type="wikidata">Q126595816</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Herrmann, Berenike</name>
+      <idno type="orcid">0000-0002-5256-0566</idno>
+      <idno type="wikidata">Q126593819</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Finlayson, Mark</name>
+      <idno type="orcid">0000-0001-5716-9526</idno>
+      <idno type="wikidata">Q102405390</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Heusinger, Klaus</name>
+      <idno type="orcid">0000-0001-8108-3191</idno>
+      <idno type="wikidata">Q62560618</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Niknia, Massoomeh</name>
+      <idno type="orcid">0009-0007-5247-3829</idno>
+      <idno type="wikidata">Q134609175</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ruiz Fabo, Pablo</name>
+      <idno type="orcid">0000-0002-4349-4835</idno>
+      <idno type="wikidata">Q126598183</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kurz, Susanne</name>
+      <idno type="orcid">0000-0002-2824-1485</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Li, Weixuan</name>
+      <idno type="orcid">0000-0002-1180-8852</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>De Sisto, Mirella</name>
+      <idno type="orcid">0000-0002-0899-5976</idno>
+      <idno type="wikidata">Q132380512</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Cremer, Daniel</name>
+      <idno type="orcid">0009-0006-6865-6315</idno>
+      <idno type="wikidata">Q60240812</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Verstegen, Ute</name>
+      <idno type="orcid">0000-0002-6577-5144</idno>
+      <idno type="wikidata">Q42738486</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Wagner, Andreas</name>
+      <idno type="orcid">0000-0003-1835-1653</idno>
+      <idno type="wikidata">Q116953040</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Berger, Daniel</name>
+      <idno type="wikidata">Q102428224</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Boizou, Loic</name>
+      <idno type="wikidata">Q135955779</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hayles, N. Katherine</name>
+      <idno type="orcid">0000-0001-5922-1033</idno>
+      <idno type="wikidata">Q4953004</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Klinger, Roman</name>
+      <idno type="orcid">0000-0002-2014-6619</idno>
+      <idno type="wikidata">Q30439210</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kamencek, Teresa</name>
+      <idno type="orcid">0009-0003-8096-8133</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lipińska, Aleksandra</name>
+      <idno type="orcid">0000-0003-1883-8912</idno>
+      <idno type="wikidata">Q107355086</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mercer, Tobias</name>
+      <idno type="wikidata">Q135955893</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Iliev, Dimitar</name>
+      <idno type="orcid">0000-0002-5231-818X</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Cuy, Sebastian</name>
+      <idno type="orcid">0000-0002-4081-0927</idno>
+      <idno type="wikidata">Q58333336</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Marras, Cristina</name>
+      <idno type="orcid">0000-0001-5927-897X</idno>
+      <idno type="wikidata">Q130823995</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hess, Mona</name>
+      <idno type="orcid">0000-0001-7298-7631</idno>
+      <idno type="wikidata">Q59917253</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Vaupotič, Aleš</name>
+      <idno type="orcid">0000-0002-0244-695X</idno>
+      <idno type="wikidata">Q65618862</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wickeroth, Daniel</name>
+      <idno type="wikidata">Q133720323</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Tambs, Lena</name>
+      <idno type="orcid">0000-0002-1603-9589</idno>
+      <idno type="wikidata">Q133934263</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Herzog, Irmela</name>
+      <idno type="orcid">0000-0002-3457-768X</idno>
+      <idno type="wikidata">Q59162344</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Martin-Rodilla, Patricia</name>
+      <idno type="orcid">0000-0002-1540-883X</idno>
+      <idno type="wikidata">Q133934383</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Stead, Steve</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Graña-Behrens, Daniel</name>
+      <idno type="orcid">0000-0002-9252-4957</idno>
+      <idno type="wikidata">Q113762687</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schubert, Zoe</name>
+      <idno type="orcid">0000-0001-9043-3632</idno>
+      <idno type="wikidata">Q126598044</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Perry, Sara</name>
+      <idno type="orcid">0000-0002-9694-000X</idno>
+      <idno type="wikidata">Q57442536</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Assmann, Jan</name>
+      <idno type="wikidata">Q61247</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kenter, Jan</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Läpke, Stefanie</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Giordano, Andrea</name>
+      <idno type="orcid">0000-0002-9747-133X</idno>
+      <idno type="wikidata">Q91605241</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bleeker, Elli</name>
+      <idno type="orcid">0000-0003-2039-7300</idno>
+      <idno type="wikidata">Q131522344</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kreppner, Florian Janoscha</name>
+      <idno type="wikidata">Q38589125</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Povroznik, Nadezhda</name>
+      <idno type="orcid">0000-0003-2044-8147</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gómez, Verónica Paula</name>
+      <idno type="orcid">0000-0001-7347-3683</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mara, Hubert</name>
+      <idno type="orcid">0000-0002-2004-4153</idno>
+      <idno type="wikidata">Q97924674</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Remmy, Michael</name>
+      <idno type="orcid">0000-0003-2121-8327</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hiseni, Valentina</name>
+      <idno type="orcid">0000-0002-1357-6127</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kruhl, Dominik</name>
+      <idno type="wikidata">Q126598213</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Theisen, Christian</name>
+      <idno type="orcid">0000-0002-3181-7254</idno>
+      <idno type="wikidata">Q126593961</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Byszuk, Joanna</name>
+      <idno type="orcid">0000-0003-2850-2996</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Papadopoulos, Costas</name>
+      <idno type="orcid">0000-0003-1072-5198</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Barker, Elton</name>
+      <idno type="orcid">0000-0001-9517-1176</idno>
+      <idno type="wikidata">Q61896642</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bruhn, Kai-Christian</name>
+      <idno type="orcid">0000-0001-8322-1260</idno>
+      <idno type="wikidata">Q47490290</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Murrieta-Flores, Patricia</name>
+      <idno type="orcid">0000-0001-9904-0288</idno>
+      <idno type="wikidata">Q58321461</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Reinhard, Andrew</name>
+      <idno type="orcid">0000-0001-7987-8227</idno>
+      <idno type="wikidata">Q57275320</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bieber, Jasmin</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bruschke, Jonas</name>
+      <idno type="orcid">0000-0002-5290-7435</idno>
+      <idno type="wikidata">Q126596362</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kröber, Cindy</name>
+      <idno type="orcid">0009-0001-0494-9913</idno>
+      <idno type="wikidata">Q126595884</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kramer, Iris</name>
+      <idno type="wikidata">Q134609190</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Vanautgaerden, Alexandre</name>
+      <idno type="orcid">0000-0001-7712-8721</idno>
+      <idno type="wikidata">Q12898654</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Nyhan, Julianne</name>
+      <idno type="orcid">0000-0002-4998-1757</idno>
+      <idno type="wikidata">Q126596300</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Noback, Andreas</name>
+      <idno type="orcid">0000-0001-8214-0952</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Tharandt, Louise</name>
+      <idno type="orcid">0009-0009-5967-2809</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gestrich, Nicholas</name>
+      <idno type="orcid">0000-0001-6376-1972</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lang, Ulrich</name>
+      <idno type="orcid">0000-0001-7166-0805</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Roßberger, Elisa</name>
+      <idno type="orcid">0000-0002-5788-0497</idno>
+      <idno type="wikidata">Q113835682</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brandsen, Alex</name>
+      <idno type="orcid">0000-0003-1623-1340</idno>
+      <idno type="wikidata">Q131113726</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>McCarty, Willard</name>
+      <idno type="orcid">0009-0006-5512-2517</idno>
+      <idno type="wikidata">Q19664641</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Barabucci, Gioele</name>
+      <idno type="orcid">0000-0003-4586-0111</idno>
+      <idno type="wikidata">Q69561113</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Garozzo, Raissa</name>
+      <idno type="orcid">0000-0003-0098-0400</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wutte, Anja</name>
+      <idno type="orcid">0000-0002-6659-1267</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schaeben, Marcel</name>
+      <idno type="orcid">0000-0001-9672-9856</idno>
+      <idno type="wikidata">Q126594935</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Politopoulos, Aris</name>
+      <idno type="orcid">0000-0002-7613-1264</idno>
+      <idno type="wikidata">Q113760009</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ferraz Gerardi, Fabrício</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Barreto, Bruno</name>
+      <idno type="orcid">0000-0003-3611-0538</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schubert, Lutz</name>
+      <idno type="orcid">0000-0003-4889-9353</idno>
+      <idno type="wikidata">Q59866082</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Stead, Stephen</name>
+      <idno type="orcid">0000-0002-7324-5186</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Prümers, Heiko</name>
+      <idno type="orcid">0000-0002-9342-4683</idno>
+      <idno type="wikidata">Q64495930</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lammers, Lukas</name>
+      <idno type="orcid">0000-0002-8200-0199</idno>
+      <idno type="wikidata">Q134355598</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Simha, Vyshantha</name>
+      <idno type="orcid">0009-0002-3310-7763</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Downs-Tepper, Liam</name>
+      <idno type="orcid">0000-0003-2271-8948</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Landeschi, Giacomo</name>
+      <idno type="orcid">0000-0002-7463-1935</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Oiva, Mila</name>
+      <idno type="orcid">0000-0002-5241-7436</idno>
+      <idno type="wikidata">Q129328192</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Deligio, Chris</name>
+      <idno type="orcid">0000-0002-5708-4271</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hameeuw, Hendrik</name>
+      <idno type="orcid">0000-0002-5406-5323</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kerig, Tim</name>
+      <idno type="orcid">0000-0002-7853-6329</idno>
+      <idno type="wikidata">Q130775996</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ciula, Arianna</name>
+      <idno type="orcid">0000-0003-4247-1073</idno>
+      <idno type="wikidata">Q57478862</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Jettka, Daniel</name>
+      <idno type="orcid">0000-0002-2375-2227</idno>
+      <idno type="wikidata">Q126593835</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ferger, Anne</name>
+      <idno type="orcid">0000-0002-1382-2658</idno>
+      <idno type="wikidata">Q126691945</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Nantke, Julia</name>
+      <idno type="orcid">0000-0002-8037-1009</idno>
+      <idno type="wikidata">Q126595862</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Roeder, Torsten</name>
+      <idno type="orcid">0000-0001-7043-7820</idno>
+      <idno type="wikidata">Q57767595</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Alvares Freire, Fernanda</name>
+      <idno type="orcid">0000-0002-6414-5212</idno>
+      <idno type="wikidata">Q130955279</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Mischke, Dennis</name>
+      <idno type="orcid">0000-0001-8892-5419</idno>
+      <idno type="wikidata">Q106921122</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bermúdez Sabel, Helena</name>
+      <idno type="orcid">0000-0002-8627-1367</idno>
+      <idno type="wikidata">Q109456325</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kaßner, Fabian</name>
+      <idno type="orcid">0009-0003-5629-1935</idno>
+      <idno type="wikidata">Q126691723</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Krüger, Frank</name>
+      <idno type="orcid">0000-0002-7925-3363</idno>
+      <idno type="wikidata">Q59690155</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Theise, Antje</name>
+      <idno type="wikidata">Q104445825</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schröder, Max</name>
+      <idno type="orcid">0000-0003-1522-494X</idno>
+      <idno type="wikidata">Q62036972</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Reichelt, Manuela</name>
+      <idno type="wikidata">Q131920751</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Eggert, Anja</name>
+      <idno type="orcid">0000-0003-3893-6851</idno>
+      <idno type="wikidata">Q131105580</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Uribe, Jorge</name>
+      <idno type="orcid">0000-0002-9676-4544</idno>
+      <idno type="wikidata">Q131105591</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sepúlveda, Pedro</name>
+      <idno type="orcid">0000-0001-8371-4663</idno>
+      <idno type="wikidata">Q131105365</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Carmo, Inês Rebelo do</name>
+      <idno type="orcid">0000-0002-7395-7554</idno>
+      <idno type="wikidata">Q131105420</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Labahn, Karsten</name>
+      <idno type="orcid">0000-0002-8482-807X</idno>
+      <idno type="wikidata">Q95270313</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lemke, Marc</name>
+      <idno type="orcid">0009-0004-8065-8191</idno>
+      <idno type="wikidata">Q131141888</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kellner, Nils</name>
+      <idno type="orcid">0009-0002-3966-5635</idno>
+      <idno type="wikidata">Q131141700</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Himstedt-Vaid, Petra</name>
+      <idno type="wikidata">Q113828808</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Meyer, Holger</name>
+      <idno type="orcid">0000-0002-5803-4911</idno>
+      <idno type="wikidata">Q131153036</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Räder, Andy</name>
+      <idno type="orcid">0000-0002-1059-8363</idno>
+      <idno type="wikidata">Q104417907</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schumacher, Mareike</name>
+      <idno type="orcid">0000-0002-7952-4194</idno>
+      <idno type="wikidata">Q107299959</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Vetter, Angila</name>
+      <idno type="orcid">0000-0001-7662-191X</idno>
+      <idno type="wikidata">Q126595700</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dumont, Stefan</name>
+      <idno type="orcid">0000-0002-6923-0950</idno>
+      <idno type="wikidata">Q56892360</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lasch, Alexander</name>
+      <idno type="orcid">0000-0003-4046-3993</idno>
+      <idno type="wikidata">Q50421785</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Müller, Caroline</name>
+      <idno type="orcid">0000-0002-8591-7859</idno>
+      <idno type="wikidata">Q131155373</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Berti, Monica</name>
+      <idno type="orcid">0000-0003-2779-4229</idno>
+      <idno type="wikidata">Q93222371</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hall, Mark</name>
+      <idno type="orcid">0000-0003-0081-4277</idno>
+      <idno type="wikidata">Q58376191</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kostrešević, Milan</name>
+      <idno type="orcid">0000-0002-6356-5944</idno>
+      <idno type="wikidata">Q131155649</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Al-Suadi, Soham</name>
+      <idno type="orcid">0000-0003-1098-208X</idno>
+      <idno type="wikidata">Q58331159</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pilhofer, Philipp</name>
+      <idno type="orcid">0000-0003-4818-8017</idno>
+      <idno type="wikidata">Q113736158</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wagner, Martin</name>
+      <idno type="orcid">0000-0002-5583-4139</idno>
+      <idno type="wikidata">Q131156031</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Höltgen, Stefan</name>
+      <idno type="orcid">0000-0001-8669-8507</idno>
+      <idno type="wikidata">Q27749727</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Baillot, Anne</name>
+      <idno type="orcid">0000-0002-4593-059X</idno>
+      <idno type="wikidata">Q21254237</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schröter, Julian</name>
+      <idno type="orcid">0000-0003-0168-2608</idno>
+      <idno type="wikidata">Q120482824</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Vandewalle, Alexander</name>
+      <idno type="orcid">0000-0003-0464-0059</idno>
+      <idno type="wikidata">Q134888927</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Spinelli, Julián</name>
+      <idno type="orcid">0009-0003-0895-815X</idno>
+      <idno type="wikidata">Q131140106</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Veit, Torsten</name>
+      <idno type="orcid">0000-0003-0552-7648</idno>
+      <idno type="wikidata">Q107299975</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Neovesky, Anna</name>
+      <idno type="orcid">0000-0002-0627-8199</idno>
+      <idno type="wikidata">Q126596259</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Cap, Clemens</name>
+      <idno type="orcid">0000-0003-3958-6136</idno>
+      <idno type="wikidata">Q59677979</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kroll, Stefan</name>
+      <idno type="orcid">0000-0003-0552-7648</idno>
+      <idno type="wikidata">Q16294812</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Põder, Johann-Christian</name>
+      <idno type="orcid">0000-0002-6133-8705</idno>
+      <idno type="wikidata">Q12365174</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gius, Evelyn</name>
+      <idno type="orcid">0000-0001-8888-8419</idno>
+      <idno type="wikidata">Q111633984</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Mende, Jana-Katharina</name>
+      <idno type="orcid">0000-0001-7433-4351</idno>
+      <idno type="wikidata">Q130794370</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dennerlein, Katrin</name>
+      <idno type="orcid">0000-0003-0059-9597</idno>
+      <idno type="wikidata">Q126595527</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Verhoeven, Deb</name>
+      <idno type="orcid">0000-0003-3680-3561</idno>
+      <idno type="wikidata">Q5247794</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fischer, Hanna</name>
+      <idno type="orcid">0000-0002-8157-5716</idno>
+      <idno type="wikidata">Q123703074</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Giovannini, Luca</name>
+      <idno type="orcid">0000-0002-6528-5030</idno>
+      <idno type="wikidata">Q90802250</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Greinert, Cordula</name>
+      <idno type="wikidata">Q133932793</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Franken, Lina</name>
+      <idno type="orcid">0000-0002-2587-4068</idno>
+      <idno type="wikidata">Q95751789</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Tomić, Marijana</name>
+      <idno type="orcid">0000-0001-7331-3436</idno>
+      <idno type="wikidata">Q112491614</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Deicke, Aline</name>
+      <idno type="orcid">0000-0002-1807-9728</idno>
+      <idno type="wikidata">Q126691662</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rio Riande, Gimena</name>
+      <idno type="orcid">0000-0002-8997-5415</idno>
+      <idno type="wikidata">Q63974505</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Nilsson-Fernàndez, Pedro</name>
+      <idno type="orcid">0000-0002-2686-3782</idno>
+      <idno type="wikidata">Q131418457</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Scholger, Martina</name>
+      <idno type="orcid">0000-0003-1438-3236</idno>
+      <idno type="wikidata">Q126595864</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rojas Castro, Antonio</name>
+      <idno type="orcid">0000-0002-8916-4997</idno>
+      <idno type="wikidata">Q126127284</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Keith, Allison</name>
+      <idno type="wikidata">Q133933068</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Baumann, Mario</name>
+      <idno type="orcid">0000-0003-0908-3968</idno>
+      <idno type="wikidata">Q112468704</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Diebel-Fischer, Hermann</name>
+      <idno type="orcid">0000-0002-6505-3563</idno>
+      <idno type="wikidata">Q113828659</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Würzner, Kay-Michael</name>
+      <idno type="orcid">0000-0002-9039-4124</idno>
+      <idno type="wikidata">Q109229372</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Menold, Natalja</name>
+      <idno type="orcid">0000-0003-1106-474X</idno>
+      <idno type="wikidata">Q66105589</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Halpern, Orit</name>
+      <idno type="orcid">0000-0001-8009-3160</idno>
+      <idno type="wikidata">Q112497692</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>De Cesare, Anna-Maria</name>
+      <idno type="orcid">0000-0003-0548-2240</idno>
+      <idno type="wikidata">Q21254197</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schankweiler, Kerstin</name>
+      <idno type="orcid">0000-0002-8357-0492</idno>
+      <idno type="wikidata">Q109408496</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Straub, Verena</name>
+      <idno type="orcid">0000-0003-4876-4192</idno>
+      <idno type="wikidata">Q131480992</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bartels, Hauke</name>
+      <idno type="wikidata">Q56822974</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kneuer, Marianne</name>
+      <idno type="orcid">0000-0001-9879-5953</idno>
+      <idno type="wikidata">Q12369768</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Langner, Anke</name>
+      <idno type="orcid">0000-0002-6576-172X</idno>
+      <idno type="wikidata">Q120400912</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rutz, Andreas</name>
+      <idno type="orcid">0000-0002-9935-7469</idno>
+      <idno type="wikidata">Q69573784</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Uhrig, Peter</name>
+      <idno type="orcid">0000-0003-1237-7414</idno>
+      <idno type="wikidata">Q120485847</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Klammt, Anne</name>
+      <idno type="orcid">0000-0003-3697-9241</idno>
+      <idno type="wikidata">Q81833150</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dreßen, Angela</name>
+      <idno type="orcid">0000-0001-9447-7886</idno>
+      <idno type="wikidata">Q106176921</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Zloch, Stephanie</name>
+      <idno type="orcid">0000-0003-4424-419X</idno>
+      <idno type="wikidata">Q76451338</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Herrmann, Mathias</name>
+      <idno type="wikidata">Q131505146</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Reimer, Martin</name>
+      <idno type="wikidata">Q131505655</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Frommherz, Yannick</name>
+      <idno type="orcid">0000-0002-3167-1670</idno>
+      <idno type="wikidata">Q131506882</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Langenhorst, Jan</name>
+      <idno type="orcid">0000-0002-5620-8738</idno>
+      <idno type="wikidata">Q131507956</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Heilmann, Jan</name>
+      <idno type="orcid">0000-0003-2815-6827</idno>
+      <idno type="wikidata">Q107168172</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lachmund, Anne-Marie</name>
+      <idno type="orcid">0000-0002-6338-377X</idno>
+      <idno type="wikidata">Q131519375</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Razniewski, Simon</name>
+      <idno type="orcid">0000-0002-5410-218X</idno>
+      <idno type="wikidata">Q51903121</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Christoph, Ralf</name>
+      <idno type="orcid">0009-0009-6532-1837</idno>
+      <idno type="wikidata">Q131519403</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mattern, Anna</name>
+      <idno type="orcid">0000-0003-2461-7374</idno>
+      <idno type="wikidata">Q131519445</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hachmeister, Maren</name>
+      <idno type="orcid">0000-0001-6348-0206</idno>
+      <idno type="wikidata">Q128800533</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Koehler, Thomas</name>
+      <idno type="orcid">0000-0002-9438-5786</idno>
+      <idno type="wikidata">Q131519515</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schaarschmidt, Nadine</name>
+      <idno type="wikidata">Q131519519</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Haaf, Susanne</name>
+      <idno type="orcid">0000-0002-4809-219X</idno>
+      <idno type="wikidata">Q95198834</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Thomas, Christian</name>
+      <idno type="orcid">0000-0002-1761-0222</idno>
+      <idno type="wikidata">Q115215971</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Burghardt, Manuel</name>
+      <idno type="orcid">0000-0003-1354-9089</idno>
+      <idno type="wikidata">Q113374630</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kuczera, Andreas</name>
+      <idno type="orcid">0000-0003-1020-507X</idno>
+      <idno type="wikidata">Q59867046</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Meyer-Sickendiek, Burkhard</name>
+      <idno type="orcid">0000-0003-0094-117X</idno>
+      <idno type="wikidata">Q1016475</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hussein, Hussein</name>
+      <idno type="wikidata">Q131521004</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Neuber, Frederike</name>
+      <idno type="orcid">0000-0001-8279-9298</idno>
+      <idno type="wikidata">Q104895913</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Baiter, Johannes</name>
+      <idno type="orcid">0000-0002-1807-9728</idno>
+      <idno type="wikidata">Q126691662</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schirmacher, Hartmut</name>
+      <idno type="orcid">0000-0002-1807-9728</idno>
+      <idno type="wikidata">Q126691662</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kronemeijer, Redmer</name>
+      <idno type="orcid">0000-0001-9821-0193</idno>
+      <idno type="wikidata">Q134889070</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Simon, Tobias</name>
+      <idno type="wikidata">Q131522397</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fry, Alex</name>
+      <idno type="wikidata">Q131537676</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gardner, Roy</name>
+      <idno type="wikidata">Q131537827</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pollin, Christopher</name>
+      <idno type="orcid">0000-0002-4879-129X</idno>
+      <idno type="wikidata">Q106107121</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Müller-Laackman, Jonas</name>
+      <idno type="orcid">0000-0003-2279-6751</idno>
+      <idno type="wikidata">Q126596363</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pohl, Oliver</name>
+      <idno type="orcid">0000-0002-1591-9453</idno>
+      <idno type="wikidata">Q126596242</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Middell, Gregor</name>
+      <idno type="wikidata">Q131537999</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Jarosch, Julian</name>
+      <idno type="orcid">0000-0001-8483-8123</idno>
+      <idno type="wikidata">Q123013343</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Wuttke, Ulrike</name>
+      <idno type="orcid">0000-0002-8217-4025</idno>
+      <idno type="wikidata">Q58033624</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Klar, Jochen</name>
+      <idno type="orcid">0000-0002-5883-4273</idno>
+      <idno type="wikidata">Q116768633</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Grötschel, Martin</name>
+      <idno type="orcid">0000-0001-8759-6377</idno>
+      <idno type="wikidata">Q1903911</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bubenhofer, Noah</name>
+      <idno type="orcid">0000-0002-2134-2013</idno>
+      <idno type="wikidata">Q70377053</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Diehr, Franziska</name>
+      <idno type="orcid">0000-0003-3886-3250</idno>
+      <idno type="wikidata">Q126596238</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Trilcke, Peer</name>
+      <idno type="orcid">0000-0002-1421-4320</idno>
+      <idno type="wikidata">Q95349735</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Busch, Anna</name>
+      <idno type="orcid">0000-0001-5584-4807</idno>
+      <idno type="wikidata">Q95203158</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bludau, Mark-Jan</name>
+      <idno type="orcid">0000-0001-6300-8833</idno>
+      <idno type="wikidata">Q126595952</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Flüh, Marie</name>
+      <idno type="orcid">0000-0002-1707-284X</idno>
+      <idno type="wikidata">Q126595853</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Klemstein, Franziska</name>
+      <idno type="orcid">0000-0003-3137-6732</idno>
+      <idno type="wikidata">Q121192442</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Brunner, Annelen</name>
+      <idno type="orcid">0000-0002-2704-1190</idno>
+      <idno type="wikidata">Q111637888</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Geyken, Alexander</name>
+      <idno type="orcid">0009-0007-0790-8192</idno>
+      <idno type="wikidata">Q126592288</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Naji, Julia</name>
+      <idno type="wikidata">Q131541513</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Piotrowski, Michael</name>
+      <idno type="orcid">0000-0003-3307-5386</idno>
+      <idno type="wikidata">Q59912139</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Andrews, Tara</name>
+      <idno type="orcid">0000-0001-6930-3470</idno>
+      <idno type="wikidata">Q64827294</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Mühlberger, Günter</name>
+      <idno type="orcid">0000-0002-7068-7261</idno>
+      <idno type="wikidata">Q119440254</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Arnold, Frederik</name>
+      <idno type="orcid">0000-0002-0417-4054</idno>
+      <idno type="wikidata">Q126595622</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Fiechter, Benjamin</name>
+      <idno type="orcid">0000-0002-6478-5260</idno>
+      <idno type="wikidata">Q126595624</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Jäschke, Robert</name>
+      <idno type="orcid">0000-0003-3271-9653</idno>
+      <idno type="wikidata">Q57416608</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Martus, Steffen</name>
+      <idno type="orcid">0000-0001-9624-033X</idno>
+      <idno type="wikidata">Q2338696</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Zinsmeister, Heike</name>
+      <idno type="orcid">0009-0006-0505-7606</idno>
+      <idno type="wikidata">Q68649908</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Biemann, Chris</name>
+      <idno type="orcid">0000-0002-8449-9624</idno>
+      <idno type="wikidata">Q126367753</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schulte im Walde, Sabine</name>
+      <idno type="orcid">0000-0002-8975-6255</idno>
+      <idno type="wikidata">Q21264617</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Henzel, Katrin</name>
+      <idno type="orcid">0000-0001-8260-223X</idno>
+      <idno type="wikidata">Q95210326</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hamster, Ulf</name>
+      <idno type="orcid">0000-0002-0440-4868</idno>
+      <idno type="wikidata">Q131598094</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Helbig, Holger</name>
+      <idno type="wikidata">Q95330018</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Vogeler, Andreas</name>
+      <idno type="wikidata">Q130785186</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Boenig, Matthias</name>
+      <idno type="orcid">0000-0003-4615-4753</idno>
+      <idno type="wikidata">Q126594948</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hug, Marius</name>
+      <idno type="orcid">0000-0001-6519-9266</idno>
+      <idno type="wikidata">Q126599544</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dorn, Nico</name>
+      <idno type="wikidata">Q131611406</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Harm, Volker</name>
+      <idno type="wikidata">Q112504010</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mederake, Nathalie</name>
+      <idno type="wikidata">Q126594966</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Meyer-Hinrich, Kerstin</name>
+      <idno type="orcid">0000-0003-1335-2112</idno>
+      <idno type="wikidata">Q131611449</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Diewald, Nils</name>
+      <idno type="orcid">0000-0002-2993-9180</idno>
+      <idno type="wikidata">Q126691745</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kupietz, Marc</name>
+      <idno type="orcid">0000-0001-8997-8256</idno>
+      <idno type="wikidata">Q112483390</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Nolda, Andreas</name>
+      <idno type="orcid">0000-0003-4532-8256</idno>
+      <idno type="wikidata">Q112517018</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schneider, Roman</name>
+      <idno type="orcid">0000-0002-6375-530X</idno>
+      <idno type="wikidata">Q112526367</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Barbaresi, Adrien</name>
+      <idno type="orcid">0000-0002-8079-8694</idno>
+      <idno type="wikidata">Q126691735</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lemnitzer, Lothar</name>
+      <idno type="wikidata">Q112436934</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gloning, Thomas</name>
+      <idno type="wikidata">Q1665290</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Marx, Konstanze</name>
+      <idno type="orcid">0000-0003-3309-0172</idno>
+      <idno type="wikidata">Q42566328</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Reul, Christian</name>
+      <idno type="orcid">0000-0003-3309-0172</idno>
+      <idno type="wikidata">Q126595844</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lehmberg, Timm</name>
+      <idno type="orcid">0009-0001-3133-6282</idno>
+      <idno type="wikidata">Q124408897</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Corff, Oliver</name>
+      <idno type="wikidata">Q22937373</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Franz, Simone</name>
+      <idno type="orcid">0000-0003-4525-6977</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bajohr, Hannes</name>
+      <idno type="orcid">0000-0001-8554-6261</idno>
+      <idno type="wikidata">Q16887904</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Barth, Florian</name>
+      <idno type="orcid">0000-0003-3408-7311</idno>
+      <idno type="wikidata">Q126596347</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Doenicke, Tillmann</name>
+      <idno type="orcid">0000-0001-5844-9167</idno>
+      <idno type="wikidata">Q126692103</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pagenstecher, Cord</name>
+      <idno type="orcid">0000-0002-2412-5348</idno>
+      <idno type="wikidata">Q95317347</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bayerschmidt, Philipp</name>
+      <idno type="orcid">0009-0002-2743-2455</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Moss, Fabian</name>
+      <idno type="orcid">0000-0001-9377-2066</idno>
+      <idno type="wikidata">Q92562368</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Westphal, Tim</name>
+      <idno type="orcid">0009-0000-8580-4558</idno>
+      <idno type="wikidata">Q133315016</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Santi, Marco</name>
+      <idno type="orcid">0000-0001-7395-6298</idno>
+      <idno type="wikidata">Q107975586</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Romero Tormo, Mario</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Çakir, Dîlan Canan</name>
+      <idno type="orcid">0009-0001-0013-7205</idno>
+      <idno type="wikidata">Q126594474</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Orekhov, Boris</name>
+      <idno type="orcid">0000-0002-9099-0436</idno>
+      <idno type="wikidata">Q58437028</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gutiérrez, Silvia</name>
+      <idno type="orcid">0000-0001-8717-2291</idno>
+      <idno type="wikidata">Q107598000</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Herbst, Benjamin</name>
+      <idno type="wikidata">Q133328300</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Duan, Tinghui</name>
+      <idno type="orcid">0000-0002-3324-0938</idno>
+      <idno type="wikidata">Q111537328</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Wontorra, Lena</name>
+      <idno type="wikidata">Q131873304</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Noichl, Maximilian</name>
+      <idno type="orcid">0000-0003-4518-0837</idno>
+      <idno type="wikidata">Q126692009</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lang, Sarah</name>
+      <idno type="orcid">0000-0003-3653-1981</idno>
+      <idno type="wikidata">Q104489641</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Stockhausen, Annette</name>
+      <idno type="orcid">0000-0001-5382-6322</idno>
+      <idno type="wikidata">Q93233671</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pence, Charles</name>
+      <idno type="orcid">0000-0002-6836-6047</idno>
+      <idno type="wikidata">Q59688520</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Iurescia, Federica</name>
+      <idno type="orcid">0000-0001-5100-5539</idno>
+      <idno type="wikidata">Q131916135</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Parisi, Maria Chiara</name>
+      <idno type="wikidata">Q131915967</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sprugnoli, Rachele</name>
+      <idno type="orcid">0000-0001-6861-5595</idno>
+      <idno type="wikidata">Q116647161</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Chen, Beijia</name>
+      <idno type="wikidata">Q131917127</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lubin, Jonah</name>
+      <idno type="orcid">0009-0000-7900-1994</idno>
+      <idno type="wikidata">Q124750299</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schäfer, Lea</name>
+      <idno type="orcid">0000-0002-8669-0297</idno>
+      <idno type="wikidata">Q131917137</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Poggel, Lisa</name>
+      <idno type="orcid">0000-0003-1051-8148</idno>
+      <idno type="wikidata">Q131917115</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rodighiero, Dario</name>
+      <idno type="orcid">0000-0002-1405-7062</idno>
+      <idno type="wikidata">Q58362722</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hilger, Agnes</name>
+      <idno type="orcid">0000-0002-7636-341X</idno>
+      <idno type="wikidata">Q113758670</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Murath, Antonia</name>
+      <idno type="wikidata">Q131946197</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Grünler, Johanna</name>
+      <idno type="wikidata">Q131946197</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hiergeist, Annalena</name>
+      <idno type="wikidata">Q131947213</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wolle, Nikolai</name>
+      <idno type="wikidata">Q131947383</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Beyer, Andrea</name>
+      <idno type="orcid">0000-0002-8468-6411</idno>
+      <idno type="wikidata">Q131947765</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schulz, Konstantin</name>
+      <idno type="orcid">0000-0002-3261-9735</idno>
+      <idno type="wikidata">Q131948020</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schwindt, Mark</name>
+      <idno type="orcid">0000-0002-4337-2467</idno>
+      <idno type="wikidata">Q131948286</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Panušková, Charlotte</name>
+      <idno type="orcid">0000-0002-3534-8440</idno>
+      <idno type="wikidata">Q131945813</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hercher, Johannes</name>
+      <idno type="orcid">0000-0002-4072-4957</idno>
+      <idno type="wikidata">Q131950956</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rehse, Birgit</name>
+      <idno type="wikidata">Q131430135</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Harris, Ashleigh</name>
+      <idno type="orcid">0000-0002-6207-3067</idno>
+      <idno type="wikidata">Q122829029</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Falk, Michael</name>
+      <idno type="orcid">0000-0001-9261-8390</idno>
+      <idno type="wikidata">Q131950655</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Untner, Laura</name>
+      <idno type="orcid">0000-0002-9649-0870</idno>
+      <idno type="wikidata">Q122733533</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Weimann, Hanna</name>
+      <idno type="orcid">0000-0001-9101-2813</idno>
+      <idno type="wikidata">Q131983919</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Metilli, Daniele</name>
+      <idno type="orcid">0000-0002-5512-2158</idno>
+      <idno type="wikidata">Q72319882</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Escobar Varela, Miguel</name>
+      <idno type="orcid">0000-0001-8396-1664</idno>
+      <idno type="wikidata">Q131756444</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Desmet, Gabrielle</name>
+      <idno type="wikidata">Q131983640</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ondraszek, Sarah Rebecca</name>
+      <idno type="orcid">0009-0003-7945-6704</idno>
+      <idno type="wikidata">Q131983620</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schwabe, Fabian</name>
+      <idno type="orcid">0000-0002-2625-4565</idno>
+      <idno type="wikidata">Q126594946</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Zirker, Angelika</name>
+      <idno type="orcid">0000-0001-6819-3871</idno>
+      <idno type="wikidata">Q126594945</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Patzold, Steffen</name>
+      <idno type="wikidata">Q1296245</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wust, Markus</name>
+      <idno type="orcid">0000-0001-5958-2058</idno>
+      <idno type="wikidata">Q131994391</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Worm, Andrea</name>
+      <idno type="orcid">0000-0001-6881-9571</idno>
+      <idno type="wikidata">Q95208434</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Goerss, Eleanor</name>
+      <idno type="orcid">0009-0006-6575-8180</idno>
+      <idno type="wikidata">Q131994419</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bleier, Roman</name>
+      <idno type="orcid">0000-0003-4674-1042</idno>
+      <idno type="wikidata">Q126691663</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Körner, Kevin</name>
+      <idno type="orcid">0000-0001-7607-9876</idno>
+      <idno type="wikidata">Q131994474</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Achimova, Asya</name>
+      <idno type="orcid">0000-0002-7826-989X</idno>
+      <idno type="wikidata">Q104067223</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Eufe, Rembert</name>
+      <idno type="wikidata">Q131994515</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bauer, Matthias</name>
+      <idno type="orcid">0000-0003-0395-0629</idno>
+      <idno type="wikidata">Q131994515</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Darilek, Marion</name>
+      <idno type="orcid">0009-0007-3642-5181</idno>
+      <idno type="wikidata">Q131994598</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Morent, Stefan</name>
+      <idno type="orcid">0000-0002-3039-8473</idno>
+      <idno type="wikidata">Q84564031</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Raffini, Daniel</name>
+      <idno type="orcid">0000-0002-1117-8811</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Croci, Cassidy</name>
+      <idno type="orcid">0000-0002-3576-0507</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Krmnicek, Stefan</name>
+      <idno type="orcid">0000-0003-0593-2539</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ehrlicher, Hanno</name>
+      <idno type="orcid">0000-0002-8572-7836</idno>
+      <idno type="wikidata">Q126691728</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Jung, Kerstin</name>
+      <idno type="orcid">0000-0002-9548-8461</idno>
+      <idno type="wikidata">Q126595541</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dusil, Stephan</name>
+      <idno type="orcid">0000-0003-1406-813X</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schnell, Corwin</name>
+      <idno type="orcid">0009-0000-7995-4840</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mahlberg, Michaela</name>
+      <idno type="orcid">0000-0002-4598-8011</idno>
+      <idno type="wikidata">Q57692552</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Göggelmann, Michael</name>
+      <idno type="orcid">0009-0005-5396-1993</idno>
+      <idno type="wikidata">Q126692033</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hughes, Lorna</name>
+      <idno type="orcid">0000-0001-8928-0341</idno>
+      <idno type="wikidata">Q74262442</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Amelang López, David Jefferson</name>
+      <idno type="orcid">0000-0001-5999-6947</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Feyersinger, Erwin</name>
+      <idno type="orcid">0000-0002-2366-5748</idno>
+      <idno type="wikidata">Q134485738</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wendel, Klaus</name>
+      <idno type="wikidata">Q102582056</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Scholz, Peter</name>
+      <idno type="wikidata">Q1356863</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Koch, Steffen</name>
+      <idno type="orcid">0000-0002-9360-799X</idno>
+      <idno type="wikidata">Q126596324</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>John, Markus</name>
+      <idno type="orcid">0000-0002-4311-0934</idno>
+      <idno type="wikidata">Q126691666</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Viehhauser, Gabriel</name>
+      <idno type="orcid">0000-0001-6372-0337</idno>
+      <idno type="wikidata">Q95312137</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bockwinkel, Peggy</name>
+      <idno type="orcid">0000-0001-6072-4703</idno>
+      <idno type="wikidata">Q126691746</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hentschel, Klaus</name>
+      <idno type="orcid">0000-0003-0045-3264</idno>
+      <idno type="wikidata">Q1745204</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Himel, Torsten</name>
+      <idno type="orcid">0000-0003-0464-4324</idno>
+      <idno type="wikidata">Q132883312</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pernes, Stefan</name>
+      <idno type="wikidata">Q126598036</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Braun, Manuel</name>
+      <idno type="orcid">0009-0004-6567-8418</idno>
+      <idno type="wikidata">Q126691741</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Echelmeyer, Nora</name>
+      <idno type="wikidata">Q126691821</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Priewe, Marc</name>
+      <idno type="orcid">0000-0002-0956-2873</idno>
+      <idno type="wikidata">Q130773492</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bernhart, Toni</name>
+      <idno type="orcid">0000-0002-7255-2504</idno>
+      <idno type="wikidata">Q1357508</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rainsford, Thomas</name>
+      <idno type="orcid">0000-0003-2592-0084</idno>
+      <idno type="wikidata">Q1357508</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Gerstorfer, Dominik</name>
+      <idno type="orcid">0000-0003-2592-0084</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Haka, Andreas</name>
+      <idno type="orcid">0009-0009-0595-5811</idno>
+      <idno type="wikidata">Q102555978</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gerstorfer, Mark</name>
+      <idno type="wikidata">Q1385943</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bross, Fabian</name>
+      <idno type="orcid">0000-0003-3843-356</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Krüger, Reinhard</name>
+      <idno type="wikidata">Q94914638</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Nickel, Beatrice</name>
+      <idno type="orcid">0009-0003-3023-027X</idno>
+      <idno type="wikidata">Q95714348</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Willand, Marcus</name>
+      <idno type="orcid">0000-0002-3107-311X</idno>
+      <idno type="wikidata">Q112518863</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Vukojevic-Haupt, Karolina</name>
+      <idno type="orcid">0000-0001-7360-2908</idno>
+      <idno type="wikidata">Q134063813</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ostberg, Jan-Peter</name>
+      <idno type="orcid">0000-0002-8443-3588</idno>
+      <idno type="wikidata">Q134063620</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Breitenbücher, Uwe</name>
+      <idno type="orcid">0000-0002-6355-4591</idno>
+      <idno type="wikidata">Q102442654</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Reimann, Peter</name>
+      <idno type="orcid">0000-0002-6355-4591</idno>
+      <idno type="wikidata">Q102769086</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fett, Daniel</name>
+      <idno type="orcid">0000-0003-4477-4748</idno>
+      <idno type="wikidata">Q134063243</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lischke, Lars</name>
+      <idno type="orcid">0000-0002-9650-4945</idno>
+      <idno type="wikidata">Q125308962</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Dürr, Frank</name>
+      <idno type="orcid">0000-0002-3470-7712</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kopp, Oliver</name>
+      <idno type="orcid">0000-0001-6962-4290</idno>
+      <idno type="wikidata">Q59867486</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wieland, Matthias</name>
+      <idno type="orcid">0000-0002-3388-483X</idno>
+      <idno type="wikidata">Q102432659</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fleischer, Lukas</name>
+      <idno type="orcid">0000-0001-5234-4348</idno>
+      <idno type="wikidata">Q97590983</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Knopp, Hartmut</name>
+      <idno type="wikidata">Q133335938</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rapp, Andrea</name>
+      <idno type="orcid">0000-0003-4933-4397</idno>
+      <idno type="wikidata">Q95196435</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kaminski, Andreas</name>
+      <idno type="orcid">0000-0002-6263-4186</idno>
+      <idno type="wikidata">Q89449800</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Heckelen, Malte</name>
+      <idno type="orcid">0000-0001-7960-9238</idno>
+      <idno type="wikidata">Q126599626</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Keck, Jana</name>
+      <idno type="orcid">0000-0002-9416-1256</idno>
+      <idno type="wikidata">Q115624811</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kramski, Heinz Werner</name>
+      <idno type="orcid">0000-0001-5216-278X</idno>
+      <idno type="wikidata">Q126691974</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Männig, Maria</name>
+      <idno type="orcid">0000-0002-4375-1539</idno>
+      <idno type="wikidata">Q131582649</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schmidt, Johannes</name>
+      <idno type="orcid">0000-0003-0095-4675</idno>
+      <idno type="wikidata">Q95338688</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Draude, Claude</name>
+      <idno type="orcid">0000-0001-8467-195X</idno>
+      <idno type="wikidata">Q134065076</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mengaldo, Elisabetta</name>
+      <idno type="orcid">0000-0001-8102-6787</idno>
+      <idno type="wikidata">Q134065027</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Tumanov, Rostislav</name>
+      <idno type="wikidata">Q113846895</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Heiberger, Raphael</name>
+      <idno type="orcid">0000-0003-3465-7214 </idno>
+      <idno type="wikidata">Q130855877</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Calvo Tello, José</name>
+      <idno type="orcid">0000-0002-1129-5604</idno>
+      <idno type="wikidata">Q119984532</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schlesinger, Claus-Michael</name>
+      <idno type="orcid">0000-0001-6718-5773</idno>
+      <idno type="wikidata">Q126371630</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hinkelmanns, Peter</name>
+      <idno type="orcid">0000-0001-8618-0185</idno>
+      <idno type="wikidata">Q111313769</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Zeppezauer-Wachauer, Katharina</name>
+      <idno type="orcid">0000-0001-9310-9029</idno>
+      <idno type="wikidata">Q112344051</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hadersbeck, Maximiliam</name>
+      <idno type="wikidata">Q126595807</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ensslin, Astrid</name>
+      <idno type="orcid">0000-0003-2189-00251</idno>
+      <idno type="wikidata">Q55761258</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kleymann, Rabea</name>
+      <idno type="orcid">0000-0003-3856-2685</idno>
+      <idno type="wikidata">Q126334578</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Diecke, Josephine</name>
+      <idno type="orcid">0000-0002-9342-0631</idno>
+      <idno type="wikidata">Q126595683</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Spoerer, Mark</name>
+      <idno type="orcid">0000-0002-5549-6512</idno>
+      <idno type="wikidata">Q26965571</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Guhr, Svenja</name>
+      <idno type="orcid">0000-0002-7686-3609</idno>
+      <idno type="wikidata">Q126595871</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Fritz, Larissa</name>
+      <idno type="wikidata">Q131844644</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Afanador, Maria José</name>
+      <idno type="orcid">0000-0003-2652-5799</idno>
+      <idno type="wikidata">Q134076062</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Borek, Luise</name>
+      <idno type="orcid">0000-0001-5849-374X</idno>
+      <idno type="wikidata">Q122966120</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Barzen, Johanna</name>
+      <idno type="orcid">0000-0001-8397-7973</idno>
+      <idno type="wikidata">Q103028614</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Padó, Sebastian</name>
+      <idno type="orcid">0000-0002-7529-6825</idno>
+      <idno type="wikidata">Q57552164</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ketschik, Nora</name>
+      <idno type="orcid">0000-0001-8758-5432</idno>
+      <idno type="wikidata">Q126596243</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Falk, Neele</name>
+      <idno type="wikidata">Q134073408</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pichler, Axel</name>
+      <idno type="orcid">0000-0002-9177-7645</idno>
+      <idno type="wikidata">Q126592359</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bogdanović, Arsenije</name>
+      <idno type="wikidata">Q134073217</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Goebl, Hans</name>
+      <idno type="orcid">0000-0001-5489-2858</idno>
+      <idno type="wikidata">Q1579837</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Krefeld, Thomas</name>
+      <idno type="orcid">0000-0001-9657-6052</idno>
+      <idno type="wikidata">Q110728652</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ciotti, Fabio</name>
+      <idno type="orcid">0000-0001-9604-5980</idno>
+      <idno type="wikidata">Q103916563</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lana, Maurizio</name>
+      <idno type="orcid">0000-0002-7520-1195</idno>
+      <idno type="wikidata">Q103916573</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bia Platas, Alejandro</name>
+      <idno type="orcid">0000-0003-0093-9432</idno>
+      <idno type="wikidata">Q134100731</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Jakacki, Diane</name>
+      <idno type="orcid">0000-0002-7836-1223</idno>
+      <idno type="wikidata">Q126334415</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sobchuk, Oleg</name>
+      <idno type="orcid">0000-0002-0793-4944</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Manovich, Lev</name>
+      <idno type="orcid">0000-0003-0667-7584</idno>
+      <idno type="wikidata">Q716367</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rybicki, Jan</name>
+      <idno type="orcid">0000-0003-2504-9372</idno>
+      <idno type="wikidata">Q11718888</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hołobut, Agata</name>
+      <idno type="orcid">0000-0002-9445-9060</idno>
+      <idno type="wikidata">Q58145554</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Glawion, Anastasia</name>
+      <idno type="orcid">0000-0001-6140-1826</idno>
+      <idno type="wikidata">Q126596131</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dawson, John</name>
+      <idno type="wikidata">Q102353832</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Konle, Leonard</name>
+      <idno type="orcid">0000-0001-5833-0414</idno>
+      <idno type="wikidata">Q126595863</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Porter, James David</name>
+      <idno type="wikidata">Q134312939</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bode, Katherine</name>
+      <idno type="orcid">0000-0003-3561-9332</idno>
+      <idno type="wikidata">Q103839068</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fortun, Mike</name>
+      <idno type="orcid">0000-0002-3177-2121</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Carlson, Rebecca</name>
+      <idno type="orcid">0000-0002-0929-5103</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Keupp, Jan</name>
+      <idno type="orcid">0009-0009-1928-887X</idno>
+      <idno type="wikidata">Q1681941</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bamberg, Claudia</name>
+      <idno type="orcid">0000-0001-6453-8457</idno>
+      <idno type="wikidata">Q116165707</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Naether, Franziska</name>
+      <idno type="orcid">0000-0003-4652-6836</idno>
+      <idno type="wikidata">Q112516230</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Goldhahn, Dirk</name>
+      <idno type="orcid">0000-0003-1681-567X</idno>
+      <idno type="wikidata">Q114736067</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hiltmann, Torsten</name>
+      <idno type="orcid">0000-0002-6757-6210</idno>
+      <idno type="wikidata">Q99529696</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ehrl, Franziska</name>
+      <idno type="orcid">0000-0002-3106-0917</idno>
+      <idno type="wikidata">Q133415242</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pfeifer, Michelle</name>
+      <idno type="orcid">0000-0003-0317-2492</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Timpf, Sabine</name>
+      <idno type="orcid">0000-0002-7964-4110</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Klusik-Eckert, Jacqueline</name>
+      <idno type="orcid">0000-0002-0969-2520</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Görres, Daniel</name>
+      <idno type="wikidata">Q134314556</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Higgitt, Rebekah</name>
+      <idno type="orcid">0000-0001-9387-4150</idno>
+      <idno type="wikidata">Q62718222</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Norindr, Jade</name>
+      <idno type="orcid">0009-0004-1391-3420</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Moitinho de Almeida, Vera</name>
+      <idno type="orcid">0000-0003-4979-8247</idno>
+      <idno type="wikidata">Q57491179</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Aubry, Mathieu</name>
+      <idno type="orcid">0000-0002-3804-0193</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Willaime, Pierre</name>
+      <idno type="wikidata">Q94106728</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Reinhardt, Corinna</name>
+      <idno type="orcid">0000-0002-2595-325X</idno>
+      <idno type="wikidata">Q55078627</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Andresen, Melanie</name>
+      <idno type="orcid">0000-0002-3913-1273</idno>
+      <idno type="wikidata">Q126594998</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Akazawa, Mari</name>
+      <idno type="orcid">0009-0007-2653-6275</idno>
+      <idno type="wikidata">Q133645832</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Sen, Indira</name>
+      <idno type="orcid">0000-0003-3475-0371</idno>
+      <idno type="wikidata">Q130853253</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Siebenlist, Tobias</name>
+      <idno type="orcid">0000-0001-9435-910X</idno>
+      <idno type="wikidata">Q57911417</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Tang, Kevin</name>
+      <idno type="orcid">0000-0001-7382-9344</idno>
+      <idno type="wikidata">Q57685582</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Olliges-Wieczorek, Ute</name>
+      <idno type="wikidata">Q95202447</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fleischer, Dirk</name>
+      <idno type="orcid">0000-0003-0108-4675</idno>
+      <idno type="wikidata">Q40186384</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schober, Regina</name>
+      <idno type="orcid">0000-0002-1105-0922</idno>
+      <idno type="wikidata">Q106656144</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schwandt, Silke</name>
+      <idno type="orcid">0000-0001-8303-4668</idno>
+      <idno type="wikidata">Q115694028</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Blömer, Johannes</name>
+      <idno type="orcid">0000-0002-6065-3535</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hermann, Thomas</name>
+      <idno type="orcid">0000-0001-7975-4363</idno>
+      <idno type="wikidata">Q30525481</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sauzet, Odile</name>
+      <idno type="orcid">0000-0002-1029-8846</idno>
+      <idno type="wikidata">Q43411979</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Streit, Achim</name>
+      <idno type="orcid">0000-0002-5065-469X</idno>
+      <idno type="wikidata">Q111440065</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fuchs, Christiane</name>
+      <idno type="orcid">0000-0003-3565-8315</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Cimiano, Philipp</name>
+      <idno type="orcid">0000-0002-4771-441X</idno>
+      <idno type="wikidata">Q59403940</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Sczyrba, Alexander</name>
+      <idno type="orcid">0000-0002-4405-3847</idno>
+      <idno type="wikidata">Q30420936</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lübke, Karsten</name>
+      <idno type="orcid">0009-0004-5129-4886</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Weihs, Claus</name>
+      <idno type="orcid">0009-0005-2495-8314</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Goebel, Jan</name>
+      <idno type="orcid">0000-0002-3243-1935</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bauer, Dietmar</name>
+      <idno type="orcid">0000-0003-2920-7032</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Henrich, Andreas</name>
+      <idno type="orcid">0000-0002-5074-3254</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schäfers, Tobias</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brinkhoff, Stefan</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ballhausen, Hendrik</name>
+      <idno type="orcid">0000-0003-4733-1926</idno>
+      <idno type="wikidata">Q88013325</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Summann, Friedrich</name>
+      <idno type="orcid">0000-0002-6297-3348</idno>
+      <idno type="wikidata">Q57198108</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bates, Douglas</name>
+      <idno type="orcid">0000-0001-8316-9503</idno>
+      <idno type="wikidata">Q57449762</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Simon, Holger</name>
+      <idno type="orcid">0000-0001-7352-4006</idno>
+      <idno type="wikidata">Q16937908</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schwarz, Angela</name>
+      <idno type="orcid">0000-0003-1140-4329</idno>
+      <idno type="wikidata">Q95203209</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pittroff, Sarah</name>
+      <idno type="orcid">0000-0001-5134-1081</idno>
+      <idno type="wikidata">Q95732609</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hensel, Thomas</name>
+      <idno type="wikidata">Q95339608</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gotham, Mark</name>
+      <idno type="orcid">0000-0003-0722-3074</idno>
+      <idno type="wikidata">Q130837345</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Weiß, Christof</name>
+      <idno type="orcid">0000-0003-2143-4679</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kleinertz, Rainer</name>
+      <idno type="orcid">0000-0002-4157-1438</idno>
+      <idno type="wikidata">Q112454935</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Siegert, Christine</name>
+      <idno type="orcid">0000-0002-0293-0258</idno>
+      <idno type="wikidata">Q95204824</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Saccomano, Mark</name>
+      <idno type="orcid">0000-0002-4635-7684</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Vertan, Cristina</name>
+      <idno type="orcid">0000-0001-6290-7781</idno>
+      <idno type="wikidata">Q112478663</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Burch, Thomas</name>
+      <idno type="orcid">0000-0002-8050-1475</idno>
+      <idno type="wikidata">Q102237826</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hohls, Rüdiger</name>
+      <idno type="orcid">0009-0008-2230-7982</idno>
+      <idno type="wikidata">Q2203608</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fischer, Barbara</name>
+      <idno type="wikidata">Q67611457</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bremer, Thomas</name>
+      <idno type="orcid">0000-0002-3912-4524</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schildhauer, Thomas</name>
+      <idno type="orcid">0000-0002-3232-9869</idno>
+      <idno type="wikidata">Q51064051</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Weitin, Thomas</name>
+      <idno type="orcid">0000-0002-9003-5746</idno>
+      <idno type="wikidata">Q31841486</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Moretti, Franco</name>
+      <idno type="orcid">0000-0002-7941-8092</idno>
+      <idno type="wikidata">Q971600</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schubert, Charlotte</name>
+      <idno type="orcid">0000-0002-2885-8055</idno>
+      <idno type="wikidata">Q97527095</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Storrer, Angelika</name>
+      <idno type="orcid">0000-0003-2697-2046</idno>
+      <idno type="wikidata">Q57204240</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pfister, Eugen</name>
+      <idno type="orcid">0000-0003-3422-4697</idno>
+      <idno type="wikidata">Q95268579</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Jannidis, Fotis</name>
+      <idno type="orcid">0000-0001-6944-6113</idno>
+      <idno type="wikidata">Q25273276</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Neuroth, Heike</name>
+      <idno type="orcid">0000-0002-3637-3154</idno>
+      <idno type="wikidata">Q95196445</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kohle, Hubertus</name>
+      <idno type="orcid">0000-0003-3162-1304</idno>
+      <idno type="wikidata">Q1633570</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schreibman, Susan</name>
+      <idno type="orcid">0000-0002-8782-0794</idno>
+      <idno type="wikidata">Q50843140</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lehmkuhl, Ursula</name>
+      <idno type="orcid">0000-0003-3100-8809</idno>
+      <idno type="wikidata">Q2501748</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schmunk, Stefan</name>
+      <idno type="orcid">0000-0001-9706-9757</idno>
+      <idno type="wikidata">Q57913662</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Moeller, Katrin</name>
+      <idno type="orcid">0000-0003-4090-5667</idno>
+      <idno type="wikidata">Q105701586</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Simons, Olaf</name>
+      <idno type="orcid">0000-0001-9230-4666</idno>
+      <idno type="wikidata">Q63216650</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Burckhardt, Daniel</name>
+      <idno type="wikidata">Q113647991</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Geraerts, Jaap</name>
+      <idno type="orcid">0000-0002-8741-5916</idno>
+      <idno type="wikidata">Q79222858</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Baroncini, Sofia</name>
+      <idno type="orcid">0000-0002-5636-8328</idno>
+      <idno type="wikidata">Q115055900</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hering, Katharina</name>
+      <idno type="orcid">0000-0002-1133-7296</idno>
+      <idno type="wikidata">Q131844649</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schlüter, Kathleen</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Büdenbender, Stefan</name>
+      <idno type="orcid">0000-0002-0478-0396</idno>
+      <idno type="wikidata">Q126692092</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Benz, Jacob</name>
+      <idno type="orcid">0009-0004-0307-4838</idno>
+      <idno type="wikidata">Q131844635</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kamlah, Jan</name>
+      <idno type="orcid">0000-0002-0417-7562</idno>
+      <idno type="wikidata">Q135969879</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Will, Larissa</name>
+      <idno type="orcid">0009-0004-6220-8939</idno>
+      <idno type="wikidata">Q135969878</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Richter, Daniel</name>
+      <idno type="orcid">0009-0009-8118-9493</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lemaire, Marina</name>
+      <idno type="orcid">0000-0003-4726-2481</idno>
+      <idno type="wikidata">Q119471676</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rommelfanger, Yvonne</name>
+      <idno type="orcid">0009-0004-2323-4122</idno>
+      <idno type="wikidata">Q119471971</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Köther, Felix</name>
+      <idno type="orcid">0000-0002-6432-1431</idno>
+      <idno type="wikidata">Q130318151</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Horstkemper, Gregor</name>
+      <idno type="orcid">0000-0002-1450-2015</idno>
+      <idno type="wikidata">Q136636875</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Herr, Wiebke</name>
+      <idno type="wikidata">Q95651443</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Friesenhausen, Moritz</name>
+      <idno type="orcid">0009-0006-1821-5597</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Michon, Romain</name>
+      <idno type="orcid">0000-0002-4376-7100</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schaeffer, Moritz, Jonas</name>
+      <idno type="orcid">0000-0001-5844-8092</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Freitag, Burkhard</name>
+      <idno type="wikidata">Q1016434</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hahn, Helene</name>
+      <idno type="wikidata">Q67610963</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hilpert, Martin</name>
+      <idno type="orcid">0000-0002-6347-5076</idno>
+      <idno type="wikidata">Q73630101</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name/>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Klugseder, Robert</name>
+      <idno type="orcid">0000-0002-0484-832X</idno>
+      <idno type="wikidata">Q93262415</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Freedman, Richard</name>
+      <idno type="orcid">0000-0001-5550-3674</idno>
+      <idno type="wikidata">Q93223860</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Horster, Marietta</name>
+      <idno type="orcid">0000-0003-1434-224X</idno>
+      <idno type="wikidata">Q1898038</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pagel, Sven</name>
+      <idno type="wikidata">Q96439823</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schöch, Christof</name>
+      <idno type="orcid">0000-0002-4557-2753</idno>
+      <idno type="wikidata">Q57917455</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Heftberger, Adelheid</name>
+      <idno type="orcid">0000-0001-7909-6858</idno>
+      <idno type="wikidata">Q42369365</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Friedrichs, Christina</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Raue, Benjamin</name>
+      <idno type="orcid">0000-0002-4652-7970</idno>
+      <idno type="wikidata">Q28023308</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kinder-Kurlanda, Katharina</name>
+      <idno type="orcid">0000-0002-7749-645X</idno>
+      <idno type="wikidata">Q133412680</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Simon, Rainer</name>
+      <idno type="orcid">0000-0002-4116-9684</idno>
+      <idno type="wikidata">Q105300819</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Backhaus, Henrike</name>
+      <idno type="orcid">0000-0002-8793-4185</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Klimpel, Paul</name>
+      <idno type="wikidata">Q1558977</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bläsi, Christoph</name>
+      <idno type="orcid">0000-0001-9845-9247</idno>
+      <idno type="wikidata">Q93970396</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Čulo, Oliver</name>
+      <idno type="wikidata">Q139529008</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Pugin, Laurent</name>
+      <idno type="orcid">0000-0002-9525-4331</idno>
+      <idno type="wikidata">Q130919270</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Wolk, Christoph</name>
+      <idno type="orcid">0000-0002-5854-0945</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Zywietz, Bernd</name>
+      <idno type="orcid">0000-0003-0512-4785</idno>
+      <idno type="wikidata">Q130786411</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Scherf, Mirko</name>
+      <idno type="orcid">0000-0001-5500-5085</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Grüntgens, Max</name>
+      <idno type="orcid">0000-0001-8736-9393</idno>
+      <idno type="wikidata">Q126598162</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Stäcker, Thomas</name>
+      <idno type="orcid">0000-0002-1509-6960</idno>
+      <idno type="wikidata">Q95336577</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Plaksin, Anna</name>
+      <idno type="orcid">0000-0002-9969-0608</idno>
+      <idno type="wikidata">Q126595555</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Köppl, Chantal, Franziska</name>
+      <idno type="orcid">0000-0001-5490-840X</idno>
+      <idno type="wikidata">Q137014934</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Zehentner, Eva, Maria</name>
+      <idno type="orcid">0000-0003-3911-4147</idno>
+      <idno type="wikidata">Q130835617</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Roth, Michael</name>
+      <idno type="orcid">0009-0008-9765-695X</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brandhorst, Jürgen</name>
+      <idno type="wikidata">Q137130253</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Weichselbaumer, Nikolaus</name>
+      <idno type="orcid">0000-0002-8065-0390</idno>
+      <idno type="wikidata">Q116193700</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hoenen, Armin</name>
+      <idno type="orcid">0000-0002-0400-9980</idno>
+      <idno type="wikidata">Q126593594</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Vater, Christian</name>
+      <idno type="wikidata">Q126598266</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Roidl, Alexander</name>
+      <idno type="orcid">0000-0002-0244-6837</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Dang, Sarah-Mai</name>
+      <idno type="orcid">0000-0002-1960-247X</idno>
+      <idno type="wikidata">Q67594847</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Heller, Lambert</name>
+      <idno type="orcid">0000-0003-0232-7085</idno>
+      <idno type="wikidata">Q56070743</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hankinson, Andrew</name>
+      <idno type="orcid">0000-0003-2663-0003</idno>
+      <idno type="wikidata">Q55096089</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Klein, Alexander</name>
+      <idno type="orcid">0009-0006-0814-5302</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Barget, Monika</name>
+      <idno type="orcid">0000-0001-7630-3583</idno>
+      <idno type="wikidata">Q79004052</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kelly, Mills</name>
+      <idno type="orcid">0000-0003-4891-5464</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lutteroth, Jan</name>
+      <idno type="orcid">0000-0002-4554-0874</idno>
+      <idno type="wikidata">Q115644467</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Dimpel, Friedrich, Michael</name>
+      <idno type="orcid">0000-0003-4833-4897</idno>
+      <idno type="wikidata">Q95219358</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Richts-Matthaei, Kristina</name>
+      <idno type="orcid">0000-0001-8569-1995</idno>
+      <idno type="wikidata">Q126692077</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Pratschke, Margarete</name>
+      <idno type="orcid">0009-0005-2835-1894</idno>
+      <idno type="wikidata">Q126692076</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Loist, Skadi</name>
+      <idno type="orcid">0000-0002-8299-4103</idno>
+      <idno type="wikidata">Q130812862</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Steller, Jonatan, Jalle</name>
+      <idno type="orcid">0000-0002-5101-5275</idno>
+      <idno type="wikidata">Q126692235</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kolhoff, Carolin</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Müngersdorff, Maximilian</name>
+      <idno type="wikidata">Q136972114</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Oberbichler, Sarah</name>
+      <idno type="orcid">0000-0002-1031-2759</idno>
+      <idno type="wikidata">Q120703374</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Müller, Meinard</name>
+      <idno type="orcid">0000-0001-6062-7524</idno>
+      <idno type="wikidata">Q67433457</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Arera-Rütenik, Tobias</name>
+      <idno type="orcid">0000-0002-4703-9573</idno>
+      <idno type="wikidata">Q112516427</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Karcher, Stefan</name>
+      <idno type="orcid">0000-0001-5215-7980</idno>
+      <idno type="wikidata">Q126692232</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Kem, Marina</name>
+      <idno type="wikidata">Q23782052</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kirk, Jan Thore</name>
+      <idno type="orcid">0009-0008-6318-0922</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ackermann, Lena</name>
+      <idno type="orcid">0000-0002-8249-5961</idno>
+      <idno type="wikidata">Q90747176</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Cole, Nicholas</name>
+      <idno type="orcid">0000-0002-6676-5343</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hannesschläger, Vanessa</name>
+      <idno type="orcid">0000-0003-0938-0890</idno>
+      <idno type="wikidata">Q58289599</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Wallnig, Thomas</name>
+      <idno type="orcid">0000-0003-0118-4414</idno>
+      <idno type="wikidata">Q94574398</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Štular, Benjamin</name>
+      <idno type="orcid">0000-0003-1474-7183</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Romanov, Maxim</name>
+      <idno type="orcid">0000-0001-7331-3858</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Van Hyning, Victoria</name>
+      <idno type="orcid">0000-0001-6775-2870</idno>
+      <idno type="wikidata">Q131316122</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Preiser-Kapeller, Johannes</name>
+      <idno type="orcid">0000-0003-4514-7404</idno>
+      <idno type="wikidata">Q80423448</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Zuanni, Chiara</name>
+      <idno type="orcid">0000-0003-4027-0278</idno>
+      <idno type="wikidata">Q59162288</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Fellner, Hannes</name>
+      <idno type="orcid">0000-0001-5486-3010</idno>
+      <idno type="wikidata">Q47395313</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Windhager, Florian</name>
+      <idno type="orcid">0000-0002-5170-2243</idno>
+      <idno type="wikidata">Q58222757</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Köntges, Thomas</name>
+      <idno type="wikidata">Q132420770</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Trinks, Immo</name>
+      <idno type="orcid">0000-0001-9447-7691</idno>
+      <idno type="wikidata">Q57847470</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Mörth, Karlheinz</name>
+      <idno type="wikidata">Q126691775</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>High-Steskal, Nicole</name>
+      <idno type="orcid">0000-0002-9823-5507</idno>
+      <idno type="wikidata">Q65560708</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Mayer, Sandra</name>
+      <idno type="orcid">0000-0002-2915-5888</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Frühwirth, Timo</name>
+      <idno type="orcid">0000-0002-3997-5193</idno>
+      <idno type="wikidata">Q132420840</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brenner, Simon</name>
+      <idno type="orcid">0000-0001-6909-7099</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gruber, Doris</name>
+      <idno type="orcid">0000-0002-0512-100X</idno>
+      <idno type="wikidata">Q132421205</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Linser, Nora</name>
+      <idno type="wikidata">Q134076633</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Nußbaumer, Lisa</name>
+      <idno type="orcid">0009-0005-5469-4751</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kahn, Rebecca</name>
+      <idno type="orcid">0000-0002-8837-5813</idno>
+      <idno type="wikidata">Q56702021</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Vogeler, Georg</name>
+      <idno type="orcid">0000-0002-1726-1712</idno>
+      <idno type="wikidata">Q49144246</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Lucchesi, Anita</name>
+      <idno type="orcid">0000-0002-8523-111X</idno>
+      <idno type="wikidata">Q108327065</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rastinger, Nina</name>
+      <idno type="orcid">0000-0002-3235-5063</idno>
+      <idno type="wikidata">Q126595563</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Schnapp, Jeffrey</name>
+      <idno type="orcid">0000-0003-4612-3762</idno>
+      <idno type="wikidata">Q3807823</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Baker, Keith Michael</name>
+      <idno type="wikidata">Q11738655</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Angeletaki, Alexandra</name>
+      <idno type="orcid">0000-0002-4337-3064</idno>
+      <idno type="wikidata">Q131313170</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Ommer, Björn</name>
+      <idno type="orcid">0000-0003-0766-120X</idno>
+      <idno type="wikidata">Q106106183</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Crane, Gregory</name>
+      <idno type="orcid">0000-0001-6847-2811</idno>
+      <idno type="wikidata">Q15075640</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Harrower, Natalie</name>
+      <idno type="orcid">0000-0002-7487-4881</idno>
+      <idno type="wikidata">Q47461575</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Edmond, Jennifer</name>
+      <idno type="orcid">0000-0001-9991-1637</idno>
+      <idno type="wikidata">Q122331733</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Tulp, Jan Willem</name>
+      <idno type="wikidata">Q131315949</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Meyer, Miriah</name>
+      <idno type="orcid">0000-0002-8971-6245</idno>
+      <idno type="wikidata">Q30137066</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>van Erp, Marieke</name>
+      <idno type="orcid">0000-0001-9195-8203</idno>
+      <idno type="wikidata">Q63973563</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Romary, Laurent</name>
+      <idno type="orcid">0000-0002-0756-0508</idno>
+      <idno type="wikidata">Q57415841</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rogers, Richard</name>
+      <idno type="orcid">0000-0002-9897-6559</idno>
+      <idno type="wikidata">Q130849143</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Heath, Sebastian</name>
+      <idno type="orcid">0000-0003-2039-429X</idno>
+      <idno type="wikidata">Q99001158</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schich, Maximilian</name>
+      <idno type="orcid">0000-0002-6753-7334</idno>
+      <idno type="wikidata">Q106954736</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Luther, Anne</name>
+      <idno type="orcid">0000-0002-5404-2172</idno>
+      <idno type="wikidata">Q131339663</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rabus, Achim</name>
+      <idno type="orcid">0000-0002-5366-1430</idno>
+      <idno type="wikidata">Q112446108</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Tasovac, Toma</name>
+      <idno type="orcid">0000-0002-5366-1430</idno>
+      <idno type="wikidata">Q99281511</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bonch-Osmolovskaya, Anastasia</name>
+      <idno type="orcid">0000-0001-5826-8286</idno>
+      <idno type="wikidata">Q86664748</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Horvath, Aliz</name>
+      <idno type="orcid">0000-0002-9131-5504</idno>
+      <idno type="wikidata">Q126692107</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Blanke, Tobias</name>
+      <idno type="orcid">0000-0003-0956-987X</idno>
+      <idno type="wikidata">Q42508982</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Nicka, Isabella</name>
+      <idno type="orcid">0000-0002-3587-6606</idno>
+      <idno type="wikidata">Q126598062</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Färberböck, Peter</name>
+      <idno type="orcid">0000-0002-8701-8259</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bell, Peter</name>
+      <idno type="orcid">0000-0003-4415-7408</idno>
+      <idno type="wikidata">Q85602348</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Ernst, Marlene</name>
+      <idno type="orcid">0000-0003-0097-2267</idno>
+      <idno type="wikidata">Q119478419</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Beutel-Thurow, Linda</name>
+      <idno type="orcid">0009-0001-1074-1588</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Hintersteiner, Julia</name>
+      <idno type="orcid">0009-0008-8333-3658</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Bauer, Bernhard</name>
+      <idno type="orcid">0000-0003-2881-0972</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Resch, Claudia</name>
+      <idno type="orcid">0000-0001-8066-7363</idno>
+      <idno type="wikidata">Q113773475</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Matschinegg, Ingrid</name>
+      <idno type="orcid">0000-0001-7922-4338</idno>
+      <idno type="wikidata">Q124636495</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Zedlacher, Stefan</name>
+      <idno type="orcid">0000-0003-0063-3345</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brandstätter, Walter</name>
+      <idno type="orcid">0009-0001-8085-3489</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Tangerner, Elisabeth</name>
+      <idno type="orcid">0009-0009-1826-4833</idno>
+      <idno type="wikidata">Q113746530</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gruber-Tokić, Elisabeth</name>
+      <idno type="orcid">0000-0003-3387-3097</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bleuler, Anna Kathrin</name>
+      <idno type="orcid">0000-0002-9053-0130</idno>
+      <idno type="wikidata">Q14498362</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Landkammer, Miriam</name>
+      <idno type="orcid">0009-0001-3517-0566</idno>
+      <idno type="wikidata">Q126691949</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Uhl, Andreas</name>
+      <idno type="orcid">0000-0002-5921-8755</idno>
+      <idno type="wikidata">Q91341556</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Linortner, Michael</name>
+      <idno type="orcid">0000-0002-6706-4450</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Filzwieser, Roland</name>
+      <idno type="orcid">0000-0002-5523-9524</idno>
+      <idno type="wikidata">Q57899514</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Dum Tragut, Jasmine</name>
+      <idno type="orcid">0000-0003-0130-6274</idno>
+      <idno type="wikidata">Q54972385</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Yavrumyan, Marat</name>
+      <idno type="orcid">0000-0002-9722-0653</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lindmayr-Brandl, Andrea</name>
+      <idno type="orcid">0000-0003-4438-7158</idno>
+      <idno type="wikidata">Q21253287</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Bosi, Carlo</name>
+      <idno type="orcid">0000-0002-8414-4321</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brandenburg, Aurelia</name>
+      <idno type="orcid">0009-0000-1450-0653</idno>
+      <idno type="wikidata">Q131839611</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>van Beek, Alan</name>
+      <idno type="orcid">0000-0002-9722-0653</idno>
+      <idno type="wikidata">Q131764203</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Çetinkaya, Ali</name>
+      <idno type="orcid">0000-0003-4535-3953</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Austin, Robert</name>
+      <idno type="orcid">0009-0009-8355-9881</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Repolusk, Tristan</name>
+      <idno type="orcid">0009-0009-8435-1185</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Roe, Glenn</name>
+      <idno type="orcid">0000-0002-5611-7916</idno>
+      <idno type="wikidata">Q57421247</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Fendt, Kurt</name>
+      <idno type="orcid">0000-0001-5807-2187</idno>
+      <idno type="wikidata">Q132247192</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Forte, Maurizio</name>
+      <idno type="orcid">0000-0002-6072-6458</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Rohrmeier, Martin</name>
+      <idno type="orcid">0000-0002-4323-7257</idno>
+      <idno type="wikidata">Q131113037</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Boullier, Dominique</name>
+      <idno type="orcid">0000-0003-2080-6434</idno>
+      <idno type="wikidata">Q3035013</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kenderdine, Sarah</name>
+      <idno type="orcid">0000-0002-7190-9946</idno>
+      <idno type="wikidata">Q18632143</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Benzi, Kirell Maël</name>
+      <idno type="orcid">0000-0002-9870-9477</idno>
+      <idno type="wikidata">Q103320255</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Schlenker, Philippe</name>
+      <idno type="orcid">0000-0001-9489-9325</idno>
+      <idno type="wikidata">Q33110612</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Legrady, George</name>
+      <idno type="orcid">0000-0002-9177-257X</idno>
+      <idno type="wikidata">Q3101713</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kölsch, Stefan</name>
+      <idno type="orcid">0000-0002-8714-3404</idno>
+      <idno type="wikidata">Q28833476</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Doucet, Antoine</name>
+      <idno type="orcid">0000-0001-6160-3356</idno>
+      <idno type="wikidata">Q96290624</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Neuwirth, Markus</name>
+      <idno type="orcid">0000-0003-1990-052X</idno>
+      <idno type="wikidata">Q95293250</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Masure, Anthony</name>
+      <idno type="orcid">0000-0002-6633-0761</idno>
+      <idno type="wikidata">Q130372210</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Gatica-Perez, Daniel</name>
+      <idno type="orcid">0000-0001-5488-2182</idno>
+      <idno type="wikidata">Q113292860</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Smith, David</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kaplan, Frederic</name>
+      <idno type="orcid">0000-0002-6991-5730</idno>
+      <idno type="wikidata">Q23714153</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>West, Robert</name>
+      <idno type="orcid">0000-0002-3984-1232</idno>
+      <idno type="wikidata">Q28053587</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Salzmann, Mathieu</name>
+      <idno type="orcid">0000-0002-8347-8637</idno>
+      <idno type="wikidata">Q88309653</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Burie, Jean-Christophe</name>
+      <idno type="orcid">0000-0001-7323-2855</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Baudry, Jérôme</name>
+      <idno type="orcid">0000-0002-9949-0681</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kapossy, Bela</name>
+      <idno type="orcid">0009-0009-2265-587X</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Snook, Kelly</name>
+      <idno type="orcid">0000-0003-0143-5949</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Shanahan, Daniel</name>
+      <idno type="orcid">0000-0002-6859-1324</idno>
+      <idno type="wikidata">Q5218742</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Auer, Anita</name>
+      <idno type="orcid">0009-0007-6302-5810</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Brandes, Ulrik</name>
+      <idno type="orcid">0000-0002-1520-0430</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Kuntz, Pascale</name>
+      <idno type="orcid">0009-0002-9971-5294</idno>
+      <idno type="wikidata">Q102412825</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Noll, Thomas</name>
+      <idno type="orcid">0000-0001-6701-7104</idno>
+      <idno type="wikidata">Q2426323</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Lauer, Gerhard</name>
+      <idno type="orcid">0000-0003-0230-2574</idno>
+      <idno type="wikidata">Q1512040</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">yes</note>
+   </person>
+   <person>
+      <name>Rochat, Yannick</name>
+      <idno type="orcid">0000-0002-9588-9855</idno>
+      <idno type="wikidata">Q102427502</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Hengchen, Simon</name>
+      <idno type="orcid">0000-0002-8453-7221</idno>
+      <idno type="wikidata">Q105529276</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Martin, Nathan</name>
+      <idno type="wikidata">Q135554492</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Martin, Henry</name>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+   <person>
+      <name>Trottier, Daniel</name>
+      <idno type="orcid">0000-0001-8476-673X</idno>
+      <note type="lecture-series">yes</note>
+      <note type="dhd-abstracts">no</note>
+   </person>
+</listPerson>

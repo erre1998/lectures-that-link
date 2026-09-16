@@ -17,7 +17,7 @@ This repository uses two different licenses:
 ## Citation
 If you use the materials from this repository, please refer to the citation suggestion in the sidebar or cite it as follows:
 
-> Henny-Krahmer, Ulrike, Fernanda Alvares Freire, and Erik Renz. 2025–. *Lectures that Link*. Version 0.7. https://github.com/erre1998/lectures-that-link.
+> Henny-Krahmer, Ulrike, Fernanda Alvares Freire, and Erik Renz. 2025–. *Lectures that Link*. Version 0.8. https://github.com/erre1998/lectures-that-link.
 
 ## Project Status
 

@@ -17,20 +17,22 @@
   
   <xsl:variable name="selection-ls" select="('ls22', 'ls23', 'ls42', 'ls10', 'ls11',
     'ls12', 'ls13', 'ls14', 'ls15', 'ls16', 'ls17', 'ls18', 'ls19', 'ls20', 'ls21', 'ls8', 'ls9',
-    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45', 'ls49', 'ls51', 'ls53')"/>
+    'ls35', 'ls36', 'ls37', 'ls38', 'ls39', 'ls40', 'ls41', 'ls43', 'ls45', 'ls49', 'ls51', 'ls53', 'ls67')"/>
+  <!-- these are 30 ls -->
   <xsl:variable name="selection-years" select="('2016','2017','2018','2019','2020','2022','2023','2024','2025')"/>
   
   <xsl:variable name="relevant-lectures" select="$lectures-file//event[@type='lecture'][./ancestor::event[@type='lecture-series']/@xml:id = $selection-ls][substring(@when,1,4)=$selection-years]"/>
   
   <xsl:template match="/">
     <!-- number of lectures in the selected data set: -->
-    <!--<xsl:value-of select="count($relevant-lectures)"/>-->
+<!--    <xsl:value-of select="count($relevant-lectures)"/>-->
     
+    <!-- number of different speakers of these lectures: -->
     <!--<xsl:value-of select="count(distinct-values($relevant-lectures//person[@role='speaker']/@corresp/tokenize(.,'\s')))"/>
   -->
   
     <!--<xsl:call-template name="lectures-per-speaker"/>-->
-    <xsl:call-template name="contributions-per-person"/>
+    <!--<xsl:call-template name="contributions-per-person"/>-->
     
     
   
@@ -41,7 +43,7 @@
       <xsl:text>speaker-name,number-of-lectures</xsl:text>
       <xsl:text>
 </xsl:text>
-      <xsl:for-each-group select="$dhd-abstracts-file//person" group-by="name">
+      <xsl:for-each-group select="$dhd-abstracts-file//person" group-by="if (idno[@type='orcid']) then idno[@type='orcid'] else if (idno[@type='wikidata']) then idno[@type='wikidata'] else name">
         <xsl:sort select="count(current-group())"/>
         <xsl:text>'</xsl:text><xsl:value-of select="current-grouping-key()"/><xsl:text>'</xsl:text>
         <xsl:text>,</xsl:text>
@@ -63,7 +65,7 @@
           </table>
           <script>
             var trace1 = {
-            x: [<xsl:for-each-group select="$dhd-abstracts-file//person" group-by="name">
+            x: [<xsl:for-each-group select="$dhd-abstracts-file//person" group-by="if (idno[@type='orcid']) then idno[@type='orcid'] else if (idno[@type='wikidata']) then idno[@type='wikidata'] else name">
               <xsl:value-of select="count(current-group())"/>
               <xsl:if test="position() != last()">,</xsl:if>
             </xsl:for-each-group>],

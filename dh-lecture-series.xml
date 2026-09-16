@@ -54,7 +54,7 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>Version 0.7.1</edition>
+        <edition>Version 0.8</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>University of Rostock</publisher>
@@ -17579,8 +17579,9 @@
         <change who="#uhk #erre #mvb #cg" when="2026-07-02">Prepare version 0.7 of the dataset for a
           contribution to the upcoming EADH 2026 conference in Kraków. This version contains 56
           lecture series.</change>
-        <change who="#uhk #erre #mvb #cg" when="2026-09-15">Prepare version 0.7.1 of the dataset.
-          This version contains XX lecture series.</change>
+        <change who="#uhk #erre #mvb #cg" when="2026-09-16">Prepare version 0.8 of the dataset. This
+          version contains 47 lecture series (completed for the years 2015-2025). Uncomplete series
+          that are work in progress were removed from this file.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -45321,8 +45322,8 @@
                 Forschungsdatenmanagement</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/"/>
-              
-              
+
+
               <note type="abstract" xml:lang="de">
                 <p>Zotero ist als kostenlose, open-source Software zur Verwaltung bibliografischer
                   Daten und damit verknüpfter Forschungsliteratur nicht nur in den USA, sondern auch
@@ -45462,7 +45463,7 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810174727/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/factgrid-eine-wikibase-instanz-fuer-historische-daten/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=znuP1Rp_YZc"/>
-              
+
               <note type="abstract" xml:lang="de">
                 <p>FactGrid ist eine Wikibase-Instanz für historische Daten - ein Wagnis, denn die
                   Software macht Forschungsprojekten das Angebot, noch mitten in laufenden
@@ -45499,7 +45500,7 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810174524/https://www.uni-konstanz.de/international-participation-und-erasmus-humanities/aktuelles/kalender-detail/termin/transkribus-escriptorium-zwei-plattformen-zur-transkription-und-automatisierten-erkennung-von-historischen-textquellen/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=3j1dHcwZS7I"/>
-              
+
               <note type="abstract" xml:lang="de">
                 <p>Die (Volltext-)Digitalisierung relevanter Textquellen gewährt den historisch
                   arbeitenden Wissenschaften dramatisch erweiterte Zugriffs- und
@@ -45553,8 +45554,8 @@
                 practices</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175219/https://forschungsdaten.info/kalender-index/kalender-anzeige/termin/visualising-historical-data-across-epistemological-practices/"/>
-              
-              
+
+
               <note type="abstract" xml:lang="en">
                 <p>During this training session, we will guide participants through some of the
                   possibilities to represent data across the epistemological axis, ranging from
@@ -45596,7 +45597,7 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175257/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/die-zukunft-der-vergangenheit-eine-einfuehrung-in-die-arbeit-mit-chatgpt-co-in-den-geschichtswissenschaften/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=g8ThVmhOdtg"/>
-              
+
               <note type="abstract" xml:lang="de">
                 <p>KI-Chatbots wie ChatGPT besitzen das Potenzial, riesige Mengen an Textdaten zu
                   analysieren, „zu verstehen“ und zu generieren. Als multimodale Tools können sie
@@ -45640,7 +45641,7 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175601/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/forschungsdaten-digital-managen-mit-fud-ein-vielseitiges-tool-fuer-die-geistes-und-sozialwissenschaften/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=HOuaWZ3f8Do"/>
-              
+
               <note type="abstract" xml:lang="de">
                 <p>Das Softwaresystem FuD wird eingesetzt, um qualitativ arbeitenden
                   Forschungsprojekten in den Geistes- und Sozialwissenschaften eine Plattform zur
@@ -45690,7 +45691,7 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810175918/https://www.geschichte.uni-konstanz.de/forschung-geschichte/kolar/aktuelles/standard-titel/standard-titel/termin/zotero-als-werkzeug-zum-persoenlichen-forschungsdatenmanagement-1/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=U0etiDhv_FY"/>
-              
+
               <note type="abstract" xml:lang="de">
                 <p>Zotero ist als kostenlose, open-source Software zur Verwaltung bibliografischer
                   Daten und damit verknüpfter Forschungsliteratur nicht nur in den USA, sondern auch
@@ -45731,7 +45732,7 @@
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810180045/https://www.literature.uni-konstanz.de/gebert/aktuelles/veranstaltungen/detailed-event-calender/termin/die-begriffe-der-geschichte-kontrollierte-vokabulare-und-sachbegriffsressourcen-fuer-die-digitale-historische-arbeit/"/>
               <ptr type="video" target="https://www.youtube.com/watch?v=D4WP2A_AaP0"/>
-              
+
               <note type="abstract" xml:lang="de">
                 <p>Die Nutzung von Normdaten und kontrollierten Vokabularen ist längst ein zentrales
                   Kriterium für die Qualität geisteswissenschaftlicher Forschungsdaten und eine
@@ -45833,8 +45834,8 @@
                 Beispiel der Analyse von Hexenprozessen</eventName>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250810180226/https://www.psychologie.uni-konstanz.de/fachbereich/veranstaltungen/veranstaltungsarchiv/detailseite/termin/statistische-analysen-und-datenmanagement-mit-spss-am-beispiel-der-analyse-von-hexenprozessen/"/>
-              
-              
+
+
               <note type="abstract" xml:lang="de">
                 <p>Statistische Analysen haben heute den Forschungsalltag durchdrungen. Jede KI,
                   jede digitale Arbeitsmethode und viele traditionelle Forschungsansätze beruhen im
@@ -45912,7 +45913,7 @@
             </note>
             <event type="lecture" when="2017-05-03" xml:id="ls49_t1_l1">
               <eventName xml:lang="de">Digitale Briefeditionen und ihre Vernetzung</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#german-studies"/><term
                   type="topics-llm">historical correspondence, text encoding, scholarly editions,
@@ -45980,7 +45981,7 @@
               <eventName xml:lang="de">Was geht in den Köpfen von Übersetzern vor? An den
                 Schnittstellen zwischen Computerlinguistik, Zweisprachigkeit und
                 Translation</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computational-linguistics #german-studies"/><term type="topics-llm"
@@ -46003,7 +46004,7 @@
             </event>
             <event type="lecture" when="2017-05-24" xml:id="ls49_t1_l4">
               <eventName xml:lang="de">Wie speichert man ein Bauwerk in der Datenbank?</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#archaeology #computer-science"
                   /><term type="topics-llm">architecture, data modeling, databases, cultural
@@ -46026,7 +46027,7 @@
             <event type="lecture" when="2017-05-31" xml:id="ls49_t1_l5">
               <eventName xml:lang="de">Nachhaltige Softwareentwicklung in den Digital Humanities.
                 Konzepte und Methoden</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">sustainable software development, research software, best
@@ -46049,7 +46050,7 @@
             <event type="lecture" when="2017-06-07" xml:id="ls49_t1_l6">
               <eventName xml:lang="de">Potenziale von Citizien Sciences für die Erschließung von
                 Kulturgütern</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#political-science"/><term
                   type="topics-llm">citizen science, cultural heritage, data collection, public
@@ -46072,7 +46073,7 @@
             <event type="lecture" when="2017-06-14" xml:id="ls49_t1_l7">
               <eventName xml:lang="de">Neue digitale Methoden in der Sprachwissenschaft:
                 Distributionelle Semantik und was man damit machen kann </eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#linguistics"/><term
                   type="topics-llm">text analysis, computational linguistics, distributional
@@ -46094,7 +46095,7 @@
             </event>
             <event type="lecture" when="2017-06-21" xml:id="ls49_t1_l8">
               <eventName xml:lang="de">Wer? Wie? Was? Edieren im 21. Jahrhundert </eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">editing, textual scholarship, modern methods, scholarly
@@ -46123,7 +46124,7 @@
             <event type="lecture" when="2017-06-28" xml:id="ls49_t1_l9">
               <eventName xml:lang="de">Möglichkeiten und Grenzen der Digitalen Musikedition.
                 Erfahrungen aus Forschung und Lehre</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">music editing, scholarly editions, computational methods,
@@ -46146,7 +46147,7 @@
             <event type="lecture" when="2017-07-05" xml:id="ls49_t1_l10">
               <eventName xml:lang="de">Automatische Textklassifikation und ihre Anwendungen zur
                 Metaphern- und Argumentationsanalyse</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#literary-studies #computer-science"/><term type="topics-llm">automatic
@@ -46204,7 +46205,7 @@
             <event type="lecture" when="2018-04-26" xml:id="ls49_t2_l1">
               <eventName xml:lang="en">Advancing Music Scholarship in a Digital Age: A View from the
                 Renaissance</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">musicology, renaissance, historical analysis, computational
@@ -46226,7 +46227,7 @@
             </event>
             <event type="lecture" when="2018-05-02" xml:id="ls49_t2_l2">
               <eventName xml:lang="de">Humanist Computer Interaction auf dem Prüfstand</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">human-computer interaction, humanities computing, interface
@@ -46255,7 +46256,7 @@
             </event>
             <event type="lecture" when="2018-05-16" xml:id="ls49_t2_l3">
               <eventName xml:lang="de">Kontrastive Textanalysen mit Burrows' Zeta</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#german-studies #computer-science"/><term type="topics-llm">corpus
@@ -46280,7 +46281,7 @@
               <eventName xml:lang="de">Die zögerliche Annäherung von Filmwissenschaft und Digital
                 Humanities – Stand der Forschung, methodologische Überlegungen und
                 Ausblick</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#media-studies #digital-humanities"/><term type="topics-llm">film
@@ -46304,7 +46305,7 @@
             <event type="lecture" when="2018-05-30" xml:id="ls49_t2_l5">
               <eventName xml:lang="de">Erschließung digitaler Bildrepositorien mittels
                 vierdimensionaler Modelle: Projekt und Lösungsansatz</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#art-history"/><term
                   type="topics-llm">image repositories, 3d modeling, data visualization, metadata
@@ -46327,7 +46328,7 @@
             <event type="lecture" when="2018-06-06" xml:id="ls49_t2_l6">
               <eventName xml:lang="de">Die urheberrechtlichen Grenzen des Text und Data
                 Minings</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">copyright law, text mining, data mining, legal restrictions,
@@ -46350,7 +46351,7 @@
             <event type="lecture" when="2018-06-13" xml:id="ls49_t2_l7">
               <eventName xml:lang="de">Epistemologische, ethische und praktische Aspekte von Big
                 Data sowie Lösungsmöglichkeiten in der Praxis</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">big data, epistemology, ethics, data practices,
@@ -46373,7 +46374,7 @@
             <event type="lecture" when="2018-06-20" xml:id="ls49_t2_l8">
               <eventName xml:lang="de">URLs, Authority Files und Linked Data - ein Überblick über
                 Pelagios und seine Anwendungen</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">linked data, authority files, semantic web, historical data,
@@ -46396,7 +46397,7 @@
             <event type="lecture" when="2018-06-27" xml:id="ls49_t2_l9">
               <eventName xml:lang="de">Von ARCHITRAVE bis Wikidata - DH am Deutschen Forum für
                 Kunstgeschichte Paris</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#art-history #digital-humanities"/><term type="topics-llm">archival
@@ -46418,7 +46419,7 @@
             </event>
             <event type="lecture" when="2018-07-04" xml:id="ls49_t2_l10">
               <eventName xml:lang="de">Die Bürger kommen!</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#political-science"/><term
                   type="topics-llm">citizen participation, civic engagement, public involvement,
@@ -46455,7 +46456,7 @@
             </note>
             <event type="lecture" when="2019-05-08" xml:id="ls49_t3_l1">
               <eventName xml:lang="de">Technologie und Interdisziplinarität</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm"
@@ -46479,7 +46480,7 @@
             <event type="lecture" when="2019-05-15" xml:id="ls49_t3_l2">
               <eventName xml:lang="de">Werkstattbericht - Digitale Methodik bei der Analyse
                 archäologischer Daten</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#archaeology"/><term
                   type="topics-llm">archaeology, data analysis, digital methods, research workflows,
@@ -46502,7 +46503,7 @@
             <event type="lecture" when="2019-05-22" xml:id="ls49_t3_l3">
               <eventName xml:lang="de">Das Urheberrecht und unser Blick auf die
                 Vergangenheit</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#jurisprudence"/><term
                   type="topics-llm">copyright, intellectual property, historical perspectives, legal
@@ -46526,7 +46527,7 @@
               <eventName xml:lang="de">Von Künstlicher Intelligenz und von Kochbüchern:
                 offensichtliche Berührungspunkte zwischen der Digitalisierung der Buch-Wertschöpfung
                 und den Digital Humanities</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#german-studies #computer-science"/><term type="topics-llm">artificial
@@ -46550,7 +46551,7 @@
             <event type="lecture" when="2019-06-05" xml:id="ls49_t3_l5">
               <eventName xml:lang="de">Das Framevorrangmodell für Human- und
                 Maschinenübersetzung</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">frame semantics, machine translation, human translation,
@@ -46572,7 +46573,7 @@
             </event>
             <event type="lecture" when="2019-06-12" xml:id="ls49_t3_l6">
               <eventName xml:lang="en">The Music Text in the Digital Domain</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">music analysis, computational musicology, text encoding, digital
@@ -46595,7 +46596,7 @@
             <event type="lecture" when="2019-06-19" xml:id="ls49_t3_l7">
               <eventName xml:lang="en">Custom concordancers for research and teaching with
                 ShinyConc</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">shiny, text analysis, concordancer, data visualization, language
@@ -46618,7 +46619,7 @@
             <event type="lecture" when="2019-06-26" xml:id="ls49_t3_l8">
               <eventName xml:lang="de">Abgleich zwischen DH-Arbeitsmodellen und
                 offiziell-institutionellen Datenbanken</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">data integration, institutional databases, workflow models,
@@ -46640,7 +46641,7 @@
             </event>
             <event type="lecture" when="2019-07-03" xml:id="ls49_t3_l9">
               <eventName xml:lang="en">Digital Methods in Classical Studies</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#classics"/><term
                   type="topics-llm">classical studies, ancient history, computational methods, text
@@ -46662,7 +46663,7 @@
             </event>
             <event type="lecture" when="2019-07-10" xml:id="ls49_t3_l10">
               <eventName xml:lang="de">Dschihadistische Online-Propaganda</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#political-science"/><term
                   type="topics-llm">jihadism, online propaganda, extremism, radicalization, media
@@ -46706,7 +46707,7 @@
             <event type="lecture" when="2021-04-28" xml:id="ls49_t4_l1">
               <eventName xml:lang="de">Archaeologische Prospektion mit Hilfe von Fernerkundung und
                 Maschinellem Lernen: Neue Forschungen in den Niederlanden</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#archaeology #computer-science"
                   /><term type="topics-llm">archaeology, remote sensing, machine learning,
@@ -46729,7 +46730,7 @@
             <event type="lecture" when="2021-05-05" xml:id="ls49_t4_l2">
               <eventName xml:lang="de">Object Detection zwischen kunsthistorischer Realienkunde und
                 interdisziplinärer Material Studies</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#art-history"/><term
                   type="topics-llm">object detection, art history, material studies,
@@ -46752,7 +46753,7 @@
             <event type="lecture" when="2021-05-26" xml:id="ls49_t4_l3">
               <eventName xml:lang="en">Digital Museology: Digitising Objects, Engaging with Online
                 Audiences, Preparing the Museum of the Future</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#museology"/><term
                   type="topics-llm">digital museology, museum digitization, online audience
@@ -46776,7 +46777,7 @@
             <event type="lecture" when="2021-06-09" xml:id="ls49_t4_l5">
               <eventName xml:lang="de">Digitale Heraldik als transdisziplinäres Experimentierfeld
                 zwischen Kulturgeschichte, Hilfswissenschaften und Digital Humanities</eventName>
-              
+
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#history #digital-humanities"
                   /><term type="topics-llm">heraldry, cultural history, auxiliary sciences,
@@ -46799,7 +46800,7 @@
             <event type="lecture" when="2021-06-16" xml:id="ls49_t4_l6">
               <eventName xml:lang="de">Black Box Algorithmen: Kritische Anwendung maschineller
                 Lernverfahren in den Geisteswissenschaften</eventName>
-              
+
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">algorithms, machine learning, critical analysis, black box
@@ -46822,7 +46823,7 @@
             <event type="lecture" when="2021-06-23" xml:id="ls49_t4_l7">
               <eventName xml:lang="de">Intermediäre Aspekte der Digital Humanities als Chance und
                 Herausforderung</eventName>
-              
+
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">intermediary approaches, interdisciplinary collaboration,
@@ -46846,7 +46847,7 @@
             <event type="lecture" when="2021-06-30" xml:id="ls49_t4_l8">
               <eventName xml:lang="de">Umherreitende Richter in England. Digitale Analysen zu
                 mittelalterlichen Gerichten als Arenen sozialer Interaktion</eventName>
-              
+
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">itinerant judges, medieval courts, social interaction, legal
@@ -46869,7 +46870,7 @@
             <event type="lecture" when="2021-07-07" xml:id="ls49_t4_l9">
               <eventName xml:lang="de">Digitalität in der Geschichtswissenschaft – Quellenkritik und
                 Quelleninterpretation im Digitalen</eventName>
-              
+
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">historical sources, digital methods, source criticism,
@@ -46892,7 +46893,7 @@
             <event type="lecture" when="2021-07-14" xml:id="ls49_t4_l10">
               <eventName xml:lang="de">Aspekte digitaler Forschungsmethoden in der Musik vor 1600:
                 Herausforderung und Chance</eventName>
-              
+
               <note type="abstract" xml:lang="de"> not found </note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">historical musicology, early music, computational methods,
@@ -46933,7 +46934,7 @@
             <event type="lecture" when="2022-05-04" xml:id="ls49_t5_l1">
               <eventName xml:lang="de">Digital Humanities als Synergie: TEI, Bildannotation und IIIF
                 im Graphkontext</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">text encoding, image annotation, interoperability frameworks,
@@ -46956,7 +46957,7 @@
             <event type="lecture" when="2022-05-11" xml:id="ls49_t5_l2">
               <eventName xml:lang="de">Kopie oder Original? Die kulturelle Überlieferung im
                 Zeitalter der digitalen Reproduzierbarkeit</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">copy, reproduction, cultural heritage, authenticity,
@@ -46979,7 +46980,7 @@
             <event type="lecture" when="2022-05-18" xml:id="ls49_t5_l3">
               <eventName xml:lang="de">Computationelle Literaturwissenschaft: Der hermeneutische
                 Zirkel als Input-Process-Output-System</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">computational analysis, literary studies, hermeneutic circle,
@@ -47002,7 +47003,7 @@
             <event type="lecture" when="2022-05-25" xml:id="ls49_t5_l4">
               <eventName xml:lang="de">Modelle zur computergestützen Analyse von Überlieferung der
                 Mensuralmusik</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science #musicology"
                   /><term type="topics-llm">historical music analysis, computational musicology,
@@ -47025,7 +47026,7 @@
             <event type="lecture" when="2022-06-08" xml:id="ls49_t5_l5">
               <eventName xml:lang="de">Gute Freunde kann niemand trennen… Zur Unzertrennlichkeit von
                 Daten und Partnern in der Gemeinsamen Normdatei (GND)</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm">data
@@ -47049,7 +47050,7 @@
             <event type="lecture" when="2022-06-15" xml:id="ls49_t5_l6">
               <eventName xml:lang="de">Sprachwandel digital: Möglichkeiten und Herausforderungen
                 historischer Korpora</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies #linguistics"
                   /><term type="topics-llm">language change, historical corpora, computational
@@ -47072,7 +47073,7 @@
             <event type="lecture" when="2022-06-29" xml:id="ls49_t5_l7">
               <eventName xml:lang="de">Verstehen und Missverstehen mit Modellen der maschinellen
                 Sprachverarbeitung</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">modeling, natural language processing, interpretation,
@@ -47094,7 +47095,7 @@
             </event>
             <event type="lecture" when="2022-07-06" xml:id="ls49_t5_l8">
               <eventName xml:lang="de">Einführung in das Urheberrecht in der Musik</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#jurisprudence #musicology"
                   /><term type="topics-llm">copyright law, music, intellectual property, licensing,
@@ -47117,7 +47118,7 @@
             <event type="lecture" when="2022-07-13" xml:id="ls49_t5_l9">
               <eventName xml:lang="de">»Werck der Bücher« – Experiment und Mustererkennung als
                 Zugänge zur frühen Druckgeschichte</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history #literary-studies"
                   /><term type="topics-llm">printing history, early modern period, book production,
@@ -47156,7 +47157,7 @@
             <event type="lecture" when="2023-04-26" xml:id="ls49_t6_l1">
               <eventName xml:lang="de">Poststandardisierung - Orthographien, Encodings und Formate
                 im Wandel der Mediengeschichte</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#media-studies #history"/><term
                   type="topics-llm">poststandardization, orthography, encoding, media history,
@@ -47178,7 +47179,7 @@
             </event>
             <event type="lecture" when="2023-05-03" xml:id="ls49_t6_l2">
               <eventName xml:lang="de">Zur Geschichte der KI</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">artificial intelligence, history, technology, computation,
@@ -47201,7 +47202,7 @@
             <event type="lecture" when="2023-05-10" xml:id="ls49_t6_l3">
               <eventName xml:lang="de">6.000 Jahre Buchführung in 3D: Digitalisierung und Analyse
                 von Schrift- und Bildträgern</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science #archaeology"
                   /><term type="topics-llm">archaeology, 3d modeling, historical documents, text
@@ -47224,7 +47225,7 @@
             <event type="lecture" when="2023-05-24" xml:id="ls49_t6_l4">
               <eventName xml:lang="de">Kritische Software bauen: digitale Werkzeuge jenseits
                 statistischer Wahrheit</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">critical software, tool development, epistemology, data bias,
@@ -47247,7 +47248,7 @@
             <event type="lecture" when="2023-05-31" xml:id="ls49_t6_l5">
               <eventName xml:lang="de">Forschungsdaten, Visualisierungen und blinde Flecken in der
                 digitalen Filmgeschichtsschreibung</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#media-studies"/><term
                   type="topics-llm">film history, data visualization, research data, blind spots,
@@ -47271,7 +47272,7 @@
               <eventName xml:lang="de">Hackathons, Barcamps, Booksprints und Verwandte - Formate des
                 kollaborativen Lernens und Arbeitens in den digitalen Geistes- und
                 Kulturwissenschaften</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">collaborative learning, open workshops, knowledge production,
@@ -47294,7 +47295,7 @@
             <event type="lecture" when="2023-06-21" xml:id="ls49_t6_l7">
               <eventName xml:lang="en">Data modelling for the Humanities: Uncertainty, ambiguity,
                 conflict, and chaos</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm">data
@@ -47318,7 +47319,7 @@
               <eventName xml:lang="de">Töne zählen: Forschungsfragen und Methoden
                 musikwissenschaftlicher Korpusstudien in historischer und epistemologischer
                 Perspektive</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">sound analysis, musicology, corpus studies, historical research,
@@ -47341,7 +47342,7 @@
             <event type="lecture" when="2023-07-05" xml:id="ls49_t6_l9">
               <eventName xml:lang="de">KI in der Hochschule und die Think Tanks der
                 Hochschulnetzwerk Digitalisierung Baden Württemberg</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">artificial intelligence, higher education, policy think tanks,
@@ -47378,7 +47379,7 @@
             <event type="lecture" when="2024-04-24" xml:id="ls49_t7_l1">
               <eventName xml:lang="de">Nicht-Wissen modellieren und visualisieren –
                 interdisziplinäre Perspektiven auf Datenlücken und unsichere Daten</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#data-science"/><term
                   type="topics-llm">modeling uncertainty, data gaps, visualization,
@@ -47400,7 +47401,7 @@
             </event>
             <event type="lecture" when="2024-05-15" xml:id="ls49_t7_l2">
               <eventName xml:lang="en">Doing Collaborative Public Digital History</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">collaboration, public history, community engagement, digital
@@ -47424,7 +47425,7 @@
               <eventName xml:lang="de">Digitale 3D-Rekonstruktionen ostmitteleuropäischer Synagogen
                 in der Lehre: Ein dezentrales und interdisziplinäres Joint Lab im virtuellen
                 Raum</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science #archaeology"
                   /><term type="topics-llm">3d reconstruction, synagogues, central europe,
@@ -47446,7 +47447,7 @@
             </event>
             <event type="lecture" when="2024-06-05" xml:id="ls49_t7_l4">
               <eventName xml:lang="de">Zur Sentiment-Analyse mittelhochdeutscher Texte</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">medieval german literature, sentiment analysis, historical
@@ -47470,7 +47471,7 @@
               <eventName xml:lang="de">Aufgezeichnet und aufgelistet. Die Bedeutung von
                 Denkmalinventaren für die Dokumentation und Erforschung des Kulturellen Erbes im
                 digitalen Raum</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history"/><term
                   type="topics-llm">lists, cultural heritage, documentation, inventories,
@@ -47545,7 +47546,7 @@
             <event type="lecture" when="2024-06-26" xml:id="ls49_t7_l7">
               <eventName xml:lang="de">Musik modellieren: Von der Schwierigkeit, das Unsichtbare
                 sichtbar zu machen</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">music modeling, computational analysis, visualization, sonic
@@ -47568,7 +47569,7 @@
             <event type="lecture" when="2024-07-03" xml:id="ls49_t7_l8">
               <eventName xml:lang="de">Herausforderungen der Bildforschung zu Social
                 Media-Bildkulturen </eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#media-studies"/><term
                   type="topics-llm">social media, visual culture, image analysis, research methods,
@@ -47591,7 +47592,7 @@
             <event type="lecture" when="2024-07-10" xml:id="ls49_t7_l9">
               <eventName xml:lang="de">Wie sich das Festivalnetzwerk fassen lässt: digitale Ansätze
                 im Projekt „Filmzirkulation“</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#media-studies #digital-humanities"/><term type="topics-llm">festival
@@ -47620,7 +47621,7 @@
               target="https://web.archive.org/web/20250809181439/https://fedihum.s3proxy.de/media_attachments/files/114/353/284/665/473/648/original/8f9ae6fc78d16994.png"/>
             <event type="lecture" when="2025-04-23" xml:id="ls49_t8_l1">
               <eventName xml:lang="de">Digitale Kompetenzen und Data Literacy</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#digital-humanities"/><term
                   type="topics-llm">data literacy, digital skills, information management,
@@ -47643,7 +47644,7 @@
             <event type="lecture" when="2025-05-07" xml:id="ls49_t8_l2">
               <eventName xml:lang="de">Was mit Daten, was mit Sinn. Zu computationellen Praktiken
                 der Literaturwissenschaft im 21.Jahrhundert</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#literary-studies #computer-science"/><term type="topics-llm">data
@@ -47667,7 +47668,7 @@
             <event type="lecture" when="2025-05-14" xml:id="ls49_t8_l3">
               <eventName xml:lang="de">Resilient, föderiert, barrierearm: Kulturgutdaten und Web
                 Apps für Menschen und Datenräume</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#computer-science"/><term
                   type="topics-llm">accessibility, cultural data, web applications, data spaces,
@@ -47690,7 +47691,7 @@
             <event type="lecture" when="2025-05-21" xml:id="ls49_t8_l4">
               <eventName xml:lang="de">Die UNESCO und KI-Ethik – Politischer Rahmen und digitale
                 Anwendungen im Welterbe</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #political-science"/><term type="topics-llm">unesco,
@@ -47720,7 +47721,7 @@
             <event type="lecture" when="2025-06-04" xml:id="ls49_t8_l5">
               <eventName xml:lang="en">Semantic Web for Cultural Heritage. An
                 Introduction</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history #archaeology"/><term
                   type="topics-llm">semantic web, cultural heritage, linked data, knowledge
@@ -47744,7 +47745,7 @@
               <eventName xml:lang="de">Die Tatsache, dass ich mich in Dich verliebt habe, ist nun
                 wohl kein Geheimnis mehr (…). LB_00017_0001. Das Citizen-Science-Projekt ‚Gruß und
                 Kuss – Bürger*innen erhalten Liebesbriefe‘</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#literary-studies"/><term
                   type="topics-llm">love letters, citizen science, historical documents, emotional
@@ -47767,7 +47768,7 @@
             <event type="lecture" when="2025-06-25" xml:id="ls49_t8_l7">
               <eventName xml:lang="en">Generative AI in the Humanities. Current Landscape and Future
                 Horizons</eventName>
-              
+
               <note type="abstract" xml:lang="en">not found</note>
               <note type="keywords"><term type="discipline"
                   corresp="#computer-science #digital-humanities"/><term type="topics-llm"
@@ -47790,7 +47791,7 @@
             </event>
             <event type="lecture" when="2025-07-02" xml:id="ls49_t8_l8">
               <eventName xml:lang="de">Digitale Musikverarbeitung.Vom Scheitern lernen</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#musicology"/><term
                   type="topics-llm">audio processing, music analysis, computational musicology,
@@ -47814,7 +47815,7 @@
               <eventName xml:lang="de">Erfassung und Analyse historischer Architektur durch
                 semantische Modellierung. Eine kollaborative und anschlussfähige Methode für die
                 Erschließung und den Erhalt gebauter Sachzeugnisse</eventName>
-              
+
               <note type="abstract" xml:lang="de">not found</note>
               <note type="keywords"><term type="discipline" corresp="#history #archaeology"/><term
                   type="topics-llm">historical architecture, semantic modeling, collaborative
@@ -51122,7 +51123,7 @@
                 target="https://web.archive.org/web/20250809170946/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-11.-juni-900-bis-1000-uhr/"/>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809170952/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Cetinkaya_Poster.pdf"/>
-              
+
               <note type="abstract" xml:lang="en">
                 <p>This presentation introduces a computational framework for automatically
                   classifying 112,000 Latintranscribed Ottoman court records (kadi sicilleri) into
@@ -51172,7 +51173,7 @@
                 target="https://web.archive.org/web/20250809171037/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-18.-juni/"/>
               <ptr type="programme"
                 target="https://web.archive.org/web/20250809171153/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/202506_Austin_Poster.pdf"/>
-              
+
               <note type="abstract" xml:lang="en">
                 <p>Kosovo's externally constructed independence in 2008 seemed to offer a new path
                   to historical understanding that might make Kosovo an outlier in the memory
@@ -51212,7 +51213,7 @@
                 target="https://web.archive.org/web/20251105134209/https://digital-humanities.uni-graz.at/de/neuigkeiten/hybride-breakfast-lecture-29.-october-900-bis-1000-uhr/"/>
               <ptr type="programme"
                 target="https://web.archive.org/web/20251105134039/https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Breakfast_lectures_2025_10_29_Repolusk.pdf"/>
-              
+
               <note type="abstract" xml:lang="en">
                 <p>The influential poet and composer Jiang Kui 姜夔 (1155– 1221) authored numerous
                   poems. His renowned poetry collection Baishidaoren Gequ 白石道人歌曲 (Songs of the
