@@ -1108,7 +1108,7 @@
 						rgba(255, 255, 255, 0) 100%
 					);
 				color: var(--ink);
-				font-size: 0.30em;
+				font-size: 0.39em;
 				line-height: 1.23;
 				overflow-wrap: anywhere;
 			}
@@ -1339,6 +1339,192 @@
 }
 			
 			
+/* ========================================================
+   TEAM SLIDE
+   ======================================================== */
+
+.team-slide {
+	justify-content: center;
+}
+
+.team-thanks {
+	margin-bottom: 0.35rem;
+
+	color: var(--eadh-coral);
+
+	font-size: 0.42em;
+	font-weight: 760;
+
+	letter-spacing: 0.08em;
+
+	text-transform: uppercase;
+}
+
+.team-slide h2 {
+	margin:
+		0
+		0
+		0.75rem
+		0;
+}
+
+.team-intro {
+	max-width: 920px;
+
+	margin:
+		0
+		0
+		1.4rem
+		0;
+
+	color: var(--muted);
+
+	font-size: 0.5em;
+	font-weight: 430;
+	line-height: 1.42;
+}
+
+.team-presenters {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: flex-start;
+
+	gap: 1.3rem;
+
+	width: 100%;
+
+	margin-bottom: 1.55rem;
+
+	opacity: 0.82;
+}
+
+.team-grid {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: flex-start;
+
+	gap:
+		1.45rem
+		1.7rem;
+
+	width: 100%;
+	max-width: 1100px;
+
+	margin: 0 auto;
+}
+
+.team-member {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	text-align: center;
+}
+
+.presenter-card {
+	width: 180px;
+}
+
+.team-grid .team-member {
+	width: 210px;
+}
+
+.team-photo-frame {
+	box-sizing: border-box;
+
+	border:
+		6px
+		solid
+		var(--eadh-purple);
+
+	border-radius: 50%;
+
+	overflow: hidden;
+
+	background: #ffffff;
+}
+
+.presenter-card .team-photo-frame {
+	width: 108px;
+	height: 108px;
+}
+
+.team-grid .team-photo-frame {
+	width: 150px;
+	height: 150px;
+}
+
+.team-photo-frame img {
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	max-width: none;
+	max-height: none;
+
+	margin: 0;
+
+	object-fit: cover;
+
+	border: 0;
+
+	box-shadow: none;
+}
+
+.team-name {
+	margin-top: 0.65rem;
+
+	color: var(--ink);
+
+	font-size: 0.35em;
+	font-weight: 650;
+	line-height: 1.24;
+}
+
+.presenter-card .team-name {
+	font-size: 0.31em;
+	font-weight: 620;
+}
+
+.team-name-note {
+	display: block;
+
+	margin-top: 0.12rem;
+
+	color: var(--muted);
+
+	font-size: 0.84em;
+	font-weight: 430;
+}
+
+
+/* Presenters: one shared frame color */
+
+.presenter-card .team-photo-frame {
+	border-color: var(--eadh-purple);
+}
+
+
+/* Wider team: blue shades */
+
+.team-blue-1 .team-photo-frame {
+	border-color: var(--uni-blue);
+}
+
+.team-blue-2 .team-photo-frame {
+	border-color: var(--eadh-cyan);
+}
+
+.team-blue-3 .team-photo-frame {
+	border-color: var(--eadh-turquoise);
+}
+			
 		</style>
 	</head>
 
@@ -1498,7 +1684,11 @@
 									<li>actors and institutions</li>
 									<li>thematic orientations</li>
 									<li>structural trends</li>
-									<li>citation and bibliometric networks</li>
+								<li>
+		citation and bibliometric networks
+		(<a href="https://digitalcommons.unl.edu/libphilprac/6667/" target="_blank" rel="noopener noreferrer">Kirtania 2021</a>;</br>
+		<a href="https://doi.org/10.1093/llc/fqac016" target="_blank" rel="noopener noreferrer">Spinaci et al. 2022</a>)
+	</li>
 								</ul>
 							</div>
 
@@ -1988,14 +2178,14 @@
 							</div>
 
 							<div class="overlap-card accent-card">
-								<div class="big-percent">257</div>
+								<div class="big-percent">277</div>
 								<p>
 									people are visible in both contexts.
 								</p>
 							</div>
 
 							<div class="overlap-card">
-								<div class="big-percent">64%</div>
+								<div class="big-percent">58%</div>
 								<p>
 									of lecture-series speakers have not contributed
 									to a DHd conference.
@@ -2035,11 +2225,37 @@
 						</div>
 
 						<p class="lead narrow">
-							For the 257 people represented in both datasets,
-							the median linkage score is 2.4.
+							For the 277 people represented in both datasets,
+							the median linkage score is <strong>2.5</strong>.
 						</p>
 					</section>
+					
+<!-- NEW -->
+<section class="content-slide xml-slide">
+
+	<figure class="xml-figure">
+
+		<img
+			src="img/linkage-score.png"
+			alt="Distribution of linkage scores for DHd contributors and speakers in DH lecture series"
+		/>
+
+		<figcaption class="xml-caption">
+			Distribution of linkage scores for DHd contributors
+			and speakers in DH lecture series
+		</figcaption>
+
+	</figure>
+
+</section>
+					
+					
+					
 				</section>
+				
+				
+				
+				
 
 				<section>
 					<!-- Slide 18 -->
@@ -2129,7 +2345,7 @@
 						</div>
 
 						<h2>
-							Further work requires richer and cleaner metadata
+							Further work
 						</h2>
 
 						<ul class="large-list">
@@ -2142,195 +2358,313 @@
 						</ul>
 					</section>
 				</section>
+				
+<!-- Team slide -->
+<section class="content-slide team-slide">
+
+	<h4 style="width: 100%; text-align: center;">
+		Thank you for contributing!
+	</h4>
+
+	<div class="team-grid">
+
+		<div class="team-member team-blue-1">
+			<div class="team-photo-frame">
+				<img
+					src="img/wolff.jpg"
+					alt="Fernanda Wolff"
+				/>
+			</div>
+			<div class="team-name">
+				Fernanda Wolff
+				<span class="team-name-note">
+					(née Alvares Freire)
+				</span>
+			</div>
+		</div>
+
+		<div class="team-member team-blue-2">
+			<div class="team-photo-frame">
+				<img
+					src="img/basedow.png"
+					alt="Magdalena Victoria Basedow"
+				/>
+			</div>
+			<div class="team-name">
+				Magdalena Victoria Basedow
+				<span class="team-name-note">
+					(née Höft)
+				</span>
+			</div>
+		</div>
+
+		<div class="team-member team-blue-3">
+			<div class="team-photo-frame">
+				<img
+					src="img/gruenig.png"
+					alt="Charlotte Grünig"
+				/>
+			</div>
+			<div class="team-name">
+				Charlotte Grünig
+			</div>
+		</div>
+
+		<!-- force second row -->
+		<div style="flex-basis: 100%; height: 0;"></div>
+
+		<div class="team-member team-blue-1">
+			<div class="team-photo-frame">
+				<img
+					src="img/kamrath.avif"
+					alt="Helene Henriette Kamrath"
+				/>
+			</div>
+			<div class="team-name">
+				Helene Henriette Kamrath
+			</div>
+		</div>
+
+		<div class="team-member team-blue-2">
+			<div class="team-photo-frame">
+				<img
+					src="img/khalzova-murken.jpg"
+					alt="Victoria Khalzova-Murken"
+				/>
+			</div>
+			<div class="team-name">
+				Victoria Khalzova-Murken
+			</div>
+		</div>
+
+	</div>
+
+</section>
 
 				<!-- Slide 22 -->
-				<section class="references-slide">
-					<h2>
-						References
-					</h2>
+<section class="references-slide">
+	<h2>
+		References
+	</h2>
 
-					<div
-						class="section-line"
-						aria-hidden="true"
-					></div>
+	<div
+		class="section-line"
+		aria-hidden="true"
+	></div>
 
-					<div class="references-list">
-						<div class="reference-entry">
-							Cremer, Fabian, André Blessing, Patrick Helling,
-							Ulrike Henny-Krahmer, Kerstin Jung, and Nils Reiter
-							(2024). “DHd Chronicles – Anreicherung und Analyse der
-							Beiträge zu den Jahrestagungen der Digital Humanities im
-							deutschsprachigen Raum 2014–2023.”
-							In: <em>Book of Abstracts – DHd2024</em>, pp. 154–160.
-							DOI:
-							<a
-								href="https://doi.org/10.5281/zenodo.10698356"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.5281/zenodo.10698356
-							</a>.
-						</div>
+	<div
+		class="references-list"
+		style="gap: 0.55rem 1.15rem;"
+	>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Cremer, Fabian, André Blessing, Patrick Helling,
+			Ulrike Henny-Krahmer, Kerstin Jung, and Nils Reiter
+			(2024). “DHd Chronicles – Anreicherung und Analyse der
+			Beiträge zu den Jahrestagungen der Digital Humanities im
+			deutschsprachigen Raum 2014–2023.”
+			In: <em>Book of Abstracts – DHd2024</em>, pp. 154–160.
+			DOI:
+			<a
+				href="https://doi.org/10.5281/zenodo.10698356"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.5281/zenodo.10698356
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Guhr, Svenja (2025).
-							“Trends in den Computational Literary Studies bei den
-							DHd-Jahrestagungen.”
-							In: <em>DHd-Blog</em>.
-							URL:
-							<a
-								href="https://dhd-blog.org/?p=22316"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								https://dhd-blog.org/?p=22316
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Guhr, Svenja (2025).
+			“Trends in den Computational Literary Studies bei den
+			DHd-Jahrestagungen.”
+			In: <em>DHd-Blog</em>.
+			URL:
+			<a
+				href="https://dhd-blog.org/?p=22316"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				https://dhd-blog.org/?p=22316
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Haider, Thomas Nikolaus, Sebastian Gassner, and Malte
-							Rehbein (2024).
-							“Quo Vadis Fachbereiche und Schulen der DHd.”
-							In: <em>Book of Abstracts – DHd2024</em>, pp. 411–414.
-							DOI:
-							<a
-								href="https://doi.org/10.5281/zenodo.10698500"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.5281/zenodo.10698500
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Haider, Thomas Nikolaus, Sebastian Gassner, and Malte
+			Rehbein (2024).
+			“Quo Vadis Fachbereiche und Schulen der DHd.”
+			In: <em>Book of Abstracts – DHd2024</em>, pp. 411–414.
+			DOI:
+			<a
+				href="https://doi.org/10.5281/zenodo.10698500"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.5281/zenodo.10698500
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Henny-Krahmer, Ulrike, Fernanda Alvares Freire,
-							and Erik Renz (2025a).
-							<em>Lectures That Link</em>.
-							Software and data.
-							DOI:
-							<a
-								href="https://doi.org/10.5281/zenodo.15769950"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.5281/zenodo.15769950
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Henny-Krahmer, Ulrike, Fernanda Alvares Freire,
+			and Erik Renz (2025a).
+			<em>Lectures That Link</em>.
+			Software and data.
+			DOI:
+			<a
+				href="https://doi.org/10.5281/zenodo.15769950"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.5281/zenodo.15769950
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Henny-Krahmer, Ulrike, Fernanda Alvares Freire,
-							and Erik Renz (2025b).
-							“Lectures that Link.”
-							In: <em>magazén</em> 6 (2), pp. 127–148.
-							DOI:
-							<a
-								href="https://doi.org/10.30687/mag/2724-3923/2025/02/001"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.30687/mag/2724-3923/2025/02/001
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Henny-Krahmer, Ulrike, Fernanda Alvares Freire,
+			and Erik Renz (2025b).
+			“Lectures that Link.”
+			In: <em>magazén</em> 6 (2), pp. 127–148.
+			DOI:
+			<a
+				href="https://doi.org/10.30687/mag/2724-3923/2025/02/001"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.30687/mag/2724-3923/2025/02/001
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Henny-Krahmer, Ulrike, and Patrick Sahle (2018).
-							“Einreichungen zur DHd 2018.”
-							In: <em>DHd-Blog</em>.
-							URL:
-							<a
-								href="https://dhd-blog.org/?p=9001"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								https://dhd-blog.org/?p=9001
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Henny-Krahmer, Ulrike, and Patrick Sahle (2018).
+			“Einreichungen zur DHd 2018.”
+			In: <em>DHd-Blog</em>.
+			URL:
+			<a
+				href="https://dhd-blog.org/?p=9001"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				https://dhd-blog.org/?p=9001
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Kirtania, Deep Kumar (2021).
-							“Bibliometric Analysis of Open Access Digital Humanities
-							Publications.”
-							In: <em>Library Philosophy and Practice</em>.
-							URL:
-							<a
-								href="https://digitalcommons.unl.edu/libphilprac/6667/"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								https://digitalcommons.unl.edu/libphilprac/6667/
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Kirtania, Deep Kumar (2021).
+			“Bibliometric Analysis of Open Access Digital Humanities
+			Publications.”
+			In: <em>Library Philosophy and Practice</em>.
+			URL:
+			<a
+				href="https://digitalcommons.unl.edu/libphilprac/6667/"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				https://digitalcommons.unl.edu/libphilprac/6667/
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Renz, Erik (2025).
-							“Aus dem Off: Ringvorlesungen und ihr Nutzen als
-							Forschungsdatenquelle in den Digital Humanities.”
-							In: <em>FORGE 2025</em>, pp. 254–264.
-							DOI:
-							<a
-								href="https://doi.org/10.5281/zenodo.17178246"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.5281/zenodo.17178246
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Renz, Erik (2025).
+			“Aus dem Off: Ringvorlesungen und ihr Nutzen als
+			Forschungsdatenquelle in den Digital Humanities.”
+			In: <em>FORGE 2025</em>, pp. 254–264.
+			DOI:
+			<a
+				href="https://doi.org/10.5281/zenodo.17178246"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.5281/zenodo.17178246
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Sahle, Patrick (2015).
-							“Digital Humanities? Gibt’s doch gar nicht!”
-							In:
-							<em>Grenzen und Möglichkeiten der Digital Humanities</em>.
-							DOI:
-							<a
-								href="https://doi.org/10.17175/sb001_004"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.17175/sb001_004
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Sahle, Patrick (2015).
+			“Digital Humanities? Gibt’s doch gar nicht!”
+			In:
+			<em>Grenzen und Möglichkeiten der Digital Humanities</em>.
+			DOI:
+			<a
+				href="https://doi.org/10.17175/sb001_004"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.17175/sb001_004
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Spinaci, Gianmarco, Giovanni Colavizza, and Silvio
-							Peroni (2022).
-							“A Map of Digital Humanities Research across Bibliographic
-							Data Sources.”
-							In:
-							<em>Digital Scholarship in the Humanities</em>
-							37 (4), pp. 1254–1268.
-							DOI:
-							<a
-								href="https://doi.org/10.1093/llc/fqac016"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.1093/llc/fqac016
-							</a>.
-						</div>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Spinaci, Gianmarco, Giovanni Colavizza, and Silvio
+			Peroni (2022).
+			“A Map of Digital Humanities Research across Bibliographic
+			Data Sources.”
+			In:
+			<em>Digital Scholarship in the Humanities</em>
+			37 (4), pp. 1254–1268.
+			DOI:
+			<a
+				href="https://doi.org/10.1093/llc/fqac016"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.1093/llc/fqac016
+			</a>.
+		</div>
 
-						<div class="reference-entry">
-							Weingart, Scott B., and Nickoal Eichmann-Kalwara (2017).
-							“What’s Under the Big Tent?: A Study of ADHO Conference
-							Abstracts.”
-							In:
-							<em>About Digital Studies / Le champ numérique</em> 7 (1).
-							DOI:
-							<a
-								href="https://doi.org/10.16995/dscn.284"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								10.16995/dscn.284
-							</a>.
-						</div>
-					</div>
-				</section>
+		<div
+			class="reference-entry"
+			style="padding: 0.45rem 0.6rem 0.45rem 0.72rem;"
+		>
+			Weingart, Scott B., and Nickoal Eichmann-Kalwara (2017).
+			“What’s Under the Big Tent?: A Study of ADHO Conference
+			Abstracts.”
+			In:
+			<em>About Digital Studies / Le champ numérique</em> 7 (1).
+			DOI:
+			<a
+				href="https://doi.org/10.16995/dscn.284"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				10.16995/dscn.284
+			</a>.
+		</div>
+	</div>
+</section>
 
 				<!-- Slide 23 -->
 				<section class="closing-slide">
 					<h2>
-						Thank you for your attention.
+						Thank you for your attention 🦉
 					</h2>
 
 					<div
